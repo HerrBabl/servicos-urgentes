@@ -1,0 +1,51 @@
+
+> servicos-urgentes@0.0.1 dev
+> astro dev --host 0.0.0.0 --port 3000
+
+10:13:38 [types] Generated 1ms
+10:13:38 [content] Syncing content
+10:13:38 [content] Astro config changed
+10:13:38 [content] Clearing content store
+10:13:38 [content] Synced content
+
+ astro  v5.13.4 ready in 631 ms
+
+┃ Local    http://localhost:3000/
+┃ Network  http://169.254.0.21:3000/
+
+10:13:38 watching for file changes...
+10:14:37 Configuration file updated. Restarting...
+10:14:37 [vite] Re-optimizing dependencies because vite config has changed
+10:14:37 [content] Syncing content
+10:14:37 [content] Synced content
+10:14:37 [types] Generated 151ms
+10:14:37 [vite] Re-optimizing dependencies because vite config has changed
+10:15:20 Configuration file updated. Restarting...
+10:15:20 [vite] Re-optimizing dependencies because vite config has changed
+10:15:20 [content] Syncing content
+10:15:20 [content] Synced content
+10:15:20 [types] Generated 112ms
+10:15:20 [vite] Re-optimizing dependencies because vite config has changed
+10:15:36 [200] / 35ms
+10:15:56 [200] /servicos/encanador 15ms
+10:16:06 [200] /cadastro 10ms
+10:16:16 [200] /contato 8ms
+10:20:14 [200] / 8ms
+10:21:04 [200] / 9ms
+10:23:56 [200] / 7ms
+10:35:31 [200] / 8ms
+10:35:36 [200] /servicos/encanador 15ms
+10:50:33 [200] /contato 96ms
+11:23:21 [200] / 392ms
+11:23:22 [200] /contato 19ms
+11:27:40 [200] / 7ms
+11:39:20 [200] /servicos/encanador 6ms
+14:21:52 [200] / 1033ms
+14:21:52 [200] / 7ms
+14:21:53 [200] /contato 7ms
+14:22:07 [200] /cadastro 6ms
+14:23:25 [200] / 8ms
+14:29:43 [200] / 9ms
+14:33:33 [200] /contato 7ms
+15:44:52 [200] / 541ms
+15:44:56 [200] /cadastro 7ms

@@ -1,0 +1,228 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout 
+  title="Encanador 24h em São José dos Campos - Emergência Hidráulica"
+  description="Encanador de emergência 24h em São José dos Campos. Vazamentos, entupimentos, reparos urgentes. Atendimento imediato em toda região."
+>
+  <Header />
+  
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 to-cyan-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="text-6xl mb-6">🔧</div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          Encanador 24h em<br>
+          <span class="text-blue-600">São José dos Campos</span>
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          Vazamento? Entupimento? Problema hidráulico urgente? 
+          Nossos encanadores estão prontos para atender sua emergência agora mesmo.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="tel:+5512999999999" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
+            📞 Chamar Encanador: (12) 99999-9999
+          </a>
+          <a href="#servicos" class="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors">
+            Ver Serviços
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services List -->
+  <section id="servicos" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Serviços de Encanador 24h
+        </h2>
+        <p class="text-xl text-gray-600">
+          Soluções completas para emergências hidráulicas
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6">
+          <div class="text-3xl mb-4">💧</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Vazamentos</h3>
+          <p class="text-gray-600 mb-4">Reparo urgente de vazamentos em tubulações, torneiras e registros.</p>
+          <ul class="text-sm text-gray-500 space-y-1">
+            <li>• Vazamento em parede</li>
+            <li>• Torneira pingando</li>
+            <li>• Registro quebrado</li>
+            <li>• Tubulação rompida</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6">
+          <div class="text-3xl mb-4">🚽</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Desentupimentos</h3>
+          <p class="text-gray-600 mb-4">Desobstrução de pias, vasos sanitários, ralos e tubulações.</p>
+          <ul class="text-sm text-gray-500 space-y-1">
+            <li>• Vaso sanitário entupido</li>
+            <li>• Pia da cozinha</li>
+            <li>• Ralo do banheiro</li>
+            <li>• Caixa de gordura</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6">
+          <div class="text-3xl mb-4">🔧</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Instalações</h3>
+          <p class="text-gray-600 mb-4">Instalação de equipamentos e acessórios hidráulicos.</p>
+          <ul class="text-sm text-gray-500 space-y-1">
+            <li>• Instalação de torneiras</li>
+            <li>• Troca de registros</li>
+            <li>• Instalação de chuveiros</li>
+            <li>• Conexões hidráulicas</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6">
+          <div class="text-3xl mb-4">🚿</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Banheiro</h3>
+          <p class="text-gray-600 mb-4">Serviços completos para banheiros e lavabos.</p>
+          <ul class="text-sm text-gray-500 space-y-1">
+            <li>• Reparo de descargas</li>
+            <li>• Troca de válvulas</li>
+            <li>• Instalação de bidês</li>
+            <li>• Reparo de chuveiros</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6">
+          <div class="text-3xl mb-4">🏠</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Cozinha</h3>
+          <p class="text-gray-600 mb-4">Soluções hidráulicas para área da cozinha.</p>
+          <ul class="text-sm text-gray-500 space-y-1">
+            <li>• Instalação de filtros</li>
+            <li>• Reparo de torneiras</li>
+            <li>• Ligação de máquinas</li>
+            <li>• Tubulação de gás</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6">
+          <div class="text-3xl mb-4">⚡</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Emergências</h3>
+          <p class="text-gray-600 mb-4">Atendimento imediato para situações críticas.</p>
+          <ul class="text-sm text-gray-500 space-y-1">
+            <li>• Vazamento grave</li>
+            <li>• Falta de água</li>
+            <li>• Entupimento severo</li>
+            <li>• Problemas urgentes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-20 bg-blue-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Por Que Escolher Nossos Encanadores?
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">⏰</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">24 Horas</h3>
+          <p class="text-gray-600">Atendimento 24h, todos os dias da semana</p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🏃</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Rapidez</h3>
+          <p class="text-gray-600">Chegamos em até 30 minutos na sua emergência</p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">✅</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Qualidade</h3>
+          <p class="text-gray-600">Profissionais experientes e qualificados</p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">💰</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Preço Justo</h3>
+          <p class="text-gray-600">Orçamento transparente sem surpresas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coverage Areas -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Regiões Atendidas
+        </h2>
+        <p class="text-xl text-gray-600">
+          Encanador 24h em toda São José dos Campos
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Centro</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Jardim Aquarius</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Vila Adyana</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Urbanova</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Jardim das Colinas</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">São Dimas</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Bosque dos Eucaliptos</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg text-center">
+          <h4 class="font-semibold text-gray-900">Jardim Satélite</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency CTA -->
+  <section class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        Emergência Hidráulica?
+      </h2>
+      <p class="text-xl text-blue-100 mb-8">
+        Não deixe o problema piorar! Chame nosso encanador agora mesmo.
+      </p>
+      <a href="tel:+5512999999999" class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block">
+        📞 Chamar Encanador: (12) 99999-9999
+      </a>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>

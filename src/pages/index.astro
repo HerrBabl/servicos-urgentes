@@ -1,16 +1,230 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Serviços Urgentes - Emergência 24h em São José dos Campos">
+  <Header />
+  
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-red-50 to-orange-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          🚨 Emergência?<br>
+          <span class="text-red-600">Encontre Ajuda Agora!</span>
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          Conectamos você aos melhores profissionais de emergência em São José dos Campos. 
+          Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis 24h.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="tel:+5512999999999" class="bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition-colors">
+            📞 Ligar Agora: (12) 99999-9999
+          </a>
+          <a href="#servicos" class="bg-white text-red-600 border-2 border-red-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-50 transition-colors">
+            Ver Serviços
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Services Grid -->
+  <section id="servicos" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Serviços de Emergência 24h
+        </h2>
+        <p class="text-xl text-gray-600">
+          Profissionais qualificados prontos para atender sua emergência
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Encanador -->
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">🔧</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Encanador 24h</h3>
+          <p class="text-gray-600 mb-4">
+            Vazamentos, entupimentos, reparos urgentes em tubulações e instalações hidráulicas.
+          </p>
+          <ul class="text-sm text-gray-500 mb-6 space-y-1">
+            <li>• Desentupimento de pias e vasos</li>
+            <li>• Reparo de vazamentos</li>
+            <li>• Instalação de registros</li>
+            <li>• Emergências hidráulicas</li>
+          </ul>
+          <a href="/servicos/encanador" class="block w-full bg-blue-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+            Ver Encanadores
+          </a>
+        </div>
+
+        <!-- Chaveiro -->
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">🔑</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Chaveiro</h3>
+          <p class="text-gray-600 mb-4">
+            Abertura de portas, troca de fechaduras, cópias de chaves e segurança residencial.
+          </p>
+          <ul class="text-sm text-gray-500 mb-6 space-y-1">
+            <li>• Abertura de portas trancadas</li>
+            <li>• Troca de fechaduras</li>
+            <li>• Cópias de chaves</li>
+            <li>• Instalação de fechaduras</li>
+          </ul>
+          <a href="/servicos/chaveiro" class="block w-full bg-yellow-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
+            Ver Chaveiros
+          </a>
+        </div>
+
+        <!-- Eletricista -->
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">⚡</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Eletricista</h3>
+          <p class="text-gray-600 mb-4">
+            Problemas elétricos, falta de energia, instalações e reparos urgentes.
+          </p>
+          <ul class="text-sm text-gray-500 mb-6 space-y-1">
+            <li>• Falta de energia elétrica</li>
+            <li>• Curto-circuito</li>
+            <li>• Instalação de tomadas</li>
+            <li>• Troca de disjuntores</li>
+          </ul>
+          <a href="/servicos/eletricista" class="block w-full bg-orange-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors">
+            Ver Eletricistas
+          </a>
+        </div>
+
+        <!-- Ar Condicionado -->
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">❄️</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Ar Condicionado</h3>
+          <p class="text-gray-600 mb-4">
+            Instalação, manutenção e reparo de sistemas de ar condicionado e climatização.
+          </p>
+          <ul class="text-sm text-gray-500 mb-6 space-y-1">
+            <li>• Instalação de ar condicionado</li>
+            <li>• Manutenção preventiva</li>
+            <li>• Reparo de vazamentos</li>
+            <li>• Limpeza de filtros</li>
+          </ul>
+          <a href="/servicos/ar-condicionado" class="block w-full bg-cyan-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-cyan-700 transition-colors">
+            Ver Técnicos
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Como Funciona
+        </h2>
+        <p class="text-xl text-gray-600">
+          Processo simples e rápido para resolver sua emergência
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">📞</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">1. Ligue ou Acesse</h3>
+          <p class="text-gray-600">
+            Entre em contato conosco pelo telefone ou navegue pelos serviços disponíveis
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🔍</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">2. Encontramos o Profissional</h3>
+          <p class="text-gray-600">
+            Conectamos você com o profissional mais próximo e disponível na sua região
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">✅</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">3. Problema Resolvido</h3>
+          <p class="text-gray-600">
+            Profissional qualificado resolve sua emergência com rapidez e qualidade
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coverage Area -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Área de Atendimento
+        </h2>
+        <p class="text-xl text-gray-600">
+          Cobrimos toda São José dos Campos e região
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">Centro</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">Jardim Aquarius</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">Vila Adyana</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">Urbanova</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">Jardim das Colinas</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">São Dimas</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">Bosque dos Eucaliptos</h4>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900">+ Outras Regiões</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-red-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        Precisa de Ajuda Agora?
+      </h2>
+      <p class="text-xl text-red-100 mb-8">
+        Não espere! Entre em contato conosco e resolva sua emergência rapidamente.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+5512999999999" class="bg-white text-red-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+          📞 Ligar: (12) 99999-9999
+        </a>
+        <a href="/contato" class="bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-800 transition-colors">
+          💬 Enviar Mensagem
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>

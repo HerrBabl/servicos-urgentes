@@ -1,0 +1,55 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Encontre serviços de emergência 24h em São José dos Campos e região. Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis agora." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Serviços Urgentes",
+      "description": "Diretório de serviços de emergência 24h em São José dos Campos",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São José dos Campos",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "São José dos Campos"
+      },
+      "serviceType": ["Encanador de Emergência", "Chaveiro 24h", "Eletricista de Emergência", "Técnico em Ar Condicionado"]
+    }
+    </script>
+  </head>
+  <body>
+    <slot />
+    <style>
+      html {
+        font-family: 'Inter', system-ui, sans-serif;
+      }
+    </style>
+  </body>
+</html>
+import '../styles/global.css';
