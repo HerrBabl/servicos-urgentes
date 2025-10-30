@@ -1,4 +1,8 @@
 ---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
 export interface Props {
   title: string;
   description?: string;
@@ -44,12 +48,26 @@ const { title, description = "Encontre serviços de emergência 24h em São Jos�
     </script>
   </head>
   <body>
-    <slot />
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    
     <style>
       html {
         font-family: 'Inter', system-ui, sans-serif;
       }
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex: 1;
+      }
     </style>
   </body>
 </html>
-import '../styles/global.css';

@@ -1,16 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="Serviços Urgentes - Emergência 24h em São José dos Campos">
-   
+  <Header />
+  
 <!-- Professional Hero Section with animated background -->
 <section class="relative overflow-hidden bg-gradient-to-br from-red-600 via-red-700 to-red-800 min-h-[80vh] flex items-center">
   <!-- Animated background elements -->
   <div class="absolute inset-0">
-    <div class="absolute top-10 left-10 w-32 h-32 bg-white/60 rounded-full blur-xl animate-pulse"></div>
-    <div class="absolute bottom-20 right-20 w-48 h-48 bg-orange-400/90 rounded-full blur-2xl animate-pulse delay-1000"></div>
-    <div class="absolute top-1/2 left-1/4 w-20 h-20 bg-yellow-400/30 rounded-full blur-lg animate-pulse delay-500"></div>
+    <div class="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse"></div>
+    <div class="absolute bottom-20 right-20 w-48 h-48 bg-orange-400/20 rounded-full blur-2xl animate-pulse delay-1000"></div>
+    <div class="absolute top-1/2 left-1/4 w-20 h-20 bg-yellow-400/30 rounded-full blur-lg animate-bounce delay-500"></div>
   </div>
   
   <!-- Main content -->
@@ -34,52 +37,24 @@ import Layout from '../layouts/Layout.astro';
         em São José dos Campos e Vale do Paraíba. Disponível 24h por dia, 7 dias por semana.
       </p>
       
-      <!-- Service Selector -->
-<div class="max-w-2xl mx-auto mb-12">
-  <div class="relative">
-    <div class="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
-      <span class="text-gray-400 text-xl">🔍</span>
-    </div>
-    <select 
-      id="serviceSelector"
-      class="w-full pl-16 pr-32 py-6 text-lg rounded-2xl border-0 bg-white/95 backdrop-blur-sm shadow-2xl text-gray-800 focus:ring-4 focus:ring-white/30 focus:outline-none appearance-none cursor-pointer"
-    >
-      <option value="">Selecione um serviço urgente...</option>
-      <option value="/servicos/encanador">🔧 Encanador 24h</option>
-      <option value="/servicos/eletricista">⚡ Eletricista 24h</option>
-      <option value="/servicos/chaveiro">🔑 Chaveiro 24h</option>
-      <option value="/servicos/ar-condicionado">❄️ Ar Condicionado 24h</option>
-    </select>
-    <div class="absolute inset-y-0 right-0 pr-4 flex items-center">
-      <button 
-        id="goButton"
-        class="bg-red-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition-all duration-200 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
-      >
-        Ir
-      </button>
-    </div>
-  </div>
-</div>
-
-<script>
-  const selector = document.getElementById('serviceSelector');
-  const goButton = document.getElementById('goButton');
-  
-  goButton?.addEventListener('click', () => {
-    const value = (selector as HTMLSelectElement)?.value;
-    if (value) {
-      window.location.href = value;
-    }
-  });
-  
-  // Also allow pressing Enter or changing selection to navigate
-  selector?.addEventListener('change', (e) => {
-    const value = (e.target as HTMLSelectElement)?.value;
-    if (value) {
-      window.location.href = value;
-    }
-  });
-</script>
+      <!-- Search bar -->
+      <div class="max-w-2xl mx-auto mb-12">
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
+            <span class="text-gray-400 text-xl">🔍</span>
+          </div>
+          <input 
+            type="text" 
+            placeholder="Busque por: encanador, eletricista, chaveiro..." 
+            class="w-full pl-16 pr-32 py-6 text-lg rounded-2xl border-0 bg-white/95 backdrop-blur-sm shadow-2xl placeholder-gray-500 text-gray-800 focus:ring-4 focus:ring-white/30 focus:outline-none"
+          >
+          <div class="absolute inset-y-0 right-0 pr-4 flex items-center">
+            <button class="bg-red-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition-all duration-200 shadow-lg hover:shadow-xl">
+              Buscar
+            </button>
+          </div>
+        </div>
+      </div>
       
       <!-- Service category buttons -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-12">
@@ -103,34 +78,44 @@ import Layout from '../layouts/Layout.astro';
       
       <!-- Trust indicators -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto text-center">
-  <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-    <div class="text-3xl font-black text-yellow-300 mb-2">Rápido</div>
-    <div class="text-red-100">Busca Instantânea</div>
-  </div>
         <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-    <div class="text-3xl font-black text-yellow-300 mb-2">Fácil</div>
-    <div class="text-red-100">Uso Simples</div>
-  </div>
+          <div class="text-3xl font-black text-yellow-300 mb-2">500+</div>
+          <div class="text-red-100">Profissionais Verificados</div>
+        </div>
         <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-    <div class="text-3xl font-black text-yellow-300 mb-2">Grátis</div>
-    <div class="text-red-100">Sempre Gratuito</div>
-  </div>
-</div>
+          <div class="text-3xl font-black text-yellow-300 mb-2">24/7</div>
+          <div class="text-red-100">Atendimento Disponível</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+          <div class="text-3xl font-black text-yellow-300 mb-2">15min</div>
+          <div class="text-red-100">Tempo Médio Resposta</div>
+        </div>
+      </div>
     </div>
+  </div>
+  
+  <!-- Bottom wave -->
+  <div class="absolute bottom-0 left-0 right-0">
+    <svg class="w-full h-16 text-white" fill="currentColor" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
+    </svg>
   </div>
 </section>
 
-<!-- Emergency Services Grid -->
-<section id="servicos" class="py-20 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Serviços de Emergência 24h
-      </h2>
-      <p class="text-xl text-gray-600">
-        Profissionais qualificados prontos para atender sua emergência
-      </p>
-    </div>
+
+  <!-- Emergency Services Grid -->
+  <section id="servicos" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Serviços de Emergência 24h
+        </h2>
+        <p class="text-xl text-gray-600">
+          Profissionais qualificados prontos para atender sua emergência
+        </p>
+      </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <!-- Encanador -->
@@ -154,7 +139,7 @@ import Layout from '../layouts/Layout.astro';
         <!-- Chaveiro -->
         <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
           <div class="text-4xl mb-4">🔑</div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Chaveiro 24h</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Chaveiro</h3>
           <p class="text-gray-600 mb-4">
             Abertura de portas, troca de fechaduras, cópias de chaves e segurança residencial.
           </p>
@@ -172,7 +157,7 @@ import Layout from '../layouts/Layout.astro';
         <!-- Eletricista -->
         <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
           <div class="text-4xl mb-4">⚡</div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Eletricista 24h</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Eletricista</h3>
           <p class="text-gray-600 mb-4">
             Problemas elétricos, falta de energia, instalações e reparos urgentes.
           </p>
@@ -190,7 +175,7 @@ import Layout from '../layouts/Layout.astro';
         <!-- Ar Condicionado -->
         <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
           <div class="text-4xl mb-4">❄️</div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Ar Condicionado 24h</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Ar Condicionado</h3>
           <p class="text-gray-600 mb-4">
             Instalação, manutenção e reparo de sistemas de ar condicionado e climatização.
           </p>
@@ -210,49 +195,49 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- How It Works -->
   <section class="py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Como Usar o Site
-      </h2>
-      <p class="text-xl text-gray-600">
-        Encontre profissionais qualificados na sua região
-      </p>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Como Funciona
+        </h2>
+        <p class="text-xl text-gray-600">
+          Processo simples e rápido para resolver sua emergência
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">📞</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">1. Ligue ou Acesse</h3>
+          <p class="text-gray-600">
+            Entre em contato conosco pelo telefone ou navegue pelos serviços disponíveis
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🔍</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">2. Encontramos o Profissional</h3>
+          <p class="text-gray-600">
+            Conectamos você com o profissional mais próximo e disponível na sua região
+          </p>
+        </div>
+
+        <div class="text-center">
+          <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">✅</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">3. Problema Resolvido</h3>
+          <p class="text-gray-600">
+            Profissional qualificado resolve sua emergência com rapidez e qualidade
+          </p>
+        </div>
+      </div>
     </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="text-center">
-        <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <span class="text-2xl">🔍</span>
-        </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">1. Busque o Serviço</h3>
-        <p class="text-gray-600">
-          Navegue pelas categorias ou use a busca para encontrar o tipo de profissional que precisa
-        </p>
-      </div>
-
-      <div class="text-center">
-        <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <span class="text-2xl">📋</span>
-        </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">2. Compare Opções</h3>
-        <p class="text-gray-600">
-          Veja informações, avaliações e área de atendimento dos profissionais listados
-        </p>
-      </div>
-
-      <div class="text-center">
-        <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <span class="text-2xl">📞</span>
-        </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">3. Entre em Contato</h3>
-        <p class="text-gray-600">
-          Contate diretamente o profissional escolhido usando as informações fornecidas
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- Coverage Area -->
   <section  id="locais" class="py-20 bg-white">
@@ -317,4 +302,25 @@ import Layout from '../layouts/Layout.astro';
   </div>
 </section>
 
-  </Layout>
+  <!-- CTA Section -->
+  <section class="py-20 bg-red-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        Precisa de Ajuda Agora?
+      </h2>
+      <p class="text-xl text-red-100 mb-8">
+        Não espere! Entre em contato conosco e resolva sua emergência rapidamente.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+5512999999999" class="bg-white text-red-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+          📞 Ligar: (12) 99999-9999
+        </a>
+        <a href="/contato" class="bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-800 transition-colors">
+          💬 Enviar Mensagem
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
