@@ -6,45 +6,139 @@ import Footer from '../components/Footer.astro';
 export interface Props {
   title: string;
   description?: string;
+  canonicalURL?: string;
 }
 
 const { title, description = "Encontre serviços de emergência 24h em São José dos Campos e região. Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis agora." } = Astro.props;
+
+// Get the canonical URL - either passed as prop or construct from current URL
+const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
 ---
 
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
-    <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
+    
+    <!-- SEO Meta Tags -->
     <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
+    <link rel="canonical" href={canonicalURL} />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Generator -->
+    <meta name="generator" content={Astro.generator} />
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Local Business Schema -->
+    <!-- Organization Schema - Establishes Brand Identity -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "name": "Serviços Urgentes",
-      "description": "Diretório de serviços de emergência 24h em São José dos Campos",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "São José dos Campos",
-        "addressRegion": "SP",
-        "addressCountry": "BR"
-      },
+      "url": "https://servicosurgentes.com",
+      "logo": "https://servicosurgentes.com/favicon.svg",
+      "description": "Diretório online de serviços de emergência 24h em São José dos Campos e região",
+      "email": "cadastroservicosurgentes@gmail.com",
       "areaServed": {
         "@type": "City",
-        "name": "São José dos Campos"
+        "name": "São José dos Campos",
+        "containedIn": {
+          "@type": "State",
+          "name": "São Paulo"
+        }
       },
-      "serviceType": ["Encanador de Emergência", "Chaveiro 24h", "Eletricista de Emergência", "Técnico em Ar Condicionado"]
+      "knowsAbout": [
+        "Serviços de Emergência",
+        "Encanamento",
+        "Chaveiro",
+        "Eletricista",
+        "Ar Condicionado"
+      ]
+    }
+    </script>
+    
+    <!-- WebSite Schema - For Search Box & Site Info -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com",
+      "description": "Diretório de serviços de emergência 24h em São José dos Campos",
+      "inLanguage": "pt-BR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://servicosurgentes.com/servicos?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- ItemList Schema - Directory Listing -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Serviços de Emergência Disponíveis",
+      "description": "Lista de categorias de serviços de emergência em São José dos Campos",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Encanador de Emergência 24h",
+            "url": "https://servicosurgentes.com/servicos/encanador",
+            "serviceType": "Plumbing",
+            "areaServed": "São José dos Campos, SP"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Chaveiro 24h",
+            "url": "https://servicosurgentes.com/servicos/chaveiro",
+            "serviceType": "Locksmith",
+            "areaServed": "São José dos Campos, SP"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Eletricista de Emergência 24h",
+            "url": "https://servicosurgentes.com/servicos/eletricista",
+            "serviceType": "Electrician",
+            "areaServed": "São José dos Campos, SP"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Service",
+            "name": "Técnico em Ar Condicionado 24h",
+            "url": "https://servicosurgentes.com/servicos/ar-condicionado",
+            "serviceType": "HVAC",
+            "areaServed": "São José dos Campos, SP"
+          }
+        }
+      ]
     }
     </script>
   </head>
