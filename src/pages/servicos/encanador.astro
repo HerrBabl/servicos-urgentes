@@ -4,7 +4,95 @@ import BusinessListing from '../../components/BusinessListing.astro';
 import { encanadores } from '../../data/encanadores.js';
 ---
 
-<Layout title="Encanadores 24h São José dos Campos - Profissionais Verificados">
+<Layout 
+  title="Encanadores 24h São José dos Campos - Profissionais Verificados"
+  description="Encontre encanadores de emergência 24h em São José dos Campos. Profissionais verificados com 4+ estrelas. Atendimento rápido para vazamentos, entupimentos e reparos urgentes."
+>
+  <!-- Service Schema for Plumbing -->
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Plumbing",
+    "name": "Serviços de Encanamento 24h",
+    "description": "Serviços de encanamento de emergência disponíveis 24 horas em São José dos Campos. Atendimento para vazamentos, entupimentos, instalações e reparos urgentes.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "São José dos Campos",
+      "containedIn": {
+        "@type": "State",
+        "name": "São Paulo"
+      }
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://servicosurgentes.com/servicos/encanador",
+      "availableLanguage": "pt-BR"
+    },
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday", 
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "category": "Emergency Plumbing Services",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de Encanamento",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Reparo de Vazamentos de Emergência"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Desentupimento 24h"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação e Reparo de Torneiras"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Reparo de Tubulações"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação de Aquecedores"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
   <BusinessListing 
     businesses={encanadores}
     serviceTitle="Encanadores"

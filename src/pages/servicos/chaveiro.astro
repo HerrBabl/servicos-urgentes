@@ -4,7 +4,95 @@ import BusinessListing from '../../components/BusinessListing.astro';
 import { chaveiros } from '../../data/chaveiros.js';
 ---
 
-<Layout title="Chaveiros 24h São José dos Campos - Profissionais Verificados">
+<Layout 
+  title="Chaveiros 24h São José dos Campos - Profissionais Verificados"
+  description="Encontre chaveiros de emergência 24h em São José dos Campos. Profissionais verificados com 4+ estrelas. Abertura de portas, cópias de chaves e serviços automotivos."
+>
+  <!-- Service Schema for Locksmith -->
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Locksmith",
+    "name": "Serviços de Chaveiro 24h",
+    "description": "Serviços de chaveiro de emergência disponíveis 24 horas em São José dos Campos. Abertura de portas, fechaduras, cópias de chaves e chaveiro automotivo.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "São José dos Campos",
+      "containedIn": {
+        "@type": "State",
+        "name": "São Paulo"
+      }
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://servicosurgentes.com/servicos/chaveiro",
+      "availableLanguage": "pt-BR"
+    },
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday", 
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "category": "Emergency Locksmith Services",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de Chaveiro",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Abertura de Portas de Emergência"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Troca e Instalação de Fechaduras"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cópias de Chaves"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Chaveiro Automotivo 24h"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Abertura de Cofres"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
   <BusinessListing 
     businesses={chaveiros}
     serviceTitle="Chaveiros"

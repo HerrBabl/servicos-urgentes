@@ -4,7 +4,95 @@ import BusinessListing from '../../components/BusinessListing.astro';
 import { ar_condicionado } from '../../data/ar_condicionado.js';
 ---
 
-<Layout title="Ar Condicionado São José dos Campos - Técnicos Verificados">
+<Layout 
+  title="Ar Condicionado São José dos Campos - Técnicos Verificados"
+  description="Encontre técnicos em ar condicionado em São José dos Campos. Profissionais verificados com 4+ estrelas. Instalação, manutenção, limpeza e reparos de ar condicionado."
+>
+  <!-- Service Schema for HVAC/Air Conditioning -->
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "HVAC",
+    "name": "Serviços de Ar Condicionado",
+    "description": "Serviços completos de ar condicionado em São José dos Campos. Instalação, manutenção preventiva, limpeza, recarga de gás e reparos de sistemas de climatização.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "São José dos Campos",
+      "containedIn": {
+        "@type": "State",
+        "name": "São Paulo"
+      }
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://servicosurgentes.com/servicos/ar-condicionado",
+      "availableLanguage": "pt-BR"
+    },
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday", 
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "category": "HVAC and Air Conditioning Services",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de Ar Condicionado",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação de Ar Condicionado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Manutenção Preventiva"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Limpeza e Higienização"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Recarga de Gás Refrigerante"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Reparo de Vazamentos"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
   <BusinessListing 
     businesses={ar_condicionado}
     serviceTitle="Ar Condicionado"

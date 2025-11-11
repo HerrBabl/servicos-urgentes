@@ -4,7 +4,95 @@ import BusinessListing from '../../components/BusinessListing.astro';
 import { eletricistas } from '../../data/eletricistas.js';
 ---
 
-<Layout title="Eletricistas 24h São José dos Campos - Profissionais Verificados">
+<Layout 
+  title="Eletricistas 24h São José dos Campos - Profissionais Verificados"
+  description="Encontre eletricistas de emergência 24h em São José dos Campos. Profissionais verificados com 4+ estrelas. Atendimento rápido para quedas de energia, curtos-circuitos e reparos elétricos urgentes."
+>
+  <!-- Service Schema for Electrician -->
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Electrician",
+    "name": "Serviços de Eletricista 24h",
+    "description": "Serviços de eletricista de emergência disponíveis 24 horas em São José dos Campos. Atendimento para quedas de energia, curtos-circuitos, instalações elétricas e reparos urgentes.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "São José dos Campos",
+      "containedIn": {
+        "@type": "State",
+        "name": "São Paulo"
+      }
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://servicosurgentes.com/servicos/eletricista",
+      "availableLanguage": "pt-BR"
+    },
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday", 
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "category": "Emergency Electrical Services",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços Elétricos",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Reparo de Quedas de Energia"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Reparo de Curtos-Circuitos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação de Tomadas e Interruptores"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Troca de Disjuntores"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação de Chuveiros Elétricos"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
   <BusinessListing 
     businesses={eletricistas}
     serviceTitle="Eletricistas"
