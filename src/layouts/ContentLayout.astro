@@ -39,7 +39,7 @@ const generateSchema = () => {
   
   if (isBlog) {
     // Article Schema for Blog Posts
-    return {
+    const articleSchema = {
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": title,
@@ -68,6 +68,29 @@ const generateSchema = () => {
       "articleSection": category,
       "inLanguage": "pt-BR"
     };
+    
+    // Add FAQ Schema if faqSchema exists in frontmatter
+    if (frontmatter.faqSchema && frontmatter.faqSchema.length > 0) {
+      return {
+        "@context": "https://schema.org",
+        "@graph": [
+          articleSchema,
+          {
+            "@type": "FAQPage",
+            "mainEntity": frontmatter.faqSchema.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          }
+        ]
+      };
+    }
+    
+    return articleSchema;
   } else if (isNeighborhood) {
     // Place + Service Schema for Neighborhood Pages
     return {

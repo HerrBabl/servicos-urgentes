@@ -5,6 +5,17 @@ description: "Seu ar-condicionado parou de funcionar no calor? Saiba o que fazer
 date: 2025-11-17
 category: "Guias de Emergência"
 keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, técnico ar-condicionado urgente"
+faqSchema:
+  - question: "O que fazer quando o ar-condicionado para de funcionar?"
+    answer: "Primeiro, verifique se o disjuntor não desarmou e se o filtro não está sujo. Confirme se o controle remoto tem pilhas funcionando. Se tudo estiver ok e o AC não ligar, é hora de chamar um técnico especializado."
+  - question: "Quanto custa para consertar um ar-condicionado em São José dos Campos?"
+    answer: "O custo varia de R$ 150 a R$ 800 dependendo do problema. Visita técnica: R$ 80-150. Recarga de gás: R$ 200-400. Troca de placa eletrônica: R$ 300-800. Limpeza completa: R$ 150-300."
+  - question: "Como escolher um técnico de ar-condicionado confiável?"
+    answer: "Procure profissionais com no mínimo 4 estrelas de avaliação, verifique se possuem certificação técnica, peça orçamento detalhado antes do serviço, e confirme se oferecem garantia do trabalho realizado."
+  - question: "Quando devo chamar um técnico de emergência?"
+    answer: "Chame um técnico de emergência se houver cheiro de queimado, barulhos estranhos no motor, vazamento de água excessivo, ou se o ambiente estiver muito quente e houver pessoas em situação de risco (idosos, crianças, pessoas com problemas de saúde)."
+  - question: "Qual a diferença entre manutenção preventiva e corretiva?"
+    answer: "Manutenção preventiva é feita regularmente (a cada 6 meses) para evitar problemas, custando R$ 150-250. Manutenção corretiva é feita quando algo quebra, geralmente mais cara (R$ 200-800+) pois envolve substituição de peças."
 ---
 
 # Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos
