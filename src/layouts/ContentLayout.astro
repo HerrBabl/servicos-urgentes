@@ -1,0 +1,447 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  canonicalURL?: string;
+  neighborhood?: string;
+  region?: string;
+  category?: string;
+  date?: string;
+  keywords?: string;
+  frontmatter?: any;
+}
+
+// Get data from either direct props or frontmatter (for markdown files)
+const frontmatter = Astro.props.frontmatter || {};
+const { 
+  title = frontmatter.title, 
+  description = frontmatter.description || "Encontre serviços de emergência 24h em São José dos Campos e região.",
+  neighborhood = frontmatter.neighborhood,
+  region = frontmatter.region,
+  category = frontmatter.category,
+  date = frontmatter.date,
+  keywords = frontmatter.keywords
+} = Astro.props;
+
+const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
+
+// Determine if this is a neighborhood page or blog post
+const isNeighborhood = !!neighborhood;
+const isBlog = !!category;
+
+// Generate schema markup based on page type
+const generateSchema = () => {
+  const baseUrl = "https://servicosurgentes.com";
+  
+  if (isBlog) {
+    // Article Schema for Blog Posts
+    return {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": title,
+      "description": description,
+      "image": `${baseUrl}/favicon.svg`,
+      "datePublished": date || new Date().toISOString(),
+      "dateModified": date || new Date().toISOString(),
+      "author": {
+        "@type": "Organization",
+        "name": "Serviços Urgentes",
+        "url": baseUrl
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Serviços Urgentes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": `${baseUrl}/favicon.svg`
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonicalURL
+      },
+      "keywords": keywords || "serviços urgentes, emergência, são josé dos campos",
+      "articleSection": category,
+      "inLanguage": "pt-BR"
+    };
+  } else if (isNeighborhood) {
+    // Place + Service Schema for Neighborhood Pages
+    return {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": neighborhood,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São José dos Campos",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-23.2237",
+        "longitude": "-45.9009"
+      },
+      "description": description,
+      "containedIn": {
+        "@type": "City",
+        "name": "São José dos Campos"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Região",
+          "value": region
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Serviços Disponíveis",
+          "value": "Encanador, Eletricista, Chaveiro, Ar-Condicionado"
+        }
+      ]
+    };
+  }
+  
+  // Default WebPage schema
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": title,
+    "description": description,
+    "url": canonicalURL,
+    "inLanguage": "pt-BR"
+  };
+};
+
+// BreadcrumbList Schema (always included for navigation)
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Início",
+      "item": "https://servicosurgentes.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": isNeighborhood ? "Bairros" : "Blog",
+      "item": `https://servicosurgentes.com/${isNeighborhood ? 'bairros' : 'blog'}`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": neighborhood || title,
+      "item": canonicalURL
+    }
+  ]
+};
+
+// Service Schema for neighborhood pages
+const serviceSchema = isNeighborhood ? {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": `Serviços de Emergência em ${neighborhood}`,
+  "provider": {
+    "@type": "Organization",
+    "name": "Serviços Urgentes"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "São José dos Campos",
+    "containsPlace": {
+      "@type": "Place",
+      "name": neighborhood
+    }
+  },
+  "serviceType": "Serviços de Emergência 24h",
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": canonicalURL
+  }
+} : null;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {keywords && <meta name="keywords" content={keywords} />}
+    <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
+    <link rel="canonical" href={canonicalURL} />
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Primary Schema (Article or Place) -->
+    <script type="application/ld+json" set:html={JSON.stringify(generateSchema())} />
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    
+    <!-- Service Schema (for neighborhood pages only) -->
+    {serviceSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    )}
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:type" content={isBlog ? "article" : "website"} />
+    <meta property="og:locale" content="pt_BR" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+  </head>
+  <body>
+    <Header />
+    
+    <!-- Hero Section (matches your blog.astro pattern) -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          {isNeighborhood && (
+            <div class="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-6">
+              <span class="text-2xl mr-3">📍</span>
+              <span class="font-semibold">{region}</span>
+            </div>
+          )}
+          {isBlog && (
+            <div class="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-6">
+              <span class="text-2xl mr-3">📚</span>
+              <span class="font-semibold">{category}</span>
+            </div>
+          )}
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">
+            {neighborhood ? `Serviços Urgentes em ${neighborhood}` : title}
+          </h1>
+          {description && (
+            <p class="text-lg max-w-3xl mx-auto text-blue-100">
+              {description}
+            </p>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Section (styled like your FAQ cards) -->
+    <main class="py-12 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="bg-white rounded-lg shadow-md p-8 md:p-12 prose-content">
+          <slot />
+        </article>
+      </div>
+    </main>
+
+    <!-- CTA Section (matches your business signup pattern) -->
+    <section class="py-12 bg-red-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-4">Precisa de Ajuda Urgente?</h2>
+        <p class="text-lg text-red-100 mb-6">
+          {isNeighborhood 
+            ? `Encontre profissionais verificados com 4+ estrelas para atender emergências em ${neighborhood}.`
+            : 'Encontre profissionais qualificados para sua emergência em São José dos Campos.'
+          }
+        </p>
+        <a 
+          href="/servicos" 
+          class="inline-block bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+        >
+          Ver Todos os Serviços
+        </a>
+      </div>
+    </section>
+    
+    <Footer />
+    
+    <style>
+      /* Prose styling for markdown content */
+      .prose-content :global(h1) {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        line-height: 1.2;
+        margin: 0 0 1.5rem 0;
+      }
+      
+      .prose-content :global(h2) {
+        font-size: 1.875rem;
+        font-weight: 600;
+        color: #2563eb;
+        margin: 2.5rem 0 1rem 0;
+        padding-top: 1.5rem;
+        border-top: 2px solid #e5e7eb;
+      }
+      
+      .prose-content :global(h2:first-of-type) {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+      }
+      
+      .prose-content :global(h3) {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #1e40af;
+        margin: 2rem 0 0.75rem 0;
+      }
+      
+      .prose-content :global(h4) {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #374151;
+        margin: 1.5rem 0 0.5rem 0;
+      }
+      
+      .prose-content :global(p) {
+        font-size: 1.125rem;
+        line-height: 1.75;
+        color: #4b5563;
+        margin: 1rem 0;
+      }
+      
+      .prose-content :global(ul),
+      .prose-content :global(ol) {
+        font-size: 1.125rem;
+        line-height: 1.75;
+        color: #4b5563;
+        margin: 1.25rem 0;
+        padding-left: 2rem;
+      }
+      
+      .prose-content :global(li) {
+        margin: 0.75rem 0;
+      }
+      
+      .prose-content :global(li strong) {
+        color: #1f2937;
+        font-weight: 600;
+      }
+      
+      .prose-content :global(strong) {
+        font-weight: 600;
+        color: #1f2937;
+      }
+      
+      .prose-content :global(a) {
+        color: #dc2626;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom-color 0.2s ease;
+        font-weight: 500;
+      }
+      
+      .prose-content :global(a:hover) {
+        border-bottom-color: #dc2626;
+      }
+      
+      .prose-content :global(blockquote) {
+        border-left: 4px solid #2563eb;
+        background: #f3f4f6;
+        padding: 1rem 1.5rem;
+        margin: 1.5rem 0;
+        font-style: italic;
+        color: #374151;
+        border-radius: 0.375rem;
+      }
+      
+      .prose-content :global(hr) {
+        border: none;
+        border-top: 2px solid #e5e7eb;
+        margin: 2.5rem 0;
+      }
+      
+      /* Tables */
+      .prose-content :global(table) {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 2rem 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        overflow: hidden;
+      }
+      
+      .prose-content :global(th),
+      .prose-content :global(td) {
+        padding: 0.875rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      
+      .prose-content :global(th) {
+        font-weight: 600;
+        color: #1f2937;
+        background: #f9fafb;
+      }
+      
+      .prose-content :global(tbody tr:hover) {
+        background: #f9fafb;
+      }
+      
+      /* Code blocks */
+      .prose-content :global(code) {
+        background: #f3f4f6;
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.25rem;
+        font-size: 0.9em;
+        font-family: 'Courier New', monospace;
+        color: #dc2626;
+      }
+      
+      .prose-content :global(pre) {
+        background: #1f2937;
+        color: #f9fafb;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+      }
+      
+      .prose-content :global(pre code) {
+        background: transparent;
+        padding: 0;
+        color: inherit;
+      }
+      
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .prose-content {
+          padding: 1.5rem !important;
+        }
+        
+        .prose-content :global(h1) {
+          font-size: 1.875rem;
+        }
+        
+        .prose-content :global(h2) {
+          font-size: 1.5rem;
+        }
+        
+        .prose-content :global(h3) {
+          font-size: 1.25rem;
+        }
+        
+        .prose-content :global(p),
+        .prose-content :global(li) {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </body>
+</html>

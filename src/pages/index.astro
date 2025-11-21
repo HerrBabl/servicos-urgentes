@@ -255,45 +255,62 @@ import Layout from '../layouts/Layout.astro';
 </section>
 
   <!-- Coverage Area -->
-  <section  id="locais" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Área de Atendimento
-        </h2>
-        <p class="text-xl text-gray-600">
-          Cobrimos toda São José dos Campos e região
-        </p>
-      </div>
+<section id="locais" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Área de Atendimento
+      </h2>
+      <p class="text-xl text-gray-600">
+        Cobrimos toda São José dos Campos e região
+      </p>
+    </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">Centro</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">Jardim Aquarius</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">Vila Adyana</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">Urbanova</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">Jardim das Colinas</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">São Dimas</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">Bosque dos Eucaliptos</h4>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900">+ Outras Regiões</h4>
-        </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <!-- Linked Neighborhoods (pages exist) -->
+      <a href="/bairros/parque-residencial-aquarius" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+        <h4 class="font-semibold text-blue-900">🏘️ Parque Residencial Aquarius</h4>
+        <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
+      </a>
+      
+      <a href="/bairros/vila-adyana" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+        <h4 class="font-semibold text-blue-900">🏘️ Vila Adyana</h4>
+        <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
+      </a>
+      
+      <a href="/bairros/urbanova" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+        <h4 class="font-semibold text-blue-900">🏘️ Urbanova</h4>
+        <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
+      </a>
+      
+      <!-- Future Neighborhoods (pages don't exist yet) -->
+      <div class="bg-gray-50 p-4 rounded-lg">
+        <h4 class="font-semibold text-gray-900">Centro</h4>
+        <p class="text-xs text-gray-500 mt-1">Em breve</p>
+      </div>
+      
+      <div class="bg-gray-50 p-4 rounded-lg">
+        <h4 class="font-semibold text-gray-900">Jardim das Colinas</h4>
+        <p class="text-xs text-gray-500 mt-1">Em breve</p>
+      </div>
+      
+      <div class="bg-gray-50 p-4 rounded-lg">
+        <h4 class="font-semibold text-gray-900">São Dimas</h4>
+        <p class="text-xs text-gray-500 mt-1">Em breve</p>
+      </div>
+      
+      <div class="bg-gray-50 p-4 rounded-lg">
+        <h4 class="font-semibold text-gray-900">Bosque dos Eucaliptos</h4>
+        <p class="text-xs text-gray-500 mt-1">Em breve</p>
+      </div>
+      
+      <div class="bg-gray-50 p-4 rounded-lg">
+        <h4 class="font-semibold text-gray-900">+ Outras Regiões</h4>
+        <p class="text-xs text-gray-500 mt-1">Em breve</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Interactive Map -->
 <section class="py-16 bg-white">
