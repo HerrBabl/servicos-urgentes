@@ -6,6 +6,16 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://servicosurgentes.com',
+
+  // --- CRITICAL SEO FIX ---
+  // Forces all URLs to match your live site (with slashes)
+  // This aligns Netlify, Astro, and Google Search Console
+  trailingSlash: 'always',
+  build: {
+    format: 'directory'
+  },
+  // ------------------------
+
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
