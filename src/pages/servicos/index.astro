@@ -29,6 +29,13 @@ const services = [
     description: "AC não liga? Vazamento? Manutenção e consertos urgentes com técnicos especializados.",
     link: "/servicos/ar-condicionado",
     emergencies: ["AC não liga", "Vazamento de água", "Cheiro estranho", "Sem refrigeração"]
+  },
+  {
+    title: "Marido de Aluguel",
+    icon: "🛠️",
+    description: "Montagem de móveis, instalações, pequenos reparos e manutenção geral. Serviço rápido e limpo.",
+    link: "/servicos/marido-de-aluguel",
+    emergencies: ["Montagem de móveis", "Instalação de TV", "Pequenos reparos", "Manutenção geral"]
   }
 ];
 ---
@@ -37,7 +44,6 @@ const services = [
   title="Serviços de Emergência 24h - São José dos Campos | Serviços Urgentes"
   description="Encontre profissionais verificados para emergências residenciais em São José dos Campos. Encanadores, eletricistas, chaveiros e técnicos de ar-condicionado disponíveis 24h. Atendimento rápido com 4+ estrelas de avaliação."
 >
-  <!-- ItemList Schema for Services -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
@@ -116,12 +122,29 @@ const services = [
             "name": "São José dos Campos"
           }
         }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Service",
+          "name": "Marido de Aluguel",
+          "url": "https://servicosurgentes.com/servicos/marido-de-aluguel",
+          "serviceType": "GeneralContractor",
+          "provider": {
+            "@type": "Organization",
+            "name": "Serviços Urgentes"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "São José dos Campos"
+          }
+        }
       }
     ]
   }
   </script>
 
-  <!-- Hero Section -->
   <section class="bg-gradient-to-r from-red-600 to-red-800 text-white py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
@@ -138,7 +161,6 @@ const services = [
     </div>
   </section>
 
-  <!-- Services Grid -->
   <section class="py-16 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-2 gap-8">
@@ -180,7 +202,6 @@ const services = [
     </div>
   </section>
 
-  <!-- Why Choose Us -->
   <section class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">
@@ -221,7 +242,6 @@ const services = [
     </div>
   </section>
 
-  <!-- SEO Content Section -->
   <section class="py-16 bg-gray-50">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-gray-900 mb-6">
@@ -264,7 +284,6 @@ const services = [
     </div>
   </section>
 
-  <!-- CTA Section -->
   <section class="py-16 bg-red-600 text-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl md:text-4xl font-bold mb-4">
@@ -285,6 +304,9 @@ const services = [
         </a>
         <a href="/servicos/ar-condicionado" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
           ❄️ Ar-Condicionado
+        </a>
+        <a href="/servicos/marido-de-aluguel" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          🛠️ Marido de Aluguel
         </a>
       </div>
     </div>

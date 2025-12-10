@@ -49,6 +49,7 @@ import Layout from '../layouts/Layout.astro';
       <option value="/servicos/eletricista">⚡ Eletricista 24h</option>
       <option value="/servicos/chaveiro">🔑 Chaveiro 24h</option>
       <option value="/servicos/ar-condicionado">❄️ Ar Condicionado 24h</option>
+      <option value="/servicos/marido-de-aluguel">🛠️ Marido de Aluguel</option>
     </select>
     <div class="absolute inset-y-0 right-0 pr-4 flex items-center">
       <button 
@@ -81,8 +82,7 @@ import Layout from '../layouts/Layout.astro';
   });
 </script>
       
-      <!-- Service category buttons -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-12">
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-6xl mx-auto mb-12">
         <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">🔧</div>
           <div class="font-bold text-lg">Encanador</div>
@@ -98,6 +98,10 @@ import Layout from '../layouts/Layout.astro';
         <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">❄️</div>
           <div class="font-bold text-lg">Ar Condicionado</div>
+        </a>
+        <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
+          <div class="text-3xl mb-3">🛠️</div>
+          <div class="font-bold text-lg leading-tight">Marido de Aluguel</div>
         </a>
       </div>
       
@@ -202,6 +206,22 @@ import Layout from '../layouts/Layout.astro';
           </ul>
           <a href="/servicos/ar-condicionado" class="block w-full bg-cyan-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-cyan-700 transition-colors">
             Ver Técnicos
+          </a>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">🛠️</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Marido de Aluguel</h3>
+          <p class="text-gray-600 mb-4">
+            Montagem de móveis, instalações, pequenos reparos residenciais e manutenção geral.
+          </p>
+          <ul class="text-sm text-gray-500 mb-6 space-y-1">
+            <li>• Montagem de móveis</li>
+            <li>• Instalação de suportes de TV</li>
+            <li>• Pequenos reparos hidráulicos</li>
+            <li>• Troca de luminárias</li>
+          </ul>
+          <a href="/servicos/marido-de-aluguel" class="block w-full bg-red-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+            Ver Profissionais
           </a>
         </div>
       </div>
