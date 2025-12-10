@@ -18,7 +18,6 @@ const { businesses, serviceTitle } = Astro.props;
     </p>
   </div>
 
-  <!-- Search and Filter Section -->
   <div class="filters">
     <input 
       type="text" 
@@ -28,33 +27,33 @@ const { businesses, serviceTitle } = Astro.props;
     />
     
     <select id="neighborhoodFilter" class="filter-select">
-  <option value="">Todos os bairros</option>
-  <option value="Aquarius">Aquarius</option>
-  <option value="Bosque dos Eucaliptos">Bosque dos Eucaliptos</option>
-  <option value="Cidade Morumbi">Cidade Morumbi</option>
-  <option value="Dom Pedro II">Dom Pedro II</option>
-  <option value="Jardim Aeroporto">Jardim Aeroporto</option>
-  <option value="Jardim Alvorada">Jardim Alvorada</option>
-  <option value="Jardim América">Jardim América</option>
-  <option value="Jardim da Granja">Jardim da Granja</option>
-  <option value="Jardim das Azaleias">Jardim das Azaleias</option>
-  <option value="Jardim das Indústrias">Jardim das Indústrias</option>
-  <option value="Jardim Ismenia">Jardim Ismenia</option>
-  <option value="Jardim Morumbi">Jardim Morumbi</option>
-  <option value="Jardim Oriente">Jardim Oriente</option>
-  <option value="Jardim São Dimas">Jardim São Dimas</option>
-  <option value="Jardim São Vicente">Jardim São Vicente</option>
-  <option value="Jardim Satélite">Jardim Satélite</option>
-  <option value="Jardim Vale do Sol">Jardim Vale do Sol</option>
-  <option value="Palmeiras de São José">Palmeiras de São José</option>
-  <option value="Parque Industrial">Parque Industrial</option>
-  <option value="Res. de Ville">Res. de Ville</option>
-  <option value="Vila Ema">Vila Ema</option>
-  <option value="Vila Nair">Vila Nair</option>
-  <option value="Vila São Bento">Vila São Bento</option>
-  <option value="Vila Tesouro">Vila Tesouro</option>
-  <option value="Vista Verde">Vista Verde</option>
-</select>
+      <option value="">Todos os bairros</option>
+      <option value="Aquarius">Aquarius</option>
+      <option value="Bosque dos Eucaliptos">Bosque dos Eucaliptos</option>
+      <option value="Cidade Morumbi">Cidade Morumbi</option>
+      <option value="Dom Pedro II">Dom Pedro II</option>
+      <option value="Jardim Aeroporto">Jardim Aeroporto</option>
+      <option value="Jardim Alvorada">Jardim Alvorada</option>
+      <option value="Jardim América">Jardim América</option>
+      <option value="Jardim da Granja">Jardim da Granja</option>
+      <option value="Jardim das Azaleias">Jardim das Azaleias</option>
+      <option value="Jardim das Indústrias">Jardim das Indústrias</option>
+      <option value="Jardim Ismenia">Jardim Ismenia</option>
+      <option value="Jardim Morumbi">Jardim Morumbi</option>
+      <option value="Jardim Oriente">Jardim Oriente</option>
+      <option value="Jardim São Dimas">Jardim São Dimas</option>
+      <option value="Jardim São Vicente">Jardim São Vicente</option>
+      <option value="Jardim Satélite">Jardim Satélite</option>
+      <option value="Jardim Vale do Sol">Jardim Vale do Sol</option>
+      <option value="Palmeiras de São José">Palmeiras de São José</option>
+      <option value="Parque Industrial">Parque Industrial</option>
+      <option value="Res. de Ville">Res. de Ville</option>
+      <option value="Vila Ema">Vila Ema</option>
+      <option value="Vila Nair">Vila Nair</option>
+      <option value="Vila São Bento">Vila São Bento</option>
+      <option value="Vila Tesouro">Vila Tesouro</option>
+      <option value="Vista Verde">Vista Verde</option>
+    </select>
 
     <label class="filter-checkbox">
       <input type="checkbox" id="only24h" />
@@ -66,82 +65,97 @@ const { businesses, serviceTitle } = Astro.props;
     Mostrando <span id="resultCount">{businesses.length}</span> resultados
   </div>
 
-  <!-- Business Cards Grid -->
   <div class="business-grid" id="businessGrid">
-    {businesses.map((business) => (
-      <div 
-        class="business-card" 
-        data-name={business.business_name.toLowerCase()}
-        data-neighborhood={business.neighborhood}
-        data-is24h={business.is_24h}
-      >
-        <div class="business-header">
-          <h3 class="business-name">{business.business_name}</h3>
-          <div class="rating">
-            <span class="stars">⭐ {business.star_rating}</span>
-            <span class="reviews">({business.total_reviews} avaliações)</span>
+    {businesses.map((business) => {
+      // SAFETY CHECK: Normalize data fields so it works with ANY data file
+      const displayName = business.name || business.business_name || "Profissional";
+      const displayPhone = business.phone || business.phone_number || "";
+      const displayRating = business.rating || business.star_rating || 0;
+      const displayReviews = business.reviews || business.total_reviews || 0;
+      
+      return (
+        <div 
+          class="business-card" 
+          data-name={displayName.toLowerCase()}
+          data-neighborhood={business.neighborhood || ""}
+          data-is24h={business.is_24h || business.badges?.includes('24 Horas')}
+        >
+          <div class="business-header">
+            <h3 class="business-name">{displayName}</h3>
+            <div class="rating">
+              <span class="stars">⭐ {displayRating}</span>
+              <span class="reviews">({displayReviews} avaliações)</span>
+            </div>
+          </div>
+
+          <div class="business-info">
+            {business.neighborhood && (
+              <p class="location">📍 {business.neighborhood}</p>
+            )}
+            
+            {business.address && (
+              <p class="address">{business.address}</p>
+            )}
+
+            <div class="badges">
+              {(business.is_24h || business.badges?.includes('24 Horas')) && (
+                <span class="badge badge-24h">24 Horas</span>
+              )}
+              {(business['Identifies as women-owned'] || business.badges?.includes('Empresa de mulheres')) && (
+                <span class="badge badge-women">Empresa de mulheres</span>
+              )}
+              {(business['LGBTQ+ friendly'] || business.badges?.includes('LGBTQ+ friendly')) && (
+                <span class="badge badge-lgbtq">LGBTQ+ friendly</span>
+              )}
+               {business.badges?.includes('Verificado') && (
+                <span class="badge badge-verified">Verificado</span>
+              )}
+            </div>
+          </div>
+
+          <div class="business-actions">
+            {displayPhone && (
+              <a 
+                href={`tel:${displayPhone.replace(/\D/g,'')}`}
+                class="btn btn-call"
+              >
+                📞 Ligar
+              </a>
+            )}
+            
+            {(business.whatsapp === true || (typeof business.whatsapp === 'string' && business.whatsapp.length > 5)) && (
+              <a 
+                href={typeof business.whatsapp === 'string' ? business.whatsapp : `https://wa.me/55${displayPhone.replace(/\D/g,'')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-whatsapp"
+              >
+                💬 WhatsApp
+              </a>
+            )}
+            
+            {business.website && business.website !== '' && business.website !== 'N/A' && business.website !== 'None' && (
+              <a 
+                href={business.website.startsWith('http') ? business.website : `https://${business.website}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-website"
+              >
+                🌐 Site
+              </a>
+            )}
+          </div>
+
+          <div class="business-footer">
+             <span class="last-updated">
+              {business.description && (
+                <span class="text-sm text-gray-500 block mt-2 italic">"{business.description}"</span>
+              )}
+             </span>
           </div>
         </div>
-
-        <div class="business-info">
-          {business.neighborhood && (
-            <p class="location">📍 {business.neighborhood}</p>
-          )}
-          
-          {business.address && (
-            <p class="address">{business.address}</p>
-          )}
-
-          <div class="badges">
-            {business.is_24h && (
-              <span class="badge badge-24h">24 Horas</span>
-            )}
-            {business['Identifies as women-owned'] && (
-              <span class="badge badge-women">Empresa de mulheres</span>
-            )}
-            {business['LGBTQ+ friendly'] && (
-              <span class="badge badge-lgbtq">LGBTQ+ friendly</span>
-            )}
-          </div>
-        </div>
-
-        <div class="business-actions">
-          <a 
-            href={`tel:${business.phone_number}`}
-            class="btn btn-call"
-          >
-            📞 Ligar
-          </a>
-          
-          {business.whatsapp && (
-            <a 
-              href={business.whatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-whatsapp"
-            >
-              💬 WhatsApp
-            </a>
-          )}
-          
-          {business.website && business.website !== '' && business.website !== 'N/A' && (
-  <a 
-    href={business.website.startsWith('http') ? business.website : `https://${business.website}`}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="btn btn-website"
-  >
-    🌐 Site
-  </a>
-)}
-        </div>
-
-        <div class="business-footer">
-          <span class="last-updated">
-          </span>
-        </div>
-      </div>
-    ))}
+      );
+    })}
   </div>
 
   {businesses.length === 0 && (
@@ -152,6 +166,7 @@ const { businesses, serviceTitle } = Astro.props;
 </div>
 
 <style>
+  /* Same styles as before, just added verified badge style */
   .business-directory {
     max-width: 1200px;
     margin: 0 auto;
@@ -302,6 +317,11 @@ const { businesses, serviceTitle } = Astro.props;
 
   .badge-lgbtq {
     background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f, #2ecc71, #3498db, #9b59b6);
+    color: white;
+  }
+  
+  .badge-verified {
+    background: #4299e1;
     color: white;
   }
 
