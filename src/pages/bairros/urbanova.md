@@ -123,6 +123,18 @@ Urbanova fica na região oeste de São José dos Campos, com acesso específico:
 
 **→ [Ver técnicos de ar-condicionado em bairros próximos](/servicos/ar-condicionado)**
 
+### 🛠️ Marido de Aluguel
+**Demandas comuns no bairro:**
+* **Instalação de suportes:** Fixação de TVs, quadros e espelhos em paredes de gesso ou dry-wall (comum em apartamentos novos).
+* **Montagem de móveis:** Serviço necessário após mudanças ou compras de itens de design.
+* **Pequenos reparos:** Manutenção de rejuntes, vedação de box e troca de lâmpadas de difícil acesso.
+* **Reparos em acabamentos:** Consertos pontuais em pisos, rodapés e maçanetas de portas de alto padrão.
+
+**Perfil dos Profissionais:**
+Muitos profissionais listados focam na qualidade do acabamento e na proteção dos móveis e pisos durante o serviço.
+
+**→ [Ver Marido de Aluguel em São José dos Campos](/servicos/marido-de-aluguel)**
+
 ## Referências Locais e Como Chegar
 
 ### Principais Vias e Condomínios
@@ -205,6 +217,7 @@ Emergências em residências de alto padrão exigem profissionais experientes e 
 - [Ver Chaveiros em São José dos Campos →](/servicos/chaveiro)
 - [Ver Eletricistas em São José dos Campos →](/servicos/eletricista)
 - [Ver Técnicos de Ar-Condicionado em São José dos Campos →](/servicos/ar-condicionado)
+- [Ver Marido de Aluguel em São José dos Campos →](/servicos/marido-de-aluguel)
 
 ---
 
