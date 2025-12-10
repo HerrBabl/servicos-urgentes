@@ -1,0 +1,108 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BusinessListing from '../../components/BusinessListing.astro';
+import { maridos } from '../../data/maridos.js';
+
+const pageTitle = "Marido de Aluguel em SJC - Profissionais Verificados 4+ Estrelas";
+const pageDescription = "Precisa de pequenos reparos? Encontre Marido de Aluguel em São José dos Campos. Montagem de móveis, instalações e manutenção no Aquarius, Urbanova e região.";
+---
+
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+>
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "GeneralContractor",
+    "name": "Marido de Aluguel e Pequenos Reparos",
+    "description": "Serviços de manutenção residencial, montagem de móveis e pequenas instalações em São José dos Campos.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "São José dos Campos",
+      "containedIn": {
+        "@type": "State",
+        "name": "São Paulo"
+      }
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de Manutenção",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Montagem de Móveis e Estantes"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação de Suportes de TV e Cortinas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pequenos Reparos Hidráulicos e Elétricos"
+          }
+        },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Manutenção Predial para Locação"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <div class="bg-blue-50 border-b border-blue-100 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Marido de Aluguel em São José dos Campos
+      </h1>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Esqueça o improviso. Conectamos você a profissionais de manutenção residencial <span class="font-semibold text-blue-700">verificados, seguros e avaliados</span>. Ideal para moradores do <span class="font-semibold">Jardim Aquarius</span>, <span class="font-semibold">Urbanova</span> e <span class="font-semibold">Vila Adyana</span>.
+      </p>
+    </div>
+  </div>
+
+  <BusinessListing 
+    businesses={maridos}
+    serviceTitle="Profissionais de Manutenção"
+  />
+
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-gray-50 rounded-lg">
+          <div class="text-3xl mb-3">🛡️</div>
+          <h3 class="font-bold text-lg mb-2">Segurança Total</h3>
+          <p class="text-gray-600">Checamos referências profissionais de todos os parceiros listados.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg">
+          <div class="text-3xl mb-3">⭐</div>
+          <h3 class="font-bold text-lg mb-2">Qualidade Garantida</h3>
+          <p class="text-gray-600">Apenas profissionais com nota média acima de 4.0 permanecem em nossa plataforma.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg">
+          <div class="text-3xl mb-3">📋</div>
+          <h3 class="font-bold text-lg mb-2">Orçamento Transparente</h3>
+          <p class="text-gray-600">Sem surpresas. Combine o valor antes do serviço começar, direto pelo WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
