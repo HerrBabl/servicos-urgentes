@@ -7,6 +7,7 @@ export const maridos = [
     reviews: 88,
     neighborhood: "Parque Industrial",
     address: "R. Santarém, 273",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(12) 98865-2555",
     whatsapp: true,
     services: [
@@ -32,6 +33,7 @@ export const maridos = [
     reviews: 153,
     neighborhood: "Bosque dos Eucaliptos",
     address: "Praça das Bandeiras",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(12) 99675-7766",
     whatsapp: true,
     services: [
@@ -57,6 +59,7 @@ export const maridos = [
     reviews: 21,
     neighborhood: "Jardim Vale do Sol",
     address: "R. Alcoçaba, 391",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(21) 98964-8138",
     whatsapp: true,
     services: [
@@ -82,6 +85,7 @@ export const maridos = [
     reviews: 56,
     neighborhood: "Parque Residencial Aquarius",
     address: "R. Dr. Orlando Feirabend Filho, 230",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(12) 98183-0046",
     whatsapp: true,
     services: [
@@ -106,6 +110,7 @@ export const maridos = [
     reviews: 39,
     neighborhood: "Parque Residencial Aquarius",
     address: "R. Armando D'Oliveira Cobra, 50 - Sala 304",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(12) 98310-0107",
     whatsapp: true,
     services: [
@@ -130,6 +135,7 @@ export const maridos = [
     reviews: 81,
     neighborhood: "Parque Industrial",
     address: "R. Pimenteiras, 648",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(12) 98135-7854",
     whatsapp: true,
     services: [
@@ -154,6 +160,7 @@ export const maridos = [
     reviews: 14,
     neighborhood: "Bosque dos Ipês",
     address: "R. Londrina, 925",
+    service_type: "Marido de Aluguel", // <--- THE FIX
     phone: "(12) 98703-6472",
     whatsapp: true,
     services: [
