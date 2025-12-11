@@ -133,7 +133,7 @@ Urbanova fica na região oeste de São José dos Campos, com acesso específico:
 **Perfil dos Profissionais:**
 Muitos profissionais listados focam na qualidade do acabamento e na proteção dos móveis e pisos durante o serviço.
 
-**→ [Ver Marido de Aluguel em São José dos Campos](/servicos/marido-de-aluguel)**
+→ [Ver Marido de Aluguel em bairros próximos](/servicos/marido-de-aluguel)
 
 ## Referências Locais e Como Chegar
 

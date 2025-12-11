@@ -102,7 +102,7 @@ Para emergências no São Dimas, a estimativa de chegada costuma ser:
 **Perfil dos Profissionais:**
 Profissionais versáteis acostumados a resolver múltiplos pequenos problemas em uma única visita.
 
-**→ [Ver Marido de Aluguel em São José dos Campos](/servicos/marido-de-aluguel)**
+→ [Ver Marido de Aluguel em bairros próximos](/servicos/marido-de-aluguel)
 
 ## Referências Locais e Como Chegar
 

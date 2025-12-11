@@ -104,7 +104,7 @@ Para emergências na Vila Adyana, profissionais locais geralmente conseguem:
 
 *Serviços elétricos variam muito conforme complexidade e normas de segurança. Peça avaliação presencial.*
 
-**→ [Ver eletricistas em bairros próximos](/servicos/eletricista)**
+**→ [Ver eletricistas no bairro Vila Adyana](/servicos/eletricista)**
 
 ### ❄️ Técnico de Ar-Condicionado
 
@@ -134,7 +134,7 @@ Para emergências na Vila Adyana, profissionais locais geralmente conseguem:
 **Perfil dos Profissionais:**
 Muitos profissionais listados focam na qualidade do acabamento e na proteção dos móveis e pisos durante o serviço.
 
-**→ [Ver Marido de Aluguel em São José dos Campos](/servicos/marido-de-aluguel)**
+→ [Ver Marido de Aluguel em São José dos Campos](/servicos/marido-de-aluguel)
 
 ## Referências Locais e Como Chegar
 
