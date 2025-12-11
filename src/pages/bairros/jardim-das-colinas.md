@@ -176,3 +176,26 @@ No Serviços Urgentes, você pode buscar profissionais com:
 ---
 
 *Conteúdo atualizado em Dezembro 2025. Lembre-se: Serviços Urgentes é um diretório, e não um prestador de serviços. Sempre solicite orçamento detalhado e verifique as credenciais do profissional antes de contratar.*
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AdministrativeArea",
+  "name": "Jardim das Colinas",
+  "containedIn": {
+    "@type": "City",
+    "name": "São José dos Campos",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    }
+  },
+  "description": "Bairro residencial de alto padrão em São José dos Campos, zona oeste.",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-23.2045", 
+    "longitude": "-45.9089"
+  },
+  "url": "https://servicosurgentes.com/bairros/jardim-das-colinas"
+}
+</script>
