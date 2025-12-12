@@ -1,202 +1,115 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
+const pageTitle = "Diretório de Profissionais de Emergência 24h em São José dos Campos";
+const pageDescription = "O guia completo para encontrar encanador, eletricista, chaveiro, técnico de ar-condicionado e marido de aluguel 4+ estrelas em SJC e região.";
+const canonicalURL = "https://servicosurgentes.com/servicos";
+
+// Service categories
 const services = [
   {
-    title: "Encanadores 24h",
-    icon: "🔧",
-    description: "Vazamentos, entupimentos, instalações e reparos urgentes. Profissionais verificados disponíveis 24 horas.",
-    link: "/servicos/encanador",
-    emergencies: ["Vazamento de água", "Cano entupido", "Torneira quebrada", "Aquecedor com problema"]
+    name: "Encanador",
+    icon: "💧",
+    url: "/servicos/encanador",
+    description: "Vazamentos, entupimentos, reparos em aquecedores a gás e problemas em tubulações antigas."
   },
   {
-    title: "Eletricistas 24h",
+    name: "Eletricista",
     icon: "⚡",
-    description: "Problemas elétricos, curto-circuitos, disjuntores e instalações. Atendimento rápido e seguro.",
-    link: "/servicos/eletricista",
-    emergencies: ["Falta de energia", "Curto-circuito", "Choque elétrico", "Cheiro de queimado"]
+    url: "/servicos/eletricista",
+    description: "Quedas de energia, disjuntores desarmando, curto-circuitos e modernização de quadros de luz."
   },
   {
-    title: "Chaveiros 24h",
+    name: "Chaveiro",
     icon: "🔑",
-    description: "Trancado fora de casa? Chave quebrada? Fechadura com problema? Atendimento imediato.",
-    link: "/servicos/chaveiro",
-    emergencies: ["Trancado fora", "Chave quebrada", "Fechadura travada", "Porta emperrada"]
+    url: "/servicos/chaveiro",
+    description: "Abertura de portas 24h, troca de segredos, fechaduras digitais e reparo de portões."
   },
   {
-    title: "Ar-Condicionado 24h",
+    name: "Ar-Condicionado",
     icon: "❄️",
-    description: "AC não liga? Vazamento? Manutenção e consertos urgentes com técnicos especializados.",
-    link: "/servicos/ar-condicionado",
-    emergencies: ["AC não liga", "Vazamento de água", "Cheiro estranho", "Sem refrigeração"]
+    url: "/servicos/ar-condicionado",
+    description: "Manutenção de Multi-split, limpeza de filtros, recarga de gás e reparos urgentes no verão."
   },
   {
-    title: "Marido de Aluguel",
+    name: "Marido de Aluguel",
     icon: "🛠️",
-    description: "Montagem de móveis, instalações, pequenos reparos e manutenção geral. Serviço rápido e limpo.",
-    link: "/servicos/marido-de-aluguel",
-    emergencies: ["Montagem de móveis", "Instalação de TV", "Pequenos reparos", "Manutenção geral"]
+    url: "/servicos/marido-de-aluguel",
+    description: "Instalação de suportes de TV, montagem de móveis, furos em paredes e pequenos reparos domésticos."
   }
+];
+
+// Neighborhood pages - CRITICAL FOR SEO
+const neighborhoods = [
+  { name: "Parque Residencial Aquarius", url: "/bairros/parque-residencial-aquarius" },
+  { name: "Urbanova", url: "/bairros/urbanova" },
+  { name: "Vila Adyana", url: "/bairros/vila-adyana" },
+  { name: "Jardim das Colinas", url: "/bairros/jardim-das-colinas" },
+  { name: "São Dimas", url: "/bairros/sao-dimas" },
+  { name: "Centro", url: "/bairros/centro" },
+  { name: "Bosque dos Eucaliptos", url: "/bairros/bosque-dos-eucaliptos" }
 ];
 ---
 
-<Layout 
-  title="Serviços de Emergência 24h - São José dos Campos | Serviços Urgentes"
-  description="Encontre profissionais verificados para emergências residenciais em São José dos Campos. Encanadores, eletricistas, chaveiros e técnicos de ar-condicionado disponíveis 24h. Atendimento rápido com 4+ estrelas de avaliação."
->
-  <script type="application/ld+json" slot="head">
-  {
+<Layout title={pageTitle} description={pageDescription} canonicalURL={canonicalURL}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Serviços de Emergência Disponíveis em São José dos Campos",
-    "description": "Lista completa de serviços de emergência 24h disponíveis através do Serviços Urgentes",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "Service",
-          "name": "Encanador de Emergência 24h",
-          "url": "https://servicosurgentes.com/servicos/encanador",
-          "serviceType": "Plumbing",
-          "provider": {
-            "@type": "Organization",
-            "name": "Serviços Urgentes"
-          },
-          "areaServed": {
-            "@type": "City",
-            "name": "São José dos Campos"
-          }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "Service",
-          "name": "Eletricista de Emergência 24h",
-          "url": "https://servicosurgentes.com/servicos/eletricista",
-          "serviceType": "Electrician",
-          "provider": {
-            "@type": "Organization",
-            "name": "Serviços Urgentes"
-          },
-          "areaServed": {
-            "@type": "City",
-            "name": "São José dos Campos"
-          }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "Service",
-          "name": "Chaveiro 24h",
-          "url": "https://servicosurgentes.com/servicos/chaveiro",
-          "serviceType": "Locksmith",
-          "provider": {
-            "@type": "Organization",
-            "name": "Serviços Urgentes"
-          },
-          "areaServed": {
-            "@type": "City",
-            "name": "São José dos Campos"
-          }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "Service",
-          "name": "Técnico de Ar-Condicionado 24h",
-          "url": "https://servicosurgentes.com/servicos/ar-condicionado",
-          "serviceType": "HVAC",
-          "provider": {
-            "@type": "Organization",
-            "name": "Serviços Urgentes"
-          },
-          "areaServed": {
-            "@type": "City",
-            "name": "São José dos Campos"
-          }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "Service",
-          "name": "Marido de Aluguel",
-          "url": "https://servicosurgentes.com/servicos/marido-de-aluguel",
-          "serviceType": "GeneralContractor",
-          "provider": {
-            "@type": "Organization",
-            "name": "Serviços Urgentes"
-          },
-          "areaServed": {
-            "@type": "City",
-            "name": "São José dos Campos"
-          }
-        }
+    "name": "Serviços de Emergência em São José dos Campos",
+    "description": pageDescription,
+    "itemListElement": services.map((service, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Service",
+        "name": service.name,
+        "url": `https://servicosurgentes.com${service.url}`,
+        "description": service.description
       }
-    ]
-  }
-  </script>
+    }))
+  })} />
 
-  <section class="bg-gradient-to-r from-red-600 to-red-800 text-white py-20">
+  <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">
-          🚨 Serviços de Emergência 24h
+        <div class="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-6">
+          <span class="text-2xl mr-3">🚨</span>
+          <span class="font-semibold">Emergências 24h</span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          O Diretório Completo de Serviços de Emergência em SJC
         </h1>
-        <p class="text-xl md:text-2xl text-red-100 mb-4">
-          Profissionais Verificados em São José dos Campos
-        </p>
-        <p class="text-lg text-red-100 max-w-3xl mx-auto">
-          Conectamos você com os melhores profissionais de emergência da região. Todos com no mínimo 4 estrelas de avaliação e disponíveis para atendimento rápido.
+        <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+          Seu guia essencial para encontrar profissionais de confiança, verificados e com avaliações acima de 4 estrelas, prontos para atender qualquer emergência na região de São José dos Campos.
         </p>
       </div>
     </div>
   </section>
 
-  <section class="py-16 bg-gray-50">
+  <section class="py-16 bg-gray-50" id="servicos">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Serviços Essenciais 24 Horas</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Encontre o especialista exato para sua necessidade, com foco em atendimento rápido e qualidade de serviço.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((service) => (
-          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-6">
-              <div class="flex items-center mb-4">
-                <span class="text-5xl mr-4">{service.icon}</span>
-                <h2 class="text-2xl font-bold text-white">{service.title}</h2>
-              </div>
-              <p class="text-blue-100 text-lg">
-                {service.description}
-              </p>
+          <a 
+            href={service.url}
+            class="block p-6 bg-white rounded-lg hover:shadow-xl transition-shadow duration-300 border-2 border-blue-100 hover:border-blue-300"
+          >
+            <div class="text-4xl mb-3">{service.icon}</div>
+            <h3 class="text-xl font-bold text-blue-900 mb-2">{service.name}</h3>
+            <p class="text-gray-700">{service.description}</p>
+            <div class="mt-4 text-blue-600 font-semibold flex items-center">
+              Ver profissionais
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
             </div>
-            
-            <div class="p-6">
-              <h3 class="font-semibold text-gray-900 mb-3">Situações de Emergência:</h3>
-              <ul class="space-y-2 mb-6">
-                {service.emergencies.map((emergency) => (
-                  <li class="flex items-center text-gray-700">
-                    <svg class="w-5 h-5 text-red-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                    </svg>
-                    {emergency}
-                  </li>
-                ))}
-              </ul>
-              
-              <a 
-                href={service.link}
-                class="block w-full bg-red-600 text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors"
-              >
-                Ver Profissionais Disponíveis →
-              </a>
-            </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
@@ -204,111 +117,44 @@ const services = [
 
   <section class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">
-        Por Que Escolher o Serviços Urgentes?
-      </h2>
-      
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="text-center">
-          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <span class="text-3xl">⭐</span>
-          </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Profissionais Verificados</h3>
-          <p class="text-gray-600">
-            Todos os profissionais possuem no mínimo 4 estrelas de avaliação e histórico comprovado.
-          </p>
-        </div>
-        
-        <div class="text-center">
-          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <span class="text-3xl">⚡</span>
-          </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Atendimento Rápido</h3>
-          <p class="text-gray-600">
-            Profissionais disponíveis 24 horas por dia, 7 dias por semana para emergências.
-          </p>
-        </div>
-        
-        <div class="text-center">
-          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <span class="text-3xl">🏆</span>
-          </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Cobertura Local</h3>
-          <p class="text-gray-600">
-            Atendemos toda São José dos Campos e região do Vale do Paraíba.
-          </p>
-        </div>
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Cobertura Local: Encontre por Bairro</h2>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+          Nossos guias de bairro analisam as demandas específicas de cada região, garantindo que você encontre o profissional com o perfil certo para o seu tipo de imóvel (alto padrão, antigo, central, etc.).
+        </p>
       </div>
-    </div>
-  </section>
-
-  <section class="py-16 bg-gray-50">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-gray-900 mb-6">
-        Serviços de Emergência em São José dos Campos
-      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {neighborhoods.map((neighborhood) => (
+          <a 
+            href={neighborhood.url}
+            class="text-center p-4 bg-blue-50 border-2 border-blue-200 rounded-lg hover:bg-blue-100 hover:border-blue-400 transition-colors duration-200"
+          >
+            <p class="font-semibold text-blue-800">{neighborhood.name}</p>
+          </a>
+        ))}
+      </div>
       
-      <div class="prose prose-lg max-w-none">
-        <p class="text-gray-700 mb-4">
-          O Serviços Urgentes é o diretório online de referência para encontrar profissionais qualificados para emergências domésticas em São José dos Campos e região do Vale do Paraíba. Nossa plataforma conecta moradores com os melhores encanadores, eletricistas, chaveiros e técnicos de ar-condicionado, todos verificados e com no mínimo 4 estrelas de avaliação.
-        </p>
-
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Como Funciona Nossa Plataforma
-        </h3>
-        <p class="text-gray-700 mb-4">
-          Nosso processo é simples e transparente. Primeiro, você seleciona o tipo de serviço necessário (encanamento, elétrica, chaveiro ou ar-condicionado). Em seguida, visualiza uma lista de profissionais verificados com suas avaliações, especialidades e disponibilidade. Você pode então entrar em contato diretamente com o profissional escolhido através do telefone fornecido. Todos os profissionais listados foram pré-selecionados com base em critérios rigorosos de qualidade e histórico de atendimento.
-        </p>
-
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Nossos Critérios de Qualidade
-        </h3>
-       <p class="text-gray-700 mb-4">
-  Para garantir a melhor experiência possível, priorizamos profissionais com mínimo de 4 estrelas de avaliação de clientes anteriores e experiência em atendimento de emergência na região de São José dos Campos. Recomendamos sempre verificar as credenciais do profissional, pedir orçamento detalhado antes do serviço, e confirmar disponibilidade e tempo estimado de chegada.
-</p>
-
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Cobertura em São José dos Campos
-        </h3>
-        <p class="text-gray-700 mb-4">
-  Listamos profissionais que atendem todos os bairros de São José dos Campos, incluindo Centro, Jardim Aquarius, Vila Adyana, Urbanova, Jardim das Colinas, São Dimas, Bosque dos Eucaliptos, e muitos outros. Nossa plataforma conecta você com profissionais que conhecem bem a região e podem fornecer estimativas de tempo de chegada.
-</p>
-
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Atendimento 24 Horas
-        </h3>
-        <p class="text-gray-700 mb-4">
-          Emergências não acontecem apenas durante o horário comercial. Por isso, mantemos uma rede de profissionais disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Seja um vazamento no meio da madrugada, uma falta de energia no domingo, ficar trancado fora de casa na segunda-feira à noite, ou um ar-condicionado que para de funcionar em um dia de calor extremo - você sempre encontrará ajuda profissional através do Serviços Urgentes.
+      <div class="mt-12 p-6 bg-gray-50 rounded-lg border border-gray-100">
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Como Funciona o Diretório</h3>
+        <p class="text-gray-700">
+          No Serviços Urgentes, você navega pelas categorias de serviço (Encanador, Eletricista, etc.) e utiliza o filtro por bairro para encontrar prestadores que atendem na sua região. Todos os profissionais listados são avaliados por clientes reais, ajudando você a tomar a decisão com segurança e agilidade.
         </p>
       </div>
     </div>
   </section>
 
-  <section class="py-16 bg-red-600 text-white">
+  <section class="py-12 bg-red-600 text-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4">
-        Precisa de Ajuda Urgente Agora?
-      </h2>
-      <p class="text-xl text-red-100 mb-8">
-        Escolha o serviço que você precisa e conecte-se com profissionais verificados em minutos.
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Precisa de Ajuda Urgente?</h2>
+      <p class="text-lg text-red-100 mb-6">
+        Escolha o serviço que você precisa e encontre profissionais verificados com 4+ estrelas prontos para atender.
       </p>
-      <div class="flex flex-wrap justify-center gap-4">
-        <a href="/servicos/encanador" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          🔧 Encanadores
-        </a>
-        <a href="/servicos/eletricista" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          ⚡ Eletricistas
-        </a>
-        <a href="/servicos/chaveiro" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          🔑 Chaveiros
-        </a>
-        <a href="/servicos/ar-condicionado" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          ❄️ Ar-Condicionado
-        </a>
-        <a href="/servicos/marido-de-aluguel" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          🛠️ Marido de Aluguel
-        </a>
-      </div>
+      <a 
+        href="#servicos"
+        class="inline-block bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+      >
+        Encontrar Profissional Agora
+      </a>
     </div>
   </section>
 </Layout>
