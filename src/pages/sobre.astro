@@ -1,0 +1,176 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const pageTitle = "Sobre o Serviços Urgentes - Nosso Diretório";
+const pageDescription = "Conheça a missão do Serviços Urgentes: conectar moradores de São José dos Campos a profissionais 24h verificados e avaliados com mais de 4 estrelas.";
+const canonicalURL = "https://servicosurgentes.com/sobre";
+---
+
+<Layout title={pageTitle} description={pageDescription} canonicalURL={canonicalURL}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": pageTitle,
+    "description": pageDescription,
+    "url": canonicalURL,
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes",
+      "url": "https://servicosurgentes.com",
+      "logo": "https://servicosurgentes.com/favicon.svg",
+      "description": "Diretório online de serviços de emergência 24h em São José dos Campos",
+      "areaServed": {
+        "@type": "City",
+        "name": "São José dos Campos",
+        "containedIn": {
+          "@type": "State",
+          "name": "São Paulo"
+        }
+      },
+      "knowsAbout": [
+        "Serviços de Emergência",
+        "Encanamento 24h",
+        "Chaveiro Emergencial",
+        "Eletricista Urgente",
+        "Ar Condicionado",
+        "Marido de Aluguel"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Equipe Serviços Urgentes"
+      }
+    }
+  })} />
+
+  <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-6">
+          <span class="text-2xl mr-3">🏢</span>
+          <span class="font-semibold">Quem Somos</span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Seu Guia de Confiança para Emergências em SJC
+        </h1>
+        <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+          Conectando moradores de São José dos Campos a profissionais verificados e avaliados com 4+ estrelas desde o início.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <article class="bg-white rounded-lg shadow-md p-8 md:p-12">
+        
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Nossa Missão</h2>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            O Serviços Urgentes nasceu de uma necessidade local: a dificuldade de encontrar, rapidamente e com segurança, um profissional de manutenção qualificado durante uma emergência. Nossa missão é clara: <strong>remover o risco e a incerteza da sua busca por socorro residencial 24 horas.</strong>
+          </p>
+        </div>
+
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">O Que é o Serviços Urgentes?</h2>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            Somos um <strong>diretório de consulta pública</strong> focado exclusivamente em prestadores de serviços essenciais na região de São José dos Campos (SJC).
+          </p>
+          <div class="bg-blue-50 border-l-4 border-blue-600 p-6 mb-6">
+            <p class="text-gray-800 font-semibold">
+              <strong>Importante:</strong> Não somos prestadores de serviço, não realizamos reparos e não fazemos a intermediação de pagamentos. Nossa função é fornecer informações verificadas e localizadas.
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Nosso Compromisso com a Qualidade (O Filtro 4+)</h2>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            Em um mercado com alta variação de qualidade, aplicamos um filtro rigoroso:
+          </p>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-start">
+              <span class="text-2xl mr-3">⭐</span>
+              <div>
+                <strong class="text-gray-900">Foco na Reputação:</strong> Listamos preferencialmente profissionais e empresas com avaliação mínima de <strong>4 estrelas</strong> em plataformas de busca e redes sociais.
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="text-2xl mr-3">🔍</span>
+              <div>
+                <strong class="text-gray-900">Transparência:</strong> Fornecemos o link de contato direto e a especialidade do profissional. A negociação e a contratação são sempre realizadas diretamente entre o usuário e o prestador.
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="text-2xl mr-3">📍</span>
+              <div>
+                <strong class="text-gray-900">Conteúdo Local:</strong> Criamos guias de bairro exclusivos (como Urbanova, Centro e Aquarius) para que você entenda as demandas específicas da sua região antes de contratar.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">As Regras do Nosso Diretório</h2>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            Trabalhamos para garantir que a informação que você encontra é útil, segura e imparcial:
+          </p>
+          <ol class="space-y-4 text-gray-700 list-decimal list-inside">
+            <li>
+              <strong class="text-gray-900">Sem Preços Fixos:</strong> Não exibimos preços fechados para evitar desentendimentos. Serviços de emergência dependem da complexidade, horário e materiais. Você deve <strong>solicitar orçamento</strong> diretamente ao profissional.
+            </li>
+            <li>
+              <strong class="text-gray-900">Verificação Externa:</strong> A reputação de cada listagem é baseada em dados públicos. Continuamos a monitorar a qualidade para garantir que você tenha acesso aos melhores do mercado.
+            </li>
+            <li>
+              <strong class="text-gray-900">Foco 24 Horas:</strong> Nosso diretório prioriza profissionais que oferecem atendimento de emergência fora do horário comercial, garantindo que você nunca fique na mão.
+            </li>
+          </ol>
+        </div>
+
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Nossa Cobertura</h2>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            Cobrimos as principais regiões de São José dos Campos, incluindo bairros com demandas específicas:
+          </p>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="p-3 bg-blue-50 rounded-lg text-center">
+              <p class="font-semibold text-blue-900">Parque Residencial Aquarius</p>
+            </div>
+            <div class="p-3 bg-blue-50 rounded-lg text-center">
+              <p class="font-semibold text-blue-900">Urbanova</p>
+            </div>
+            <div class="p-3 bg-blue-50 rounded-lg text-center">
+              <p class="font-semibold text-blue-900">Vila Adyana</p>
+            </div>
+            <div class="p-3 bg-blue-50 rounded-lg text-center">
+              <p class="font-semibold text-blue-900">Jardim das Colinas</p>
+            </div>
+            <div class="p-3 bg-blue-50 rounded-lg text-center">
+              <p class="font-semibold text-blue-900">Centro</p>
+            </div>
+            <div class="p-3 bg-blue-50 rounded-lg text-center">
+              <p class="font-semibold text-blue-900">Bosque dos Eucaliptos</p>
+            </div>
+          </div>
+          <p class="text-lg text-gray-700 leading-relaxed mt-6">
+            <strong>Se você mora em SJC e precisa de um encanador, eletricista, chaveiro, técnico de ar-condicionado ou marido de aluguel verificado, o Serviços Urgentes é o seu primeiro passo seguro.</strong>
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg text-center">
+          <h3 class="text-2xl font-bold mb-4">Precisa de um Profissional Agora?</h3>
+          <p class="text-lg text-blue-100 mb-6">
+            Explore nosso diretório completo e encontre o especialista certo para sua necessidade.
+          </p>
+          <a 
+            href="/servicos" 
+            class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+          >
+            Ver Todos os Serviços
+          </a>
+        </div>
+
+      </article>
+    </div>
+  </section>
+</Layout>
