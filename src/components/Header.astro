@@ -4,20 +4,17 @@
 <header class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="relative flex items-center h-16">
-      <!-- Logo - Positioned absolutely to left -->
       <div class="absolute left-0">
         <a href="/" class="text-2xl font-bold text-red-600">
           🚨 Serviços Urgentes
         </a>
       </div>
 
-      <!-- Navigation - Centered on entire page -->
       <nav class="hidden md:flex space-x-10 w-full justify-center">
         <a href="/" class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors">
           Início
         </a>
         
-        <!-- Services Dropdown -->
         <div class="relative" id="services-dropdown">
           <button class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors flex items-center" id="services-button">
             Serviços
@@ -27,26 +24,25 @@
           </button>
           <div class="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden" id="services-menu">
             <div class="py-1">
-              <a href="/servicos" class="block px-4 py-2 text-sm font-semibold text-red-600 hover:bg-red-50 border-b border-gray-200">📋 Todos os Serviços</a>
-              <a href="/servicos/encanador" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">🔧 Encanadores</a>
-              <a href="/servicos/eletricista" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">⚡ Eletricistas</a>
-              <a href="/servicos/chaveiro" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">🔑 Chaveiros</a>
-              <a href="/servicos/ar-condicionado" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">❄️ Ar Condicionado</a>
-              <a href="/servicos/marido-de-aluguel" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">🛠️ Marido de Aluguel</a>
+              <a href="/servicos/" class="block px-4 py-2 text-sm font-semibold text-red-600 hover:bg-red-50 border-b border-gray-200">📋 Todos os Serviços</a>
+              <a href="/servicos/encanador/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">🔧 Encanadores</a>
+              <a href="/servicos/eletricista/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">⚡ Eletricistas</a>
+              <a href="/servicos/chaveiro/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">🔑 Chaveiros</a>
+              <a href="/servicos/ar-condicionado/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">❄️ Ar Condicionado</a>
+              <a href="/servicos/marido-de-aluguel/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">🛠️ Marido de Aluguel</a>
             </div>
           </div>
         </div>
         
 
-        <a href="/cadastro" class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors">
+        <a href="/cadastro/" class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors">
           Cadastre-se
         </a>
-        <a href="/sobre" class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors">
+        <a href="/sobre/" class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors">
           Sobre Nós
         </a>
       </nav>
 
-      <!-- Mobile menu button - Positioned absolutely to right -->
       <div class="absolute right-0">
         <button class="md:hidden p-2 rounded-md text-gray-700 hover:text-red-600" id="mobile-menu-button">
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -56,12 +52,10 @@
       </div>
     </div>
 
-    <!-- Mobile menu -->
     <div class="md:hidden hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-100">
         <a href="/" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Início</a>
         
-        <!-- Mobile Services Submenu -->
         <div>
           <button class="w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600 flex items-center justify-between" id="mobile-services-button">
             Serviços
@@ -70,17 +64,17 @@
             </svg>
           </button>
           <div class="hidden pl-4" id="mobile-services-menu">
-            <a href="/servicos" class="block px-3 py-2 text-sm font-semibold text-red-600 hover:text-red-600 border-b border-gray-200">📋 Todos os Serviços</a>
-            <a href="/servicos/encanador" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">🔧 Encanadores</a>
-            <a href="/servicos/eletricista" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">⚡ Eletricistas</a>
-            <a href="/servicos/chaveiro" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">🔑 Chaveiros</a>
-            <a href="/servicos/ar-condicionado" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">❄️ Ar Condicionado</a>
-            <a href="/servicos/marido-de-aluguel" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">🛠️ Marido de Aluguel</a>
+            <a href="/servicos/" class="block px-3 py-2 text-sm font-semibold text-red-600 hover:text-red-600 border-b border-gray-200">📋 Todos os Serviços</a>
+            <a href="/servicos/encanador/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">🔧 Encanadores</a>
+            <a href="/servicos/eletricista/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">⚡ Eletricistas</a>
+            <a href="/servicos/chaveiro/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">🔑 Chaveiros</a>
+            <a href="/servicos/ar-condicionado/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">❄️ Ar Condicionado</a>
+            <a href="/servicos/marido-de-aluguel/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">🛠️ Marido de Aluguel</a>
           </div>
         </div>
         
-        <a href="/cadastro" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Cadastre-se</a>
-        <a href="/sobre" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Sobre Nós</a>
+        <a href="/cadastro/" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Cadastre-se</a>
+        <a href="/sobre/" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Sobre Nós</a>
       </div>
     </div>
   </div>

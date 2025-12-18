@@ -5,7 +5,7 @@ description: "Precisa de encanador, chaveiro, eletricista ou técnico de ar-cond
 neighborhood: "Parque Residencial Aquarius"
 city: "São José dos Campos"
 state: "SP"
-keywords: "emergência aquarius, encanador aquarius sjc, chaveiro aquarius, eletricista urgente aquarius"
+keywords: "emergência aquarius, encanador aquarius sjc, chaveiro aquarius, eletricista urgente aquarius, marido de aluguel"
 ---
 
 # Serviços de Emergência 24 Horas em Parque Residencial Aquarius, São José dos Campos
