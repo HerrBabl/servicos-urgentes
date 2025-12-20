@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+// 🤖 THE ENGINE: This automatically finds all .md files in the blog folder
+const posts = await Astro.glob('./*.md');
+
+// Sort posts by date (Newest first)
+const sortedPosts = posts.sort((a, b) => 
+  new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+);
+---
+
+<Layout title="Blog & Dicas - Serviços Urgentes SJC" description="Guias de manutenção, retrofit e dicas de prevenção para sua casa em São José dos Campos.">
+  <div class="bg-gray-50 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-16">
+        <span class="text-red-600 font-bold tracking-wider uppercase text-sm">Central de Conhecimento</span>
+        <h1 class="text-4xl font-extrabold text-gray-900 mt-2 mb-4">
+          Blog & Dicas SJC
+        </h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Conteúdo especializado sobre manutenção, reformas e cuidados com seu patrimônio.
+        </p>
+      </div>
+
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mb-20">
+        {sortedPosts.length > 0 ? (
+          sortedPosts.map((post) => (
+            <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col h-full">
+              {/* Image Handler */}
+              {post.frontmatter.image && (
+                <a href={post.url} class="block h-48 overflow-hidden group">
+                  <img 
+                    src={post.frontmatter.image} 
+                    alt={post.frontmatter.title} 
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  />
+                </a>
+              )}
+              
+              <div class="p-6 flex-1 flex flex-col">
+                <div class="flex items-center gap-2 mb-3">
+                  <span class="px-2 py-1 bg-red-50 text-red-600 text-xs font-bold rounded uppercase">
+                    {post.frontmatter.tags?.[0] || 'Dica'}
+                  </span>
+                  <span class="text-gray-400 text-xs">
+                    {new Date(post.frontmatter.date).toLocaleDateString('pt-BR')}
+                  </span>
+                </div>
+
+                <h2 class="text-xl font-bold text-gray-900 mb-3 leading-tight">
+                  <a href={post.url} class="hover:text-red-600 transition-colors">
+                    {post.frontmatter.title}
+                  </a>
+                </h2>
+                
+                <p class="text-gray-600 text-sm mb-4 line-clamp-3 flex-1">
+                  {post.frontmatter.description}
+                </p>
+                
+                <a href={post.url} class="inline-flex items-center text-red-600 font-semibold hover:text-red-700 mt-auto group text-sm">
+                  Ler artigo completo 
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          ))
+        ) : (
+          <div class="col-span-3 text-center py-12 bg-white rounded-lg border border-dashed border-gray-300">
+            <p class="text-gray-500">Nenhum artigo encontrado. Em breve novidades!</p>
+          </div>
+        )}
+      </div>
+
+      <div class="border-t border-gray-200 pt-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">Perguntas Frequentes</h2>
+        <div class="grid md:grid-cols-2 gap-8 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+            <div>
+                <h3 class="font-bold text-lg mb-2">Como funciona o Serviços Urgentes?</h3>
+                <p class="text-gray-600 mb-6 text-sm">Somos um diretório que conecta moradores de São José dos Campos com profissionais qualificados para emergências. Você navega pelos serviços, encontra o profissional mais próximo e entra em contato diretamente com ele.</p>
+                
+                <h3 class="font-bold text-lg mb-2">Os profissionais são verificados?</h3>
+                <p class="text-gray-600 mb-6 text-sm">Listamos apenas empresas com avaliação 4+ estrelas no Google e no mínimo 10 avaliações, garantindo que você encontre profissionais bem avaliados pela comunidade.</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-2">Qual é o tempo de resposta típico?</h3>
+                <p class="text-gray-600 mb-6 text-sm">Como somos um diretório, o tempo de resposta varia por profissional. Recomendamos ligar para várias empresas para encontrar a disponibilidade mais rápida para sua emergência.</p>
+                
+                <h3 class="font-bold text-lg mb-2">Vocês atendem fora de SJC?</h3>
+                <p class="text-gray-600 text-sm">Atualmente focamos em São José dos Campos, mas muitos profissionais listados atendem cidades próximas do Vale do Paraíba.</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</Layout>
