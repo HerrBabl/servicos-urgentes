@@ -4,6 +4,7 @@ title: "Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para S�
 description: "Seu ar-condicionado parou de funcionar no calor? Saiba o que fazer imediatamente, quando chamar um profissional e quanto custa o reparo em São José dos Campos."
 date: 2025-11-17
 category: "Guias de Emergência"
+image: "https://images.unsplash.com/photo-1614631346519-21b93f650493?q=80&w=800&auto=format&fit=crop"
 keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, técnico ar-condicionado urgente"
 faqSchema:
   - question: "O que fazer quando o ar-condicionado para de funcionar?"
@@ -191,12 +192,7 @@ Parque Residencial Aquarius e outros bairros de alto padrão concentram muitos a
 
 Não perca tempo procurando técnicos em listas intermináveis. No [Serviços Urgentes](https://servicosurgentes.com), você encontra apenas profissionais com:
 
-✅ **Avaliação mínima de 4 estrelas**  
-✅ **Experiência comprovada em emergências**  
-✅ **Atendimento 24 horas (quando disponível)**  
-✅ **Cobertura em todos os bairros de SJC**  
-
-[**→ Encontre um técnico de ar-condicionado agora**](https://servicosurgentes.com/servicos/ar-condicionado)
+✅ **Avaliação mínima de 4 estrelas** ✅ **Experiência comprovada em emergências** ✅ **Atendimento 24 horas (quando disponível)** ✅ **Cobertura em todos os bairros de SJC** [**→ Encontre um técnico de ar-condicionado agora**](https://servicosurgentes.com/servicos/ar-condicionado)
 
 ## Perguntas Frequentes (FAQ)
 
