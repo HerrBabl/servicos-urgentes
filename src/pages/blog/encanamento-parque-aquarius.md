@@ -4,7 +4,7 @@ title: "Encanamento em Parque Aquarius: Guia Completo para Locatários e Proprie
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07"
 author: "Serviços Urgentes SJC"
-image: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=800&auto=format&fit=crop"
+image: "https://www.istockphoto.com/photo/modern-bathroom-vanity-and-bathtub-gm77932152-24454188?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmodern-bathroom-sink&utm_term=modern+bathroom+sink%3A%3A%3A%3Af0aa3a2e-62ee-4327-aad6-7eb2bdddf622"
 tags: ["Parque Aquarius", "Encanamento", "Locação", "Manutenção"]
 slug: "encanamento-parque-aquarius"
 category: "Guia de Bairro"
