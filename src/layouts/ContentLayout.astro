@@ -27,6 +27,20 @@ const {
   keywords = frontmatter.keywords
 } = Astro.props;
 
+// Helper function to ensure ISO 8601 format with timezone
+const formatDateISO = (dateStr: string | undefined) => {
+  if (!dateStr) return new Date().toISOString();
+  
+  // If already has timezone, return as-is
+  if (dateStr.includes('T') && (dateStr.includes('+') || dateStr.includes('Z') || dateStr.includes('-', 10))) {
+    return dateStr;
+  }
+  
+  // Parse YYYY-MM-DD and add São Paulo timezone (UTC-3)
+  const date = new Date(dateStr + 'T12:00:00-03:00');
+  return date.toISOString();
+};
+
 const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
 
 // Determine if this is a neighborhood page or blog post
@@ -41,12 +55,11 @@ const generateSchema = () => {
     // Article Schema for Blog Posts
     const articleSchema = {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": title,
-      "description": description,
-      "image": `${baseUrl}/favicon.svg`,
-      "datePublished": date || new Date().toISOString(),
-      "dateModified": date || new Date().toISOString(),
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": formatDateISO(date),  // ADD formatDateISO()
+  "dateModified": formatDateISO(dateModified || date),
       "author": {
         "@type": "Organization",
         "name": "Serviços Urgentes",
