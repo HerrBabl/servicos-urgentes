@@ -3,9 +3,14 @@ layout: ../../layouts/ContentLayout.astro
 title: "Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos"
 description: "Seu ar-condicionado parou de funcionar no calor? Saiba o que fazer imediatamente, quando chamar um profissional e quanto custa o reparo em São José dos Campos."
 date: 2025-11-17
+dateModified: 2025-01-09  # ADD THIS - shows content is current
 category: "Guias de Emergência"
+author:
+  name: "Equipe Serviços Urgentes"
+  url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?q=80&w=800&auto=format&fit=crop"
 keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, técnico ar-condicionado urgente"
+canonicalURL: "https://servicosurgentes.com/blog/ac-guia-sjc"  # ADD THIS
 faqSchema:
   - question: "O que fazer quando o ar-condicionado para de funcionar?"
     answer: "Primeiro, verifique se o disjuntor não desarmou e se o filtro não está sujo. Confirme se o controle remoto tem pilhas funcionando. Se tudo estiver ok e o AC não ligar, é hora de chamar um técnico especializado."
@@ -22,6 +27,19 @@ faqSchema:
 # Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos
 
 É meio da tarde, o termômetro marca 38°C, e de repente seu ar-condicionado simplesmente para de funcionar. Em São José dos Campos, especialmente durante o verão, um ar-condicionado que não funciona pode transformar sua casa ou escritório em um forno. Este guia completo vai te ajudar a resolver o problema rapidamente.
+
+## 📋 Índice
+
+1. [O Que Fazer Imediatamente](#o-que-fazer-imediatamente-quando-o-ar-condicionado-para)
+2. [Problemas Mais Comuns](#problemas-mais-comuns-e-suas-causas)
+3. [Quando Chamar Profissional](#quando-chamar-um-profissional-de-emergência)
+4. [Custos de Reparo em SJC](#quanto-custa-o-reparo-de-ar-condicionado-em-são-josé-dos-campos)
+5. [Como Escolher o Técnico](#como-escolher-o-técnico-certo-em-situação-de-emergência)
+6. [Considerações para SJC](#considerações-específicas-para-são-josé-dos-campos)
+7. [Prevenção](#prevenção-como-evitar-emergências-futuras)
+8. [Perguntas Frequentes](#perguntas-frequentes-faq)
+
+---
 
 ## O Que Fazer Imediatamente Quando o Ar-Condicionado Para
 
@@ -81,6 +99,8 @@ Se você acabou de desligar e religar o aparelho, aguarde 5 minutos. Os compress
 - Evaporadora congelando e descongelando
 - Excesso de gás refrigerante
 
+💧 **Vazamento em outros pontos?** Se o problema não está no AC mas em tubulações, veja nosso [guia de encanadores 24h em SJC](/servicos/encanador).
+
 ## Quando Chamar Um Profissional de Emergência
 
 Algumas situações exigem atenção profissional imediata:
@@ -104,19 +124,25 @@ Algumas situações exigem atenção profissional imediata:
 Com base nos preços praticados no mercado regional:
 
 ### Serviços Básicos
-- **Visita técnica diagnóstica:** R$ 80 a R$ 150
-- **Limpeza completa:** R$ 200 a R$ 300 por unidade
-- **Manutenção preventiva:** R$ 250 a R$ 350
-- **Troca de filtro:** R$ 50 a R$ 100 (incluindo peça)
+
+| Serviço | Custo em SJC | Tempo Estimado |
+|---------|-------------|----------------|
+| Visita técnica diagnóstica | R$ 80 - R$ 150 | 30-60 min |
+| Limpeza completa | R$ 200 - R$ 300 | 1-2 horas |
+| Manutenção preventiva | R$ 250 - R$ 350 | 1.5-2 horas |
+| Troca de filtro | R$ 50 - R$ 100 | 15-30 min |
 
 *Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
 
 ### Reparos Comuns
-- **Recarga de gás:** R$ 180 a R$ 400 (depende do tipo de gás)
-- **Troca de capacitor:** R$ 120 a R$ 200
-- **Reparo de vazamento:** R$ 200 a R$ 500
-- **Troca de placa eletrônica:** R$ 300 a R$ 800
-- **Substituição de compressor:** R$ 800 a R$ 2.500
+
+| Reparo | Custo em SJC | Observações |
+|--------|-------------|-------------|
+| Recarga de gás | R$ 180 - R$ 400 | Varia conforme tipo (R22, R410A, R32) |
+| Troca de capacitor | R$ 120 - R$ 200 | Reparo rápido (1-2 horas) |
+| Reparo de vazamento | R$ 200 - R$ 500 | Inclui detecção + soldagem |
+| Troca de placa eletrônica | R$ 300 - R$ 800 | Depende do modelo |
+| Substituição de compressor | R$ 800 - R$ 2.500 | Avalie custo-benefício vs. AC novo |
 
 *Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
 
@@ -163,8 +189,16 @@ São José dos Campos tem um clima peculiar no Vale do Paraíba:
 - Feche cortinas durante o dia para reduzir entrada de calor
 - Evite usar eletrodomésticos que geram calor (forno, ferro)
 
+💡 **Dica:** Se você precisa de outros serviços urgentes enquanto aguarda o técnico de AC, veja também nossos [eletricistas 24h](/servicos/eletricista) (para problemas no disjuntor) ou [maridos de aluguel](/servicos/marido-de-aluguel) (para reparos gerais).
+
 ### Bairros com Maior Demanda
 Parque Residencial Aquarius e outros bairros de alto padrão concentram muitos aparelhos de ar-condicionado devido ao perfil das residências. Em situações de emergência, técnicos podem estar mais ocupados nessas regiões.
+
+### Bairros com Maior Demanda
+
+[Parque Residencial Aquarius](/bairros/parque-residencial-aquarius) e [Urbanova](/bairros/urbanova) concentram muitos aparelhos de ar-condicionado devido ao perfil das residências de alto padrão. [Vila Adyana](/bairros/vila-adyana), por ter casas mais antigas, apresenta desafios diferentes (sistemas mais antigos que exigem técnicos com experiência em modelos legados).
+
+Em situações de emergência, técnicos podem estar mais ocupados nessas regiões.
 
 ## Prevenção: Como Evitar Emergências Futuras
 
@@ -187,6 +221,8 @@ Parque Residencial Aquarius e outros bairros de alto padrão concentram muitos a
 - Barulhos diferentes do normal
 - Odores quando liga o aparelho
 - Gelo formando na tubulação
+
+📍 **Encontre manutenção preventiva:** Profissionais especializados em [Urbanova](/bairros/urbanova) têm experiência com sistemas multi-split e centrais comuns em casas de alto padrão.
 
 ## Encontre Profissionais Verificados em São José dos Campos
 
@@ -221,6 +257,11 @@ Sim. Aparelhos com mais de 8-10 anos podem consumir 30-40% mais energia que mode
 
 Um ar-condicionado que para de funcionar no calor de São José dos Campos é uma emergência legítima, mas não precisa entrar em desespero. Siga o protocolo de verificação básica, identifique se é realmente uma emergência que exige atenção imediata, e escolha um profissional qualificado com base em avaliações verificadas.
 
+**Outros guias úteis:**
+- [Climatização em Urbanova](/blog/climatizacao-urbanova) - Sistemas de alto padrão
+- [Guia completo de serviços em Vila Adyana](/blog/vila-adyana-guia) - Soluções para casas antigas
+- [Encanamento em Parque Aquarius](/blog/encanamento-parque-aquarius) - Emergências hidráulicas
+
 Lembre-se: prevenir é sempre mais barato que remediar. Uma manutenção anual de R$ 250-350 pode evitar um reparo emergencial de R$ 800-2.500.
 
 **Precisa de um técnico agora?** Acesse nosso diretório de profissionais verificados e encontre atendimento rápido em São José dos Campos.
@@ -229,4 +270,4 @@ Lembre-se: prevenir é sempre mais barato que remediar. Uma manutenção anual d
 
 ---
 
-*Última atualização: Novembro 2025 | Preços e informações sujeitas a alteração*
+*Última atualização: 9 de janeiro de 2026 | Preços praticados em São José dos Campos* | Preços e informações sujeitas a alteração*
