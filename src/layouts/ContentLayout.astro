@@ -59,7 +59,7 @@ const generateSchema = () => {
   "headline": title,
   "description": description,
   "datePublished": formatDateISO(date),  // ADD formatDateISO()
-  "dateModified": formatDateISO(dateModified || date),
+  "dateModified": dateModified || date || new Date().toISOString(),
       "author": {
         "@type": "Organization",
         "name": "Serviços Urgentes",

@@ -2,8 +2,8 @@
 layout: ../../layouts/ContentLayout.astro
 title: "Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos"
 description: "Seu ar-condicionado parou de funcionar no calor? Saiba o que fazer imediatamente, quando chamar um profissional e quanto custa o reparo em São José dos Campos."
-date: 2025-11-17
-dateModified: 2025-01-09  # ADD THIS - shows content is current
+date: "2025-11-17T10:00:00-03:00"
+dateModified: "2026-01-10T16:00:00-03:00"
 category: "Guias de Emergência"
 author:
   name: "Equipe Serviços Urgentes"
