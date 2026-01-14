@@ -11,6 +11,7 @@ export interface Props {
   region?: string;
   category?: string;
   date?: string;
+  dateModified?: string;  // ADDED
   keywords?: string;
   frontmatter?: any;
 }
@@ -24,6 +25,7 @@ const {
   region = frontmatter.region,
   category = frontmatter.category,
   date = frontmatter.date,
+  dateModified = frontmatter.dateModified || frontmatter.date,  // ADDED WITH FALLBACK
   keywords = frontmatter.keywords
 } = Astro.props;
 
@@ -55,11 +57,11 @@ const generateSchema = () => {
     // Article Schema for Blog Posts
     const articleSchema = {
       "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": title,
-  "description": description,
-  "datePublished": formatDateISO(date),  // ADD formatDateISO()
-  "dateModified": dateModified || date || new Date().toISOString(),
+      "@type": "Article",
+      "headline": title,
+      "description": description,
+      "datePublished": formatDateISO(date),
+      "dateModified": formatDateISO(dateModified),  // FIXED: Now uses formatDateISO consistently
       "author": {
         "@type": "Organization",
         "name": "Serviços Urgentes",
@@ -90,7 +92,7 @@ const generateSchema = () => {
           articleSchema,
           {
             "@type": "FAQPage",
-            "mainEntity": frontmatter.faqSchema.map(faq => ({
+            "mainEntity": frontmatter.faqSchema.map((faq: any) => ({  // FIXED: Added type annotation
               "@type": "Question",
               "name": faq.question,
               "acceptedAnswer": {
