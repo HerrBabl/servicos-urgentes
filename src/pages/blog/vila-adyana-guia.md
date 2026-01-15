@@ -270,4 +270,96 @@ Fazer um Retrofit não é "consertar problema". É preparar sua casa para as pr�
 Não espere a emergência. Cuide da história da sua casa.
 
 ---
+
+## Perguntas Frequentes: Retrofit Vila Adyana
+
+### Quanto custa fazer retrofit completo em uma casa na Vila Adyana?
+
+Para casas típicas de 150-250m² na Vila Adyana, o retrofit completo (hidráulica + elétrica) custa entre **R$ 25.000 e R$ 65.000**. 
+
+Isso inclui:
+- Troca de tubulação de ferro para PVC
+- Modernização do quadro elétrico de fusíveis para disjuntores DIN com DR
+- Adequação de tomadas com aterramento
+
+**Retorno:** O investimento valoriza o imóvel em 10-15% e garante segurança por mais 30-50 anos.
+
+---
+
+### Vale a pena trocar tubulação de ferro galvanizado por PVC?
+
+**Sim, especialmente em casas com 30+ anos.** 
+
+Tubulação de ferro enferruja internamente, causando:
+- Água amarelada
+- Pressão baixa
+- Risco de rompimento
+
+**Investimento:** R$ 8.000-18.000 (casa completa)  
+**Benefícios:** Elimina vazamentos futuros, melhora pressão e qualidade da água, valoriza o imóvel  
+**Visão:** É investimento de longo prazo, não apenas reparo emergencial
+
+---
+
+### Como saber se o quadro elétrico da minha casa precisa ser trocado?
+
+**Sinais claros de que precisa modernizar:**
+
+🚨 **Urgente:**
+- Fusíveis de rosca (tipo "rolha") em vez de disjuntores DIN
+- Fiação exposta ou emendas aparentes
+- Choque leve ao tocar torneiras/chuveiro
+
+⚠️ **Importante:**
+- Luzes oscilando quando liga eletrodomésticos
+- Fusível queimando frequentemente
+- Tomadas sem terra (apenas 2 pinos)
+
+**Custo:** R$ 1.500-4.000  
+**Benefício:** Previne incêndios e choques elétricos, protege eletrônicos
+
+---
+
+### Raízes de árvores podem realmente quebrar tubulação de esgoto?
+
+**Sim, especialmente em casas antigas da Vila Adyana** com tubulação de cerâmica ou cimento amianto.
+
+**Como acontece:**
+Raízes buscam água e crescem ao redor (e dentro) de tubos antigos, causando entupimentos progressivos e eventual rompimento.
+
+**Sinais de problema:**
+- Esgoto voltando na pia/vaso
+- Grama mais verde em linha reta no jardim (água vazando alimenta grama)
+- Odor de esgoto no quintal
+
+**Solução:** Desentupimento com hidrojateamento (R$ 500-2.000)  
+**Prevenção:** Manutenção anual + evitar plantar árvores de raiz agressiva perto de tubulação
+
+---
+
+### Posso fazer retrofit aos poucos ou preciso fazer tudo de uma vez?
+
+**Pode fazer por etapas, mas priorize por risco:**
+
+**🔴 URGENTE (Fazer Agora):**
+- Fiação exposta
+- Água amarelada constante
+- Fusível queimando toda semana
+
+**🟡 IMPORTANTE (6-12 meses):**
+- Tomadas sem terra
+- Fusíveis antigos (trocar por disjuntores)
+- Pressão de água fraca
+
+**🟢 MELHORIAS (Quando Possível):**
+- Estética
+- Eficiência energética
+- Automação
+
+**Dica Financeira:** O ideal é fazer hidráulica e elétrica juntas para evitar quebrar paredes duas vezes, mas se o orçamento não permitir, comece pelos riscos imediatos de segurança.
+
+> **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
+
+---
+
 **Serviços Urgentes SJC:** Conectando moradores que amam o bairro a profissionais que respeitam sua casa.
