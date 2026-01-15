@@ -14,8 +14,6 @@ tags: ["Urbanova", "Ar Condicionado", "Alto Padrão", "Climatização"]
 category: "Guia de Bairro"
 faqSchema: 
   - question: "Qual o melhor sistema de ar-condicionado para casas com pé-direito duplo no Urbanova?"
-    answer: "Para pé-direito duplo, o ideal é um sistema VRF ou Multi-Split com capacidade acima de 30.000 BTUs..."
-  - question: "Qual o melhor sistema de ar-condicionado para casas com pé-direito duplo no Urbanova?"
     answer: "Para pé-direito duplo, o ideal é um sistema VRF ou Multi-Split com capacidade acima de 30.000 BTUs. Evite aparelhos Hi-Wall pequenos instalados no alto da parede, pois desperdiçam energia tentando resfriar grandes volumes de ar. Sistemas cassette ou dutados com posicionamento estratégico garantem conforto onde as pessoas realmente estão."
   
   - question: "Quanto custa instalar climatização completa em uma casa no Urbanova?"
@@ -205,6 +203,25 @@ Sistemas de alto padrão exigem manutenção especializada. Não é qualquer té
 - Operação silenciosa
 
 *Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
+
+## Perguntas Frequentes: Climatização no Urbanova
+
+### Qual o melhor sistema de ar-condicionado para casas com pé-direito duplo no Urbanova?
+Para pé-direito duplo, o ideal é um sistema VRF ou Multi-Split com capacidade acima de 30.000 BTUs. Evite aparelhos Hi-Wall pequenos instalados no alto da parede, pois desperdiçam energia tentando resfriar grandes volumes de ar. Sistemas cassette ou dutados com posicionamento estratégico garantem conforto onde as pessoas realmente estão.
+
+### Quanto custa instalar climatização completa em uma casa no Urbanova?
+Para uma casa de 300-400m² no Urbanova, a climatização completa varia de R$ 40.000 a R$ 120.000, dependendo do sistema escolhido. VRF (mais sofisticado) custa R$ 80.000-120.000. Multi-Split convencional: R$ 40.000-70.000. Sistemas dutados invisíveis: R$ 60.000-100.000. Inclui equipamentos, instalação e adequação elétrica.
+
+### Por que o Urbanova é mais quente que outros bairros de São José dos Campos?
+O Urbanova é geograficamente mais alto e aberto, com menor densidade de prédios criando sombra. As casas têm grandes áreas de vidro e arquitetura moderna que maximiza a entrada de luz solar. Somado ao clima já quente de SJC (38°C no verão), isso cria um desafio térmico único que exige sistemas de climatização mais potentes.
+
+### Sistema VRF vale a pena para residências?
+Para casas com 5+ ambientes climatizados no Urbanova, sim. O VRF usa uma única condensadora externa potente que alimenta todas as unidades internas, evitando poluição visual com múltiplas máquinas na fachada. Oferece economia de energia de até 30%, silêncio absoluto e integração com automação residencial. Investimento inicial maior, mas ROI em 4-6 anos.
+
+### Preciso reforçar a parte elétrica para instalar ar-condicionado VRF?
+Sim, quase sempre. Casas no Urbanova com climatização completa precisam de carga elétrica entre 15-25 kW apenas para os ACs. Antes de comprar os equipamentos, faça uma avaliação de carga com eletricista qualificado. Pode ser necessário upgrades como: aumento de disjuntores, cabos de maior bitola, ou até revisão do padrão de entrada com a concessionária.
+
+> **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
 
 ---
 **Serviços Urgentes SJC:** Conectando a excelência do Urbanova aos melhores profissionais da cidade.

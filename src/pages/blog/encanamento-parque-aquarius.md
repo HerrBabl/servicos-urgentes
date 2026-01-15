@@ -128,7 +128,7 @@ Transparência de preços ajuda a evitar surpresas. Veja valores praticados por 
 
 💡 **Sistemas de alto padrão:** Se você mora em casa (não apartamento), veja nosso [guia de climatização para Urbanova](/blog/climatizacao-urbanova) — lá explicamos sistemas VRF e pressão diferenciada.
 
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
+> **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
 ---
 
 ### Aquecedores a Gás: Manutenção Essencial
@@ -260,13 +260,18 @@ Além de encanamento, você pode precisar de:
 **Resposta:** O inquilino é responsável por vazamentos em torneiras, sifões e registros, pois são considerados desgaste por uso normal. O proprietário só paga se o problema for estrutural (tubulação embutida na parede).
 
 ### Vazamento na laje: quem paga no condomínio?
-**Resposta:** Se a infiltração vem da laje (impermeabilização), é responsabilidade do condomínio ou do proprietário do apartamento de cima, nunca do inquilino de baixo. O apartamento de baixo deve acionar o síndico.
+**Resposta:** Se a infiltração vem da laje (impermeabilização), é responsabilidade do condomínio ou do proprietário do apartamento de cima, nunca do inquilino de baixo. O apartamento afetado deve acionar o síndico para que este tome as providências cabíveis junto ao responsável.
 
-### Posso descontar o reparo do aluguel?
-**Resposta:** Não automaticamente. O inquilino deve avisar o proprietário primeiro (por escrito, com prazo para resposta). Se houver urgência e o locador não responder em tempo razoável, o inquilino pode fazer o reparo e negociar reembolso com comprovantes (fotos + nota fiscal).
+### Posso descontar o reparo do aluguel sem autorização do proprietário??
+**Resposta:** Não automaticamente. O inquilino deve avisar o proprietário primeiro por escrito, com prazo razoável para resposta. Se houver urgência e o locador não responder em tempo hábil, o inquilino pode fazer o reparo emergencial para evitar danos maiores e negociar reembolso posteriormente com comprovantes (fotos, vídeos e nota fiscal).
 
-### Flexível estourou: quem paga?
-**Resposta:** Se o flexível é antigo e estourou por desgaste natural, pode ser responsabilidade do proprietário. Se é novo e estourou por uso inadequado (apertar demais, torcer), é do inquilino. **Na dúvida, documente com fotos e negocie.**
+### Flexível de torneira estourou: quem é responsável pelo reparo??
+**Resposta:** Depende da causa. Se o flexível é antigo e estourou por desgaste natural ou pressão excessiva da rede (problema na válvula redutora), pode ser responsabilidade do proprietário. Se é novo e estourou por uso inadequado (apertar demais, dobrar incorretamente), é do inquilino. Documente com fotos e negocie com base nas evidências. **Na dúvida, documente com fotos e negocie.**
+
+### Quanto custa chamar encanador de emergência no Parque Aquarius?
+**Resposta:** Visita técnica diagnóstica: R$ 100-180. Reparos comuns: troca de registro R$ 150-300, reparo de vazamento R$ 200-500, troca de válvula redutora de pressão R$ 400-800. Atendimentos noturnos e finais de semana têm acréscimo de 30-50%. Sempre solicite orçamento antes de autorizar o serviço.
+
+> **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
 
 ---
 *Mora no Aquarius? Salve este guia e compartilhe no grupo do seu condomínio!*

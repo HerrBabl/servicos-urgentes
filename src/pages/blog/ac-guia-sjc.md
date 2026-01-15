@@ -12,16 +12,16 @@ image: "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?q=80&w=800&
 keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, técnico ar-condicionado urgente"
 canonicalURL: "https://servicosurgentes.com/blog/ac-guia-sjc"  # ADD THIS
 faqSchema:
-  - question: "O que fazer quando o ar-condicionado para de funcionar?"
-    answer: "Primeiro, verifique se o disjuntor não desarmou e se o filtro não está sujo. Confirme se o controle remoto tem pilhas funcionando. Se tudo estiver ok e o AC não ligar, é hora de chamar um técnico especializado."
-  - question: "Quanto custa para consertar um ar-condicionado em São José dos Campos?"
-    answer: "O custo varia de R$ 150 a R$ 800 dependendo do problema. Visita técnica: R$ 80-150. Recarga de gás: R$ 200-400. Troca de placa eletrônica: R$ 300-800. Limpeza completa: R$ 150-300."
-  - question: "Como escolher um técnico de ar-condicionado confiável?"
-    answer: "Procure profissionais com no mínimo 4 estrelas de avaliação, verifique se possuem certificação técnica, peça orçamento detalhado antes do serviço, e confirme se oferecem garantia do trabalho realizado."
-  - question: "Quando devo chamar um técnico de emergência?"
-    answer: "Chame um técnico de emergência se houver cheiro de queimado, barulhos estranhos no motor, vazamento de água excessivo, ou se o ambiente estiver muito quente e houver pessoas em situação de risco (idosos, crianças, pessoas com problemas de saúde)."
-  - question: "Qual a diferença entre manutenção preventiva e corretiva?"
-    answer: "Manutenção preventiva é feita regularmente (a cada 6 meses) para evitar problemas, custando R$ 150-250. Manutenção corretiva é feita quando algo quebra, geralmente mais cara (R$ 200-800+) pois envolve substituição de peças."
+  - question: "Quanto custa a limpeza de ar-condicionado em SJC?"
+    answer: "A limpeza preventiva em São José dos Campos varia entre R$ 200 e R$ 350 para aparelhos Hi-Wall de até 12.000 BTUs. Modelos maiores ou sistemas Multi-Split podem chegar a R$ 600. A manutenção anual é recomendada para evitar o consumo excessivo de energia."
+  - question: "Ar-condicionado parou de gelar: o que pode ser?"
+    answer: "Os problemas mais comuns em SJC são filtros sujos, falta de gás por vazamento na tubulação ou capacitor queimado devido a oscilações na rede elétrica. Um diagnóstico técnico custa entre R$ 100 e R$ 180."
+  - question: "Qual a melhor marca de ar-condicionado para o clima de SJC?"
+    answer: "Para o clima local, marcas com boa rede de assistência técnica na região, como Daikin, Fujitsu e LG, são recomendadas. Modelos Inverter são essenciais para economia de energia, especialmente em bairros como Aquarius e Urbanova."
+  - question: "Quanto tempo demora a instalação de um ar-condicionado?"
+    answer: "Uma instalação padrão Hi-Wall leva de 3 a 5 horas. No Jardim das Colinas e Aquarius, o tempo pode ser maior devido a exigências de furação em varandas técnicas ou altura elevada."
+  - question: "Vale a pena consertar ar-condicionado antigo?"
+    answer: "Se o custo do reparo ultrapassar 30-40% do valor de um novo ou se o gás for o antigo R-22, a substituição por um modelo Inverter R-32 é mais vantajosa a longo prazo devido à economia de 60% na conta de luz."
 ---
 
 # Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos
@@ -230,28 +230,24 @@ Não perca tempo procurando técnicos em listas intermináveis. No [Serviços Ur
 
 ✅ **Avaliação mínima de 4 estrelas** ✅ **Experiência comprovada em emergências** ✅ **Atendimento 24 horas (quando disponível)** ✅ **Cobertura em todos os bairros de SJC** [**→ Encontre um técnico de ar-condicionado agora**](https://servicosurgentes.com/servicos/ar-condicionado)
 
-## Perguntas Frequentes (FAQ)
+## Perguntas Frequentes: Ar-Condicionado em SJC
 
-### Quanto tempo leva um reparo de emergência?
-Depende do problema. Limpezas e reparos simples: 1-2 horas. Troca de compressor ou reparos complexos: 3-6 horas ou mais.
+### Quanto custa a limpeza de ar-condicionado em SJC?
+**Resposta:** A limpeza preventiva varia entre R$ 200 e R$ 350 para aparelhos Hi-Wall de até 12.000 BTUs. Modelos maiores ou sistemas Multi-Split podem chegar a R$ 600.
 
-### O técnico sempre tem as peças no veículo?
-Peças comuns (capacitores, fusíveis) geralmente sim. Compressores e placas eletrônicas normalmente precisam ser encomendadas.
+### Ar-condicionado parou de gelar: o que pode ser?
+**Resposta:** Os problemas mais comuns são filtros sujos, falta de gás ou capacitor queimado. Um diagnóstico técnico custa entre R$ 100 e R$ 180.
 
-### Vale a pena consertar ou comprar novo?
-Se o custo do reparo ultrapassar 50% do valor de um aparelho novo, considere a substituição. Aparelhos com mais de 10 anos geralmente não compensam reparos caros.
+### Qual a melhor marca de ar-condicionado para o clima de SJC?
+**Resposta:** Marcas com boa rede local, como Daikin, Fujitsu e LG (modelos Inverter), são as mais indicadas para SJC.
 
-### Posso usar o ar-condicionado parcialmente quebrado?
-Depende. Se está apenas esfriando menos, pode usar. Se há cheiro de queimado, faíscas ou desarme de disjuntor, desligue imediatamente.
+### Quanto tempo demora a instalação?
+D**Resposta:** e 3 a 5 horas em instalações padrão. Em edifícios de alto padrão com varanda técnica, o tempo pode ser superior.
 
-### Como funciona a garantia dos reparos?
-Pergunte ao profissional sobre a garantia oferecida para serviços e peças trocadas. Sempre solicite as condições de garantia por escrito antes de autorizar o serviço.
+### Vale a pena consertar ar-condicionado antigo?
+**Resposta:** Se o reparo custar mais de 40% de um novo ou usar gás R-22, a troca por um Inverter moderno é o melhor investimento.
 
-### Emergência à noite ou final de semana custa mais caro?
-Sim. Atendimentos fora do horário comercial geralmente têm valores diferenciados. Sempre confirme os custos antes de contratar o serviço.
-
-### Ar-condicionado velho gasta mais energia?
-Sim. Aparelhos com mais de 8-10 anos podem consumir 30-40% mais energia que modelos novos com selo Procel A.
+> **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
 
 ## Conclusão: Aja Rápido, Mas Com Inteligência
 
