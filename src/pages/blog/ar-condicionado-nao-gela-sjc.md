@@ -7,7 +7,7 @@ dateModified: "2026-01-15T16:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1570222020676-d03bc931cc5e?q=80&w=800&auto=format&fit=crop"
+image: "https://plus.unsplash.com/premium_photo-1682126012378-859ca7a9f4cf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWlyJTIwY29uZGl0aW9uaW5nJTIwcmVwYWlyfGVufDB8fDB8fHww"
 tags: ["Ar-Condicionado", "Manutenção", "SJC", "Emergência"]
 slug: "ar-condicionado-nao-gela-sjc"
 category: "Guia de Emergência"
