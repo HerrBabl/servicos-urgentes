@@ -133,19 +133,19 @@ Para não ficar na mão quando os termômetros baterem 35°C em SJC:
 ## Perguntas Frequentes
 
 ### Por que meu ar-condicionado parou de gelar de repente?
-As causas mais comuns em SJC são filtros sujos, vazamento de gás ou o capacitor do compressor queimado por oscilações na rede. Um diagnóstico técnico custa de R$ 100 a R$ 180.
+**Resposta:** As causas mais comuns em SJC são filtros sujos, vazamento de gás ou o capacitor do compressor queimado por oscilações na rede. Um diagnóstico técnico custa de R$ 100 a R$ 180.
 
 ### Quanto custa uma carga de gás de ar-condicionado em SJC?
-Varia entre R$ 250 e R$ 550, dependendo do fluido (R-410A ou R-32) e se há necessidade de reparo na tubulação.
+**Resposta:** Varia entre R$ 250 e R$ 550, dependendo do fluido (R-410A ou R-32) e se há necessidade de reparo na tubulação.
 
 ### Filtro sujo pode impedir o ar de gelar?
-Sim. A poeira bloqueia a passagem do ar e a troca de calor, podendo causar congelamento da evaporadora.
+**Resposta:** Sim. A poeira bloqueia a passagem do ar e a troca de calor, podendo causar congelamento da evaporadora.
 
 ### Quanto tempo dura o gás do ar-condicionado?
-O gás não acaba por uso. Se o nível baixou, existe um vazamento que precisa ser localizado e reparado.
+**Resposta:** O gás não acaba por uso. Se o nível baixou, existe um vazamento que precisa ser localizado e reparado.
 
 ### Ar-condicionado saindo água por dentro, o que fazer?
-Isso indica dreno entupido ou sujeira na bandeja. Desligue o aparelho e chame um técnico para limpeza profunda.
+**Resposta:** Isso indica dreno entupido ou sujeira na bandeja. Desligue o aparelho e chame um técnico para limpeza profunda.
 
 ---
 **Precisa de um técnico de ar-condicionado verificado agora?**
