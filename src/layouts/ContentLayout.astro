@@ -11,11 +11,11 @@ export interface Props {
   region?: string;
   category?: string;
   date?: string;
+  dateModified?: string; // ✅ Added to fix error
   keywords?: string;
   frontmatter?: any;
-  // ✅ WE ADD THESE TWO LINES TO FIX THE ERROR:
-  image?: string;
-  imageAlt?: string;
+  image?: string;      // ✅ Added to fix error
+  imageAlt?: string;   // ✅ Added to fix error
 }
 
 // Get data from either direct props or frontmatter (for markdown files)
@@ -27,12 +27,13 @@ const {
   region = frontmatter.region,
   category = frontmatter.category,
   date = frontmatter.date,
+  dateModified = frontmatter.dateModified, // ✅ Added to fix error
   keywords = frontmatter.keywords,
-  // ✅ NOW THIS WILL WORK WITHOUT ERRORS:
   image = frontmatter.image,
   imageAlt = frontmatter.imageAlt
 } = Astro.props;
 
+// ✅ Fixed: Only declared once
 const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
 
 // Helper function to ensure ISO 8601 format with timezone
@@ -48,8 +49,6 @@ const formatDateISO = (dateStr: string | undefined) => {
   const date = new Date(dateStr + 'T12:00:00-03:00');
   return date.toISOString();
 };
-
-const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
 
 // Determine if this is a neighborhood page or blog post
 const isNeighborhood = !!neighborhood;
