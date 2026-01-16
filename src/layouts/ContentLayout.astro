@@ -11,9 +11,11 @@ export interface Props {
   region?: string;
   category?: string;
   date?: string;
-  dateModified?: string;  // ADDED
   keywords?: string;
   frontmatter?: any;
+  // ✅ WE ADD THESE TWO LINES TO FIX THE ERROR:
+  image?: string;
+  imageAlt?: string;
 }
 
 // Get data from either direct props or frontmatter (for markdown files)
@@ -25,11 +27,13 @@ const {
   region = frontmatter.region,
   category = frontmatter.category,
   date = frontmatter.date,
-  dateModified = frontmatter.dateModified || frontmatter.date,  // ADDED WITH FALLBACK
-  keywords = frontmatter.keywords
+  keywords = frontmatter.keywords,
+  // ✅ NOW THIS WILL WORK WITHOUT ERRORS:
   image = frontmatter.image,
   imageAlt = frontmatter.imageAlt
 } = Astro.props;
+
+const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
 
 // Helper function to ensure ISO 8601 format with timezone
 const formatDateISO = (dateStr: string | undefined) => {
