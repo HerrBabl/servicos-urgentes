@@ -27,6 +27,8 @@ const {
   date = frontmatter.date,
   dateModified = frontmatter.dateModified || frontmatter.date,  // ADDED WITH FALLBACK
   keywords = frontmatter.keywords
+  image = frontmatter.image,
+  imageAlt = frontmatter.imageAlt
 } = Astro.props;
 
 // Helper function to ensure ISO 8601 format with timezone
@@ -279,9 +281,17 @@ const serviceSchema = isNeighborhood ? {
     </section>
 
     <!-- Content Section (styled like your FAQ cards) -->
-    <main class="py-12 bg-gray-50">
+<main class="py-12 bg-gray-50">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <article class="bg-white rounded-lg shadow-md p-8 md:p-12 prose-content">
+          
+          {image && (
+            <img 
+              src={image} 
+              alt={imageAlt || title} 
+              class="w-full h-auto rounded-xl mb-8 object-cover shadow-sm"
+            />
+          )}
           <slot />
         </article>
       </div>
