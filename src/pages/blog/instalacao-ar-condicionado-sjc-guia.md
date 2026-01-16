@@ -7,7 +7,7 @@ dateModified: "2026-01-17T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?q=80&w=800&auto=format&fit=crop"
+image: "https://plus.unsplash.com/premium_photo-1764702420139-edca42d70aa1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFjJTIwaW5zdGFsbGF0aW9ufGVufDB8fDB8fHww"
 imageAlt: "Técnico realizando a instalação profissional de unidade condensadora de ar-condicionado em São José dos Campos"
 tags: ["Ar-Condicionado", "Instalação", "SJC", "Guia de Compra"]
 slug: "instalacao-ar-condicionado-sjc-guia"
