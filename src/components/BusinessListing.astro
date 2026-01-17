@@ -2,453 +2,229 @@
 export interface Props {
   businesses: any[];
   serviceTitle: string;
-  serviceDescription?: string; // ✅ We added this line
+  serviceDescription?: string;
 }
 
 const { businesses, serviceTitle, serviceDescription } = Astro.props;
+
+// ✅ SMART LOGIC: Automatically extract unique neighborhoods from the data
+const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filter(n => n))].sort();
 ---
 
-<div class="directory-header">
-    <h1>{serviceTitle}</h1>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  
+  <div class="text-center mb-12">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      {serviceTitle}
+    </h1>
 
     {serviceDescription && (
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-2 mb-4">
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-6 leading-relaxed">
         {serviceDescription}
       </p>
     )}
 
-    <p class="subtitle">
+    <div class="inline-flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
+      <span class="mr-2">✓</span>
       {businesses.length} profissionais verificados com 4+ estrelas
-    </p>
+    </div>
   </div>
 
-  <div class="filters">
-    <input 
-      type="text" 
-      id="searchInput" 
-      placeholder="Buscar por nome ou bairro..."
-      class="search-box"
-    />
-    
-    <select id="neighborhoodFilter" class="filter-select">
-      <option value="">Todos os bairros</option>
-      <option value="Aquarius">Parque Residencial Aquarius</option>
-      <option value="Bosque dos Eucaliptos">Bosque dos Eucaliptos</option>
-      <option value="Centro">Centro</option>
-      <option value="Jardim das Colinas">Jardim das Colinas</option>
-      <option value="São Dimas">São Dimas</option>
-      <option value="Urbanova">Urbanova</option>
-      <option value="Vila Adyana">Vila Adyana</option>
+  <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 mb-8">
+    <div class="flex flex-col md:flex-row gap-4 items-center justify-between">
       
-      <option value="Bosque dos Ipês">Bosque dos Ipês</option>
-      <option value="Cidade Morumbi">Cidade Morumbi</option>
-      <option value="Dom Pedro II">Dom Pedro II</option>
-      <option value="Jardim Aeroporto">Jardim Aeroporto</option>
-      <option value="Jardim Alvorada">Jardim Alvorada</option>
-      <option value="Jardim América">Jardim América</option>
-      <option value="Jardim da Granja">Jardim da Granja</option>
-      <option value="Jardim das Azaleias">Jardim das Azaleias</option>
-      <option value="Jardim das Indústrias">Jardim das Indústrias</option>
-      <option value="Jardim Ismenia">Jardim Ismenia</option>
-      <option value="Jardim Morumbi">Jardim Morumbi</option>
-      <option value="Jardim Oriente">Jardim Oriente</option>
-      <option value="Jardim São Dimas">Jardim São Dimas</option>
-      <option value="Jardim São Vicente">Jardim São Vicente</option>
-      <option value="Jardim Satélite">Jardim Satélite</option>
-      <option value="Jardim Vale do Sol">Jardim Vale do Sol</option>
-      <option value="Palmeiras de São José">Palmeiras de São José</option>
-      <option value="Parque Industrial">Parque Industrial</option>
-      <option value="Res. de Ville">Res. de Ville</option>
-      <option value="Vila Cândida">Vila Cândida</option>
-      <option value="Vila Ema">Vila Ema</option>
-      <option value="Vila Nair">Vila Nair</option>
-      <option value="Vila São Bento">Vila São Bento</option>
-      <option value="Vila Tesouro">Vila Tesouro</option>
-      <option value="Vista Verde">Vista Verde</option>
-    </select>
+      <div class="relative w-full md:w-1/2">
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Buscar por nome..."
+          class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+        />
+      </div>
 
-    <label class="filter-checkbox">
-      <input type="checkbox" id="only24h" />
-      Apenas 24 horas
-    </label>
+      <div class="flex flex-wrap gap-4 w-full md:w-auto items-center">
+        <select id="neighborhoodFilter" class="block w-full md:w-auto pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md">
+          <option value="">Todos os bairros</option>
+          {uniqueNeighborhoods.map(hood => (
+            <option value={hood}>{hood}</option>
+          ))}
+        </select>
+
+        <label class="inline-flex items-center cursor-pointer bg-gray-50 px-3 py-2 rounded-lg border border-gray-200">
+          <input type="checkbox" id="only24h" class="form-checkbox h-5 w-5 text-blue-600 rounded" />
+          <span class="ml-2 text-gray-700 font-medium">Apenas 24h</span>
+        </label>
+      </div>
+    </div>
   </div>
 
-  <div class="results-count">
-    Mostrando <span id="resultCount">{businesses.length}</span> resultados
+  <div class="mb-6 text-gray-500 text-sm">
+    Mostrando <span id="resultCount" class="font-bold text-gray-900">{businesses.length}</span> resultados
   </div>
 
-  <div class="business-grid" id="businessGrid">
+  <div id="businessGrid" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     {businesses.map((business) => {
-      // SAFETY CHECK: Normalize data fields so it works with ANY data file
+      // Normalization logic
       const displayName = business.name || business.business_name || "Profissional";
       const displayPhone = business.phone || business.phone_number || "";
       const displayRating = business.rating || business.star_rating || 0;
       const displayReviews = business.reviews || business.total_reviews || 0;
+      const is24h = business.is_24h || business.badges?.includes('24 Horas');
+      const isWomanOwned = business['Identifies as women-owned'] || business.badges?.includes('Empresa de mulheres');
+      const isLgbtq = business['LGBTQ+ friendly'] || business.badges?.includes('LGBTQ+ friendly');
       
       return (
-        <div 
-          class="business-card" 
-          data-name={displayName.toLowerCase()}
-          data-neighborhood={business.neighborhood || ""}
-          data-is24h={business.is_24h || business.badges?.includes('24 Horas')}
-        >
-          <div class="business-header">
-            <h3 class="business-name">{displayName}</h3>
-            <div class="rating">
-              <span class="stars">⭐ {displayRating}</span>
-              <span class="reviews">({displayReviews} avaliações)</span>
+        <div class="business-card bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 overflow-hidden flex flex-col"
+             data-name={displayName.toLowerCase()}
+             data-neighborhood={business.neighborhood || ""}
+             data-is24h={is24h}>
+          
+          <div class="p-6 flex-1">
+            <div class="flex justify-between items-start mb-2">
+              <h3 class="text-xl font-bold text-gray-900 line-clamp-2">{displayName}</h3>
+              {is24h && (
+                <span class="flex-shrink-0 bg-green-100 text-green-800 text-xs font-bold px-2 py-1 rounded-full">
+                  24h
+                </span>
+              )}
             </div>
-          </div>
 
-          <div class="business-info">
-            {business.neighborhood && (
-              <p class="location">📍 {business.neighborhood}</p>
-            )}
+            <div class="flex items-center mb-4">
+              <span class="text-yellow-400 text-lg mr-1">⭐</span>
+              <span class="font-bold text-gray-900 mr-1">{displayRating}</span>
+              <span class="text-gray-500 text-sm">({displayReviews} avaliações)</span>
+            </div>
+
+            <div class="space-y-2 mb-4">
+              {business.neighborhood && (
+                <div class="flex items-start text-gray-600 text-sm">
+                  <span class="mr-2">📍</span>
+                  <span class="font-medium">{business.neighborhood}</span>
+                </div>
+              )}
+              {business.address && (
+                <div class="text-gray-500 text-sm pl-6 line-clamp-2">
+                  {business.address}
+                </div>
+              )}
+            </div>
             
-            {business.address && (
-              <p class="address">{business.address}</p>
-            )}
-
-            <div class="badges">
-              {(business.is_24h || business.badges?.includes('24 Horas')) && (
-                <span class="badge badge-24h">24 Horas</span>
-              )}
-              {(business['Identifies as women-owned'] || business.badges?.includes('Empresa de mulheres')) && (
-                <span class="badge badge-women">Empresa de mulheres</span>
-              )}
-              {(business['LGBTQ+ friendly'] || business.badges?.includes('LGBTQ+ friendly')) && (
-                <span class="badge badge-lgbtq">LGBTQ+ friendly</span>
-              )}
-               {business.badges?.includes('Verificado') && (
-                <span class="badge badge-verified">Verificado</span>
-              )}
+            <div class="flex flex-wrap gap-2 mt-3">
+               {isWomanOwned && (
+                 <span class="bg-pink-100 text-pink-700 px-2 py-1 rounded-md text-xs font-medium">
+                   Empresa de mulheres
+                 </span>
+               )}
+               {isLgbtq && (
+                 <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded-md text-xs font-medium">
+                   LGBTQ+
+                 </span>
+               )}
             </div>
           </div>
 
-          <div class="business-actions">
+          <div class="bg-gray-50 px-6 py-4 border-t border-gray-100 grid grid-cols-2 gap-3">
             {displayPhone && (
-              <a 
-                href={`tel:${displayPhone.replace(/\D/g,'')}`}
-                class="btn btn-call"
-              >
+              <a href={`tel:${displayPhone.replace(/\D/g, '')}`} 
+                 class="flex items-center justify-center bg-blue-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors">
                 📞 Ligar
               </a>
             )}
             
-            {(business.whatsapp === true || (typeof business.whatsapp === 'string' && business.whatsapp.length > 5)) && (
-              <a 
-                href={typeof business.whatsapp === 'string' ? business.whatsapp : `https://wa.me/55${displayPhone.replace(/\D/g,'')}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-whatsapp"
-              >
-                💬 WhatsApp
+            {(business.whatsapp === true || (typeof business.whatsapp === 'string' && business.whatsapp.length > 5)) ? (
+              <a href={typeof business.whatsapp === 'string' ? business.whatsapp : `https://wa.me/55${displayPhone.replace(/\D/g,'')}`}
+                 target="_blank"
+                 class="flex items-center justify-center bg-green-500 text-white py-2 px-4 rounded-lg font-medium hover:bg-green-600 transition-colors">
+                WhatsApp
               </a>
-            )}
-            
-            {business.website && business.website !== '' && business.website !== 'N/A' && business.website !== 'None' && (
-              <a 
-                href={business.website.startsWith('http') ? business.website : `https://${business.website}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-website"
-              >
-                🌐 Site
-              </a>
+            ) : (
+               <button disabled class="bg-gray-200 text-gray-400 py-2 px-4 rounded-lg font-medium cursor-not-allowed">
+                 WhatsApp
+               </button>
             )}
           </div>
-
-          <div class="business-footer">
-             <span class="last-updated">
-              {business.description && (
-                <span class="text-sm text-gray-500 block mt-2 italic">"{business.description}"</span>
-              )}
-             </span>
-          </div>
+          
+          {business.description && (
+             <div class="px-6 pb-4 bg-gray-50 text-xs text-gray-500 italic">
+               "{business.description}"
+             </div>
+          )}
         </div>
       );
     })}
   </div>
 
-  {businesses.length === 0 && (
-    <div class="no-results">
-      <p>Nenhum profissional encontrado com esses critérios.</p>
-    </div>
-  )}
-</div>
+  <div id="noResults" class="hidden text-center py-16 bg-gray-50 rounded-xl border-2 border-dashed border-gray-200">
+    <div class="text-4xl mb-4">🔍</div>
+    <h3 class="text-lg font-medium text-gray-900">Nenhum profissional encontrado</h3>
+    <p class="text-gray-500">Tente ajustar seus filtros ou buscar por outro termo.</p>
+    <button id="clearSearch" class="mt-4 text-blue-600 font-medium hover:underline">
+      Limpar todos os filtros
+    </button>
+  </div>
 
-<style>
-  /* Same styles as before, just added verified badge style */
-  .business-directory {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-  }
-
-  .directory-header {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-
-  .directory-header h1 {
-    font-size: 2.5rem;
-    color: #1a202c;
-    margin-bottom: 0.5rem;
-  }
-
-  .subtitle {
-    font-size: 1.125rem;
-    color: #718096;
-  }
-
-  .filters {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
-  }
-
-  .search-box {
-    flex: 1;
-    min-width: 250px;
-    padding: 0.75rem 1rem;
-    border: 2px solid #e2e8f0;
-    border-radius: 8px;
-    font-size: 1rem;
-  }
-
-  .filter-select {
-    padding: 0.75rem 1rem;
-    border: 2px solid #e2e8f0;
-    border-radius: 8px;
-    font-size: 1rem;
-    background: white;
-  }
-
-  .filter-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1rem;
-    background: #f7fafc;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-
-  .results-count {
-    margin-bottom: 1.5rem;
-    color: #4a5568;
-    font-weight: 500;
-  }
-
-  .business-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
-  }
-
-  .business-card {
-    background: white;
-    border: 2px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 1.5rem;
-    transition: all 0.3s ease;
-  }
-
-  .business-card:hover {
-    border-color: #3182ce;
-    box-shadow: 0 4px 12px rgba(49, 130, 206, 0.15);
-    transform: translateY(-2px);
-  }
-
-  .business-header {
-    margin-bottom: 1rem;
-  }
-
-  .business-name {
-    font-size: 1.25rem;
-    color: #1a202c;
-    margin-bottom: 0.5rem;
-  }
-
-  .rating {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .stars {
-    color: #f59e0b;
-    font-weight: 600;
-  }
-
-  .reviews {
-    color: #718096;
-    font-size: 0.875rem;
-  }
-
-  .business-info {
-    margin-bottom: 1.5rem;
-  }
-
-  .location {
-    color: #4a5568;
-    margin-bottom: 0.25rem;
-    font-weight: 500;
-  }
-
-  .address {
-    color: #718096;
-    font-size: 0.875rem;
-    margin-bottom: 1rem;
-  }
-
-  .badges {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-  .badge {
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 600;
-  }
-
-  .badge-24h {
-    background: #10b981;
-    color: white;
-  }
-
-  .badge-women {
-    background: #ec4899;
-    color: white;
-  }
-
-  .badge-lgbtq {
-    background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f, #2ecc71, #3498db, #9b59b6);
-    color: white;
-  }
-  
-  .badge-verified {
-    background: #4299e1;
-    color: white;
-  }
-
-  .business-actions {
-    display: flex;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-  }
-
-  .btn {
-    flex: 1;
-    padding: 0.75rem 1rem;
-    border-radius: 8px;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.2s ease;
-  }
-
-  .btn-call {
-    background: #3182ce;
-    color: white;
-  }
-
-  .btn-call:hover {
-    background: #2c5282;
-  }
-
-  .btn-whatsapp {
-    background: #25d366;
-    color: white;
-  }
-
-  .btn-whatsapp:hover {
-    background: #1da851;
-  }
-
-  .btn-website {
-    background: #718096;
-    color: white;
-  }
-
-  .btn-website:hover {
-    background: #4a5568;
-  }
-
-  .business-footer {
-    padding-top: 1rem;
-    border-top: 1px solid #e2e8f0;
-  }
-
-  .last-updated {
-    font-size: 0.75rem;
-    color: #a0aec0;
-  }
-
-  .no-results {
-    text-align: center;
-    padding: 3rem;
-    color: #718096;
-  }
-
-  @media (max-width: 768px) {
-    .business-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .filters {
-      flex-direction: column;
-    }
-
-    .business-actions {
-      flex-direction: column;
-    }
-  }
-</style>
+</section>
 
 <script>
-  // Search and filter functionality
-  const searchInput = document.getElementById('searchInput') as HTMLInputElement;
-  const neighborhoodFilter = document.getElementById('neighborhoodFilter') as HTMLSelectElement;
-  const only24hCheckbox = document.getElementById('only24h') as HTMLInputElement;
-  const businessCards = document.querySelectorAll('.business-card');
-  const resultCount = document.getElementById('resultCount');
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+    const neighborhoodFilter = document.getElementById('neighborhoodFilter') as HTMLSelectElement;
+    const only24hCheckbox = document.getElementById('only24h') as HTMLInputElement;
+    const cards = document.querySelectorAll('.business-card');
+    const noResults = document.getElementById('noResults');
+    const resultCount = document.getElementById('resultCount');
+    const clearSearch = document.getElementById('clearSearch');
 
-  function filterBusinesses() {
-    const searchTerm = searchInput.value.toLowerCase();
-    const selectedNeighborhood = neighborhoodFilter.value;
-    const only24h = only24hCheckbox.checked;
+    function filterCards() {
+      const searchTerm = searchInput.value.toLowerCase();
+      const selectedHood = neighborhoodFilter.value;
+      const showOnly24h = only24hCheckbox.checked;
+      
+      let visibleCount = 0;
 
-    let visibleCount = 0;
+      cards.forEach((card) => {
+        const name = (card as HTMLElement).dataset.name || '';
+        const neighborhood = (card as HTMLElement).dataset.neighborhood || '';
+        // Handle boolean string conversation
+        const is24h = (card as HTMLElement).dataset.is24h === 'true' || (card as HTMLElement).dataset.is24h === '';
 
-    businessCards.forEach((card) => {
-      const name = card.getAttribute('data-name') || '';
-      const neighborhood = card.getAttribute('data-neighborhood') || '';
-      const is24h = card.getAttribute('data-is24h') === 'true';
+        const matchesSearch = name.includes(searchTerm) || neighborhood.toLowerCase().includes(searchTerm);
+        const matchesHood = selectedHood === '' || neighborhood === selectedHood;
+        const matches24h = !showOnly24h || is24h;
 
-      const matchesSearch = name.includes(searchTerm) || neighborhood.toLowerCase().includes(searchTerm);
-      const matchesNeighborhood = !selectedNeighborhood || neighborhood === selectedNeighborhood;
-      const matches24h = !only24h || is24h;
+        if (matchesSearch && matchesHood && matches24h) {
+          (card as HTMLElement).style.display = 'flex';
+          visibleCount++;
+        } else {
+          (card as HTMLElement).style.display = 'none';
+        }
+      });
 
-      if (matchesSearch && matchesNeighborhood && matches24h) {
-        (card as HTMLElement).style.display = 'block';
-        visibleCount++;
+      // Update UI
+      if (resultCount) resultCount.textContent = visibleCount.toString();
+      
+      if (visibleCount === 0) {
+        noResults?.classList.remove('hidden');
       } else {
-        (card as HTMLElement).style.display = 'none';
+        noResults?.classList.add('hidden');
       }
-    });
-
-    if (resultCount) {
-      resultCount.textContent = visibleCount.toString();
     }
-  }
 
-  searchInput?.addEventListener('input', filterBusinesses);
-  neighborhoodFilter?.addEventListener('change', filterBusinesses);
-  only24hCheckbox?.addEventListener('change', filterBusinesses);
+    // Event Listeners
+    searchInput?.addEventListener('input', filterCards);
+    neighborhoodFilter?.addEventListener('change', filterCards);
+    only24hCheckbox?.addEventListener('change', filterCards);
+    
+    clearSearch?.addEventListener('click', () => {
+      searchInput.value = '';
+      neighborhoodFilter.value = '';
+      only24hCheckbox.checked = false;
+      filterCards();
+    });
+  });
 </script>
