@@ -1,18 +1,22 @@
 ---
-// src/components/BusinessListing.astro
-// Props: businesses (array), serviceTitle (string)
-
-interface Props {
+export interface Props {
   businesses: any[];
   serviceTitle: string;
+  serviceDescription?: string; // ✅ We added this line
 }
 
-const { businesses, serviceTitle } = Astro.props;
+const { businesses, serviceTitle, serviceDescription } = Astro.props;
 ---
 
-<div class="business-directory">
-  <div class="directory-header">
-    <h1>{serviceTitle} em São José dos Campos</h1>
+<div class="directory-header">
+    <h1>{serviceTitle}</h1>
+
+    {serviceDescription && (
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-2 mb-4">
+        {serviceDescription}
+      </p>
+    )}
+
     <p class="subtitle">
       {businesses.length} profissionais verificados com 4+ estrelas
     </p>
