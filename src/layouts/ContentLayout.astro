@@ -11,16 +11,18 @@ export interface Props {
   region?: string;
   category?: string;
   date?: string;
-  dateModified?: string; // ✅ Added to fix error
+  dateModified?: string;
   keywords?: string;
   frontmatter?: any;
-  image?: string;      // ✅ Added to fix error
-  imageAlt?: string;   // ✅ Added to fix error
+  image?: string;
+  imageAlt?: string;
   faqSchema?: Array<{ question: string; answer: string }>;
 }
 
-// Get data from either direct props or frontmatter (for markdown files)
+// 1. Define frontmatter FIRST (This fixes the "Cannot find name" error)
 const frontmatter = Astro.props.frontmatter || {};
+
+// 2. Then use it in the destructuring
 const { 
   title = frontmatter.title, 
   description = frontmatter.description || "Encontre serviços de emergência 24h em São José dos Campos e região.",
@@ -28,15 +30,15 @@ const {
   region = frontmatter.region,
   category = frontmatter.category,
   date = frontmatter.date,
-  dateModified = frontmatter.dateModified, // ✅ Added to fix error
+  dateModified = frontmatter.dateModified,
   keywords = frontmatter.keywords,
   image = frontmatter.image,
-  imageAlt = frontmatter.imageAlt
+  imageAlt = frontmatter.imageAlt,
   faqSchema = frontmatter.faqSchema
 } = Astro.props;
 
-// ✅ Fixed: Only declared once
-const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
+// 3. Define Canonical URL
+const canonicalURL = Astro.props.canonicalURL || frontmatter.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
 
 // Helper function to ensure ISO 8601 format with timezone
 const formatDateISO = (dateStr: string | undefined) => {
