@@ -16,6 +16,7 @@ export interface Props {
   frontmatter?: any;
   image?: string;      // ✅ Added to fix error
   imageAlt?: string;   // ✅ Added to fix error
+  faqSchema?: Array<{ question: string; answer: string }>;
 }
 
 // Get data from either direct props or frontmatter (for markdown files)
@@ -31,6 +32,7 @@ const {
   keywords = frontmatter.keywords,
   image = frontmatter.image,
   imageAlt = frontmatter.imageAlt
+  faqSchema = frontmatter.faqSchema
 } = Astro.props;
 
 // ✅ Fixed: Only declared once
