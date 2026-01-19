@@ -92,7 +92,6 @@ Valores estimados para atendimentos na região central (2026):
 | **Abertura de Carro (Nacional)** | R$ 150 - R$ 200 | R$ 250 - R$ 400 |
 | **Cópia de Chave Simples (na loja)** | R$ 15 - R$ 25 | - |
 
----
 <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
   <div class="flex items-start">
     <div class="flex-shrink-0">
@@ -140,6 +139,7 @@ Valores estimados para atendimentos na região central (2026):
     </div>
   </div>
 </div>
+
 ---
 
 ## 🚗 Chaveiro Automotivo no Centro de SJC
