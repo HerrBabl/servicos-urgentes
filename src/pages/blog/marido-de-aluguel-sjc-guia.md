@@ -2,21 +2,29 @@
 layout: ../../layouts/ContentLayout.astro
 title: "Marido de Aluguel em São José dos Campos: Guia de Preços e Serviços 2026"
 description: "Precisa de pequenos reparos? Saiba quanto custa um Marido de Aluguel em SJC. Instalação de cortinas, quadros, móveis e elétrica básica no Aquarius e Urbanova."
-date: "2026-01-19"
+date: "2026-01-19T09:00:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
 category: "Manutenção Residencial"
-keywords: "marido de aluguel sjc, pequenos reparos são josé dos campos, montador de móveis sjc, instalar cortina aquarius, quanto custa hora marido de aluguel"
+author:
+  name: "Equipe Serviços Urgentes"
+  url: "https://servicosurgentes.com/sobre"
+image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=800"
+imageAlt: "Profissional marido de aluguel realizando reparos residenciais e montagem de móveis em São José dos Campos"
+tags: ["Marido de Aluguel", "Pequenos Reparos", "SJC", "Montagem de Móveis"]
+slug: "marido-de-aluguel-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia"
+keywords: "marido de aluguel sjc, pequenos reparos são josé dos campos, montador de móveis sjc, marido de aluguel sjc, instalar cortina aquarius, quanto custa hora marido de aluguel"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Vila Ema, Satélite"
-canonicalURL: "https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia"
 faqSchema:
   - question: "Quanto custa a hora de um Marido de Aluguel em SJC?"
-    answer: "A média em São José dos Campos para 2026 varia entre R$ 80,00 e R$ 150,00 por hora, ou valores fechados por serviço (ex: R$ 100,00 para instalar varão de cortina)."
+    answer: "A média em São José dos Campos para 2026 varia entre R$ 80,00 e R$ 150,00 por hora. Para serviços pontuais e rápidos, como instalar um varão de cortina, é comum cobrar um valor fechado (ex: R$ 100,00 a R$ 120,00)."
   - question: "O que um Marido de Aluguel faz?"
-    answer: "Realiza pequenos reparos como: instalação de suportes de TV, quadros, cortinas, troca de tomadas simples, reparos em descargas, montagem de móveis pequenos e vedação de pias."
+    answer: "Realiza pequenos reparos e instalações que não exigem grandes obras, como: fixação de suportes de TV, quadros e cortinas, troca de tomadas simples, reparos em descargas, montagem de móveis de pequeno porte e vedação de pias e box."
   - question: "Marido de Aluguel faz serviço de eletricista?"
-    answer: "Apenas serviços básicos (trocar lâmpada, resistência de chuveiro ou espelho de tomada). Para pane elétrica, curto-circuito ou fiação nova, contrate um eletricista especializado."
-  - question: "Eles levam as ferramentas?"
-    answer: "Sim, os profissionais listados no Serviços Urgentes levam todo o ferramental necessário (furadeira, nível, chaves). Materiais de consumo (buchas, parafusos específicos) devem ser combinados previamente."
+    answer: "Apenas serviços básicos e de baixa complexidade, como trocar uma lâmpada, resistência de chuveiro ou espelho de tomada. Para pane elétrica, curto-circuito, instalação de ar-condicionado ou fiação nova, é indispensável contratar um eletricista especializado."
+  - question: "Eles levam as ferramentas para o serviço?"
+    answer: "Sim, os profissionais listados no Serviços Urgentes levam todo o ferramental necessário (furadeira, nível, chaves, parafusadeira). No entanto, materiais de consumo específicos para o seu reparo (buchas especiais, parafusos, a peça a ser trocada) geralmente devem ser comprados previamente pelo cliente."
 ---
 
 Sabe aquela lista de "coisas para arrumar em casa" que nunca diminui? A torneira pingando, o quadro encostado na parede há meses, a porta do armário desalinhada...
@@ -146,22 +154,22 @@ Não deixe para depois. Encontre um profissional caprichoso perto de você.
 </details>
 
 <details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">O profissional traz as ferramentas?</summary>
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">O que um Marido de Aluguel faz?</summary>
   <div class="mt-3 text-gray-700 pl-4">
-    Sim. Eles levam furadeiras, chaves, níveis e parafusadeiras. Porém, materiais de consumo específicos (como um varão de cortina específico ou uma lâmpada especial) geralmente devem ser comprados pelo cliente.
+    Realiza pequenos reparos e instalações que não exigem grandes obras, como: fixação de suportes de TV, quadros e cortinas, troca de tomadas simples, reparos em descargas, montagem de móveis de pequeno porte e vedação de pias e box.
   </div>
 </details>
 
 <details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Fazem limpeza pós-obra?</summary>
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Marido de Aluguel faz serviço de eletricista?</summary>
   <div class="mt-3 text-gray-700 pl-4">
-    Geralmente não. O Marido de Aluguel limpa a sujeira gerada pelo próprio serviço (pó de furadeira), mas não realiza faxina pesada ou remoção de entulho de obra.
+    Apenas serviços básicos e de baixa complexidade, como trocar uma lâmpada, resistência de chuveiro ou espelho de tomada. Para pane elétrica, curto-circuito, instalação de ar-condicionado ou fiação nova, é indispensável contratar um eletricista especializado.
   </div>
 </details>
 
 <details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Atendem aos sábados?</summary>
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Eles levam as ferramentas para o serviço?</summary>
   <div class="mt-3 text-gray-700 pl-4">
-    Sim, a maioria atende aos sábados, o que é ideal para quem trabalha fora durante a semana. No entanto, em condomínios (especialmente no Aquarius e Urbanova), verifique os horários permitidos para uso de furadeira (geralmente até às 12h ou 13h no sábado).
+    Sim, os profissionais listados no Serviços Urgentes levam todo o ferramental necessário (furadeira, nível, chaves, parafusadeira). No entanto, materiais de consumo específicos para o seu reparo (buchas especiais, parafusos, a peça a ser trocada) geralmente devem ser comprados previamente pelo cliente.
   </div>
 </details>

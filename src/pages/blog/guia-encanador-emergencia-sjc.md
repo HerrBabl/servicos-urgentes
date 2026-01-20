@@ -3,29 +3,28 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanador de Emergência em SJC: O Que Fazer Antes do Técnico Chegar"
 description: "Cano estourou? Vazamento grave? Saiba como agir nos primeiros minutos, quanto custa um encanador 24h em São José dos Campos e quem chamar."
 date: "2026-01-14T08:00:00-03:00"
-dateModified: "2026-01-14T08:00:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=800&auto=format&fit=crop"
+imageAlt: "Encanador profissional atendendo emergência hidráulica com vazamento em residência de São José dos Campos"
 tags: ["Emergência", "Encanamento", "Manutenção", "SJC"]
 slug: "guia-encanador-emergencia-sjc"
 category: "Guia de Emergência"
 canonicalURL: "https://servicosurgentes.com/blog/guia-encanador-emergencia-sjc"
-keywords: "encanador 24 horas sjc, caça vazamento são josé dos campos, encanamento emergência sjc, desentupidora 24h sjc, preço encanador sjc, marido de aluguel sjc, reparos hidráulicos sjc"
+keywords: "encanador 24 horas sjc, caça vazamento são josé dos campos, encanamento emergência sjc, marido de aluguel sjc, desentupidora 24h sjc, preço encanador sjc"
+region: "São José dos Campos"
+neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"
 faqSchema:
   - question: "Quanto custa a visita de um encanador em SJC?"
     answer: "Em horário comercial, a visita técnica diagnóstica varia entre R$ 80 e R$ 150. Para atendimentos de emergência (noturno ou finais de semana), o valor da visita costuma ficar entre R$ 150 e R$ 250, dependendo do bairro e da distância."
-  
   - question: "Como fechar o registro de água em apartamento?"
     answer: "Geralmente, o registro geral fica na área de serviço (perto do tanque) ou na parte superior da parede dos banheiros. Gire no sentido horário para fechar. Se estiver emperrado, não force; feche o registro do hall do andar (se possível) ou avise a portaria."
-  
   - question: "O que é considerado emergência hidráulica?"
     answer: "Emergências são situações que causam danos imediatos ou risco à saúde: canos estourados com água jorrando, retorno de esgoto pelo ralo, falta total de água no imóvel ou vazamentos que atingem a parte elétrica."
-  
   - question: "Encanador 24h atende no Urbanova e zona norte?"
     answer: "Sim, porém o tempo de deslocamento varia. Para o Urbanova, é ideal contratar profissionais com cadastro prévio em condomínios para agilizar a entrada. Na Zona Norte (Santana, Altos de Santana), há boa disponibilidade de técnicos locais."
-
   - question: "Como funciona o serviço de caça-vazamento em SJC?"
     answer: "O serviço utiliza tecnologia de ultrassom (geofone) para localizar o ponto exato do vazamento sem precisar quebrar paredes ou pisos desnecessariamente. Em São José dos Campos, o custo para detecção eletrônica varia entre R$ 350 e R$ 600. É a solução ideal para reduzir o desperdício de água e evitar gastos excessivos com reformas após o reparo."
 ---

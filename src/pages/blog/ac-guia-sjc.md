@@ -3,14 +3,19 @@ layout: ../../layouts/ContentLayout.astro
 title: "Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos"
 description: "Seu ar-condicionado parou de funcionar no calor? Saiba o que fazer imediatamente, quando chamar um profissional e quanto custa o reparo em São José dos Campos."
 date: "2025-11-17T10:00:00-03:00"
-dateModified: "2026-01-10T16:00:00-03:00"
-category: "Guias de Emergência"
+dateModified: "2026-01-20T11:00:00-03:00"
+category: "Guia de Emergência"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?q=80&w=800&auto=format&fit=crop"
-keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, técnico ar-condicionado urgente"
-canonicalURL: "https://servicosurgentes.com/blog/ac-guia-sjc"  # ADD THIS
+imageAlt: "Técnico especializado diagnosticando ar-condicionado que parou de funcionar em residência em São José dos Campos"
+tags: ["Ar-Condicionado", "Emergência", "SJC", "Manutenção"]
+slug: "ac-guia-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/ac-guia-sjc"
+keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, marido de aluguel sjc, técnico ar-condicionado urgente, reparo ac sjc"
+region: "São José dos Campos"
+neighborhood: "Aquarius, Urbanova, Jardim das Colinas, Centro"
 faqSchema:
   - question: "Quanto custa a limpeza de ar-condicionado em SJC?"
     answer: "A limpeza preventiva em São José dos Campos varia entre R$ 200 e R$ 350 para aparelhos Hi-Wall de até 12.000 BTUs. Modelos maiores ou sistemas Multi-Split podem chegar a R$ 600. A manutenção anual é recomendada para evitar o consumo excessivo de energia."

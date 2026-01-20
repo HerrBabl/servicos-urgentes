@@ -2,14 +2,20 @@
 layout: ../../layouts/ContentLayout.astro
 title: "Serviços Urgentes no Bosque dos Eucaliptos: Guia de Bairro (Zona Sul SJC)"
 description: "Mora no Bosque dos Eucaliptos ou Satélite? Encontre encanador, eletricista e marido de aluguel na Zona Sul de SJC. Atendimento rápido na Av. Andrômeda e região."
-date: "2026-01-20"
+date: "2026-01-20T09:00:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
+author:
+  name: "Equipe Serviços Urgentes"
+  url: "https://servicosurgentes.com/sobre"
+image: "https://images.unsplash.com/photo-1596263576925-2a2d48227d86?q=80&w=800"
+imageAlt: "Vista de rua residencial arborizada na Zona Sul de São José dos Campos, região do Bosque dos Eucaliptos"
+tags: ["Bosque dos Eucaliptos", "Zona Sul", "Guia de Bairro", "SJC"]
+slug: "guia-bosque-dos-eucaliptos-sjc"
 category: "Guia de Bairro"
-keywords: "encanador bosque dos eucaliptos, eletricista zona sul sjc, marido de aluguel bosque dos eucaliptos, desentupidora av andromeda, conserto telhado sjc"
+canonicalURL: "https://servicosurgentes.com/blog/guia-bosque-dos-eucaliptos-sjc"
+keywords: "encanador bosque dos eucaliptos, eletricista zona sul sjc, marido de aluguel sjc, desentupidora av andromeda, conserto telhado sjc, serviços urgentes satélite"
 region: "São José dos Campos"
 neighborhood: "Bosque dos Eucaliptos, Jardim Satélite, Jardim Portugal"
-canonicalURL: "https://servicosurgentes.com/blog/guia-bosque-dos-eucaliptos-sjc"
-image: "https://images.unsplash.com/photo-1596263576925-2a2d48227d86?q=80&w=800"
-imageAlt: "Vista de rua residencial arborizada na Zona Sul de São José dos Campos"
 faqSchema:
   - question: "Quais profissionais atendem o Bosque dos Eucaliptos?"
     answer: "O diretório lista encanadores, eletricistas, chaveiros e maridos de aluguel que atendem especificamente Bosque, Satélite, Jd. Portugal e região da Av. Andrômeda."

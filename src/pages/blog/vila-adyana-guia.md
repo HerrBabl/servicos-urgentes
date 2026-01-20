@@ -1,30 +1,30 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Retrofit na Vila Adyana: Guia de Modernização para Casas Antigas"
-description: "Água amarelada ou fusível queimando? Saiba como modernizar a hidráulica e elétrica de casas antigas na Vila Adyana preservando o charme do imóvel."
+title: "Retrofit na Vila Adyana: Guia de Modernização para Casas Antigas em SJC"
+description: "Água amarelada ou fusível queimando? Saiba como modernizar a hidráulica e elétrica de casas antigas na Vila Adyana preservando o charme. Guia completo."
 date: "2025-12-20T10:00:00-03:00"
-dateModified: "2026-01-13T17:00:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
+category: "Guia de Bairro"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=800&auto=format&fit=crop"
-keywords: "retrofit vila adyana, casa antiga sjc, tubulação ferro galvanizado, fusível para disjuntor, modernizar casa antiga, encanador vila adyana, eletricista sjc"
+image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=800"
+imageAlt: "Fachada de casa antiga em estilo clássico na Vila Adyana passando por processo de renovação e retrofit"
+tags: ["Vila Adyana", "Reforma", "Manutenção", "Retrofit", "SJC"]
+slug: "vila-adyana-guia"
 canonicalURL: "https://servicosurgentes.com/blog/vila-adyana-guia"
-tags: ["Vila Adyana", "Reforma", "Manutenção", "Retrofit"]
-category: "Guia de Bairro"
+keywords: "retrofit vila adyana, casa antiga sjc, tubulação ferro galvanizado, marido de aluguel sjc, fusível para disjuntor, modernizar casa antiga sjc"
+region: "São José dos Campos"
+neighborhood: "Vila Adyana, Jardim São Dimas, Centro"
 faqSchema:
   - question: "Quanto custa fazer retrofit completo em uma casa na Vila Adyana?"
     answer: "Para casas típicas de 150-250m² na Vila Adyana, o retrofit completo (hidráulica + elétrica) custa entre R$ 25.000 e R$ 65.000. Isso inclui troca de tubulação de ferro para PVC, modernização do quadro elétrico de fusíveis para disjuntores DIN com DR, e adequação de tomadas. O investimento valoriza o imóvel em 10-15% e garante segurança por mais 30-50 anos."
-  
   - question: "Vale a pena trocar tubulação de ferro galvanizado por PVC?"
     answer: "Sim, especialmente em casas com 30+ anos. Tubulação de ferro enferruja internamente, causando água amarelada, pressão baixa e risco de rompimento. Trocar para PVC custa R$ 8.000-18.000 (casa completa) mas elimina vazamentos futuros, melhora pressão e qualidade da água, e valoriza o imóvel. É investimento de longo prazo, não apenas reparo."
-  
   - question: "Como saber se o quadro elétrico da minha casa precisa ser trocado?"
     answer: "Se sua casa tem fusíveis de rosca (tipo rolha) em vez de disjuntores DIN, o quadro é antigo e precisa modernização. Outros sinais: luzes oscilando, fusível queimando frequentemente, tomadas sem terra (2 pinos), ou choque leve ao tocar torneiras. Modernizar para disjuntores com DR custa R$ 1.500-4.000 e previne incêndios e choques elétricos."
-  
   - question: "Raízes de árvores podem realmente quebrar tubulação de esgoto?"
     answer: "Sim, especialmente em casas antigas da Vila Adyana com tubulação de cerâmica ou cimento amianto. Raízes buscam água e crescem ao redor (e dentro) de tubos antigos, causando entupimentos e rompimentos. Sinais: esgoto voltando, grama mais verde em linha reta no jardim, ou odor de esgoto no quintal. Desentupimento com hidrojateamento custa R$ 500-2.000."
-  
   - question: "Posso fazer retrofit aos poucos ou preciso fazer tudo de uma vez?"
     answer: "Pode fazer por etapas, mas priorize por risco: urgente (fiação exposta, água amarelada constante) → importante (tomadas sem terra, fusíveis antigos) → melhorias (estética, eficiência). O ideal é fazer hidráulica e elétrica juntas para evitar quebrar paredes duas vezes, mas se o orçamento não permitir, comece pelos riscos imediatos de segurança."
 ---

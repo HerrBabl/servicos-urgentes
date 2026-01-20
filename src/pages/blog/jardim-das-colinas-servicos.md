@@ -3,28 +3,24 @@ layout: ../../layouts/ContentLayout.astro
 title: "Jardim das Colinas, SJC: Guia de Manutenção e Serviços de Alto Padrão"
 description: "Guia completo de manutenção para o Jardim das Colinas. Encontre especialistas em ar-condicionado, carregadores EV e hidráulica de alta pressão em SJC."
 date: "2026-01-15T14:00:00-03:00"
-dateModified: "2026-01-15T14:00:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop"
+imageAlt: "Condomínio de alto padrão no Jardim das Colinas com infraestrutura moderna, São José dos Campos"
 tags: ["Jardim das Colinas", "SJC", "Alto Padrão", "Manutenção"]
 slug: "jardim-das-colinas-servicos"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/blog/jardim-das-colinas-servicos"
-keywords: "eletricista jardim das colinas sjc, encanador colinas sjc, wallbox colinas sjc, manutenção helbor paesaggio, ar condicionado colinas shopping, marido de aluguel alto padrão sjc, helbor corporate tower sjc, helbor offices colinas"
+keywords: "eletricista jardim das colinas sjc, encanador colinas sjc, wallbox colinas sjc, marido de aluguel sjc, ar condicionado colinas shopping, manutenção alto padrão sjc"
+region: "São José dos Campos"
+neighborhood: "Jardim das Colinas, Urbanova, Bosque Maia"
 faqSchema:
   - question: "Quanto custa instalar um carregador de carro elétrico (Wallbox) no Colinas?"
     answer: "A instalação de um Wallbox em residências ou condomínios no Jardim das Colinas varia entre R$ 1.500 e R$ 4.500, dependendo da distância do quadro elétrico e da necessidade de aumento de carga junto à CPFL. O serviço exige projeto assinado por engenheiro ou eletricista especializado."
   - question: "Encanadores atendem emergências 24h em condomínios do Colinas?"
-    answer: "Sim. O bairro possui cobertura 24h, mas devido ao rigor das portarias em prédios como o Celebrity ou Paesaggio, é obrigatório que o morador autorize a entrada e o técnico apresente identificação e, preferencialmente, seguro de responsabilidade civil."
-  - question: "Qual o preço médio da manutenção de ar-condicionado Multi-Split?"
-    answer: "No Jardim das Colinas, a limpeza e higienização de sistemas Multi-Split custa entre R$ 450 e R$ 900, variando pelo número de evaporadoras. O diagnóstico de vazamento de fluido refrigerante custa de R$ 200 a R$ 400."
-  - question: "Como resolver barulho nos canos (golpe de aríete) em prédios altos?"
-    answer: "O barulho de pancada ao fechar torneiras é comum em edifícios altos do Colinas. A solução é a regulagem ou substituição da válvula redutora de pressão. O serviço técnico especializado custa entre R$ 400 e R$ 850."
-  - question: "Marido de aluguel faz furação em porcelanato importado?"
-    answer: "Sim, profissionais especializados utilizam brocas diamantadas e refrigeração para evitar trincas em revestimentos de alto padrão. O valor do ponto de instalação costuma ser 30% superior ao padrão devido ao risco e ferramentas necessárias."
----
+    answer: "Sim. O bairro possui cobertura 24h, mas devido ao rigor das portarias em prédios como o Celebrity ou Paesaggio, é obrigatório que o morador autorize a entrada e o técnico apresente
 
 # Jardim das Colinas, SJC: Guia de Manutenção e Serviços de Alto Padrão
 

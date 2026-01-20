@@ -3,28 +3,28 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanamento em Parque Aquarius: Guia Completo para Locatários e Proprietários"
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07T10:00:00-03:00"
-dateModified: "2026-01-13T10:45:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1628746041549-37fb45bd2c96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vZGVybiUyMGJhdGhyb29tfGVufDB8fDB8fHww"
-keywords: "encanador parque aquarius, vazamento apartamento aquarius, quem paga reparo locação sjc, encanamento condomínio sjc, marido de aluguel aquarius, válvula redutora pressão"
-canonicalURL: "https://servicosurgentes.com/blog/encanamento-parque-aquarius"
+imageAlt: "Encanador profissional realizando reparo hidráulico em apartamento no Parque Residencial Aquarius, São José dos Campos"
 tags: ["Parque Aquarius", "Encanamento", "Locação", "Manutenção"]
+slug: "encanamento-parque-aquarius"
 category: "Guia de Bairro"
+canonicalURL: "https://servicosurgentes.com/blog/encanamento-parque-aquarius"
+keywords: "encanador parque aquarius, vazamento apartamento aquarius, quem paga reparo locação sjc, marido de aluguel sjc, encanamento condomínio sjc, válvula redutora pressão aquarius"
+region: "São José dos Campos"
+neighborhood: "Parque Residencial Aquarius, Jardim Aquarius, Vila Ema"
 faqSchema:
   - question: "Quem paga vazamento de torneira em imóvel alugado?"
     answer: "O inquilino é responsável por vazamentos em torneiras, sifões e registros, pois são considerados desgaste por uso normal. O proprietário só paga se o problema for estrutural, como tubulação embutida na parede ou vícios ocultos existentes antes da locação."
-  
   - question: "Vazamento na laje: quem paga no condomínio?"
     answer: "Se a infiltração vem da laje (impermeabilização), é responsabilidade do condomínio ou do proprietário do apartamento de cima, nunca do inquilino de baixo. O apartamento afetado deve acionar o síndico para que este tome as providências cabíveis junto ao responsável."
-  
   - question: "Posso descontar o reparo do aluguel sem autorização do proprietário?"
     answer: "Não automaticamente. O inquilino deve avisar o proprietário primeiro por escrito, com prazo razoável para resposta. Se houver urgência e o locador não responder em tempo hábil, o inquilino pode fazer o reparo emergencial para evitar danos maiores e negociar reembolso posteriormente com comprovantes (fotos, vídeos e nota fiscal)."
-  
   - question: "Flexível de torneira estourou: quem é responsável pelo reparo?"
     answer: "Depende da causa. Se o flexível é antigo e estourou por desgaste natural ou pressão excessiva da rede (problema na válvula redutora), pode ser responsabilidade do proprietário. Se é novo e estourou por uso inadequado (apertar demais, dobrar incorretamente), é do inquilino. Documente com fotos e negocie com base nas evidências."
-  
   - question: "Quanto custa chamar encanador de emergência no Parque Aquarius?"
     answer: "Visita técnica diagnóstica: R$ 100-180. Reparos comuns: troca de registro R$ 150-300, reparo de vazamento R$ 200-500, troca de válvula redutora de pressão R$ 400-800. Atendimentos noturnos e finais de semana têm acréscimo de 30-50%. Sempre solicite orçamento antes de autorizar o serviço."
 ---

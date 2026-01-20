@@ -3,16 +3,19 @@ layout: ../../layouts/ContentLayout.astro
 title: "Ar-Condicionado Não Gela? 5 Causas Comuns em SJC e Como Resolver"
 description: "Seu ar-condicionado parou de gelar no calor de São José dos Campos? Conheça as causas, saiba o que verificar em 60 segundos e quanto custa o conserto técnico."
 date: "2026-01-15T16:00:00-03:00"
-dateModified: "2026-01-15T16:00:00-03:00"
+dateModified: "2026-01-20T11:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://plus.unsplash.com/premium_photo-1682126012378-859ca7a9f4cf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWlyJTIwY29uZGl0aW9uaW5nJTIwcmVwYWlyfGVufDB8fDB8fHww"
+imageAlt: "Técnico profissional verificando ar-condicionado que não está gelando em residência de São José dos Campos"
 tags: ["Ar-Condicionado", "Manutenção", "SJC", "Emergência"]
 slug: "ar-condicionado-nao-gela-sjc"
 category: "Guia de Emergência"
 canonicalURL: "https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc"
-keywords: "ar condicionado não gela sjc, conserto de ar condicionado sjc, limpeza de ar condicionado sjc, carga de gás ar condicionado sjc, técnico ar condicionado 24h"
+keywords: "ar condicionado não gela sjc, conserto de ar condicionado sjc, limpeza de ar condicionado são josé dos campos, marido de aluguel sjc, carga de gás ar condicionado sjc, técnico ar condicionado 24h"
+region: "São José dos Campos"
+neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"
 faqSchema:
   - question: "Por que meu ar-condicionado parou de gelar de repente?"
     answer: "As causas mais comuns em SJC são filtros extremamente sujos que impedem a passagem do ar, vazamento de fluido refrigerante (gás) ou o capacitor do compressor queimado devido a picos de energia. Um técnico pode diagnosticar o problema por um valor médio de R$ 100 a R$ 180."
