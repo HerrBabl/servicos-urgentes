@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Manutenção de Ar-Condicionado para o Verão em SJC: Guia Completo 2026"
 description: "Prepare seu ar-condicionado para as ondas de calor de 35°C+ em São José dos Campos. Guia de limpeza, preços de manutenção em SJC e ROI de energia."
 date: "2026-01-16T09:00:00-03:00"
-dateModified: "2026-01-16T18:00:00-03:00"
+dateModified: "2026-01-20T10:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,9 @@ tags: ["Ar-Condicionado", "Manutenção Preventiva", "SJC", "Verão"]
 slug: "manutencao-ar-condicionado-verao-sjc"
 category: "Guia de Manutenção"
 canonicalURL: "https://servicosurgentes.com/blog/manutencao-ar-condicionado-verao-sjc"
-keywords: "manutenção ar condicionado sjc, limpeza ac são josé dos campos, preparar ac verão, técnico ar condicionado sjc, higienização profissional sjc, preço limpeza ar condicionado sjc"
+keywords: "manutenção ar condicionado sjc, limpeza ac são josé dos campos, preparar ac verão sjc, marido de aluguel sjc, técnico ar condicionado sjc, higienização profissional sjc"
+region: "São José dos Campos"
+neighborhood: "Urbanova, Aquarius, Centro, Zona Norte"
 faqSchema:
   - question: "Qual a melhor época para fazer a manutenção do ar-condicionado em SJC?"
     answer: "O ideal em São José dos Campos é realizar a manutenção entre agosto e outubro. No entanto, se você não fez, janeiro e fevereiro são meses críticos (pico de calor). Nessas datas, a demanda em SJC sobe 200%, e o tempo de espera pode passar de 10 dias. Agende o quanto antes para evitar o 'apagão' térmico."

@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Instalação de Ar-Condicionado em SJC: Guia Completo de Preços e Dicas 2026"
 description: "Vai instalar ar-condicionado em São José dos Campos? Confira o guia de preços por bairro, calculadora de BTUs para o clima de SJC e como evitar erros caros."
 date: "2026-01-17T09:00:00-03:00"
-dateModified: "2026-01-17T09:00:00-03:00"
+dateModified: "2026-01-20T10:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,9 @@ tags: ["Ar-Condicionado", "Instalação", "SJC", "Guia de Compra"]
 slug: "instalacao-ar-condicionado-sjc-guia"
 category: "Guia de Instalação"
 canonicalURL: "https://servicosurgentes.com/blog/instalacao-ar-condicionado-sjc-guia"
-keywords: "instalação ar condicionado sjc, quanto custa instalar ac são josé dos campos, técnico instalação ac sjc, instalação split sjc, preço instalação ar condicionado sjc"
+keywords: "instalação ar condicionado sjc, quanto custa instalar ac são josé dos campos, técnico instalação ac sjc, marido de aluguel sjc, instalação split sjc, preço instalação ar condicionado sjc"
+region: "São José dos Campos"
+neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"
 faqSchema:
   - question: "Quanto custa a instalação de ar-condicionado em SJC?"
     answer: "Em 2026, a instalação padrão de um aparelho Hi-Wall de 9.000 a 12.000 BTUs em São José dos Campos varia entre R$ 500 e R$ 850. Este valor refere-se à mão de obra e materiais básicos (até 3 metros de infraestrutura). Em bairros como Aquarius ou Urbanova, o custo pode ser maior devido a exigências de furação em concreto ou varandas técnicas."

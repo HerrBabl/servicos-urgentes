@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Cano Estourado ou Infiltração? O Guia de Emergência Hidráulica em SJC"
 description: "Vazamento no fim de semana? Saiba o que fazer com canos estourados e infiltrações no Aquarius, Urbanova e Vila Adyana. Guia de encanadores 24h em SJC."
 date: "2026-01-19T11:00:00-03:00"
-dateModified: "2026-01-19T11:00:00-03:00"
+dateModified: "2026-01-20T10:30:00-03:00"
 category: "Hidráulica"
 author: 
   name: "Equipe Serviços Urgentes"
@@ -13,7 +13,7 @@ imageAlt: "Encanador profissional utilizando equipamento de caça-vazamentos ele
 tags: ["Encanamento", "Emergência", "SJC", "Guia", "Manutenção"]
 slug: "guia-emergencia-hidraulica-sjc"
 canonicalURL: "https://servicosurgentes.com/blog/guia-emergencia-hidraulica-sjc"
-keywords: "encanador sjc, caça vazamentos sjc, encanador 24 horas são josé dos campos, infiltração apartamento aquarius, desentupidora sjc"
+keywords: "encanador sjc, caça vazamentos sjc, encanador 24 horas são josé dos campos, marido de aluguel sjc, infiltração apartamento aquarius, desentupidora sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Vila Adyana, Urbanova, Centro"
 faqSchema:
