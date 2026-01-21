@@ -143,7 +143,6 @@ Os profissionais listados nesta página atendem não apenas o "centrinho" do Sat
 Não perca tempo ligando para profissionais do outro lado da cidade. Conecte-se com quem está perto de você no Jardim Satélite.
 
 👉 **[Ver Eletricistas no Satélite](/servicos/eletricista)**
-👉 **[Ver Encanadores no Satélite](/servicos/encanador)**
 👉 **[Ver Chaveiros 24h no Satélite](/servicos/chaveiro)**
 
 *Serviços Urgentes: Seu diretório local de confiança em São José dos Campos.*

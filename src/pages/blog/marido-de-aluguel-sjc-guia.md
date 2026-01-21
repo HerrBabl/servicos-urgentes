@@ -9,7 +9,7 @@ author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=800"
-imageAlt: "Profissional marido de aluguel realizando reparos residenciais e montagem de móveis em São José dos Campos"
+imageAlt: "Profissional realizando reparos residenciais com ferramentas adequadas"
 tags: ["Marido de Aluguel", "Pequenos Reparos", "SJC", "Montagem de Móveis"]
 slug: "marido-de-aluguel-sjc-guia"
 canonicalURL: "https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia"
