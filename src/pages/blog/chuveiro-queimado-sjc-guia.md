@@ -7,7 +7,7 @@ dateModified: "2026-01-21T10:45:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=800"
+image: "https://media.istockphoto.com/id/89481614/photo/burned-resistance.webp?a=1&b=1&s=612x612&w=0&k=20&c=V6cAVx2NyZYweQOA9Xkv_Y-ixXbPXldzMeldGvUnkXE="
 imageAlt: "Eletricista profissional instalando resistência de chuveiro elétrico em banheiro residencial em São José dos Campos"
 tags: ["Eletricista", "Emergência", "SJC", "Manutenção Residencial"]
 slug: "chuveiro-queimado-sjc-guia"
@@ -35,13 +35,16 @@ faqSchema:
 
 **A boa notícia:** trocar a resistência de um chuveiro elétrico é um serviço geralmente rápido. A questão é: você precisa de um eletricista disponível **agora**, porque banho frio não é opção quando a temperatura cai.
 
-Este guia foi elaborado para moradores de **Urbanova, Aquarius, Centro, Vila Adyana** e toda a região de São José dos Campos. Aqui você vai encontrar informações sobre:
+Este guia foi elaborado para moradores de **Urbanova, Aquarius, Centro, Vila Adyana** e toda a região de São José dos Campos.
 
-- ✅ Como identificar se o problema é resistência ou fiação
-- ✅ Estimativas de mercado para mão de obra em SJC (2026)
-- ✅ Checklist de segurança antes de chamar o profissional
-- ✅ Como encontrar eletricista ou marido de aluguel confiável no seu bairro
-- ✅ Prevenção: por que chuveiros falham mais em dias frios
+## 📋 Neste Guia
+
+1. [Diagnóstico Rápido: É Resistência?](#-diagnóstico-rápido-é-resistência-ou-outro-problema)
+2. [Tabela de Custos 2026](#-estimativa-de-custos-troca-de-resistência-em-sjc-2026)
+3. [Como Escolher o Profissional](#️-como-escolher-o-profissional-certo)
+4. [Por Que Chuveiros Falham no Frio?](#-por-que-chuveiros-falham-no-friochuva)
+5. [Áreas de Atendimento](#️-áreas-de-atendimento-em-são-josé-dos-campos)
+6. [Perguntas Frequentes](#perguntas-frequentes-faq)
 
 ---
 
