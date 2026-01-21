@@ -38,11 +38,11 @@ import Layout from '../layouts/Layout.astro';
             class="w-full pl-16 pr-32 py-6 text-lg rounded-2xl border-0 bg-white/95 backdrop-blur-sm shadow-2xl text-gray-800 focus:ring-4 focus:ring-white/30 focus:outline-none appearance-none cursor-pointer"
           >
             <option value="">Selecione um serviço urgente...</option>
-            <option value="/servicos/encanador">🔧 Encanador 24h</option>
-            <option value="/servicos/eletricista">⚡ Eletricista 24h</option>
-            <option value="/servicos/chaveiro">🔑 Chaveiro 24h</option>
-            <option value="/servicos/ar-condicionado">❄️ Ar Condicionado 24h</option>
-            <option value="/servicos/marido-de-aluguel">🛠️ Marido de Aluguel</option>
+            <option value="/servicos/encanador/">🔧 Encanador 24h</option>
+            <option value="/servicos/eletricista/">⚡ Eletricista 24h</option>
+            <option value="/servicos/chaveiro/">🔑 Chaveiro 24h</option>
+            <option value="/servicos/ar-condicionado/">❄️ Ar Condicionado 24h</option>
+            <option value="/servicos/marido-de-aluguel/">🛠️ Marido de Aluguel</option>
           </select>
           <div class="absolute inset-y-0 right-0 pr-4 flex items-center">
             <button 
@@ -76,23 +76,23 @@ import Layout from '../layouts/Layout.astro';
       </script>
             
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-6xl mx-auto mb-12">
-        <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
+        <a href="/servicos/encanador/" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">🔧</div>
           <div class="font-bold text-lg">Encanador</div>
         </a>
-        <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
+        <a href="/servicos/eletricista/" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">⚡</div>
           <div class="font-bold text-lg">Eletricista</div>
         </a>
-        <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
+        <a href="/servicos/chaveiro/" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">🔑</div>
           <div class="font-bold text-lg">Chaveiro</div>
         </a>
-        <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
+        <a href="/servicos/ar-condicionado/" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">❄️</div>
           <div class="font-bold text-lg">Ar Condicionado</div>
         </a>
-        <a href="#servicos" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
+        <a href="/servicos/marido-de-aluguel/" class="group bg-white/15 backdrop-blur-sm border border-white/30 rounded-xl p-6 hover:bg-white/25 transition-all duration-300 hover:scale-105">
           <div class="text-3xl mb-3">🛠️</div>
           <div class="font-bold text-lg leading-tight">Marido de Aluguel</div>
         </a>
@@ -127,20 +127,19 @@ import Layout from '../layouts/Layout.astro';
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
       <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
         <div class="text-4xl mb-4">🔧</div>
         <h3 class="text-xl font-bold text-gray-900 mb-2">Encanador 24h</h3>
         <p class="text-gray-600 mb-4">
-          Vazamentos, entupimentos, reparos urgentes em tubulações e instalações hidráulicas.
+          Vazamentos, entupimentos, reparos urgentes em tubulações.
         </p>
         <ul class="text-sm text-gray-500 mb-6 space-y-1">
-          <li>• Desentupimento de pias e vasos</li>
-          <li>• Reparo de vazamentos</li>
-          <li>• Instalação de registros</li>
-          <li>• Emergências hidráulicas</li>
+          <li>• Desentupimento</li>
+          <li>• Vazamentos</li>
+          <li>• Registros</li>
         </ul>
-        <a href="/servicos/encanador" class="block w-full bg-blue-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+        <a href="/servicos/encanador/" class="block w-full bg-blue-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
           Ver Encanadores
         </a>
       </div>
@@ -149,15 +148,14 @@ import Layout from '../layouts/Layout.astro';
         <div class="text-4xl mb-4">🔑</div>
         <h3 class="text-xl font-bold text-gray-900 mb-2">Chaveiro 24h</h3>
         <p class="text-gray-600 mb-4">
-          Abertura de portas, troca de fechaduras, cópias de chaves e segurança residencial.
+          Abertura de portas, troca de fechaduras, cópias de chaves.
         </p>
         <ul class="text-sm text-gray-500 mb-6 space-y-1">
-          <li>• Abertura de portas trancadas</li>
+          <li>• Portas trancadas</li>
           <li>• Troca de fechaduras</li>
-          <li>• Cópias de chaves</li>
-          <li>• Instalação de fechaduras</li>
+          <li>• Cópias</li>
         </ul>
-        <a href="/servicos/chaveiro" class="block w-full bg-yellow-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
+        <a href="/servicos/chaveiro/" class="block w-full bg-yellow-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
           Ver Chaveiros
         </a>
       </div>
@@ -166,47 +164,46 @@ import Layout from '../layouts/Layout.astro';
         <div class="text-4xl mb-4">⚡</div>
         <h3 class="text-xl font-bold text-gray-900 mb-2">Eletricista 24h</h3>
         <p class="text-gray-600 mb-4">
-          Problemas elétricos, falta de energia, instalações e reparos urgentes.
+          Problemas elétricos, falta de energia, instalações e reparos.
         </p>
         <ul class="text-sm text-gray-500 mb-6 space-y-1">
-          <li>• Falta de energia elétrica</li>
+          <li>• Falta de energia</li>
           <li>• Curto-circuito</li>
-          <li>• Instalação de tomadas</li>
-          <li>• Troca de disjuntores</li>
+          <li>• Instalações</li>
         </ul>
-        <a href="/servicos/eletricista" class="block w-full bg-orange-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors">
+        <a href="/servicos/eletricista/" class="block w-full bg-orange-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors">
           Ver Eletricistas
         </a>
       </div>
 
       <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
         <div class="text-4xl mb-4">❄️</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Ar Condicionado 24h</h3>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Ar Condicionado</h3>
         <p class="text-gray-600 mb-4">
-          Instalação, manutenção e reparo de sistemas de ar condicionado e climatização.
+          Instalação, manutenção e reparo de sistemas de climatização.
         </p>
         <ul class="text-sm text-gray-500 mb-6 space-y-1">
-          <li>• Instalação de ar condicionado</li>
-          <li>• Manutenção preventiva</li>
-          <li>• Reparo de vazamentos</li>
-          <li>• Limpeza de filtros</li>
+          <li>• Instalação</li>
+          <li>• Manutenção</li>
+          <li>• Limpeza</li>
         </ul>
-        <a href="/servicos/ar-condicionado" class="block w-full bg-cyan-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-cyan-700 transition-colors">
+        <a href="/servicos/ar-condicionado/" class="block w-full bg-cyan-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-cyan-700 transition-colors">
           Ver Técnicos
         </a>
       </div>
-    </div>
-    
-    <div class="mt-8">
-      <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow flex flex-col md:flex-row items-center justify-between">
-        <div class="flex items-center mb-4 md:mb-0">
-          <div class="text-4xl mr-4">🛠️</div>
-          <div>
-            <h3 class="text-xl font-bold text-gray-900">Marido de Aluguel</h3>
-            <p class="text-gray-600">Montagem de móveis, instalações, pequenos reparos residenciais e manutenção geral.</p>
-          </div>
-        </div>
-        <a href="/servicos/marido-de-aluguel" class="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors whitespace-nowrap">
+
+      <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-shadow">
+        <div class="text-4xl mb-4">🛠️</div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Marido de Aluguel</h3>
+        <p class="text-gray-600 mb-4">
+          Montagem de móveis, instalações e pequenos reparos.
+        </p>
+        <ul class="text-sm text-gray-500 mb-6 space-y-1">
+          <li>• Montagem</li>
+          <li>• Instalações</li>
+          <li>• Reparos</li>
+        </ul>
+        <a href="/servicos/marido-de-aluguel/" class="block w-full bg-red-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
           Ver Profissionais
         </a>
       </div>
@@ -271,45 +268,44 @@ import Layout from '../layouts/Layout.astro';
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-      <a href="/bairros/parque-residencial-aquarius" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/parque-residencial-aquarius/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🏘️ Parque Residencial Aquarius</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/vila-adyana" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/vila-adyana/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🏘️ Vila Adyana</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/urbanova" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/urbanova/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🏘️ Urbanova</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/centro" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/centro/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🏙️ Centro</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/jardim-das-colinas" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/jardim-das-colinas/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🏡 Jardim das Colinas</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/sao-dimas" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/sao-dimas/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🏢 São Dimas</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/bosque-dos-eucaliptos" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+      <a href="/bairros/bosque-dos-eucaliptos/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
         <h4 class="font-semibold text-blue-900">🌳 Bosque dos Eucaliptos</h4>
         <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
       
-      <a href="/bairros/jardim-satelite" class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-100 hover:border-blue-300 group text-center flex flex-col items-center justify-center">
-        <span class="text-2xl mb-2">📡</span>
-        <h4 class="font-semibold text-gray-900 group-hover:text-blue-600">Jardim Satélite</h4>
-        <span class="text-xs text-blue-600 mt-1 font-medium">Ver profissionais →</span>
+      <a href="/bairros/jardim-satelite/" class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors border-2 border-blue-200">
+        <h4 class="font-semibold text-blue-900">📡 Jardim Satélite</h4>
+        <p class="text-xs text-blue-600 mt-1">Ver profissionais</p>
       </a>
     </div>
   </div>
@@ -327,7 +323,7 @@ import Layout from '../layouts/Layout.astro';
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <a href="/blog/ar-condicionado-nao-gela-sjc" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden group flex flex-col h-full">
+      <a href="/blog/ar-condicionado-nao-gela-sjc/" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden group flex flex-col h-full">
         <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-6">
           <div class="text-4xl mb-2">❄️</div>
           <h3 class="text-xl font-bold text-white">Ar-Condicionado Parou?</h3>
@@ -342,7 +338,7 @@ import Layout from '../layouts/Layout.astro';
         </div>
       </a>
 
-      <a href="/blog/chuveiro-queimado-sjc-guia" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden group flex flex-col h-full">
+      <a href="/blog/chuveiro-queimado-sjc-guia/" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden group flex flex-col h-full">
         <div class="bg-gradient-to-r from-yellow-500 to-orange-600 p-6">
           <div class="text-4xl mb-2">🚿</div>
           <h3 class="text-xl font-bold text-white">Chuveiro Queimou?</h3>
@@ -357,7 +353,7 @@ import Layout from '../layouts/Layout.astro';
         </div>
       </a>
 
-      <a href="/blog/guia-bosque-dos-eucaliptos-sjc" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden group flex flex-col h-full">
+      <a href="/blog/guia-bosque-dos-eucaliptos-sjc/" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden group flex flex-col h-full">
         <div class="bg-gradient-to-r from-green-600 to-teal-700 p-6">
           <div class="text-4xl mb-2">🌳</div>
           <h3 class="text-xl font-bold text-white">Zona Sul / Bosque</h3>
@@ -374,7 +370,7 @@ import Layout from '../layouts/Layout.astro';
     </div>
 
     <div class="text-center mt-12">
-      <a href="/blog" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+      <a href="/blog/" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
         Ver Todos os Guias
       </a>
     </div>
@@ -392,7 +388,7 @@ import Layout from '../layouts/Layout.astro';
     
     <div class="rounded-xl overflow-hidden shadow-lg border border-gray-200">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117462.80233075253!2d-45.96208643593751!3d-23.189444499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2sS%C3%A3o%20Jos%C3%A9%20dos%20Campos%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1700000000000!5m2!1sen!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117375.33467618993!2d-45.95256434033203!3d-23.189562700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2sS%C3%A3o%20Jos%C3%A9%20dos%20Campos%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1705880000000!5m2!1spt-BR!2sbr"
         width="100%"
         height="450"
         style="border:0;"
