@@ -31,7 +31,6 @@ faqSchema:
     answer: "Profissionais de manutenção predial e maridos de aluguel atendem desentupimento e reparo de calhas em prédios do Centro. Serviço de limpeza de calha: R$ 200-400 (depende da altura e acesso). Com as tempestades previstas (14mm hoje), é crítico verificar escoamento para evitar infiltrações em alvenaria antiga. Atendimento de urgência disponível para prédios comerciais."
 ---
 
-# Serviços de Emergência no Centro de São José dos Campos
 
 **Com as chuvas intensas previstas para SJC (14mm hoje à noite e temporais até o fim de semana),** o Centro histórico enfrenta desafios únicos: infiltrações em prédios com 50+ anos, calhas entupidas em edifícios comerciais, curtos-circuitos em fiação antiga, e vazamentos que impactam lojas inteiras.
 
