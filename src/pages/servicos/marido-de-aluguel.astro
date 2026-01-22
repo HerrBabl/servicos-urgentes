@@ -3,21 +3,25 @@ import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
 import { maridos } from '../../data/maridos.js';
 
-const pageTitle = "Marido de Aluguel em SJC - Profissionais Verificados 4+ Estrelas";
-const pageDescription = "Precisa de pequenos reparos? Encontre Marido de Aluguel em São José dos Campos. Montagem de móveis, instalações e manutenção no Aquarius, Urbanova e região.";
+const pageTitle = "Marido de Aluguel SJC - Emergência Chuvas e Reparos Gerais";
+const pageDescription = "Precisa de limpeza de calhas ou reparo de goteiras em SJC? Encontre Marido de Aluguel verificado para emergências de chuva e manutenção residencial.";
+
+// Logic to automatically hide the storm banner after the forecast period ends
+// Set to expire Jan 31st, 2026 (End of 10-day forecast)
+const showStormBanner = new Date() < new Date('2026-01-31T23:59:59-03:00');
 ---
 
 <Layout 
-  title="Marido de Aluguel 24h em São José dos Campos - Profissionais Verificados"
-  description="🔧 Pequenos reparos em SJC: instalar cortina, TV na parede, trocar chuveiro. Maridos de Aluguel 4+ estrelas atendem Aquarius, Urbanova, Vila Ema. Compare preços!"
+  title={pageTitle}
+  description={pageDescription}
 >
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "GeneralContractor",
-    "name": "Marido de Aluguel e Pequenos Reparos",
-    "description": "Serviços de manutenção residencial, montagem de móveis e pequenas instalações em São José dos Campos.",
+    "serviceType": "Handyman",
+    "name": "Marido de Aluguel e Manutenção SJC",
+    "description": "Serviços de manutenção residencial e reparos rápidos em São José dos Campos. Especialistas em limpeza de calhas, telhados, pequenos reparos hidráulicos e elétricos.",
     "provider": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
@@ -39,28 +43,28 @@ const pageDescription = "Precisa de pequenos reparos? Encontre Marido de Aluguel
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Montagem de Móveis e Estantes"
+            "name": "Limpeza de Calhas e Rufos (Urgente)"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Instalação de Suportes de TV e Cortinas"
+            "name": "Reparo de Goteiras e Telhados"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Pequenos Reparos Hidráulicos e Elétricos"
+            "name": "Desentupimento de Ralos Externos"
           }
         },
-         {
+        {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Manutenção Predial para Locação"
+            "name": "Pequenos Reparos Hidráulicos"
           }
         }
       ]
@@ -68,52 +72,99 @@ const pageDescription = "Precisa de pequenos reparos? Encontre Marido de Aluguel
   }
   </script>
 
-  <div class="bg-blue-50 border-b border-blue-100 py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Marido de Aluguel em São José dos Campos
+  <div class="bg-gradient-to-br from-blue-900 to-blue-700 py-12 mb-8 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white relative z-10">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4 drop-shadow-md">
+        Marido de Aluguel em SJC
       </h1>
-      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-        Esqueça o improviso. Conectamos você a profissionais de manutenção residencial <span class="font-semibold text-blue-700">verificados, seguros e avaliados</span>. Ideal para moradores do <span class="font-semibold">Jardim Aquarius</span>, <span class="font-semibold">Urbanova</span> e <span class="font-semibold">Vila Adyana</span>.
-      </p>
+      
+      {showStormBanner && (
+        <div class="mt-6 bg-red-600/90 backdrop-blur-md border-l-4 border-yellow-400 rounded-r-lg p-4 max-w-3xl mx-auto shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <div class="flex items-center justify-center gap-3">
+            <span class="text-3xl">⛈️</span>
+            <div class="text-left">
+              <p class="font-bold text-yellow-100 uppercase tracking-wider text-xs">Alerta de Chuvas em SJC</p>
+              <p class="font-medium text-white text-sm md:text-base">
+                Alta procura por <strong>Limpeza de Calhas</strong> e <strong>Reparo de Goteiras</strong> hoje.
+                <br class="hidden md:block" />
+                Agende agora para evitar infiltrações.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   </div>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-  <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
-    <h3 class="font-bold text-gray-900 text-sm mb-2 uppercase tracking-wide">🚿 Serviços Mais Procurados Hoje</h3>
-    <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-      <li>Troca de resistência de chuveiro (<a href="/blog/chuveiro-queimado-sjc-guia" class="text-blue-600 hover:underline font-medium">Ver guia de preços</a>)</li>
-      <li>Limpeza de calhas pós-chuva</li>
-      <li>Reparos rápidos na Zona Sul (<a href="/bairros/jardim-satelite" class="text-blue-600 hover:underline font-medium">Ver técnicos no Satélite</a>)</li>
-    </ul>
-  </div>
-</div>
-
-  <BusinessListing 
-    businesses={maridos}
-    serviceTitle="Profissionais de Manutenção"
-  />
-
-  <section class="py-12 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-3 gap-8 text-center">
-        <div class="p-6 bg-gray-50 rounded-lg">
-          <div class="text-3xl mb-3">🛡️</div>
-          <h3 class="font-bold text-lg mb-2">Segurança Total</h3>
-          <p class="text-gray-600">Checamos referências profissionais de todos os parceiros listados.</p>
-        </div>
-        <div class="p-6 bg-gray-50 rounded-lg">
-          <div class="text-3xl mb-3">⭐</div>
-          <h3 class="font-bold text-lg mb-2">Qualidade Garantida</h3>
-          <p class="text-gray-600">Apenas profissionais com nota média acima de 4.0 permanecem em nossa plataforma.</p>
-        </div>
-        <div class="p-6 bg-gray-50 rounded-lg">
-          <div class="text-3xl mb-3">📋</div>
-          <h3 class="font-bold text-lg mb-2">Orçamento Transparente</h3>
-          <p class="text-gray-600">Sem surpresas. Combine o valor antes do serviço começar, direto pelo WhatsApp.</p>
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
+      <h2 class="text-gray-700 font-semibold mb-3 text-sm uppercase tracking-wide">Filtrar por Especialidade:</h2>
+      <div class="flex flex-wrap gap-2">
+        <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-bold border border-blue-200 shadow-sm cursor-default">🍂 Limpeza de Calhas</span>
+        <span class="px-4 py-2 bg-gray-50 text-gray-600 rounded-full text-sm font-medium border border-gray-200 hover:bg-gray-100 transition-colors cursor-default">💧 Hidráulica</span>
+        <span class="px-4 py-2 bg-gray-50 text-gray-600 rounded-full text-sm font-medium border border-gray-200 hover:bg-gray-100 transition-colors cursor-default">⚡ Elétrica Básica</span>
+        <span class="px-4 py-2 bg-gray-50 text-gray-600 rounded-full text-sm font-medium border border-gray-200 hover:bg-gray-100 transition-colors cursor-default">🔨 Montagem</span>
       </div>
     </div>
-  </section>
+
+    <BusinessListing 
+      businesses={maridos}
+      serviceTitle="Profissionais Disponíveis para Manutenção"
+    />
+    
+    {maridos.length === 0 && (
+      <div class="text-center py-12 bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
+        <p class="text-gray-500 mb-2 text-lg">Estamos atualizando nossa lista de profissionais.</p>
+        <p class="text-sm text-gray-400">Volte em breve para ver as opções disponíveis.</p>
+      </div>
+    )}
+
+    <div class="mt-16 bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+        <span class="text-blue-600">?</span> Dúvidas Comuns
+      </h2>
+      
+      <div class="space-y-6 divide-y divide-gray-100">
+        <div class="pt-4 first:pt-0">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Quanto custa uma visita de Marido de Aluguel em SJC?</h3>
+          <p class="text-gray-600 leading-relaxed">
+            A taxa de visita ou hora técnica média em São José dos Campos varia entre <strong>R$ 80 e R$ 150</strong>. Para serviços como limpeza de calhas, o valor costuma ser cobrado por metro linear ou preço fechado após avaliação do local (altura e acesso).
+          </p>
+        </div>
+        
+        <div class="pt-4">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Vocês fazem limpeza de calhas em dias de chuva?</h3>
+          <p class="text-gray-600 leading-relaxed">
+            <strong>Segurança em primeiro lugar:</strong> Não é recomendável subir em telhados durante tempestades devido ao risco de raios e escorregões. O ideal é agendar a limpeza assim que a chuva estiar para prevenir danos na próxima pancada.
+          </p>
+        </div>
+
+        <div class="pt-4">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Atendem quais bairros?</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Nossos profissionais verificados atendem toda a cidade, com foco especial no <strong>Centro, Vila Adyana, Aquarius e Urbanova</strong>.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+        <div class="flex items-start">
+          <div class="flex-shrink-0">
+            <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+          </div>
+          <div class="ml-3">
+            <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Aviso de Preços</h3>
+            <div class="text-sm text-yellow-700 space-y-2">
+              <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> apenas para referência.</p>
+              <div class="bg-white/50 p-2 rounded text-xs md:text-sm">
+                 O <strong>Serviços Urgentes</strong> é um diretório e não interfere na precificação. Negocie diretamente com o profissional.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
 </Layout>
