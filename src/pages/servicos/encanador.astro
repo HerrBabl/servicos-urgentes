@@ -2,92 +2,68 @@
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
 import { encanadores } from '../../data/encanadores.js';
+
+// SEO Constants - Directory Model
+const title = "Encanador 24h SJC: Caça-Vazamentos e Desentupimento | Técnicos Verificados";
+const description = "💧 Precisando de Encanador em SJC? Conectamos você a técnicos 24h para caça-vazamentos, infiltrações e desentupimento. Atendimento no Aquarius, Urbanova e Centro.";
+const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé dos campos, marido de aluguel sjc, encanador 24h centro sjc, conserto de tubulação";
 ---
 
 <Layout 
-  title="Encanadores em São José dos Campos (SJC) - Profissionais Verificados 24h"
-  description="Precisa de encanador em São José dos Campos? Encontre profissionais verificados para vazamentos, desentupimentos e reparos 24h. Atendimento urgente no Aquarius, Urbanova e toda SJC."
+  title={title} 
+  description={description}
+  keywords={keywords}
 >
-  <!-- Service Schema for Plumbing -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md shadow-sm">
+      <div class="flex">
+        <div class="flex-shrink-0">
+          <svg class="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="ml-3">
+          <p class="text-sm text-blue-700">
+            <strong>Chuva forte = risco de infiltração!</strong> 
+            Veja nosso <a href="/blog/guia-emergencia-hidraulica-sjc/" class="underline font-bold hover:text-blue-900">guia de emergência hidráulica</a> ou encontre um <a href="#profissionais" class="underline font-bold hover:text-blue-900">encanador 24h</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Plumbing",
-    "name": "Serviços de Encanamento 24h",
-    "description": "Serviços de encanamento de emergência disponíveis 24 horas em São José dos Campos. Atendimento para vazamentos, entupimentos, instalações e reparos urgentes.",
+    "name": "Serviços de Encanamento 24h SJC",
+    "description": "Diretório de encanadores de emergência 24h em São José dos Campos. Conexão com profissionais para vazamentos, entupimentos e reparos urgentes.",
     "provider": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "São José dos Campos",
-      "containedIn": {
-        "@type": "State",
-        "name": "São Paulo"
-      }
-    },
+    "areaServed": [
+      { "@type": "City", "name": "São José dos Campos" },
+      { "@type": "AdministrativeArea", "name": "Centro" },
+      { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
+      { "@type": "AdministrativeArea", "name": "Urbanova" },
+      { "@type": "AdministrativeArea", "name": "Vila Adyana" }
+    ],
     "availableChannel": {
       "@type": "ServiceChannel",
       "serviceUrl": "https://servicosurgentes.com/servicos/encanador",
       "availableLanguage": "pt-BR"
-    },
-    "hoursAvailable": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday", 
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
     },
     "category": "Emergency Plumbing Services",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Serviços de Encanamento",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Reparo de Vazamentos de Emergência"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Desentupimento 24h"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Instalação e Reparo de Torneiras"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Reparo de Tubulações"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Instalação de Aquecedores"
-          }
-        }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparo de Vazamentos de Emergência" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desentupimento 24h" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Caça-Vazamentos Eletrônico" }}
       ]
     }
   }
@@ -95,7 +71,187 @@ import { encanadores } from '../../data/encanadores.js';
 
   <BusinessListing 
     businesses={encanadores}
-    serviceTitle="Encanadores em São José dos Campos"
-    serviceDescription="Encontre os melhores encanadores de SJC para serviços de emergência e manutenção."
+    serviceTitle="Encanadores Verificados em SJC"
+    serviceDescription="Conectamos você aos profissionais melhores avaliados para emergências hidráulicas 24h."
   />
+
+  <section class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">
+        Serviços de Encanador em São José dos Campos
+      </h2>
+      
+      <div class="prose prose-lg max-w-none text-gray-700">
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Atendimento de Emergência Hidráulica
+        </h3>
+        <p>
+          Vazamentos ocultos e canos estourados não escolhem hora. Nosso diretório lista <strong>encanadores 24 horas</strong> em São José dos Campos especializados em detectar e reparar infiltrações rapidamente. Seja no Parque Aquarius, Urbanova ou Centro, encontre profissionais equipados com Geofone (Caça-Vazamentos) para localizar o problema sem quebrar paredes desnecessariamente.
+        </p>
+
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Quanto Custa um Encanador em SJC (Estimativas 2026)
+        </h3>
+        <p>
+          Os valores variam conforme a tecnologia necessária (manual vs. eletrônica) e a urgência.
+        </p>
+        <ul class="list-disc pl-5 space-y-2 mb-6">
+          <li><strong>Visita Técnica Simples:</strong> R$ 80 - R$ 150</li>
+          <li><strong>Desentupimento (Pia/Vaso):</strong> R$ 150 - R$ 300</li>
+          <li><strong>Caça-Vazamentos (com Laudo):</strong> R$ 350 - R$ 600</li>
+          <li><strong>Troca de Reparo de Válvula Hydra:</strong> R$ 120 - R$ 200</li>
+        </ul>
+
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+              <div class="text-sm text-yellow-700 space-y-2">
+                <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+                <div class="bg-white/50 p-3 rounded">
+                  <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
+                  <ul class="list-none space-y-1 ml-1">
+                    <li>❌ Não define preços dos prestadores</li>
+                    <li>❌ Não interfere nas negociações comerciais</li>
+                    <li>❌ Não garante valores finais</li>
+                  </ul>
+                </div>
+                <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
+                  <p class="flex items-start gap-2">
+                    <span class="text-lg">💡</span>
+                    <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Prevenção de Tempestades
+        </h3>
+        <p>
+          Em épocas de chuva forte em SJC, o retorno de esgoto e alagamento de calhas são comuns. Recomendamos a instalação de <strong>válvulas de retenção</strong> e limpeza preventiva de ralos e caixas de gordura a cada 6 meses.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 bg-blue-50 border-t border-blue-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+        📖 Guias de Emergência Hidráulica
+      </h2>
+      
+      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <a href="/blog/guia-emergencia-hidraulica-sjc" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group">
+          <div class="flex items-start">
+            <div class="text-3xl mr-4">💧</div>
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600">
+                Cano Estourou? Protocolo de Emergência Hidráulica SJC
+              </h3>
+              <p class="text-gray-600 text-sm mb-3">
+                O que fazer nos primeiros 5 minutos de um vazamento grave, como fechar o registro e evitar danos maiores.
+              </p>
+              <span class="text-red-600 font-semibold group-hover:underline text-sm">
+                Ler artigo completo →
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <div class="bg-white rounded-lg shadow-md p-6 opacity-75">
+          <div class="flex items-start">
+            <div class="text-3xl mr-4">🔍</div>
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-gray-900 mb-2">
+                Caça-Vazamentos: Quando Vale a Pena Contratar?
+              </h3>
+              <p class="text-gray-600 text-sm mb-3">
+                Entenda como funciona o geofone eletrônico e em quais casos ele evita quebradeiras desnecessárias.
+              </p>
+              <span class="text-gray-500 font-semibold text-sm">
+                Em breve
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+        Outros Serviços Urgentes em SJC
+      </h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <a href="/servicos/eletricista/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3 text-center">⚡</div>
+          <h3 class="font-bold text-gray-900 mb-2 text-center">Eletricistas 24h</h3>
+          <p class="text-sm text-gray-600 text-center">Disjuntor queimado, curto-circuito, oscilação de energia</p>
+        </a>
+        
+        <a href="/servicos/chaveiro/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3 text-center">🔑</div>
+          <h3 class="font-bold text-gray-900 mb-2 text-center">Chaveiros 24h</h3>
+          <p class="text-sm text-gray-600 text-center">Trancado para fora, cópias de chaves, fechaduras</p>
+        </a>
+        
+        <a href="/servicos/ar-condicionado/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3 text-center">❄️</div>
+          <h3 class="font-bold text-gray-900 mb-2 text-center">Ar-Condicionado</h3>
+          <p class="text-sm text-gray-600 text-center">Instalação, limpeza, conserto e manutenção</p>
+        </a>
+        
+        <a href="/servicos/marido-de-aluguel/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3 text-center">🛠️</div>
+          <h3 class="font-bold text-gray-900 mb-2 text-center">Marido de Aluguel</h3>
+          <p class="text-sm text-gray-600 text-center">Reparos gerais, instalações, manutenção residencial</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="profissionais" class="py-16 bg-gray-50 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Profissionais Disponíveis em Sua Região</h2>
+      <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+        Encontre encanadores próximos a você em São José dos Campos para atendimento rápido.
+      </p>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <a href="/bairros/centro/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏢</div>
+          <div class="font-bold text-gray-900">Centro</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Encanadores →</div>
+        </a>
+        
+        <a href="/bairros/parque-residencial-aquarius/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏘️</div>
+          <div class="font-bold text-gray-900">Aquarius</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Encanadores →</div>
+        </a>
+        
+        <a href="/bairros/urbanova/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏡</div>
+          <div class="font-bold text-gray-900">Urbanova</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Encanadores →</div>
+        </a>
+        
+        <a href="/bairros/vila-adyana/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🌳</div>
+          <div class="font-bold text-gray-900">Vila Adyana</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Encanadores →</div>
+        </a>
+      </div>
+    </div>
+  </section>
 </Layout>
