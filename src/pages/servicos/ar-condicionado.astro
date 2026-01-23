@@ -2,189 +2,222 @@
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
 import { ar_condicionado } from '../../data/ar_condicionado.js';
+
+// SEO Constants - Directory Model
+const title = "Ar-Condicionado SJC: Instalação, Limpeza e Conserto 24h | Técnicos 4+ Estrelas";
+const description = "❄️ Precisando de técnico de Ar-Condicionado em SJC? Conectamos você a profissionais para instalação, limpeza e conserto. Atendimento no Aquarius, Urbanova e Centro.";
+const keywords = "ar condicionado sjc, limpeza de ar condicionado sjc, técnico ar condicionado são josé dos campos, marido de aluguel sjc, instalação split sjc, conserto ar condicionado 24h";
 ---
 
 <Layout 
-  title="Ar-Condicionado em São José dos Campos (SJC) - Instalação e Manutenção"
-  description="Técnicos de ar-condicionado em São José dos Campos. Instalação, limpeza e conserto de todas as marcas. Profissionais 4+ estrelas atendendo toda SJC."
+  title={title}
+  description={description}
+  keywords={keywords}
 >
-  <!-- Service Schema for HVAC/Air Conditioning -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "HVAC",
-    "name": "Serviços de Ar Condicionado",
-    "description": "Serviços completos de ar condicionado em São José dos Campos. Instalação, manutenção preventiva, limpeza, recarga de gás e reparos de sistemas de climatização.",
+    "name": "Serviços de Ar Condicionado SJC",
+    "description": "Diretório de técnicos de ar condicionado em São José dos Campos. Instalação, manutenção preventiva, limpeza, recarga de gás e reparos.",
     "provider": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "São José dos Campos",
-      "containedIn": {
-        "@type": "State",
-        "name": "São Paulo"
-      }
-    },
+    "areaServed": [
+      { "@type": "City", "name": "São José dos Campos" },
+      { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
+      { "@type": "AdministrativeArea", "name": "Urbanova" },
+      { "@type": "AdministrativeArea", "name": "Vila Adyana" },
+      { "@type": "AdministrativeArea", "name": "Centro" }
+    ],
     "availableChannel": {
       "@type": "ServiceChannel",
       "serviceUrl": "https://servicosurgentes.com/servicos/ar-condicionado",
       "availableLanguage": "pt-BR"
     },
-    "hoursAvailable": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday", 
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
     "category": "HVAC and Air Conditioning Services",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Serviços de Ar Condicionado",
+      "name": "Serviços de Climatização",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Instalação de Ar Condicionado"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Manutenção Preventiva"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Limpeza e Higienização"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Recarga de Gás Refrigerante"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Reparo de Vazamentos"
-          }
-        }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Instalação de Ar Condicionado Split" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Manutenção Preventiva e Limpeza" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recarga de Gás Refrigerante" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparo de Vazamentos (Pingadeira)" }}
       ]
     }
   }
   </script>
 
-<BusinessListing 
+  <BusinessListing 
     businesses={ar_condicionado}
     serviceTitle="Técnicos de Ar-Condicionado em SJC"
-    serviceDescription="Especialistas em climatização e ar-condicionado em São José dos Campos."
+    serviceDescription="Especialistas em climatização e ar-condicionado em São José dos Campos, avaliados pela comunidade."
   />
-  <!-- Related Blog Posts Section -->
-<section class="py-12 bg-blue-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-      📖 Guias Relacionados
-    </h2>
-    
-    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <a href="/blog/ar-condicionado-emergencia-sjc" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group">
-        <div class="flex items-start">
-          <div class="text-3xl mr-4">❄️</div>
-          <div class="flex-1">
-            <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600">
-              Ar-Condicionado de Emergência: Guia Completo SJC
-            </h3>
-            <p class="text-gray-600 text-sm mb-3">
-              O que fazer quando seu AC para? Protocolo de emergência, custos e como escolher o técnico certo.
-            </p>
-            <span class="text-red-600 font-semibold group-hover:underline text-sm">
-              Ler artigo completo →
-            </span>
-          </div>
-        </div>
-      </a>
 
-      <div class="bg-white rounded-lg shadow-md p-6 opacity-60">
-        <div class="flex items-start">
-          <div class="text-3xl mr-4">🔧</div>
-          <div class="flex-1">
-            <h3 class="text-lg font-bold text-gray-900 mb-2">
-              Manutenção Preventiva de AC: Vale a Pena?
-            </h3>
-            <p class="text-gray-600 text-sm mb-3">
-              Quanto custa a manutenção preventiva e como ela pode evitar emergências caras no futuro.
-            </p>
-            <span class="text-gray-500 font-semibold text-sm">
-              Em breve
-            </span>
+  <section class="py-12 bg-blue-50 border-t border-blue-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+        📖 Guias de Manutenção e Economia
+      </h2>
+      
+      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <a href="/blog/ar-condicionado-nao-gela-sjc/" class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group">
+          <div class="flex items-start">
+            <div class="text-3xl mr-4">❄️</div>
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600">
+                Ar-Condicionado Não Gela? Protocolo de Emergência SJC
+              </h3>
+              <p class="text-gray-600 text-sm mb-3">
+                Calor de 38°C e AC parou? Saiba o que verificar antes de chamar o técnico, custos de reparo e como escolher profissional confiável.
+              </p>
+              <span class="text-red-600 font-semibold group-hover:underline text-sm">
+                Ler artigo completo →
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <div class="bg-white rounded-lg shadow-md p-6 opacity-75">
+          <div class="flex items-start">
+            <div class="text-3xl mr-4">💰</div>
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-gray-900 mb-2">
+                Manutenção Preventiva: Tabela de Preços 2026
+              </h3>
+              <p class="text-gray-600 text-sm mb-3">
+                Saiba quanto custa manter seu ar limpo e evite gastos surpresa no verão.
+              </p>
+              <span class="text-gray-500 font-semibold text-sm">
+                Em breve
+              </span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- SEO Content Section -->
-<section class="py-16 bg-white">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-3xl font-bold text-gray-900 mb-6">
-      Sobre Serviços de Ar-Condicionado de Emergência em São José dos Campos
-    </h2>
-    
-    <div class="prose prose-lg max-w-none">
-      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-        Quando Chamar um Técnico de Ar-Condicionado de Emergência
-      </h3>
-      <p class="text-gray-700 mb-4">
-        Em São José dos Campos, com temperaturas que facilmente ultrapassam 30°C no verão, um ar-condicionado que para de funcionar pode rapidamente se tornar uma emergência, especialmente para idosos, crianças e pessoas com condições de saúde sensíveis ao calor. Você deve chamar um técnico imediatamente se notar cheiro de queimado, vazamento de água excessivo, ruídos estranhos no motor, ou se o aparelho simplesmente não liga mais.
-      </p>
+  </section>
 
-      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-        Serviços de Ar-Condicionado Disponíveis 24h
-      </h3>
-      <p class="text-gray-700 mb-4">
-        Nossa rede de técnicos verificados em São José dos Campos oferece serviços completos de ar-condicionado, incluindo instalação de unidades novas, manutenção preventiva, recarga de gás refrigerante, limpeza profunda de evaporadora e condensadora, troca de placas eletrônicas, conserto de vazamentos, e reparo de compressores. Todos os profissionais listados possuem no mínimo 4 estrelas de avaliação e estão disponíveis para atendimento rápido em toda a região do Vale do Paraíba.
-      </p>
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">
+        Sobre Serviços de Ar-Condicionado em São José dos Campos
+      </h2>
+      
+      <div class="prose prose-lg max-w-none text-gray-700">
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Quando Chamar um Técnico Urgentemente
+        </h3>
+        <p>
+          Em São José dos Campos, o calor pode ser intenso. Se você notar <strong>cheiro de queimado</strong>, vazamento de água na unidade interna (pinga-pinga), ou se o disjuntor desarmar ao ligar o aparelho, desligue tudo imediatamente e busque um profissional verificado.
+        </p>
 
-      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-        Quanto Custa Consertar um Ar-Condicionado em SJC
-      </h3>
-      <p class="text-gray-700 mb-4">
-        Os custos variam conforme o tipo de problema e o modelo do aparelho. Em São José dos Campos, uma visita técnica geralmente custa entre R$ 80 e R$ 150. Serviços comuns incluem: recarga de gás (R$ 200-400), limpeza completa (R$ 150-300), troca de capacitor (R$ 120-250), substituição de placa eletrônica (R$ 300-800), e reparo de vazamentos (R$ 200-500). Sempre peça um orçamento detalhado antes de autorizar qualquer serviço.
-      </p>
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Serviços Disponíveis no Diretório
+        </h3>
+        <p>
+          Conectamos você a especialistas em instalação de unidades split e inverter, manutenção preventiva (limpeza química), recarga de gás e reparos de placas. Nossos profissionais listados atendem as principais marcas e possuem avaliação média de 4+ estrelas.
+        </p>
 
-      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-        Como Escolher um Técnico Confiável
-      </h3>
-      <p class="text-gray-700 mb-4">
-        Procure profissionais com no mínimo 4 estrelas de avaliação, verifique se possuem certificação técnica reconhecida, confirme se oferecem garantia do serviço realizado (mínimo 90 dias), peça referências de trabalhos anteriores, e sempre exija um orçamento por escrito antes de iniciar o reparo. Em nossa plataforma, todos os técnicos listados já passaram por verificação de qualidade e possuem histórico comprovado de atendimento em São José dos Campos e região.
-      </p>
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Estimativa de Preços em SJC (Referência 2026)
+        </h3>
+        <p>
+          Os valores variam pela complexidade. Uma higienização simples começa em média a partir de R$ 150-200. Instalações completas variam de R$ 400 a R$ 800 (sem materiais). Sempre solicite orçamento prévio através do contato direto com o técnico na listagem acima.
+        </p>
 
-      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-        Prevenção: Manutenção Regular Evita Emergências
-      </h3>
-      <p class="text-gray-700 mb-4">
-        A manutenção preventiva a cada 6 meses pode evitar a maioria das emergências com ar-condicionado. Uma limpeza profissional regular melhora a eficiência energética, prolonga a vida útil do aparelho, previne vazamentos, elimina odores desagradáveis, e reduz o risco de quebras inesperadas. O custo de uma manutenção preventiva (R$ 150-250) é sempre menor que o custo de um reparo de emergência (R$ 300-800+). Considere agendar manutenções antes do verão e após períodos de uso intenso.
-      </p>
+        <!-- PRICE DISCLAIMER - MANDATORY LEGAL PROTECTION -->
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+            </div>
+            <div class="ml-3">
+              <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+              <div class="text-sm text-yellow-700 space-y-2">
+                <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+                <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+                <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- CROSS-SERVICE INTERNAL LINKING - ALL 4 SERVICES -->
+  <section class="py-12 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+        Outros Serviços Urgentes em SJC
+      </h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <a href="/servicos/eletricista/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">⚡</div>
+          <h3 class="font-bold text-gray-900 mb-2">Eletricistas 24h</h3>
+          <p class="text-sm text-gray-600">Disjuntor queimado, curto-circuito, oscilação de energia</p>
+        </a>
+        
+        <a href="/servicos/encanador/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">🔧</div>
+          <h3 class="font-bold text-gray-900 mb-2">Encanadores 24h</h3>
+          <p class="text-sm text-gray-600">Vazamentos, entupimentos, infiltrações urgentes</p>
+        </a>
+        
+        <a href="/servicos/chaveiro/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">🔑</div>
+          <h3 class="font-bold text-gray-900 mb-2">Chaveiros 24h</h3>
+          <p class="text-sm text-gray-600">Trancado para fora, cópias de chaves, fechaduras</p>
+        </a>
+        
+        <a href="/servicos/marido-de-aluguel/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">🛠️</div>
+          <h3 class="font-bold text-gray-900 mb-2">Marido de Aluguel</h3>
+          <p class="text-sm text-gray-600">Reparos gerais, instalações, manutenção residencial</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEIGHBORHOOD GRID -->
+  <section class="py-16 bg-gray-50 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Profissionais Disponíveis em Sua Região</h2>
+      <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+        Encontre técnicos de climatização próximos a você em São José dos Campos para atendimento mais rápido.
+      </p>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <a href="/bairros/centro/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏢</div>
+          <div class="font-bold text-gray-900">Centro</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Técnicos →</div>
+        </a>
+        
+        <a href="/bairros/parque-residencial-aquarius/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏘️</div>
+          <div class="font-bold text-gray-900">Aquarius</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Técnicos →</div>
+        </a>
+        
+        <a href="/bairros/urbanova/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏡</div>
+          <div class="font-bold text-gray-900">Urbanova</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Técnicos →</div>
+        </a>
+        
+        <a href="/bairros/vila-adyana/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🌳</div>
+          <div class="font-bold text-gray-900">Vila Adyana</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Técnicos →</div>
+        </a>
+      </div>
+    </div>
+  </section>
 </Layout>
