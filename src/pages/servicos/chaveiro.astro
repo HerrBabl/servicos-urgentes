@@ -2,100 +2,204 @@
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
 import { chaveiros } from '../../data/chaveiros.js';
+
+// SEO Constants - Directory Model
+const title = "Chaveiro 24h SJC: Abertura de Portas e Automotivo | Técnicos Verificados";
+const description = "🔑 Chaveiros 24h em SJC: encontre profissionais para abertura de portas, troca de fechaduras e cópias de chaves. Atendimento urgente no Centro, Aquarius e Urbanova.";
+const keywords = "chaveiro sjc, chaveiro 24 horas são josé dos campos, abertura de porta sjc, marido de aluguel sjc, troca de fechadura, chaveiro automotivo centro sjc";
 ---
 
 <Layout 
-  title="Chaveiros em São José dos Campos (SJC) - Emergência 24h e Automotivo"
-  description="🔑 Trancado fora de casa AGORA em SJC? Chaveiros 24h verificados atendem em 30min. Chave quebrada, porta batida, cofre? Compare preços e avaliações 4+ estrelas."
+  title={title} 
+  description={description}
+  keywords={keywords}
 >
-  <!-- Service Schema for Locksmith -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Locksmith",
-    "name": "Serviços de Chaveiro 24h",
-    "description": "Serviços de chaveiro de emergência disponíveis 24 horas em São José dos Campos. Abertura de portas, fechaduras, cópias de chaves e chaveiro automotivo.",
+    "name": "Serviços de Chaveiro 24h SJC",
+    "description": "Diretório de chaveiros de emergência em São José dos Campos. Abertura de portas, fechaduras, cópias e chaveiro automotivo.",
     "provider": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "São José dos Campos",
-      "containedIn": {
-        "@type": "State",
-        "name": "São Paulo"
-      }
-    },
+    "areaServed": [
+      { "@type": "City", "name": "São José dos Campos" },
+      { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
+      { "@type": "AdministrativeArea", "name": "Urbanova" },
+      { "@type": "AdministrativeArea", "name": "Vila Adyana" },
+      { "@type": "AdministrativeArea", "name": "Centro" }
+    ],
     "availableChannel": {
       "@type": "ServiceChannel",
       "serviceUrl": "https://servicosurgentes.com/servicos/chaveiro",
       "availableLanguage": "pt-BR"
-    },
-    "hoursAvailable": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday", 
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
     },
     "category": "Emergency Locksmith Services",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Serviços de Chaveiro",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Abertura de Portas de Emergência"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Troca e Instalação de Fechaduras"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Cópias de Chaves"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Chaveiro Automotivo 24h"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Abertura de Cofres"
-          }
-        }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Abertura de Portas de Emergência" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Troca e Instalação de Fechaduras" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chaveiro Automotivo 24h" }}
       ]
     }
   }
   </script>
 
-<BusinessListing 
+  <BusinessListing 
     businesses={chaveiros}
-    serviceTitle="Chaveiros em São José dos Campos"
-    serviceDescription="Chaveiros 24h em SJC para abertura de residências e veículos."
+    serviceTitle="Chaveiros Verificados em SJC"
+    serviceDescription="Profissionais 24h para aberturas residenciais e automotivas em São José dos Campos."
   />
+
+  <section class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">
+        Serviços de Chaveiro em São José dos Campos
+      </h2>
+      
+      <div class="prose prose-lg max-w-none text-gray-700">
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Atendimento de Emergência 24h
+        </h3>
+        <p>
+          Ficar trancado para fora de casa ou do carro é uma situação estressante. Nosso diretório conecta você a <strong>chaveiros 24 horas</strong> em São José dos Campos que atendem rapidamente no Centro, Zona Sul, Aquarius e Urbanova. Os profissionais listados realizam aberturas sem danos, troca de segredos e confecção de chaves codificadas.
+        </p>
+
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Quanto Custa um Chaveiro em SJC? (Estimativas 2026)
+        </h3>
+        <p>
+          Os preços variam conforme o horário (comercial vs. plantão noturno) e a complexidade da fechadura (simples vs. tetra).
+        </p>
+        <ul class="list-disc pl-5 space-y-2 mb-6">
+          <li><strong>Abertura de porta simples (Dia):</strong> R$ 80 - R$ 150</li>
+          <li><strong>Abertura de porta (Plantão/Noite):</strong> R$ 150 - R$ 250</li>
+          <li><strong>Troca de segredo/cilindro:</strong> R$ 100 - R$ 200 (mais o custo da peça)</li>
+          <li><strong>Abertura de carro nacional:</strong> R$ 120 - R$ 200</li>
+        </ul>
+
+        <!-- PRICE DISCLAIMER - MANDATORY LEGAL PROTECTION -->
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+              <div class="text-sm text-yellow-700 space-y-2">
+                <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+                <div class="bg-white/50 p-3 rounded">
+                  <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
+                  <ul class="list-none space-y-1 ml-1">
+                    <li>❌ Não define preços dos prestadores</li>
+                    <li>❌ Não interfere nas negociações comerciais</li>
+                    <li>❌ Não garante valores finais</li>
+                  </ul>
+                </div>
+                <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
+                  <p class="flex items-start gap-2">
+                    <span class="text-lg">💡</span>
+                    <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: TRUST-BUILDING SECTION -->
+        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          🚨 Como Identificar Chaveiros Confiáveis
+        </h3>
+        <p>
+          Infelizmente, o mercado de chaveiros tem golpistas. Siga estas orientações:
+        </p>
+        <ul class="list-disc pl-5 space-y-2 mb-6">
+          <li><strong>Confirme o preço ANTES:</strong> Profissionais sérios informam valores por telefone (ou um range claro)</li>
+          <li><strong>Peça nota fiscal:</strong> Chaveiros registrados emitem recibo ou NF-e</li>
+          <li><strong>Verifique avaliações:</strong> No nosso diretório, priorizamos profissionais com 4+ estrelas</li>
+          <li><strong>Desconfie de preços irreais:</strong> R$ 30-40 para abertura noturna = possível golpe (cobrarão muito mais na hora)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CROSS-SERVICE INTERNAL LINKING - ALL 4 SERVICES -->
+  <section class="py-12 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+        Outros Serviços Urgentes em SJC
+      </h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <a href="/servicos/eletricista/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">⚡</div>
+          <h3 class="font-bold text-gray-900 mb-2">Eletricistas 24h</h3>
+          <p class="text-sm text-gray-600">Disjuntor queimado, curto-circuito, oscilação de energia</p>
+        </a>
+        
+        <a href="/servicos/encanador/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">🔧</div>
+          <h3 class="font-bold text-gray-900 mb-2">Encanadores 24h</h3>
+          <p class="text-sm text-gray-600">Vazamentos, entupimentos, infiltrações urgentes</p>
+        </a>
+        
+        <a href="/servicos/ar-condicionado/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">❄️</div>
+          <h3 class="font-bold text-gray-900 mb-2">Ar-Condicionado</h3>
+          <p class="text-sm text-gray-600">Instalação, limpeza, conserto e manutenção</p>
+        </a>
+        
+        <a href="/servicos/marido-de-aluguel/" class="bg-gray-50 rounded-lg p-6 hover:bg-blue-50 hover:shadow-md transition">
+          <div class="text-3xl mb-3">🛠️</div>
+          <h3 class="font-bold text-gray-900 mb-2">Marido de Aluguel</h3>
+          <p class="text-sm text-gray-600">Reparos gerais, instalações, manutenção residencial</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEIGHBORHOOD GRID -->
+  <section class="py-16 bg-gray-50 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Profissionais Disponíveis em Sua Região</h2>
+      <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+        Encontre chaveiros próximos a você em São José dos Campos para atendimento rápido (média de 30 min).
+      </p>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <a href="/bairros/centro/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏢</div>
+          <div class="font-bold text-gray-900">Centro</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Chaveiros →</div>
+        </a>
+        
+        <a href="/bairros/parque-residencial-aquarius/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏘️</div>
+          <div class="font-bold text-gray-900">Aquarius</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Chaveiros →</div>
+        </a>
+        
+        <a href="/bairros/urbanova/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🏡</div>
+          <div class="font-bold text-gray-900">Urbanova</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Chaveiros →</div>
+        </a>
+        
+        <a href="/bairros/vila-adyana/" class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-500 transition-all text-center">
+          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">🌳</div>
+          <div class="font-bold text-gray-900">Vila Adyana</div>
+          <div class="text-xs text-blue-600 font-medium mt-1">Ver Chaveiros →</div>
+        </a>
+      </div>
+    </div>
+  </section>
 </Layout>
