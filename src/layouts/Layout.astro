@@ -7,13 +7,13 @@ export interface Props {
   title: string;
   description?: string;
   canonicalURL?: string;
-  keywords?: string; // ✅ Added support for keywords
+  keywords?: string; // ✅ Added to fix the error
 }
 
 const { 
   title, 
   description = "Encontre serviços de emergência 24h em São José dos Campos e região. Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis agora.",
-  keywords // ✅ Destructure keywords
+  keywords // ✅ Added to fix the error
 } = Astro.props;
 
 // Get the canonical URL - either passed as prop or construct from current URL
@@ -28,10 +28,7 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     
     <title>{title}</title>
     <meta name="description" content={description} />
-    
-    {keywords && <meta name="keywords" content={keywords} />}
-    
-    <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
+    {keywords && <meta name="keywords" content={keywords} />} <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
     <link rel="canonical" href={canonicalURL} />
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
