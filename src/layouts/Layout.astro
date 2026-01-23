@@ -7,9 +7,14 @@ export interface Props {
   title: string;
   description?: string;
   canonicalURL?: string;
+  keywords?: string; // ✅ Added support for keywords
 }
 
-const { title, description = "Encontre serviços de emergência 24h em São José dos Campos e região. Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis agora." } = Astro.props;
+const { 
+  title, 
+  description = "Encontre serviços de emergência 24h em São José dos Campos e região. Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis agora.",
+  keywords // ✅ Destructure keywords
+} = Astro.props;
 
 // Get the canonical URL - either passed as prop or construct from current URL
 const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
@@ -18,102 +23,52 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ3ZV7T8LJ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-BQ3ZV7T8LJ');
-    </script>
-    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- SEO Meta Tags -->
     <title>{title}</title>
     <meta name="description" content={description} />
-    <!-- your other existing meta tags continue... -->
     
-    <!-- SEO Meta Tags -->
-    <title>{title}</title>
-    <meta name="description" content={description} />
+    {keywords && <meta name="keywords" content={keywords} />}
+    
     <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
     <link rel="canonical" href={canonicalURL} />
     
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     
-    <!-- Generator -->
     <meta name="generator" content={Astro.generator} />
     
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Organization Schema - Establishes Brand Identity -->
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Serviços Urgentes",
+      "name": "Serviços Urgentes SJC",
       "url": "https://servicosurgentes.com",
       "logo": "https://servicosurgentes.com/favicon.svg",
-      "description": "Diretório online de serviços de emergência 24h em São José dos Campos e região",
-      "email": "cadastroservicosurgentes@gmail.com",
-      "areaServed": {
-        "@type": "City",
-        "name": "São José dos Campos",
-        "containedIn": {
-          "@type": "State",
-          "name": "São Paulo"
-        }
-      },
-      "knowsAbout": [
-        "Serviços de Emergência",
-        "Encanamento",
-        "Chaveiro",
-        "Eletricista",
-        "Ar Condicionado"
-      ]
-    }
-    </script>
-    
-    <!-- WebSite Schema - For Search Box & Site Info -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Serviços Urgentes",
-      "url": "https://servicosurgentes.com",
-      "description": "Diretório de serviços de emergência 24h em São José dos Campos",
-      "inLanguage": "pt-BR",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://servicosurgentes.com/servicos?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-12-99999-9999",
+        "contactType": "customer service",
+        "areaServed": "São José dos Campos"
       }
     }
     </script>
     
-    <!-- ItemList Schema - Directory Listing -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "Serviços de Emergência Disponíveis",
-      "description": "Lista de categorias de serviços de emergência em São José dos Campos",
+      "@type": "BreadcrumbList",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
             "@type": "Service",
-            "name": "Encanador de Emergência 24h",
+            "name": "Encanador 24h",
             "url": "https://servicosurgentes.com/servicos/encanador",
             "serviceType": "Plumbing",
             "areaServed": "São José dos Campos, SP"
@@ -166,10 +121,11 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     <style>
       html {
         font-family: 'Inter', system-ui, sans-serif;
+        scroll-behavior: smooth;
       }
       body {
-        margin: 0;
-        padding: 0;
+        background-color: #f9fafb;
+        color: #1f2937;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
