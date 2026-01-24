@@ -56,57 +56,81 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     </script>
     
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Service",
-            "name": "Encanador 24h",
-            "url": "https://servicosurgentes.com/servicos/encanador",
-            "serviceType": "Plumbing",
-            "areaServed": "São José dos Campos, SP"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Service",
-            "name": "Chaveiro 24h",
-            "url": "https://servicosurgentes.com/servicos/chaveiro",
-            "serviceType": "Locksmith",
-            "areaServed": "São José dos Campos, SP"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Service",
-            "name": "Eletricista de Emergência 24h",
-            "url": "https://servicosurgentes.com/servicos/eletricista",
-            "serviceType": "Electrician",
-            "areaServed": "São José dos Campos, SP"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "item": {
-            "@type": "Service",
-            "name": "Técnico em Ar Condicionado 24h",
-            "url": "https://servicosurgentes.com/servicos/ar-condicionado",
-            "serviceType": "HVAC",
-            "areaServed": "São José dos Campos, SP"
-          }
-        }
-      ]
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://servicosurgentes.com/",
+        "name": "Início"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "@id": "https://servicosurgentes.com/servicos/encanador",
+        "name": "Encanador 24h",
+        "url": "https://servicosurgentes.com/servicos/encanador",
+        "serviceType": "Plumbing",
+        "areaServed": "São José dos Campos, SP"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "@id": "https://servicosurgentes.com/servicos/chaveiro",
+        "name": "Chaveiro 24h",
+        "url": "https://servicosurgentes.com/servicos/chaveiro",
+        "serviceType": "Locksmith",
+        "areaServed": "São José dos Campos, SP"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "@id": "https://servicosurgentes.com/servicos/eletricista",
+        "name": "Eletricista de Emergência 24h",
+        "url": "https://servicosurgentes.com/servicos/eletricista",
+        "serviceType": "Electrician",
+        "areaServed": "São José dos Campos, SP"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Service",
+        "@id": "https://servicosurgentes.com/servicos/ar-condicionado",
+        "name": "Técnico em Ar Condicionado 24h",
+        "url": "https://servicosurgentes.com/servicos/ar-condicionado",
+        "serviceType": "HVAC",
+        "areaServed": "São José dos Campos, SP"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Service",
+        "@id": "https://servicosurgentes.com/servicos/marido-de-aluguel",
+        "name": "Marido de Aluguel",
+        "url": "https://servicosurgentes.com/servicos/marido-de-aluguel",
+        "serviceType": "Handyman",
+        "areaServed": "São José dos Campos, SP"
+      }
     }
-    </script>
+  ]
+}
+</script>
   </head>
   <body>
     <Header />
