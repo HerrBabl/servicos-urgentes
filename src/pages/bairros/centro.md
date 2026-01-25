@@ -55,7 +55,7 @@ O Centro de São José dos Campos é o coração comercial, administrativo e his
 
 ---
 
-## 🏢 Desafios de Manutenção no Centro
+## 🏢 Desafios de Manutenção no Centro {#desafios-de-manutenção-no-centro}
 
 ### Perfil Estrutural Único
 
@@ -78,9 +78,9 @@ O Centro de SJC apresenta características que exigem profissionais especializad
 
 ---
 
-## 🛠️ Serviços para Comércios e Escritórios
+## 🛠️ Serviços para Comércios e Escritórios {#serviços-para-comércios-e-escritórios}
 
-### ⚡ Eletricista Comercial (Fiação Antiga e Trifásico)
+### ⚡ Eletricista Comercial (Fiação Antiga e Trifásico) {#eletricista-comercial-fiação-antiga-e-trifásico}
 
 **Emergências elétricas típicas no Centro:**
 
@@ -99,7 +99,7 @@ Eletricistas com experiência em **prédios comerciais antigos**, familiarizados
 
 ---
 
-### 🔧 Encanador Comercial (Vazamentos e Entupimentos de Alto Volume)
+### 🔧 Encanador Comercial (Vazamentos e Entupimentos de Alto Volume) {#encanador-comercial-vazamentos-e-entupimentos-de-alto-volume}
 
 **Problemas hidráulicos críticos:**
 
@@ -118,11 +118,11 @@ Encanadores especializados em **manutenção predial comercial**, com equipament
 
 ---
 
-### 🔑 Chaveiro 24h (Segurança Comercial e Portas de Aço)
+### 🔑 Chaveiro 24h (Segurança Comercial e Portas de Aço) {#chaveiro-24h-segurança-comercial-e-portas-de-aço}
 
 **Situações de urgência:**
 
-1. **Abertura de portas de aço sem chave:** Lojas da Rua XV de Novembro com portas sanfonadas ou de enrolar. Chaveiros precisam de ferramentas específicas para não danificar o sistema.
+1. **Abertura de portas de aço sem chave:** Lojas da Rua XV de Novembro com portas sanfonadas e de enrolar. Chaveiros precisam de ferramentas específicas para não danificar o sistema.
 
 2. **Troca de fechaduras de alta segurança:** Cilindros tetra, penta e sistemas com chave codificada (comum em joalherias, farmácias, bancos).
 
@@ -137,7 +137,7 @@ Chaveiros com certificação em **segurança comercial**, familiarizados com sis
 
 ---
 
-### ❄️ Técnico de Ar-Condicionado (Sistemas Comerciais e Clínicas)
+### ❄️ Técnico de Ar-Condicionado (Sistemas Comerciais e Clínicas) {#técnico-de-ar-condicionado-sistemas-comerciais-e-clínicas}
 
 **Demandas de climatização:**
 
@@ -156,7 +156,7 @@ Técnicos com experiência em **climatização comercial**, certificados para ma
 
 ---
 
-### 🛠️ Marido de Aluguel e Manutenção Predial
+### 🛠️ Marido de Aluguel e Manutenção Predial {#marido-de-aluguel-e-manutenção-predial}
 
 **Serviços versáteis para comércios:**
 
@@ -175,7 +175,7 @@ Profissionais multifuncionais com ferramentas próprias, agilidade para resolver
 
 ---
 
-## 💰 Tabela de Preços Estimados (2026)
+## 💰 Tabela de Preços Estimados (2026) {#tabela-de-preços-estimados-2026}
 
 | Serviço | Faixa de Preço (R$) | Observações |
 |---------|---------------------|-------------|
@@ -184,6 +184,11 @@ Profissionais multifuncionais com ferramentas próprias, agilidade para resolver
 | Troca de disjuntor (trifásico) | 200 - 400 | Inclui material e mão de obra |
 | Modernização de quadro elétrico | 800 - 1.500 | Depende do número de circuitos |
 | Reparo de curto-circuito em fiação embutida | 300 - 700 | Pode exigir quebra de parede |
+| **Encanador Comercial** | | |
+| Desentupimento de caixa de gordura | 250 - 500 | Restaurantes/lanchonetes |
+| Caça-vazamento eletrônico | 350 - 800 | Inclui reparo básico |
+| Reparo de vazamento em tubulação de ferro | 400 - 1.000 | Pode exigir substituição de trecho |
+| Troca de registro geral predial | 300 - 600 | Acesso difícil aumenta custo |
 | **Encanador Comercial** | | |
 | Desentupimento de caixa de gordura | 250 - 500 | Restaurantes/lanchonetes |
 | Caça-vazamento eletrônico | 350 - 800 | Inclui reparo básico |
@@ -221,7 +226,7 @@ Profissionais multifuncionais com ferramentas próprias, agilidade para resolver
 
 ---
 
-## 📍 Referências Locais e Como Chegar
+## 📍 Referências Locais e Como Chegar {#referências-locais-e-como-chegar}
 
 ### Principais Vias de Acesso
 
@@ -245,7 +250,7 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 
 ---
 
-## ⏱️ Tempo de Resposta no Centro
+## ⏱️ Tempo de Resposta no Centro {#tempo-de-resposta-no-centro}
 
 ### Fatores que Impactam a Chegada
 
@@ -265,7 +270,7 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 
 ---
 
-## 🌧️ Atenção Especial: Proteção Contra Tempestades
+## 🌧️ Atenção Especial: Proteção Contra Tempestades {#atenção-especial-proteção-contra-tempestades}
 
 **Com as chuvas intensas previstas para SJC nas próximas 72 horas (14mm hoje, temporais até domingo),** proprietários de comércios e administradores de prédios no Centro devem tomar medidas preventivas:
 
@@ -281,7 +286,7 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 
 ---
 
-## ❓ Perguntas Frequentes
+## ❓ Perguntas Frequentes {#perguntas-frequentes}
 
 ### Profissionais atendem comércios no Centro de SJC com nota fiscal?
 
