@@ -1,224 +1,248 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Serviços de Emergência 24h em Urbanova - São José dos Campos"
-description: "Profissionais de emergência em Urbanova: encanador, chaveiro, eletricista e ar-condicionado. Atendimento rápido em condomínios e residências de alto padrão em SJC."
-neighborhood: "Urbanova"
-city: "São José dos Campos"
-state: "SP"
-keywords: "emergência urbanova, encanador urbanova sjc, chaveiro urbanova, eletricista urbanova são josé"
+title: "Serviços em Urbanova - SJC | Condomínios e Alto Padrão"
+description: "Guia de serviços para Urbanova: Manutenção de aquecimento solar, pressurizadores, elétrica para automação e reparos em condomínios fechados."
+date: "2026-01-26T17:00:00-03:00"
+dateModified: "2026-01-26T17:15:00-03:00"
+author:
+  name: "Equipe Serviços Urgentes"
+  url: "https://servicosurgentes.com/sobre"
+image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800"
+imageAlt: "Fachada de residência moderna em condomínio de alto padrão no bairro Urbanova em São José dos Campos"
+tags: ["Urbanova", "Condomínios", "Alto Padrão", "Energia Solar", "Automação"]
+slug: "servicos-urbanova-sjc"
+category: "Guia de Bairro"
+canonicalURL: "https://servicosurgentes.com/bairros/urbanova"
+keywords: "eletricista urbanova sjc, encanador alphaville sjc, limpeza piscina urbanova, marido de aluguel sjc, manutenção energia solar sjc, automação residencial urbanova"
+region: "São José dos Campos"
+neighborhood: "Urbanova, Jardim das Colinas, Esplanada"
+faqSchema:
+  - question: "Os prestadores atendem dentro dos condomínios do Urbanova?"
+    answer: "Sim. Os profissionais listados estão habituados aos protocolos de segurança (apresentação de RG/CNH, cadastro biométrico) dos condomínios como Alphaville, Jaguary e Paratehy. Lembre-se de liberar a entrada pelo app do condomínio para agilizar."
+  - question: "O técnico cobra visita se eu não fechar o serviço?"
+    answer: "No Urbanova, sim. É padrão de mercado cobrar uma taxa de deslocamento (entre R$ 80 e R$ 150) devido à distância e ao tempo de espera na portaria. Esse valor geralmente é abatido do total se o orçamento for aprovado."
+  - question: "Preciso de eletricista especializado para instalar carregador de carro elétrico?"
+    answer: "Sim. Carregadores (Wallbox) puxam alta amperagem contínua. Instalação amadora pode derreter a fiação da casa ou desarmar o disjuntor geral constantemente. Exija profissional com experiência em EV."
+  - question: "Como consertar vazamento em piscina sem esvaziar?"
+    answer: "Existem mergulhadores profissionais especializados em reparo subaquático (vinil e pastilha) que colam o vazamento com a piscina cheia, economizando milhares de litros de água e produtos químicos."
+  - question: "Qual o horário permitido para obras e reparos em condomínios?"
+    answer: "Geralmente, obras com ruído são permitidas apenas das 8h às 17h (segunda a sexta). Emergências silenciosas podem ser atendidas fora desse horário, mas consulte o regimento interno do seu condomínio."
 ---
 
-# Serviços de Emergência 24 Horas em Urbanova, São José dos Campos
+<span id="top"></span>
 
-Urbanova é o bairro planejado mais nobre de São José dos Campos, conhecido por seus condomínios de alto padrão, amplas áreas verdes e residências modernas. Nos últimos 10 anos, o bairro viu crescimento expressivo de lançamentos imobiliários, tornando-se referência em qualidade de vida na cidade. Com esse perfil, as emergências domésticas em Urbanova demandam profissionais qualificados que entendam as especificidades de casas modernas e condomínios.
+# Serviços de Manutenção e Emergência no Urbanova, São José dos Campos
 
-## Por Que Urbanova Tem Demandas Específicas
+O Urbanova é uma "cidade dentro da cidade". Composto majoritariamente por condomínios horizontais de alto padrão (Alphaville, Jaguary, Paratehy), o bairro exige um perfil técnico diferenciado. As residências aqui não sofrem com "fiação velha" como no Centro, mas sim com a complexidade de sistemas modernos: **automação, energia fotovoltaica, aquecimento de piscina e pressurização hidráulica.**
 
-### Características do Bairro
-Urbanova não é um bairro comum de São José dos Campos:
-- **Condomínios horizontais e verticais de alto padrão:** Sistemas complexos de segurança, automação e infraestrutura
-- **Casas modernas construídas nos últimos 10 anos:** Tecnologia recente que requer técnicos atualizados
-- **Alta concentração de piscinas e aquecimento solar:** Demanda especializada em hidráulica
-- **Sistema de ar-condicionado centralizado em muitas residências:** Manutenção técnica avançada
-- **Automação residencial:** Portões, iluminação e sistemas integrados que exigem conhecimento específico
+Uma emergência no Urbanova raramente é "apenas trocar um fio". Geralmente envolve diagnosticar sistemas integrados onde um erro pode custar caro.
 
-### Emergências Mais Comuns em Urbanova
-1. **Sistemas de ar-condicionado avançados:** Multi-split, VRF, centrais
-2. **Problemas em piscinas:** Vazamentos, bombas, aquecedores
-3. **Automação e portões eletrônicos:** Falhas em sistemas integrados
-4. **Hidráulica de alto padrão:** Registros importados, metais de qualidade superior
-5. **Instalações elétricas complexas:** Geradores, painéis solares, sistemas de energia
+## 📋 Neste Guia
 
-## Tempo de Resposta para Urbanova
-
-### Acesso e Localização
-Urbanova fica na região oeste de São José dos Campos, com acesso específico:
-- **15 minutos** do centro via Av. Anchieta
-- **20 minutos** da região da Dutra
-- **10 minutos** do Colinas Shopping
-- **Acesso principal:** Av. Linneu de Moura
-
-### Tempo Médio de Atendimento
-- **Emergências urgentes (vazamento, sem energia):** 30-60 minutos
-- **Atendimentos em condomínios fechados:** Adicionar 10-15 min (autorização na portaria)
-- **Horários comerciais vs. noturnos:** Acesso mais rápido durante o dia
-- **Finais de semana:** Leve aumento no tempo devido ao movimento da região
-
-**Observação importante:** Profissionais precisam estar cadastrados ou autorizados pela portaria de condomínios. Isso pode adicionar tempo ao atendimento.
-
-## Serviços de Emergência em Urbanova
-
-### 🔧 Encanador Especializado para Residências de Alto Padrão
-
-**Problemas específicos de Urbanova:**
-- **Hidráulica de piscinas:** Vazamentos em tubulação subterrânea, bombas com defeito
-- **Aquecimento solar e a gás:** Sistemas complexos que exigem conhecimento técnico
-- **Metais de qualidade superior:** Torneiras e registros de marcas premium
-- **Sistemas de irrigação automática:** Comum em jardins amplos
-- **Pressão de água:** Ajustes em residências com múltiplos banheiros e pontos
-
-**Preços médios de referência (Urbanova geralmente tem valores diferenciados):**
-- Reparo em piscina: R$ 300 - R$ 800
-- Manutenção de aquecedor: R$ 250 - R$ 500
-- Troca de metais premium: R$ 200 - R$ 450
-- Desentupimento: R$ 180 - R$ 450
-
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
-
-**→ [Ver encanadores em bairros próximos](/servicos/encanador)**
-
-### 🔑 Chaveiro para Sistemas de Segurança Avançados
-
-**Demandas típicas do bairro:**
-- **Fechaduras eletrônicas e biométricas:** Comum em casas novas
-- **Chaves codificadas de segurança:** Tetra, penta, e sistemas proprietários
-- **Portões eletrônicos:** Problemas com automação e sensores
-- **Cofres residenciais:** Abertura e manutenção
-- **Controles de acesso:** Integração com sistemas de alarme
-
-**Preços médios de referência:**
-- Abertura de fechadura eletrônica: R$ 250 - R$ 500
-- Cópia de chave codificada: R$ 80 - R$ 200
-- Reprogramação de portão eletrônico: R$ 150 - R$ 400
-- Abertura de cofre: R$ 400 - R$ 1.200
-
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
-
-**→ [Ver chaveiros em bairros próximos](/servicos/chaveiro)**
-
-### ⚡ Eletricista para Instalações Modernas
-
-**Serviços especializados necessários:**
-- **Painéis solares:** Manutenção e reparos (crescente em Urbanova)
-- **Geradores:** Residências com backup de energia
-- **Automação residencial:** Iluminação inteligente, persianas motorizadas
-- **Carregadores de carros elétricos:** Instalação e manutenção
-- **Quadros elétricos de alto padrão:** Disjuntores DIN, proteção contra surtos
-
-**Preços médios de referência:**
-- Reparo em painel solar: R$ 300 - R$ 800
-- Manutenção de gerador: R$ 250 - R$ 600
-- Instalação de automação: R$ 500 - R$ 2.000
-- Quadro elétrico completo: R$ 800 - R$ 2.500
-
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
-
-**→ [Ver eletricistas em bairros próximos](/servicos/eletricista)**
-
-### ❄️ Técnico de Ar-Condicionado para Sistemas Avançados
-
-**Perfil dos sistemas em Urbanova:**
-- **Multi-split e VRF:** Sistemas com múltiplas unidades internas
-- **Ar-condicionado central:** Comum em casas de alto padrão
-- **Inverter de última geração:** Tecnologia econômica e silenciosa
-- **Integração com automação:** Controle via app e sistema residencial
-
-**Serviços específicos:**
-- Manutenção preventiva de multi-split (3-5 unidades): R$ 600 - R$ 1.200
-- Recarga de gás em sistema VRF: R$ 400 - R$ 1.000
-- Reparo de central de ar: R$ 500 - R$ 2.000
-- Instalação de sistema inverter: R$ 1.500 - R$ 4.000
-
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
-
-**→ [Ver técnicos de ar-condicionado em bairros próximos](/servicos/ar-condicionado)**
-
-### 🛠️ Marido de Aluguel
-**Demandas comuns no bairro:**
-* **Instalação de suportes:** Fixação de TVs, quadros e espelhos em paredes de gesso ou dry-wall (comum em apartamentos novos).
-* **Montagem de móveis:** Serviço necessário após mudanças ou compras de itens de design.
-* **Pequenos reparos:** Manutenção de rejuntes, vedação de box e troca de lâmpadas de difícil acesso.
-* **Reparos em acabamentos:** Consertos pontuais em pisos, rodapés e maçanetas de portas de alto padrão.
-
-**Perfil dos Profissionais:**
-Muitos profissionais listados focam na qualidade do acabamento e na proteção dos móveis e pisos durante o serviço.
-
-→ [Ver Marido de Aluguel em bairros próximos](/servicos/marido-de-aluguel)
-
-## Referências Locais e Como Chegar
-
-### Principais Vias e Condomínios
-- **Av. Linneu de Moura:** Principal via de acesso
-- **Urbanova I - VII:** Diferentes fases do loteamento
-- **Condomínios conhecidos:** Residencial Altos da Serra VI, Reserva do Paratehy, Condomínio Residencial Monte Carlo, Condomínio Vivant Urbanova, Condomínio Mônaco, Condominio Alphaville 1, Colinas Paratehy Norte
-- **Shopping:** Colinas Shopping (referência próxima)
-
-### Pontos de Referência
-- **Univap Campus Urbanova:** Principal referência educacional
-- **Colinas Shopping:** 5 minutos de carro
-- **Parque Ribeirão Vermelho:** Área de lazer próxima
-- **Via Dutra:** Acesso pela Av. Cassiano Ricardo
-
-## Dicas Específicas para Moradores de Urbanova
-
-### Manutenção Preventiva é Essencial
-Com sistemas avançados, prevenir problemas economiza muito:
-- **Ar-condicionado:** Manutenção semestral (R$ 300-500) evita reparos de R$ 2.000+
-- **Piscina:** Verificação trimestral de bombas e aquecedores
-- **Elétrica:** Inspeção anual de quadros, geradores e painéis solares
-- **Hidráulica:** Check-up anual em sistemas de aquecimento
-
-### Cuidados com Condomínios
-- Mantenha cadastro atualizado de prestadores na portaria
-- Em emergências, avise síndico e portaria simultaneamente
-- Verifique se o profissional tem seguro de responsabilidade civil
-- Guarde notas fiscais para prestação de contas condominial
-
-### Época de Chuvas (Out-Mar)
-Urbanova tem boa drenagem, mas atenção a:
-- Calhas e ralos de piscinas podem entupir com folhas
-- Sistemas de aquecimento solar precisam verificação após tempestades
-- Portões eletrônicos podem ter sensores afetados por umidade
-
-## Como Escolher Profissionais para Urbanova
-
-### Qualificações Essenciais
-✅ **Experiência com sistemas de alto padrão**  
-✅ **Avaliações positivas de clientes anteriores** (busque mínimo 4 estrelas)  
-✅ **Seguro de responsabilidade civil** (recomendado em muitos condomínios)  
-✅ **Garantia do serviço** (pergunte sobre cobertura e prazo)  
-✅ **Emissão de nota fiscal**  
-
-### Perguntas Importantes ao Contratar
-- "Você tem experiência com sistemas multi-split/VRF/central?"
-- "Já trabalhou em condomínios de Urbanova?"
-- "Tem seguro para trabalhos em residências de alto padrão?"
-- "Quais marcas e tecnologias você atende?"
-- "Qual a garantia do serviço e das peças?"
-
-## Perguntas Frequentes - Urbanova
-
-### Por que os preços podem ser diferentes em Urbanova?
-Sistemas mais complexos, peças de maior qualidade e profissionais especializados podem resultar em valores diferenciados. Sempre solicite orçamento antes de contratar.
-
-### Profissionais precisam de autorização prévia no condomínio?
-Sim. A maioria dos condomínios exige cadastro ou autorização do morador. Isso pode adicionar 10-15 minutos ao tempo de atendimento.
-
-### Vale a pena contratar profissionais "mais baratos" de outras regiões?
-Sistemas em Urbanova frequentemente exigem conhecimento específico e experiência com equipamentos modernos. Avalie qualificações e referências antes de decidir apenas por preço.
-
-### Como funciona atendimento emergencial à noite?
-Possível, mas valores para atendimentos fora do horário comercial podem ser diferenciados. Condomínios podem ter restrições de horário para profissionais externos. Sempre confirme custos antes de contratar.
-
-### Existe diferença entre profissionais para casas e condomínios?
-Sim. Condomínios têm regras específicas, exigem documentação e o profissional precisa saber lidar com síndicos e administradoras.
-
-## Encontre Profissionais Qualificados para Urbanova
-
-Emergências em residências de alto padrão exigem profissionais experientes e confiáveis. No Serviços Urgentes, você pode buscar técnicos com:
-
-✅ **Experiência em diferentes tipos de serviços**  
-✅ **Avaliações verificadas de clientes reais**  
-✅ **Cobertura em Urbanova e região**  
-
-**Precisa de atendimento agora?**
-
-- [Ver Encanadores em São José dos Campos →](/servicos/encanador)
-- [Ver Chaveiros em São José dos Campos →](/servicos/chaveiro)
-- [Ver Eletricistas em São José dos Campos →](/servicos/eletricista)
-- [Ver Técnicos de Ar-Condicionado em São José dos Campos →](/servicos/ar-condicionado)
-- [Ver Marido de Aluguel em São José dos Campos →](/servicos/marido-de-aluguel)
+1. [Infraestrutura e Alertas Específicos](#1-infraestrutura)
+2. [Serviços Especializados (Solar, Piscina, Automação)](#2-servicos)
+3. [Tabela de Preços e Disclaimer](#3-precos)
+4. [Logística de Acesso aos Condomínios](#4-logistica)
+5. [Perguntas Frequentes](#5-faq)
 
 ---
 
-*Informações atualizadas em Novembro 2025 para refletir o mercado de serviços de alto padrão em São José dos Campos.*
+## <span id="1-infraestrutura"></span>1. Alertas de Infraestrutura: O Desafio do Alto Padrão
+
+As casas no Urbanova possuem "corações" técnicos que precisam de monitoramento constante.
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-6 rounded-r-lg shadow-sm">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-bold text-red-800 mb-2">⚡ Alerta de Tempestades e Energia</h3>
+      <p class="text-red-700 mb-2">Por ser uma região aberta e alta, o Urbanova sofre com ventos fortes e descargas elétricas. Itens críticos:</p>
+      <ul class="list-disc list-inside text-red-700 space-y-1">
+        <li><strong>Inversores Solares:</strong> Sensíveis a surtos na rede. Verifique se o DPS (Dispositivo de Proteção) do seu quadro está ativo.</li>
+        <li><strong>Bombas de Piscina/Pressurizadores:</strong> Queimas frequentes pós-tempestade. Recomenda-se instalação de protetores individuais.</li>
+        <li><strong>Telhados:</strong> Ventos fortes costumam deslocar telhas e calhas, causando infiltrações "invisíveis" que só aparecem dias depois.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="2-servicos"></span>2. Serviços Especializados para Urbanova
+
+### 🔧 Encanador: Pressurização e Água Quente
+
+Diferente de bairros comuns, a pressão da rua no Urbanova muitas vezes não chega forte ao segundo andar das mansões, exigindo sistemas complexos.
+
+**Demandas Específicas:**
+- **Manutenção de Pressurizadores:** Bombas (tipo Rowa) que garantem banho forte. Se pararem, a casa fica "sem água" nos chuveiros.
+- **Boiler e Placas Solares:** Vazamentos no telhado ou falha na resistência elétrica do boiler em dias nublados.
+- **Caça-Vazamentos em Piscinas:** Perda de água em piscinas de alvenaria ou vinil, exigindo teste de estanqueidade.
+
+👉 **[Ver Encanadores Especializados em Boiler/Pressurizador →](/servicos/encanador)**
+
+### ⚡ Eletricista: Automação e Fotovoltaica
+
+A rede elétrica das casas no Urbanova é robusta, mas complexa.
+
+**Serviços Frequentes:**
+- **Carregadores de Carro Elétrico (Wallbox):** Instalação de circuitos dedicados com proteção extra para EVs.
+- **Reset de Automação:** Pane em sistemas de iluminação inteligente (Sonoff, Tuya, Control4) após queda de energia.
+- **Manutenção de Inversores:** Limpeza técnica e verificação de conexões em sistemas de energia solar.
+
+👉 **[Ver Eletricistas com Experiência em Automação →](/servicos/eletricista)**
+
+### ❄️ Climatização: VRF e Cassete
+
+Muitas residências possuem sistemas de ar-condicionado central ou dutados que não podem ser atendidos por "curiosos".
+
+- **Limpeza de Dutos:** Essencial em casas novas devido ao pó de gesso da construção.
+- **Sistemas Multi-Split:** Uma condensadora para 4-5 evaporadoras. Se a externa falha, a casa toda fica sem ar.
+- **Estética:** Instalação de máquinas em locais ocultos ou lajes técnicas de difícil acesso (rapel pode ser necessário).
+
+👉 **[Ver Técnicos de Ar-Condicionado VRF/Multi →](/servicos/ar-condicionado)**
+
+### 🛠️ Marido de Aluguel "Fine Art"
+
+Para instalar itens de luxo sem danificar revestimentos caros.
+- Instalação de lustres pesados (pé-direito duplo).
+- Fixação de TVs em painéis de mármore ou vidro.
+- Montagem de móveis planejados de alto padrão.
+
+👉 **[Ver Profissionais de Manutenção Fina →](/servicos/marido-de-aluguel)**
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="3-precos"></span>3. Tabela de Preços Estimados (Urbanova 2026)
+
+*Nota: Os valores no Urbanova tendem a ser 15-20% superiores à média da cidade devido à logística de acesso e complexidade dos equipamentos.*
+
+| Serviço | Faixa de Preço (R$) | Observações |
+|---------|---------------------|-------------|
+| **Sistemas Hidráulicos** | | |
+| Visita Técnica (Pressurizador) | 150 - 250 | Diagnóstico de bomba |
+| Manutenção de Boiler Solar | 300 - 600 | Troca de resistência/termostato |
+| Caça-Vazamento Piscina | 800 - 1.500 | Testes complexos |
+| **Sistemas Elétricos** | | |
+| Instalação Wallbox (Mão de obra) | 800 - 1.800 | Depende da distância do quadro |
+| Troca de DPS (Proteção Solar) | 250 - 450 | Material + Mão de obra |
+| Instalação de Lustre (Pé-direito duplo) | 350 - 700 | Exige andaime/escada especial |
+| **Climatização** | | |
+| Manutenção Preventiva (VRF) | Sob Consulta | Contrato recomendado |
+| Limpeza Split Cassete | 300 - 500 | Por unidade |
+| Carga de Gás (R410A) | 350 - 600 | Varia por capacidade |
+
+<div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <div class="text-sm text-yellow-700 space-y-2">
+        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> para a região do Urbanova, refletindo a complexidade técnica dos imóveis de alto padrão.</p>
+        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> (incluindo taxas de deslocamento) diretamente com o profissional <strong>antes de autorizar</strong> a entrada no condomínio.</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="4-logistica"></span>4. Logística de Acesso: O Segredo da Agilidade
+
+O maior vilão do atendimento no Urbanova é a **portaria**. Um técnico pode perder 30 minutos na fila de prestadores se não houver pré-autorização.
+
+### Protocolo de Agilidade (Para Moradores):
+1.  **Pré-Cadastro:** Assim que contratar o profissional, peça Nome Completo e RG.
+2.  **App do Condomínio:** Insira os dados no aplicativo de controle de acesso (comum em Alphaville/Jaguary) e gere o QR Code se disponível.
+3.  **Avise a Portaria:** Em emergências (cano estourado), ligue na portaria avisando que "o bombeiro hidráulico está chegando e tem autorização imediata".
+
+### Horários de Silêncio
+* **Obras com Ruído:** Geralmente proibidas após 17h e aos sábados após 12h/13h.
+* **Emergências Silenciosas:** Reparos elétricos ou de automação sem martelete costumam ser liberados, mas exigem autorização do síndico/segurança em alguns condomínios.
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="5-faq"></span>5. Perguntas Frequentes (FAQ)
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Os prestadores atendem dentro dos condomínios do Urbanova?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Sim. Os profissionais listados estão habituados aos protocolos de segurança (apresentação de RG/CNH, cadastro biométrico) dos condomínios como Alphaville, Jaguary e Paratehy. Lembre-se de liberar a entrada pelo app do condomínio para agilizar.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>O técnico cobra visita se eu não fechar o serviço?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    No Urbanova, sim. É padrão de mercado cobrar a taxa de deslocamento (entre R$ 80 e R$ 150) devido à distância e ao tempo de espera na portaria. Esse valor geralmente é abatido do total se o orçamento for aprovado.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Preciso de eletricista especializado para instalar carregador de carro elétrico?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Absolutamente. Carregadores (Wallbox) puxam alta amperagem contínua. Instalação amadora pode derreter a fiação da casa ou desarmar o disjuntor geral constantemente. Exija profissional com experiência em EV.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Como consertar vazamento em piscina sem esvaziar?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Existem mergulhadores profissionais especializados em reparo subaquático (vinil e pastilha) que colam o vazamento com a piscina cheia, economizando milhares de litros de água e produtos químicos.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Qual o horário permitido para obras e reparos em condomínios?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Geralmente, obras com ruído são permitidas apenas das 8h às 17h (segunda a sexta). Emergências silenciosas podem ser atendidas fora desse horário, mas consulte o regimento interno do seu condomínio.
+  </div>
+</details>
+
+<div class="mt-12 text-center">
+  <a href="/servicos/marido-de-aluguel" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+    Encontrar Especialista para Urbanova
+  </a>
+</div>
+
+[⬆️ Voltar ao topo](#top)

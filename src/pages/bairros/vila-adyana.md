@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Vila Adyana - SJC | Residencial e Clínicas"
 description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica predial, elétrica para clínicas e manutenção em imóveis de alto padrão. Atendimento 24h."
 date: "2026-01-26T16:30:00-03:00"
-dateModified: "2026-01-26T16:30:00-03:00"
+dateModified: "2026-01-26T16:45:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -17,16 +17,14 @@ keywords: "encanador vila adyana, eletricista para clinica sjc, chaveiro vicenti
 region: "São José dos Campos"
 neighborhood: "Vila Adyana, Jardim São Dimas, Jardim Apolo"
 faqSchema:
-  - question: "Encanadores na Vila Adyana atendem emergências em apartamentos antigos?"
-    answer: "Sim. Nossos profissionais são especializados na arquitetura da Vila Adyana (prédios de 30-40 anos), lidando com tubulações de ferro galvanizado e colunas prediais sem danificar acabamentos nobres (tacos, mármores) comuns no bairro."
-  - question: "Existe eletricista com nota fiscal para clínicas na Vila Adyana?"
-    answer: "Sim. O diretório prioriza profissionais PJ/MEI que emitem nota fiscal, essencial para as centenas de clínicas e consultórios médicos da região da Av. 9 de Julho que necessitam de formalização contábil."
-  - question: "Quanto custa um serviço de Marido de Aluguel na Vila Adyana?"
-    answer: "Para serviços rápidos (instalação de suportes, reparos de descargas, troca de luminárias), a hora técnica varia entre R$ 120 e R$ 180. Devido ao alto padrão dos imóveis, recomenda-se profissionais com experiência em acabamentos finos."
-  - question: "Técnicos de Ar-Condicionado atendem horários restritos de consultórios?"
-    answer: "Sim. Profissionais que atendem a região médica da Vila Adyana oferecem horários alternativos (almoço, noturno ou finais de semana) para realizar limpeza e manutenção de splits sem interromper o atendimento aos pacientes."
-  - question: "Qual o tempo de chegada de um Chaveiro 24h na Vicentina Aranha?"
-    answer: "O tempo médio é de 25 a 40 minutos. A Vila Adyana possui ótima acessibilidade via Anel Viário e Av. Adhemar de Barros, permitindo deslocamento rápido de profissionais motorizados, mesmo em horário de pico escolar."
+  - question: "Os encanadores têm seguro contra danos em pisos nobres?"
+    answer: "Sim. Nossos profissionais são especializados na arquitetura da Vila Adyana e muitos possuem seguro de responsabilidade civil para trabalhar sobre tacos e mármores. Sempre confirme essa cobertura antes de autorizar o serviço."
+  - question: "Posso reformar a elétrica do meu apartamento antigo sem trocar o piso?"
+    answer: "Sim. Eletricistas experientes em retrofit conseguem passar a nova fiação pelos eletrodutos existentes usando guias específicas e lubrificantes, ou propor soluções com rodapés elétricos, evitando a quebra de alvenaria e pisos originais."
+  - question: "Técnicos de ar-condicionado emitem laudo PMOC para minha clínica?"
+    answer: "Sim. Ao buscar técnicos no diretório para a região da Av. 9 de Julho, verifique a certificação. A emissão de ART e PMOC é obrigatória para regularização de consultórios junto à ANVISA."
+  - question: "Qual o melhor horário para chamar manutenção na Vila Adyana?"
+    answer: "Para evitar atrasos e estresse com estacionamento na região das clínicas, os melhores horários são entre 9h-11h ou após as 14h. Evite os horários de entrada e saída escolar (11h30-13h) se possível."
 ---
 
 **Com as chuvas intensas previstas para o Vale do Paraíba (alerta de 14mm hoje e temporais no fim de semana),** a Vila Adyana exige atenção redobrada: árvores centenárias que ameaçam fiações, calhas de prédios antigos que não suportam o volume de água e infiltrações silenciosas em imóveis de alto padrão.
@@ -197,30 +195,50 @@ Devido à grande quantidade de árvores antigas e prédios com mais de 40 anos, 
 
 ## <span id="faq"></span>❓ Perguntas Frequentes
 
-<details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Os encanadores têm seguro contra danos em pisos nobres?</summary>
-  <div class="mt-3 text-gray-700 pl-4">
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Os encanadores têm seguro contra danos em pisos nobres?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
     Alguns profissionais e empresas de caça-vazamento possuem seguro de responsabilidade civil. É fundamental perguntar isso explicitamente ao contratar se você possui pisos de alto valor (mármore, taco original).
   </div>
 </details>
 
-<details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Posso reformar a elétrica do meu apartamento antigo sem trocar o piso?</summary>
-  <div class="mt-3 text-gray-700 pl-4">
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Posso reformar a elétrica do meu apartamento antigo sem trocar o piso?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
     Sim. Eletricistas experientes em retrofit conseguem muitas vezes passar a nova fiação pelos eletrodutos existentes usando guias específicas e lubrificantes, ou propor soluções com rodapés elétricos que evitam a quebra de paredes e pisos.
   </div>
 </details>
 
-<details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Técnicos de ar-condicionado emitem laudo PMOC para minha clínica?</summary>
-  <div class="mt-3 text-gray-700 pl-4">
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Técnicos de ar-condicionado emitem laudo PMOC para minha clínica?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
     Sim. Ao buscar técnicos de ar-condicionado no diretório, verifique na descrição ou pergunte no primeiro contato se eles emitem ART e PMOC. Isso é obrigatório para regularização junto à ANVISA.
   </div>
 </details>
 
-<details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Qual o melhor horário para chamar manutenção na Av. 9 de Julho?</summary>
-  <div class="mt-3 text-gray-700 pl-4">
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Qual o melhor horário para chamar manutenção na Av. 9 de Julho?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
     Para evitar atrasos e estresse com estacionamento, os melhores horários são entre 9h e 11h ou após as 14h. Evite os horários de entrada e saída escolar se possível.
   </div>
 </details>
