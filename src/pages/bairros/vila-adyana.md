@@ -1,249 +1,241 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Serviços de Emergência 24h em Vila Adyana - São José dos Campos"
-description: "Encontre encanador, chaveiro, eletricista e técnico de ar-condicionado na Vila Adyana. Atendimento rápido no tradicional bairro residencial de SJC."
-neighborhood: "Vila Adyana"
-city: "São José dos Campos"
-state: "SP"
-keywords: "emergência vila adyana, encanador vila adyana sjc, chaveiro vila adyana, eletricista urgente adyana"
+title: "Serviços de Emergência na Vila Adyana - SJC | Residencial e Clínicas"
+description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica predial, elétrica para clínicas e manutenção em imóveis de alto padrão. Atendimento 24h."
+date: "2026-01-26T16:30:00-03:00"
+dateModified: "2026-01-26T16:30:00-03:00"
+author:
+  name: "Equipe Serviços Urgentes"
+  url: "https://servicosurgentes.com/sobre"
+image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800"
+imageAlt: "Rua arborizada típica da Vila Adyana em São José dos Campos, próxima ao Parque Vicentina Aranha"
+tags: ["Vila Adyana", "Área Médica", "Alto Padrão", "Emergência 24h", "Manutenção Predial"]
+slug: "vila-adyana"
+category: "Guia de Bairro"
+canonicalURL: "https://servicosurgentes.com/bairros/vila-adyana"
+keywords: "encanador vila adyana, eletricista para clinica sjc, chaveiro vicentina aranha, marido de aluguel sjc, manutenção predial vila adyana, ar condicionado consultorio sjc"
+region: "São José dos Campos"
+neighborhood: "Vila Adyana, Jardim São Dimas, Jardim Apolo"
+faqSchema:
+  - question: "Encanadores na Vila Adyana atendem emergências em apartamentos antigos?"
+    answer: "Sim. Nossos profissionais são especializados na arquitetura da Vila Adyana (prédios de 30-40 anos), lidando com tubulações de ferro galvanizado e colunas prediais sem danificar acabamentos nobres (tacos, mármores) comuns no bairro."
+  - question: "Existe eletricista com nota fiscal para clínicas na Vila Adyana?"
+    answer: "Sim. O diretório prioriza profissionais PJ/MEI que emitem nota fiscal, essencial para as centenas de clínicas e consultórios médicos da região da Av. 9 de Julho que necessitam de formalização contábil."
+  - question: "Quanto custa um serviço de Marido de Aluguel na Vila Adyana?"
+    answer: "Para serviços rápidos (instalação de suportes, reparos de descargas, troca de luminárias), a hora técnica varia entre R$ 120 e R$ 180. Devido ao alto padrão dos imóveis, recomenda-se profissionais com experiência em acabamentos finos."
+  - question: "Técnicos de Ar-Condicionado atendem horários restritos de consultórios?"
+    answer: "Sim. Profissionais que atendem a região médica da Vila Adyana oferecem horários alternativos (almoço, noturno ou finais de semana) para realizar limpeza e manutenção de splits sem interromper o atendimento aos pacientes."
+  - question: "Qual o tempo de chegada de um Chaveiro 24h na Vicentina Aranha?"
+    answer: "O tempo médio é de 25 a 40 minutos. A Vila Adyana possui ótima acessibilidade via Anel Viário e Av. Adhemar de Barros, permitindo deslocamento rápido de profissionais motorizados, mesmo em horário de pico escolar."
 ---
 
-# Serviços de Emergência 24 Horas em Vila Adyana, São José dos Campos
+**Com as chuvas intensas previstas para o Vale do Paraíba (alerta de 14mm hoje e temporais no fim de semana),** a Vila Adyana exige atenção redobrada: árvores centenárias que ameaçam fiações, calhas de prédios antigos que não suportam o volume de água e infiltrações silenciosas em imóveis de alto padrão.
 
-A Vila Adyana é um dos bairros residenciais mais tradicionais e queridos de São José dos Campos. Localizado na região central, o bairro combina tranquilidade, boa infraestrutura comercial e fácil acesso ao centro da cidade. Com uma mistura de casas antigas e construções mais recentes, a Vila Adyana apresenta características únicas quando o assunto é emergência doméstica.
-
-## Características da Vila Adyana e Suas Emergências
-
-### Perfil do Bairro
-A Vila Adyana tem uma identidade bem definida:
-- **Bairro consolidado há décadas:** Muitas residências com 30-50 anos
-- **Forte presença comercial:** Comércio estabelecido ao longo das principais avenidas
-- **Famílias estabelecidas:** Baixa rotatividade, moradores antigos conhecem a região
-- **Infraestrutura madura:** Sistemas hidráulicos e elétricos que podem precisar de atualização
-- **Área arborizada:** Ruas com muitas árvores grandes (belo, mas pode causar problemas em tubulações)
-
-### Emergências Típicas da Vila Adyana
-1. **Problemas em instalações antigas:** Tubulações de ferro galvanizado, fiação antiga
-2. **Raízes de árvores:** Entupimentos e danos em encanamentos subterrâneos
-3. **Chuveiros e aquecedores antigos:** Frequente necessidade de troca
-4. **Disjuntores desatualizados:** Casas ainda com fusíveis em vez de disjuntores automáticos
-5. **Ar-condicionado de janela:** Muitas residências ainda têm modelos antigos
-
-## Tempo de Resposta para Vila Adyana
-
-### Localização e Acesso
-A Vila Adyana tem posição privilegiada na região central de São José dos Campos:
-- Acesso pelo centro via Av. Dr. Ademar de Barros
-- Proximidade com o Parque Vicentina Aranha
-- Região bem servida por avenidas principais como Av. Nove de Julho
-- Não sofre com congestionamentos severos na maior parte do dia
-
-### Tempo Médio de Atendimento
-Para emergências na Vila Adyana, profissionais locais geralmente conseguem:
-- **Emergências urgentes (vazamento grave, sem luz):** 30-60 minutos
-- **Atendimentos prioritários:** 1-2 horas
-- **Horário comercial:** Melhor disponibilidade de profissionais
-- **Finais de semana e feriados:** Tempos podem variar conforme disponibilidade
-
-**Importante:** Tempos de resposta dependem do horário, disponibilidade do profissional e condições de trânsito. Sempre confirme o prazo estimado ao solicitar o serviço.
-
-## Serviços de Emergência na Vila Adyana
-
-### 🔧 Encanador para Residências Tradicionais
-
-**Problemas mais comuns no bairro:**
-- **Tubulações antigas de ferro galvanizado:** Corrosão, vazamentos, água enferrujada
-- **Raízes invadindo encanamento:** Árvores grandes da região causam danos frequentes
-- **Caixas d'água antigas:** Vazamentos em lajes, infiltrações
-- **Aquecedores a gás antigos:** Manutenção ou substituição necessária
-- **Calhas e ralos entupidos:** Acúmulo de folhas das árvores
-
-**Faixas de preço de referência:**
-- Desentupimento por raízes: R$ 250 - R$ 600 (pode exigir equipamento especial)
-- Troca de tubulação antiga: R$ 400 - R$ 1.200 (depende da extensão)
-- Reparo de caixa d'água: R$ 180 - R$ 450
-- Manutenção de aquecedor a gás: R$ 200 - R$ 400
-
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
-
-**→ [Ver encanadores em bairros próximos](/servicos/encanador)**
-
-### 🔑 Chaveiro 24 Horas
-
-**Situações frequentes:**
-- **Fechaduras antigas emperradas:** Comum em casas mais velhas
-- **Chaves perdidas ou quebradas:** Fechaduras antigas são mais frágeis
-- **Portões de garagem:** Problemas mecânicos em sistemas antigos
-- **Grades de segurança:** Abertura e manutenção
-- **Cópias de chaves antigas:** Modelos descontinuados
-
-**Faixas de preço de referência:**
-- Abertura de fechadura simples: R$ 100 - R$ 200
-- Troca de cilindro em fechadura antiga: R$ 120 - R$ 280
-- Atendimento após horário comercial: Valores podem ser maiores
-- Reparo de portão de garagem: R$ 150 - R$ 400
-
-*Atendimentos noturnos e em finais de semana podem ter valores diferenciados. Confirme antes de contratar.*
-
-**→ [Ver chaveiros em bairros próximos](/servicos/chaveiro)**
-
-### ⚡ Eletricista para Instalações Antigas e Modernas
-
-**Desafios elétricos do bairro:**
-- **Instalações antigas:** Muitas casas ainda com fusíveis e fiação de alumínio
-- **Quadro de luz desatualizado:** Necessidade de modernização para segurança
-- **Chuveiros elétricos queimando:** Fiação antiga não suporta potência moderna
-- **Disjuntores que desarmam:** Sobrecarga em instalações antigas
-- **Tomadas e interruptores antigos:** Precisam ser substituídos
-
-**Faixas de preço de referência:**
-- Troca de quadro de luz completo: R$ 600 - R$ 1.500
-- Instalação de disjuntores novos: R$ 120 - R$ 250 (cada)
-- Reparo de chuveiro elétrico: R$ 100 - R$ 220
-- Substituição de fiação antiga: R$ 300 - R$ 800 (por cômodo)
-
-*Serviços elétricos variam muito conforme complexidade e normas de segurança. Peça avaliação presencial.*
-
-**→ [Ver eletricistas no bairro Vila Adyana](/servicos/eletricista)**
-
-### ❄️ Técnico de Ar-Condicionado
-
-**Perfil dos aparelhos no bairro:**
-- **Ar de janela ainda comum:** Muitas casas antigas têm esse modelo
-- **Split em instalações recentes:** Casas reformadas ou novas construções
-- **Manutenção negligenciada:** Aparelhos antigos sem revisão há anos
-- **Instalações improvisadas:** Necessidade de correção
-
-**Faixas de preço de referência:**
-- Limpeza de ar de janela: R$ 120 - R$ 200
-- Manutenção de split: R$ 200 - R$ 300
-- Recarga de gás: R$ 180 - R$ 400
-- Substituição de ar de janela por split: R$ 800 - R$ 2.000 (instalação completa)
-
-*Preços dependem do tipo de gás, BTUs e complexidade da instalação. Solicite diagnóstico antes.*
-
-**→ [Ver técnicos de ar-condicionado em bairros próximos](/servicos/ar-condicionado)**
-
-### 🛠️ Marido de Aluguel
-**Demandas comuns no bairro:**
-* **Instalação de suportes:** Fixação de TVs, quadros e espelhos em paredes de gesso ou dry-wall (comum em apartamentos novos).
-* **Montagem de móveis:** Serviço necessário após mudanças ou compras de itens de design.
-* **Pequenos reparos:** Manutenção de rejuntes, vedação de box e troca de lâmpadas de difícil acesso.
-* **Reparos em acabamentos:** Consertos pontuais em pisos, rodapés e maçanetas de portas de alto padrão.
-
-**Perfil dos Profissionais:**
-Muitos profissionais listados focam na qualidade do acabamento e na proteção dos móveis e pisos durante o serviço.
-
-→ [Ver Marido de Aluguel em São José dos Campos](/servicos/marido-de-aluguel)
-
-## Referências Locais e Como Chegar
-
-### Principais Vias
-- **Av. Nove de Julho:** Uma das principais avenidas do bairro
-- **Av. Dr. Ademar de Barros:** Via importante de acesso
-- **Rua Eng. Prudente Meireles de Morais:** Via residencial central
-
-### Pontos de Referência
-- **Parque Vicentina Aranha:** Marco histórico e de lazer próximo ao bairro
-- **Hospital e Maternidade Policlin:** Referência de saúde na região
-- **Padaria Nove de Julho:** Ponto comercial conhecido localmente
-- **Centro de São José dos Campos:** Fácil acesso pela região central
-
-### Bairros Vizinhos Também Atendidos
-Profissionais que atendem Vila Adyana geralmente também cobrem:
-- Jardim São Dimas
-- Jardim Apolo II
-- Vila Igualdade
-- Outras regiões da região central de SJC
-
-## Dicas Específicas para Moradores da Vila Adyana
-
-### Atenção às Instalações Antigas
-Se sua casa tem mais de 30 anos (comum na Vila Adyana):
-
-**Hidráulica:**
-- Faça inspeção para detectar tubos de ferro galvanizado (devem ser trocados)
-- Verifique vazamentos ocultos que aumentam a conta d'água
-- Considere substituir registros antigos por modelos modernos
-- Limpe caixas d'água semestralmente
-
-**Elétrica:**
-- Se ainda tem fusíveis, considere substituir por disjuntores (mais seguro)
-- Verifique se a fiação é de cobre (alumínio pode ser problemático)
-- Modernize tomadas para padrão atual com terra
-- Avalie instalação de DR (dispositivo residual) no quadro de luz
-
-### Cuidados com Árvores
-A arborização da Vila Adyana é linda, mas requer atenção:
-- Raízes podem invadir tubulações de esgoto e água
-- Folhas entopem calhas e ralos (limpe regularmente)
-- Galhos próximos à fiação elétrica podem ser arriscados
-- Árvores grandes podem danificar calçadas e estruturas
-
-### Época de Chuvas
-Em casas mais antigas:
-- Verifique impermeabilização de lajes antes da temporada de chuvas
-- Limpe calhas antes do período mais úmido
-- Teste o sistema de drenagem do quintal
-- Fique atento a infiltrações em paredes antigas
-
-## Como Escolher Profissionais na Vila Adyana
-
-### Características Importantes
-✅ **Experiência com instalações antigas**  
-✅ **Avaliações positivas de clientes anteriores** (busque mínimo 4 estrelas)  
-✅ **Orçamento detalhado antes de iniciar o trabalho**  
-✅ **Garantia do serviço prestado** (pergunte sobre cobertura)  
-✅ **Disposição para explicar o problema e a solução**  
-
-### Perguntas Essenciais Ao Contratar
-- "Você já trabalhou em casas antigas da Vila Adyana?"
-- "Tem experiência com tubulação de ferro galvanizado?"
-- "Conhece problemas causados por raízes de árvores?"
-- "Trabalha com instalações elétricas antigas?"
-- "Qual a garantia do serviço?"
-- "Emite nota fiscal ou recibo?"
-
-### Sinais de Alerta - Evite Profissionais Que:
-❌ Não fornecem orçamento antes de começar  
-❌ Exigem pagamento total adiantado  
-❌ Não têm referências ou avaliações verificáveis  
-❌ Oferecem preços muito abaixo do mercado (pode indicar qualidade duvidosa)  
-❌ Pressionam para decidir imediatamente  
-
-## Perguntas Frequentes - Vila Adyana
-
-### Vale a pena modernizar instalações antigas?
-Modernizar instalações pode prevenir acidentes, economizar em contas de água e luz, e aumentar o valor do imóvel. Avalie custo-benefício com um profissional de confiança.
-
-### Raízes de árvores sempre causam problemas?
-Não sempre, mas é mais comum em encanamentos antigos. Inspeção preventiva pode identificar problemas antes de se tornarem graves.
-
-### Posso trocar ar de janela por split sozinho?
-Não é recomendado. A instalação requer conhecimento de elétrica, perfuração adequada, drenagem correta e carga de gás. Profissionais qualificados garantem trabalho seguro.
-
-### Como saber se minha instalação elétrica precisa de atenção?
-Sinais de alerta: disjuntores desarmando com frequência, tomadas esquentando, luzes oscilando, cheiro de queimado, presença de fusíveis antigos. Nesses casos, consulte um eletricista.
-
-### Quanto tempo leva um reparo típico?
-Depende do problema. Reparos simples podem levar 1-2 horas. Serviços complexos como troca de tubulação ou modernização elétrica podem levar um dia ou mais.
-
-## Encontre Profissionais Qualificados na Vila Adyana
-
-No Serviços Urgentes, você pode buscar profissionais com:
-
-✅ **Avaliações verificadas de clientes reais**  
-✅ **Experiência em diferentes tipos de emergências**  
-✅ **Cobertura na Vila Adyana e região central de SJC**  
-
-**Precisa de ajuda agora?**
-
-- [Ver Encanadores em São José dos Campos →](/servicos/encanador)
-- [Ver Chaveiros em São José dos Campos →](/servicos/chaveiro)
-- [Ver Eletricistas em São José dos Campos →](/servicos/eletricista)
-- [Ver Técnicos de Ar-Condicionado em São José dos Campos →](/servicos/ar-condicionado)
-- [Ver Marido de Aluguel em São José dos Campos →](/servicos/marido-de-aluguel)
+A Vila Adyana não é apenas um bairro residencial; é o **hub de saúde e bem-estar de São José dos Campos**. Aqui convivem edifícios clássicos de arquitetura nobre, dezenas de clínicas médicas de ponta e o pulmão verde da cidade, o Parque Vicentina Aranha. As emergências aqui exigem **discrição, limpeza extrema e precisão técnica** para não danificar acabamentos valiosos.
 
 ---
 
-*Conteúdo atualizado em Novembro 2025. Preços e informações são referências baseadas no mercado regional e podem variar. Sempre solicite orçamento detalhado antes de contratar qualquer serviço.*
+## 📑 Índice de Conteúdo
+
+- [Desafios: O Conflito Antigo vs. Moderno](#desafios)
+- [Serviços Especializados (Residencial e Clínicas)](#servicos)
+  - [Encanador: O Desafio do Ferro Galvanizado](#encanador)
+  - [Eletricista: Clínicas e Retrofit](#eletricista)
+  - [Ar-Condicionado: Protocolo Hospitalar](#ar-condicionado)
+  - [Chaveiro e Segurança](#chaveiro)
+- [Tabela de Preços Estimados 2026](#precos)
+- [Logística e Referências Locais](#logistica)
+- [Proteção Contra Tempestades (Vila Adyana)](#tempestades)
+- [Perguntas Frequentes](#faq)
+
+---
+
+## <span id="desafios"></span>🏛️ Desafios: O Conflito Antigo vs. Moderno
+
+### Perfil Imobiliário Único
+
+A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui, o "barato sai caro" quase imediatamente.
+
+**Infraestrutura de Elite (anos 70/80):**
+- **Acabamentos Nobres:** Pisos de taco de madeira, mármore travertino e sancas de gesso antigas. Um vazamento mal consertado pode custar dezenas de milhares de reais em restauração.
+- **Hidráulica "Heavy Metal":** Tubulações de ferro galvanizado e cobre são a norma nos prédios clássicos. Encanadores acostumados apenas com PVC (plástico) não conseguem resolver problemas aqui.
+- **Pé-Direito Alto:** Dificulta a troca de lâmpadas e manutenção de ar-condicionado, exigindo escadas especiais e equipamentos de segurança.
+
+**O Hub Médico (Clínicas e Consultórios):**
+- **Sensibilidade Elétrica:** Equipamentos de ultrassom, raio-x e lasers dermatológicos exigem redes elétricas estabilizadas e aterramento perfeito.
+- **Silêncio Absoluto:** Obras e reparos não podem gerar ruído excessivo durante horários de consulta.
+- **Higienização do Ar:** A vigilância sanitária é rigorosa com a limpeza de ar-condicionado em ambientes de saúde.
+
+---
+
+## <span id="servicos"></span>🛠️ Serviços Especializados
+
+### <span id="encanador"></span>🔧 Encanador: "Sem Quebra-Quebra"
+
+**Demandas críticas no bairro:**
+
+1. **Caça-Vazamentos de Precisão:** Em apartamentos com piso de madeira nobre, quebrar o chão "para procurar" é inaceitável. É necessário uso de Geofone e Câmeras Termográficas para localização exata.
+2. **Substituição de Colunas:** Prédios antigos sofrem com incrustação em colunas de água. O serviço exige equipe especializada em *prumadas* verticais.
+3. **Desentupimento de Ralos com Raízes:** A densa arborização do bairro faz com que raízes invadam caixas de inspeção e esgoto no térreo.
+4. **Torneiras e Misturadores Importados:** Manutenção de metais sanitários de luxo (Deca, Docol antigos) que exigem reparos específicos, não apenas troca.
+
+**Perfil Ideal:** Profissionais que trabalham com **proteção de piso**, limpeza pós-obra rigorosa e tecnologia não destrutiva.
+
+**→ [Ver Encanadores para Alto Padrão na Vila Adyana](/servicos/encanador)**
+
+---
+
+### <span id="eletricista"></span>⚡ Eletricista: Clínicas e Retrofit
+
+**Situações de urgência e atualização:**
+
+1. **Retrofit Elétrico:** Substituição completa da fiação antiga (rígida/pano) para cabos flexíveis anti-chama, permitindo o uso de AirFryers e Ar-Condicionado sem queda de disjuntor.
+2. **Estabilização para Equipamentos Médicos:** Instalação de no-breaks, circuitos dedicados e aterramento certificado para clínicas na Av. 9 de Julho.
+3. **Iluminação de LED em Gesso Antigo:** Modernização da iluminação preservando as sancas e molduras originais dos anos 80.
+4. **Quadros de Distribuição (QDC):** Eliminação definitiva de fusíveis de rosca e instalação de DR (Dispositivo Residual) para proteção contra choques.
+
+**Perfil Ideal:** Eletricistas com experiência em **normas hospitalares (RDC)** e reformas residenciais finas.
+
+**→ [Ver Eletricistas Especializados](/servicos/eletricista)**
+
+---
+
+### <span id="ar-condicionado"></span>❄️ Ar-Condicionado: Protocolo de Saúde
+
+**O padrão Vila Adyana de climatização:**
+
+1. **PMOC (Plano de Manutenção):** Obrigatório por lei para clínicas. Técnicos que emitem laudo e ART para vigilância sanitária.
+2. **Instalação Discreta:** Fachadas de prédios históricos muitas vezes proíbem condensadoras visíveis. Técnicos precisam encontrar soluções de engenharia criativas.
+3. **Limpeza Química Profunda:** Devido à poluição da Av. Adhemar de Barros e o pólen das árvores, a limpeza de filtros deve ser bimestral em consultórios.
+4. **Sistemas Inverter Silenciosos:** Essencial para consultórios de psicologia e psiquiatria abundantes na região.
+
+**→ [Ver Técnicos de AC com experiência em Clínicas](/servicos/ar-condicionado)**
+
+---
+
+### <span id="chaveiro"></span>🔑 Chaveiro e Segurança Residencial
+
+1. **Fechaduras Tetra e Multiponto:** Comuns em portas de serviço e social de apartamentos amplos.
+2. **Cofres Residenciais:** Abertura e manutenção de cofres mecânicos antigos ou digitais modernos.
+3. **Molas Hidráulicas:** Instalação e regulagem em portas de vidro de lojas e portarias de condomínios.
+
+**→ [Ver Chaveiros 24h na Região](/servicos/chaveiro)**
+
+---
+
+## <span id="precos"></span>💰 Tabela de Preços Estimados (2026)
+
+*Valores refletem a complexidade e o cuidado extra exigido em imóveis de alto padrão e clínicos.*
+
+| Serviço | Faixa de Preço (R$) | Observações |
+|---------|---------------------|-------------|
+| **Hidráulica Fina** | | |
+| Caça-Vazamento (Geofone) | 350 - 600 | Sem quebra de piso |
+| Troca de reparo (Válvula Hydra) | 180 - 350 | Peças originais Deca/Docol |
+| Desentupimento (Máquina K500) | 300 - 550 | Para raízes/esgoto central |
+| **Elétrica & Clínicas** | | |
+| Visita Técnica (Laudo) | 100 - 200 | Abatido se fechar serviço |
+| Ponto elétrico dedicado 220v | 250 - 500 | Fiação externa ou embutida |
+| Laudo elétrico/ART (Clínicas) | 800 - 1.500 | Para bombeiros/vigilância |
+| Troca de Quadro (Retrofit) | 1.200 - 2.500 | Mão de obra especializada |
+| **Climatização** | | |
+| Limpeza Química (Split) | 200 - 350 | Produto bactericida certificado |
+| Contrato Mensal (PMOC) | A combinar | Varia por nº de máquinas |
+| Instalação (Infra complexa) | 800 - 1.500 | Até 3m de tubulação |
+| **Marido de Aluguel** | | |
+| Instalação de Cortinas/Quadros | 120 - 250 | Paredes de gesso/drywall |
+| Reparo em Móveis Planejados | 150 - 400 | Dobradiças, corrediças |
+
+<div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <div class="text-sm text-yellow-700 space-y-2">
+        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região da Vila Adyana, considerando o padrão técnico exigido, apresentadas apenas como referência inicial.</p>
+        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço. Exija cuidado com acabamentos e limpeza.</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+## <span id="logistica"></span>📍 Logística e Referências Locais
+
+### Acessibilidade e Trânsito
+A Vila Adyana tem uma logística peculiar que afeta o tempo de atendimento:
+
+* **Horário Escolar:** Entre 11h30-13h30 e 17h-18h30, o trânsito trava próximo às escolas (Instituto São José, Poliedro). Profissionais de moto levam vantagem.
+* **Estacionamento:** Extremamente difícil na região das clínicas. Se você mora em prédio, **liberar a vaga de visitante** agiliza muito o início do serviço.
+
+### Pontos de Referência para Chamados
+Use estes marcos para orientar o prestador de serviço:
+* "Próximo ao Parque Vicentina Aranha"
+* "Região do Hospital Policlin/Santa Casa"
+* "Perto do SESC"
+* "Travessa da Av. 9 de Julho"
+
+---
+
+## <span id="tempestades"></span>🌧️ Alerta de Tempestade: Checklist Vila Adyana
+
+Devido à grande quantidade de árvores antigas e prédios com mais de 40 anos, chuvas fortes (como os 14mm previstos para hoje) trazem riscos específicos:
+
+### Checklist para Moradores e Síndicos:
+1.  **Limpeza de Calhas (Crítico):** As folhas das árvores da Vila Adyana entopem calhas em questão de dias. Verifique agora.
+2.  **Ralos de Varanda:** Em apartamentos antigos, o ralo da varanda costuma ser pequeno. Garanta que não está obstruído para evitar alagamento da sala (e danos ao taco).
+3.  **Galhos x Fiação:** Observe se há galhos tocando a rede elétrica de entrada do prédio. Se houver, acione a EDP ou um eletricista para laudo técnico imediato.
+4.  **Infiltração de Fachada:** Tijolinho aparente (comum no bairro) precisa de hidrofugante a cada 2 anos. Manchas internas indicam falha nessa proteção.
+
+**[Encontrar Profissionais para Manutenção Preventiva →](/servicos/marido-de-aluguel)**
+
+---
+
+## <span id="faq"></span>❓ Perguntas Frequentes
+
+<details class="border-b border-gray-200 py-4">
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Os encanadores têm seguro contra danos em pisos nobres?</summary>
+  <div class="mt-3 text-gray-700 pl-4">
+    Alguns profissionais e empresas de caça-vazamento possuem seguro de responsabilidade civil. É fundamental perguntar isso explicitamente ao contratar se você possui pisos de alto valor (mármore, taco original).
+  </div>
+</details>
+
+<details class="border-b border-gray-200 py-4">
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Posso reformar a elétrica do meu apartamento antigo sem trocar o piso?</summary>
+  <div class="mt-3 text-gray-700 pl-4">
+    Sim. Eletricistas experientes em retrofit conseguem muitas vezes passar a nova fiação pelos eletrodutos existentes usando guias específicas e lubrificantes, ou propor soluções com rodapés elétricos que evitam a quebra de paredes e pisos.
+  </div>
+</details>
+
+<details class="border-b border-gray-200 py-4">
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Técnicos de ar-condicionado emitem laudo PMOC para minha clínica?</summary>
+  <div class="mt-3 text-gray-700 pl-4">
+    Sim. Ao buscar técnicos de ar-condicionado no diretório, verifique na descrição ou pergunte no primeiro contato se eles emitem ART e PMOC. Isso é obrigatório para regularização junto à ANVISA.
+  </div>
+</details>
+
+<details class="border-b border-gray-200 py-4">
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-red-600 transition-colors">Qual o melhor horário para chamar manutenção na Av. 9 de Julho?</summary>
+  <div class="mt-3 text-gray-700 pl-4">
+    Para evitar atrasos e estresse com estacionamento, os melhores horários são entre 9h e 11h ou após as 14h. Evite os horários de entrada e saída escolar se possível.
+  </div>
+</details>
+
+---
+
+## 🔍 Encontre Especialistas na Vila Adyana
+
+Não arrisque o patrimônio do seu imóvel ou a operação da sua clínica com amadores.
+
+* **[Eletricistas para Clínicas e Retrofit →](/servicos/eletricista)**
+* **[Encanadores "Sem Quebra-Quebra" →](/servicos/encanador)**
+* **[Técnicos de Ar-Condicionado Certificados →](/servicos/ar-condicionado)**
+* **[Chaveiros e Segurança 24h →](/servicos/chaveiro)**
+
+---
+
+*Conteúdo atualizado em Janeiro de 2026. O Serviços Urgentes conecta você aos melhores profissionais de SJC. Exija orçamento prévio e referências.*
