@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços em Urbanova - SJC | Condomínios e Alto Padrão"
 description: "Guia de serviços para Urbanova: Manutenção de aquecimento solar, pressurizadores, elétrica para automação e reparos em condomínios fechados."
 date: "2026-01-26T17:00:00-03:00"
-dateModified: "2026-01-26T17:15:00-03:00"
+dateModified: "2026-01-26T19:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -27,6 +27,8 @@ faqSchema:
     answer: "Existem mergulhadores profissionais especializados em reparo subaquático (vinil e pastilha) que colam o vazamento com a piscina cheia, economizando milhares de litros de água e produtos químicos."
   - question: "Qual o horário permitido para obras e reparos em condomínios?"
     answer: "Geralmente, obras com ruído são permitidas apenas das 8h às 17h (segunda a sexta). Emergências silenciosas podem ser atendidas fora desse horário, mas consulte o regimento interno do seu condomínio."
+  - question: "Qual o tempo de chegada de um profissional no Urbanova?"
+    answer: "Da Zona Oeste ou Centro: 25-35 minutos (via Dutra → saída Urbanova). Da Zona Leste/Aquarius: 15-25 minutos (via Anel Viário). Tempo adicional de 10-15 min para liberação na portaria. Total estimado: 30-50 minutos para emergências."
 ---
 
 <span id="top"></span>
@@ -37,10 +39,20 @@ O Urbanova é uma "cidade dentro da cidade". Composto majoritariamente por condo
 
 Uma emergência no Urbanova raramente é "apenas trocar um fio". Geralmente envolve diagnosticar sistemas integrados onde um erro pode custar caro.
 
+---
+
+> 🌧️ **ATENÇÃO MORADORES:** Com 30mm+ de chuva previstos até domingo (Fev 01), sistemas elétricos no Urbanova enfrentam riscos de surto — especialmente **inversores solares e bombas de piscina**. Veja nosso [guia de proteção contra tempestades](#1-infraestrutura) ou [encontre eletricista para inspeção preventiva](/servicos/eletricista).
+
+---
+
 ## 📋 Neste Guia
 
 1. [Infraestrutura e Alertas Específicos](#1-infraestrutura)
-2. [Serviços Especializados (Solar, Piscina, Automação)](#2-servicos)
+2. [Serviços Especializados](#2-servicos)
+   - [Encanador: Pressurização e Boiler](#encanador)
+   - [Eletricista: Automação e Solar](#eletricista)
+   - [Climatização: VRF e Dutos](#climatizacao)
+   - [Marido de Aluguel: Fine Art](#marido)
 3. [Tabela de Preços e Disclaimer](#3-precos)
 4. [Logística de Acesso aos Condomínios](#4-logistica)
 5. [Perguntas Frequentes](#5-faq)
@@ -59,7 +71,7 @@ As casas no Urbanova possuem "corações" técnicos que precisam de monitorament
       </svg>
     </div>
     <div class="ml-3">
-      <h3 class="text-lg font-bold text-red-800 mb-2">⚡ Alerta de Tempestades e Energia</h3>
+      <h3 class="text-lg font-bold text-red-800 mb-2">🌧️⚡ Alerta de Tempestades e Energia</h3>
       <p class="text-red-700 mb-2">Por ser uma região aberta e alta, o Urbanova sofre com ventos fortes e descargas elétricas. Itens críticos:</p>
       <ul class="list-disc list-inside text-red-700 space-y-1">
         <li><strong>Inversores Solares:</strong> Sensíveis a surtos na rede. Verifique se o DPS (Dispositivo de Proteção) do seu quadro está ativo.</li>
@@ -76,7 +88,7 @@ As casas no Urbanova possuem "corações" técnicos que precisam de monitorament
 
 ## <span id="2-servicos"></span>2. Serviços Especializados para Urbanova
 
-### 🔧 Encanador: Pressurização e Água Quente
+### <span id="encanador"></span>🔧 Encanador: Pressurização e Água Quente
 
 Diferente de bairros comuns, a pressão da rua no Urbanova muitas vezes não chega forte ao segundo andar das mansões, exigindo sistemas complexos.
 
@@ -87,7 +99,11 @@ Diferente de bairros comuns, a pressão da rua no Urbanova muitas vezes não che
 
 👉 **[Ver Encanadores Especializados em Boiler/Pressurizador →](/servicos/encanador)**
 
-### ⚡ Eletricista: Automação e Fotovoltaica
+[⬆️ Voltar ao topo](#top)
+
+---
+
+### <span id="eletricista"></span>⚡ Eletricista: Automação e Fotovoltaica
 
 A rede elétrica das casas no Urbanova é robusta, mas complexa.
 
@@ -98,7 +114,11 @@ A rede elétrica das casas no Urbanova é robusta, mas complexa.
 
 👉 **[Ver Eletricistas com Experiência em Automação →](/servicos/eletricista)**
 
-### ❄️ Climatização: VRF e Cassete
+[⬆️ Voltar ao topo](#top)
+
+---
+
+### <span id="climatizacao"></span>❄️ Climatização: VRF e Cassete
 
 Muitas residências possuem sistemas de ar-condicionado central ou dutados que não podem ser atendidos por "curiosos".
 
@@ -108,7 +128,11 @@ Muitas residências possuem sistemas de ar-condicionado central ou dutados que n
 
 👉 **[Ver Técnicos de Ar-Condicionado VRF/Multi →](/servicos/ar-condicionado)**
 
-### 🛠️ Marido de Aluguel "Fine Art"
+[⬆️ Voltar ao topo](#top)
+
+---
+
+### <span id="marido"></span>🛠️ Marido de Aluguel "Fine Art"
 
 Para instalar itens de luxo sem danificar revestimentos caros.
 - Instalação de lustres pesados (pé-direito duplo).
@@ -123,7 +147,14 @@ Para instalar itens de luxo sem danificar revestimentos caros.
 
 ## <span id="3-precos"></span>3. Tabela de Preços Estimados (Urbanova 2026)
 
-*Nota: Os valores no Urbanova tendem a ser 15-20% superiores à média da cidade devido à logística de acesso e complexidade dos equipamentos.*
+**Por que os valores no Urbanova são 15-20% mais altos?**
+
+- **Distância:** Profissionais da Zona Oeste ou Centro enfrentam 20-30 min de deslocamento
+- **Portaria:** Tempo médio de espera para liberação: 10-15 minutos
+- **Equipamentos especiais:** Trabalho em pé-direito duplo, rapel, andaimes
+- **Seguro obrigatório:** Imóveis de R$ 2-5M exigem cobertura de responsabilidade civil
+
+*Os valores refletem a complexidade técnica e logística de atender condomínios de alto padrão.*
 
 | Serviço | Faixa de Preço (R$) | Observações |
 |---------|---------------------|-------------|
@@ -236,6 +267,18 @@ O maior vilão do atendimento no Urbanova é a **portaria**. Um técnico pode pe
   </summary>
   <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
     Geralmente, obras com ruído são permitidas apenas das 8h às 17h (segunda a sexta). Emergências silenciosas podem ser atendidas fora desse horário, mas consulte o regimento interno do seu condomínio.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Qual o tempo de chegada de um profissional no Urbanova?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Da Zona Oeste ou Centro: 25-35 minutos (via Dutra → saída Urbanova). Da Zona Leste/Aquarius: 15-25 minutos (via Anel Viário). Tempo adicional de 10-15 min para liberação na portaria. Total estimado: 30-50 minutos para emergências.
   </div>
 </details>
 

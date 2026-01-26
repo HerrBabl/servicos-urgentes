@@ -2,8 +2,8 @@
 layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Vila Adyana - SJC | Residencial e Clínicas"
 description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica predial, elétrica para clínicas e manutenção em imóveis de alto padrão. Atendimento 24h."
-date: "2026-01-26T16:30:00-03:00"
-dateModified: "2026-01-26T16:45:00-03:00"
+date: "2026-01-26T18:30:00-03:00"
+dateModified: "2026-01-26T18:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -18,14 +18,22 @@ region: "São José dos Campos"
 neighborhood: "Vila Adyana, Jardim São Dimas, Jardim Apolo"
 faqSchema:
   - question: "Os encanadores têm seguro contra danos em pisos nobres?"
-    answer: "Sim. Nossos profissionais são especializados na arquitetura da Vila Adyana e muitos possuem seguro de responsabilidade civil para trabalhar sobre tacos e mármores. Sempre confirme essa cobertura antes de autorizar o serviço."
+    answer: "Sim. Os profissionais listados são especializados na arquitetura da Vila Adyana e muitos possuem seguro de responsabilidade civil para trabalhar sobre tacos e mármores. Sempre confirme essa cobertura antes de autorizar o serviço."
   - question: "Posso reformar a elétrica do meu apartamento antigo sem trocar o piso?"
     answer: "Sim. Eletricistas experientes em retrofit conseguem passar a nova fiação pelos eletrodutos existentes usando guias específicas e lubrificantes, ou propor soluções com rodapés elétricos, evitando a quebra de alvenaria e pisos originais."
   - question: "Técnicos de ar-condicionado emitem laudo PMOC para minha clínica?"
     answer: "Sim. Ao buscar técnicos no diretório para a região da Av. 9 de Julho, verifique a certificação. A emissão de ART e PMOC é obrigatória para regularização de consultórios junto à ANVISA."
   - question: "Qual o melhor horário para chamar manutenção na Vila Adyana?"
     answer: "Para evitar atrasos e estresse com estacionamento na região das clínicas, os melhores horários são entre 9h-11h ou após as 14h. Evite os horários de entrada e saída escolar (11h30-13h) se possível."
+  - question: "Qual o tempo de chegada de um profissional na Vila Adyana?"
+    answer: "Do Centro: 5-10 minutos (muito próximo). Da Zona Oeste/Aquarius: 15-25 minutos (via Cassiano Ricardo ou Dutra). Da Zona Leste: 20-30 minutos. Considere tempo adicional de 10-15 min para estacionamento em horários de pico."
+  - question: "Por que os serviços na Vila Adyana custam mais caro?"
+    answer: "Três fatores principais: (1) Cuidado extremo com acabamentos nobres (proteção de pisos), (2) Equipamentos especializados (geofone, câmeras térmicas), e (3) Expertise técnica em sistemas antigos (ferro galvanizado). A diferença de custo evita danos maiores."
 ---
+
+<span id="top"></span>
+
+# Serviços de Emergência na Vila Adyana - SJC (Guia 2026)
 
 **Com as chuvas intensas previstas para o Vale do Paraíba (alerta de 14mm hoje e temporais no fim de semana),** a Vila Adyana exige atenção redobrada: árvores centenárias que ameaçam fiações, calhas de prédios antigos que não suportam o volume de água e infiltrações silenciosas em imóveis de alto padrão.
 
@@ -35,20 +43,20 @@ A Vila Adyana não é apenas um bairro residencial; é o **hub de saúde e bem-e
 
 ## 📑 Índice de Conteúdo
 
-- [Desafios: O Conflito Antigo vs. Moderno](#desafios)
-- [Serviços Especializados (Residencial e Clínicas)](#servicos)
-  - [Encanador: O Desafio do Ferro Galvanizado](#encanador)
-  - [Eletricista: Clínicas e Retrofit](#eletricista)
-  - [Ar-Condicionado: Protocolo Hospitalar](#ar-condicionado)
-  - [Chaveiro e Segurança](#chaveiro)
-- [Tabela de Preços Estimados 2026](#precos)
-- [Logística e Referências Locais](#logistica)
-- [Proteção Contra Tempestades (Vila Adyana)](#tempestades)
-- [Perguntas Frequentes](#faq)
+1. [Desafios: O Conflito Antigo vs. Moderno](#desafios)
+2. [Serviços Especializados](#servicos)
+   - [Encanador: Sem Quebra-Quebra](#encanador)
+   - [Eletricista: Clínicas e Retrofit](#eletricista)
+   - [Ar-Condicionado: Protocolo Hospitalar](#ar-condicionado)
+   - [Chaveiro e Segurança](#chaveiro)
+3. [Tabela de Preços e Justificativa](#precos)
+4. [Logística e Referências Locais](#logistica)
+5. [Proteção Contra Tempestades (Alerta)](#tempestades)
+6. [Perguntas Frequentes](#faq)
 
 ---
 
-## <span id="desafios"></span>🏛️ Desafios: O Conflito Antigo vs. Moderno
+## <span id="desafios"></span>🏛️ 1. Desafios: O Conflito Antigo vs. Moderno
 
 ### Perfil Imobiliário Único
 
@@ -64,9 +72,11 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 - **Silêncio Absoluto:** Obras e reparos não podem gerar ruído excessivo durante horários de consulta.
 - **Higienização do Ar:** A vigilância sanitária é rigorosa com a limpeza de ar-condicionado em ambientes de saúde.
 
+[⬆️ Voltar ao topo](#top)
+
 ---
 
-## <span id="servicos"></span>🛠️ Serviços Especializados
+## <span id="servicos"></span>🛠️ 2. Serviços Especializados
 
 ### <span id="encanador"></span>🔧 Encanador: "Sem Quebra-Quebra"
 
@@ -81,7 +91,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 
 **→ [Ver Encanadores para Alto Padrão na Vila Adyana](/servicos/encanador)**
 
----
+[⬆️ Voltar ao topo](#top)
 
 ### <span id="eletricista"></span>⚡ Eletricista: Clínicas e Retrofit
 
@@ -96,7 +106,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 
 **→ [Ver Eletricistas Especializados](/servicos/eletricista)**
 
----
+[⬆️ Voltar ao topo](#top)
 
 ### <span id="ar-condicionado"></span>❄️ Ar-Condicionado: Protocolo de Saúde
 
@@ -109,7 +119,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 
 **→ [Ver Técnicos de AC com experiência em Clínicas](/servicos/ar-condicionado)**
 
----
+[⬆️ Voltar ao topo](#top)
 
 ### <span id="chaveiro"></span>🔑 Chaveiro e Segurança Residencial
 
@@ -119,11 +129,17 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 
 **→ [Ver Chaveiros 24h na Região](/servicos/chaveiro)**
 
+[⬆️ Voltar ao topo](#top)
+
 ---
 
-## <span id="precos"></span>💰 Tabela de Preços Estimados (2026)
+## <span id="precos"></span>💰 3. Tabela de Preços Estimados (2026)
 
-*Valores refletem a complexidade e o cuidado extra exigido em imóveis de alto padrão e clínicos.*
+**Por que os valores na Vila Adyana refletem cuidado especializado:**
+- **Proteção de acabamentos:** Trabalho sobre taco, mármore e gesso antigo exige lonas, aspiração contínua e técnicas não-destrutivas.
+- **Ferramental específico:** Geofone, câmera térmica e andaimes para pé-direito alto (não inclusos em serviços básicos).
+- **Expertise técnica:** Profissionais com experiência em sistemas de 40+ anos (ferro galvanizado, cobre, fiação rígida).
+- **Seguro obrigatório:** Muitos profissionais têm cobertura de responsabilidade civil para trabalhar em imóveis de alto valor.
 
 | Serviço | Faixa de Preço (R$) | Observações |
 |---------|---------------------|-------------|
@@ -160,9 +176,11 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
   </div>
 </div>
 
+[⬆️ Voltar ao topo](#top)
+
 ---
 
-## <span id="logistica"></span>📍 Logística e Referências Locais
+## <span id="logistica"></span>📍 4. Logística e Referências Locais
 
 ### Acessibilidade e Trânsito
 A Vila Adyana tem uma logística peculiar que afeta o tempo de atendimento:
@@ -177,23 +195,39 @@ Use estes marcos para orientar o prestador de serviço:
 * "Perto do SESC"
 * "Travessa da Av. 9 de Julho"
 
+[⬆️ Voltar ao topo](#top)
+
 ---
 
-## <span id="tempestades"></span>🌧️ Alerta de Tempestade: Checklist Vila Adyana
+## <span id="tempestades"></span>🌧️ 5. Proteção Contra Tempestades (Vila Adyana)
 
-Devido à grande quantidade de árvores antigas e prédios com mais de 40 anos, chuvas fortes (como os 14mm previstos para hoje) trazem riscos específicos:
-
-### Checklist para Moradores e Síndicos:
-1.  **Limpeza de Calhas (Crítico):** As folhas das árvores da Vila Adyana entopem calhas em questão de dias. Verifique agora.
-2.  **Ralos de Varanda:** Em apartamentos antigos, o ralo da varanda costuma ser pequeno. Garanta que não está obstruído para evitar alagamento da sala (e danos ao taco).
-3.  **Galhos x Fiação:** Observe se há galhos tocando a rede elétrica de entrada do prédio. Se houver, acione a EDP ou um eletricista para laudo técnico imediato.
-4.  **Infiltração de Fachada:** Tijolinho aparente (comum no bairro) precisa de hidrofugante a cada 2 anos. Manchas internas indicam falha nessa proteção.
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-6 rounded-r-lg shadow-sm">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+      </svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-bold text-red-800 mb-2">🌧️ Alerta: Árvores Centenárias + Prédios Antigos</h3>
+      <p class="text-red-700 mb-2">Com 30mm+ de chuva previstos até domingo, a Vila Adyana enfrenta riscos específicos:</p>
+      <ul class="list-disc list-inside text-red-700 space-y-1">
+        <li><strong>Limpeza de Calhas (CRÍTICO):</strong> Folhas entopem calhas em dias. Verifique AGORA.</li>
+        <li><strong>Ralos de Varanda:</strong> Apartamentos antigos têm ralos pequenos → risco de alagar sala e danificar taco.</li>
+        <li><strong>Galhos x Fiação:</strong> Árvores tocando fios = curto-circuito. Acione EDP ou eletricista.</li>
+        <li><strong>Fachadas de Tijolinho:</strong> Hidrofugante a cada 2 anos. Manchas internas = falha na proteção.</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 **[Encontrar Profissionais para Manutenção Preventiva →](/servicos/marido-de-aluguel)**
 
+[⬆️ Voltar ao topo](#top)
+
 ---
 
-## <span id="faq"></span>❓ Perguntas Frequentes
+## <span id="faq"></span>❓ 6. Perguntas Frequentes
 
 <details class="group border border-gray-200 rounded-lg bg-white mb-4">
   <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
@@ -243,17 +277,34 @@ Devido à grande quantidade de árvores antigas e prédios com mais de 40 anos, 
   </div>
 </details>
 
----
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Qual o tempo de chegada de um profissional na Vila Adyana?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Do Centro: 5-10 minutos (muito próximo). Da Zona Oeste/Aquarius: 15-25 minutos (via Cassiano Ricardo ou Dutra). Da Zona Leste: 20-30 minutos. Tempo adicional de 10-15 min para estacionamento na região das clínicas (horários de pico). Total estimado: 20-40 minutos para emergências.
+  </div>
+</details>
 
-## 🔍 Encontre Especialistas na Vila Adyana
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Por que os serviços na Vila Adyana custam mais caro?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Três fatores principais: (1) Cuidado extremo com acabamentos nobres (proteção de pisos, limpeza rigorosa), (2) Equipamentos especializados (geofone, câmeras térmicas, andaimes para pé-direito alto), (3) Expertise técnica em sistemas antigos (ferro galvanizado, cobre, fiação de pano). A diferença de custo evita danos que podem custar 10x mais para reparar.
+  </div>
+</details>
 
-Não arrisque o patrimônio do seu imóvel ou a operação da sua clínica com amadores.
+<div class="mt-12 text-center">
+  <a href="/servicos/encanador" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+    Encontrar Especialistas na Vila Adyana
+  </a>
+</div>
 
-* **[Eletricistas para Clínicas e Retrofit →](/servicos/eletricista)**
-* **[Encanadores "Sem Quebra-Quebra" →](/servicos/encanador)**
-* **[Técnicos de Ar-Condicionado Certificados →](/servicos/ar-condicionado)**
-* **[Chaveiros e Segurança 24h →](/servicos/chaveiro)**
-
----
-
-*Conteúdo atualizado em Janeiro de 2026. O Serviços Urgentes conecta você aos melhores profissionais de SJC. Exija orçamento prévio e referências.*
+[⬆️ Voltar ao topo](#top)
