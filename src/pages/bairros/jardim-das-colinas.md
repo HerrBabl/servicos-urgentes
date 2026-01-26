@@ -1,181 +1,250 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Serviços de Emergência 24h em Jardim das Colinas - São José dos Campos"
-description: "Encontre profissionais verificados para emergências residenciais em Jardim das Colinas. Foco em sistemas premium, instalações elétricas e hidráulicas de alto padrão."
-neighborhood: "Jardim das Colinas"
-city: "São José dos Campos"
-state: "SP"
-keywords: "encanador jardim das colinas, eletricista 24h sjc, chaveiro jardim das colinas, manutenção alto padrão"
+title: "Serviços no Jardim das Colinas - SJC | Alto Padrão e Corporativo"
+description: "Guia de manutenção para Jardim das Colinas: Especialistas em aquecedores a gás, válvulas de pressão predial e elétrica para apartamentos de luxo."
+date: "2026-01-26T17:30:00-03:00"
+dateModified: "2026-01-26T18:00:00-03:00"
+author:
+  name: "Equipe Serviços Urgentes"
+  url: "https://servicosurgentes.com/sobre"
+image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800"
+imageAlt: "Vista de edifícios residenciais de alto padrão e torres corporativas no Jardim das Colinas em São José dos Campos"
+tags: ["Jardim das Colinas", "Alto Padrão", "Gás Encanado", "Manutenção Predial"]
+slug: "servicos-jardim-das-colinas-sjc"
+category: "Guia de Bairro"
+canonicalURL: "https://servicosurgentes.com/bairros/jardim-das-colinas"
+keywords: "encanador jardim das colinas, conserto aquecedor a gás sjc, eletricista colinas shopping, marido de aluguel sjc, manutenção válvula hydra, ar condicionado multi split sjc"
+region: "São José dos Campos"
+neighborhood: "Jardim das Colinas, Jardim Esplanada, Aquarius"
+faqSchema:
+  - question: "Encanadores no Colinas consertam aquecedor a gás (Rinnai/Komeco)?"
+    answer: "Sim. Devido à alta concentração de edifícios com gás encanado no bairro, o diretório prioriza técnicos certificados para manutenção preventiva e corretiva em aquecedores de passagem."
+  - question: "Os profissionais atendem torres comerciais (Helbor/Colinas)?"
+    answer: "Sim. Existem eletricistas e técnicos de ar-condicionado especializados em atendimento corporativo (B2B) que emitem nota fiscal e respeitam as normas rígidas dos condomínios empresariais."
+  - question: "Quanto custa trocar uma válvula reguladora de pressão?"
+    answer: "Em edifícios altos do Colinas, a troca ou regulagem da válvula redutora de pressão (que evita estouro de canos) custa entre R$ 350 e R$ 600, dependendo do acesso e da marca da válvula."
+  - question: "Marido de Aluguel instala TV em parede de Drywall?"
+    answer: "Sim. Profissionais qualificados utilizam buchas específicas (bucha fly/bucha de expansão) para fixar suportes de TV e quadros pesados em paredes de gesso acartonado, comuns em reformas no bairro."
 ---
 
-# Serviços de Emergência 24 Horas em Jardim das Colinas, São José dos Campos
+<span id="top"></span>
 
-O Jardim das Colinas é reconhecido por ser um dos bairros mais nobres e planejados de São José dos Campos. Com forte presença de condomínios de alto padrão, centros empresariais e um dos principais shoppings da cidade, o Colinas exige um padrão de serviço diferenciado e profissionais verificados.
+# Serviços de Emergência no Jardim das Colinas, São José dos Campos
 
-## Características do Jardim das Colinas e Suas Emergências
+O Jardim das Colinas é o epicentro do "Novo Luxo" em São José dos Campos. Vizinho ao cartão-postal Arco da Inovação e sede do Colinas Shopping, o bairro mistura **torres residenciais de altíssimo padrão** com um **complexo corporativo** vibrante.
 
-### Perfil do Bairro
-O Jardim das Colinas tem uma identidade voltada para o alto padrão:
-- **Imóveis de Alto Valor:** Casas e apartamentos R$1M+ com acabamentos finos.
-- **Sistemas Complexos:** Forte uso de aquecedores a gás/solar, multi-splits e sistemas de segurança.
-- **Condomínios Fechados:** Protocolos rigorosos de entrada que exigem profissionais pontuais e documentados.
-- **Localização Estratégica:** Proximidade com o Arco da Inovação e vias expressas (Av. São João).
+As emergências aqui não são resolvidas com improviso. O morador do Colinas lida com sistemas pressurizados, aquecimento a gás central e automação residencial que exigem técnicos com ferramental de precisão e seguro de responsabilidade civil.
 
-### Emergências Típicas do Jardim das Colinas
-1. **Problemas em Sistemas de Aquecimento:** Falhas em aquecedores a gás/solar devido à alta demanda.
-2. **Falhas Elétricas de Carga:** Disjuntores que desarmam devido à sobrecarga de múltiplos aparelhos de AC e eletrodomésticos.
-3. **Fechaduras Digitais:** Falhas de bateria ou travamento em sistemas eletrônicos de segurança.
-4. **Acabamentos Finos:** Risco de danos em louças e metais sanitários de alto padrão durante reparos.
+## 📋 Neste Guia
 
-## Tempo de Resposta para Jardim das Colinas
-
-### Localização e Acesso
-O Jardim das Colinas tem acesso facilitado, mas a segurança em condomínios pode ser um fator:
-- Acesso rápido via **Av. São João** e **Av. Dr. Eduardo Cury**.
-- Conexão direta com a Zona Oeste e região central.
-- Profissionais listados já estão habituados com a rotina de portarias.
-
-### Tempo Médio de Atendimento
-Para emergências no Colinas, profissionais qualificados geralmente conseguem:
-- **Emergências urgentes (vazamento grave, trancado fora):** 45-60 minutos (considerando tempo de liberação na portaria).
-- **Atendimentos prioritários:** Agendamento preferencial no mesmo dia.
-
-**Importante:** Tempos de resposta dependem do horário, disponibilidade do profissional e condições de trânsito. Sempre confirme o prazo estimado ao solicitar o serviço.
-
-## Serviços de Emergência no Jardim das Colinas
-
-### 🔧 Encanador para Sistemas Premium
-
-**Problemas mais comuns no bairro:**
-- **Vazamentos em aquecedores a gás:** Exige experiência em modelos de alta potência.
-- **Manutenção de válvulas de descarga de alto padrão:** Necessita de cuidado para não danificar louças finas.
-- **Desentupimento:** Foco em pias e ralos de uso intenso sem danificar acabamentos.
-- **Instalação de torneiras:** Especialização em modelos gourmet e filtros complexos.
-
-**Faixas de preço de referência:**
-*Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
-
-**→ [Ver encanadores em bairros próximos](/servicos/encanador)**
-
-### 🔑 Chaveiro 24 Horas
-
-**Situações frequentes:**
-- **Fechaduras digitais/biométricas:** Falhas ou necessidade de troca de bateria/cilindro.
-- **Chaves multiponto/tetra:** Serviço de cópia ou abertura em sistemas de alta segurança.
-- **Portões de segurança:** Problemas mecânicos ou eletrônicos.
-
-*Atendimentos noturnos e em finais de semana podem ter valores diferenciados. Confirme antes de contratar.*
-
-**→ [Ver chaveiros em bairros próximos](/servicos/chaveiro)**
-
-### ⚡ Eletricista para Infraestrutura Moderna
-
-**Desafios elétricos do bairro:**
-- **Quadros de energia:** Adequação de carga para suportar AC central e piscinas aquecidas.
-- **Instalação de luminárias e lustres:** Exige cuidado extremo com o gesso e pintura.
-- **Reparo em tomadas:** Solução de sobrecargas em linhas de alto consumo.
-- **Sistemas de segurança:** Manutenção de redes para câmeras e cercas elétricas.
-
-*Serviços elétricos variam muito conforme complexidade e normas de segurança. Peça avaliação presencial.*
-
-**→ [Ver eletricistas em bairros próximos](/servicos/eletricista)**
-
-### ❄️ Técnico de Ar-Condicionado
-
-**Perfil dos aparelhos no bairro:**
-- **Multi-Split/VRF:** Manutenção complexa em sistemas que climatizam múltiplos ambientes.
-- **Instalação:** Necessidade de instalações estéticas e tubulação embutida.
-- **Manutenção preventiva:** Essencial para garantir a longevidade dos aparelhos de alto custo.
-
-*Preços dependem do tipo de gás, BTUs e complexidade da instalação. Solicite diagnóstico antes.*
-
-**→ [Ver técnicos de ar-condicionado em bairros próximos](/servicos/ar-condicionado)**
-
-### 🛠️ Marido de Aluguel
-**Demandas comuns no bairro:**
-* **Instalação de suportes:** Fixação de TVs, quadros e espelhos em paredes de gesso ou dry-wall (comum em apartamentos novos).
-* **Montagem de móveis:** Serviço necessário após mudanças ou compras de itens de design.
-* **Pequenos reparos:** Manutenção de rejuntes, vedação de box e troca de lâmpadas de difícil acesso.
-* **Reparos em acabamentos:** Consertos pontuais em pisos, rodapés e maçanetas de portas de alto padrão.
-
-**Perfil dos Profissionais:**
-Muitos profissionais listados focam na qualidade do acabamento e na proteção dos móveis e pisos durante o serviço.
-
-→ [Ver Marido de Aluguel em bairros próximos](/servicos/marido-de-aluguel)
-
-## Referências Locais e Como Chegar
-
-### Principais Vias
-- **Av. São João:** Principal acesso e via comercial.
-- **Av. Dr. Eduardo Cury:** Importante via de acesso.
-- **Av. Major Miguel Naked:** Conexão regional.
-
-### Pontos de Referência
-- **Colinas Shopping:** Principal marco comercial e de fácil localização.
-- **Arco da Inovação:** Ponto de referência visual.
-- **Edifícios Empresariais:** Entornos de grandes torres de escritórios.
-
-### Bairros Vizinhos Também Atendidos
-Profissionais que atendem Jardim das Colinas geralmente também cobrem:
-- Jardim Esplanada
-- Urbanova
-- Parque Residencial Aquarius
-
-## Dicas Específicas para Moradores do Jardim das Colinas
-
-### Atenção à Manutenção Preditiva
-* **Sistemas Hidráulicos:** Agende inspeção semestral nos aquecedores a gás.
-* **Portaria:** Mantenha a portaria informada sobre a chegada do profissional para agilizar a liberação e evitar atrasos.
-* **Elétrica:** Solicite avaliação da carga do quadro de energia antes de adicionar grandes equipamentos como carregadores de carros elétricos.
-
-## Como Escolher Profissionais Qualificados
-
-### Características Importantes
-✅ **Experiência com acabamentos finos** ✅ **Avaliações positivas de clientes anteriores** (busque mínimo 4 estrelas)  
-✅ **Orçamento detalhado** (verifique via WhatsApp antes da visita)  
-✅ **Profissionais que se identificam** (segurança em condomínios)  
-
-### Perguntas Essenciais Ao Contratar
-- "Tem experiência com a manutenção de aquecedor a gás?"
-- "Qual o procedimento para proteger o ambiente durante o reparo?"
-- "Emite nota fiscal ou recibo?"
-- "Qual a garantia do serviço?"
-
-### Sinais de Alerta - Evite Profissionais Que:
-❌ Não fornecem orçamento antes de começar  
-❌ Exigem pagamento total adiantado  
-❌ Não têm referências ou avaliações verificáveis  
-❌ Pressionam para decidir imediatamente  
-
-## Perguntas Frequentes - Jardim das Colinas
-
-### Como funciona o orçamento em condomínio?
-O profissional pode precisar avaliar o local. Recomendamos enviar fotos e vídeos do problema via WhatsApp para obter uma estimativa mais precisa antes da visita.
-
-### Existe cobrança extra por atender em condomínio?
-A cobrança é definida pelo profissional, mas pode haver valores diferenciados pela complexidade dos sistemas de alto padrão.
-
-### Há técnicos que atendem emergências em sistemas Multi-Split?
-Sim. O diretório lista especialistas em sistemas de climatização complexos.
-
-### Posso usar o serviço para reparos em meu escritório no Colinas?
-Sim. Muitos profissionais listados atendem tanto residências quanto edifícios comerciais na região do Colinas Shopping.
-
-## Encontre Profissionais Qualificados no Jardim das Colinas
-
-No Serviços Urgentes, você pode buscar profissionais com:
-
-✅ **Avaliações verificadas de clientes reais** ✅ **Experiência em diferentes tipos de emergências** ✅ **Cobertura na região premium de SJC** **Precisa de ajuda agora?**
-
-- [Ver Encanadores em São José dos Campos →](/servicos/encanador)
-- [Ver Chaveiros em São José dos Campos →](/servicos/chaveiro)
-- [Ver Eletricistas em São José dos Campos →](/servicos/eletricista)
-- [Ver Técnicos de Ar-Condicionado em São José dos Campos →](/servicos/ar-condicionado)
-- [Ver Marido de Aluguel em São José dos Campos →](/servicos/marido-de-aluguel)
+1. [Alertas de Infraestrutura: Viver nas Alturas](#1-infraestrutura)
+2. [Serviços Especializados no Jardim das Colinas](#2-servicos)
+   - [Encanador (Gás e Pressão)](#encanador)
+   - [Eletricista (Automação)](#eletricista)
+   - [Climatização (VRF/Multi)](#climatizacao)
+   - [Marido de Aluguel (Acabamentos)](#marido)
+3. [Tabela de Preços Estimados 2026](#3-precos)
+4. [Logística de Acesso e Regras de Condomínio](#4-logistica)
+5. [Proteção Contra Tempestades em Edifícios](#5-tempestades)
+6. [Perguntas Frequentes](#6-faq)
 
 ---
 
-*Conteúdo atualizado em Dezembro 2025. Lembre-se: Serviços Urgentes é um diretório, e não um prestador de serviços. Sempre solicite orçamento detalhado e verifique as credenciais do profissional antes de contratar.*
+## <span id="1-infraestrutura"></span>1. Alertas de Infraestrutura: Viver nas Alturas
+
+A verticalização intensa do Jardim das Colinas traz desafios hidráulicos e de segurança específicos para quem mora acima do 10º andar.
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-6 rounded-r-lg shadow-sm">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+      </svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-bold text-red-800 mb-2">🚨 Alerta de Alta Pressão e Gás</h3>
+      <p class="text-red-700 mb-2">Moradores de edifícios (especialmente andares baixos de torres altas) devem monitorar:</p>
+      <ul class="list-disc list-inside text-red-700 space-y-1">
+        <li><strong>Válvulas Redutoras de Pressão:</strong> Essenciais para evitar que a força da água estoure flexíveis e torneiras. Devem ser revisadas anualmente.</li>
+        <li><strong>Aquecedores a Gás:</strong> O monóxido de carbono é inodoro e letal. Se a chama do aquecedor estiver amarela (e não azul), chame um técnico imediatamente.</li>
+        <li><strong>Flexíveis de Aço:</strong> Use apenas modelos de malha de aço trançada. Modelos de plástico não suportam a pressão dos prédios do Colinas.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="2-servicos"></span>2. Serviços Especializados no Jardim das Colinas
+
+### <span id="encanador"></span>🔧 Encanador: Gás e Alta Pressão
+
+**A demanda número 1 do bairro.**
+- **Aquecedores de Passagem:** Manutenção, limpeza de bicos injetores e troca de diafragma em marcas como Rinnai, Lorenzetti e Rheem.
+- **Instalação de Duchas Premium:** Instalação correta de chuveiros de teto e duchas de alta vazão (Grohe, Deca) que exigem vedação perfeita.
+- **Caça-Vazamentos em Drywall:** Muitos apartamentos reformados usam paredes de gesso. O diagnóstico precisa ser eletrônico para evitar abrir buracos desnecessários.
+
+👉 **[Ver Encanadores Especialistas em Gás →](/servicos/encanador)**
+
+### <span id="eletricista"></span>⚡ Eletricista: Automação e Carga
+
+Apartamentos modernos no Colinas consomem muita energia.
+- **Adequação de Quadro:** Disjuntores que "caem" ao ligar AirFryer e Secador juntos indicam necessidade de balanceamento de fases.
+- **Iluminação em Sancas:** Instalação de fitas LED e perfis de iluminação em projetos de gesso delicados.
+- **Fechaduras Digitais:** Instalação e configuração de fechaduras biométricas (Samsung/Yale) nas portas sociais e de serviço.
+
+👉 **[Ver Eletricistas para Alto Padrão →](/servicos/eletricista)**
+
+### <span id="climatizacao"></span>❄️ Climatização: Varandas Técnicas e VRF
+
+A estética da fachada é intocável nos condomínios do Colinas.
+- **Sistemas Multi-Split:** Instalação de múltiplas evaporadoras conectadas a uma única condensadora na varanda técnica.
+- **Infraestrutura Embutida:** Passagem de tubulação de cobre pelo forro de gesso sem danos ao acabamento.
+- **Manutenção B2B:** Contratos de limpeza mensal (PMOC) para escritórios nas torres corporativas.
+
+👉 **[Ver Técnicos de Ar-Condicionado →](/servicos/ar-condicionado)**
+
+### <span id="marido"></span>🛠️ Marido de Aluguel: Acabamentos Finos
+
+- Instalação de **Cortinas Motorizadas**.
+- Fixação de quadros e espelhos em **Paredes de Drywall** (exige buchas específicas).
+- Reparo em **Móveis Planejados** de alto valor.
+
+👉 **[Ver Profissionais de Manutenção Fina →](/servicos/marido-de-aluguel)**
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="3-precos"></span>3. Tabela de Preços Estimados (Jardim das Colinas 2026)
+
+*Nota: Os valores refletem a especialização necessária para lidar com sistemas a gás e acabamentos de luxo.*
+
+| Serviço | Faixa de Preço (R$) | Observações |
+|---------|---------------------|-------------|
+| **Sistemas a Gás & Hidráulica** | | |
+| Revisão de Aquecedor a Gás | 250 - 450 | Limpeza + Verificação de segurança |
+| Troca de Válvula Redutora | 350 - 600 | Peça + Mão de obra |
+| Instalação de Ducha de Teto | 200 - 400 | Risco de dano ao forro |
+| **Elétrica & Automação** | | |
+| Instalação Fechadura Digital | 250 - 500 | Madeira ou Porta Pivotante |
+| Ponto de Iluminação em Gesso | 80 - 150 | Por ponto (Spot/LED) |
+| Troca de Disjuntor Geral | 250 - 450 | Quadro Energizado |
+| **Diversos** | | |
+| Instalação de TV (Suporte) | 150 - 300 | Parede Drywall ou Porcelanato |
+| Visita Técnica (Diagnóstico) | 80 - 150 | Abatido no fechamento |
+
+<div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <div class="text-sm text-yellow-700 space-y-2">
+        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região do Jardim das Colinas, considerando a complexidade técnica dos sistemas prediais.</p>
+        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> o serviço.</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="4-logistica"></span>4. Logística de Acesso e Regras de Condomínio
+
+O Jardim das Colinas possui alguns dos condomínios mais seguros de SJC. Isso impacta o tempo de atendimento.
+
+### Para Moradores:
+1.  **Entrada de Serviço:** A maioria dos prédios (Helbor, Paesaggio) exige que prestadores entrem pela portaria de serviço/docas. Informe isso ao técnico.
+2.  **Horários Rígidos:** Obras com ruído (furadeira/marreta) geralmente são proibidas entre 12h-14h e após as 17h.
+3.  **Documentação:** Tenha o RG do prestador em mãos para liberar o acesso no sistema do condomínio antes dele chegar.
+
+### Para Escritórios (B2B):
+Em torres comerciais, o cadastro costuma ser feito no térreo com foto e biometria. Avise a recepção para evitar filas de espera de 20 minutos.
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="5-tempestades"></span>5. Proteção Contra Tempestades em Edifícios
+
+**Com temporais de 30mm+ frequentes no verão,** apartamentos em torres enfrentam riscos específicos que diferem de casas térreas.
+
+### Checklist Urgente para Moradores de Apartamento:
+- ✅ **Varanda Gourmet:** Verifique se o ralo da sacada não está coberto por tapetes ou móveis. O entupimento aqui causa alagamento rápido que infiltra no apartamento de baixo.
+- ✅ **Shafts de Gás:** Infiltrações na fachada podem molhar a tubulação de gás nos shafts. Se sentir cheiro de gás após chuva forte, não ligue luzes e chame a manutenção.
+- ✅ **Aquecedores na Área de Serviço:** Se a chuva molhar seu aquecedor a gás (pela janela), **NÃO ligue o aparelho**. A placa eletrônica pode estar úmida, gerando risco de curto e queima total.
+
+**→ [Encanadores para inspeção de gás e pressão](/servicos/encanador)**
+
+[⬆️ Voltar ao topo](#top)
+
+---
+
+## <span id="6-faq"></span>6. Perguntas Frequentes (FAQ)
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Encanadores no Colinas consertam aquecedor a gás (Rinnai/Komeco)?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Sim. Devido à alta concentração de edifícios com gás encanado no bairro, o diretório prioriza técnicos certificados para manutenção preventiva e corretiva em aquecedores de passagem. É vital verificar o selo de qualificação do profissional.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Os profissionais atendem torres comerciais (Helbor/Colinas)?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Sim. Existem eletricistas e técnicos de ar-condicionado especializados em atendimento corporativo (B2B) que emitem nota fiscal e respeitam as normas rígidas dos condomínios empresariais, incluindo uso de EPIs e horários alternativos.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Quanto custa trocar uma válvula reguladora de pressão?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Em edifícios altos do Colinas, a troca ou regulagem da válvula redutora de pressão (que evita estouro de canos) custa entre R$ 350 e R$ 600. É um investimento barato comparado ao dano de um alagamento em piso de madeira.
+  </div>
+</details>
+
+<details class="group border border-gray-200 rounded-lg bg-white mb-4">
+  <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-gray-900 group-open:text-red-600 transition-colors">
+    <span>Marido de Aluguel instala TV em parede de Drywall?</span>
+    <span class="transition group-open:rotate-180">
+      <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+    </span>
+  </summary>
+  <div class="text-gray-600 p-4 pt-0 border-t border-gray-100 mt-2">
+    Sim. Profissionais qualificados utilizam buchas específicas (bucha fly/bucha de expansão) para fixar suportes de TV e quadros pesados em paredes de gesso acartonado. Nunca tente instalar com buchas comuns, o risco de queda é iminente.
+  </div>
+</details>
+
+<div class="mt-12 text-center">
+  <a href="/servicos/marido-de-aluguel" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+    Encontrar Profissional no Jardim das Colinas
+  </a>
+</div>
+
+[⬆️ Voltar ao topo](#top)
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -190,7 +259,7 @@ No Serviços Urgentes, você pode buscar profissionais com:
       "addressCountry": "BR"
     }
   },
-  "description": "Bairro residencial de alto padrão em São José dos Campos, zona oeste.",
+  "description": "Bairro de alto padrão com edifícios residenciais e comerciais em São José dos Campos.",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": "-23.2045", 
