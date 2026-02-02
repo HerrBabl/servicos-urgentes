@@ -6,7 +6,7 @@ date: "2026-01-19T09:00:00-03:00"
 dateModified: "2026-01-20T11:00:00-03:00"
 category: "Manutenção Residencial"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=800"
 imageAlt: "Profissional realizando reparos residenciais com ferramentas adequadas"

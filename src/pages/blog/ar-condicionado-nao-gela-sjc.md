@@ -89,7 +89,9 @@ Chame um profissional se notar:
 * Estalos fortes ou ruídos metálicos.
 * O disjuntor do ar-condicionado cai sempre que você liga o aparelho.
 
-👉 **[Ver Lista de Técnicos de Ar-Condicionado em SJC](/servicos/ar-condicionado)**
+🚨 **Precisa de um técnico agora?**  
+Nosso diretório conecta você a profissionais disponíveis 24h em SJC.
+👉 **[Ver Lista de Técnicos de Ar-Condicionado Disponíveis Agora em SJC](/servicos/ar-condicionado)**
 
 ---
 
