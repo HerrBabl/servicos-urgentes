@@ -5,7 +5,7 @@ description: "Guia de manutenção para Jardim das Colinas: Especialistas em aqu
 date: "2026-01-26T17:30:00-03:00"
 dateModified: "2026-01-26T18:00:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800"
 imageAlt: "Vista de edifícios residenciais de alto padrão e torres corporativas no Jardim das Colinas em São José dos Campos"

@@ -5,7 +5,7 @@ description: "Cano estourou? Vazamento grave? Saiba como agir nos primeiros minu
 date: "2026-01-14T08:00:00-03:00"
 dateModified: "2026-01-20T11:00:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=800&auto=format&fit=crop"
 imageAlt: "Encanador profissional atendendo emergência hidráulica com vazamento em residência de São José dos Campos"

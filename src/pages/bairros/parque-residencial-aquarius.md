@@ -5,7 +5,7 @@ description: "Morador do Aquarius? Encontre encanadores, eletricistas e chaveiro
 date: "2026-01-26T12:00:00-03:00"
 dateModified: "2026-01-26T12:00:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1460317442991-0ec2aaefcb8b?q=80&w=800"
 imageAlt: "Vista moderna de edifícios residenciais de alto padrão no Parque Residencial Aquarius em São José dos Campos"

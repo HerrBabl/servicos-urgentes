@@ -5,7 +5,7 @@ description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica
 date: "2026-01-26T18:30:00-03:00"
 dateModified: "2026-01-26T18:30:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800"
 imageAlt: "Rua arborizada típica da Vila Adyana em São José dos Campos, próxima ao Parque Vicentina Aranha"

@@ -5,7 +5,7 @@ description: "Mora no Urbanova? Descubra as melhores soluções de ar-condiciona
 date: "2025-12-22T10:00:00-03:00"
 dateModified: "2026-01-20T11:00:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"  
+  name: "Serviços Urgentes - Diretório SJC"  
   url: "https://servicosurgentes.com/sobre"  
 image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=800&auto=format&fit=crop"
 imageAlt: "Casa de alto padrão com sistema de climatização VRF instalado no bairro Urbanova, São José dos Campos"

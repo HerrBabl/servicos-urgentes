@@ -5,7 +5,7 @@ description: "Guia de serviços para Urbanova: Manutenção de aquecimento solar
 date: "2026-01-26T17:00:00-03:00"
 dateModified: "2026-01-26T19:30:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800"
 imageAlt: "Fachada de residência moderna em condomínio de alto padrão no bairro Urbanova em São José dos Campos"

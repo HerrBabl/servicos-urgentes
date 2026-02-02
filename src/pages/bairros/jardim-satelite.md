@@ -5,7 +5,7 @@ description: "Jardim Satélite e Zona Sul: profissionais verificados 4+ estrelas
 date: "2026-01-21T14:00:00-03:00"
 dateModified: "2026-01-21T14:00:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?q=80&w=800"
 imageAlt: "Vista aérea urbana residencial representando a densidade do bairro Jardim Satélite em São José dos Campos com foco em manutenção predial"

@@ -5,7 +5,7 @@ description: "Guia de manutenção para o Bosque dos Eucaliptos: Eletricistas pa
 date: "2026-01-26T19:00:00-03:00"
 dateModified: "2026-01-26T19:00:00-03:00"
 author:
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800"
 imageAlt: "Rua residencial movimentada na Zona Sul de São José dos Campos, característica do Bosque dos Eucaliptos"

@@ -6,7 +6,7 @@ date: "2026-01-19T11:00:00-03:00"
 dateModified: "2026-01-20T10:30:00-03:00"
 category: "Hidráulica"
 author: 
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=800"
 imageAlt: "Encanador profissional utilizando equipamento de caça-vazamentos eletrônico em parede de apartamento em São José dos Campos"

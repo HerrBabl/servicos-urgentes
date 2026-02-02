@@ -6,7 +6,7 @@ date: "2026-01-19T17:30:00-03:00"
 dateModified: "2026-01-20T10:30:00-03:00"
 category: "Segurança Residencial"
 author: 
-  name: "Equipe Serviços Urgentes"
+  name: "Serviços Urgentes - Diretório SJC"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=800"
 imageAlt: "Chaveiro profissional realizando abertura técnica de porta em apartamento antigo no centro de São José dos Campos"
