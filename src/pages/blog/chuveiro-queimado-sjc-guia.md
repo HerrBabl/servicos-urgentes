@@ -5,7 +5,7 @@ description: "Chuveiro morno em dia de chuva? Saiba como trocar resistência, cu
 date: "2026-01-21T10:45:00-03:00"
 dateModified: "2026-01-21T10:45:00-03:00"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://media.istockphoto.com/id/89481614/photo/burned-resistance.webp?a=1&b=1&s=612x612&w=0&k=20&c=V6cAVx2NyZYweQOA9Xkv_Y-ixXbPXldzMeldGvUnkXE="
 imageAlt: "Eletricista profissional instalando resistência de chuveiro elétrico em banheiro residencial em São José dos Campos"

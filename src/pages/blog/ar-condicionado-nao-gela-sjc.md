@@ -5,7 +5,7 @@ description: "Seu ar-condicionado parou de gelar no calor de São José dos Camp
 date: "2026-01-15T16:00:00-03:00"
 dateModified: "2026-01-20T11:00:00-03:00"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://plus.unsplash.com/premium_photo-1682126012378-859ca7a9f4cf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWlyJTIwY29uZGl0aW9uaW5nJTIwcmVwYWlyfGVufDB8fDB8fHww"
 imageAlt: "Técnico profissional verificando ar-condicionado que não está gelando em residência de São José dos Campos"

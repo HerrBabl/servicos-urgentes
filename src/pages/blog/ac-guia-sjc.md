@@ -6,7 +6,7 @@ date: "2025-11-17T10:00:00-03:00"
 dateModified: "2026-01-20T11:00:00-03:00"
 category: "Guia de Emergência"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?q=80&w=800&auto=format&fit=crop"
 imageAlt: "Técnico especializado diagnosticando ar-condicionado que parou de funcionar em residência em São José dos Campos"

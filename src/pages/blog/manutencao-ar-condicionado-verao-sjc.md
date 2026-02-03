@@ -5,7 +5,7 @@ description: "O seu ar-condicionado pinga quando chove? Guia completo para evita
 date: "2026-01-16T09:00:00-03:00"
 dateModified: "2026-01-24T18:00:00-03:00"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://plus.unsplash.com/premium_photo-1683134512538-7b390d0adc9e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWlyJTIwY29uZGl0aW9uaW5nJTIwcmVwYWlyfGVufDB8fDB8fHww"
 imageAlt: "Técnico especializado realizando a higienização de ar-condicionado residencial em São José dos Campos"

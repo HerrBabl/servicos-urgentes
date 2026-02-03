@@ -5,7 +5,7 @@ description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário o
 date: "2026-01-07T10:00:00-03:00"
 dateModified: "2026-01-20T11:00:00-03:00"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1628746041549-37fb45bd2c96?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vZGVybiUyMGJhdGhyb29tfGVufDB8fDB8fHww"
 imageAlt: "Encanador profissional realizando reparo hidráulico em apartamento no Parque Residencial Aquarius, São José dos Campos"
