@@ -5,7 +5,7 @@ import { eletricistas } from '../../data/eletricistas.js';
 
 // SEO Constants - Directory Model
 const title = "Eletricista 24h SJC: Emergência e Manutenção | Técnicos Verificados";
-const description = "⚡ Precisando de Eletricista em SJC? Conectamos você a profissionais 24h para curto-circuito, chuveiros e falta de luz. Atendimento no Centro, Zona Sul e Urbanova.";
+const description = "⚡ Precisando de Eletricista em SJC? Conectamos você a profissionais 24h para curto-circuito, chuveiros e falta de luz. Atendimento no Centro, Aquarius, Urbanova e região.";
 const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto circuito sjc, marido de aluguel sjc, instalação chuveiro sjc, eletricista predial";
 ---
 
@@ -14,7 +14,7 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
   description={description}
   keywords={keywords}
 >
-  <!-- WEATHER-REACTIVE BANNER - MAXIMUM PROMINENCE -->
+  <!-- WEATHER-REACTIVE BANNER - DIRECTORY COMPLIANT -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
     <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md shadow-sm">
       <div class="flex">
@@ -26,46 +26,49 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
         <div class="ml-3">
           <p class="text-sm text-blue-700">
             <strong>Chuveiro queimou com a chuva?</strong> 
-            Veja nosso <a href="/blog/chuveiro-queimado-sjc-guia" class="underline font-bold hover:text-blue-900">guia de troca de resistência</a> ou chame um <a href="/servicos/marido-de-aluguel" class="underline font-bold hover:text-blue-900">Marido de Aluguel</a>.
+            Veja nosso <a href="/blog/chuveiro-queimado-sjc-guia" class="underline font-bold hover:text-blue-900">guia de troca de resistência</a> ou <strong>encontre um profissional</strong> em <a href="/servicos/marido-de-aluguel/" class="underline font-bold hover:text-blue-900">Marido de Aluguel</a> ou na lista abaixo.
           </p>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- DIRECTORY SCHEMA - COMPLIANT -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Electrician",
-    "name": "Serviços de Eletricista 24h SJC",
-    "description": "Diretório de eletricistas de emergência em São José dos Campos. Atendimento para quedas de energia, curtos-circuitos e instalações.",
-    "provider": {
+    "@type": "WebSite",
+    "@id": "https://servicosurgentes.com",
+    "name": "Serviços Urgentes SJC",
+    "description": "Diretório de profissionais verificados para serviços de emergência em São José dos Campos",
+    "publisher": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": [
-      { "@type": "City", "name": "São José dos Campos" },
-      { "@type": "AdministrativeArea", "name": "Centro" },
-      { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
-      { "@type": "AdministrativeArea", "name": "Urbanova" },
-      { "@type": "AdministrativeArea", "name": "Vila Adyana" }
-    ],
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "serviceUrl": "https://servicosurgentes.com/servicos/eletricista",
-      "availableLanguage": "pt-BR"
-    },
-    "category": "Emergency Electrical Services",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Serviços Elétricos",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparo de Quedas de Energia" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparo de Curtos-Circuitos" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Instalação de Chuveiros Elétricos" }}
-      ]
+    "about": {
+      "@type": "Service",
+      "serviceType": "Electrician",
+      "name": "Serviços de Eletricista 24h SJC",
+      "description": "Diretório de eletricistas de emergência em São José dos Campos. Atendimento para quedas de energia, curtos-circuitos e instalações.",
+      "areaServed": [
+        { "@type": "City", "name": "São José dos Campos" },
+        { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
+        { "@type": "AdministrativeArea", "name": "Bosque dos Eucaliptos" },
+        { "@type": "AdministrativeArea", "name": "Centro" },
+        { "@type": "AdministrativeArea", "name": "Jardim das Colinas" },
+        { "@type": "AdministrativeArea", "name": "Jardim Esplanada" },
+        { "@type": "AdministrativeArea", "name": "Jardim Satélite" },
+        { "@type": "AdministrativeArea", "name": "São Dimas" },
+        { "@type": "AdministrativeArea", "name": "Urbanova" },
+        { "@type": "AdministrativeArea", "name": "Vila Adyana" }
+      ],
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://servicosurgentes.com/servicos/eletricista/",
+        "availableLanguage": "pt-BR"
+      },
+      "category": "Emergency Electrical Services"
     }
   }
   </script>
@@ -87,7 +90,7 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
           Quando Chamar um Eletricista de Emergência
         </h3>
         <p>
-          Problemas elétricos podem representar risco sério de incêndio ou choque elétrico. Chame um eletricista de emergência imediatamente se você perceber <strong>cheiro de queimado</strong> vindo de tomadas, disjuntores desarmando frequentemente (caindo a chave), ou faíscas. A oscilação de energia comum em dias de chuva em SJC também pode queimar aparelhos se não verificada.
+          Problemas elétricos podem representar risco sério de incêndio ou choque elétrico. Chame um eletricista de emergência imediatamente se você perceber <strong>cheiro de queimado</strong> vindo de tomadas, disjuntores desarmando frequentemente (caindo a chave), ou faíscas. Seja no Aquarius, Bosque dos Eucaliptos, Centro, Jardim das Colinas, Jardim Esplanada, Jardim Satélite, São Dimas, Urbanova ou Vila Adyana, nosso diretório conecta você a profissionais qualificados. A oscilação de energia comum em dias de chuva em SJC também pode queimar aparelhos se não verificada.
         </p>
 
         <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
@@ -134,7 +137,7 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
           </div>
         </div>
 
-        <!-- ENHANCED SAFETY SECTION - LIFE-THREATENING URGENCY -->
+        <!-- ENHANCED SAFETY SECTION WITH DIRECTORY CONNECTION -->
         <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           🚨 Segurança Primeiro: Quando NÃO Tentar Resolver Sozinho
         </h3>
@@ -150,9 +153,12 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
             ⚠️ Desligue o disjuntor geral e chame um profissional IMEDIATAMENTE. Risco de incêndio ou morte por eletrocussão.
           </p>
         </div>
-        <p>
-          Todos os eletricistas listados em nosso diretório possuem conhecimento em <strong>NR-10</strong> (norma de segurança em eletricidade) e são avaliados pela comunidade com média de 4+ estrelas.
-        </p>
+        
+        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg my-6">
+          <p class="text-sm text-blue-800">
+            <strong>✓ Profissionais Qualificados:</strong> Todos os eletricistas listados neste diretório possuem conhecimento em <strong>NR-10</strong> (norma de segurança em eletricidade) e são avaliados pela comunidade com média de 4+ estrelas.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -192,7 +198,7 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
     </div>
   </section>
 
-  <!-- NEIGHBORHOOD GRID - MATCHED TO SCHEMA -->
+  <!-- NEIGHBORHOOD GRID -->
   <section class="py-16 bg-gray-50 border-t border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Profissionais Disponíveis em Sua Região</h2>

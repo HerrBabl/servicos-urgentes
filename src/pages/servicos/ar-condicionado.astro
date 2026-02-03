@@ -5,7 +5,7 @@ import { ar_condicionado } from '../../data/ar_condicionado.js';
 
 // SEO Constants - Directory Model
 const title = "Ar-Condicionado SJC: Instalação, Limpeza e Conserto 24h | Técnicos 4+ Estrelas";
-const description = "❄️ Precisando de técnico de Ar-Condicionado em SJC? Conectamos você a profissionais para instalação, limpeza e conserto. Atendimento no Aquarius, Urbanova e Centro.";
+const description = "❄️ Precisando de técnico de Ar-Condicionado em SJC? Conectamos você a profissionais para instalação, limpeza e conserto. Atendimento no Aquarius, Urbanova, Centro e região.";
 const keywords = "ar condicionado sjc, limpeza de ar condicionado sjc, técnico ar condicionado são josé dos campos, marido de aluguel sjc, instalação split sjc, conserto ar condicionado 24h";
 ---
 
@@ -14,44 +14,47 @@ const keywords = "ar condicionado sjc, limpeza de ar condicionado sjc, técnico 
   description={description}
   keywords={keywords}
 >
+  <!-- DIRECTORY SCHEMA - COMPLIANT -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "HVAC",
-    "name": "Serviços de Ar Condicionado SJC",
-    "description": "Diretório de técnicos de ar condicionado em São José dos Campos. Instalação, manutenção preventiva, limpeza, recarga de gás e reparos.",
-    "provider": {
+    "@type": "WebSite",
+    "@id": "https://servicosurgentes.com",
+    "name": "Serviços Urgentes SJC",
+    "description": "Diretório de profissionais verificados para serviços de emergência em São José dos Campos",
+    "publisher": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": [
-      { "@type": "City", "name": "São José dos Campos" },
-      { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
-      { "@type": "AdministrativeArea", "name": "Urbanova" },
-      { "@type": "AdministrativeArea", "name": "Vila Adyana" },
-      { "@type": "AdministrativeArea", "name": "Centro" }
-    ],
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "serviceUrl": "https://servicosurgentes.com/servicos/ar-condicionado",
-      "availableLanguage": "pt-BR"
-    },
-    "category": "HVAC and Air Conditioning Services",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Serviços de Climatização",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Instalação de Ar Condicionado Split" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Manutenção Preventiva e Limpeza" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recarga de Gás Refrigerante" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparo de Vazamentos (Pingadeira)" }}
-      ]
+    "about": {
+      "@type": "Service",
+      "serviceType": "HVAC",
+      "name": "Serviços de Ar Condicionado SJC",
+      "description": "Diretório de técnicos de ar condicionado em São José dos Campos. Instalação, manutenção preventiva, limpeza, recarga de gás e reparos.",
+      "areaServed": [
+        { "@type": "City", "name": "São José dos Campos" },
+        { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
+        { "@type": "AdministrativeArea", "name": "Bosque dos Eucaliptos" },
+        { "@type": "AdministrativeArea", "name": "Centro" },
+        { "@type": "AdministrativeArea", "name": "Jardim das Colinas" },
+        { "@type": "AdministrativeArea", "name": "Jardim Esplanada" },
+        { "@type": "AdministrativeArea", "name": "Jardim Satélite" },
+        { "@type": "AdministrativeArea", "name": "São Dimas" },
+        { "@type": "AdministrativeArea", "name": "Urbanova" },
+        { "@type": "AdministrativeArea", "name": "Vila Adyana" }
+      ],
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://servicosurgentes.com/servicos/ar-condicionado/",
+        "availableLanguage": "pt-BR"
+      },
+      "category": "HVAC and Air Conditioning Services"
     }
   }
   </script>
 
+  <!-- PREVENTIVE MAINTENANCE ALERT - DIRECTORY COMPLIANT -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
   <div class="bg-sky-50 border-l-4 border-sky-500 p-4 rounded-r-md shadow-sm">
     <div class="flex">
@@ -63,7 +66,7 @@ const keywords = "ar condicionado sjc, limpeza de ar condicionado sjc, técnico 
           Manutenção Preventiva
         </h3>
         <p class="text-sm text-sky-700 mt-1">
-          Evite ficar na mão na próxima onda de calor. Agende sua limpeza química e recarga de gás <strong>antes</strong> da temperatura subir. Técnicos com agenda disponível para esta semana.
+          Evite ficar na mão na próxima onda de calor. Agende sua limpeza química e recarga de gás <strong>antes</strong> da temperatura subir. <strong>Profissionais do nosso diretório</strong> reportam agenda disponível para esta semana.
         </p>
       </div>
     </div>
@@ -138,7 +141,7 @@ const keywords = "ar condicionado sjc, limpeza de ar condicionado sjc, técnico 
           Serviços Disponíveis no Diretório
         </h3>
         <p>
-          Conectamos você a especialistas em instalação de unidades split e inverter, manutenção preventiva (limpeza química), recarga de gás e reparos de placas. Nossos profissionais listados atendem as principais marcas e possuem avaliação média de 4+ estrelas.
+          Conectamos você a especialistas em instalação de unidades split e inverter, manutenção preventiva (limpeza química), recarga de gás e reparos de placas. Seja no Aquarius, Bosque dos Eucaliptos, Centro, Jardim das Colinas, Jardim Esplanada, Jardim Satélite, São Dimas, Urbanova ou Vila Adyana, nossos profissionais listados atendem as principais marcas e possuem avaliação média de 4+ estrelas.
         </p>
 
         <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">

@@ -5,7 +5,7 @@ import { chaveiros } from '../../data/chaveiros.js';
 
 // SEO Constants - Directory Model
 const title = "Chaveiro 24h SJC: Abertura de Portas e Automotivo | Técnicos Verificados";
-const description = "🔑 Chaveiros 24h em SJC: encontre profissionais para abertura de portas, troca de fechaduras e cópias de chaves. Atendimento urgente no Centro, Aquarius e Urbanova.";
+const description = "🔑 Chaveiros 24h em SJC: encontre profissionais para abertura de portas, troca de fechaduras e cópias de chaves. Atendimento urgente no Centro, Aquarius, Urbanova e região.";
 const keywords = "chaveiro sjc, chaveiro 24 horas são josé dos campos, abertura de porta sjc, marido de aluguel sjc, troca de fechadura, chaveiro automotivo centro sjc";
 ---
 
@@ -14,39 +14,42 @@ const keywords = "chaveiro sjc, chaveiro 24 horas são josé dos campos, abertur
   description={description}
   keywords={keywords}
 >
+  <!-- DIRECTORY SCHEMA - COMPLIANT -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Locksmith",
-    "name": "Serviços de Chaveiro 24h SJC",
-    "description": "Diretório de chaveiros de emergência em São José dos Campos. Abertura de portas, fechaduras, cópias e chaveiro automotivo.",
-    "provider": {
+    "@type": "WebSite",
+    "@id": "https://servicosurgentes.com",
+    "name": "Serviços Urgentes SJC",
+    "description": "Diretório de profissionais verificados para serviços de emergência em São José dos Campos",
+    "publisher": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": [
-      { "@type": "City", "name": "São José dos Campos" },
-      { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
-      { "@type": "AdministrativeArea", "name": "Urbanova" },
-      { "@type": "AdministrativeArea", "name": "Vila Adyana" },
-      { "@type": "AdministrativeArea", "name": "Centro" }
-    ],
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "serviceUrl": "https://servicosurgentes.com/servicos/chaveiro",
-      "availableLanguage": "pt-BR"
-    },
-    "category": "Emergency Locksmith Services",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Serviços de Chaveiro",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Abertura de Portas de Emergência" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Troca e Instalação de Fechaduras" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chaveiro Automotivo 24h" }}
-      ]
+    "about": {
+      "@type": "Service",
+      "serviceType": "Locksmith",
+      "name": "Serviços de Chaveiro 24h SJC",
+      "description": "Diretório de chaveiros de emergência em São José dos Campos. Abertura de portas, fechaduras, cópias e chaveiro automotivo.",
+      "areaServed": [
+        { "@type": "City", "name": "São José dos Campos" },
+        { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
+        { "@type": "AdministrativeArea", "name": "Bosque dos Eucaliptos" },
+        { "@type": "AdministrativeArea", "name": "Centro" },
+        { "@type": "AdministrativeArea", "name": "Jardim das Colinas" },
+        { "@type": "AdministrativeArea", "name": "Jardim Esplanada" },
+        { "@type": "AdministrativeArea", "name": "Jardim Satélite" },
+        { "@type": "AdministrativeArea", "name": "São Dimas" },
+        { "@type": "AdministrativeArea", "name": "Urbanova" },
+        { "@type": "AdministrativeArea", "name": "Vila Adyana" }
+      ],
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://servicosurgentes.com/servicos/chaveiro/",
+        "availableLanguage": "pt-BR"
+      },
+      "category": "Emergency Locksmith Services"
     }
   }
   </script>
@@ -68,7 +71,7 @@ const keywords = "chaveiro sjc, chaveiro 24 horas são josé dos campos, abertur
           Atendimento de Emergência 24h
         </h3>
         <p>
-          Ficar trancado para fora de casa ou do carro é uma situação estressante. Nosso diretório conecta você a <strong>chaveiros 24 horas</strong> em São José dos Campos que atendem rapidamente no Centro, Zona Sul, Aquarius e Urbanova. Os profissionais listados realizam aberturas sem danos, troca de segredos e confecção de chaves codificadas.
+          Ficar trancado para fora de casa ou do carro é uma situação estressante. Nosso diretório conecta você a <strong>chaveiros 24 horas</strong> em São José dos Campos que atendem rapidamente. Seja no Aquarius, Bosque dos Eucaliptos, Centro, Jardim das Colinas, Jardim Esplanada, Jardim Satélite, São Dimas, Urbanova ou Vila Adyana, os profissionais listados realizam aberturas sem danos, troca de segredos e confecção de chaves codificadas.
         </p>
 
         <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
@@ -115,19 +118,25 @@ const keywords = "chaveiro sjc, chaveiro 24 horas são josé dos campos, abertur
           </div>
         </div>
 
-        <!-- NEW: TRUST-BUILDING SECTION -->
+        <!-- TRUST-BUILDING SECTION WITH DIRECTORY CONTEXT -->
         <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          🚨 Como Identificar Chaveiros Confiáveis
+          ✅ Como Escolher um Chaveiro Confiável
         </h3>
         <p>
-          Infelizmente, o mercado de chaveiros tem golpistas. Siga estas orientações:
+          Para garantir um serviço de qualidade, nosso diretório recomenda verificar estes critérios:
         </p>
         <ul class="list-disc pl-5 space-y-2 mb-6">
-          <li><strong>Confirme o preço ANTES:</strong> Profissionais sérios informam valores por telefone (ou um range claro)</li>
-          <li><strong>Peça nota fiscal:</strong> Chaveiros registrados emitem recibo ou NF-e</li>
-          <li><strong>Verifique avaliações:</strong> No nosso diretório, priorizamos profissionais com 4+ estrelas</li>
-          <li><strong>Desconfie de preços irreais:</strong> R$ 30-40 para abertura noturna = possível golpe (cobrarão muito mais na hora)</li>
+          <li><strong>Solicite orçamento antecipado:</strong> Profissionais transparentes informam valores por telefone (ou uma faixa de preço clara)</li>
+          <li><strong>Exija comprovante fiscal:</strong> Chaveiros estabelecidos emitem recibo ou NF-e</li>
+          <li><strong>Consulte avaliações:</strong> No nosso diretório, priorizamos profissionais com 4+ estrelas verificadas</li>
+          <li><strong>Atenção a valores fora do mercado:</strong> Orçamentos muito abaixo da média (ex: R$ 30-40 para abertura noturna) podem indicar cobrança adicional posterior</li>
         </ul>
+        
+        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg my-6">
+          <p class="text-sm text-blue-800">
+            <strong>✓ Garantia do Diretório:</strong> Todos os profissionais listados nesta página passam por verificação de cadastro e são avaliados pela comunidade. Priorizamos chaveiros com histórico comprovado de serviço justo.
+          </p>
+        </div>
       </div>
     </div>
   </section>
