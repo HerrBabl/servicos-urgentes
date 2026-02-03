@@ -14,58 +14,53 @@ const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé 
   description={description}
   keywords={keywords}
 >
+  <!-- CRISIS ALERT: Rain/Storm Context -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-  <div class="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-md shadow-sm">
-    <div class="flex">
-      <div class="flex-shrink-0">
-        <span class="text-2xl">🌧️</span>
-      </div>
-      <div class="ml-3">
-        <h3 class="text-sm font-bold text-blue-800 uppercase tracking-wide">
-          Alerta de Chuvas em SJC
-        </h3>
-        <p class="text-sm text-blue-700 mt-1">
-          Alto índice de <strong>infiltrações e calhas entupidas</strong> detectado na região. Nossos técnicos estão priorizando chamados de vazamento de telhado e desentupimento pluvial hoje.
-        </p>
+    <div class="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-md shadow-sm">
+      <div class="flex">
+        <div class="flex-shrink-0">
+          <span class="text-2xl">🌧️</span>
+        </div>
+        <div class="ml-3">
+          <h3 class="text-sm font-bold text-blue-800 uppercase tracking-wide">
+            Alerta de Chuvas em SJC
+          </h3>
+          <p class="text-sm text-blue-700 mt-1">
+            Alto índice de <strong>infiltrações e calhas entupidas</strong> detectado na região. Profissionais do nosso diretório reportam alta demanda para vazamentos de telhado e desentupimento pluvial hoje.
+          </p>
+          <p class="text-xs text-blue-600 mt-2 font-semibold">
+            💡 Nosso diretório conecta você a encanadores disponíveis 24h em SJC
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!-- SCHEMA.ORG: WebSite/Directory Model (NOT Service Provider) -->
   <script type="application/ld+json" slot="head">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Plumbing",
-    "name": "Serviços de Encanamento 24h SJC",
-    "description": "Diretório de encanadores de emergência 24h em São José dos Campos. Conexão com profissionais para vazamentos, entupimentos e reparos urgentes.",
-    "provider": {
+    "@type": "WebSite",
+    "name": "Serviços Urgentes - Diretório de Encanadores SJC",
+    "description": "Diretório de encanadores de emergência 24h em São José dos Campos. Conectamos moradores a profissionais verificados para vazamentos, entupimentos e reparos urgentes.",
+    "url": "https://servicosurgentes.com/servicos/encanador",
+    "publisher": {
       "@type": "Organization",
       "name": "Serviços Urgentes",
       "url": "https://servicosurgentes.com"
     },
-    "areaServed": [
+    "about": {
+      "@type": "Thing",
+      "name": "Diretório de Serviços de Encanamento",
+      "description": "Plataforma de conexão entre moradores de São José dos Campos e profissionais de encanamento para emergências hidráulicas"
+    },
+    "spatialCoverage": [
       { "@type": "City", "name": "São José dos Campos" },
       { "@type": "AdministrativeArea", "name": "Centro" },
       { "@type": "AdministrativeArea", "name": "Parque Residencial Aquarius" },
       { "@type": "AdministrativeArea", "name": "Urbanova" },
       { "@type": "AdministrativeArea", "name": "Vila Adyana" }
-    ],
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "serviceUrl": "https://servicosurgentes.com/servicos/encanador",
-      "availableLanguage": "pt-BR"
-    },
-    "category": "Emergency Plumbing Services",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Serviços de Encanamento",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparo de Vazamentos de Emergência" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desentupimento 24h" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Caça-Vazamentos Eletrônico" }}
-      ]
-    }
+    ]
   }
   </script>
 
@@ -102,6 +97,7 @@ const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé 
           <li><strong>Troca de Reparo de Válvula Hydra:</strong> R$ 120 - R$ 200</li>
         </ul>
 
+        <!-- DIRECTORY DISCLAIMER: Pricing & Liability -->
         <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
           <div class="flex items-start">
             <div class="flex-shrink-0">
@@ -142,6 +138,7 @@ const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé 
     </div>
   </section>
 
+  <!-- EDUCATIONAL CONTENT: Crisis Psychology Stage 2 (Action) -->
   <section class="py-12 bg-blue-50 border-t border-blue-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
@@ -186,6 +183,7 @@ const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé 
     </div>
   </section>
 
+  <!-- RELATED SERVICES: Cross-selling Directory Model -->
   <section class="py-12 bg-white border-t border-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
@@ -220,6 +218,7 @@ const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé 
     </div>
   </section>
 
+  <!-- LOCAL SEO: Neighborhood Targeting -->
   <section id="profissionais" class="py-16 bg-gray-50 border-t border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Profissionais Disponíveis em Sua Região</h2>
