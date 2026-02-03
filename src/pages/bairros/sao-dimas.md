@@ -5,7 +5,7 @@ description: "Mora no São Dimas? Encontre especialistas em fiação antiga, tub
 date: "2026-01-26T12:00:00-03:00"
 dateModified: "2026-01-26T13:30:00-03:00"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
 imageAlt: "Vista de edifícios residenciais tradicionais e ruas arborizadas no bairro São Dimas em São José dos Campos"

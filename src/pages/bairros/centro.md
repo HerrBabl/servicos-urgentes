@@ -5,7 +5,7 @@ description: "Encontre profissionais verificados para emergências no Centro de 
 date: "2026-01-22T08:45:00-03:00"
 dateModified: "2026-01-25T16:15:00-03:00"
 author:
-  name: "Serviços Urgentes - Diretório SJC"
+  name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
 image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800"
 imageAlt: "Vista aérea do Centro histórico de São José dos Campos mostrando prédios comerciais antigos e a Praça Afonso Pena"
