@@ -47,9 +47,10 @@ Nesta época, as empresas de climatização de SJC recebem centenas de chamados 
 4. [Quando Chamar Técnico Urgentemente](#-quando-chamar-técnico-urgentemente)
 5. [Quanto Custa: Preventiva ($200) vs. Reparo de Infiltração ($600+)](#quanto-custa-manutenção-preventiva-em-sjc)
 6. [Comparativo de Bairros: Riscos Locais](#comparativo-de-bairros-em-sjc-onde-o-ac-sofre-mais)
-7. [Checklist Anti-Mofo](#checklist-anti-mofo)
-8. [Perguntas Frequentes](#perguntas-frequentes)
-9. [Leia Também](#-leia-também)
+7. [O Que Você Pode Resolver Sozinho (E Quando Chamar Ajuda)](#o-que-você-pode-resolver-sozinho-e-quando-chamar-ajuda)
+8. [Checklist Anti-Mofo](#checklist-anti-mofo)
+9. [Perguntas Frequentes](#perguntas-frequentes)
+10. [Leia Também](#-leia-também)
 
 ---
 
@@ -139,6 +140,24 @@ Limpar sai muito mais barato do que consertar parede com infiltração.
 
 ---
 
+## O Que Você Pode Resolver Sozinho (E Quando Chamar Ajuda)
+
+**🚨 Se o seu AC parou agora e você está desesperado**, role direto para a seção [Quando Chamar Técnico Urgentemente](#-quando-chamar-técnico-urgentemente).
+
+**Se você tem tempo para prevenção**, entenda o que é DIY (faça você mesmo) vs. Profissional:
+
+### ✅ Você Pode Fazer (Manutenção Básica Mensal)
+- Limpeza de filtros com água corrente
+- Uso da função "Dry" (desumidificar) para controlar mofo
+- Verificação visual do dreno externo
+
+### ❌ Chame um Técnico (Manutenção Profissional Anual)
+- Limpeza química das serpentinas com bactericidas
+- Desobstrução completa do dreno interno
+- Verificação de carga de gás e pressão do compressor
+
+---
+
 ## Checklist Anti-Mofo
 
 ### 🔴 PRIORIDADE MÁXIMA (Faça hoje)
@@ -154,19 +173,19 @@ Limpar sai muito mais barato do que consertar parede com infiltração.
 ## Perguntas Frequentes
 
 ### Por que meu ar-condicionado pinga quando chove em SJC?
-**Resposta:** A umidade excessiva condensa mais água do que um dreno sujo consegue escoar. Se houver sujeira bloqueando a passagem (o chamado biofilme), o dreno transborda.
+**Resposta:** A alta umidade do ar (comum em dias de chuva no Vale) faz o aparelho condensar mais água do que o dreno consegue escoar, especialmente se houver sujeira bloqueando a passagem (biofilme). Isso causa o famoso "pinga-pinga" interno.
 
-### Quanto custa a limpeza para tirar cheiro de mofo em SJC?
-**Resposta:** Uma higienização completa em SJC custa entre R$ 200 e R$ 350. Este valor inclui a aplicação de bactericidas e limpeza da bandeja de condensação.
+### Quanto custa a manutenção preventiva de ar-condicionado em SJC?
+**Resposta:** Para aparelhos Hi-Wall de 9.000 a 12.000 BTUs, o preço da higienização profissional em SJC varia entre R$ 200 e R$ 350. Manutenções preventivas evitam o custo de reparo por infiltração, que pode passar de R$ 600.
 
-### Posso usar o ar-condicionado em dias de chuva?
-**Resposta:** Sim, inclusive é recomendado usar a função "Desumidificar" (Dry) para controlar o mofo no quarto. No entanto, o dreno precisa estar limpo para não vazar.
+### O ar-condicionado ajuda a tirar o cheiro de mofo em dias de chuva?
+**Resposta:** Apenas se estiver limpo. Se o filtro estiver sujo, ele vai espalhar fungos pela casa, piorando alergias respiratórias comuns no clima úmido de São José.
 
-### Com que frequência devo limpar o ar-condicionado em SJC?
-**Resposta:** Para uso residencial em SJC, recomenda-se uma vez por ano. Porém, em períodos muito úmidos ou em bairros com muitas árvores (como Urbanova e Aquarius), a recomendação é semestral.
+### O que é feito na limpeza profissional de ar-condicionado?
+**Resposta:** O serviço inclui a limpeza química das serpentinas interna e externa com bactericidas, desobstrução do dreno (essencial na chuva) e higienização da bandeja para evitar a formação de lodo.
 
-### O ar-condicionado sujo gasta mais energia?
-**Resposta:** Sim. O filtro sujo bloqueia o fluxo de ar, forçando o compressor a trabalhar mais. Isso pode aumentar a conta de luz em até 20%.
+### Com que frequência devo fazer a higienização técnica?
+**Resposta:** Para uso residencial em SJC, recomenda-se uma vez por ano. Porém, em períodos muito úmidos ou em bairros com muitas árvores (como Urbanova e Aquarius), a recomendação é semestral para evitar colônias de fungos.
 
 ---
 
