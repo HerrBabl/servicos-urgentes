@@ -106,7 +106,21 @@ Valores médios baseados em profissionais 4+ estrelas da região:
 | **Troca de Reparo de Válvula Hydra** | R$ 180 - R$ 250 | R$ 300 - R$ 450 |
 | **Desentupimento de Vaso** | R$ 250 - R$ 400 | R$ 400 - R$ 700 |
 
-⚠️ **Aviso de Preços:** Os valores apresentados são estimativas médias do mercado de São José dos Campos para 2026, apenas para fins de referência. O preço final pode variar conforme complexidade, horário, bairro e materiais. O Serviços Urgentes atua como diretório e não interfere na precificação. Sempre exija orçamento prévio.
+<div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <div class="text-sm text-yellow-700 space-y-2">
+        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na Zona Sul de SJC, apresentadas apenas como referência inicial.</p>
+        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 

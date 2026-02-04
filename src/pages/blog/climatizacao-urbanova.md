@@ -182,6 +182,22 @@ Sistemas de alto padrão exigem manutenção especializada. Não é qualquer té
 | Sistema Dutado | A cada 6 meses | Anual | R$ 600 - R$ 1.200 |
 | VRF | Trimestral (filtros) | Semestral (sistema completo) | R$ 1.500 - R$ 3.000 |
 
+<div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <div class="text-sm text-yellow-700 space-y-2">
+        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na Zona Sul de SJC, apresentadas apenas como referência inicial.</p>
+        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 *Casas no Urbanova com uso intensivo (home office, crianças em casa) podem precisar de manutenção mais frequente.*
 
 ### Sinais de Que Seu Sistema Precisa de Atenção
@@ -220,8 +236,6 @@ Sistemas de alto padrão exigem manutenção especializada. Não é qualquer té
 
 ### Preciso reforçar a parte elétrica para instalar ar-condicionado VRF?
 **Resposta:** Sim, quase sempre. Casas no Urbanova com climatização completa precisam de carga elétrica entre 15-25 kW apenas para os ACs. Antes de comprar os equipamentos, faça uma avaliação de carga com eletricista qualificado. Pode ser necessário upgrades como: aumento de disjuntores, cabos de maior bitola, ou até revisão do padrão de entrada com a concessionária.
-
-> **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
 
 ---
 **Serviços Urgentes SJC:** Conectando a excelência do Urbanova aos melhores profissionais da cidade.
