@@ -31,6 +31,7 @@ faqSchema:
     answer: "Profissionais de manutenção predial e maridos de aluguel atendem desentupimento e reparo de calhas em prédios do Centro. Serviço de limpeza de calha: R$ 200-400 (depende da altura e acesso). Com as tempestades previstas (14mm hoje), é crítico verificar escoamento para evitar infiltrações em alvenaria antiga. Atendimento de urgência disponível para prédios comerciais."
 ---
 
+<span id="top"></span>
 
 **Com as chuvas intensas previstas para SJC (14mm hoje à noite e temporais até o fim de semana),** o Centro histórico enfrenta desafios únicos: infiltrações em prédios com 50+ anos, calhas entupidas em edifícios comerciais, curtos-circuitos em fiação antiga, e vazamentos que impactam lojas inteiras.
 
@@ -76,6 +77,8 @@ O Centro de SJC apresenta características que exigem profissionais especializad
 - **Restrições de estacionamento:** Zona azul e limitações de carga/descarga impactam o tempo de serviço.
 - **Acesso vertical:** Muitos prédios sem elevador de serviço, exigindo transporte manual de equipamentos por escadas.
 
+<span id="top"></span>
+
 ---
 
 ## <span id="servicos"></span>🛠️ Serviços para Comércios e Escritórios
@@ -97,6 +100,8 @@ Eletricistas com experiência em **prédios comerciais antigos**, familiarizados
 
 **→ [Encontre Eletricistas Comerciais no Centro](/servicos/eletricista)**
 
+<span id="top"></span>
+
 ---
 
 ### <span id="encanador"></span>🔧 Encanador Comercial (Vazamentos e Entupimentos de Alto Volume)
@@ -115,6 +120,8 @@ Eletricistas com experiência em **prédios comerciais antigos**, familiarizados
 Encanadores especializados em **manutenção predial comercial**, com equipamento de vídeo-inspeção, hidrojateamento, e experiência em tubulações antigas.
 
 **→ [Encontre Encanadores Comerciais no Centro](/servicos/encanador)**
+
+<span id="top"></span>
 
 ---
 
@@ -135,6 +142,8 @@ Chaveiros com certificação em **segurança comercial**, familiarizados com sis
 
 **→ [Encontre Chaveiros Especializados no Centro](/servicos/chaveiro)**
 
+<span id="top"></span>
+
 ---
 
 ### <span id="ar-condicionado"></span>❄️ Técnico de Ar-Condicionado (Sistemas Comerciais e Clínicas)
@@ -154,6 +163,8 @@ Técnicos com experiência em **climatização comercial**, certificados para ma
 
 **→ [Encontre Técnicos de Ar-Condicionado no Centro](/servicos/ar-condicionado)**
 
+<span id="top"></span>
+
 ---
 
 ### <span id="marido"></span>🛠️ Marido de Aluguel e Manutenção Predial
@@ -172,6 +183,8 @@ Técnicos com experiência em **climatização comercial**, certificados para ma
 Profissionais multifuncionais com ferramentas próprias, agilidade para resolver múltiplos problemas em uma visita, e experiência em ambientes comerciais.
 
 **→ [Encontre Maridos de Aluguel no Centro](/servicos/marido-de-aluguel)**
+
+<span id="top"></span>
 
 ---
 
@@ -219,6 +232,8 @@ Profissionais multifuncionais com ferramentas próprias, agilidade para resolver
   </div>
 </div>
 
+<span id="top"></span>
+
 ---
 
 ## <span id="referencias"></span>📍 Referências Locais e Como Chegar
@@ -243,6 +258,8 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 - **Jardim São Dimas** (zona residencial tradicional)
 - **Vila Ema** (comercial e residencial misto)
 
+<span id="top"></span>
+
 ---
 
 ## <span id="tempo"></span>⏱️ Tempo de Resposta no Centro
@@ -263,6 +280,8 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 - **Atendimentos prioritários** (ar-condicionado parado em clínica, disjuntor caindo repetidamente): **Mesmo dia** (agendamento rápido)
 - **Manutenções preventivas** (limpeza de calha, manutenção de AC): **24-48 horas** (agendamento programado)
 
+<span id="top"></span>
+
 ---
 
 ## <span id="tempestades"></span>🌧️ Atenção Especial: Proteção Contra Tempestades
@@ -278,6 +297,8 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 - ✅ **Preparar contato de emergência:** Ter número de encanador e eletricista salvos para resposta rápida.
 
 **Profissionais de manutenção predial e maridos de aluguel estão disponíveis para inspeções preventivas urgentes.**
+
+<span id="top"></span>
 
 ---
 
@@ -324,6 +345,8 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
     Profissionais de manutenção predial e maridos de aluguel atendem desentupimento e reparo de calhas em prédios do Centro. Serviço de limpeza de calha: R$ 200-400 (depende da altura e acesso). Com as tempestades previstas (14mm hoje), é crítico verificar escoamento para evitar infiltrações em alvenaria antiga. Atendimento de urgência disponível para prédios comerciais.
   </div>
 </details>
+
+<span id="top"></span>
 
 ---
 
