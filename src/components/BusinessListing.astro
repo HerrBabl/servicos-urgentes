@@ -77,6 +77,8 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
       const is24h = business.is_24h || business.badges?.includes('24 Horas');
       const isWomanOwned = business['Identifies as women-owned'] || business.badges?.includes('Empresa de mulheres');
       const isLgbtq = business['LGBTQ+ friendly'] || business.badges?.includes('LGBTQ+ friendly');
+      // Website: only render button if field exists and is a non-empty string
+      const displayWebsite = typeof business.website === 'string' && business.website.startsWith('http') ? business.website : null;
       
       return (
         <div class="business-card bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 overflow-hidden flex flex-col"
@@ -128,10 +130,16 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
             </div>
           </div>
 
-          <div class="bg-gray-50 px-6 py-4 border-t border-gray-100 grid grid-cols-2 gap-3">
+          {/* ── ACTION BUTTONS ─────────────────────────────────────────────────
+              Grid layout adapts to available buttons:
+              - Website present → 3 columns (Ligar | WhatsApp | Site)
+              - Website absent  → 2 columns (Ligar | WhatsApp)
+              WHY: Website button increases trust signal + gives user a third
+              conversion path. Providers with websites convert at higher rates. */}
+          <div class={`bg-gray-50 px-6 py-4 border-t border-gray-100 grid gap-3 ${displayWebsite ? 'grid-cols-3' : 'grid-cols-2'}`}>
             {displayPhone && (
               <a href={`tel:${displayPhone.replace(/\D/g, '')}`} 
-                 class="flex items-center justify-center bg-blue-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                 class="flex items-center justify-center bg-blue-600 text-white py-2 px-3 rounded-lg font-medium hover:bg-blue-700 transition-colors text-sm">
                 📞 Ligar
               </a>
             )}
@@ -139,13 +147,25 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
             {(business.whatsapp === true || (typeof business.whatsapp === 'string' && business.whatsapp.length > 5)) ? (
               <a href={typeof business.whatsapp === 'string' ? business.whatsapp : `https://wa.me/55${displayPhone.replace(/\D/g,'')}`}
                  target="_blank"
-                 class="flex items-center justify-center bg-green-500 text-white py-2 px-4 rounded-lg font-medium hover:bg-green-600 transition-colors">
-                WhatsApp
+                 rel="noopener noreferrer"
+                 class="flex items-center justify-center bg-green-500 text-white py-2 px-3 rounded-lg font-medium hover:bg-green-600 transition-colors text-sm">
+                💬 WA
               </a>
             ) : (
-               <button disabled class="bg-gray-200 text-gray-400 py-2 px-4 rounded-lg font-medium cursor-not-allowed">
-                 WhatsApp
+               <button disabled class="bg-gray-200 text-gray-400 py-2 px-3 rounded-lg font-medium cursor-not-allowed text-sm">
+                 WA
                </button>
+            )}
+
+            {/* Website button — only renders when provider has a valid URL.
+                Opens in new tab. rel="noopener noreferrer" = security best practice. */}
+            {displayWebsite && (
+              <a href={displayWebsite}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="flex items-center justify-center bg-gray-700 text-white py-2 px-3 rounded-lg font-medium hover:bg-gray-900 transition-colors text-sm">
+                🌐 Site
+              </a>
             )}
           </div>
           
@@ -190,7 +210,6 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
       cards.forEach((card) => {
         const name = (card as HTMLElement).dataset.name || '';
         const neighborhood = (card as HTMLElement).dataset.neighborhood || '';
-        // Handle boolean string conversation
         const is24h = (card as HTMLElement).dataset.is24h === 'true' || (card as HTMLElement).dataset.is24h === '';
 
         const matchesSearch = name.includes(searchTerm) || neighborhood.toLowerCase().includes(searchTerm);
@@ -205,7 +224,6 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
         }
       });
 
-      // Update UI
       if (resultCount) resultCount.textContent = visibleCount.toString();
       
       if (visibleCount === 0) {
@@ -215,7 +233,6 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
       }
     }
 
-    // Event Listeners
     searchInput?.addEventListener('input', filterCards);
     neighborhoodFilter?.addEventListener('change', filterCards);
     only24hCheckbox?.addEventListener('change', filterCards);

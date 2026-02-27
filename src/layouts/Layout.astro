@@ -7,13 +7,15 @@ export interface Props {
   title: string;
   description?: string;
   canonicalURL?: string;
-  keywords?: string; // ✅ Added to fix the error
+  keywords?: string;
+  ogImage?: string; // ✅ Added: allows child pages to pass OG image URL
 }
 
 const { 
   title, 
   description = "Encontre serviços de emergência 24h em São José dos Campos e região. Encanadores, chaveiros, eletricistas e técnicos em ar condicionado disponíveis agora.",
-  keywords // ✅ Added to fix the error
+  keywords,
+  ogImage, // ✅ Added: passed through to <slot name="head" /> consumers
 } = Astro.props;
 
 // Get the canonical URL - either passed as prop or construct from current URL
@@ -28,7 +30,8 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     
     <title>{title}</title>
     <meta name="description" content={description} />
-    {keywords && <meta name="keywords" content={keywords} />} <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
+    {keywords && <meta name="keywords" content={keywords} />}
+    <meta name="google-site-verification" content="3EVCfZVg-CMam0QTwjS2p7ZAzenMF5wmUHDQulclbHg" />
     <link rel="canonical" href={canonicalURL} />
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -39,6 +42,7 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Sitewide Organization schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -55,82 +59,65 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     }
     </script>
     
+    <!-- Sitewide service BreadcrumbList schema -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": "https://servicosurgentes.com/",
-        "name": "Início"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@type": "Service",
-        "@id": "https://servicosurgentes.com/servicos/encanador",
-        "name": "Encanador 24h",
-        "url": "https://servicosurgentes.com/servicos/encanador",
-        "serviceType": "Plumbing",
-        "areaServed": "São José dos Campos, SP"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@type": "Service",
-        "@id": "https://servicosurgentes.com/servicos/chaveiro",
-        "name": "Chaveiro 24h",
-        "url": "https://servicosurgentes.com/servicos/chaveiro",
-        "serviceType": "Locksmith",
-        "areaServed": "São José dos Campos, SP"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@type": "Service",
-        "@id": "https://servicosurgentes.com/servicos/eletricista",
-        "name": "Eletricista de Emergência 24h",
-        "url": "https://servicosurgentes.com/servicos/eletricista",
-        "serviceType": "Electrician",
-        "areaServed": "São José dos Campos, SP"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "item": {
-        "@type": "Service",
-        "@id": "https://servicosurgentes.com/servicos/ar-condicionado",
-        "name": "Técnico em Ar Condicionado 24h",
-        "url": "https://servicosurgentes.com/servicos/ar-condicionado",
-        "serviceType": "HVAC",
-        "areaServed": "São José dos Campos, SP"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "item": {
-        "@type": "Service",
-        "@id": "https://servicosurgentes.com/servicos/marido-de-aluguel",
-        "name": "Marido de Aluguel",
-        "url": "https://servicosurgentes.com/servicos/marido-de-aluguel",
-        "serviceType": "Handyman",
-        "areaServed": "São José dos Campos, SP"
-      }
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Encanador 24h",
+            "url": "https://servicosurgentes.com/servicos/encanador",
+            "serviceType": "Plumbing",
+            "areaServed": "São José dos Campos, SP"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Chaveiro 24h",
+            "url": "https://servicosurgentes.com/servicos/chaveiro",
+            "serviceType": "Locksmith",
+            "areaServed": "São José dos Campos, SP"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Eletricista de Emergência 24h",
+            "url": "https://servicosurgentes.com/servicos/eletricista",
+            "serviceType": "Electrician",
+            "areaServed": "São José dos Campos, SP"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Service",
+            "name": "Técnico em Ar Condicionado 24h",
+            "url": "https://servicosurgentes.com/servicos/ar-condicionado",
+            "serviceType": "HVAC",
+            "areaServed": "São José dos Campos, SP"
+          }
+        }
+      ]
     }
-  ]
-}
-</script>
+    </script>
+
+    <!-- ✅ ADDED: Named head slot — allows child pages to inject page-specific
+         schema (FAQPage, Service, BreadcrumbList) and OG/Twitter meta tags
+         directly into <head>. Zero impact on existing pages that don't use it. -->
+    <slot name="head" />
+
   </head>
   <body>
     <Header />

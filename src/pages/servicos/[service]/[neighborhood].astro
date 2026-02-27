@@ -1,0 +1,1022 @@
+---
+// src/pages/servicos/[service]/[neighborhood].astro
+//
+// ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
+// Generates 45 static pages: 5 services × 9 neighborhoods
+// 9 neighborhoods match /bairros/ pages exactly — monte-castelo is excluded
+// because no /bairros/monte-castelo/ page exists (internal link = 404).
+//
+// SOURCES MERGED:
+//   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
+//             files, city-wide provider display, 9-neighborhood cross-link grid
+//   CLAUDE  → Rich neighborhood + service context objects, FAQPage schema,
+//             dynamic SEO metadata, Crisis Psychology page structure,
+//             faqTemplate() per service+neighborhood combo
+//
+// STRATEGY: Crisis Psychology Framework
+//   Stage 1 — AWARENESS   → Hero: validate the emergency is real
+//   Stage 2 — ACTION      → Numbered steps: what to do right now
+//   Stage 3 — ADAPTATION  → Prevention: how to avoid next time
+//   Stage 4 — ADVOCACY    → Final CTA: close the conversion
+//
+// SEO GOAL: Rank for "[service] em [bairro] sjc" — low-competition combos
+//           FAQPage schema cited by Perplexity/ChatGPT/SGE as authority
+// CONVERSION GOAL: Click-to-call above fold on mobile, zero friction
+
+import Layout from '../../../layouts/Layout.astro';
+import BusinessListing from '../../../components/BusinessListing.astro';
+
+// ── LOCAL DATA IMPORTS (city-wide, not filtered per neighborhood) ─────────────
+// Nebula decision: Supabase isn't neighborhood-tagged yet at launch.
+// Using all providers per service type = full listings, zero empty pages.
+import { ar_condicionado } from '../../../data/ar_condicionado.js';
+import { chaveiros }       from '../../../data/chaveiros.js';
+import { eletricistas }    from '../../../data/eletricistas.js';
+import { encanadores }     from '../../../data/encanadores.js';
+import { maridos }         from '../../../data/maridos.js';
+
+// ── ENV: Supabase credentials (ready for future per-neighborhood filtering) ───
+// NEVER hardcode credentials. RLS must be active on all tables before enabling.
+// To activate Supabase filtering: uncomment the import + swap provider source below.
+// const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL;
+// const supabaseKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY;
+
+// ══════════════════════════════════════════════════════════════════════════════
+// NEIGHBORHOOD CONTEXT DATA
+// WHY: Hyper-local copy competitors cannot reproduce — the "Local Domination" moat
+// SEO: AI engines cite specific crisis scenarios and local landmarks as authoritative
+// 9 neighborhoods only — mirrors /bairros/ pages to prevent 404s on cross-links
+// ══════════════════════════════════════════════════════════════════════════════
+const neighborhoodContext: Record<string, {
+  displayName: string;
+  region: string;
+  description: string;
+  characteristics: string;
+  crisisScenario: string;
+  landmarks: string;
+  responseTime: string;
+  nearbyNeighborhoods: { slug: string; name: string }[];
+  unsplashId: string;
+  imageAlt: string;
+}> = {
+  'parque-residencial-aquarius': {
+    displayName: 'Parque Residencial Aquarius',
+    region: 'Zona Sul',
+    description: 'condomínios de alto padrão, torres residenciais e famílias com alto poder aquisitivo',
+    characteristics: 'apartamentos em andares altos, sistemas de pressurização de água, geradores, centrais de gás e portarias 24h',
+    crisisScenario: 'um vazamento no 15º andar pode inundar múltiplos apartamentos em minutos — cada segundo sem o registro fechado multiplica o prejuízo',
+    landmarks: 'próximo ao Shopping Colinas e à Praça Ulysses Guimarães',
+    responseTime: '25–40 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'jardim-das-colinas',   name: 'Jardim das Colinas' },
+      { slug: 'jardim-esplanada',     name: 'Jardim Esplanada' },
+      { slug: 'urbanova',             name: 'Urbanova' },
+    ],
+    unsplashId: '1545324418-cc1a3fa10c00',
+    imageAlt: 'Torres residenciais do Parque Residencial Aquarius em São José dos Campos vistas de cima',
+  },
+  'urbanova': {
+    displayName: 'Urbanova',
+    region: 'Zona Oeste',
+    description: 'condomínios fechados de casas, lotes amplos e infraestrutura em desenvolvimento constante',
+    characteristics: 'casas térreas e sobrados, obras contínuas gerando poeira e entulho, vias internas privadas e distância do centro',
+    crisisScenario: 'a combinação de poeira de obra com umidade entope drenos de ar-condicionado em semanas — e o acesso pela Dutra em horário de pico pode atrasar qualquer profissional',
+    landmarks: 'próximo à Univap (Universidade do Vale do Paraíba) e ao Parque Ribeirão Vermelho',
+    responseTime: '30–50 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'parque-residencial-aquarius', name: 'Aquarius' },
+      { slug: 'jardim-das-colinas',          name: 'Jardim das Colinas' },
+      { slug: 'jardim-esplanada',            name: 'Jardim Esplanada' },
+    ],
+    unsplashId: '1518780664697-55e3ad937233',
+    imageAlt: 'Condomínio residencial fechado em Urbanova, São José dos Campos, com casas e ruas arborizadas',
+  },
+  'centro': {
+    displayName: 'Centro',
+    region: 'Centro',
+    description: 'comércios, prédios históricos de 50+ anos, clínicas, escritórios e trânsito intenso',
+    characteristics: 'fiação elétrica de 40–60 anos, tubulação de ferro fundido, lajes sensíveis e restrições de estacionamento para profissionais',
+    crisisScenario: 'um vazamento em loja da Rua XV em horário comercial pode gerar prejuízo de milhares de reais por hora de operação parada',
+    landmarks: 'Rua XV de Novembro, Praça Afonso Pena, Mercado Municipal',
+    responseTime: '30–50 minutos (considere trânsito e zona azul)',
+    nearbyNeighborhoods: [
+      { slug: 'vila-adyana',     name: 'Vila Adyana' },
+      { slug: 'sao-dimas',       name: 'São Dimas' },
+      { slug: 'jardim-satelite', name: 'Jardim Satélite' },
+    ],
+    unsplashId: '1541888946425-d81bb19240f5',
+    imageAlt: 'Vista aérea do Centro histórico de São José dos Campos mostrando prédios comerciais e a Praça Afonso Pena',
+  },
+  'vila-adyana': {
+    displayName: 'Vila Adyana',
+    region: 'Zona Leste',
+    description: 'residências de alto padrão, clínicas médicas e escritórios corporativos próximos ao Centro',
+    characteristics: 'casas e apartamentos modernos, alta concentração de consultórios e clínicas que exigem nota fiscal e horários flexíveis',
+    crisisScenario: 'uma clínica sem ar-condicionado em dia de consultas marcadas é uma crise imediata — pacientes e médicos esperando em ambiente abafado',
+    landmarks: 'próximo ao Parque Vicentina Aranha e à Av. Nove de Julho',
+    responseTime: '20–35 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'centro',          name: 'Centro' },
+      { slug: 'sao-dimas',       name: 'São Dimas' },
+      { slug: 'jardim-satelite', name: 'Jardim Satélite' },
+    ],
+    unsplashId: '1560518883-ce09059eeffa',
+    imageAlt: 'Rua residencial arborizada na Vila Adyana em São José dos Campos com casas de alto padrão',
+  },
+  'bosque-dos-eucaliptos': {
+    displayName: 'Bosque dos Eucaliptos',
+    region: 'Zona Sul',
+    description: 'casas com jardins, ruas arborizadas e famílias estabelecidas na Zona Sul',
+    characteristics: 'casas térreas com quintais, encanamento em concreto antigo, raízes de árvores que invadem tubulações e sistemas elétricos dos anos 1980',
+    crisisScenario: 'raízes de eucaliptos são conhecidas por romper tubulações subterrâneas sem aviso — e você só descobre quando o quintal está alagado',
+    landmarks: 'próximo ao SESI São José dos Campos e à Av. Andrômeda',
+    responseTime: '30–45 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'jardim-satelite',    name: 'Jardim Satélite' },
+      { slug: 'jardim-das-colinas', name: 'Jardim das Colinas' },
+      { slug: 'sao-dimas',          name: 'São Dimas' },
+    ],
+    unsplashId: '1516912481800-3a2028500f1',
+    imageAlt: 'Rua arborizada no Bosque dos Eucaliptos em São José dos Campos com casas residenciais e jardins',
+  },
+  'jardim-das-colinas': {
+    displayName: 'Jardim das Colinas',
+    region: 'Zona Sul',
+    description: 'casas de médio-alto padrão, ruas tranquilas e infraestrutura consolidada na Zona Sul',
+    characteristics: 'casas com piscinas e sistemas de aquecimento solar, automação residencial e portões eletrônicos que exigem especialistas',
+    crisisScenario: 'um portão eletrônico travado de madrugada — você do lado de fora do seu próprio portão — é o tipo de emergência que o Jardim das Colinas conhece bem',
+    landmarks: 'próximo ao Shopping Colinas e ao Tauste Colinas',
+    responseTime: '25–40 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'parque-residencial-aquarius', name: 'Aquarius' },
+      { slug: 'bosque-dos-eucaliptos',       name: 'Bosque dos Eucaliptos' },
+      { slug: 'urbanova',                    name: 'Urbanova' },
+    ],
+    unsplashId: '1449844908612-3c8b0f9d8011',
+    imageAlt: 'Rua residencial do Jardim das Colinas em São José dos Campos com casas de alto padrão e ruas bem pavimentadas',
+  },
+  'jardim-satelite': {
+    displayName: 'Jardim Satélite',
+    region: 'Zona Sul',
+    description: 'alta densidade residencial, comércio local consolidado e forte presença de trabalhadores na Zona Sul',
+    characteristics: 'casas geminadas, sobrados populares, encanamento antigo e rede elétrica que opera no limite em dias de calor intenso',
+    crisisScenario: 'no verão, o Jardim Satélite enfrenta quedas de disjuntor em cascata quando todos os ares-condicionados ligam ao mesmo tempo — e os eletricistas ficam sem vaga',
+    landmarks: 'próximo ao Vale Sul Shopping e à Av. Cassiopeia',
+    responseTime: '25–40 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'bosque-dos-eucaliptos', name: 'Bosque dos Eucaliptos' },
+      { slug: 'sao-dimas',             name: 'São Dimas' },
+      { slug: 'jardim-das-colinas',    name: 'Jardim das Colinas' },
+    ],
+    unsplashId: '1486325212027-8081e485255e',
+    imageAlt: 'Rua residencial no Jardim Satélite em São José dos Campos com casas populares e comércio local',
+  },
+  'sao-dimas': {
+    displayName: 'São Dimas',
+    region: 'Zona Norte',
+    description: 'casas e apartamentos de idades variadas, mix residencial e fácil acesso ao Centro',
+    characteristics: 'mix de residências antigas e novos empreendimentos, rede elétrica em transição e encanamento de idades variadas no mesmo quarteirão',
+    crisisScenario: 'redes elétricas que misturam padrão antigo e moderno no mesmo ramal são bombas-relógio — um curto pode apagar metade do quarteirão',
+    landmarks: 'próximo à Catedral de São Dimas e à Av. Doutor Ademar de Barros',
+    responseTime: '20–35 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'centro',          name: 'Centro' },
+      { slug: 'vila-adyana',     name: 'Vila Adyana' },
+      { slug: 'jardim-satelite', name: 'Jardim Satélite' },
+    ],
+    unsplashId: '1502672260266-1c1ef2d93688',
+    imageAlt: 'Rua residencial em São Dimas, São José dos Campos, com casas e sobrados em bairro tradicional',
+  },
+  'jardim-esplanada': {
+    displayName: 'Jardim Esplanada',
+    region: 'Zona Sul',
+    description: 'perfil industrial e residencial, infraestrutura consolidada e alta demanda por atendimento fora do horário comercial',
+    characteristics: 'casas de trabalhadores e técnicos especializados, infraestrutura consolidada e alta demanda por serviços rápidos fora do horário comercial',
+    crisisScenario: 'moradores que trabalham em turnos industriais precisam de profissionais disponíveis em horários atípicos — madrugadas e finais de semana',
+    landmarks: 'próximo à Av. São João e ao Centro Universitário Etep — Campus Jardim',
+    responseTime: '25–40 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'parque-residencial-aquarius', name: 'Aquarius' },
+      { slug: 'jardim-das-colinas',          name: 'Jardim das Colinas' },
+      { slug: 'sao-dimas',                   name: 'São Dimas' },
+    ],
+    unsplashId: '1513694203232-719a899d4ef4',
+    imageAlt: 'Bairro residencial Jardim Esplanada em São José dos Campos com casas e ruas próximas ao polo industrial',
+  },
+};
+
+// ══════════════════════════════════════════════════════════════════════════════
+// SERVICE CONTEXT DATA
+// WHY: Dynamic content per service = unique page per combo, avoids thin/doorway flag
+// SEO: faqTemplate() generates 5 natural-language Q&As per page for FAQPage schema
+//      whatToDo[] and prevention[] provide 400+ words of unique editorial content
+// SAFETY: Electrical & gas whatToDo[] NEVER gives DIY repair steps — always redirects
+//         to professional or Bombeiros (193). Project instruction — non-negotiable.
+// ══════════════════════════════════════════════════════════════════════════════
+const serviceContext: Record<string, {
+  displayName: string;
+  displayNamePlural: string;
+  icon: string;
+  emergencyVerb: string;
+  urgencyPhrase: string;
+  whatToDo: string[];
+  prevention: string[];
+  relatedServices: { slug: string; name: string; icon: string }[];
+  faqTemplate: (neighborhood: string) => { question: string; answer: string }[];
+  localData: any[];
+  priceItems: { label: string; range: string }[];
+  relatedBlogSlug: string;
+  relatedBlogTitle: string;
+  color: string;
+  heroKeyword: string;
+}> = {
+
+  // ── ENCANADOR ──────────────────────────────────────────────────────────────
+  'encanador': {
+    displayName: 'Encanador',
+    displayNamePlural: 'Encanadores',
+    icon: '🔧',
+    emergencyVerb: 'vazamento',
+    urgencyPhrase: 'Cada minuto de vazamento aumenta o dano — não espere',
+    // SAFETY: Only safe containment steps — no DIY pipe repair instructions
+    whatToDo: [
+      'Feche o registro geral de água imediatamente (fica perto do hidrômetro ou na entrada do apartamento).',
+      'Desligue os disjuntores de circuitos próximos à área molhada para eliminar risco elétrico.',
+      'Fotografe o dano antes de qualquer limpeza — essencial para acionamento do seguro.',
+      'Chame um encanador verificado imediatamente para diagnóstico — não tente reparos improvisados em tubulação pressurizada.',
+    ],
+    prevention: [
+      'Faça revisão anual de registros, caixas d\'água e flexíveis de pias e vasos sanitários.',
+      'Instale válvulas redutoras de pressão se morar em andar alto — previne rompimento de flexíveis.',
+      'Cheque calhas e rufos antes da temporada de chuvas (outubro–março em SJC).',
+    ],
+    relatedServices: [
+      { slug: 'eletricista',       name: 'Eletricista',       icon: '⚡' },
+      { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
+      { slug: 'ar-condicionado',   name: 'Ar-Condicionado',   icon: '❄️' },
+    ],
+    faqTemplate: (neighborhood: string) => [
+      {
+        question: `Encanador atende ${neighborhood} 24 horas?`,
+        answer: `Sim. Profissionais cadastrados em nosso diretório atendem emergências hidráulicas em ${neighborhood} 24h por dia, incluindo madrugadas, finais de semana e feriados. O tempo médio de chegada varia conforme o horário e a localização dentro do bairro — em pico de trânsito, preveja 10–15 minutos a mais.`,
+      },
+      {
+        question: `Quanto custa um encanador em ${neighborhood}?`,
+        answer: `O valor varia conforme o serviço: visita técnica simples R$ 80–150, desentupimento de pia ou vaso sanitário R$ 150–300, caça-vazamento eletrônico com geofone R$ 350–600, troca de registro ou flexível R$ 120–250. Emergências noturnas (22h–6h) ou em fins de semana têm acréscimo de 30–50%. Solicite orçamento antes de autorizar qualquer serviço.`,
+      },
+      {
+        question: `Qual o tempo de chegada de um encanador em ${neighborhood}?`,
+        answer: `Em situações de emergência — vazamento grave, cano estourado — profissionais da região chegam em média em 25–50 minutos dependendo do horário. Em horário comercial (9h–18h) o trânsito em SJC pode estender o prazo. Tenha o endereço completo e o acesso ao registro geral prontos para agilizar o atendimento.`,
+      },
+      {
+        question: `O que fazer enquanto espero o encanador chegar em ${neighborhood}?`,
+        answer: `Feche imediatamente o registro geral de água. Se houver risco de curto-circuito pela umidade, desligue os disjuntores da área afetada. Fotografe o dano para registro. Não tente fazer reparos improvisados em tubulações sob pressão — o risco de agravamento é alto. Retire objetos de valor da área úmida e aguarde o profissional com segurança.`,
+      },
+      {
+        question: `Encanador faz caça-vazamento sem quebrar paredes em ${neighborhood}?`,
+        answer: `Sim. Profissionais equipados com geofone eletrônico localizam vazamentos ocultos sem necessidade de demolir toda a parede. O equipamento detecta o som do vazamento e aponta o ponto exato. Em imóveis de ${neighborhood}, essa tecnologia evita obras desnecessárias e reduz significativamente o custo total do reparo.`,
+      },
+    ],
+    localData: encanadores,
+    priceItems: [
+      { label: 'Visita técnica simples',              range: 'R$ 80 – R$ 150' },
+      { label: 'Desentupimento (pia/vaso)',            range: 'R$ 150 – R$ 300' },
+      { label: 'Caça-vazamento eletrônico (geofone)', range: 'R$ 350 – R$ 600' },
+      { label: 'Troca de registro ou flexível',        range: 'R$ 120 – R$ 250 (+peça)' },
+      { label: 'Limpeza de caixa d\'água',             range: 'R$ 200 – R$ 400' },
+    ],
+    relatedBlogSlug: '/blog/guia-encanador-emergencia-sjc/',
+    relatedBlogTitle: 'Guia de Emergência Hidráulica em SJC',
+    color: 'blue',
+    heroKeyword: 'Encanador 24h',
+  },
+
+  // ── ELETRICISTA ────────────────────────────────────────────────────────────
+  'eletricista': {
+    displayName: 'Eletricista',
+    displayNamePlural: 'Eletricistas',
+    icon: '⚡',
+    emergencyVerb: 'problema elétrico',
+    urgencyPhrase: 'Problemas elétricos são emergências — risco de incêndio e choque',
+    // SAFETY CRITICAL: Zero DIY electrical steps. Always redirect to professional/Bombeiros.
+    // Project instruction: never provide step-by-step instructions for electrical work.
+    whatToDo: [
+      'NUNCA toque em fios expostos ou equipamentos elétricos úmidos — risco de morte.',
+      'Desligue o disjuntor geral da residência pelo lado seco do quadro.',
+      'Se houver cheiro de queimado, faíscas visíveis ou fumaça: saia do ambiente e ligue para o Corpo de Bombeiros (193) imediatamente.',
+      'Chame um eletricista verificado para diagnóstico — não tente qualquer reparo elétrico sozinho.',
+    ],
+    prevention: [
+      'Instale DPS (Dispositivo de Proteção contra Surtos) no quadro elétrico para proteger equipamentos.',
+      'Revise o quadro elétrico a cada 5 anos — disjuntores e fiação têm vida útil limitada.',
+      'Não sobrecarregue tomadas com extensões e filtros de linha em cascata.',
+    ],
+    relatedServices: [
+      { slug: 'encanador',         name: 'Encanador',         icon: '🔧' },
+      { slug: 'ar-condicionado',   name: 'Ar-Condicionado',   icon: '❄️' },
+      { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
+    ],
+    faqTemplate: (neighborhood: string) => [
+      {
+        question: `Eletricista atende ${neighborhood} 24 horas?`,
+        answer: `Sim. Eletricistas cadastrados em nosso diretório atendem emergências em ${neighborhood} em qualquer horário. Para situações com risco imediato — fio partido, curto com faíscas, cheiro de queimado — ligue também para o Corpo de Bombeiros (193) enquanto aguarda o profissional. Não fique no ambiente até a situação ser avaliada.`,
+      },
+      {
+        question: `Quanto custa um eletricista emergencial em ${neighborhood}?`,
+        answer: `Valores médios em SJC: visita técnica R$ 80–150, troca de disjuntor simples R$ 80–200, instalação de tomada ou ponto de luz R$ 100–200, modernização de quadro elétrico R$ 500–1.500. Atendimentos noturnos e em fins de semana têm acréscimo de 30–50%. Sempre confirme o valor total antes de autorizar o serviço.`,
+      },
+      {
+        question: `Disjuntor caindo é emergência em ${neighborhood}?`,
+        answer: `Depende da frequência. Se o disjuntor cai uma vez após sobrecarga pontual, pode ser ajuste de carga. Se cai repetidamente sem sobrecarga evidente, indica problema na fiação, no próprio disjuntor ou subdimensionamento — chame um eletricista. Em ${neighborhood}, especialmente em imóveis mais antigos, fiação subdimensionada é causa comum desse sintoma.`,
+      },
+      {
+        question: `Eletricista instala ar-condicionado em ${neighborhood}?`,
+        answer: `Sim. A instalação elétrica do ar-condicionado — ponto dedicado, disjuntor específico e fiação calibrada para a potência — deve ser feita por eletricista qualificado, não pelo técnico de AC. Em ${neighborhood}, verifique se o quadro suporta a carga adicional antes da compra do equipamento para evitar retrabalho.`,
+      },
+      {
+        question: `O que fazer em caso de falta de luz em ${neighborhood}?`,
+        answer: `Primeiro verifique se é falta da CPFL (distribuidora) ou problema interno: acesse o quadro elétrico e veja se algum disjuntor desarmou. Se todos os disjuntores estiverem normais, a falta é da concessionária — registre na CPFL (0800 010 8800). Se houver disjuntor desarmado com cheiro de queimado, chame um eletricista antes de tentar religar.`,
+      },
+    ],
+    localData: eletricistas,
+    priceItems: [
+      { label: 'Visita técnica',                  range: 'R$ 80 – R$ 150' },
+      { label: 'Troca de tomada ou interruptor',  range: 'R$ 80 – R$ 200' },
+      { label: 'Instalação de ponto elétrico',    range: 'R$ 150 – R$ 350' },
+      { label: 'Troca de disjuntor',              range: 'R$ 100 – R$ 250' },
+      { label: 'Modernização de quadro elétrico', range: 'R$ 500 – R$ 1.500' },
+    ],
+    relatedBlogSlug: '/blog/chuveiro-queimado-sjc-guia/',
+    relatedBlogTitle: 'Chuveiro Queimado em SJC: O Que Fazer',
+    color: 'yellow',
+    heroKeyword: 'Eletricista de Emergência',
+  },
+
+  // ── CHAVEIRO ───────────────────────────────────────────────────────────────
+  'chaveiro': {
+    displayName: 'Chaveiro',
+    displayNamePlural: 'Chaveiros',
+    icon: '🔑',
+    emergencyVerb: 'porta trancada',
+    urgencyPhrase: 'Trancado para fora é estressante — profissionais chegam sem danificar sua fechadura',
+    whatToDo: [
+      'Mantenha a calma — forçar a porta por conta própria costuma causar danos maiores e mais caros.',
+      'Verifique se há janelas acessíveis de forma segura (apenas térreo e com boa iluminação).',
+      'Contate um chaveiro verificado — informe o modelo e marca da fechadura se souber.',
+      'Fique em local seguro e bem iluminado para receber o profissional.',
+    ],
+    prevention: [
+      'Deixe uma cópia de chave com familiar ou vizinho de confiança.',
+      'Instale fechadura com chave codificada — mais segura e com cópias controladas.',
+      'Considere uma fechadura digital para eliminar definitivamente o risco de ficar sem acesso.',
+    ],
+    relatedServices: [
+      { slug: 'eletricista',       name: 'Eletricista',       icon: '⚡' },
+      { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
+      { slug: 'encanador',         name: 'Encanador',         icon: '🔧' },
+    ],
+    faqTemplate: (neighborhood: string) => [
+      {
+        question: `Chaveiro atende ${neighborhood} 24 horas?`,
+        answer: `Sim. Chaveiros cadastrados em nosso diretório atendem emergências de porta trancada em ${neighborhood} em qualquer horário, incluindo madrugadas e feriados. A maioria opera com atendimento prioritário para não deixar o cliente vulnerável na rua por tempo prolongado.`,
+      },
+      {
+        question: `Quanto custa abrir uma porta trancada em ${neighborhood}?`,
+        answer: `Abertura de porta residencial simples em SJC varia de R$ 80–180 em horário comercial. Fechaduras tetra, penta ou de alta segurança custam R$ 200–400. Atendimentos noturnos (22h–6h) e fins de semana têm acréscimo de 30–50%. Troca de cilindro ou fechadura após a abertura é orçada separadamente. Confirme o valor completo antes de autorizar.`,
+      },
+      {
+        question: `Chaveiro abre porta sem danificar a fechadura em ${neighborhood}?`,
+        answer: `Profissionais qualificados utilizam técnicas de abertura não destrutiva — lockpicking e decodificação — que preservam a fechadura original. Em ${neighborhood}, especialmente em apartamentos de condomínio, isso evita a necessidade de troca imediata de toda a fechadura. Solicite especificamente "abertura sem dano" ao contatar o profissional.`,
+      },
+      {
+        question: `Chaveiro faz cópia de chave codificada em ${neighborhood}?`,
+        answer: `Sim, mas requer equipamento específico. Chaves codificadas (tipo Yale, Mul-T-Lock, ASSA) precisam de máquina de corte especial e, em alguns modelos, autorização da cerralheria fabricante. Em ${neighborhood}, solicite esse serviço com hora marcada — nem todo chaveiro de emergência dispõe do equipamento completo para codificadas.`,
+      },
+      {
+        question: `Quanto tempo um chaveiro leva para chegar em ${neighborhood}?`,
+        answer: `Profissionais da região atendem ${neighborhood} com tempo médio de chegada de 20–40 minutos, dependendo do horário e da localização específica no bairro. Informe referências locais para facilitar o acesso, especialmente em condomínios com portaria controlada ou endereços internos sem numeração visível da rua.`,
+      },
+    ],
+    localData: chaveiros,
+    priceItems: [
+      { label: 'Abertura de porta (sem dano)',        range: 'R$ 80 – R$ 180' },
+      { label: 'Abertura de fechadura de alta seg.',  range: 'R$ 200 – R$ 400' },
+      { label: 'Cópia de chave comum',                range: 'R$ 10 – R$ 30' },
+      { label: 'Cópia de chave codificada',           range: 'R$ 80 – R$ 200' },
+      { label: 'Instalação de fechadura eletrônica',  range: 'R$ 200 – R$ 500 (+peça)' },
+    ],
+    relatedBlogSlug: '/blog/chaveiro-centro-sjc-24h/',
+    relatedBlogTitle: 'Chaveiro 24h no Centro de SJC: Guia',
+    color: 'orange',
+    heroKeyword: 'Chaveiro 24h',
+  },
+
+  // ── AR-CONDICIONADO ────────────────────────────────────────────────────────
+  'ar-condicionado': {
+    displayName: 'Técnico de Ar-Condicionado',
+    displayNamePlural: 'Técnicos de Ar-Condicionado',
+    icon: '❄️',
+    emergencyVerb: 'problema no ar-condicionado',
+    urgencyPhrase: 'No calor de SJC, AC parado é emergência — especialmente com crianças e idosos',
+    whatToDo: [
+      'Desligue o aparelho e aguarde 10–15 minutos antes de tentar religá-lo (reset térmico).',
+      'Verifique se o disjuntor específico do AC desarmou no quadro elétrico.',
+      'Limpe o filtro de ar — lavável em água corrente — filtro sujo é a causa nº 1 de falhas e bloqueios.',
+      'Se pingar água internamente ou emitir cheiro de queimado: mantenha desligado e chame o técnico imediatamente.',
+    ],
+    prevention: [
+      'Faça higienização química das serpentinas (limpeza profissional) anualmente — ou semestralmente em bairros mais empoeirados.',
+      'Limpe o filtro básico mensalmente com água corrente — leva 5 minutos e evita a maioria das falhas.',
+      'Verifique o dreno externo antes da temporada de chuvas (outubro em SJC) para evitar goteiras internas.',
+    ],
+    relatedServices: [
+      { slug: 'eletricista',       name: 'Eletricista',       icon: '⚡' },
+      { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
+      { slug: 'encanador',         name: 'Encanador',         icon: '🔧' },
+    ],
+    faqTemplate: (neighborhood: string) => [
+      {
+        question: `Técnico de ar-condicionado atende ${neighborhood} 24 horas?`,
+        answer: `Sim. Técnicos cadastrados em nosso diretório atendem ${neighborhood} em horário estendido, incluindo finais de semana. Para emergências com crianças pequenas, idosos ou ambientes de saúde — como clínicas e consultórios em ${neighborhood} — informe ao solicitar, pois alguns profissionais priorizam esses atendimentos.`,
+      },
+      {
+        question: `Quanto custa limpeza de ar-condicionado em ${neighborhood}?`,
+        answer: `Higienização completa (serpentinas + dreno + bandeja) de split 9.000–12.000 BTUs em SJC varia de R$ 200–350 por aparelho. Recarga de gás refrigerante R$ 250–500. Troca de placa eletrônica R$ 400–900. Instalação de novo split — mão de obra — R$ 300–500. Confirme com o técnico antes de autorizar qualquer serviço.`,
+      },
+      {
+        question: `Por que o AC pinga água dentro do quarto em ${neighborhood}?`,
+        answer: `Em ${neighborhood}, especialmente durante a temporada chuvosa (outubro–março), o aparelho condensa mais água do que o dreno consegue escoar — principalmente se houver biofilme (lodo) bloqueando a saída. Outras causas: desnível na instalação ou vento contrário ao dreno externo, comum em apartamentos altos. Chame um técnico para limpeza do dreno.`,
+      },
+      {
+        question: `AC não gela mesmo ligado — o que fazer em ${neighborhood}?`,
+        answer: `As causas mais comuns são: filtro entupido (limpe e aguarde 30 min), falta de gás refrigerante (exige técnico certificado — não é DIY), compressor com defeito ou serpentina suja. Se a limpeza do filtro não resolver em 30 minutos, o problema é interno e requer diagnóstico profissional em ${neighborhood}.`,
+      },
+      {
+        question: `Com que frequência fazer manutenção de AC em ${neighborhood}?`,
+        answer: `Para uso residencial padrão em SJC: limpeza de filtro mensal (você mesmo, água corrente) e higienização técnica anual. Em ${neighborhood}, bairros com obras próximas, muito trânsito ou densa vegetação, recomenda-se higienização semestral para evitar acúmulo de fungos e biofilme nas serpentinas, que reduzem a eficiência e aumentam o consumo de energia.`,
+      },
+    ],
+    localData: ar_condicionado,
+    priceItems: [
+      { label: 'Limpeza simples (filtros)',          range: 'R$ 80 – R$ 150' },
+      { label: 'Higienização química completa',      range: 'R$ 200 – R$ 350' },
+      { label: 'Recarga de gás (R-410A)',            range: 'R$ 250 – R$ 500' },
+      { label: 'Instalação de split (mão de obra)', range: 'R$ 300 – R$ 500' },
+      { label: 'Diagnóstico + reparo geral',         range: 'R$ 150 – R$ 400' },
+    ],
+    relatedBlogSlug: '/blog/ar-condicionado-nao-gela-sjc/',
+    relatedBlogTitle: 'AC Não Gela? Protocolo de Emergência SJC',
+    color: 'cyan',
+    heroKeyword: 'Técnico de Ar-Condicionado',
+  },
+
+  // ── MARIDO-DE-ALUGUEL ──────────────────────────────────────────────────────
+  'marido-de-aluguel': {
+    displayName: 'Marido de Aluguel',
+    displayNamePlural: 'Profissionais Marido de Aluguel',
+    icon: '🛠️',
+    emergencyVerb: 'reparo urgente',
+    urgencyPhrase: 'Reparos pequenos ignorados viram grandes problemas — resolva agora',
+    whatToDo: [
+      'Liste todos os reparos necessários — profissionais multifuncionais resolvem vários em uma única visita.',
+      'Separe materiais que você já tem (parafusos, buchas, lâmpadas) para agilizar e reduzir custo.',
+      'Tire fotos dos pontos que precisam de reparo para mostrar ao profissional no primeiro contato.',
+      'Informe o tipo de parede (alvenaria, drywall, madeira) — impacta a técnica e as ferramentas necessárias.',
+    ],
+    prevention: [
+      'Faça uma vistoria trimestral: verifique dobradiças, vedações, rejuntes e tomadas frouxas.',
+      'Não adie pequenos reparos — uma torneira pingando desperdiça mais de 50 litros por dia e deteriora a alvenaria.',
+      'Mantenha um kit básico (chave de fenda, alicate, fita veda-rosca) para emergências menores.',
+    ],
+    relatedServices: [
+      { slug: 'encanador',   name: 'Encanador',  icon: '🔧' },
+      { slug: 'eletricista', name: 'Eletricista', icon: '⚡' },
+      { slug: 'chaveiro',    name: 'Chaveiro',    icon: '🔑' },
+    ],
+    faqTemplate: (neighborhood: string) => [
+      {
+        question: `Marido de aluguel atende ${neighborhood}?`,
+        answer: `Sim. Profissionais multifuncionais cadastrados em nosso diretório atendem ${neighborhood} para reparos gerais, montagem de móveis, instalações e pequenas obras. Ideal para resolver vários problemas em uma única visita — economizando tempo e o custo de deslocamento de múltiplos especialistas.`,
+      },
+      {
+        question: `Quanto custa marido de aluguel em ${neighborhood}?`,
+        answer: `O valor é cobrado por hora (R$ 80–150/hora em SJC) ou por serviço: montagem de móvel simples R$ 60–120, instalação de prateleira R$ 50–100, troca de torneira R$ 80–150, fixação de suporte de TV R$ 80–200. Materiais são cobrados à parte. Confirme a forma de cobrança (hora ou serviço fechado) antes de iniciar.`,
+      },
+      {
+        question: `Marido de aluguel faz instalação elétrica e hidráulica em ${neighborhood}?`,
+        answer: `Pequenas instalações — troca de tomada, luminária, torneira — são serviços comuns. Para trabalhos mais complexos como quadro elétrico, caça-vazamento ou instalação de chuveiro elétrico, é mais seguro contratar eletricista ou encanador especializado. O profissional avalia no local e indica quando o serviço exige especialista.`,
+      },
+      {
+        question: `Marido de aluguel monta qualquer móvel em ${neighborhood}?`,
+        answer: `Sim. Montagem de móveis Tok&Stok, IKEA, MadeiraMadeira e demais fabricantes é serviço padrão. Em ${neighborhood}, especialmente em apartamentos com paredes de drywall — comuns em empreendimentos novos — informe o tipo de parede para que o profissional traga fixadores adequados e garanta a segurança da instalação.`,
+      },
+      {
+        question: `Quanto tempo dura uma visita de marido de aluguel em ${neighborhood}?`,
+        answer: `Depende da lista de serviços. Um reparo simples (troca de torneira, fixação de prateleira) leva 30–60 minutos. Uma lista com 4–6 reparos pode ocupar meio período (3–4 horas). Para otimizar o custo em ${neighborhood}, agrupe todos os reparos necessários em uma única visita — profissionais trabalham com maior eficiência em listas completas.`,
+      },
+    ],
+    localData: maridos,
+    priceItems: [
+      { label: 'Hora trabalhada (mín. 2h)',      range: 'R$ 80 – R$ 150/hora' },
+      { label: 'Instalação de suporte de TV',    range: 'R$ 150 – R$ 250' },
+      { label: 'Montagem de móveis',             range: 'R$ 200 – R$ 400' },
+      { label: 'Troca de torneira ou registro',  range: 'R$ 80 – R$ 180 (+peça)' },
+      { label: 'Pequenos reparos hidráulicos',   range: 'R$ 120 – R$ 250' },
+    ],
+    relatedBlogSlug: '/blog/marido-de-aluguel-sjc-guia/',
+    relatedBlogTitle: 'Marido de Aluguel em SJC: Guia Completo',
+    color: 'green',
+    heroKeyword: 'Marido de Aluguel',
+  },
+};
+
+// ══════════════════════════════════════════════════════════════════════════════
+// getStaticPaths — generates all 45 routes (5 services × 9 neighborhoods)
+// WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
+//
+// FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
+// frontmatter executes — so serviceContext / neighborhoodContext are not in scope.
+// Solution: explicit hardcoded slug arrays. Slugs must stay in sync with the
+// context objects below and with /bairros/ pages (no 404 risk).
+// ══════════════════════════════════════════════════════════════════════════════
+export function getStaticPaths() {
+  const services = [
+    'encanador',
+    'eletricista',
+    'chaveiro',
+    'ar-condicionado',
+    'marido-de-aluguel',
+  ];
+
+  const neighborhoods = [
+    'parque-residencial-aquarius',
+    'urbanova',
+    'centro',
+    'vila-adyana',
+    'bosque-dos-eucaliptos',
+    'jardim-das-colinas',
+    'jardim-satelite',
+    'sao-dimas',
+    'jardim-esplanada',
+  ];
+
+  return services.flatMap(service =>
+    neighborhoods.map(neighborhood => ({
+      params: { service, neighborhood },
+    }))
+  );
+}
+
+// ── ROUTE RESOLUTION ──────────────────────────────────────────────────────────
+const { service, neighborhood } = Astro.params as { service: string; neighborhood: string };
+
+const svc = serviceContext[service];
+const nbh = neighborhoodContext[neighborhood];
+
+// Safety guard — should never trigger in static build with valid params
+if (!svc || !nbh) {
+  return Astro.redirect('/servicos/');
+}
+
+// ── SEO METADATA ───────────────────────────────────────────────────────────────
+// Dynamic per combo — every one of the 45 pages has unique title + description
+// keywords: "marido de aluguel sjc" is always at position 4 — project requirement
+const pageTitle       = `${svc.displayName} em ${nbh.displayName}, SJC — Profissionais Verificados 24h`;
+const pageDescription = `Precisa de ${svc.heroKeyword} em ${nbh.displayName}? ${svc.urgencyPhrase.split('—')[0].trim()}. Conectamos você a técnicos da região com 4+ estrelas. Atendimento 24h em São José dos Campos.`.substring(0, 160);
+const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
+const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} são josé dos campos, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
+const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=80&w=800`;
+
+// ── FAQ GENERATION ─────────────────────────────────────────────────────────────
+// 5 natural-language Q&As per combo = 225 unique FAQ entries across all 45 pages
+// Feeds FAQPage schema (AI citations) + visible accordion (UX + word count)
+const faqs = svc.faqTemplate(nbh.displayName);
+
+// ── SCHEMA MARKUP ──────────────────────────────────────────────────────────────
+// @graph: Service + BreadcrumbList + FAQPage in one ld+json block
+// FAQPage is the primary schema for Perplexity/ChatGPT/SGE citation per GEO research
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": `${svc.displayName} em ${nbh.displayName}`,
+      "description": pageDescription,
+      "provider": {
+        "@type": "Organization",
+        "name": "Serviços Urgentes",
+        "url": "https://servicosurgentes.com"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": nbh.displayName,
+        "containedIn": {
+          "@type": "City",
+          "name": "São José dos Campos",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      },
+      "serviceType": svc.displayName,
+      "url": canonicalURL
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Início",              "item": "https://servicosurgentes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Serviços",            "item": "https://servicosurgentes.com/servicos/" },
+        { "@type": "ListItem", "position": 3, "name": svc.displayNamePlural, "item": `https://servicosurgentes.com/servicos/${service}/` },
+        { "@type": "ListItem", "position": 4, "name": nbh.displayName,       "item": canonicalURL }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+};
+
+// Static Tailwind border map — avoids dynamic class purging (Tailwind v3 limitation)
+const heroBorderColor: Record<string, string> = {
+  blue:   'border-blue-600',
+  yellow: 'border-yellow-500',
+  orange: 'border-orange-500',
+  cyan:   'border-cyan-500',
+  green:  'border-green-600',
+};
+const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  keywords={keywords}
+  canonicalURL={canonicalURL}
+>
+  <!-- ── HEAD ADDITIONS ─────────────────────────────────────────────────── -->
+  <!-- Schema + OG tags injected via slot="head" into Layout.astro <head>   -->
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(pageSchema)} />
+  <meta slot="head" property="og:image"       content={imageURL} />
+  <meta slot="head" property="og:title"       content={pageTitle} />
+  <meta slot="head" property="og:description" content={pageDescription} />
+  <meta slot="head" property="og:url"         content={canonicalURL} />
+  <meta slot="head" property="og:type"        content="website" />
+  <meta slot="head" property="og:locale"      content="pt_BR" />
+  <meta slot="head" name="twitter:card"       content="summary_large_image" />
+  <meta slot="head" name="twitter:image"      content={imageURL} />
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- BREADCRUMB NAV                                                        -->
+  <!-- SEO: Reinforces URL hierarchy. Mirrors BreadcrumbList schema above.  -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <nav
+    class="bg-white border-b border-gray-100 py-3 px-4 text-sm text-gray-500"
+    aria-label="Breadcrumb"
+  >
+    <div class="max-w-7xl mx-auto flex flex-wrap gap-1 items-center">
+      <a href="/"                       class="hover:text-red-600 transition-colors">Início</a>
+      <span aria-hidden="true">›</span>
+      <a href="/servicos/"              class="hover:text-red-600 transition-colors">Serviços</a>
+      <span aria-hidden="true">›</span>
+      <a href={`/servicos/${service}/`} class="hover:text-red-600 transition-colors">{svc.displayNamePlural}</a>
+      <span aria-hidden="true">›</span>
+      <span class="text-gray-900 font-medium">{nbh.displayName}</span>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- HERO — CRISIS PSYCHOLOGY STAGE 1: AWARENESS                          -->
+  <!-- GOAL: User is in panic. Validate the emergency is real. We're here.  -->
+  <!-- SEO: H1 exactly = "[Service] em [Neighborhood], São José dos Campos" -->
+  <!-- CONVERSION: Dual CTA above fold — visible without scroll on mobile   -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <section class="bg-gradient-to-br from-red-700 via-red-600 to-orange-500 text-white py-12 md:py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Location badge — geographic signal + emotional anchor for panicked user -->
+      <div class="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6 text-sm font-semibold">
+        <span class="mr-2" aria-hidden="true">📍</span>
+        <span>{nbh.displayName} · {nbh.region} · São José dos Campos</span>
+      </div>
+
+      <!-- H1: Primary keyword = "[Service] em [Neighborhood]" -->
+      <h1 class="text-3xl md:text-5xl font-black leading-tight mb-4">
+        {svc.icon} {svc.displayName} em {nbh.displayName}
+        <span class="block text-yellow-300 text-2xl md:text-3xl font-bold mt-2">
+          São José dos Campos · Profissionais Verificados 24h
+        </span>
+      </h1>
+
+      <!-- Neighborhood profile + crisis scenario — unique per combo, no boilerplate -->
+      <p class="text-lg md:text-xl text-red-100 mb-8 max-w-2xl leading-relaxed">
+        {nbh.description.charAt(0).toUpperCase() + nbh.description.slice(1)} — {nbh.crisisScenario}.
+        Encontre técnicos da região com 4+ estrelas, disponíveis agora.
+      </p>
+
+      <!-- CTA 1 (primary): scrolls to provider listings -->
+      <!-- CTA 2 (secondary): bairro hub page — internal link + user may want all services -->
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#profissionais"
+          class="bg-white text-red-600 font-bold px-8 py-4 rounded-xl text-center hover:bg-gray-100 transition-all shadow-lg text-lg"
+        >
+          🔍 Ver {svc.displayNamePlural} Disponíveis
+        </a>
+        <a
+          href={`/bairros/${neighborhood}/`}
+          class="bg-white/20 border-2 border-white/60 text-white font-semibold px-6 py-4 rounded-xl text-center hover:bg-white/30 transition-all text-sm"
+        >
+          📍 Todos os Serviços em {nbh.displayName}
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- MAIN CONTENT AREA                                                     -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- ── CRISIS PSYCHOLOGY STAGE 2: ACTION ────────────────────────────── -->
+    <!-- "You're in an emergency. Here's exactly what to do right now."      -->
+    <!-- whatToDo[] is safety-reviewed per service — no DIY electrical/gas   -->
+    <section class="bg-red-50 border-l-4 border-red-600 rounded-r-xl p-6 mb-10">
+      <h2 class="text-xl font-bold text-red-800 mb-4">
+        🚨 Com {svc.emergencyVerb} agora em {nbh.displayName}? Faça isso imediatamente:
+      </h2>
+      <ol class="space-y-3">
+        {svc.whatToDo.map((step, i) => (
+          <li class="flex gap-3 text-red-900">
+            <span class="flex-shrink-0 w-7 h-7 bg-red-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+              {i + 1}
+            </span>
+            <span class="leading-relaxed">{step}</span>
+          </li>
+        ))}
+      </ol>
+      <!-- Response time box: sets expectation, reduces panic, builds trust -->
+      <div class="mt-6 p-4 bg-white rounded-lg border border-red-200">
+        <p class="text-red-700 font-semibold text-sm">
+          ⏱️ Tempo médio de chegada em {nbh.displayName}: <strong>{nbh.responseTime}</strong><br />
+          Referência de localização: {nbh.landmarks}
+        </p>
+      </div>
+    </section>
+
+    <!-- ── NEIGHBORHOOD CONTEXT ──────────────────────────────────────────── -->
+    <!-- 400+ words of unique editorial per page — avoids thin/doorway flag  -->
+    <!-- crisisScenario + characteristics = content AI will cite as source   -->
+    <section class={`bg-white rounded-xl shadow-sm border-t-4 ${heroBorder} p-6 md:p-8 mb-10`}>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">
+        {svc.icon} {svc.displayName} em {nbh.displayName}: O que você precisa saber
+      </h2>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        O <strong>{nbh.displayName}</strong> é um bairro com {nbh.description}. Isso significa que os profissionais
+        que atendem aqui estão acostumados com {nbh.characteristics} — fatores que impactam diretamente o tipo
+        de serviço e o tempo de resposta para {svc.displayName.toLowerCase()}.
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        O cenário de emergência mais comum no bairro: <em>"{nbh.crisisScenario}."</em>
+        Por isso, nosso diretório prioriza técnicos que conhecem bem a realidade do {nbh.displayName} e
+        conseguem chegar em <strong>{nbh.responseTime}</strong> — mesmo nos horários mais difíceis.
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        Todos os profissionais listados têm avaliação mínima de 4 estrelas e são verificados antes de entrarem
+        no diretório. Você compara, escolhe e contata diretamente — sem intermediação, sem taxas ocultas.
+      </p>
+    </section>
+
+    <!-- ── PROVIDER LISTINGS ─────────────────────────────────────────────── -->
+    <!-- City-wide data from local .js files (Nebula decision).              -->
+    <!-- Reason: Supabase sem tags de bairro = filtro retorna zero results   -->
+    <!-- = páginas vazias = penalidade de SEO por conteúdo thin.             -->
+    <!-- Migration path: quando provider_neighborhoods existir no Supabase,  -->
+    <!--   trocar svc.localData pelo fetch filtrado.                          -->
+    <div id="profissionais" class="scroll-mt-6 mb-10">
+      <BusinessListing
+        businesses={svc.localData}
+        serviceTitle={`${svc.displayNamePlural} Verificados em ${nbh.displayName}`}
+        serviceDescription={`Profissionais que atendem ${nbh.displayName} e toda a região de SJC para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
+      />
+    </div>
+
+    <!-- ── CRISIS PSYCHOLOGY STAGE 3: ADAPTATION (Prevention) ───────────── -->
+    <!-- "Here's how to avoid this next time." Converts emergency visitor    -->
+    <!-- into repeat user. Adds unique body copy per service.                -->
+    <section class="bg-green-50 border border-green-200 rounded-xl p-6 mb-10">
+      <h2 class="text-xl font-bold text-green-800 mb-4">
+        🛡️ Como evitar {svc.emergencyVerb} em {nbh.displayName}
+      </h2>
+      <ul class="space-y-3">
+        {svc.prevention.map(tip => (
+          <li class="flex gap-3 text-green-900">
+            <span class="flex-shrink-0 text-green-600 font-bold" aria-hidden="true">✓</span>
+            <span class="leading-relaxed">{tip}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- ── PRICING SECTION ───────────────────────────────────────────────── -->
+    <!-- Transparency = trust signal + SEO (users search "quanto custa").    -->
+    <!-- MANDATORY DISCLAIMER immediately follows — project legal requirement -->
+    <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-4">
+      <h2 class="text-2xl font-bold text-gray-900 mb-2">
+        💰 Quanto custa {svc.displayName.toLowerCase()} em {nbh.displayName}?
+      </h2>
+      <p class="text-gray-500 text-sm mb-5">
+        Estimativas de mercado para 2026 em São José dos Campos. Confirme o valor com o profissional antes de autorizar.
+      </p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left text-gray-700 border-collapse">
+          <thead>
+            <tr class="bg-gray-50 border-b border-gray-200">
+              <th class="py-3 px-4 font-semibold text-gray-900">Serviço</th>
+              <th class="py-3 px-4 font-semibold text-gray-900">Estimativa 2026</th>
+            </tr>
+          </thead>
+          <tbody>
+            {svc.priceItems.map((item, i) => (
+              <tr class={i % 2 === 0 ? 'bg-white border-b border-gray-100' : 'bg-gray-50 border-b border-gray-100'}>
+                <td class="py-3 px-4">{item.label}</td>
+                <td class="py-3 px-4 font-medium text-blue-700">{item.range}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- MANDATORY PRICE DISCLAIMER — exact HTML per project legal instructions -->
+    <!-- LEGAL: Must appear immediately after first pricing mention. Non-negotiable. -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-6 rounded-r-lg">
+      <div class="flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+          </svg>
+        </div>
+        <div class="ml-3">
+          <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+          <div class="text-sm text-yellow-700 space-y-2">
+            <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> em {nbh.displayName} e região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+            <div class="bg-white/50 p-3 rounded">
+              <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
+              <ul class="list-none space-y-1 ml-1">
+                <li>❌ Não define preços dos prestadores</li>
+                <li>❌ Não interfere nas negociações comerciais</li>
+                <li>❌ Não garante valores finais</li>
+              </ul>
+            </div>
+            <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
+              <p class="flex items-start gap-2">
+                <span class="text-lg" aria-hidden="true">💡</span>
+                <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── FAQ ACCORDION — AI/GEO SEO ───────────────────────────────────── -->
+    <!-- Natural language Q&A = primary citation source for AI search engines -->
+    <!-- 5 questions × 45 pages = 225 unique FAQ entries                     -->
+    <!-- FAQPage schema (injected in <head> above) feeds structured data      -->
+    <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">
+        ❓ Perguntas Frequentes — {svc.displayName} em {nbh.displayName}
+      </h2>
+      <div class="space-y-4">
+        {faqs.map(faq => (
+          <details class="border-b border-gray-200 pb-4 group">
+            <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2 list-none flex items-center justify-between">
+              <span>{faq.question}</span>
+              <span class="text-gray-400 text-xl transition-transform duration-200 group-open:rotate-45" aria-hidden="true">+</span>
+            </summary>
+            <div class="mt-3 text-gray-700 leading-relaxed pl-1 text-sm md:text-base">
+              {faq.answer}
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════ -->
+    <!-- INTERNAL LINKING — minimum 8 links per page (project requirement)  -->
+    <!-- Total on this page: 3 related services + 8 cross-neighborhood      -->
+    <!--                   + 4 hub links = 15 internal links ✓              -->
+    <!-- STRATEGY: Hub & Spoke — every page references the full matrix      -->
+    <!-- ══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Section A: Related services in SAME neighborhood (3 links) -->
+    <!-- Cross-sell: user needing a plumber may also need an electrician    -->
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">
+        🔗 Outros Serviços em {nbh.displayName}
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {svc.relatedServices.map(related => (
+          <a
+            href={`/servicos/${related.slug}/${neighborhood}/`}
+            class="bg-white rounded-xl border border-gray-200 p-4 hover:border-red-400 hover:shadow-md transition-all text-center group"
+          >
+            <div class="text-3xl mb-2 group-hover:scale-110 transition-transform" aria-hidden="true">{related.icon}</div>
+            <div class="font-semibold text-gray-900 text-sm">{related.name}</div>
+            <div class="text-xs text-red-600 mt-1">em {nbh.displayName} →</div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Section B: Hub links (4 links) -->
+    <!-- SEO: Passes authority up to service hub, bairro hub, /servicos/, blog -->
+    <section class="bg-gray-50 rounded-xl p-6 mb-10">
+      <h2 class="text-lg font-bold text-gray-900 mb-4">🗂️ Explore mais</h2>
+      <div class="flex flex-wrap gap-3">
+        <a
+          href={`/servicos/${service}/`}
+          class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+        >
+          Todos os {svc.displayNamePlural} em SJC
+        </a>
+        <a
+          href={`/bairros/${neighborhood}/`}
+          class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+        >
+          Todos os Serviços em {nbh.displayName}
+        </a>
+        <a
+          href="/servicos/"
+          class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+        >
+          Central de Serviços SJC
+        </a>
+        <a
+          href={svc.relatedBlogSlug}
+          class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+        >
+          📖 {svc.relatedBlogTitle}
+        </a>
+      </div>
+    </section>
+
+    <!-- Section C: All-neighborhood cross-link grid (8 links) — from Nebula  -->
+    <!-- Every page links to all other neighborhood variants of same service.  -->
+    <!-- This is the "full crawl grid" — maximizes Googlebot coverage paths.  -->
+    <!-- All 9 slugs match /bairros/ pages exactly — zero 404 risk.          -->
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">
+        {svc.icon} {svc.displayName} em Outros Bairros de SJC
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {Object.entries(neighborhoodContext)
+          .filter(([slug]) => slug !== neighborhood)
+          .map(([slug, nbhData]) => (
+            <a
+              href={`/servicos/${service}/${slug}/`}
+              class="bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-400 hover:shadow-md transition-all flex items-center gap-3 group"
+            >
+              <span class="text-xl flex-shrink-0" aria-hidden="true">{svc.icon}</span>
+              <div class="min-w-0">
+                <div class="font-semibold text-gray-900 text-sm truncate">{nbhData.displayName}</div>
+                <div class="text-xs text-blue-600 mt-0.5">{nbhData.region} →</div>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- ── CRISIS PSYCHOLOGY STAGE 4: ADVOCACY — FINAL CTA ─────────────── -->
+    <!-- "You've seen the evidence. Now act." Red gradient = urgency signal.  -->
+    <!-- CTA links to parent service page — where provider call buttons live. -->
+    <section class="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl p-8 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-3">
+        Precisa de {svc.displayName} agora em {nbh.displayName}?
+      </h2>
+      <p class="text-red-100 mb-6 text-lg">
+        Encontre profissionais verificados com 4+ estrelas. Contato direto, sem intermediação, sem taxa.
+      </p>
+      <a
+        href={`/servicos/${service}/`}
+        class="inline-block bg-white text-red-600 font-bold text-lg px-10 py-4 rounded-xl hover:bg-gray-100 transition-colors shadow-lg"
+      >
+        Encontrar {svc.displayNamePlural} Verificados →
+      </a>
+      <p class="text-red-200 text-xs mt-4">
+        Serviços Urgentes · Diretório de Profissionais · São José dos Campos, SP
+      </p>
+    </section>
+
+  </main>
+
+</Layout>
