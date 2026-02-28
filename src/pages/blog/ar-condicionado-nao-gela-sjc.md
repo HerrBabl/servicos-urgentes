@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Ar-Condicionado Não Gela? 5 Causas Comuns em SJC e Como Resolver"
-description: "Seu ar-condicionado parou de gelar no calor de São José dos Campos? Conheça as causas, saiba o que verificar em 60 segundos e quanto custa o conserto técnico."
+title: "AC Não Gela em SJC? Daikin, Comfee, Consul — Técnico Urgente Disponível"
+description: "Daikin, Comfee, Consul ou outra marca não está gelando em SJC? Veja no diretório os técnicos especializados disponíveis hoje em São José dos Campos."
 date: "2026-01-15T16:00:00-03:00"
-dateModified: "2026-01-20T11:00:00-03:00"
+dateModified: "2026-02-28T20:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Ar-Condicionado", "Manutenção", "SJC", "Emergência"]
 slug: "ar-condicionado-nao-gela-sjc"
 category: "Guia de Emergência"
 canonicalURL: "https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc"
-keywords: "ar condicionado não gela sjc, conserto de ar condicionado sjc, limpeza de ar condicionado são josé dos campos, marido de aluguel sjc, carga de gás ar condicionado sjc, técnico ar condicionado 24h"
+keywords: "ar condicionado nao gela sjc, daikin nao gela sjc, comfee nao gela sjc, marido de aluguel sjc, consul nao gela são josé dos campos, técnico ac urgente sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"
 faqSchema:
