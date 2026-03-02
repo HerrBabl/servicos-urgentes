@@ -80,7 +80,7 @@ Nem tudo precisa de um "Encanador 24 Horas" (que costuma cobrar taxa de visita n
 * **Pia demorando a descer:** Entupimento parcial.
 * **Infiltração lenta:** Manchas na parede que crescem devagar.
 
-> **Leia também:** [Encanamento em Parque Aquarius: Guia para Locatários e Proprietários](/blog/encanamento-parque-aquarius)
+> **Leia também:** [Encanamento em Parque Aquarius: Guia para Locatários e Proprietários](/blog/encanamento-parque-aquarius/)
 
 ---
 
@@ -125,7 +125,7 @@ A logística em São José dos Campos afeta a rapidez do atendimento. Técnicos 
 * **Vila Adyana e Centro:** Foco em **Retrofit** e tubulações de ferro antigas.
 * **Satélite e Bosque:** Alta disponibilidade de técnicos residentes na região (chegada mais rápida).
 
-> **Mora na Vila Adyana?** Veja nosso guia específico sobre [Retrofit e Tubulações Antigas](/blog/vila-adyana-guia).
+> **Mora na Vila Adyana?** Veja nosso guia específico sobre [Retrofit e Tubulações Antigas](/blog/vila-adyana-guia/).
 
 ---
 
@@ -142,7 +142,7 @@ Ao chamar um encanador ou **marido de aluguel** do nosso diretório, siga este c
 
 Não arrisque "gambiarras" que podem piorar o vazamento. Acesse nossa lista de encanadores e maridos de aluguel verificados que atendem sua região em São José dos Campos.
 
-👉 **[Encontrar Encanador 24h em SJC](/servicos/encanador)**
+👉 **[Encontrar Encanador 24h em SJC](/servicos/encanador/)**
 
 ## Perguntas Frequentes
 
