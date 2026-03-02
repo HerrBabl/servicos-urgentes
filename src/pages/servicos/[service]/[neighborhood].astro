@@ -623,10 +623,10 @@ const pageSchema = {
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Início",              "item": "https://servicosurgentes.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Serviços",            "item": "https://servicosurgentes.com/servicos/" },
-        { "@type": "ListItem", "position": 3, "name": svc.displayNamePlural, "item": `https://servicosurgentes.com/servicos/${service}/` },
-        { "@type": "ListItem", "position": 4, "name": nbh.displayName,       "item": canonicalURL }
+        { "@type": "ListItem", "position": 1, "name": "Início",              "item": { "@id": "https://servicosurgentes.com/" } },
+{ "@type": "ListItem", "position": 2, "name": "Serviços",            "item": { "@id": "https://servicosurgentes.com/servicos/" } },
+{ "@type": "ListItem", "position": 3, "name": svc.displayNamePlural, "item": { "@id": `https://servicosurgentes.com/servicos/${service}/` } },
+{ "@type": "ListItem", "position": 4, "name": nbh.displayName,       "item": { "@id": canonicalURL } }
       ]
     },
     {
