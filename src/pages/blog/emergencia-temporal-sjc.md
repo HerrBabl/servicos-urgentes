@@ -512,7 +512,7 @@ SJC enfrenta temporais intensos principalmente entre **novembro e março**. Use 
 
 **Guias de Emergência Relacionados:**
 - **[Guia Completo: Emergência Hidráulica em SJC](/blog/guia-emergencia-hidraulica-sjc/)** — O que fazer quando cano estoura
-- **[Eletricista Emergência Após Temporal](/blog/eletricista-emergencia-temporal-sjc/)** — Segurança elétrica pós-chuva
+- **[Eletricistas de Emergência 24h em SJC](/servicos/eletricista/)** — Profissionais verificados disponíveis agora
 - **[Encanador de Emergência: Guia Completo](/blog/guia-encanador-emergencia-sjc/)** — Vazamentos e infiltrações
 
 **Guias por Bairro:**
