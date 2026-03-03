@@ -131,7 +131,7 @@ Estes valores refletem o mercado de São José dos Campos para mão de obra qual
 | :--- | :--- | :--- |
 | Metro extra de tubulação | R$ 120 - R$ 180 | Quando a condensadora fica longe |
 | Furação em viga/concreto | R$ 150 - R$ 250 | Comum no Aquarius/Colinas |
-| Ponto elétrico exclusivo | R$ 200 - R$ 400 | **[Necessário para segurança elétrica](/blog/guia-eletricista-emergencia-sjc)** |
+| Ponto elétrico exclusivo | R$ 200 - R$ 400 | Necessário para segurança elétrica |
 
 ### Tabela 3: Economia a Longo Prazo (ROI)
 | Escolha na Instalação | Custo Inicial | Economia em 2 Anos | Veredito |
@@ -210,7 +210,7 @@ São José dos Campos possui condomínios com regras estritas. Antes de começar
 
 * **[Ar-Condicionado Não Gela? Diagnóstico em 60 Segundos](/blog/ar-condicionado-nao-gela-sjc)**
 * **[Manutenção Verão SJC: Como economizar 30% na conta de luz](/blog/manutencao-ar-condicionado-verao-sjc)**
-* **[Guia de Modernização Elétrica (Retrofit) na Vila Adyana](/blog/retrofit-vila-adyana)**
+* **[Guia de Modernização Elétrica (Retrofit) na Vila Adyana](/blog/vila-adyana-guia/)**
 * **[Serviços de Emergência no Jardim das Colinas](/blog/jardim-das-colinas-servicos)**
 
 ---

@@ -283,7 +283,7 @@ Cada tipo de estrago exige um profissional específico. Veja a correspondência:
 | Tomada/interruptor molhado | **[Eletricista](/servicos/eletricista/)** | 🟡 HOJE |
 | Chuveiro não liga após temporal | **[Eletricista](/servicos/eletricista/)** | 🟢 PODE ESPERAR |
 
-**Leitura relacionada:** **[Eletricista Emergência Após Temporal SJC](/blog/eletricista-emergencia-temporal-sjc/)** (guia completo de segurança elétrica pós-chuva)
+**Leitura relacionada:** [Eletricistas de Emergência em SJC](/servicos/eletricista/) (profissionais disponíveis 24h)
 
 **[Ver eletricistas de emergência em SJC →](/servicos/eletricista/)**
 

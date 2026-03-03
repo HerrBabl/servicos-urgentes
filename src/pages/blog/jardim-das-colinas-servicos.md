@@ -168,7 +168,7 @@ Furar paredes em prédios novos sem consultar a planta "As-Built". No Colinas, m
 | **Complexidade** | Alta (Sistemas Finos) | Média (Vertical) | Alta (Grandes Áreas) |
 | **Custo de Visita** | R$ 120 - R$ 200 | R$ 100 - R$ 180 | R$ 120 - R$ 200 |
 
-💡 **Mora em casa antiga?** O desafio é outro. Veja nosso [guia de retrofit para a Vila Adyana](/blog/retrofit-vila-adyana).
+💡 **Mora em casa antiga?** O desafio é outro. Veja nosso [guia de retrofit para a Vila Adyana](/blog/vila-adyana-guia/).
 
 ---
 

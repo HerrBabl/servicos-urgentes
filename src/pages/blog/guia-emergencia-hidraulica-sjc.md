@@ -85,7 +85,7 @@ Nossa base de dados de chamados em 2025 revelou padrões específicos para cada 
 
 ### Vila Adyana e Centro
 * **O Problema:** **Tubulações Galvanizadas Antigas**. Imóveis das décadas de 70/80 ainda possuem canos de ferro que enferrujam de dentro para fora, causando "água amarelada" e vazamentos constantes.
-* **A Solução:** [Retrofit Hidráulico](/blog/retrofit-vila-adyana). Substituição gradual por PPR ou PEX, materiais modernos e resistentes.
+* **A Solução:** [Retrofit Hidráulico](/blog/vila-adyana-guia/). Substituição gradual por PPR ou PEX, materiais modernos e resistentes.
 * **Saiba Mais:** Entenda mais sobre [modernização hidráulica em casas clássicas da Vila Adyana](/bairros/vila-adyana/).
 
 ### Urbanova e Jardins do Golfe
