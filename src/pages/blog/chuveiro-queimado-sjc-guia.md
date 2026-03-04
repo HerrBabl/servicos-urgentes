@@ -21,8 +21,8 @@ faqSchema:
     answer: "A estimativa média de mercado para troca de resistência em São José dos Campos varia entre R$ 60 e R$ 90 (apenas mão de obra), mais o custo da peça. Atendimentos noturnos ou em finais de semana podem ter acréscimos. Sempre confirme o valor total com o profissional antes da visita."
   - question: "Quanto tempo demora para instalar uma resistência nova?"
     answer: "A troca de resistência costuma ser rápida: 20-40 minutos em média. O eletricista desliga o disjuntor, substitui a peça queimada e testa o aquecimento. Em bairros centrais como Vila Adyana ou Centro, o deslocamento também costuma ser ágil."
-  - question: "Posso trocar a resistência sozinho ou preciso de eletricista?"
-    answer: "Embora seja possível trocar sozinho, recomendamos eletricista se: (1) você não souber identificar o disjuntor correto, (2) houver cheiro de queimado ou faíscas, ou (3) a fiação parecer antiga/danificada. A segurança deve vir sempre em primeiro lugar."
+  - question: "Preciso de eletricista para trocar resistência de chuveiro em SJC?"
+    answer: "Sim. Embora pareça simples, a troca envolve trabalho em componentes elétricos energizados. Qualquer erro de conexão pode causar choque ou curto-circuito. Chame um eletricista verificado — o serviço é rápido (20-40 min) e o custo é baixo comparado ao risco."
   - question: "Por que o chuveiro esquenta pouco mesmo com resistência nova?"
     answer: "Causas comuns incluem: potência da resistência incompatível (verifique a voltagem e watts), disjuntor desarmando precocemente, ou chave de temperatura na posição errada ('verão' em dias frios). Um eletricista pode medir a tensão para confirmar."
   - question: "Atendem emergências de chuveiro em Urbanova e Aquarius à noite?"
@@ -203,9 +203,9 @@ Não arrisque a segurança da sua família.
 </details>
 
 <details class="border-b border-gray-200 py-4">
-  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Posso trocar a resistência sozinho ou preciso de eletricista?</summary>
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Preciso de eletricista para trocar resistência de chuveiro em SJC?</summary>
   <div class="mt-3 text-gray-700 pl-4">
-    Embora seja possível trocar sozinho, recomendamos eletricista se: (1) você não souber identificar o disjuntor correto, (2) houver cheiro de queimado ou faíscas, ou (3) a fiação parecer antiga/danificada. A segurança deve vir sempre em primeiro lugar.
+    Sim. Embora pareça simples, a troca envolve trabalho em componentes elétricos energizados. Qualquer erro de conexão pode causar choque ou curto-circuito. Chame um eletricista verificado — o serviço é rápido (20-40 min) e o custo é baixo comparado ao risco.
   </div>
 </details>
 
