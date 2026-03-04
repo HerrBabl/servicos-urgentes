@@ -251,10 +251,20 @@ const serviceSchema = isNeighborhood ? {
     <meta property="og:type" content={isBlog ? "article" : "website"} />
     <meta property="og:locale" content="pt_BR" />
     
-    <!-- Twitter Card Meta Tags -->
+   <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+
+    <!-- Google Analytics 4 — G-BQ3ZV7T8LJ -->
+    <!-- Added 2026-03-04: tag was missing from codebase, GA4 showed zero data collection -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ3ZV7T8LJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BQ3ZV7T8LJ');
+    </script>
   </head>
   <body>
     <Header />

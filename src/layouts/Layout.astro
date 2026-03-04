@@ -104,7 +104,17 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
     <!-- ✅ ADDED: Named head slot — allows child pages to inject page-specific
          schema (FAQPage, Service, BreadcrumbList) and OG/Twitter meta tags
          directly into <head>. Zero impact on existing pages that don't use it. -->
-    <slot name="head" />
+    <!-- Google Analytics 4 — G-BQ3ZV7T8LJ -->
+<!-- Added 2026-03-04: tag was missing from codebase, GA4 showed zero data collection -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ3ZV7T8LJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BQ3ZV7T8LJ');
+</script>
+
+<slot name="head" />
 
   </head>
   <body>
