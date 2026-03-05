@@ -106,12 +106,12 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
          directly into <head>. Zero impact on existing pages that don't use it. -->
     <!-- Google Analytics 4 — G-BQ3ZV7T8LJ -->
 <!-- Added 2026-03-04: tag was missing from codebase, GA4 showed zero data collection -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ3ZV7T8LJ"></script>
-<script>
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_ID}`}></script>
+<script define:vars={{ gaId: import.meta.env.PUBLIC_GA_ID }}>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-BQ3ZV7T8LJ');
+  gtag('config', gaId);
 </script>
 
 <slot name="head" />

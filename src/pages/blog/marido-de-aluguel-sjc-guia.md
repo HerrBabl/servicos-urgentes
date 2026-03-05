@@ -13,7 +13,7 @@ imageAlt: "Profissional realizando reparos residenciais com ferramentas adequada
 tags: ["Marido de Aluguel", "Pequenos Reparos", "SJC", "Montagem de Móveis"]
 slug: "marido-de-aluguel-sjc-guia"
 canonicalURL: "https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia"
-keywords: "marido de aluguel sjc, pequenos reparos são josé dos campos, montador de móveis sjc, marido de aluguel sjc, instalar cortina aquarius, quanto custa hora marido de aluguel"
+keywords: "marido de aluguel são josé dos campos, pequenos reparos sjc, montador de móveis são josé dos campos, marido de aluguel sjc, instalar cortina aquarius, quanto custa hora marido de aluguel"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Vila Ema, Satélite"
 faqSchema:
