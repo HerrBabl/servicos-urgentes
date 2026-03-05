@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ContentLayout.astro
+layout: ../layouts/ContentLayout.astro
 title: "Política de Privacidade — Serviços Urgentes SJC"
 description: "Política de Privacidade do Serviços Urgentes. Saiba como coletamos, usamos e protegemos seus dados conforme a LGPD."
 date: "2026-03-04T19:00:00-03:00"
