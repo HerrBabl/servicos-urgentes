@@ -581,8 +581,9 @@ if (!svc || !nbh) {
 // ── SEO METADATA ───────────────────────────────────────────────────────────────
 // Dynamic per combo — every one of the 45 pages has unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
-const pageTitle       = `${svc.displayName} em ${nbh.displayName}, SJC — Profissionais Verificados 24h`;
-const pageDescription = `Precisa de ${svc.heroKeyword} em ${nbh.displayName}? ${svc.urgencyPhrase.split('—')[0].trim()}. Conectamos você a técnicos da região com 4+ estrelas. Atendimento 24h em São José dos Campos.`.substring(0, 160);
+const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
+const pageTitle = `${svc.displayName} em ${nbh.displayName} — ${svc.heroKeyword} para ${regionLabel} de SJC`;
+const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em SJC.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
 const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} são josé dos campos, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
 const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=80&w=800`;
@@ -708,11 +709,11 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
 
       <!-- H1: Primary keyword = "[Service] em [Neighborhood]" -->
       <h1 class="text-3xl md:text-5xl font-black leading-tight mb-4">
-        {svc.icon} {svc.displayName} em {nbh.displayName}
-        <span class="block text-yellow-300 text-2xl md:text-3xl font-bold mt-2">
-          São José dos Campos · Profissionais Verificados 24h
-        </span>
-      </h1>
+  {svc.icon} {svc.displayName} em {nbh.displayName}
+  <span class="block text-yellow-300 text-2xl md:text-3xl font-bold mt-2">
+    {nbh.region} de SJC · {nbh.responseTime} · Profissionais Verificados
+  </span>
+</h1>
 
       <!-- Neighborhood profile + crisis scenario — unique per combo, no boilerplate -->
       <p class="text-lg md:text-xl text-red-100 mb-8 max-w-2xl leading-relaxed">
