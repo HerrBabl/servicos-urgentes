@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Parque Residencial Aquarius - SJC 24h"
 description: "Morador do Aquarius? Encontre encanadores, eletricistas e chaveiros verificados na Zona Oeste. Atendimento rápido para Ed. Pátio das Américas e arredores."
 date: "2026-01-26T12:00:00-03:00"
-dateModified: "2026-01-26T12:00:00-03:00"
+dateModified: "2026-03-10T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -27,6 +27,8 @@ faqSchema:
     answer: "Devido à localização estratégica próxima ao Anel Viário e Dutra, o tempo médio de chegada é de 20 a 40 minutos para profissionais baseados na Zona Oeste e Jardim das Indústrias."
   - question: "Qual a melhor rota para profissionais chegarem no Aquarius com trânsito?"
     answer: "Profissionais vindos do Centro ou Zona Sul devem evitar a Cassiano Ricardo (engarrafamento 17h-19h) e usar a Marginal Dutra → saída Shopping Colinas → Av. Tubarão. Tempo médio: 25-35 minutos. Da Zona Leste/Urbanova, via Anel Viário é mais rápido (20-30 min)."
+  - question: "Marido de Aluguel atende condomínios no Parque Aquarius?"
+    answer: "Sim. Profissionais de reparos gerais (marido de aluguel) cadastrados no Serviços Urgentes atendem os condomínios do Parque Residencial Aquarius, incluindo Sunset Park, Aquarius Resort, Central Park e edifícios da Av. Tubarão. Os serviços mais solicitados são instalação de suportes de TV em drywall e porcelanato, montagem de acabamentos pós-obra, vedação de box de banheiro e instalação de varões de cortina. Tempo médio de chegada: 25 a 40 minutos. Importante: informe o nome do condomínio ao agendar — muitos exigem cadastro prévio do prestador na portaria com 24h de antecedência."
 ---
 
 <span id="top"></span>
@@ -47,6 +49,7 @@ Se você mora no Aquarius, sabe que um vazamento no 15º andar não é apenas um
    - [Eletricista (Padrão Moderno)](#eletricista)
    - [Chaveiro (Segurança)](#chaveiro)
    - [Ar-Condicionado (Split/Cassete)](#ar-condicionado)
+   - [Marido de Aluguel (Reparos)](#marido-de-aluguel)
 3. [Tabela de Preços Estimados](#precos)
 4. [Acesso e Cobertura](#localizacao)
 5. [Perguntas Frequentes](#faq)
@@ -125,6 +128,26 @@ Encanadores equipados com manômetros para medir pressão e ferramentas para tub
 
 ---
 
+<span id="marido-de-aluguel"></span>🛠️ Marido de Aluguel (Reparos e Instalações)
+O Aquarius tem uma demanda alta e específica por Marido de Aluguel — diferente do perfil de bairros com casas, aqui os pedidos são quase sempre ligados ao apartamento em si: acabamentos que a construtora não entregou, instalações pós-mudança e pequenos reparos do dia a dia que um encanador ou eletricista especializado não vale a pena acionar.
+Serviços mais solicitados nos condomínios do Aquarius:
+
+Instalação de suporte de TV em drywall ou porcelanato: A maioria das paredes dos apartamentos do Aquarius é de drywall ou tem revestimento de porcelanato — materiais que exigem bucha química (não bucha simples de nylon) e técnica específica. Um suporte de 65" mal fixado em drywall sem a bucha certa cai com o aparelho.
+Montagem de acabamentos pós-obra: Construtoras entregam apartamentos com puxadores de cozinha faltando, espelhos de tomada soltos, rodapé de cozinha por colocar e dobradiças por regular — uma visita de 2h resolve tudo de uma vez.
+Instalação de varões, persianas e cortinas black-out: As janelas amplas do padrão construtivo do Aquarius exigem fixação no batente ou na alvenaria — nunca no gesso ou drywall, que não suporta o peso de trilhos pesados.
+Vedação de box de banheiro: Revestimentos de mármore e porcelanato branco comuns no Aquarius são sensíveis a silicone genérico — mancha e descasca em meses. O profissional certo usa silicone neutro adequado para pedras claras.
+Regulagem de portas de armário e gavetas: Movimento do prédio nos primeiros anos pós-obra desalinha portas de cozinha e armários de quarto com frequência.
+
+
+💡 Dica para moradores do Aquarius: Muitos condomínios da região exigem cadastro prévio de prestadores na portaria (RG, CPF e placa do veículo, com 24h de antecedência). Ao agendar, informe o nome do condomínio para o profissional se preparar — evita atrasos na portaria.
+
+Um Marido de Aluguel bem avaliado resolve de 3 a 5 desses itens em uma única visita de 2 horas, custando entre R$ 200 e R$ 400 — bem abaixo de contratar profissionais separados para cada tarefa.
+→ Encontrar Marido de Aluguel no Aquarius
+
+⬆️ Voltar ao topo
+
+---
+
 ## <span id="precos"></span>💰 Tabela de Preços Estimados (Aquarius 2026)
 
 **Por que os valores no Aquarius podem ser diferentes?**
@@ -140,7 +163,8 @@ Encanadores equipados com manômetros para medir pressão e ferramentas para tub
 | **Desentupimento (Pia/Ralo)** | R$ 200 - R$ 450 | Máquina elétrica (sem quebrar) |
 | **Abertura de Porta Blindada** | R$ 200 - R$ 400 | Sem danificar a porta |
 | **Limpeza de Ar-Condicionado** | R$ 200 - R$ 350 | Por aparelho (Split) |
-| **Instalação de Suporte TV** | R$ 120 - R$ 250 | Parede Drywall/Alvenaria |
+| **Instalação de Suporte TV** | R$ 120 - R$ 250 | Parede Drywall/Alvenaria (bucha química) |
+| **Marido de Aluguel (visita)** | R$ 150 - R$ 350 | Pacote 3–5 serviços em 1 visita |
 
 <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
   <div class="flex items-start">
@@ -213,6 +237,13 @@ A rede de profissionais atende todos os grandes complexos, incluindo **Sunset Pa
   <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Qual a melhor rota para profissionais chegarem no Aquarius com trânsito?</summary>
   <div class="mt-3 text-gray-700 pl-4">
     Profissionais vindos do Centro ou Zona Sul devem evitar a Cassiano Ricardo (engarrafamento 17h-19h) e usar a Marginal Dutra → saída Shopping Colinas → Av. Tubarão. Tempo médio: 25-35 minutos. Da Zona Leste/Urbanova, via Anel Viário é mais rápido (20-30 min).
+  </div>
+</details>
+
+<details class="border-b border-gray-200 py-4">
+  <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Marido de Aluguel atende condomínios no Parque Aquarius?</summary>
+  <div class="mt-3 text-gray-700 pl-4">
+    Sim. Profissionais de reparos gerais (marido de aluguel) cadastrados no Serviços Urgentes atendem os condomínios do Parque Residencial Aquarius, incluindo Sunset Park, Aquarius Resort, Central Park e edifícios da Av. Tubarão. Os serviços mais solicitados são instalação de suportes de TV em drywall e porcelanato, montagem de acabamentos pós-obra, vedação de box de banheiro e instalação de varões de cortina. Tempo médio de chegada: 25 a 40 minutos. Importante: informe o nome do condomínio ao agendar — muitos exigem cadastro prévio do prestador na portaria com 24h de antecedência.
   </div>
 </details>
 
