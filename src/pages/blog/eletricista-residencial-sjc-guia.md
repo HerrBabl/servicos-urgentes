@@ -230,7 +230,7 @@ O residencial atua em baixa tensão (até 220V) em casas e apartamentos. Para su
 
 <details>
 <summary><strong>Eletricista faz instalação de ar-condicionado?</strong></summary>
-A parte elétrica sim — disjuntor dedicado, fiação e tomada. A instalação física do equipamento (suporte, tubulação de gás) é responsabilidade do técnico de ar-condicionado. Para instalação completa, veja nossos <a href="/servicos/ar-condicionado/">técnicos de ar-condicionado em SJC</a>.
+A parte elétrica sim — disjuntor dedicado, fiação e tomada. A instalação física do equipamento (suporte, tubulação de gás) é responsabilidade do técnico de ar-condicionado. Para instalação completa, veja os <a href="/servicos/ar-condicionado/">técnicos de ar-condicionado verificados em SJC</a>.
 </details>
 
 <details>
