@@ -301,7 +301,7 @@ Especialista em detecção eletrônica de vazamentos e inspeção por câmera
 <details class="border-b border-gray-200 py-4">
   <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Desentupidora atende 24h no Aquarius e Urbanova?</summary>
   <div class="mt-3 text-gray-700 pl-4">
-    Sim. Profissionais da região atendem emergências 24h em todos os bairros de SJC, incluindo condomínios fechados. Informe no primeiro contato que é acesso controlado — alguns profissionais têm cadastro prévio. Tempo médio de chegada: 30–50 minutos dependendo do horário.
+    Sim. Profissionais verificados no diretório atendem emergências de desentupimento 24h em todos os bairros de SJC, incluindo condomínios fechados do Aquarius e Urbanova. Informe no primeiro contato que é acesso controlado — alguns profissionais têm cadastro prévio nesses complexos. Tempo médio de chegada: 30–50 minutos dependendo do horário.
   </div>
 </details>
 
