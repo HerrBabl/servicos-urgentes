@@ -622,14 +622,14 @@ const pageSchema = {
       "url": canonicalURL
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Início",              "item": { "@id": "https://servicosurgentes.com/" } },
-{ "@type": "ListItem", "position": 2, "name": "Serviços",            "item": { "@id": "https://servicosurgentes.com/servicos/" } },
-{ "@type": "ListItem", "position": 3, "name": svc.displayNamePlural, "item": { "@id": `https://servicosurgentes.com/servicos/${service}/` } },
-{ "@type": "ListItem", "position": 4, "name": nbh.displayName,       "item": { "@id": canonicalURL } }
-      ]
-    },
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início",              "item": { "@type": "WebPage", "@id": "https://servicosurgentes.com/",                                    "id": "https://servicosurgentes.com/" } },
+    { "@type": "ListItem", "position": 2, "name": "Serviços",            "item": { "@type": "WebPage", "@id": "https://servicosurgentes.com/servicos/",                           "id": "https://servicosurgentes.com/servicos/" } },
+    { "@type": "ListItem", "position": 3, "name": svc.displayNamePlural, "item": { "@type": "WebPage", "@id": `https://servicosurgentes.com/servicos/${service}/`,                "id": `https://servicosurgentes.com/servicos/${service}/` } },
+    { "@type": "ListItem", "position": 4, "name": nbh.displayName,       "item": { "@type": "WebPage", "@id": canonicalURL,                                                       "id": canonicalURL } }
+  ]
+},
     {
       "@type": "FAQPage",
       "mainEntity": faqs.map(faq => ({
