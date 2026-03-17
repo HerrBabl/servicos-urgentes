@@ -16,7 +16,7 @@ export const encanadores = [
     "whatsapp": "https://wa.me/5512988047080"
   },
   {
-    "business_name": "MV Marido de Aluguel | Faz Tudo SJC",
+    "business_name": "Marido de Aluguel em SJC",
     "phone_number": "12981830046",
     "star_rating": 4.7,
     "total_reviews": 56,

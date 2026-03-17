@@ -704,7 +704,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512991297416"
   },
   {
-    "business_name": "CHAVEIRO E CARIMBO SJ SUPRI",
+    "business_name": "SJ SUPRI CHAVEIRO E CARIMBOS",
     "phone_number": "1235124255",
     "star_rating": 5,
     "total_reviews": 30,

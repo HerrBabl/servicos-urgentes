@@ -76,10 +76,10 @@ export const maridos = [
     ]
   },
 
-  // 4. MV Marido de Aluguel
+  // 4. Marido de Aluguel em SJC
   {
     id: 4,
-    name: "MV Marido de Aluguel | Faz Tudo SJC",
+    name: "Marido de Aluguel em SJC",
     rating: 4.7,
     reviews: 56,
     neighborhood: "Parque Residencial Aquarius",

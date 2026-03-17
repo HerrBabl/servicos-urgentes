@@ -212,7 +212,7 @@ export const ar_condicionado = [
     "phone_number": "1239117399",
     "star_rating": 4.4,
     "total_reviews": 128,
-    "address": "Av. Dr. Nélson d'Ávila, 691 - Jardim Sao Dimas, São José dos Campos - SP, 12245-030",
+    "address": "Av. Dr. Nélson d'Ávila, 685 - Jardim Sao Dimas, São José dos Campos - SP, 12245-030",
     "neighborhood": "Jardim São Dimas",
     "website": "https://www.almiranterefrigeracao.com.br/",
     "service_type": "Ar condicionado",
