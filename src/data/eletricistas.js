@@ -598,7 +598,7 @@ export const eletricistas = [
     "total_reviews": 19,
     "address": "Av. Salinas, 465 - Bsq Dos Eucaliptos, São José dos Campos - SP, 12233-590",
     "neighborhood": "Bosque dos Eucaliptos",
-    "website": "N/A",
+    "website": "https://www.servmil.com.br/",
     "service_type": "Eletricista",
     "is_24h": false,
     "last_updated": "2025-10-03",

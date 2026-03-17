@@ -623,20 +623,4 @@ export const ar_condicionado = [
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/551239334110"
   },
-  {
-    "business_name": "Frigelar",
-    "phone_number": "1221228999",
-    "star_rating": 4.1,
-    "total_reviews": 254,
-    "address": "R. Dinamarca, 225 - Vila Nair, São José dos Campos - SP, 12231-200",
-    "neighborhood": "Vila Nair",
-    "website": "http://www.frigelar.com.br/?utm_source=google&utm_medium=local&utm_campaign=fl44&utm_id=12209560184830538121",
-    "service_type": "Ar condicionado",
-    "is_24h": false,
-    "last_updated": "2025-10-03",
-    "status": "Active",
-    "Identifies as women-owned": false,
-    "LGBTQ+ friendly": false,
-    "whatsapp": "https://wa.me/551221228999"
-  }
 ];
