@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanamento em Parque Aquarius: Guia Completo para Locatários e Proprietários"
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07T10:00:00-03:00"
-dateModified: "2026-01-20T11:00:00-03:00"
+dateModified: "2026-03-18T10:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -244,6 +244,24 @@ Vai se mudar para um apartamento no Aquarius? Faça este checklist na vistoria:
 - **[Vila Adyana](/blog/vila-adyana-guia):** Casas antigas, tubulações de ferro (retrofit)  
 
 Cada bairro tem desafios hidráulicos específicos.
+
+---
+
+## 🔧 Encanadores Verificados no Parque Residencial Aquarius
+
+Os profissionais abaixo atendem o Aquarius com regularidade e têm experiência em edifícios de alto padrão com válvulas redutoras de pressão, tubulações PEX e exigências de condomínio (EPIs, seguro, cadastro na portaria).
+
+**Tuba Faz Tudo — Serviços Hidráulicos** · ⭐ 4,8 · Zona Oeste / Aquarius  
+📞 Disponível via diretório · Especialidade: caça-vazamento eletrônico e reparo em prumadas
+
+**Reparos Hidráulicos SJC** · ⭐ 4,6 · Cobertura Zona Oeste  
+📞 Disponível via diretório · Especialidade: válvula redutora de pressão e flexíveis
+
+> 💡 **Como agendar em condomínio fechado:** Ao contatar o profissional, informe o nome do condomínio (ex: Sunset Park, Aquarius Resort, Central Park). Muitos condomínios no Aquarius exigem cadastro prévio do prestador na portaria com até 24h de antecedência — pergunte ao profissional se ele já é cadastrado.
+
+👉 **[Ver todos os encanadores verificados no Aquarius →](/servicos/encanador/parque-residencial-aquarius/)**
+
+[⬆️ Voltar ao topo](#top)
 
 ---
 
