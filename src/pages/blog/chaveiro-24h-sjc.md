@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chaveiro 24h em SJC: Guia Completo para Emergências 2026"
 description: "Trancado para fora, chave quebrada ou fechadura emperrada em SJC? Guia completo de chaveiros 24h verificados no Aquarius, Urbanova, Centro e Vila Adyana."
 date: "2026-03-04T12:00:00-03:00"
-dateModified: "2026-03-13T12:00:00-03:00"
+dateModified: "2026-03-18T10:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -126,6 +126,41 @@ Mix de residências ao longo da Av. Andrômeda e Av. Cassiopeia com fechaduras c
 [⬆️ Voltar ao topo](#inicio)
 
 ---
+
+<a id="tipos-fechadura"></a>
+
+## 🔐 Tipos de Fechadura por Bairro em SJC
+
+A escolha do chaveiro certo depende do tipo de fechadura, e isso varia muito por região:
+
+| Região | Tipo Predominante | Complexidade | Preço Médio Abertura |
+|---|---|---|---|
+| Centro / São Dimas | Tetra e sobrepor antiga | Média | R$ 80–150 |
+| Vila Adyana | Tetra e cilindro padrão | Média | R$ 80–150 |
+| Parque Aquarius | Multiponto e digital | Alta | R$ 200–400 |
+| Urbanova | Digital, biométrica, automação | Muito alta | R$ 250–500 |
+| Jardim Satélite | Cilindro padrão e tetra | Baixa–Média | R$ 80–150 |
+| Bosque dos Eucaliptos | Cilindro padrão | Baixa | R$ 80–120 |
+
+<div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+    </div>
+    <div class="ml-3">
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <div class="text-sm text-yellow-700 space-y-2">
+        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+[⬆️ Voltar ao topo](#inicio)
 
 <a id="chaveiros-verificados"></a>
 
