@@ -38,7 +38,17 @@ const {
 } = Astro.props;
 
 // 3. Define Canonical URL
-const canonicalURL = Astro.props.canonicalURL || frontmatter.canonicalURL || new URL(Astro.url.pathname, Astro.site).href;
+// Ensures canonical URLs always use trailing slash format
+// Fixes: Ahrefs "Canonical points to redirect" error on 31 pages (Mar 2026)
+const ensureTrailingSlash = (url: string) => {
+  if (!url) return url;
+  if (url.match(/\.[a-zA-Z]{2,4}$/)) return url;
+  return url.endsWith('/') ? url : url + '/';
+};
+
+const canonicalURL = ensureTrailingSlash(
+  Astro.props.canonicalURL || frontmatter.canonicalURL || new URL(Astro.url.pathname, Astro.site).href
+);
 
 // Helper function to ensure ISO 8601 format with timezone
 const formatDateISO = (dateStr: string | undefined) => {
