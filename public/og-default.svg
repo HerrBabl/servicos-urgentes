@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Red gradient background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b91c1c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <!-- Subtle circle decorations -->
+    <radialGradient id="circleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="url(#circleGrad)" />
+  <circle cx="1100" cy="530" r="250" fill="url(#circleGrad)" />
+  <circle cx="1050" cy="80" r="120" fill="url(#circleGrad)" />
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="630" fill="#ffffff" opacity="0.2" />
+
+  <!-- Icon area - alert bell circle -->
+  <circle cx="180" cy="315" r="70" fill="#ffffff" opacity="0.15" />
+  <text x="180" y="340" font-family="Arial, sans-serif" font-size="72" text-anchor="middle">🚨</text>
+
+  <!-- Main title -->
+  <text
+    x="290"
+    y="280"
+    font-family="Inter, Arial Black, sans-serif"
+    font-size="72"
+    font-weight="900"
+    fill="white"
+    letter-spacing="-1"
+  >Serviços Urgentes</text>
+
+  <!-- Subtitle -->
+  <text
+    x="290"
+    y="355"
+    font-family="Inter, Arial, sans-serif"
+    font-size="38"
+    font-weight="400"
+    fill="white"
+    opacity="0.9"
+  >Emergência 24h em São José dos Campos</text>
+
+  <!-- Divider line -->
+  <rect x="290" y="390" width="620" height="3" fill="#ffffff" opacity="0.3" rx="2" />
+
+  <!-- Service pills -->
+  <!-- Encanador -->
+  <rect x="290" y="415" width="175" height="44" rx="22" fill="#ffffff" opacity="0.15" />
+  <text x="377" y="443" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">🔧 Encanador</text>
+
+  <!-- Eletricista -->
+  <rect x="478" y="415" width="185" height="44" rx="22" fill="#ffffff" opacity="0.15" />
+  <text x="570" y="443" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">⚡ Eletricista</text>
+
+  <!-- Chaveiro -->
+  <rect x="676" y="415" width="165" height="44" rx="22" fill="#ffffff" opacity="0.15" />
+  <text x="758" y="443" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">🔑 Chaveiro</text>
+
+  <!-- Domain badge bottom right -->
+  <rect x="870" y="555" width="300" height="48" rx="24" fill="#ffffff" opacity="0.12" />
+  <text
+    x="1020"
+    y="585"
+    font-family="Inter, Arial, sans-serif"
+    font-size="24"
+    font-weight="600"
+    fill="white"
+    text-anchor="middle"
+    opacity="0.9"
+  >servicosurgentes.com</text>
+</svg>
