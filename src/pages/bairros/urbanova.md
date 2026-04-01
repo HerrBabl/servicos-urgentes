@@ -283,7 +283,7 @@ O maior vilão do atendimento no Urbanova é a **portaria**. Um técnico pode pe
 </details>
 
 <div class="mt-12 text-center">
-  <a href="/servicos/marido-de-aluguel" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+  <a href="/servicos/marido-de-aluguel/" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
     Encontrar Especialista para Urbanova
   </a>
 </div>

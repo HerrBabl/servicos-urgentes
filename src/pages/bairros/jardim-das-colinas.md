@@ -238,7 +238,7 @@ Em torres comerciais, o cadastro costuma ser feito no térreo com foto e biometr
 </details>
 
 <div class="mt-12 text-center">
-  <a href="/servicos/marido-de-aluguel" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+  <a href="/servicos/marido-de-aluguel/" class="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
     Encontrar Profissional no Jardim das Colinas
   </a>
 </div>
