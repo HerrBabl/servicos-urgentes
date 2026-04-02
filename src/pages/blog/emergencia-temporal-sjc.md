@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Temporal em SJC? O Que Fazer Agora: Guia de Emergência 24h"
 description: "Tempestade causou danos em São José dos Campos? Saiba o que fazer nas próximas 2 horas. Guia completo para Urbanova, Aquarius, Vila Tatetuba e Centro com profissionais 24h."
 date: "2026-02-03T08:30:00-03:00"
-dateModified: "2026-02-03T08:30:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -30,8 +30,6 @@ faqSchema:
 ---
 
 <span id="top"></span>
-
-# Temporal em SJC? O Que Fazer Agora: Guia de Emergência 24h
 
 > **🗓️ Atualizado:** 3 de Fevereiro de 2026
 
