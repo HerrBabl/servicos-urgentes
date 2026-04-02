@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Jardim das Colinas, SJC: Guia de Manutenção e Serviços de Alto Padrão"
 description: "Guia completo de manutenção para o Jardim das Colinas. Encontre especialistas em ar-condicionado, carregadores EV e hidráulica de alta pressão em SJC."
 date: "2026-01-15T14:00:00-03:00"
-dateModified: "2026-01-20T11:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -28,8 +28,6 @@ faqSchema:
   - question: "Marido de aluguel faz furação em porcelanato importado?"
     answer: "Sim, profissionais de manutenção (marido de aluguel) qualificados utilizam brocas diamantadas e ferramentas específicas para furação em revestimentos de alto padrão, garantindo que o serviço seja feito sem trincas ou danos ao material."
 ---
-
-# Jardim das Colinas, SJC: Guia de Manutenção e Serviços de Alto Padrão
 
 O Jardim das Colinas não é apenas um endereço; é um dos epicentros de valorização imobiliária em São José dos Campos. Vizinho ao Colinas Shopping e ao emblemático Arco da Inovação, o bairro abriga desde mansões tradicionais até os complexos verticais mais tecnológicos da cidade, como o residencial **Helbor Paesaggio** e os centros empresariais **Helbor Corporate Tower** e **Helbor Offices**.
 
