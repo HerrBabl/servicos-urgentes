@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Retrofit na Vila Adyana: Guia de Modernização para Casas Antigas em SJC"
 description: "Água amarelada ou fusível queimando? Saiba como modernizar a hidráulica e elétrica de casas antigas na Vila Adyana preservando o charme. Guia completo."
 date: "2025-12-20T10:00:00-03:00"
-dateModified: "2026-01-20T11:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 category: "Guia de Bairro"
 author:
   name: "Equipe Serviços Urgentes"
@@ -28,8 +28,6 @@ faqSchema:
   - question: "Posso fazer retrofit aos poucos ou preciso fazer tudo de uma vez?"
     answer: "Pode fazer por etapas, mas priorize por risco: urgente (fiação exposta, água amarelada constante) → importante (tomadas sem terra, fusíveis antigos) → melhorias (estética, eficiência). O ideal é fazer hidráulica e elétrica juntas para evitar quebrar paredes duas vezes, mas se o orçamento não permitir, comece pelos riscos imediatos de segurança."
 ---
-
-# Retrofit na Vila Adyana: Como Cuidar do "Coração" da Sua Casa
 
 Quem mora na **[Vila Adyana](/bairros/vila-adyana/)** sabe: não é apenas um bairro, é um estilo de vida. As ruas arborizadas, o Parque Vicentina Aranha como quintal e a arquitetura cheia de personalidade fazem daqui um dos lugares mais desejados de São José dos Campos.
 
