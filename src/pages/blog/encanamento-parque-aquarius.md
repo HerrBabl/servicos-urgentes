@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanamento em Parque Aquarius: Guia Completo para Locatários e Proprietários"
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07T10:00:00-03:00"
-dateModified: "2026-03-18T10:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -28,8 +28,6 @@ faqSchema:
   - question: "Quanto custa chamar encanador de emergência no Parque Aquarius?"
     answer: "Visita técnica diagnóstica: R$ 100-180. Reparos comuns: troca de registro R$ 150-300, reparo de vazamento R$ 200-500, troca de válvula redutora de pressão R$ 400-800. Atendimentos noturnos e finais de semana têm acréscimo de 30-50%. Sempre solicite orçamento antes de autorizar o serviço."
 ---
-
-# Encanamento em Parque Aquarius: Guia Completo para Apartamentos
 
 O Parque Residencial Aquarius é o coração pulsante da zona oeste de São José dos Campos. Com sua alta densidade de edifícios de alto padrão e uma população vibrante, é também um dos bairros com maior volume de chamados para serviços de manutenção — especialmente **hidráulica**.
 
