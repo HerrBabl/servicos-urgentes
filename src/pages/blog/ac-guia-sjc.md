@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "AC Parou de Funcionar em SJC? Guia de Emergência 2026"
 description: "AC parou no calor de SJC? Veja o que fazer agora, quanto custa o conserto e técnicos verificados no Aquarius, Urbanova e Centro."
 date: "2025-11-17T10:00:00-03:00"
-dateModified: "2026-03-16T12:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 category: "Guia de Emergência"
 author:
   name: "Equipe Serviços Urgentes"
@@ -30,8 +30,6 @@ faqSchema:
 ---
 
 <span id="top"></span>
-
-# Ar-Condicionado Parou de Funcionar? Guia Completo de Emergência para São José dos Campos
 
 É meio da tarde, o termômetro marca 38°C, e de repente seu ar-condicionado simplesmente para de funcionar. Em São José dos Campos, especialmente durante o verão, um ar-condicionado que não funciona pode transformar sua casa ou escritório em um forno. Este guia completo vai te ajudar a resolver o problema rapidamente.
 
