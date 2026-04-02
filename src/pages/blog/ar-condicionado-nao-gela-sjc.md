@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "AC Não Gela em SJC? Daikin, Comfee, Consul — Técnico Urgente Disponível"
 description: "Daikin, Comfee, Consul ou outra marca não está gelando em SJC? Veja no diretório os técnicos especializados disponíveis hoje em São José dos Campos."
 date: "2026-01-15T16:00:00-03:00"
-dateModified: "2026-02-28T20:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -28,8 +28,6 @@ faqSchema:
   - question: "Ar-condicionado saindo água por dentro, o que fazer?"
     answer: "Isso geralmente indica um entupimento no dreno ou sujeira excessiva na bandeja de condensado. Desligue o aparelho para evitar danos ao móvel e chame um técnico para realizar a limpeza e desobstrução do sistema."
 ---
-
-# Ar-Condicionado Não Gela? 5 Causas Comuns em SJC e Como Resolver
 
 Nada é mais frustrante do que ligar o ar-condicionado em um dia escaldante no Vale do Paraíba e perceber que ele está apenas ventilando ar morno. Em São José dos Campos, onde as temperaturas podem subir rapidamente, entender por que seu aparelho falhou é o primeiro passo para recuperar o conforto da sua casa ou escritório.
 
