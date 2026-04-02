@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Manutenção de Ar-Condicionado em SJC: Chuva, Mofo e Infiltração"
 description: "O seu ar-condicionado pinga quando chove? Guia completo para evitar mofo, infiltrações e problemas respiratórios em São José dos Campos."
 date: "2026-01-16T09:00:00-03:00"
-dateModified: "2026-01-24T18:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -28,10 +28,6 @@ faqSchema:
   - question: "Com que frequência devo fazer a higienização técnica?"
     answer: "Para uso residencial em SJC, recomenda-se uma vez por ano. Porém, em períodos muito úmidos ou em bairros com muitas árvores (como Urbanova e Aquarius), a recomendação é semestral para evitar colônias de fungos."
 ---
-
-# Manutenção de Ar-Condicionado em SJC: O Perigo da Chuva e Umidade
-
-> **📅 Última Atualização:** 24 de Janeiro de 2026
 
 O verão em São José dos Campos tem duas faces: o calor intenso e as **chuvas persistentes**. Atualmente, com a umidade relativa do ar acima de 90%, seu ar-condicionado enfrenta um inimigo invisível e perigoso: **o mofo e a condensação excessiva**.
 
