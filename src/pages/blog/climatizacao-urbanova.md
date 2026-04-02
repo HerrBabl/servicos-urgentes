@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Climatização em Urbanova: Soluções de Ar-Condicionado para Alto Padrão"
 description: "Mora no Urbanova? Descubra as melhores soluções de ar-condicionado (VRF, Cassette, Duto) para casas com pé-direito duplo e arquitetura moderna."
 date: "2025-12-22T10:00:00-03:00"
-dateModified: "2026-01-20T11:00:00-03:00"
+dateModified: "2026-04-02T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"  
   url: "https://servicosurgentes.com/sobre"  
@@ -28,8 +28,6 @@ faqSchema:
   - question: "Preciso reforçar a parte elétrica para instalar ar-condicionado VRF?"
     answer: "Sim, quase sempre. Casas no Urbanova com climatização completa precisam de carga elétrica entre 15-25 kW apenas para os ACs. Antes de comprar os equipamentos, faça uma avaliação de carga com eletricista qualificado. Pode ser necessário upgrades como: aumento de disjuntores, cabos de maior bitola, ou até revisão do padrão de entrada com a concessionária."
 ---
-
-# Climatização em Urbanova: O Desafio do Alto Padrão
 
 Quem escolhe viver no **Urbanova** busca espaço, segurança e, acima de tudo, conforto. Mas existe uma característica geográfica que todo morador novo logo percebe: **aqui é mais quente.**
 
