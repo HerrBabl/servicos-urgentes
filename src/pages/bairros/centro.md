@@ -257,6 +257,7 @@ Profissionais que atendem o Centro geralmente cobrem as regiões próximas:
 - **Vila Adyana** (clínicas e residências de alto padrão)
 - **Jardim São Dimas** (zona residencial tradicional)
 - **Vila Ema** (comercial e residencial misto)
+- **[Serviços em Santana](/bairros/santana/)** — Bairro vizinho com cobertura completa
 
 <span id="top"></span>
 
