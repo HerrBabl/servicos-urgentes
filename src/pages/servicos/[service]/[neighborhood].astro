@@ -203,6 +203,22 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1513694203232-719a899d4ef4',
     imageAlt: 'Bairro residencial Jardim Esplanada em São José dos Campos com casas e ruas próximas ao polo industrial',
   },
+  'santana': {
+  displayName: 'Santana',
+  region: 'Zona Norte',
+  description: 'bairro residencial consolidado com mix de casas e comércios, próximo ao Centro',
+  characteristics: 'residências de diferentes épocas, comércio local ativo, fácil acesso ao Centro pela Av. Rui Barbosa',
+  crisisScenario: 'a proximidade com o Centro e o mix de construções antigas e novas cria variações imprevisíveis na rede elétrica e hidráulica — um curto pode afetar quarteirões inteiros',
+  landmarks: 'próximo à Av. Rui Barbosa e à região da Zona Norte de SJC',
+  responseTime: '20–35 minutos',
+  nearbyNeighborhoods: [
+    { slug: 'centro',      name: 'Centro' },
+    { slug: 'sao-dimas',   name: 'São Dimas' },
+    { slug: 'vila-adyana', name: 'Vila Adyana' },
+  ],
+  unsplashId: '1502672260266-1c1ef2d93688',
+  imageAlt: 'Rua residencial no bairro Santana em São José dos Campos com casas e comércio local',
+},
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -558,6 +574,7 @@ export function getStaticPaths() {
     'jardim-satelite',
     'sao-dimas',
     'jardim-esplanada',
+    'santana',
   ];
 
   return services.flatMap(service =>
