@@ -49,6 +49,7 @@ import { maridos }         from '../../../data/maridos.js';
 // ══════════════════════════════════════════════════════════════════════════════
 const neighborhoodContext: Record<string, {
   displayName: string;
+  titleName: string;
   region: string;
   description: string;
   characteristics: string;
@@ -61,6 +62,7 @@ const neighborhoodContext: Record<string, {
 }> = {
   'parque-residencial-aquarius': {
     displayName: 'Parque Residencial Aquarius',
+    titleName: 'Aquarius',
     region: 'Zona Sul',
     description: 'condomínios de alto padrão, torres residenciais e famílias com alto poder aquisitivo',
     characteristics: 'apartamentos em andares altos, sistemas de pressurização de água, geradores, centrais de gás e portarias 24h',
@@ -77,6 +79,7 @@ const neighborhoodContext: Record<string, {
   },
   'urbanova': {
     displayName: 'Urbanova',
+    titleName: 'Urbanova',
     region: 'Zona Oeste',
     description: 'condomínios fechados de casas, lotes amplos e infraestrutura em desenvolvimento constante',
     characteristics: 'casas térreas e sobrados, obras contínuas gerando poeira e entulho, vias internas privadas e distância do centro',
@@ -94,6 +97,7 @@ const neighborhoodContext: Record<string, {
   'centro': {
     displayName: 'Centro',
     region: 'Centro',
+    titleName: 'Centro',
     description: 'comércios, prédios históricos de 50+ anos, clínicas, escritórios e trânsito intenso',
     characteristics: 'fiação elétrica de 40–60 anos, tubulação de ferro fundido, lajes sensíveis e restrições de estacionamento para profissionais',
     crisisScenario: 'um vazamento em loja da Rua XV em horário comercial pode gerar prejuízo de milhares de reais por hora de operação parada',
@@ -109,6 +113,7 @@ const neighborhoodContext: Record<string, {
   },
   'vila-adyana': {
     displayName: 'Vila Adyana',
+    titleName: 'Vila Adyana',
     region: 'Zona Leste',
     description: 'residências de alto padrão, clínicas médicas e escritórios corporativos próximos ao Centro',
     characteristics: 'casas e apartamentos modernos, alta concentração de consultórios e clínicas que exigem nota fiscal e horários flexíveis',
@@ -125,6 +130,7 @@ const neighborhoodContext: Record<string, {
   },
   'bosque-dos-eucaliptos': {
     displayName: 'Bosque dos Eucaliptos',
+    titleName: 'Bosque dos Eucaliptos',
     region: 'Zona Sul',
     description: 'casas com jardins, ruas arborizadas e famílias estabelecidas na Zona Sul',
     characteristics: 'casas térreas com quintais, encanamento em concreto antigo, raízes de árvores que invadem tubulações e sistemas elétricos dos anos 1980',
@@ -141,6 +147,7 @@ const neighborhoodContext: Record<string, {
   },
   'jardim-das-colinas': {
     displayName: 'Jardim das Colinas',
+    titleName: 'Jardim das Colinas',
     region: 'Zona Sul',
     description: 'casas de médio-alto padrão, ruas tranquilas e infraestrutura consolidada na Zona Sul',
     characteristics: 'casas com piscinas e sistemas de aquecimento solar, automação residencial e portões eletrônicos que exigem especialistas',
@@ -157,6 +164,7 @@ const neighborhoodContext: Record<string, {
   },
   'jardim-satelite': {
     displayName: 'Jardim Satélite',
+    titleName: 'Jardim Satélite',
     region: 'Zona Sul',
     description: 'alta densidade residencial, comércio local consolidado e forte presença de trabalhadores na Zona Sul',
     characteristics: 'casas geminadas, sobrados populares, encanamento antigo e rede elétrica que opera no limite em dias de calor intenso',
@@ -173,6 +181,7 @@ const neighborhoodContext: Record<string, {
   },
   'sao-dimas': {
     displayName: 'São Dimas',
+    titleName: 'São Dimas',
     region: 'Zona Norte',
     description: 'casas e apartamentos de idades variadas, mix residencial e fácil acesso ao Centro',
     characteristics: 'mix de residências antigas e novos empreendimentos, rede elétrica em transição e encanamento de idades variadas no mesmo quarteirão',
@@ -189,6 +198,7 @@ const neighborhoodContext: Record<string, {
   },
   'jardim-esplanada': {
     displayName: 'Jardim Esplanada',
+    titleName: 'Jardim Esplanada',
     region: 'Zona Sul',
     description: 'perfil industrial e residencial, infraestrutura consolidada e alta demanda por atendimento fora do horário comercial',
     characteristics: 'casas de trabalhadores e técnicos especializados, infraestrutura consolidada e alta demanda por serviços rápidos fora do horário comercial',
@@ -205,6 +215,7 @@ const neighborhoodContext: Record<string, {
   },
   'santana': {
   displayName: 'Santana',
+  titleName: 'Santana',
   region: 'Zona Norte',
   description: 'bairro residencial consolidado com mix de casas e comércios, próximo ao Centro',
   characteristics: 'residências de diferentes épocas, comércio local ativo, fácil acesso ao Centro pela Av. Rui Barbosa',
@@ -250,6 +261,7 @@ const serviceContext: Record<string, {
   // ── ENCANADOR ──────────────────────────────────────────────────────────────
   'encanador': {
     displayName: 'Encanador',
+    titleName: 'Encanador',
     displayNamePlural: 'Encanadores',
     icon: '🔧',
     emergencyVerb: 'vazamento',
@@ -310,6 +322,7 @@ const serviceContext: Record<string, {
   // ── ELETRICISTA ────────────────────────────────────────────────────────────
   'eletricista': {
     displayName: 'Eletricista',
+    titleName: 'Eletricista',
     displayNamePlural: 'Eletricistas',
     icon: '⚡',
     emergencyVerb: 'problema elétrico',
@@ -371,6 +384,7 @@ const serviceContext: Record<string, {
   // ── CHAVEIRO ───────────────────────────────────────────────────────────────
   'chaveiro': {
     displayName: 'Chaveiro',
+    titleName: 'Chaveiro',
     displayNamePlural: 'Chaveiros',
     icon: '🔑',
     emergencyVerb: 'porta trancada',
@@ -430,6 +444,7 @@ const serviceContext: Record<string, {
   // ── AR-CONDICIONADO ────────────────────────────────────────────────────────
   'ar-condicionado': {
     displayName: 'Técnico de Ar-Condicionado',
+    titleName: 'Ar-Condicionado',
     displayNamePlural: 'Técnicos de Ar-Condicionado',
     icon: '❄️',
     emergencyVerb: 'problema no ar-condicionado',
@@ -489,6 +504,7 @@ const serviceContext: Record<string, {
   // ── MARIDO-DE-ALUGUEL ──────────────────────────────────────────────────────
   'marido-de-aluguel': {
     displayName: 'Marido de Aluguel',
+    titleName: 'Marido de Aluguel',
     displayNamePlural: 'Profissionais Marido de Aluguel',
     icon: '🛠️',
     emergencyVerb: 'reparo urgente',
@@ -599,7 +615,7 @@ if (!svc || !nbh) {
 // Dynamic per combo — every one of the 45 pages has unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
 const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
-const pageTitle = `${svc.displayName} em ${nbh.displayName} — ${svc.heroKeyword} para ${regionLabel} de SJC`;
+const pageTitle = `${svc.displayName} em ${nbh.displayName} — ${nbh.region} · SJC`;
 const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em SJC.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
 const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} são josé dos campos, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
