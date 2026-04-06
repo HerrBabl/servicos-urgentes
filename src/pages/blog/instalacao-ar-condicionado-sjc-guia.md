@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Instalação de Ar-Condicionado em SJC: Guia Completo de Preços e Dicas 2026"
 description: "Vai instalar ar-condicionado em São José dos Campos? Confira o guia de preços por bairro, calculadora de BTUs para o clima de SJC e como evitar erros caros."
 date: "2026-01-17T09:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -79,16 +79,16 @@ A localização do seu imóvel em São José influencia diretamente no orçament
 Devido à altura dos prédios e às varandas técnicas compactas, a instalação no Aquarius costuma exigir furação em concreto armado com serra copo diamantada.
 * **Preço Médio:** R$ 650 - R$ 950.
 * **Desafio:** Rigor nos horários de barulho e descarte de entulho.
-* **[Saiba mais sobre os desafios do Parque Residencial Aquarius](/bairros/parque-residencial-aquarius)**.
+* **[Saiba mais sobre os desafios do Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/)**.
 
 ### 🏡 Urbanova
 Casas de alto padrão com telhados complexos ou necessidade de sistemas Multi-Split (várias unidades internas para uma externa).
 * **Preço Médio:** R$ 600 - R$ 1.200 (depende da metragem de tubulação).
 * **Desafio:** Trabalho em altura e integração com automação residencial.
-* **[Veja nosso guia de climatização para o Urbanova](/blog/climatizacao-urbanova)**.
+* **[Veja nosso guia de climatização para o Urbanova](/blog/climatizacao-urbanova/)**.
 
 ### 🏦 Centro e Vila Adyana
-Imóveis comerciais ou prédios antigos que exigem **[modernização elétrica (Retrofit)](/blog/retrofit-vila-adyana)** antes da instalação.
+Imóveis comerciais ou prédios antigos que exigem **[modernização elétrica (Retrofit)](/blog/retrofit-vila-adyana/)** antes da instalação.
 * **Preço Médio:** R$ 500 - R$ 800.
 * **Desafio:** Fiação antiga que não suporta a carga do ar-condicionado.
 
@@ -106,7 +106,7 @@ Se você acabou de instalar o aparelho e notar qualquer um destes sinais, deslig
 * **Água escorrendo pela parede interna:** Erro no caimento do dreno ou falta de isolamento térmico nos tubos.
 
 **🟡 AGENDE REVISÃO:**
-* **Ar parou de gelar após 1 semana:** Provável vazamento de gás por flange mal feita. **[Leia: Ar-Condicionado Não Gela?](/blog/ar-condicionado-nao-gela-sjc)**.
+* **Ar parou de gelar após 1 semana:** Provável vazamento de gás por flange mal feita. **[Leia: Ar-Condicionado Não Gela?](/blog/ar-condicionado-nao-gela-sjc/)**.
 * **Barulho de "assobio" nos canos:** Estrangulamento da tubulação de cobre.
 
 > 🚨 **Precisa de instalação profissional hoje?** [Ver instaladores verificados em SJC →](/servicos/ar-condicionado?utm_source=blog&utm_medium=organic&utm_campaign=ac_installation_guide_2026)
@@ -161,7 +161,7 @@ Ao contratar um **técnico instalação ac sjc**, certifique-se de que ele não 
 
 1.  **Não fazer vácuo na tubulação:** O uso da bomba de vácuo é obrigatório. Sem vácuo, a umidade dentro dos canos oxida o óleo do compressor, fazendo-o queimar em menos de 2 anos.
 2.  **Usar tubulação de alumínio:** O alumínio é mais barato, mas oxida rapidamente com a variação térmica. Exija tubos 100% de cobre.
-3.  **Dreno sem caimento:** A gravidade deve fazer a água sair. Se o dreno for instalado reto, a água voltará para dentro do seu quarto. **[Veja como resolver problemas de dreno aqui](/blog/manutencao-ar-condicionado-verao-sjc)**.
+3.  **Dreno sem caimento:** A gravidade deve fazer a água sair. Se o dreno for instalado reto, a água voltará para dentro do seu quarto. **[Veja como resolver problemas de dreno aqui](/blog/manutencao-ar-condicionado-verao-sjc/)**.
 
 ---
 
@@ -206,10 +206,10 @@ São José dos Campos possui condomínios com regras estritas. Antes de começar
 
 ## 📚 Leia Também
 
-* **[Ar-Condicionado Não Gela? Diagnóstico em 60 Segundos](/blog/ar-condicionado-nao-gela-sjc)**
-* **[Manutenção Verão SJC: Como economizar 30% na conta de luz](/blog/manutencao-ar-condicionado-verao-sjc)**
+* **[Ar-Condicionado Não Gela? Diagnóstico em 60 Segundos](/blog/ar-condicionado-nao-gela-sjc/)**
+* **[Manutenção Verão SJC: Como economizar 30% na conta de luz](/blog/manutencao-ar-condicionado-verao-sjc/)**
 * **[Guia de Modernização Elétrica (Retrofit) na Vila Adyana](/blog/vila-adyana-guia/)**
-* **[Serviços de Emergência no Jardim das Colinas](/blog/jardim-das-colinas-servicos)**
+* **[Serviços de Emergência no Jardim das Colinas](/blog/jardim-das-colinas-servicos/)**
 
 ---
 
