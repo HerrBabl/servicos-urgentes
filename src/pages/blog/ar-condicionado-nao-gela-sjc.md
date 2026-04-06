@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "AC Não Gela em SJC? Daikin, Comfee, Consul — Técnico Urgente Disponível"
 description: "Daikin, Comfee, Consul ou outra marca não está gelando em SJC? Veja no diretório os técnicos especializados disponíveis hoje em São José dos Campos."
 date: "2026-01-15T16:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -75,7 +75,7 @@ O sensor pode estar lendo a temperatura errada e desligando o compressor antes d
 ### 5. Compressor Travado ou sem Compressão
 É o "coração" do aparelho. Se ele falhar, o custo do reparo costuma ser alto, muitas vezes valendo mais a pena a troca do aparelho.
 
-> **Leia também:** [Guia de Climatização para o Urbanova: Desafios e Soluções](/blog/climatizacao-urbanova).
+> **Leia também:** [Guia de Climatização para o Urbanova: Desafios e Soluções](/blog/climatizacao-urbanova/).
 
 ---
 
@@ -89,7 +89,7 @@ Chame um profissional se notar:
 
 🚨 **Precisa de um técnico agora?**  
 Nosso diretório conecta você a profissionais disponíveis 24h em SJC.
-👉 **[Ver Lista de Técnicos de Ar-Condicionado Disponíveis Agora em SJC](/servicos/ar-condicionado)**
+👉 **[Ver Lista de Técnicos de Ar-Condicionado Disponíveis Agora em SJC](/servicos/ar-condicionado/)**
 
 ---
 
@@ -132,7 +132,7 @@ Para não ficar na mão quando os termômetros baterem 35°C em SJC:
 - [ ] **Proteção Elétrica:** Use disjuntores adequados e, se possível, um protetor de surto (DPS).
 - [ ] **Verificação de Dreno:** Certifique-se de que a mangueira não está dobrada ou entupida.
 
-📍 **Mora no Jardim das Colinas?** Veja nosso [guia de manutenção de alto padrão](/blog/jardim-das-colinas-servicos) para sistemas Multi-Split.
+📍 **Mora no Jardim das Colinas?** Veja nosso [guia de manutenção de alto padrão](/blog/jardim-das-colinas-servicos/) para sistemas Multi-Split.
 
 ---
 
@@ -170,4 +170,4 @@ Acesse nosso diretório e resolva o problema hoje mesmo.
 
 > **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
 
-👉 **[Ver Técnicos de Ar-Condicionado em SJC →](/servicos/ar-condicionado)**
+👉 **[Ver Técnicos de Ar-Condicionado em SJC →](/servicos/ar-condicionado/)**
