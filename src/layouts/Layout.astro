@@ -124,6 +124,23 @@ const canonicalURL = ensureTrailingSlash(
   gtag('config', gaId);
 </script>
 
+<!-- Open Graph — sitewide defaults, overridable via slot="head" on child pages -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="Serviços Urgentes SJC" />
+<meta property="og:image" content={ogImage || "https://servicosurgentes.com/og-default.svg"} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter Card — sitewide defaults -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage || "https://servicosurgentes.com/og-default.svg"} />
+
 <slot name="head" />
 
   </head>
