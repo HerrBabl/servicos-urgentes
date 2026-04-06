@@ -615,7 +615,7 @@ if (!svc || !nbh) {
 // Dynamic per combo — every one of the 45 pages has unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
 const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
-const pageTitle = `${svc.displayName} em ${nbh.displayName} — ${nbh.region} · SJC`;
+const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region} · SJC`;
 const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em SJC.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
 const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} são josé dos campos, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
