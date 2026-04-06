@@ -3,12 +3,12 @@ layout: ../../layouts/ContentLayout.astro
 title: "AC Parou de Funcionar em SJC? Guia de Emergência 2026"
 description: "AC parou no calor de SJC? Veja o que fazer agora, quanto custa o conserto e técnicos verificados no Aquarius, Urbanova e Centro."
 date: "2025-11-17T10:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 category: "Guia de Emergência"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?q=80&w=800&auto=format&fit=crop"
+image: "https://plus.unsplash.com/premium_photo-1661963270682-4b4857b6cda2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fEhWQUMlMjByZXBhaXJ8ZW58MHx8MHx8fDA%3D"
 imageAlt: "Técnico especializado diagnosticando ar-condicionado que parou de funcionar em residência em São José dos Campos"
 tags: ["Ar-Condicionado", "Emergência", "SJC", "Manutenção"]
 slug: "ac-guia-sjc"
@@ -210,14 +210,14 @@ São José dos Campos tem um clima peculiar no Vale do Paraíba:
 - Feche cortinas durante o dia para reduzir entrada de calor
 - Evite usar eletrodomésticos que geram calor (forno, ferro)
 
-💡 **Dica:** Se você precisa de outros serviços urgentes enquanto aguarda o técnico de AC, veja também nossos [eletricistas 24h](/servicos/eletricista) (para problemas no disjuntor) ou [maridos de aluguel](/servicos/marido-de-aluguel) (para reparos gerais).
+💡 **Dica:** Se você precisa de outros serviços urgentes enquanto aguarda o técnico de AC, veja também nossos [eletricistas 24h](/servicos/eletricista/) (para problemas no disjuntor) ou [maridos de aluguel](/servicos/marido-de-aluguel/) (para reparos gerais).
 
 ### Bairros com Maior Demanda
 Parque Residencial Aquarius e outros bairros de alto padrão concentram muitos aparelhos de ar-condicionado devido ao perfil das residências. Em situações de emergência, técnicos podem estar mais ocupados nessas regiões.
 
 ### Bairros com Maior Demanda
 
-[Parque Residencial Aquarius](/bairros/parque-residencial-aquarius) e [Urbanova](/bairros/urbanova) concentram muitos aparelhos de ar-condicionado devido ao perfil das residências de alto padrão. [Vila Adyana](/bairros/vila-adyana), por ter casas mais antigas, apresenta desafios diferentes (sistemas mais antigos que exigem técnicos com experiência em modelos legados).
+[Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/) e [Urbanova](/bairros/urbanova/) concentram muitos aparelhos de ar-condicionado devido ao perfil das residências de alto padrão. [Vila Adyana](/bairros/vila-adyana/), por ter casas mais antigas, apresenta desafios diferentes (sistemas mais antigos que exigem técnicos com experiência em modelos legados).
 
 Em situações de emergência, técnicos podem estar mais ocupados nessas regiões.
 
@@ -243,13 +243,13 @@ Em situações de emergência, técnicos podem estar mais ocupados nessas regiõ
 - Odores quando liga o aparelho
 - Gelo formando na tubulação
 
-📍 **Encontre manutenção preventiva:** Profissionais especializados em [Urbanova](/bairros/urbanova) têm experiência com sistemas multi-split e centrais comuns em casas de alto padrão.
+📍 **Encontre manutenção preventiva:** Profissionais especializados em [Urbanova](/bairros/urbanova/) têm experiência com sistemas multi-split e centrais comuns em casas de alto padrão.
 
 ## Encontre Profissionais Verificados em São José dos Campos
 
 Não perca tempo procurando técnicos em listas intermináveis. No [Serviços Urgentes](https://servicosurgentes.com), você encontra apenas profissionais com:
 
-✅ **Avaliação mínima de 4 estrelas** ✅ **Experiência comprovada em emergências** ✅ **Atendimento 24 horas (quando disponível)** ✅ **Cobertura em todos os bairros de SJC** [**→ Encontre um técnico de ar-condicionado agora**](https://servicosurgentes.com/servicos/ar-condicionado)
+✅ **Avaliação mínima de 4 estrelas** ✅ **Experiência comprovada em emergências** ✅ **Atendimento 24 horas (quando disponível)** ✅ **Cobertura em todos os bairros de SJC** [**→ Encontre um técnico de ar-condicionado agora**](https://servicosurgentes.com/servicos/ar-condicionado/)
 
 ## Perguntas Frequentes: Ar-Condicionado em SJC
 
@@ -275,15 +275,15 @@ D**Resposta:** e 3 a 5 horas em instalações padrão. Em edifícios de alto pad
 Um ar-condicionado que para de funcionar no calor de São José dos Campos é uma emergência legítima, mas não precisa entrar em desespero. Siga o protocolo de verificação básica, identifique se é realmente uma emergência que exige atenção imediata, e escolha um profissional qualificado com base em avaliações verificadas.
 
 **Outros guias úteis:**
-- [Climatização em Urbanova](/blog/climatizacao-urbanova) - Sistemas de alto padrão
-- [Guia completo de serviços em Vila Adyana](/blog/vila-adyana-guia) - Soluções para casas antigas
-- [Encanamento em Parque Aquarius](/blog/encanamento-parque-aquarius) - Emergências hidráulicas
+- [Climatização em Urbanova](/blog/climatizacao-urbanova/) - Sistemas de alto padrão
+- [Guia completo de serviços em Vila Adyana](/blog/vila-adyana-guia/) - Soluções para casas antigas
+- [Encanamento em Parque Aquarius](/blog/encanamento-parque-aquarius/) - Emergências hidráulicas
 
 Lembre-se: prevenir é sempre mais barato que remediar. Uma manutenção anual de R$ 250-350 pode evitar um reparo emergencial de R$ 800-2.500.
 
 **Precisa de um técnico agora?** Acesse nosso diretório de profissionais verificados e encontre atendimento rápido em São José dos Campos.
 
-[**→ Ver técnicos de ar-condicionado disponíveis**](https://servicosurgentes.com/servicos/ar-condicionado)
+[**→ Ver técnicos de ar-condicionado disponíveis**](https://servicosurgentes.com/servicos/ar-condicionado/)
 
 ---
 
