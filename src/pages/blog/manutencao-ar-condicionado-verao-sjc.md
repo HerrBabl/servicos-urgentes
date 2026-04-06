@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Manutenção de Ar-Condicionado em SJC: Chuva, Mofo e Infiltração"
 description: "O seu ar-condicionado pinga quando chove? Guia completo para evitar mofo, infiltrações e problemas respiratórios em São José dos Campos."
 date: "2026-01-16T09:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -67,7 +67,7 @@ Quando chove por vários dias no Vale do Paraíba, a umidade do ar satura. Seu a
 2.  **Desnível:** Instalações antigas podem perder o nivelamento, fazendo a água voltar.
 3.  **Vento Contra:** Em andares altos (comuns no Aquarius), o vento forte da chuva empurra a água de volta pela mangueira.
 
-**[Veja nosso guia de diagnóstico de vazamentos](/blog/ar-condicionado-nao-gela-sjc)** para saber se é grave.
+**[Veja nosso guia de diagnóstico de vazamentos](/blog/ar-condicionado-nao-gela-sjc/)** para saber se é grave.
 
 ---
 
@@ -131,7 +131,7 @@ Limpar sai muito mais barato do que consertar parede com infiltração.
 ## Comparativo de Bairros em SJC: Onde o AC Sofre Mais
 
 * **Aquarius (Andares Altos):** Sofrem mais com retorno de água devido à pressão do vento nas varandas técnicas durante temporais.
-* **Urbanova:** A combinação de poeira de obra + umidade cria uma "lama" que entope drenos rapidamente. **[Veja guia para Urbanova](/bairros/urbanova)**.
+* **Urbanova:** A combinação de poeira de obra + umidade cria uma "lama" que entope drenos rapidamente. **[Veja guia para Urbanova](/bairros/urbanova/)**.
 * **Jardim Satélite / Zona Sul:** Casas térreas com drenos no chão sofrem com alagamento do quintal bloqueando a saída da mangueira.
 
 ---
@@ -187,9 +187,9 @@ Limpar sai muito mais barato do que consertar parede com infiltração.
 
 ## 📚 Leia Também
 
-* **[Ar-Condicionado Não Gela? Diagnóstico em 60 Segundos](/blog/ar-condicionado-nao-gela-sjc)**
-* **[Guia de Eletricistas de Emergência em SJC](/servicos/eletricista)**
-* **[Marido de Aluguel para Limpeza de Calhas](/servicos/marido-de-aluguel)**
+* **[Ar-Condicionado Não Gela? Diagnóstico em 60 Segundos](/blog/ar-condicionado-nao-gela-sjc/)**
+* **[Guia de Eletricistas de Emergência em SJC](/servicos/eletricista/)**
+* **[Marido de Aluguel para Limpeza de Calhas](/servicos/marido-de-aluguel/)**
 
 ---
 
