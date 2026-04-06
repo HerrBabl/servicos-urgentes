@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Retrofit na Vila Adyana: Guia de Modernização para Casas Antigas em SJC"
 description: "Água amarelada ou fusível queimando? Saiba como modernizar a hidráulica e elétrica de casas antigas na Vila Adyana preservando o charme. Guia completo."
 date: "2025-12-20T10:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 category: "Guia de Bairro"
 author:
   name: "Equipe Serviços Urgentes"
@@ -106,7 +106,7 @@ Nas décadas de 70 e 80, era comum usar tubulação de ferro galvanizado. O mate
 * **O Risco:** Vazamentos silenciosos que estragam móveis e pisos de madeira nobre.
 * **A Solução:** Troca por **PEX ou PVC**. É uma "cirurgia" que renova a saúde da casa por mais 50 anos.
 
-💡 **Apartamento no Aquarius com vazamento?** Veja nosso [guia específico para encanamento em condomínios verticais](/blog/encanamento-parque-aquarius).
+💡 **Apartamento no Aquarius com vazamento?** Veja nosso [guia específico para encanamento em condomínios verticais](/blog/encanamento-parque-aquarius/).
 
 🚨 **Precisa de um diagnóstico?**
 [Veja Encanadores Especialistas em Casas Antigas →](/servicos/encanador/)
@@ -117,7 +117,7 @@ Sua casa foi projetada numa época sem AirFryer, micro-ondas e ar-condicionado e
 * **O Problema:** Quadros de luz antigos (com fusíveis de rosca/rolha) não "desarmam" com a rapidez necessária, o que aquece a fiação e aumenta a conta de luz.
 * **A Segurança:** Modernizar para **disjuntores DIN** (aqueles brancos) e instalar o **DR** (que protege contra choques) não é gasto, é seguro de vida para sua família e seus eletrônicos.
 
-⚡ **Ar-condicionado também não funciona?** Problemas elétricos podem afetar outros sistemas. Veja nosso [guia de emergência para AC em SJC](/blog/ac-guia-sjc).
+⚡ **Ar-condicionado também não funciona?** Problemas elétricos podem afetar outros sistemas. Veja nosso [guia de emergência para AC em SJC](/blog/ac-guia-sjc/).
 
 ⚡ **Atualize seu quadro de energia:**
 [Encontre Eletricistas Credenciados na Região Central →](/servicos/eletricista/)
@@ -269,8 +269,8 @@ Não é necessário fazer tudo de uma vez. Priorize por risco:
 | **Valorização pós-retrofit** | 10-15% | 5-8% | 3-5% |
 
 💡 **Veja também:**
-- [Encanamento em apartamentos do Aquarius](/blog/encanamento-parque-aquarius) - Desafios de prédios verticais
-- [Climatização em Urbanova](/blog/climatizacao-urbanova) - Sistemas de alto padrão para casas modernas
+- [Encanamento em apartamentos do Aquarius](/blog/encanamento-parque-aquarius/) - Desafios de prédios verticais
+- [Climatização em Urbanova](/blog/climatizacao-urbanova/) - Sistemas de alto padrão para casas modernas
 
 **Vila Adyana tem o maior ROI em retrofit** porque casas bem mantidas aqui são muito valorizadas pelo charme + localização + história do bairro.
 
