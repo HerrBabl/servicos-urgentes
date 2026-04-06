@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Climatização em Urbanova: Soluções de Ar-Condicionado para Alto Padrão"
 description: "Mora no Urbanova? Descubra as melhores soluções de ar-condicionado (VRF, Cassette, Duto) para casas com pé-direito duplo e arquitetura moderna."
 date: "2025-12-22T10:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"  
   url: "https://servicosurgentes.com/sobre"  
@@ -52,7 +52,7 @@ O ar-condicionado "split branco" comum muitas vezes não dá conta (ou estraga a
 Aquelas salas maravilhosas com 6 metros de altura são o cartão postal das casas no Urbanova. Mas, na física, o ar quente sobe e o frio desce.
 * **O Erro Comum:** Instalar um Split Hi-Wall pequeno no alto da parede. Ele gasta muita energia tentando resfriar um volume de ar gigantesco e a manutenção é difícil (precisa de andaime).
 * **A Solução:** Equipamentos de alta capacidade e posicionamento estratégico para garantir que o conforto térmico chegue onde as pessoas estão (no sofá), não no teto.
-💡 **Ar-condicionado parou em dia de calor?** Veja nosso [guia de emergência para AC em SJC](/blog/ac-guia-sjc).
+💡 **Ar-condicionado parou em dia de calor?** Veja nosso [guia de emergência para AC em SJC](/blog/ac-guia-sjc/).
 
 ## 2. Estética: Quando o "Branco na Parede" Não Serve
 Você investiu no projeto de interiores, na marcenaria e na iluminação. Colocar uma "caixa branca" de plástico na parede pode quebrar a harmonia.
@@ -90,7 +90,7 @@ Investir em climatização de alto padrão é decisão de infraestrutura, não a
 | Projeto de climatização | R$ 2.000 - R$ 5.000 | Sempre recomendado para VRF |
 | Automação residencial (integração) | R$ 4.000 - R$ 10.000 | Opcional, mas valoriza imóvel |
 
-📍 **Outros bairros de alto padrão:** Veja soluções específicas para [casas no Jardim das Colinas](/bairros/jardim-das-colinas) e [condomínios no Bosque dos Eucaliptos](/bairros/bosque-dos-eucaliptos).
+📍 **Outros bairros de alto padrão:** Veja soluções específicas para [casas no Jardim das Colinas](/bairros/jardim-das-colinas/) e [condomínios no Bosque dos Eucaliptos](/bairros/bosque-dos-eucaliptos/).
 
 💡 **Dica Financeira:** Climatização bem projetada valoriza o imóvel em 5-8% no Urbanova. É investimento, não custo.
 
@@ -100,7 +100,7 @@ Investir em climatização de alto padrão é decisão de infraestrutura, não a
 Casas no Urbanova demandam muita energia. Instalar 4 ou 5 aparelhos potentes sem revisar o quadro elétrico é risco de desarme constante.
 * **Dica de Ouro:** Antes de comprar os aparelhos, peça para um eletricista avaliar se a carga instalada suporta a nova demanda.
 
-🔌 **Casa antiga que precisa de upgrade?** Nosso [guia para Vila Adyana](/blog/vila-adyana-guia) explica modernização elétrica em casas mais antigas.
+🔌 **Casa antiga que precisa de upgrade?** Nosso [guia para Vila Adyana](/blog/vila-adyana-guia/) explica modernização elétrica em casas mais antigas.
 
 ⚡ **Vai ampliar a climatização?**
 [Chame um Eletricista para Avaliação de Carga →](/servicos/eletricista/)
@@ -138,24 +138,24 @@ Casas no Urbanova demandam muita energia. Instalar 4 ou 5 aparelhos potentes sem
 | **Sistema típico** | VRF, Dutado | Multi-Split convencional | Split Hi-Wall |
 | **Investimento médio** | R$ 80k - R$ 120k | R$ 30k - R$ 50k | R$ 15k - R$ 30k |
 
-🏢 **Mora em apartamento?** Veja desafios específicos de [encanamento em prédios do Aquarius](/blog/encanamento-parque-aquarius).
+🏢 **Mora em apartamento?** Veja desafios específicos de [encanamento em prédios do Aquarius](/blog/encanamento-parque-aquarius/).
 
 *Preços variam conforme complexidade, materiais e profissional. Sempre solicite orçamento detalhado antes de autorizar o serviço.*
 
 💡 **Veja também:**
-- [Guia de climatização para apartamentos no Aquarius](/bairros/parque-residencial-aquarius)
-- [Soluções para casas antigas na Vila Adyana](/blog/vila-adyana-guia)
+- [Guia de climatização para apartamentos no Aquarius](/bairros/parque-residencial-aquarius/)
+- [Soluções para casas antigas na Vila Adyana](/blog/vila-adyana-guia/)
 
 ## Encontre Especialistas em Climatização de Alto Padrão
 
-Não confie a climatização do seu investimento a qualquer instalador. No [Serviços Urgentes](/servicos/ar-condicionado), você encontra apenas técnicos com:
+Não confie a climatização do seu investimento a qualquer instalador. No [Serviços Urgentes](/servicos/ar-condicionado/), você encontra apenas técnicos com:
 
 ✅ Certificação em sistemas VRF e Multi-Split  
 ✅ Experiência comprovada no Urbanova  
 ✅ Avaliação mínima de 4 estrelas  
 ✅ Garantia estendida em todos os serviços  
 
-[→ Ver técnicos especializados em alto padrão](/servicos/ar-condicionado)
+[→ Ver técnicos especializados em alto padrão](/servicos/ar-condicionado/)
 
 ## Conclusão: Conforto Invisível
 A melhor climatização é aquela que você sente, mas não vê (e não ouve). Em imóveis de alto padrão, o ar-condicionado faz parte da infraestrutura tanto quanto a fundação.
