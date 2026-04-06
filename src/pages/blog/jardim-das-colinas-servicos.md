@@ -3,11 +3,11 @@ layout: ../../layouts/ContentLayout.astro
 title: "Jardim das Colinas, SJC: Guia de Manutenção e Serviços de Alto Padrão"
 description: "Guia completo de manutenção para o Jardim das Colinas. Encontre especialistas em ar-condicionado, carregadores EV e hidráulica de alta pressão em SJC."
 date: "2026-01-15T14:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-04-06T17:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800"
+image: "https://media.istockphoto.com/id/1393381793/pt/foto/sao-jose-dos-campos-sao-paulo-brazil-04-2022-naerial-view-of-the-cable-stayed-bridge-in-s%C3%A3o.jpg?s=612x612&w=0&k=20&c=XIvy0oZyeK1cS1WjzI4b9ZTH2ivfEDTLhjmOwORimAk="
 imageAlt: "Condomínio de alto padrão no Jardim das Colinas com infraestrutura moderna, São José dos Campos"
 tags: ["Jardim das Colinas", "SJC", "Alto Padrão", "Manutenção"]
 slug: "jardim-das-colinas-servicos"
@@ -56,7 +56,7 @@ Com a evolução tecnológica, casas construídas há mais de 10 anos no Colinas
 * **Oscilação de Luminárias:** Se as luzes de LED "tremem" quando o ar-condicionado liga, você tem uma queda de tensão que pode danificar placas eletrônicas de eletrodomésticos caros.
 * **Aquecimento no Quadro:** Escute o quadro de energia. Se ouvir um "zumbido" constante ou sentir cheiro de ozônio (queimado), há fiação subdimensionada.
 
-📍 **Precisa de especialista?** Veja nossa lista de [eletricistas em SJC](/servicos/eletricista) com experiência em sistemas trifásicos.
+📍 **Precisa de especialista?** Veja nossa lista de [eletricistas em SJC](/servicos/eletricista/) com experiência em sistemas trifásicos.
 
 ---
 
@@ -75,7 +75,7 @@ Se você mora abaixo do 10º andar, seu apartamento depende de uma **válvula re
 2.  **Abra uma torneira** para drenar a pressão residual.
 3.  **Avise a portaria** imediatamente, especialmente se houver risco de infiltração para o vizinho de baixo.
 
-> **Leia também:** [Guia de Encanamento de Emergência: O que fazer antes do técnico chegar](/blog/guia-encanador-emergencia-sjc).
+> **Leia também:** [Guia de Encanamento de Emergência: O que fazer antes do técnico chegar](/blog/guia-encanador-emergencia-sjc/).
 
 ---
 
@@ -86,7 +86,7 @@ No Jardim das Colinas, a estética das fachadas é rigidamente controlada. A ins
 * **Sistemas Multi-Split:** Comuns em apartamentos onde há apenas um local para a condensadora, mas necessidade de climatizar 3 ou 4 quartos.
 * **NR-35 (Trabalho em Altura):** Verifique se o técnico possui esta certificação. Muitos prédios no Colinas proíbem o trabalho externo sem equipamentos de segurança adequados.
 
-❄️ **Dica de eficiência:** No Urbanova, o desafio é o calor solar direto em casas. No Colinas, o desafio é a ventilação das condensadoras em espaços confinados. Veja nosso [comparativo de climatização Urbanova vs. Colinas](/blog/climatizacao-urbanova).
+❄️ **Dica de eficiência:** No Urbanova, o desafio é o calor solar direto em casas. No Colinas, o desafio é a ventilação das condensadoras em espaços confinados. Veja nosso [comparativo de climatização Urbanova vs. Colinas](/blog/climatizacao-urbanova/).
 
 ---
 
@@ -191,4 +191,4 @@ Furar paredes em prédios novos sem consultar a planta "As-Built". No Colinas, m
 **Precisa de um técnico qualificado agora?**
 Acesse nosso diretório e filtre por especialistas com avaliação 4.5+ no Jardim das Colinas.
 
-👉 **[Ver Profissionais Verificados no Colinas](/servicos)**
+👉 **[Ver Profissionais Verificados no Colinas](/servicos/)**
