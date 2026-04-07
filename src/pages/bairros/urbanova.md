@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços em Urbanova - SJC | Condomínios e Alto Padrão"
 description: "Guia de serviços para Urbanova: Manutenção de aquecimento solar, pressurizadores, elétrica para automação e reparos em condomínios fechados."
 date: "2026-01-26T17:00:00-03:00"
-dateModified: "2026-01-26T19:30:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -41,7 +41,7 @@ Uma emergência no Urbanova raramente é "apenas trocar um fio". Geralmente envo
 
 ---
 
-> 🌧️ **ATENÇÃO MORADORES:** Com 30mm+ de chuva previstos até domingo (Fev 01), sistemas elétricos no Urbanova enfrentam riscos de surto — especialmente **inversores solares e bombas de piscina**. Veja nosso [guia de proteção contra tempestades](#1-infraestrutura) ou [encontre eletricista para inspeção preventiva](/servicos/eletricista).
+> 🌧️ **ATENÇÃO MORADORES:** Com 30mm+ de chuva previstos até domingo (Fev 01), sistemas elétricos no Urbanova enfrentam riscos de surto — especialmente **inversores solares e bombas de piscina**. Veja nosso [guia de proteção contra tempestades](#1-infraestrutura) ou [encontre eletricista para inspeção preventiva](/servicos/eletricista/).
 
 ---
 
@@ -97,7 +97,7 @@ Diferente de bairros comuns, a pressão da rua no Urbanova muitas vezes não che
 - **Boiler e Placas Solares:** Vazamentos no telhado ou falha na resistência elétrica do boiler em dias nublados.
 - **Caça-Vazamentos em Piscinas:** Perda de água em piscinas de alvenaria ou vinil, exigindo teste de estanqueidade.
 
-👉 **[Ver Encanadores Especializados em Boiler/Pressurizador →](/servicos/encanador)**
+👉 **[Ver Encanadores Especializados em Boiler/Pressurizador →](/servicos/encanador/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -112,7 +112,7 @@ A rede elétrica das casas no Urbanova é robusta, mas complexa.
 - **Reset de Automação:** Pane em sistemas de iluminação inteligente (Sonoff, Tuya, Control4) após queda de energia.
 - **Manutenção de Inversores:** Limpeza técnica e verificação de conexões em sistemas de energia solar.
 
-👉 **[Ver Eletricistas com Experiência em Automação →](/servicos/eletricista)**
+👉 **[Ver Eletricistas com Experiência em Automação →](/servicos/eletricista/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -126,7 +126,7 @@ Muitas residências possuem sistemas de ar-condicionado central ou dutados que n
 - **Sistemas Multi-Split:** Uma condensadora para 4-5 evaporadoras. Se a externa falha, a casa toda fica sem ar.
 - **Estética:** Instalação de máquinas em locais ocultos ou lajes técnicas de difícil acesso (rapel pode ser necessário).
 
-👉 **[Ver Técnicos de Ar-Condicionado VRF/Multi →](/servicos/ar-condicionado)**
+👉 **[Ver Técnicos de Ar-Condicionado VRF/Multi →](/servicos/ar-condicionado/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -139,7 +139,7 @@ Para instalar itens de luxo sem danificar revestimentos caros.
 - Fixação de TVs em painéis de mármore ou vidro.
 - Montagem de móveis planejados de alto padrão.
 
-👉 **[Ver Profissionais de Manutenção Fina →](/servicos/marido-de-aluguel)**
+👉 **[Ver Profissionais de Manutenção Fina →](/servicos/marido-de-aluguel/)**
 
 [⬆️ Voltar ao topo](#top)
 
