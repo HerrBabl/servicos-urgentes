@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Parque Residencial Aquarius - SJC 24h"
 description: "Morador do Aquarius? Encontre encanadores, eletricistas e chaveiros verificados na Zona Oeste. Atendimento rápido para Ed. Pátio das Américas e arredores."
 date: "2026-01-26T12:00:00-03:00"
-dateModified: "2026-03-10T09:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -83,7 +83,7 @@ A maioria das residências no Aquarius são apartamentos, o que traz desafios t�
 **Perfil do Profissional:**
 Encanadores equipados com manômetros para medir pressão e ferramentas para tubulações PEX e Multicamada.
 
-**→ [Encontrar Encanadores no Aquarius](/servicos/encanador)**
+**→ [Encontrar Encanadores no Aquarius](/servicos/encanador/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -96,7 +96,7 @@ Encanadores equipados com manômetros para medir pressão e ferramentas para tub
 2.  **Iluminação em Gesso:** Troca de fitas LED e spots queimados em sancas de gesso (requer cuidado para não trincar).
 3.  **Quadros de Distribuição:** Atualização de disjuntores para suportar Ar-Condicionado em todos os cômodos.
 
-**→ [Encontrar Eletricistas na Zona Oeste](/servicos/eletricista)**
+**→ [Encontrar Eletricistas na Zona Oeste](/servicos/eletricista/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -109,7 +109,7 @@ Encanadores equipados com manômetros para medir pressão e ferramentas para tub
 2.  **Trancado na Sacada:** Ocorrência comum em apartamentos com portas-balcão que travam por fora.
 3.  **Cópias de Tag/Controle:** Duplicação de chaves de acesso para áreas comuns.
 
-**→ [Encontrar Chaveiros 24h](/servicos/chaveiro)**
+**→ [Encontrar Chaveiros 24h](/servicos/chaveiro/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -122,7 +122,7 @@ Encanadores equipados com manômetros para medir pressão e ferramentas para tub
 2.  **Infraestrutura Embutida:** Passagem de tubulação de cobre pronta pela construtora (limpeza de nitrogênio necessária).
 3.  **Higienização Profunda:** Combate a fungos em ambientes fechados climatizados.
 
-**→ [Encontrar Técnicos de Ar-Condicionado](/servicos/ar-condicionado)**
+**→ [Encontrar Técnicos de Ar-Condicionado](/servicos/ar-condicionado/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -255,11 +255,11 @@ A rede de profissionais atende todos os grandes complexos, incluindo **Sunset Pa
 
 **Conecte-se com profissionais verificados que atendem o Aquarius:**
 
-* [**⚡ Eletricistas (Padrão Condomínio)**](/servicos/eletricista)
-* [**🔧 Encanadores (Alta Pressão)**](/servicos/encanador)
-* [**🔑 Chaveiros 24h**](/servicos/chaveiro)
-* [**❄️ Ar-Condicionado**](/servicos/ar-condicionado)
-* [**🛠️ Marido de Aluguel**](/servicos/marido-de-aluguel)
+* [**⚡ Eletricistas (Padrão Condomínio)**](/servicos/eletricista/)
+* [**🔧 Encanadores (Alta Pressão)**](/servicos/encanador/)
+* [**🔑 Chaveiros 24h**](/servicos/chaveiro/)
+* [**❄️ Ar-Condicionado**](/servicos/ar-condicionado/)
+* [**🛠️ Marido de Aluguel**](/servicos/marido-de-aluguel/)
 
 ---
 
