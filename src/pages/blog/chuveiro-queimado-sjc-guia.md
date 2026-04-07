@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chuveiro Queimou ou Não Esquenta? Guia de Eletricistas em SJC 2026"
 description: "Chuveiro morno em dia de chuva? Saiba como trocar resistência, custos estimados e encontre eletricistas 24h no Aquarius, Urbanova e Centro de SJC."
 date: "2026-01-21T10:45:00-03:00"
-dateModified: "2026-01-21T10:45:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -125,7 +125,7 @@ Você tem duas opções principais ao buscar ajuda no diretório:
 - O diagnóstico exige ferramentas de medição (multímetro/amperímetro).
 
 **Como encontrar:**
-- 🔗 [Ver lista de eletricistas em SJC](/servicos/eletricista)
+- 🔗 [Ver lista de eletricistas em SJC](/servicos/eletricista/)
 - Busque por avaliações recentes de outros moradores.
 
 ### Opção 2: Marido de Aluguel
@@ -135,7 +135,7 @@ Você tem duas opções principais ao buscar ajuda no diretório:
 - O serviço é de baixa complexidade técnica.
 
 **Como encontrar:**
-- 🔗 [Ver maridos de aluguel em SJC](/servicos/marido-de-aluguel)
+- 🔗 [Ver maridos de aluguel em SJC](/servicos/marido-de-aluguel/)
 - Verifique se o profissional possui ferramentas adequadas para elétrica básica.
 
 ### ✅ Perguntas para Fazer ao Telefone
@@ -234,8 +234,8 @@ Aproveite o diretório para localizar quem está disponível perto de você.
 - ✅ Filtros por especialidade
 - ✅ Contato direto (WhatsApp ou Telefone)
 
-🔗 **Precisa de Eletricista?** [Clique aqui para ver a lista](/servicos/eletricista)  
-🔗 **Prefere Marido de Aluguel?** [Clique aqui para ver a lista](/servicos/marido-de-aluguel)
+🔗 **Precisa de Eletricista?** [Clique aqui para ver a lista](/servicos/eletricista/)  
+🔗 **Prefere Marido de Aluguel?** [Clique aqui para ver a lista](/servicos/marido-de-aluguel/)
 
 ---
 
