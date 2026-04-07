@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços no Bosque dos Eucaliptos - SJC | Guia Zona Sul 2026"
 description: "Guia de manutenção para o Bosque dos Eucaliptos: Eletricistas para modernização de quadros, encanadores e reparos em telhados na Zona Sul de SJC."
 date: "2026-01-26T19:00:00-03:00"
-dateModified: "2026-01-26T19:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -88,7 +88,7 @@ Em casas térreas e sobrados germinados, o problema do vizinho vira seu problema
 - **Válvulas Hydra:** Manutenção de válvulas de descarga antigas que vazam silenciosamente (aumentando a conta da Sabesp).
 - **Caça-Vazamentos:** Infiltrações ascendentes (umidade no rodapé) comuns em fundações mais antigas.
 
-👉 **[Ver Encanadores na Zona Sul →](/servicos/encanador)**
+👉 **[Ver Encanadores na Zona Sul →](/servicos/encanador/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -99,7 +99,7 @@ A "cirurgia" mais necessária nas casas do Bosque.
 - **Aumento de Carga:** Preparação da rede para instalação de Ar-Condicionado Split.
 - **Revisão de Chuveiros:** Troca de conectores derretidos e fiação carbonizada.
 
-👉 **[Ver Eletricistas para Reforma →](/servicos/eletricista)**
+👉 **[Ver Eletricistas para Reforma →](/servicos/eletricista/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -110,7 +110,7 @@ Diferente de prédios novos com varanda técnica, instalar AC no Bosque exige ob
 - **Ponto Elétrico Novo:** Puxar fiação 220v direto do quadro (a maioria das tomadas no bairro é 110v).
 - **Drenagem:** Soluções criativas para o escoamento da água em casas sem pré-instalação.
 
-👉 **[Ver Técnicos de Ar-Condicionado →](/servicos/ar-condicionado)**
+👉 **[Ver Técnicos de Ar-Condicionado →](/servicos/ar-condicionado/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -120,7 +120,7 @@ Diferente de prédios novos com varanda técnica, instalar AC no Bosque exige ob
 - **Troca de Telhas:** Reposição de telhas coloniais ou de fibrocimento quebradas.
 - **Pequenos Reparos:** Troca de fechaduras de portões que emperram devido ao sol/chuva.
 
-👉 **[Ver Marido de Aluguel no Bosque →](/servicos/marido-de-aluguel)**
+👉 **[Ver Marido de Aluguel no Bosque →](/servicos/marido-de-aluguel/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -200,7 +200,7 @@ As casas do Bosque sofrem com as chuvas de verão devido a dois fatores: telhado
   </div>
 </div>
 
-**[Chamar Marido de Aluguel para Limpeza de Calhas →](/servicos/marido-de-aluguel)**
+**[Chamar Marido de Aluguel para Limpeza de Calhas →](/servicos/marido-de-aluguel/)**
 
 [⬆️ Voltar ao topo](#top)
 
