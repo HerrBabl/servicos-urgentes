@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Instalação de Ar-Condicionado em SJC: Guia Completo de Preços e Dicas 2026"
 description: "Vai instalar ar-condicionado em São José dos Campos? Confira o guia de preços por bairro, calculadora de BTUs para o clima de SJC e como evitar erros caros."
 date: "2026-01-17T09:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -171,7 +171,7 @@ São José dos Campos possui condomínios com regras estritas. Antes de começar
 
 * **ART (Anotação de Responsabilidade Técnica):** Alguns prédios no Aquarius exigem ART assinada por engenheiro para furações estruturais.
 * **Varandas Técnicas:** Verifique se o seu prédio permite condensadoras penduradas ou apenas apoiadas no chão.
-* **Elétrica:** Muitos prédios no Colinas exigem que o ar-condicionado tenha um disjuntor específico no quadro geral do apartamento. **[Verifique com um eletricista de SJC](/servicos/eletricista)**.
+* **Elétrica:** Muitos prédios no Colinas exigem que o ar-condicionado tenha um disjuntor específico no quadro geral do apartamento. **[Verifique com um eletricista de SJC](/servicos/eletricista/)**.
 
 ---
 
