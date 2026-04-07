@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Vila Adyana - SJC | Residencial e Clínicas"
 description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica predial, elétrica para clínicas e manutenção em imóveis de alto padrão. Atendimento 24h."
 date: "2026-01-26T18:30:00-03:00"
-dateModified: "2026-01-26T18:30:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -89,7 +89,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 
 **Perfil Ideal:** Profissionais que trabalham com **proteção de piso**, limpeza pós-obra rigorosa e tecnologia não destrutiva.
 
-**→ [Ver Encanadores para Alto Padrão na Vila Adyana](/servicos/encanador)**
+**→ [Ver Encanadores para Alto Padrão na Vila Adyana](/servicos/encanador/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -104,7 +104,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 
 **Perfil Ideal:** Eletricistas com experiência em **normas hospitalares (RDC)** e reformas residenciais finas.
 
-**→ [Ver Eletricistas Especializados](/servicos/eletricista)**
+**→ [Ver Eletricistas Especializados](/servicos/eletricista/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -117,7 +117,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 3. **Limpeza Química Profunda:** Devido à poluição da Av. Adhemar de Barros e o pólen das árvores, a limpeza de filtros deve ser bimestral em consultórios.
 4. **Sistemas Inverter Silenciosos:** Essencial para consultórios de psicologia e psiquiatria abundantes na região.
 
-**→ [Ver Técnicos de AC com experiência em Clínicas](/servicos/ar-condicionado)**
+**→ [Ver Técnicos de AC com experiência em Clínicas](/servicos/ar-condicionado/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -127,7 +127,7 @@ A Vila Adyana apresenta um cenário técnico que difere do restante de SJC. Aqui
 2. **Cofres Residenciais:** Abertura e manutenção de cofres mecânicos antigos ou digitais modernos.
 3. **Molas Hidráulicas:** Instalação e regulagem em portas de vidro de lojas e portarias de condomínios.
 
-**→ [Ver Chaveiros 24h na Região](/servicos/chaveiro)**
+**→ [Ver Chaveiros 24h na Região](/servicos/chaveiro/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -221,7 +221,7 @@ Use estes marcos para orientar o prestador de serviço:
   </div>
 </div>
 
-**[Encontrar Profissionais para Manutenção Preventiva →](/servicos/marido-de-aluguel)**
+**[Encontrar Profissionais para Manutenção Preventiva →](/servicos/marido-de-aluguel/)**
 
 [⬆️ Voltar ao topo](#top)
 
