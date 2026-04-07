@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços no Jardim das Colinas - SJC | Alto Padrão e Corporativo"
 description: "Guia de manutenção para Jardim das Colinas: Especialistas em aquecedores a gás, válvulas de pressão predial e elétrica para apartamentos de luxo."
 date: "2026-01-26T17:30:00-03:00"
-dateModified: "2026-01-26T18:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -86,7 +86,7 @@ A verticalização intensa do Jardim das Colinas traz desafios hidráulicos e de
 - **Instalação de Duchas Premium:** Instalação correta de chuveiros de teto e duchas de alta vazão (Grohe, Deca) que exigem vedação perfeita.
 - **Caça-Vazamentos em Drywall:** Muitos apartamentos reformados usam paredes de gesso. O diagnóstico precisa ser eletrônico para evitar abrir buracos desnecessários.
 
-👉 **[Ver Encanadores Especialistas em Gás →](/servicos/encanador)**
+👉 **[Ver Encanadores Especialistas em Gás →](/servicos/encanador/)**
 
 ### <span id="eletricista"></span>⚡ Eletricista: Automação e Carga
 
@@ -95,7 +95,7 @@ Apartamentos modernos no Colinas consomem muita energia.
 - **Iluminação em Sancas:** Instalação de fitas LED e perfis de iluminação em projetos de gesso delicados.
 - **Fechaduras Digitais:** Instalação e configuração de fechaduras biométricas (Samsung/Yale) nas portas sociais e de serviço.
 
-👉 **[Ver Eletricistas para Alto Padrão →](/servicos/eletricista)**
+👉 **[Ver Eletricistas para Alto Padrão →](/servicos/eletricista/)**
 
 ### <span id="climatizacao"></span>❄️ Climatização: Varandas Técnicas e VRF
 
@@ -104,7 +104,7 @@ A estética da fachada é intocável nos condomínios do Colinas.
 - **Infraestrutura Embutida:** Passagem de tubulação de cobre pelo forro de gesso sem danos ao acabamento.
 - **Manutenção B2B:** Contratos de limpeza mensal (PMOC) para escritórios nas torres corporativas.
 
-👉 **[Ver Técnicos de Ar-Condicionado →](/servicos/ar-condicionado)**
+👉 **[Ver Técnicos de Ar-Condicionado →](/servicos/ar-condicionado/)**
 
 ### <span id="marido"></span>🛠️ Marido de Aluguel: Acabamentos Finos
 
@@ -112,7 +112,7 @@ A estética da fachada é intocável nos condomínios do Colinas.
 - Fixação de quadros e espelhos em **Paredes de Drywall** (exige buchas específicas).
 - Reparo em **Móveis Planejados** de alto valor.
 
-👉 **[Ver Profissionais de Manutenção Fina →](/servicos/marido-de-aluguel)**
+👉 **[Ver Profissionais de Manutenção Fina →](/servicos/marido-de-aluguel/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -181,7 +181,7 @@ Em torres comerciais, o cadastro costuma ser feito no térreo com foto e biometr
 - ✅ **Shafts de Gás:** Infiltrações na fachada podem molhar a tubulação de gás nos shafts. Se sentir cheiro de gás após chuva forte, não ligue luzes e chame a manutenção.
 - ✅ **Aquecedores na Área de Serviço:** Se a chuva molhar seu aquecedor a gás (pela janela), **NÃO ligue o aparelho**. A placa eletrônica pode estar úmida, gerando risco de curto e queima total.
 
-**→ [Encanadores para inspeção de gás e pressão](/servicos/encanador)**
+**→ [Encanadores para inspeção de gás e pressão](/servicos/encanador/)**
 
 [⬆️ Voltar ao topo](#top)
 
