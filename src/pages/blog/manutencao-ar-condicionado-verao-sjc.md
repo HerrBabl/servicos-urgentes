@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Manutenção de Ar-Condicionado em SJC: Chuva, Mofo e Infiltração"
 description: "O seu ar-condicionado pinga quando chove? Guia completo para evitar mofo, infiltrações e problemas respiratórios em São José dos Campos."
 date: "2026-01-16T09:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
