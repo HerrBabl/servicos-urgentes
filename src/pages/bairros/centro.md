@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Centro de SJC - Comércios e Prédios Históricos"
 description: "Encontre profissionais verificados para emergências no Centro de São José dos Campos. Especialistas em prédios históricos, instalações comerciais e fiação antiga. Atendimento 24h."
 date: "2026-04-04T14:00:00-03:00"
-dateModified: "2026-01-25T16:15:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -98,7 +98,7 @@ O Centro de SJC apresenta características que exigem profissionais especializad
 **Perfil dos Profissionais:**
 Eletricistas com experiência em **prédios comerciais antigos**, familiarizados com aterramento inadequado, cabos de alumínio (proibidos hoje), e normas NR-10 para ambientes corporativos.
 
-**→ [Encontre Eletricistas Comerciais no Centro](/servicos/eletricista)**
+**→ [Encontre Eletricistas Comerciais no Centro](/servicos/eletricista/)**
 
 <span id="top"></span>
 
@@ -119,7 +119,7 @@ Eletricistas com experiência em **prédios comerciais antigos**, familiarizados
 **Perfil dos Profissionais:**
 Encanadores especializados em **manutenção predial comercial**, com equipamento de vídeo-inspeção, hidrojateamento, e experiência em tubulações antigas.
 
-**→ [Encontre Encanadores Comerciais no Centro](/servicos/encanador)**
+**→ [Encontre Encanadores Comerciais no Centro](/servicos/encanador/)**
 
 <span id="top"></span>
 
@@ -140,7 +140,7 @@ Encanadores especializados em **manutenção predial comercial**, com equipament
 **Perfil dos Profissionais:**
 Chaveiros com certificação em **segurança comercial**, familiarizados com sistemas de alto tráfego e exigências de nota fiscal para prestação de serviços corporativos.
 
-**→ [Encontre Chaveiros Especializados no Centro](/servicos/chaveiro)**
+**→ [Encontre Chaveiros Especializados no Centro](/servicos/chaveiro/)**
 
 <span id="top"></span>
 
@@ -161,7 +161,7 @@ Chaveiros com certificação em **segurança comercial**, familiarizados com sis
 **Perfil dos Profissionais:**
 Técnicos com experiência em **climatização comercial**, certificados para manuseio de gases refrigerantes, e disponibilidade para atendimento fora do horário comercial (evitar impacto no funcionamento).
 
-**→ [Encontre Técnicos de Ar-Condicionado no Centro](/servicos/ar-condicionado)**
+**→ [Encontre Técnicos de Ar-Condicionado no Centro](/servicos/ar-condicionado/)**
 
 <span id="top"></span>
 
@@ -182,7 +182,7 @@ Técnicos com experiência em **climatização comercial**, certificados para ma
 **Perfil dos Profissionais:**
 Profissionais multifuncionais com ferramentas próprias, agilidade para resolver múltiplos problemas em uma visita, e experiência em ambientes comerciais.
 
-**→ [Encontre Maridos de Aluguel no Centro](/servicos/marido-de-aluguel)**
+**→ [Encontre Maridos de Aluguel no Centro](/servicos/marido-de-aluguel/)**
 
 <span id="top"></span>
 
@@ -368,11 +368,11 @@ No **Serviços Urgentes**, você encontra profissionais avaliados por outros com
 
 **Encontre profissionais verificados para sua emergência no Centro:**
 
-- [**Ver Eletricistas Comerciais →**](/servicos/eletricista)
-- [**Ver Encanadores Especializados →**](/servicos/encanador)
-- [**Ver Chaveiros 24h →**](/servicos/chaveiro)
-- [**Ver Técnicos de Ar-Condicionado →**](/servicos/ar-condicionado)
-- [**Ver Maridos de Aluguel e Manutenção →**](/servicos/marido-de-aluguel)
+- [**Ver Eletricistas Comerciais →**](/servicos/eletricista/)
+- [**Ver Encanadores Especializados →**](/servicos/encanador/)
+- [**Ver Chaveiros 24h →**](/servicos/chaveiro/)
+- [**Ver Técnicos de Ar-Condicionado →**](/servicos/ar-condicionado/)
+- [**Ver Maridos de Aluguel e Manutenção →**](/servicos/marido-de-aluguel/)
 
 ---
 
