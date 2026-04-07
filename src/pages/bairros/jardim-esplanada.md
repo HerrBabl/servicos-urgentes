@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência 24h em Jardim Esplanada - São José dos Campos"
 description: "Encontre profissionais verificados para emergências no Jardim Esplanada. Especialistas em alto padrão, automação residencial e sistemas VRF. Atendimento 24h."
 date: "2025-12-15T10:00:00-03:00"
-dateModified: "2026-01-30T18:30:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -83,7 +83,7 @@ O Jardim Esplanada apresenta um cenário único para serviços de manutenção:
 - **Tubulações Antigas:** Substituição de prumadas de ferro por cobre ou PEX.
 - **Desentupimento:** Soluções discretas para áreas gourmets e banheiros de suítes.
 
-**→ [Ver Encanadores em bairros próximos →](/servicos/encanador)**
+**→ [Ver Encanadores em bairros próximos →](/servicos/encanador/)**
 
 ---
 
@@ -95,7 +95,7 @@ O Jardim Esplanada apresenta um cenário único para serviços de manutenção:
 - **Carregadores de Carro Elétrico:** Adequação de rede para Wallbox em garagens.
 - **Quadros de Distribuição:** Organização e balanceamento de carga para evitar desarme de disjuntores.
 
-**→ [Ver Eletricistas em bairros próximos →](/servicos/eletricista)**
+**→ [Ver Eletricistas em bairros próximos →](/servicos/eletricista/)**
 
 ---
 
@@ -107,7 +107,7 @@ O Jardim Esplanada apresenta um cenário único para serviços de manutenção:
 - **Portas Pivotantes:** Ajuste e manutenção de pinos e fechaduras especiais.
 - **Abertura de Autos:** Atendimento rápido para veículos premium com sistemas Keyless.
 
-**→ [Encontre Chaveiros no Jardim Esplanada →](/servicos/chaveiro)**
+**→ [Encontre Chaveiros no Jardim Esplanada →](/servicos/chaveiro/)**
 
 ---
 
@@ -118,7 +118,7 @@ O Jardim Esplanada apresenta um cenário único para serviços de manutenção:
 - **Infraestrutura Embutida:** Passagem de tubulação em forros de gesso sem danos estéticos.
 - **Limpeza Química:** Higienização para eliminar fungos e bactérias, essencial para a saúde.
 
-**→ [Ver Técnicos de Ar-Condicionado em bairros próximos →](/servicos/ar-condicionado)**
+**→ [Ver Técnicos de Ar-Condicionado em bairros próximos →](/servicos/ar-condicionado/)**
 
 ---
 
@@ -130,7 +130,7 @@ O Jardim Esplanada apresenta um cenário único para serviços de manutenção:
 - **Montagem de Móveis:** Ajuste fino de marcenaria e mobiliário de design.
 - **Manutenção de Decks:** Aplicação de verniz e reparos em áreas externas de madeira.
 
-**→ [Ver Marido de Aluguel em bairros próximos →](/servicos/marido-de-aluguel)**
+**→ [Ver Marido de Aluguel em bairros próximos →](/servicos/marido-de-aluguel/)**
 
 <span id="top"></span>
 
@@ -286,11 +286,11 @@ No **Serviços Urgentes**, selecionamos especialistas acostumados com o nível d
 
 **Precisa de um especialista agora?**
 
-- [**Ver Encanadores em São José dos Campos →**](/servicos/encanador)
-- [**Ver Chaveiros em São José dos Campos →**](/servicos/chaveiro)
-- [**Ver Eletricistas em São José dos Campos →**](/servicos/eletricista)
-- [**Ver Técnicos de Ar-Condicionado →**](/servicos/ar-condicionado)
-- [**Ver Marido de Aluguel em São José dos Campos →**](/servicos/marido-de-aluguel)
+- [**Ver Encanadores em São José dos Campos →**](/servicos/encanador/)
+- [**Ver Chaveiros em São José dos Campos →**](/servicos/chaveiro/)
+- [**Ver Eletricistas em São José dos Campos →**](/servicos/eletricista/)
+- [**Ver Técnicos de Ar-Condicionado →**](/servicos/ar-condicionado/)
+- [**Ver Marido de Aluguel em São José dos Campos →**](/servicos/marido-de-aluguel/)
 
 ---
 
