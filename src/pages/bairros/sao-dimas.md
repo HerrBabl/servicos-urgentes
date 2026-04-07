@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência em São Dimas - SJC | Prédios e Casas Antigas"
 description: "Mora no São Dimas? Encontre especialistas em fiação antiga, tubulação de ferro e manutenções prediais. Eletricistas e Encanadores verificados na região central."
 date: "2026-01-26T12:00:00-03:00"
-dateModified: "2026-01-26T13:30:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -78,7 +78,7 @@ A idade média dos imóveis no bairro traz situações que exigem expertise:
 **Perfil do Profissional:**
 Encanadores listados que trabalham com termofusão (PPR) para substituir trechos metálicos e possuem peças de reposição para registros antigos.
 
-**→ [Encontrar Encanadores no São Dimas](/servicos/encanador)**
+**→ [Encontrar Encanadores no São Dimas](/servicos/encanador/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -91,7 +91,7 @@ Encanadores listados que trabalham com termofusão (PPR) para substituir trechos
 2.  **Aterramento:** Criação de sistemas de aterramento em tomadas antigas (padrão 2 pinos para 3 pinos).
 3.  **Reforço de Fiação:** Troca de cabos para suportar chuveiros 7500W e ar-condicionado.
 
-**→ [Encontrar Eletricistas Especializados](/servicos/eletricista)**
+**→ [Encontrar Eletricistas Especializados](/servicos/eletricista/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -104,7 +104,7 @@ Encanadores listados que trabalham com termofusão (PPR) para substituir trechos
 2.  **Portas de Madeira Maciça:** Instalação de fechaduras auxiliares em portas pesadas antigas.
 3.  **Travas de Portão:** Reparo em portões de ferro de vilas e casas antigas.
 
-**→ [Encontrar Chaveiros na Região Central](/servicos/chaveiro)**
+**→ [Encontrar Chaveiros na Região Central](/servicos/chaveiro/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -117,7 +117,7 @@ Encanadores listados que trabalham com termofusão (PPR) para substituir trechos
 2.  **Elétrica Dedicada:** Puxar fiação 220V exclusiva (muitos prédios antigos não têm tomadas 220V nos quartos).
 3.  **Drenagem:** Soluções criativas para o dreno em fachadas onde não há tubulação prevista.
 
-**→ [Encontrar Técnicos de Ar-Condicionado](/servicos/ar-condicionado)**
+**→ [Encontrar Técnicos de Ar-Condicionado](/servicos/ar-condicionado/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -211,11 +211,11 @@ Para atendimentos urgentes no final da tarde, sugira ao profissional o acesso pe
 
 **Conecte-se com profissionais verificados no São Dimas:**
 
-* [**⚡ Eletricistas (Modernização)**](/servicos/eletricista)
-* [**🔧 Encanadores (Predial)**](/servicos/encanador)
-* [**🔑 Chaveiros 24h**](/servicos/chaveiro)
-* [**❄️ Ar-Condicionado**](/servicos/ar-condicionado)
-* [**🛠️ Marido de Aluguel**](/servicos/marido-de-aluguel)
+* [**⚡ Eletricistas (Modernização)**](/servicos/eletricista/)
+* [**🔧 Encanadores (Predial)**](/servicos/encanador/)
+* [**🔑 Chaveiros 24h**](/servicos/chaveiro/)
+* [**❄️ Ar-Condicionado**](/servicos/ar-condicionado/)
+* [**🛠️ Marido de Aluguel**](/servicos/marido-de-aluguel/)
 
 ---
 
