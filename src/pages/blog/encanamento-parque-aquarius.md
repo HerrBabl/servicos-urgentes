@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanamento em Parque Aquarius: Guia Completo para Locatários e Proprietários"
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07T10:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -113,7 +113,7 @@ Transparência de preços ajuda a evitar surpresas. Veja valores praticados por 
 | Limpeza de aquecedor a gás | R$ 150 - R$ 280 | Anual | Evita falhas no inverno, reduz consumo de gás |
 | Troca preventiva de flexíveis | R$ 80 - R$ 150 | A cada 3-5 anos | Previne rompimentos súbitos |
 
-⚡ **Vazamento causou curto-circuito?** Água e eletricidade são uma combinação perigosa. Veja nosso [guia de eletricistas de emergência](/servicos/eletricista) para resolver problemas elétricos causados por infiltração.
+⚡ **Vazamento causou curto-circuito?** Água e eletricidade são uma combinação perigosa. Veja nosso [guia de eletricistas de emergência](/servicos/eletricista/) para resolver problemas elétricos causados por infiltração.
 
 ### Fatores Que Influenciam o Preço
 
@@ -203,7 +203,7 @@ Muitos condomínios no Aquarius exigem que prestadores de serviço tenham:
 
 **Verifique essas exigências com o síndico ANTES de contratar.**
 
-Muitos condomínios no Aquarius exigem que prestadores de serviço tenham seguro de responsabilidade civil e EPIs. [Veja encanadores que atendem o Parque Aquarius](/servicos/encanador) com experiência em condomínios.
+Muitos condomínios no Aquarius exigem que prestadores de serviço tenham seguro de responsabilidade civil e EPIs. [Veja encanadores que atendem o Parque Aquarius](/servicos/encanador/) com experiência em condomínios.
 
 ### Passo 4: Documente Tudo
 * **Fotos/vídeos** do vazamento (antes do reparo).
@@ -273,15 +273,15 @@ Não espere o vazamento atingir o apartamento de baixo. Se você identificou alg
 ✅ Avaliação 4+ estrelas de moradores de SJC
 ✅ Disponibilidade 24h para emergências
 
-👉 **[Encontre Encanador Verificado no Aquarius →](/servicos/encanador)**
+👉 **[Encontre Encanador Verificado no Aquarius →](/servicos/encanador/)**
 
 ## Outros Serviços Úteis para Moradores do Aquarius
 
 Além de encanamento, você pode precisar de:
 
-- **[Marido de Aluguel](/servicos/marido-de-aluguel):** Pequenos reparos, fixação de suportes, troca de registros simples
-- **[Eletricista](/servicos/eletricista):** Curto-circuito causado por vazamento, disjuntor desarmando
-- **[Chaveiro 24h](/servicos/chaveiro):** Trancado fora do apartamento com vazamento ativo dentro (sim, acontece!)
+- **[Marido de Aluguel](/servicos/marido-de-aluguel/):** Pequenos reparos, fixação de suportes, troca de registros simples
+- **[Eletricista](/servicos/eletricista/):** Curto-circuito causado por vazamento, disjuntor desarmando
+- **[Chaveiro 24h](/servicos/chaveiro/):** Trancado fora do apartamento com vazamento ativo dentro (sim, acontece!)
 
 ---
 
