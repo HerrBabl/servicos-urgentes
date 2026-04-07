@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "AC Parou de Funcionar em SJC? Guia de Emergência 2026"
 description: "AC parou no calor de SJC? Veja o que fazer agora, quanto custa o conserto e técnicos verificados no Aquarius, Urbanova e Centro."
 date: "2025-11-17T10:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-07T08:00:00-03:00"
 category: "Guia de Emergência"
 author:
   name: "Equipe Serviços Urgentes"
@@ -104,7 +104,7 @@ Se você acabou de desligar e religar o aparelho, aguarde 5 minutos. Os compress
 - Evaporadora congelando e descongelando
 - Excesso de gás refrigerante
 
-💧 **Vazamento em outros pontos?** Se o problema não está no AC mas em tubulações, veja nosso [guia de encanadores 24h em SJC](/servicos/encanador).
+💧 **Vazamento em outros pontos?** Se o problema não está no AC mas em tubulações, veja nosso [guia de encanadores 24h em SJC](/servicos/encanador/).
 
 <span id="top"></span>
 
