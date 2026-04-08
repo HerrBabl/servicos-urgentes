@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Instalação de Ar-Condicionado em SJC: Guia Completo de Preços e Dicas 2026"
+title: "Instalação de Ar-Condicionado em SJC: Guia 2026"
 description: "Vai instalar ar-condicionado em São José dos Campos? Confira o guia de preços por bairro, calculadora de BTUs para o clima de SJC e como evitar erros caros."
 date: "2026-01-17T09:00:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
