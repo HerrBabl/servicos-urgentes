@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Chuveiro Queimou ou Não Esquenta? Guia de Eletricistas em SJC 2026"
+title: "Chuveiro Queimou em SJC? Guia de Eletricistas 2026"
 description: "Chuveiro morno em dia de chuva? Saiba como trocar resistência, custos estimados e encontre eletricistas 24h no Aquarius, Urbanova e Centro de SJC."
 date: "2026-01-21T10:45:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
