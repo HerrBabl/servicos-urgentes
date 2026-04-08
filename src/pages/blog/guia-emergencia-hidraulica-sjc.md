@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Cano Estourado ou Infiltração? O Guia de Emergência Hidráulica em SJC"
+title: "Cano Estourado em SJC? Guia de Emergência Hidráulica"
 description: "Vazamento no fim de semana? Saiba o que fazer com canos estourados e infiltrações no Aquarius, Urbanova e Vila Adyana. Guia de encanadores 24h em SJC."
 date: "2026-01-19T11:00:00-03:00"
-dateModified: "2026-01-20T10:30:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 category: "Hidráulica"
 author: 
   name: "Equipe Serviços Urgentes"
