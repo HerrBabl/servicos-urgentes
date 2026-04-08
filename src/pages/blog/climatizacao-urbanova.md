@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Climatização em Urbanova: Soluções de Ar-Condicionado para Alto Padrão"
+title: "Climatização em Urbanova: Ar-Condicionado Alto Padrão"
 description: "Mora no Urbanova? Descubra as melhores soluções de ar-condicionado (VRF, Cassette, Duto) para casas com pé-direito duplo e arquitetura moderna."
 date: "2025-12-22T10:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"  
   url: "https://servicosurgentes.com/sobre"  
