@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Marido de Aluguel em São José dos Campos: Guia de Preços e Serviços 2026"
+title: "Marido de Aluguel em SJC: Guia de Preços 2026"
 description: "Precisa de pequenos reparos? Saiba quanto custa um Marido de Aluguel em SJC. Instalação de cortinas, quadros, móveis e elétrica básica no Aquarius, Urbanova e Satélite."
 date: "2026-01-19T09:00:00-03:00"
-dateModified: "2026-03-10T09:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
