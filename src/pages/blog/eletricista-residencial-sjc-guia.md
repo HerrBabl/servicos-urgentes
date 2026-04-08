@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Eletricista Residencial em SJC: Quando Chamar e Quanto Custa em 2026"
+title: "Eletricista Residencial em SJC: Quando Chamar 2026"
 description: "Curto-circuito, chuveiro sem força ou quadro derrubando? Saiba quando chamar eletricista residencial em SJC, quanto custa e como evitar riscos. Técnicos verificados 24h."
 date: "2026-03-09T18:00:00-03:00"
-dateModified: "2026-03-09T18:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 category: "Elétrica Residencial"
 author:
   name: "Equipe Serviços Urgentes"
