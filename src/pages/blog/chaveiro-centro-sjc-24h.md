@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Trancado para Fora no Centro de SJC? Guia de Chaveiros 24h e Abertura de Portas"
+title: "Chaveiro 24h no Centro de SJC — Abertura de Portas"
 description: "Precisa de chaveiro no Centro de SJC? Atendimento rápido na Vila Adyana, São Dimas e Centro. Abertura de portas, chaves codificadas e troca de segredo 24h."
 date: "2026-01-19T17:30:00-03:00"
-dateModified: "2026-03-18T10:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 category: "Segurança Residencial"
 author: 
   name: "Equipe Serviços Urgentes"
