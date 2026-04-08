@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "AC Não Gela em SJC? Daikin, Comfee, Consul — Técnico Urgente Disponível"
+title: "AC Não Gela em SJC? Técnico Urgente Disponível"
 description: "Daikin, Comfee, Consul ou outra marca não está gelando em SJC? Veja no diretório os técnicos especializados disponíveis hoje em São José dos Campos."
 date: "2026-01-15T16:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
