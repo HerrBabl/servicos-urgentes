@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Chave do Carro Perdida ou Quebrada em SJC? Guia de Chaveiro Automotivo 24h"
+title: "Chave do Carro Perdida em SJC? Chaveiro Automotivo 24h"
 description: "Perdeu a chave do carro no Aquarius, Centro ou Urbanova? Guia completo de chaveiro automotivo em SJC: preços, chaves codificadas e abertura sem danos 24h."
 date: "2026-03-06T18:00:00-03:00"
-dateModified: "2026-03-06T18:00:00-03:00"
+dateModified: "2026-04-08T12:00:00-03:00"
 category: "Segurança Residencial"
 author:
   name: "Equipe Serviços Urgentes"
