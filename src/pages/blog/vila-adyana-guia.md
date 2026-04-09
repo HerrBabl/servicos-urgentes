@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Retrofit na Vila Adyana: Guia de Modernização para Casas Antigas em SJC"
+title: "Retrofit na Vila Adyana: Modernização de Casas Antigas"
 description: "Água amarelada ou fusível queimando? Saiba como modernizar a hidráulica e elétrica de casas antigas na Vila Adyana preservando o charme. Guia completo."
 date: "2025-12-20T10:00:00-03:00"
-dateModified: "2026-04-06T17:00:00-03:00"
+dateModified: "2026-04-08T20:30:00-03:00"
 category: "Guia de Bairro"
 author:
   name: "Equipe Serviços Urgentes"
