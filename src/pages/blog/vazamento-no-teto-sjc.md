@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Vazamento no Teto em SJC: O Que Fazer Agora e Como Evitar Danos Maiores"
+title: "Vazamento no Teto em SJC: O Que Fazer e Como Evitar"
 description: "Mancha no teto, goteira ou água escorrendo pela laje? Guia de emergência para vazamento no teto em SJC: ações imediatas, causas, custos e encanadores 24h."
 date: "2026-03-30T17:00:00-03:00"
-dateModified: "2026-03-30T17:00:00-03:00"
+dateModified: "2026-04-08T20:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
