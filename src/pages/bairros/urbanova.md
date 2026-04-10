@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços em Urbanova - SJC | Condomínios e Alto Padrão"
 description: "Guia de serviços para Urbanova: Manutenção de aquecimento solar, pressurizadores, elétrica para automação e reparos em condomínios fechados."
 date: "2026-01-26T17:00:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Fachada de residência moderna em condomínio de alto padrão no bair
 tags: ["Urbanova", "Condomínios", "Alto Padrão", "Energia Solar", "Automação"]
 slug: "servicos-urbanova-sjc"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/urbanova"
+canonicalURL: "https://servicosurgentes.com/bairros/urbanova/"
 keywords: "eletricista urbanova sjc, encanador alphaville sjc, limpeza piscina urbanova, marido de aluguel sjc, manutenção energia solar sjc, automação residencial urbanova"
 region: "São José dos Campos"
 neighborhood: "Urbanova, Jardim das Colinas, Esplanada"
