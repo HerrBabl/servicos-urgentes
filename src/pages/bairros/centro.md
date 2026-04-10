@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Emergências no Centro de SJC — Guia 24h"
 description: "Encontre profissionais verificados para emergências no Centro de São José dos Campos. Especialistas em prédios históricos, instalações comerciais e fiação antiga. Atendimento 24h."
 date: "2026-04-04T14:00:00-03:00"
-dateModified: "2026-04-08T12:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Vista aérea do Centro histórico de São José dos Campos mostrando 
 tags: ["Centro SJC", "Comercial", "Prédios Históricos", "Emergência 24h", "B2B"]
 slug: "centro"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/centro"
+canonicalURL: "https://servicosurgentes.com/bairros/centro/"
 keywords: "eletricista centro sjc, encanador comercial sjc, chaveiro centro são josé dos campos, marido de aluguel sjc, manutenção prédio histórico sjc, calha entupida centro sjc"
 region: "São José dos Campos"
 neighborhood: "Centro, Vila Adyana, Jardim São Dimas, Vila Ema"
