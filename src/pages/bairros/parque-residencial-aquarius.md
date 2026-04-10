@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Parque Residencial Aquarius - SJC 24h"
 description: "Morador do Aquarius? Encontre encanadores, eletricistas e chaveiros verificados na Zona Oeste. Atendimento rápido para Ed. Pátio das Américas e arredores."
 date: "2026-01-26T12:00:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Vista moderna de edifícios residenciais de alto padrão no Parque Re
 tags: ["Parque Aquarius", "Zona Oeste SJC", "Alto Padrão", "Emergência 24h", "Condomínios"]
 slug: "parque-residencial-aquarius"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/parque-residencial-aquarius"
+canonicalURL: "https://servicosurgentes.com/bairros/parque-residencial-aquarius/"
 keywords: "encanador aquarius sjc, eletricista predio zona oeste sjc, chaveiro apartamento aquarius, marido de aluguel sjc, vazamento predio aquarius, ar condicionado condominio sjc"
 region: "São José dos Campos"
 neighborhood: "Parque Residencial Aquarius, Jardim Alvorada, Jardim das Indústrias"
