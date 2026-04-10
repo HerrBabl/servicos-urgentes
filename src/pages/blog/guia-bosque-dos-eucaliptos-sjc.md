@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços Urgentes no Bosque dos Eucaliptos — SJC"
 description: "Mora no Bosque dos Eucaliptos ou Satélite? Encontre encanador, eletricista e marido de aluguel na Zona Sul de SJC. Atendimento rápido na Av. Andrômeda e região."
 date: "2026-01-20T09:00:00-03:00"
-dateModified: "2026-04-08T12:00:00-03:00"
+dateModified: "2026-04-10T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -51,7 +51,7 @@ faqSchema:
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://servicosurgentes.com/blog/guia-bosque-dos-eucaliptos-sjc"
+    "@id": "https://servicosurgentes.com/blog/guia-bosque-dos-eucaliptos-sjc/"
   },
   "about": {
     "@type": "Place",
