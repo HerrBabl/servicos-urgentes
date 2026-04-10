@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Instalação de Ar-Condicionado em SJC: Guia 2026"
 description: "Vai instalar ar-condicionado em São José dos Campos? Confira o guia de preços por bairro, calculadora de BTUs para o clima de SJC e como evitar erros caros."
 date: "2026-01-17T09:00:00-03:00"
-dateModified: "2026-04-08T12:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -109,7 +109,7 @@ Se você acabou de instalar o aparelho e notar qualquer um destes sinais, deslig
 * **Ar parou de gelar após 1 semana:** Provável vazamento de gás por flange mal feita. **[Leia: Ar-Condicionado Não Gela?](/blog/ar-condicionado-nao-gela-sjc/)**.
 * **Barulho de "assobio" nos canos:** Estrangulamento da tubulação de cobre.
 
-> 🚨 **Precisa de instalação profissional hoje?** [Ver instaladores verificados em SJC →](/servicos/ar-condicionado?utm_source=blog&utm_medium=organic&utm_campaign=ac_installation_guide_2026)
+> 🚨 **Precisa de instalação profissional hoje?** [Ver instaladores verificados em SJC →](/servicos/ar-condicionado/?utm_source=blog&utm_medium=organic&utm_campaign=ac_installation_guide_2026)
 
 ---
 
@@ -216,4 +216,4 @@ São José dos Campos possui condomínios com regras estritas. Antes de começar
 **Garanta uma instalação segura e com garantia.**
 Encontre agora os melhores instaladores de ar-condicionado em São José dos Campos.
 
-👉 **[Ver Lista de Instaladores Verificados em SJC →](/servicos/ar-condicionado?utm_source=blog&utm_medium=organic&utm_campaign=ac_installation_guide_2026)**
+👉 **[Ver Lista de Instaladores Verificados em SJC →](/servicos/ar-condicionado/?utm_source=blog&utm_medium=organic&utm_campaign=ac_installation_guide_2026)**
