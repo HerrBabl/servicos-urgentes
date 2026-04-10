@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Vila Adyana - SJC | Residencial e Clínicas"
 description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica predial, elétrica para clínicas e manutenção em imóveis de alto padrão. Atendimento 24h."
 date: "2026-01-26T18:30:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Rua arborizada típica da Vila Adyana em São José dos Campos, próx
 tags: ["Vila Adyana", "Área Médica", "Alto Padrão", "Emergência 24h", "Manutenção Predial"]
 slug: "vila-adyana"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/vila-adyana"
+canonicalURL: "https://servicosurgentes.com/bairros/vila-adyana/"
 keywords: "encanador vila adyana, eletricista para clinica sjc, chaveiro vicentina aranha, marido de aluguel sjc, manutenção predial vila adyana, ar condicionado consultorio sjc"
 region: "São José dos Campos"
 neighborhood: "Vila Adyana, Jardim São Dimas, Jardim Apolo"
