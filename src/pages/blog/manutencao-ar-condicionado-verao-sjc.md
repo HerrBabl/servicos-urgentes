@@ -89,7 +89,7 @@ Não espere a água estragar seu piso laminado ou gesso.
 * **Cheiro forte de mofo:** Risco à saúde, especialmente para crianças e idosos.
 * **Barulho de "água borbulhando":** O dreno está tentando vencer um bloqueio.
 
-> 🚨 **Precisa de um técnico agora?** [Ver profissionais disponíveis 24h em SJC →](/servicos/ar-condicionado?utm_source=blog&utm_medium=organic&utm_campaign=ac_rain_maintenance_2026)
+> 🚨 **Precisa de um técnico agora?** [Ver profissionais disponíveis 24h em SJC →](/servicos/ar-condicionado/?utm_source=blog&utm_medium=organic&utm_campaign=ac_rain_maintenance_2026)
 
 ---
 
