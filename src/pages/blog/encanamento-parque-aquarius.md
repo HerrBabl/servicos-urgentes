@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanamento no Aquarius: Guia para Moradores SJC"
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07T10:00:00-03:00"
-dateModified: "2026-04-08T12:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -68,7 +68,7 @@ Manutenção de uso e desgastes causados durante a moradia.
 
 > **⚠️ Dica de Ouro:** Se o problema for urgente (água jorrando, risco de dano ao vizinho de baixo), o inquilino deve realizar o reparo emergencial para estancar o dano imediato. Depois, negocie o reembolso com o proprietário, sempre **documentando tudo** com fotos, vídeos e notas fiscais do serviço.
 
-> **Leia também:** [Retrofit na Vila Adyana: Como Modernizar Tubulações Antigas](/blog/retrofit-vila-adyana)
+> **Leia também:** [Retrofit na Vila Adyana: Como Modernizar Tubulações Antigas](/blog/vila-adyana-guia/)
 
 > **⚠️ Aviso Legal:** Este guia apresenta orientações gerais baseadas na Lei do Inquilinato (Lei 8.245/91) e boas práticas de manutenção predial. Situações específicas podem ter nuances legais ou contratuais. Em caso de conflito entre locador e locatário, consulte um advogado especializado em direito imobiliário. O Serviços Urgentes é um diretório que conecta usuários a profissionais, não prestando consultoria jurídica.
 
