@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Jardim Satélite SJC: Encanador, Eletricista e Chaveiro 24h"
 description: "Jardim Satélite e Zona Sul: profissionais verificados 4+ estrelas. Atendimento rápido para Floradas, Andrômeda e arredores. Marido de Aluguel e técnicos 24h."
 date: "2026-01-21T14:00:00-03:00"
-dateModified: "2026-02-05T07:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -14,7 +14,7 @@ slug: "jardim-satelite"
 category: "Guia de Bairro"
 neighborhood: "Jardim Satélite, Floradas de São José, Bosque dos Eucaliptos"
 region: "Zona Sul"
-canonicalURL: "https://servicosurgentes.com/bairros/jardim-satelite"
+canonicalURL: "https://servicosurgentes.com/bairros/jardim-satelite/"
 keywords: "eletricista jardim satélite sjc, encanador avenida andrômeda, chaveiro zona sul sjc, marido de aluguel sjc, desentupidora jardim satélite, conserto telhado zona sul"
 faqSchema:
   - question: "Quanto tempo demora para um técnico chegar no Jardim Satélite?"
