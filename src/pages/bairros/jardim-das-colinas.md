@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços no Jardim das Colinas - SJC | Alto Padrão e Corporativo"
 description: "Guia de manutenção para Jardim das Colinas: Especialistas em aquecedores a gás, válvulas de pressão predial e elétrica para apartamentos de luxo."
 date: "2026-01-26T17:30:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Vista de edifícios residenciais de alto padrão e torres corporativa
 tags: ["Jardim das Colinas", "Alto Padrão", "Gás Encanado", "Manutenção Predial"]
 slug: "servicos-jardim-das-colinas-sjc"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/jardim-das-colinas"
+canonicalURL: "https://servicosurgentes.com/bairros/jardim-das-colinas/"
 keywords: "encanador jardim das colinas, conserto aquecedor a gás sjc, eletricista colinas shopping, marido de aluguel sjc, manutenção válvula hydra, ar condicionado multi split sjc"
 region: "São José dos Campos"
 neighborhood: "Jardim das Colinas, Jardim Esplanada, Aquarius"
@@ -265,6 +265,6 @@ Em torres comerciais, o cadastro costuma ser feito no térreo com foto e biometr
     "latitude": "-23.2045", 
     "longitude": "-45.9089"
   },
-  "url": "https://servicosurgentes.com/bairros/jardim-das-colinas"
+  "url": "https://servicosurgentes.com/bairros/jardim-das-colinas/"
 }
 </script>
