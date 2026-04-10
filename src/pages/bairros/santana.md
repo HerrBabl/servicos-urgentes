@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência em Santana, SJC — Guia de Bairro 24h"
 description: "Mora em Santana ou Altos de Santana? Encontre encanadores, eletricistas, chaveiros e marido de aluguel verificados na Zona Norte de SJC. Atendimento 24h."
 date: "2026-03-31T08:30:00-03:00"
-dateModified: "2026-03-31T10:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Rua residencial arborizada no bairro Santana em São José dos Campos
 tags: ["Santana", "Zona Norte SJC", "Bairro Tradicional", "Emergência 24h"]
 slug: "santana"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/santana"
+canonicalURL: "https://servicosurgentes.com/bairros/santana/"
 keywords: "encanador santana sjc, eletricista zona norte sjc, chaveiro santana são josé dos campos, marido de aluguel sjc, serviços urgentes santana sjc, ar condicionado altos de santana"
 region: "São José dos Campos"
 neighborhood: "Santana, Altos de Santana, Portal de Minas, Vila Carmo"
