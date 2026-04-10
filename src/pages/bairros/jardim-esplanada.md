@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência 24h em Jardim Esplanada - São José dos Campos"
 description: "Encontre profissionais verificados para emergências no Jardim Esplanada. Especialistas em alto padrão, automação residencial e sistemas VRF. Atendimento 24h."
 date: "2025-12-15T10:00:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Vista do bairro nobre Jardim Esplanada em São José dos Campos mostr
 tags: ["Jardim Esplanada", "Alto Padrão", "Residencial Nobre", "Emergência 24h", "Região Central"]
 slug: "jardim-esplanada"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/bairros/jardim-esplanada"
+canonicalURL: "https://servicosurgentes.com/bairros/jardim-esplanada/"
 keywords: "encanador jardim esplanada, eletricista urgente esplanada, chaveiro 24h esplanada, marido de aluguel sjc, manutenção alto padrão sjc, climatização vrf esplanada"
 region: "São José dos Campos"
 neighborhood: "Jardim Esplanada, Vila Adyana, Parque Vicentina Aranha"
