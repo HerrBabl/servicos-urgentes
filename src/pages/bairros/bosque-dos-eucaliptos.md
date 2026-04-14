@@ -31,8 +31,6 @@ faqSchema:
 
 <span id="top"></span>
 
-# Serviços de Manutenção e Emergência no Bosque dos Eucaliptos, SJC
-
 O Bosque dos Eucaliptos é o coração pulsante da Zona Sul de São José dos Campos. Diferente dos prédios novos do Aquarius ou das casas históricas do Centro, o Bosque é caracterizado por **residências sólidas construídas entre as décadas de 80 e 90**.
 
 Essa "meia-idade" dos imóveis traz desafios específicos: a infraestrutura não é velha o suficiente para cair, mas já não suporta a carga elétrica moderna, e os telhados coloniais exigem manutenção constante contra infiltrações.
