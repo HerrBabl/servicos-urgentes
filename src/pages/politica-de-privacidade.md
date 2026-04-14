@@ -13,8 +13,6 @@ canonicalURL: "https://servicosurgentes.com/politica-de-privacidade"
 region: "São José dos Campos"
 ---
 
-# Política de Privacidade
-
 **Última atualização:** 5 de março de 2026
 
 O **Serviços Urgentes** ("nós", "nosso") é um diretório de conexão entre usuários e prestadores de serviços de emergência em São José dos Campos e região. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações quando você acessa **servicosurgentes.com**.
