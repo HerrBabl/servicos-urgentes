@@ -29,8 +29,6 @@ faqSchema:
 
 <span id="top"></span>
 
-# Serviços de Emergência no Jardim das Colinas, São José dos Campos
-
 O Jardim das Colinas é o epicentro do "Novo Luxo" em São José dos Campos. Vizinho ao cartão-postal Arco da Inovação e sede do Colinas Shopping, o bairro mistura **torres residenciais de altíssimo padrão** com um **complexo corporativo** vibrante.
 
 As emergências aqui não são resolvidas com improviso. O morador do Colinas lida com sistemas pressurizados, aquecimento a gás central e automação residencial que exigem técnicos com ferramental de precisão e seguro de responsabilidade civil.
