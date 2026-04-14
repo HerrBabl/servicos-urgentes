@@ -33,8 +33,6 @@ faqSchema:
 
 <span id="top"></span>
 
-# Serviços de Manutenção e Emergência no Urbanova, São José dos Campos
-
 O Urbanova é uma "cidade dentro da cidade". Composto majoritariamente por condomínios horizontais de alto padrão (Alphaville, Jaguary, Paratehy), o bairro exige um perfil técnico diferenciado. As residências aqui não sofrem com "fiação velha" como no Centro, mas sim com a complexidade de sistemas modernos: **automação, energia fotovoltaica, aquecimento de piscina e pressurização hidráulica.**
 
 Uma emergência no Urbanova raramente é "apenas trocar um fio". Geralmente envolve diagnosticar sistemas integrados onde um erro pode custar caro.
