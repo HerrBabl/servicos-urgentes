@@ -31,9 +31,7 @@ faqSchema:
     answer: "Sim. A maioria dos eletricistas e encanadores listados têm experiência tanto em residências quanto em estabelecimentos comerciais da Av. Andrômeda. Confirme a emissão de nota fiscal ao solicitar orçamento para serviços comerciais."
 ---
 
-<span id="top"></span>
-
-# Jardim Satélite: O Coração da Zona Sul Precisa de Manutenção Rápida?
+<span id="top">
 
 Como o **bairro mais populoso** de São José dos Campos (mais de 40 mil habitantes), o Jardim Satélite é uma "cidade dentro da cidade". Com sua mistura vibrante de comércios na Av. Andrômeda, grandes condomínios no Floradas de São José, e casas residenciais tradicionais desde a década de 1980, a demanda por serviços de manutenção é constante — especialmente nos períodos de chuva intensa que caracterizam o verão no Vale do Paraíba.
 
