@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Vila Adyana - SJC | Residencial e Clínicas"
 description: "Guia de emergência para Vila Adyana: Especialistas em hidráulica predial, elétrica para clínicas e manutenção em imóveis de alto padrão. Atendimento 24h."
 date: "2026-01-26T18:30:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -32,8 +32,6 @@ faqSchema:
 ---
 
 <span id="top"></span>
-
-# Serviços de Emergência na Vila Adyana - SJC (Guia 2026)
 
 **Com as chuvas intensas previstas para o Vale do Paraíba (alerta de 14mm hoje e temporais no fim de semana),** a Vila Adyana exige atenção redobrada: árvores centenárias que ameaçam fiações, calhas de prédios antigos que não suportam o volume de água e infiltrações silenciosas em imóveis de alto padrão.
 
