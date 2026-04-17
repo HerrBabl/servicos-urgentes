@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência 24h em Jardim Esplanada - São José dos Campos"
 description: "Encontre profissionais verificados para emergências no Jardim Esplanada. Especialistas em alto padrão, automação residencial e sistemas VRF. Atendimento 24h."
 date: "2025-12-15T10:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
