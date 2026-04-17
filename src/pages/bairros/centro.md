@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Emergências no Centro de SJC — Guia 24h"
-description: "Encontre profissionais verificados para emergências no Centro de São José dos Campos. Especialistas em prédios históricos, instalações comerciais e fiação antiga. Atendimento 24h."
+description: "Encontre profissionais verificados para emergências no Centro de SJC. Especialistas em prédios históricos e instalações comerciais. Atendimento 24h."
 date: "2026-04-04T14:00:00-03:00"
 dateModified: "2026-04-09T09:30:00-03:00"
 author:
