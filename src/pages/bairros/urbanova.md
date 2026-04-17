@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços em Urbanova - SJC | Condomínios e Alto Padrão"
 description: "Guia de serviços para Urbanova: Manutenção de aquecimento solar, pressurizadores, elétrica para automação e reparos em condomínios fechados."
 date: "2026-01-26T17:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
