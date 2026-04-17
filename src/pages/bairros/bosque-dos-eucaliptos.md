@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços no Bosque dos Eucaliptos - SJC | Guia Zona Sul 2026"
 description: "Guia de manutenção para o Bosque dos Eucaliptos: Eletricistas para modernização de quadros, encanadores e reparos em telhados na Zona Sul de SJC."
 date: "2026-01-26T19:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
