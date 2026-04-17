@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços no Jardim das Colinas - SJC | Alto Padrão e Corporativo"
 description: "Guia de manutenção para Jardim das Colinas: Especialistas em aquecedores a gás, válvulas de pressão predial e elétrica para apartamentos de luxo."
 date: "2026-01-26T17:30:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
