@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Cano Estourado em SJC? Guia de Emergência Hidráulica"
 description: "Vazamento no fim de semana? Saiba o que fazer com canos estourados e infiltrações no Aquarius, Urbanova e Vila Adyana. Guia de encanadores 24h em SJC."
 date: "2026-01-19T11:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-05-05T07:30:00-03:00"
 category: "Hidráulica"
 author: 
   name: "Equipe Serviços Urgentes"
@@ -145,6 +145,8 @@ Não espere a água chegar na sala. Acesse nossa lista de profissionais verifica
 * [Ar-Condicionado Não Gela? Diagnóstico Rápido](/blog/ar-condicionado-nao-gela-sjc/)
 * [Manutenção Preventiva de Verão em SJC](/blog/manutencao-ar-condicionado-verao-sjc/)
 * [Modernização Elétrica em Vila Adyana](/blog/vila-adyana-guia/)
+* [Cano estourado em SJC — o que fazer agora →](/emergencias/cano-estourado-sjc/)
+* [Vazamento no teto em SJC — guia de emergência →](/emergencias/vazamento-no-teto-sjc/)
 
 ---
 
