@@ -1,0 +1,189 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Emergências Residenciais em SJC — O Que Fazer Agora";
+const description = "Guias de emergência para moradores de São José dos Campos: cano estourado, porta trancada, curto-circuito e mais. Profissionais verificados 24h.";
+const keywords = "emergência residencial sjc, o que fazer emergência sjc, serviços urgentes são josé dos campos, marido de aluguel sjc, emergência hidráulica sjc, emergência elétrica sjc";
+const canonicalURL = "https://servicosurgentes.com/emergencias/";
+---
+
+<Layout title={title} description={description} keywords={keywords}>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://servicosurgentes.com/emergencias/",
+    "name": "Emergências Residenciais em SJC — O Que Fazer Agora",
+    "description": "Guias de emergência para moradores de São José dos Campos: cano estourado, porta trancada, curto-circuito e mais.",
+    "url": "https://servicosurgentes.com/emergencias/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes SJC",
+      "url": "https://servicosurgentes.com"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://servicosurgentes.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Emergências",
+          "item": "https://servicosurgentes.com/emergencias/"
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-br from-red-700 to-red-900 text-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">
+        Emergência em Casa? Saiba o Que Fazer Agora
+      </h1>
+      <p class="text-lg max-w-2xl mx-auto text-red-100">
+        Guias práticos para as emergências residenciais mais comuns em São José dos Campos. Cada guia explica o que fazer nos primeiros minutos e como encontrar profissionais verificados 24h.
+      </p>
+    </div>
+  </section>
+
+  <!-- SCENARIO CARDS -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+
+      <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+        Selecione sua Emergência
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Cano Estourado -->
+        <a href="/emergencias/cano-estourado-sjc/" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-blue-600">
+          <div class="flex items-start gap-4">
+            <span class="text-4xl">💧</span>
+            <div>
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Cano Estourado</h3>
+              <p class="text-gray-600 text-sm">Água jorrando, piso inundando ou vazamento visível na parede. O que fechar primeiro e quem chamar.</p>
+              <span class="inline-block mt-3 text-blue-600 font-semibold text-sm">Ver guia de emergência →</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Porta Trancada -->
+        <a href="/emergencias/porta-trancada-sjc/" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-yellow-500">
+          <div class="flex items-start gap-4">
+            <span class="text-4xl">🔐</span>
+            <div>
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Porta Trancada</h3>
+              <p class="text-gray-600 text-sm">Trancado do lado de fora, chave quebrada ou fechadura travada. Como agir sem danificar a porta.</p>
+              <span class="inline-block mt-3 text-yellow-600 font-semibold text-sm">Ver guia de emergência →</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Curto-Circuito -->
+        <a href="/emergencias/curto-circuito-sjc/" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-orange-500">
+          <div class="flex items-start gap-4">
+            <span class="text-4xl">⚡</span>
+            <div>
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Curto-Circuito</h3>
+              <p class="text-gray-600 text-sm">Disjuntor caindo, cheiro de queimado ou tomada faiscando. O que nunca fazer e como chamar ajuda com segurança.</p>
+              <span class="inline-block mt-3 text-orange-600 font-semibold text-sm">Ver guia de emergência →</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Chuveiro Queimado -->
+        <a href="/emergencias/chuveiro-queimado-sjc/" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-red-500">
+          <div class="flex items-start gap-4">
+            <span class="text-4xl">🚿</span>
+            <div>
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Chuveiro Queimado</h3>
+              <p class="text-gray-600 text-sm">Chuveiro sem força, água fria ou cheiro de queimado. Como desligar com segurança e quem chamar em SJC.</p>
+              <span class="inline-block mt-3 text-red-600 font-semibold text-sm">Ver guia de emergência →</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Vazamento no Teto -->
+        <a href="/emergencias/vazamento-no-teto-sjc/" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-teal-500 md:col-span-2">
+          <div class="flex items-start gap-4">
+            <span class="text-4xl">🏠</span>
+            <div>
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Vazamento no Teto</h3>
+              <p class="text-gray-600 text-sm">Mancha de umidade, goteira ou infiltração vinda de cima. O que fazer nas primeiras 2 horas para limitar o estrago em apartamentos e casas de SJC.</p>
+              <span class="inline-block mt-3 text-teal-600 font-semibold text-sm">Ver guia de emergência →</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- URGENCY STRIP -->
+  <section class="bg-red-600 text-white py-8">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p class="text-xl font-bold mb-2">Situação grave? Não espere.</p>
+      <p class="text-red-100 mb-4">Para risco de vida, ligue imediatamente para o Corpo de Bombeiros (193) ou Defesa Civil (199).</p>
+      <a href="/" class="inline-block bg-white text-red-600 font-bold py-3 px-8 rounded-lg hover:bg-red-50 transition-colors">
+        Ver todos os profissionais verificados →
+      </a>
+    </div>
+  </section>
+
+  <!-- INTRO CONTENT FOR GEO -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 prose prose-gray max-w-none">
+
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Como Usar Este Guia de Emergências</h2>
+
+      <p class="text-gray-700 mb-4">
+        Emergências residenciais acontecem sem aviso — geralmente à noite, nos fins de semana ou em feriados. Em São José dos Campos, a combinação de chuvas intensas no verão, condomínios verticais no Aquarius e Urbanova, e construções antigas no Centro cria um cenário onde problemas hidráulicos, elétricos e de segurança são frequentes e exigem resposta rápida.
+      </p>
+
+      <p class="text-gray-700 mb-4">
+        Cada guia nesta seção foi desenvolvido para responder a uma pergunta específica: <strong>o que fazer nos primeiros minutos</strong>, antes que o profissional chegue. Não ensinamos você a resolver o problema — ensinamos a <strong>não piorar a situação</strong> enquanto aguarda um técnico verificado.
+      </p>
+
+      <h3 class="text-xl font-bold text-gray-800 mb-4 mt-8">Profissionais Verificados 24h em SJC</h3>
+
+      <p class="text-gray-700 mb-4">
+        O Serviços Urgentes é um diretório de conexão — listamos profissionais da região com avaliação mínima de 4 estrelas no Google Maps e atendimento 24h confirmado. Cobrimos todos os bairros de SJC incluindo Parque Residencial Aquarius, Urbanova, Vila Adyana, Centro, Jardim Satélite, Bosque dos Eucaliptos, Santana e São Dimas.
+      </p>
+
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3 my-8">
+        <a href="/servicos/encanador/" class="bg-blue-50 border border-blue-200 rounded-lg p-3 text-center hover:bg-blue-100 transition-colors">
+          <div class="text-2xl mb-1">🔧</div>
+          <div class="text-sm font-semibold text-blue-800">Encanador</div>
+        </a>
+        <a href="/servicos/eletricista/" class="bg-orange-50 border border-orange-200 rounded-lg p-3 text-center hover:bg-orange-100 transition-colors">
+          <div class="text-2xl mb-1">⚡</div>
+          <div class="text-sm font-semibold text-orange-800">Eletricista</div>
+        </a>
+        <a href="/servicos/chaveiro/" class="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-center hover:bg-yellow-100 transition-colors">
+          <div class="text-2xl mb-1">🔐</div>
+          <div class="text-sm font-semibold text-yellow-800">Chaveiro</div>
+        </a>
+        <a href="/servicos/ar-condicionado/" class="bg-teal-50 border border-teal-200 rounded-lg p-3 text-center hover:bg-teal-100 transition-colors">
+          <div class="text-2xl mb-1">❄️</div>
+          <div class="text-sm font-semibold text-teal-800">Ar-Condicionado</div>
+        </a>
+        <a href="/servicos/marido-de-aluguel/" class="bg-green-50 border border-green-200 rounded-lg p-3 text-center hover:bg-green-100 transition-colors">
+          <div class="text-2xl mb-1">🏠</div>
+          <div class="text-sm font-semibold text-green-800">Marido de Aluguel</div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</Layout>
