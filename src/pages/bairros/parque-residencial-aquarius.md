@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Parque Residencial Aquarius - SJC 24h"
 description: "Morador do Aquarius? Encontre encanadores, eletricistas e chaveiros verificados na Zona Oeste. Atendimento rápido para Ed. Pátio das Américas e arredores."
 date: "2026-01-26T12:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-05-05T07:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -123,6 +123,8 @@ Encanadores equipados com manômetros para medir pressão e ferramentas para tub
 3.  **Higienização Profunda:** Combate a fungos em ambientes fechados climatizados.
 
 **→ [Encontrar Técnicos de Ar-Condicionado](/servicos/ar-condicionado/)**
+
+- [Guias de emergência para o Aquarius →](/emergencias/)
 
 [⬆️ Voltar ao topo](#top)
 
