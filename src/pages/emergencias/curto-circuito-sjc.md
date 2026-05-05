@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Curto-Circuito em SJC: O Que Fazer Antes do Eletricista Chegar"
-description: "Disjuntor caindo, cheiro de queimado ou tomada faiscando em São José dos Campos? Saiba o que fazer agora. Eletricistas verificados 24h no Aquarius, Centro e Urbanova."
+description: "Disjuntor caindo ou cheiro de queimado em SJC? Saiba o que fazer agora. Eletricistas verificados 24h no Aquarius, Urbanova e Centro."
 date: "2026-05-04T17:30:00-03:00"
-dateModified: "2026-05-04T17:30:00-03:00"
+dateModified: "2026-05-05T07:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
