@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Eletricista Residencial em SJC: Quando Chamar 2026"
 description: "Curto-circuito, chuveiro sem força ou quadro derrubando? Saiba quando chamar eletricista em SJC, quanto custa e como evitar riscos. Técnicos 24h."
 date: "2026-03-09T18:00:00-03:00"
-dateModified: "2026-04-16T12:00:00-03:00"
+dateModified: "2026-05-05T07:30:00-03:00"
 category: "Elétrica Residencial"
 author:
   name: "Equipe Serviços Urgentes"
@@ -237,5 +237,10 @@ A parte elétrica sim — disjuntor dedicado, fiação e tomada. A instalação 
 <summary><strong>Quanto tempo demora para o eletricista chegar em SJC?</strong></summary>
 Em bairros como Aquarius, Urbanova e Centro, a média é de 30 a 60 minutos para emergências. Em horário comercial, entre 20 e 40 minutos.
 </details>
+
+## 🔗 Veja Também
+
+- [Curto-circuito em SJC — o que fazer agora →](/emergencias/curto-circuito-sjc/)
+- [Chuveiro queimado em SJC — guia de emergência →](/emergencias/chuveiro-queimado-sjc/)
 
 [⬆️ Voltar ao topo](#top)
