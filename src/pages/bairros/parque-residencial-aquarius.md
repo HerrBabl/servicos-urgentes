@@ -7,8 +7,8 @@ dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1460317442991-0ec2aaefcb8b?q=80&w=800"
-imageAlt: "Vista moderna de edifícios residenciais de alto padrão no Parque Residencial Aquarius em São José dos Campos"
+image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800"
+imageAlt: "Vista de edifícios residenciais modernos no Parque Residencial Aquarius em São José dos Campos"
 tags: ["Parque Aquarius", "Zona Oeste SJC", "Alto Padrão", "Emergência 24h", "Condomínios"]
 slug: "parque-residencial-aquarius"
 category: "Guia de Bairro"
