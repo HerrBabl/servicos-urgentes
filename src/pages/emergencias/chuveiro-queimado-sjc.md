@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chuveiro Queimado em SJC: O Que Fazer Antes do Eletricista Chegar"
 description: "Chuveiro sem força ou cheiro de queimado em SJC? Saiba o que fazer agora. Eletricistas verificados 24h no Centro, Aquarius e Urbanova."
 date: "2026-05-04T17:30:00-03:00"
-dateModified: "2026-05-04T17:30:00-03:00"
+dateModified: "2026-05-05T07:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
