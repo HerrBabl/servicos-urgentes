@@ -50,8 +50,15 @@
 - https://servicosurgentes.com/blog/chaveiro-carro-sjc-guia/
 - https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc/
 - https://servicosurgentes.com/blog/instalacao-ar-condicionado-sjc-guia/
-- https://servicosurgentes.com/blog/vazamento-no-teto-sjc/
 - https://servicosurgentes.com/blog/emergencia-temporal-sjc/
+
+## Emergency Scenario Pages (/emergencias/)
+- https://servicosurgentes.com/emergencias/
+- https://servicosurgentes.com/emergencias/cano-estourado-sjc/
+- https://servicosurgentes.com/emergencias/porta-trancada-sjc/
+- https://servicosurgentes.com/emergencias/curto-circuito-sjc/
+- https://servicosurgentes.com/emergencias/chuveiro-queimado-sjc/
+- https://servicosurgentes.com/emergencias/vazamento-no-teto-sjc/
 
 ## About & Directory Info
 - https://servicosurgentes.com/sobre/
