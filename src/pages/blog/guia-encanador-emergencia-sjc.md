@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanador de Emergência em SJC: O Que Fazer Antes do Técnico Chegar"
 description: "Cano estourou? Vazamento grave? Saiba como agir nos primeiros minutos, quanto custa um encanador 24h em São José dos Campos e quem chamar."
 date: "2026-01-14T08:00:00-03:00"
-dateModified: "2026-04-02T07:15:00-03:00"
+dateModified: "2026-05-05T07:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -160,3 +160,9 @@ Não arrisque "gambiarras" que podem piorar o vazamento. Acesse nossa lista de e
 **Resposta:** O serviço utiliza tecnologia de ultrassom (geofone) para localizar o ponto exato do vazamento sem precisar quebrar paredes ou pisos desnecessariamente. Em São José dos Campos, o custo para detecção eletrônica varia entre R$ 350 e R$ 600. É a solução ideal para reduzir o desperdício de água e evitar gastos excessivos com reformas após o reparo.
 
 > **⚠️ Aviso de Preços:** Os valores apresentados nesta tabela são **estimativas médias de mercado** apenas para fins de referência. O preço final pode variar significativamente dependendo da complexidade do problema, horário de atendimento (plantão/feriados), bairro e materiais necessários. O **Serviços Urgentes SJC** atua exclusivamente como um diretório de divulgação e não interfere na precificação dos profissionais. Não nos responsabilizamos por divergências de valores; toda negociação deve ser realizada diretamente entre o cliente e o prestador de serviço. **Sempre exija um orçamento prévio.**
+
+## 🔗 Veja Também
+
+- [Cano estourado em SJC — o que fazer agora →](/emergencias/cano-estourado-sjc/)
+
+[⬆️ Voltar ao topo](#inicio)
