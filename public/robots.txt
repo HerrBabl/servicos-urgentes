@@ -1,5 +1,24 @@
-# Allow all search engines
+# Allow all search engines and AI crawlers
 User-agent: *
+Allow: /
+
+# Explicitly allow AI training crawlers (AEO strategy)
+User-agent: CCBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 # Sitemap location
