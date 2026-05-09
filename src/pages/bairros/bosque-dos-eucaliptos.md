@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
-title: "Serviços no Bosque dos Eucaliptos - SJC | Guia Zona Sul 2026"
-description: "Guia de manutenção para o Bosque dos Eucaliptos: Eletricistas para modernização de quadros, encanadores e reparos em telhados na Zona Sul de SJC."
-date: "2026-01-26T19:00:00-03:00"
-dateModified: "2026-04-14T19:00:00-03:00"
+title: "Chaveiro e Serviços no Bosque dos Eucaliptos SJC | Guia 2026"
+description: "Chaveiro na Av. Andrômeda? Eletricista, encanador e marido de aluguel no Bosque dos Eucaliptos SJC. Profissionais verificados, atendimento em 20-30 min."
+keywords: "chaveiro andromeda sjc, chaveiro bosque dos eucaliptos, eletricista bosque dos eucaliptos, encanador andromeda sjc, marido de aluguel sjc, serviços zona sul sjc"
+dateModified: "2026-05-09T14:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -39,10 +39,9 @@ Essa "meia-idade" dos imóveis traz desafios específicos: a infraestrutura não
 
 1. [Alertas de Infraestrutura: Casas dos Anos 90](#1-infraestrutura)
 2. [Serviços Especializados na Zona Sul](#2-servicos)
+   - [Chaveiro (Abertura de Porta e Fechadura)](#chaveiro)
    - [Encanador (Esgoto e Infiltração)](#encanador)
    - [Eletricista (Modernização)](#eletricista)
-   - [Climatização (Instalação)](#climatizacao)
-   - [Marido de Aluguel (Telhados)](#marido)
 3. [Tabela de Preços Estimados 2026](#3-precos)
 4. [Logística: Av. Andrômeda e Arredores](#4-logistica)
 5. [Proteção Contra Tempestades (Casas Térreas)](#5-tempestades)
@@ -87,6 +86,19 @@ Em casas térreas e sobrados germinados, o problema do vizinho vira seu problema
 - **Caça-Vazamentos:** Infiltrações ascendentes (umidade no rodapé) comuns em fundações mais antigas.
 
 👉 **[Ver Encanadores na Zona Sul →](/servicos/encanador/)**
+
+[⬆️ Voltar ao topo](#top)
+
+### <span id="chaveiro"></span>🔑 Chaveiro: Abertura de Porta e Fechadura na Andrômeda
+
+Trancado para fora de casa na Zona Sul? Chaveiros baseados no próprio Bosque dos Eucaliptos e Jardim Satélite atendem em **20 a 30 minutos** na Av. Andrômeda e ruas internas.
+
+- **Abertura residencial sem dano:** Portas de madeira, alumínio e de aço, incluindo fechaduras tetra
+- **Chave quebrada na fechadura:** Extração e confecção no local
+- **Troca de segredo:** Cilindros e fechaduras completas com instalação
+- **Chave codificada automotiva:** Para veículos estacionados na garagem ou rua
+
+👉 **[Ver Chaveiros no Bosque dos Eucaliptos →](/servicos/chaveiro/bosque-dos-eucaliptos/)**
 
 [⬆️ Voltar ao topo](#top)
 
@@ -279,7 +291,7 @@ As casas do Bosque sofrem com as chuvas de verão devido a dois fatores: telhado
   "@context": "https://schema.org",
   "@type": "AdministrativeArea",
   "name": "Bosque dos Eucaliptos",
-  "containedIn": {
+  "containedInPlace": {
     "@type": "City",
     "name": "São José dos Campos",
     "address": {
