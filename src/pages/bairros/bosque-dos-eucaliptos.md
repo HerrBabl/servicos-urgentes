@@ -13,7 +13,6 @@ tags: ["Bosque dos Eucaliptos", "Zona Sul SJC", "Manutenção Residencial", "Ref
 slug: "servicos-bosque-dos-eucaliptos-sjc"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/bosque-dos-eucaliptos/"
-keywords: "eletricista bosque dos eucaliptos, desentupidora zona sul sjc, encanador andromeda sjc, marido de aluguel sjc, conserto telhado bosque, instalação ar condicionado zona sul"
 region: "São José dos Campos"
 neighborhood: "Bosque dos Eucaliptos, Jardim Satélite, Cidade Jardim"
 faqSchema:
