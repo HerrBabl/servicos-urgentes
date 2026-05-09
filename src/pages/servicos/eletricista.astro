@@ -76,6 +76,55 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
   }
   </script>
 
+  <script type="application/ld+json" slot="head">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O disjuntor fica caindo — precisa de eletricista urgente?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Se o disjuntor cai repetidamente ou há cheiro de queimado, é sinal de curto-circuito ativo: chame um eletricista imediatamente e desligue o geral. Em SJC, o tempo médio de chegada para emergências é de 20 a 40 minutos dependendo do bairro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Tem eletricista 24h que atende Aquarius, Urbanova e Bosque dos Eucaliptos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Os profissionais listados atendem toda SJC em regime 24h, incluindo Parque Residencial Aquarius, Urbanova e Bosque dos Eucaliptos. Tempo estimado de chegada: 25 a 40 minutos para esses bairros."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa instalar um chuveiro elétrico em SJC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entre R$ 180 e R$ 350 com mão de obra. Se precisar puxar fiação nova do quadro, o valor pode subir para R$ 400–R$ 600. Solicite orçamento especificando se já existe ponto elétrico adequado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Eletricista cobra mais caro à noite e no fim de semana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Plantão noturno e fins de semana geralmente têm acréscimo de 30% a 50% sobre o valor diurno. Confirme o valor total incluindo taxa de plantão antes de autorizar a visita."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funciona o diretório de eletricistas do Serviços Urgentes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Diretório de conexão com eletricistas verificados (4+ estrelas no Google Maps), endereço físico confirmado e contato direto. Você negocia diretamente com o profissional — sem intermediação de pagamentos ou comissão."
+      }
+    }
+  ]
+}
+</script>
+
   <BusinessListing 
     businesses={eletricistas}
     serviceTitle="Eletricistas Verificados em SJC"
@@ -83,88 +132,155 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
   />
 
   <section class="py-12 bg-white">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-gray-900 mb-6">
-        Serviços de Eletricista de Emergência em São José dos Campos
-      </h2>
-      
-      <div class="prose prose-lg max-w-none text-gray-700">
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Quando Chamar um Eletricista de Emergência
-        </h3>
-        <p>
-          Problemas elétricos podem representar risco sério de incêndio ou choque elétrico. Chame um eletricista de emergência imediatamente se você perceber <strong>cheiro de queimado</strong> vindo de tomadas, disjuntores desarmando frequentemente (caindo a chave), ou faíscas. Seja no Aquarius, Bosque dos Eucaliptos, Centro, Jardim das Colinas, Jardim Esplanada, Jardim Satélite, São Dimas, Urbanova ou Vila Adyana, nosso diretório conecta você a profissionais qualificados. A oscilação de energia comum em dias de chuva em SJC também pode queimar aparelhos se não verificada.
-        </p>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Quanto Custa um Serviço de Eletricista em SJC (Estimativas 2026)
-        </h3>
-        <p>
-          Os preços variam conforme a complexidade e urgência. Em horário comercial, uma visita técnica custa entre R$ 100 e R$ 200. Serviços comuns incluem:
-        </p>
-        <ul class="list-disc pl-5 space-y-2 mb-6">
-            <li><strong>Troca de disjuntor:</strong> R$ 150 - R$ 300</li>
-            <li><strong>Reparo de curto-circuito:</strong> R$ 200 - R$ 500</li>
-            <li><strong>Instalação de chuveiro elétrico:</strong> R$ 180 - R$ 350</li>
-            <li><strong>Adequação de rede (aumento de carga):</strong> R$ 400 - R$ 1.200</li>
+    <div id="inicio"></div>
+
+    <h2 class="text-3xl font-bold text-gray-900 mb-6">
+      Eletricistas 24h em São José dos Campos
+    </h2>
+
+    <div class="prose prose-lg max-w-none text-gray-700">
+
+      <p class="text-xl text-gray-800 leading-relaxed mb-6">
+        Cheiro de queimado. Disjuntor que não para de cair. Chuveiro que deu um estalo e apagou. Em São José dos Campos, problemas elétricos acontecem mais nos dias de chuva — justamente quando você menos pode esperar. Os eletricistas listados aqui atendem toda SJC, 24 horas, incluindo fins de semana e feriados.
+      </p>
+
+      <div class="bg-red-50 border-l-4 border-red-500 p-6 mb-8 rounded-r-lg">
+        <p class="font-bold text-red-900 mb-3">🚨 Chame um profissional IMEDIATAMENTE se você perceber:</p>
+        <ul class="list-disc pl-5 space-y-1 text-red-800">
+          <li><strong>Cheiro de queimado</strong> vindo de tomadas ou do quadro de luz</li>
+          <li><strong>Faíscas ou estalos</strong> ao ligar disjuntores ou aparelhos</li>
+          <li><strong>Disjuntor desarmando repetidamente</strong> — sinal de curto-circuito ativo</li>
+          <li><strong>Choque elétrico</strong> ao tocar interruptores ou torneiras</li>
         </ul>
+        <p class="mt-4 font-semibold text-red-900">
+          ⚠️ Desligue o disjuntor geral e saia da área. Não tente resolver sozinho — risco de incêndio e morte por eletrocussão.
+        </p>
+      </div>
 
-        <!-- PRICE DISCLAIMER - MANDATORY LEGAL PROTECTION -->
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
-          <div class="flex items-start">
-            <div class="flex-shrink-0">
-              <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-              </svg>
-            </div>
-            <div class="ml-3">
-              <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
-              <div class="text-sm text-yellow-700 space-y-2">
-                <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região de São José dos Campos, apresentadas apenas como referência inicial.</p>
-                <div class="bg-white/50 p-3 rounded">
-                  <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
-                  <ul class="list-none space-y-1 ml-1">
-                    <li>❌ Não define preços dos prestadores</li>
-                    <li>❌ Não interfere nas negociações comerciais</li>
-                    <li>❌ Não garante valores finais</li>
-                  </ul>
-                </div>
-                <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
-                  <p class="flex items-start gap-2">
-                    <span class="text-lg">💡</span>
-                    <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
-                  </p>
-                </div>
+      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+        ⏱️ Tempo de Chegada por Bairro (Referência 2026)
+      </h3>
+      <p>Tempo médio de atendimento para emergências elétricas em SJC:</p>
+      <ul class="list-disc pl-5 space-y-2 mb-6">
+        <li><strong>Centro, Vila Adyana, São Dimas:</strong> 15–25 minutos</li>
+        <li><strong>Jardim Satélite, Jardim Esplanada, Jardim das Colinas:</strong> 20–35 minutos</li>
+        <li><strong>Aquarius, Bosque dos Eucaliptos, Urbanova:</strong> 25–40 minutos</li>
+      </ul>
+      <p class="text-sm text-gray-500 italic mb-6">
+        Tempos são estimativas. Confirme disponibilidade e previsão de chegada ao ligar.
+      </p>
+
+      [⬆️ Voltar ao topo](#inicio)
+
+      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+        💰 Quanto Custa um Eletricista em SJC? (Estimativas 2026)
+      </h3>
+      <ul class="list-disc pl-5 space-y-2 mb-6">
+        <li><strong>Visita técnica (horário comercial):</strong> R$ 100–R$ 200</li>
+        <li><strong>Troca de disjuntor:</strong> R$ 150–R$ 300</li>
+        <li><strong>Reparo de curto-circuito:</strong> R$ 200–R$ 500</li>
+        <li><strong>Instalação de chuveiro elétrico:</strong> R$ 180–R$ 350</li>
+        <li><strong>Aumento de carga / adequação de rede:</strong> R$ 400–R$ 1.200</li>
+        <li><strong>Plantão noturno / emergência:</strong> acréscimo de 30–50% sobre o valor diurno</li>
+      </ul>
+
+      <!-- PRICE DISCLAIMER - DO NOT MODIFY -->
+      <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
+        <div class="flex items-start">
+          <div class="flex-shrink-0">
+            <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+          </div>
+          <div class="ml-3">
+            <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+            <div class="text-sm text-yellow-700 space-y-2">
+              <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+              <div class="bg-white/50 p-3 rounded">
+                <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
+                <ul class="list-none space-y-1 ml-1">
+                  <li>❌ Não define preços dos prestadores</li>
+                  <li>❌ Não interfere nas negociações comerciais</li>
+                  <li>❌ Não garante valores finais</li>
+                </ul>
+              </div>
+              <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
+                <p class="flex items-start gap-2">
+                  <span class="text-lg">💡</span>
+                  <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- ENHANCED SAFETY SECTION WITH DIRECTORY CONNECTION -->
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          🚨 Segurança Primeiro: Quando NÃO Tentar Resolver Sozinho
-        </h3>
-        <div class="bg-red-50 border-l-4 border-red-500 p-6 mb-6 rounded-r-lg">
-          <p class="font-bold text-red-900 mb-3">NUNCA tente reparos elétricos se você perceber:</p>
-          <ul class="list-disc pl-5 space-y-2 text-red-800">
-            <li><strong>Cheiro de queimado</strong> vindo do quadro de luz ou tomadas</li>
-            <li><strong>Faíscas ou estouros</strong> ao ligar disjuntores</li>
-            <li><strong>Choque elétrico</strong> ao tocar em aparelhos ou interruptores</li>
-            <li><strong>Disjuntor desarmando repetidamente</strong> (sinal de curto-circuito)</li>
-          </ul>
-          <p class="mt-4 font-semibold text-red-900">
-            ⚠️ Desligue o disjuntor geral e chame um profissional IMEDIATAMENTE. Risco de incêndio ou morte por eletrocussão.
-          </p>
+      [⬆️ Voltar ao topo](#inicio)
+
+      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+        ✅ 5 Perguntas Para Fazer Antes de Contratar um Eletricista
+      </h3>
+      <ol class="list-decimal pl-5 space-y-4 mb-6">
+        <li>
+          <strong>"O valor inclui deslocamento e mão de obra?"</strong><br/>
+          <span class="text-gray-600">Eletricistas sérios informam o custo total antes de sair. Taxa de visita + mão de obra + peças devem ser separados no orçamento.</span>
+        </li>
+        <li>
+          <strong>"O senhor tem NR-10?"</strong><br/>
+          <span class="text-gray-600">NR-10 é a norma de segurança em eletricidade. Profissionais qualificados a conhecem. Não é exigência legal para residencial, mas é sinal de treinamento sério.</span>
+        </li>
+        <li>
+          <strong>"Emitem recibo ou nota fiscal?"</strong><br/>
+          <span class="text-gray-600">Documentação protege você em caso de problema posterior e é necessária para acionar seguro residencial.</span>
+        </li>
+        <li>
+          <strong>"Qual o tempo estimado de chegada?"</strong><br/>
+          <span class="text-gray-600">Um prazo realista é melhor sinal do que "já estou indo." Confirme o bairro de atendimento.</span>
+        </li>
+        <li>
+          <strong>"Dão garantia no serviço?"</strong><br/>
+          <span class="text-gray-600">Profissionais de confiança oferecem garantia mínima de 90 dias em serviços elétricos. Exija por escrito se for serviço maior.</span>
+        </li>
+      </ol>
+
+      [⬆️ Voltar ao topo](#inicio)
+
+      <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-6">
+        ❓ Perguntas Frequentes — Eletricista em SJC
+      </h3>
+
+      <div class="space-y-6">
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h4 class="font-bold text-gray-900 mb-2">O disjuntor fica caindo — precisa de eletricista urgente?</h4>
+          <p class="text-gray-700">Depende da frequência. Disjuntor caindo uma vez após ligar muitos aparelhos juntos é normal — o circuito está sobrecarregado. Mas se o disjuntor cai repetidamente, volta e cai de novo, ou se houver cheiro de queimado junto, é sinal de curto-circuito ativo: chame um eletricista imediatamente e desligue o geral enquanto aguarda. Em SJC, o tempo médio de chegada para emergências é de 20 a 40 minutos dependendo do bairro.</p>
         </div>
-        
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg my-6">
-          <p class="text-sm text-blue-800">
-            <strong>✓ Profissionais Qualificados:</strong> Todos os eletricistas listados neste diretório possuem conhecimento em <strong>NR-10</strong> (norma de segurança em eletricidade) e são avaliados pela comunidade com média de 4+ estrelas.
-          </p>
+
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h4 class="font-bold text-gray-900 mb-2">Tem eletricista 24h que atende Aquarius, Urbanova e Bosque dos Eucaliptos?</h4>
+          <p class="text-gray-700">Sim. Os profissionais listados neste diretório atendem toda São José dos Campos em regime 24h, incluindo Parque Residencial Aquarius (Av. Cassiano Ricardo), Urbanova (Av. Possidônio José de Freitas) e Bosque dos Eucaliptos (Av. Andrômeda). Para esses bairros, o tempo estimado de chegada é de 25 a 40 minutos, podendo variar em horários de pico.</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h4 class="font-bold text-gray-900 mb-2">Quanto custa instalar um chuveiro elétrico em SJC?</h4>
+          <p class="text-gray-700">A instalação de chuveiro elétrico em São José dos Campos custa entre R$ 180 e R$ 350, incluindo mão de obra. Se for necessário puxar fiação nova do quadro (comum em casas mais antigas como as do Bosque dos Eucaliptos e Jardim Satélite), o valor pode subir para R$ 400–R$ 600. Sempre solicite orçamento antes, especificando se já existe ponto elétrico adequado para o chuveiro.</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h4 class="font-bold text-gray-900 mb-2">Eletricista cobra mais caro à noite e no fim de semana?</h4>
+          <p class="text-gray-700">Sim. Atendimentos em plantão noturno (após 18h ou 20h, conforme o profissional) e aos fins de semana e feriados geralmente têm acréscimo de 30% a 50% sobre o valor diurno. Esse adicional é prática padrão do mercado em SJC. Por isso é importante confirmar o valor total — incluindo a taxa de plantão — antes de autorizar a visita.</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h4 class="font-bold text-gray-900 mb-2">Como funciona o diretório de eletricistas do Serviços Urgentes?</h4>
+          <p class="text-gray-700">O Serviços Urgentes é um diretório de conexão — listamos eletricistas da região com avaliações verificadas em plataformas públicas (Google Maps, 4+ estrelas), endereço físico confirmado e contato direto via telefone e WhatsApp. Você contata e negocia diretamente com o profissional. Não intermediamos pagamentos nem cobramos comissão.</p>
         </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- CROSS-SERVICE INTERNAL LINKING - ALL 4 SERVICES -->
   <section class="py-12 bg-white border-t border-gray-100">
