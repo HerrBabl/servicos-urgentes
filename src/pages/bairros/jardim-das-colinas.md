@@ -3,11 +3,11 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços no Jardim das Colinas - SJC | Alto Padrão e Corporativo"
 description: "Guia de manutenção para Jardim das Colinas: Especialistas em aquecedores a gás, válvulas de pressão predial e elétrica para apartamentos de luxo."
 date: "2026-01-26T17:30:00-03:00"
-dateModified: "2026-04-14T19:00:00-03:00"
+dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800"
+image: "https://images.unsplash.com/photo-1615903630112-11df861dfb3b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fHVwcGVyJTIwY2xhc3MlMjBob3VzZXMlMjBicmF6aWx8ZW58MHx8MHx8fDA%3D"
 imageAlt: "Vista de edifícios residenciais de alto padrão e torres corporativas no Jardim das Colinas em São José dos Campos"
 tags: ["Jardim das Colinas", "Alto Padrão", "Gás Encanado", "Manutenção Predial"]
 slug: "servicos-jardim-das-colinas-sjc"
