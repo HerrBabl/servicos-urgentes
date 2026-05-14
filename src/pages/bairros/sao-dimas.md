@@ -3,11 +3,11 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência em São Dimas - SJC | Prédios e Casas Antigas"
 description: "Mora no São Dimas? Encontre especialistas em fiação antiga, tubulação de ferro e manutenções prediais. Eletricistas e Encanadores verificados na região central."
 date: "2026-01-26T12:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
+image: "https://images.unsplash.com/photo-1721201771188-914e3fb1d4b9?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 imageAlt: "Vista de edifícios residenciais tradicionais e ruas arborizadas no bairro São Dimas em São José dos Campos"
 tags: ["São Dimas", "Centro SJC", "Manutenção Predial", "Reformas", "Universitários"]
 slug: "sao-dimas"
