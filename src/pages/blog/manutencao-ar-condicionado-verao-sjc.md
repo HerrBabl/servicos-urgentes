@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Manutenção de Ar-Condicionado em SJC: Chuva, Mofo e Infiltração"
 description: "O seu ar-condicionado pinga quando chove? Guia completo para evitar mofo, infiltrações e problemas respiratórios em São José dos Campos."
 date: "2026-01-16T09:00:00-03:00"
-dateModified: "2026-04-07T08:00:00-03:00"
+dateModified: "2026-05-15T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -89,7 +89,7 @@ Não espere a água estragar seu piso laminado ou gesso.
 * **Cheiro forte de mofo:** Risco à saúde, especialmente para crianças e idosos.
 * **Barulho de "água borbulhando":** O dreno está tentando vencer um bloqueio.
 
-> 🚨 **Precisa de um técnico agora?** [Ver profissionais disponíveis 24h em SJC →](/servicos/ar-condicionado/?utm_source=blog&utm_medium=organic&utm_campaign=ac_rain_maintenance_2026)
+> 🚨 **Precisa de um técnico agora?** [Ver profissionais disponíveis 24h em SJC →](/servicos/ar-condicionado/)
 
 ---
 
@@ -199,4 +199,4 @@ Agende uma limpeza profissional e respire ar puro.
 🚨 **Precisa de um técnico agora?**  
 Nosso diretório conecta você a profissionais disponíveis 24h em SJC.
 
-👉 **[Ver Técnicos Disponíveis Agora →](/servicos/ar-condicionado?utm_source=blog&utm_medium=organic&utm_campaign=ac_maintenance_summer_2026)**
+👉 **[Ver Técnicos Disponíveis Agora →](/servicos/ar-condicionado/)**
