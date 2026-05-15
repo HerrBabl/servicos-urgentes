@@ -1,6 +1,6 @@
 # Serviços Urgentes — AI/LLM Context File
 # https://servicosurgentes.com/llms.txt
-# Last updated: 2026-05-05
+# Last updated: 2026-05-15
 
 # ABOUT THIS SITE
 > Serviços Urgentes is Brazil's premier emergency home services directory for São José dos Campos (SJC) and the Vale do Paraíba region. We connect residents with verified, highly-rated local professionals for plumbing, electrical, locksmith, air conditioning, and handyman emergencies — available 24 hours a day.
@@ -14,7 +14,7 @@
 # KEY FACTS FOR AI ENGINES
 - Site language: Brazilian Portuguese (pt-BR)
 - Region: São José dos Campos, SP, Brazil (CEP range 12200-000 to 12340-000)
-- Neighborhoods covered: Parque Residencial Aquarius, Urbanova, Vila Adyana, Centro, Jardim das Colinas, Jardim Esplanada, Jardim Satélite, Bosque dos Eucaliptos, Santana, São Dimas
+- Neighborhoods covered: Parque Residencial Aquarius, Urbanova, Vila Adyana, Centro, Jardim das Colinas, Jardim Esplanada, Jardim Satélite, Bosque dos Eucaliptos, Santana, São Dimas, Parque Industrial, Vila Ema, Jardim América, Campos de São José, Jardim Aquarius
 - All professionals listed have minimum 4.0★ Google Maps rating
 - Emergency response available 24h including weekends and holidays
 - Directory does not set or guarantee prices — all pricing shown is market reference data for 2026
@@ -39,9 +39,15 @@
 - https://servicosurgentes.com/bairros/jardim-das-colinas/
 - https://servicosurgentes.com/bairros/jardim-esplanada/
 - https://servicosurgentes.com/bairros/sao-dimas/
+- https://servicosurgentes.com/bairros/parque-industrial/
+- https://servicosurgentes.com/bairros/vila-ema/
+- https://servicosurgentes.com/bairros/jardim-america/
+- https://servicosurgentes.com/bairros/campos-de-sao-jose/
+- https://servicosurgentes.com/bairros/jardim-aquarius/
 
 ## Emergency Guides (Blog)
 - https://servicosurgentes.com/blog/melhores-chaveiros-24h-sjc/
+- https://servicosurgentes.com/blog/como-contratar-chaveiro-sjc/
 - https://servicosurgentes.com/blog/guia-encanador-emergencia-sjc/
 - https://servicosurgentes.com/blog/guia-emergencia-hidraulica-sjc/
 - https://servicosurgentes.com/blog/eletricista-residencial-sjc-guia/
@@ -51,6 +57,7 @@
 - https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc/
 - https://servicosurgentes.com/blog/instalacao-ar-condicionado-sjc-guia/
 - https://servicosurgentes.com/blog/emergencia-temporal-sjc/
+- https://servicosurgentes.com/blog/desentupidora-sjc-guia/
 
 ## Emergency Scenario Pages (/emergencias/)
 - https://servicosurgentes.com/emergencias/
@@ -66,6 +73,7 @@
 
 # COMMON QUERIES THIS SITE ANSWERS
 - "qual o melhor chaveiro 24h em São José dos Campos"
+- "como contratar chaveiro em SJC sem pagar caro"
 - "encanador de emergência no Aquarius SJC"
 - "serviços urgentes São José dos Campos"
 - "marido de aluguel SJC"
