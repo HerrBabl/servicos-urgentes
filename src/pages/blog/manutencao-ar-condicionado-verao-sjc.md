@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Manutenção de Ar-Condicionado em SJC: Chuva, Mofo e Infiltração"
 description: "O seu ar-condicionado pinga quando chove? Guia completo para evitar mofo, infiltrações e problemas respiratórios em São José dos Campos."
 date: "2026-01-16T09:00:00-03:00"
-dateModified: "2026-05-15T18:00:00-03:00"
+dateModified: "2026-05-18T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -190,6 +190,7 @@ Limpar sai muito mais barato do que consertar parede com infiltração.
 * **[Ar-Condicionado Não Gela? Diagnóstico em 60 Segundos](/blog/ar-condicionado-nao-gela-sjc/)**
 * **[Guia de Eletricistas de Emergência em SJC](/servicos/eletricista/)**
 * **[Marido de Aluguel para Limpeza de Calhas](/servicos/marido-de-aluguel/)**
+* 👉 **[Guia Completo de Instalação de Ar-Condicionado em SJC →](/blog/instalacao-ar-condicionado-sjc-guia/)**
 
 ---
 
