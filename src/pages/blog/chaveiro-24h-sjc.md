@@ -2,7 +2,7 @@
 layout: ../../layouts/ContentLayout.astro
 title: "Chaveiro 24h em SJC: Guia Completo para Emergências 2026"
 description: "Trancado para fora, chave quebrada ou fechadura emperrada em SJC? Guia completo de chaveiros 24h verificados no Aquarius, Urbanova, Centro e Vila Adyana."
-date: "2026-03-04T12:00:00-03:00"
+date: "2026-05-18T19:00:00-03:00"
 dateModified: "2026-05-05T07:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
@@ -415,7 +415,8 @@ Aproveitou a emergência para decidir que está na hora de trocar a fechadura? E
 - **[Chaveiro para Carro em SJC](/blog/chaveiro-carro-sjc-guia/)** — Abertura, chave codificada e transponder
 - **[Guia de Emergência Hidráulica em SJC](/blog/guia-emergencia-hidraulica-sjc/)** — Emergências que frequentemente acompanham portas e portões com problema
 - **[Marido de Aluguel em SJC](/servicos/marido-de-aluguel/)** — Reparos em batentes, portas e portões danificados
-- **[Porta trancada em SJC — o que fazer agora →]**(/emergencias/porta-trancada-sjc/)
+- **[Porta Trancada em SJC — O Que Fazer Agora →](/emergencias/porta-trancada-sjc/)**
+- 👉 **[Trancado para Fora? Veja o Que Fazer Antes do Chaveiro Chegar →](/emergencias/porta-trancada-sjc/)**
 
 **Chaveiros por Bairro:**
 - **[Chaveiros no Aquarius](/servicos/chaveiro/parque-residencial-aquarius/)**
