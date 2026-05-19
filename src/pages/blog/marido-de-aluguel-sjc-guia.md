@@ -2,7 +2,7 @@
 layout: ../../layouts/ContentLayout.astro
 title: "Marido de Aluguel em SJC: Guia de Preços 2026"
 description: "Precisa de pequenos reparos? Saiba quanto custa Marido de Aluguel em SJC. Instalação de cortinas, suporte TV e montagem de móveis no Aquarius e Urbanova."
-date: "2026-01-19T09:00:00-03:00"
+date: "2026-05-19T11:00:00-03:00"
 dateModified: "2026-04-16T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
@@ -12,7 +12,7 @@ imageAlt: "Profissional marido de aluguel realizando reparos residenciais com fu
 tags: ["Marido de Aluguel", "Pequenos Reparos", "SJC", "Montagem de Móveis"]
 category: "Guia de Manutenção"
 slug: "marido-de-aluguel-sjc-guia"
-canonicalURL: "https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia/"
 keywords: "marido de aluguel sjc, pequenos reparos são josé dos campos, faz tudo sjc, marido de aluguel sjc, instalar cortina aquarius urbanova, quanto custa hora marido de aluguel sjc, montagem de móveis sjc"
 region: "São José dos Campos"
 neighborhood: "Parque Residencial Aquarius, Urbanova, Jardim Satélite, Vila Adyana, Centro"
@@ -78,7 +78,7 @@ A versatilidade é o ponto forte. Enquanto um encanador foca apenas nos canos, o
 
 👉 **[Ver Lista de Profissionais de Marido de Aluguel em SJC](/servicos/marido-de-aluguel/)**
 
-[⬆️ Voltar ao topo](#top)
+[⬆️ Voltar ao topo](#inicio)
 
 ---
 
@@ -96,7 +96,7 @@ Para garantir a segurança do seu imóvel, é vital saber os limites. Não peça
 | Abrir porta trancada (sem chave) | **[Chaveiro](/servicos/chaveiro/)** | Exige técnica de abertura sem danos. |
 | Instalar split de ar-condicionado | **[Técnico de AC](/servicos/ar-condicionado/)** | Exige ART e manuseio de gás refrigerante. |
 
-[⬆️ Voltar ao topo](#top)
+[⬆️ Voltar ao topo](#inicio)
 
 ---
 
@@ -132,7 +132,7 @@ Os valores abaixo representam a faixa de mercado praticada em São José dos Cam
   </div>
 </div>
 
-[⬆️ Voltar ao topo](#top)
+[⬆️ Voltar ao topo](#inicio)
 
 ---
 
@@ -194,7 +194,7 @@ Para imóveis comerciais no Centro, verifique se o profissional emite nota fisca
 
 🔗 **Veja também:** [Chaveiro 24h no Centro](/blog/chaveiro-centro-sjc-24h/) | [Serviços no Centro](/bairros/centro/)
 
-[⬆️ Voltar ao topo](#top)
+[⬆️ Voltar ao topo](#inicio)
 
 ---
 
@@ -222,8 +222,9 @@ Não deixe para depois. Encontre um profissional caprichoso perto de você.
 * [Chaveiro no Centro: Guia Completo](/blog/chaveiro-centro-sjc-24h/)
 * [Encanamento no Parque Aquarius: Quem Paga?](/blog/encanamento-parque-aquarius/)
 * [Climatização no Urbanova](/blog/climatizacao-urbanova/)
+* [Comparativo: Melhores Maridos de Aluguel em SJC](/blog/melhores-maridos-de-aluguel-sjc/)
 
-[⬆️ Voltar ao topo](#top)
+[⬆️ Voltar ao topo](#inicio)
 
 ---
 
