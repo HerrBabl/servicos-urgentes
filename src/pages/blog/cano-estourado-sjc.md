@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Cano Estourado em SJC: O Que Fazer Antes do Encanador Chegar"
 description: "Cano estourou em SJC? Saiba como conter o vazamento nos primeiros minutos no Aquarius, Jardim Satélite e região. Encanadores verificados 24h em São José dos Campos."
 date: "2026-05-18T17:00:00-03:00"
-dateModified: "2026-05-18T17:00:00-03:00"
+dateModified: "2026-05-19T10:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -254,4 +254,4 @@ Se o imóvel tem seguro residencial com cobertura de assistência 24h — cada v
 
 ---
 
-*Leia também: [Guia de Emergência Hidráulica em SJC](/blog/guia-emergencia-hidraulica-sjc/) · [Encanador de Emergência em SJC — Guia Completo](/blog/guia-encanador-emergencia-sjc/) · [Vazamento no Teto em SJC](/blog/vazamento-no-teto-sjc/)*
+*Leia também: [Guia de Emergência Hidráulica em SJC](/blog/guia-emergencia-hidraulica-sjc/) · [Encanador de Emergência em SJC — Guia Completo](/blog/guia-encanador-emergencia-sjc/) · [Vazamento no Teto em SJC](/emergencias/vazamento-no-teto-sjc/) · [Encanamento no Parque Aquarius: Guia para Moradores](/blog/encanamento-parque-aquarius/)*
