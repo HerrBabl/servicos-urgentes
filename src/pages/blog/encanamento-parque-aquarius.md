@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanamento no Aquarius: Guia para Moradores SJC"
 description: "Vazamento no apartamento? Saiba quem paga a conta (proprietário ou inquilino) e como resolver emergências hidráulicas no Parque Residencial Aquarius, SJC."
 date: "2026-01-07T10:00:00-03:00"
-dateModified: "2026-04-09T09:30:00-03:00"
+dateModified: "2026-05-19T10:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Encanador profissional realizando reparo hidráulico em apartamento n
 tags: ["Parque Aquarius", "Encanamento", "Locação", "Manutenção"]
 slug: "encanamento-parque-aquarius"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/blog/encanamento-parque-aquarius"
+canonicalURL: "https://servicosurgentes.com/blog/encanamento-parque-aquarius/"
 keywords: "encanador parque aquarius, vazamento apartamento aquarius, quem paga reparo locação sjc, marido de aluguel sjc, encanamento condomínio sjc, válvula redutora pressão aquarius"
 region: "São José dos Campos"
 neighborhood: "Parque Residencial Aquarius, Jardim Aquarius, Vila Ema"
@@ -29,11 +29,15 @@ faqSchema:
     answer: "Visita técnica diagnóstica: R$ 100-180. Reparos comuns: troca de registro R$ 150-300, reparo de vazamento R$ 200-500, troca de válvula redutora de pressão R$ 400-800. Atendimentos noturnos e finais de semana têm acréscimo de 30-50%. Sempre solicite orçamento antes de autorizar o serviço."
 ---
 
-O Parque Residencial Aquarius é o coração pulsante da zona oeste de São José dos Campos. Com sua alta densidade de edifícios de alto padrão e uma população vibrante, é também um dos bairros com maior volume de chamados para serviços de manutenção — especialmente **hidráulica**.
+Se você está com um **vazamento ativo agora**, vá direto para a seção de [encanadores verificados no Aquarius](#encanadores-verificados-no-parque-residencial-aquarius) ou acesse o [guia de emergência para cano estourado](/blog/cano-estourado-sjc/). Profissionais com atendimento 24h estão disponíveis na região.
+
+O Parque Residencial Aquarius é o coração pulsante da zona sul de São José dos Campos. Com sua alta densidade de edifícios de alto padrão e uma população vibrante, é também um dos bairros com maior volume de chamados para serviços de manutenção — especialmente **hidráulica**.
 
 Se você mora aqui, provavelmente vive em apartamento. E em condomínios verticais, um simples vazamento não é apenas "o seu" problema; ele pode rapidamente se tornar o problema do vizinho de baixo (e uma dor de cabeça administrativa).
 
 📍 **Conheça o bairro:** Veja o [guia completo do Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/) com serviços, características e profissionais da região.
+
+🚨 **Emergência agora?** Se o cano já estourou, veja o [guia de ação imediata para cano estourado em SJC](/blog/cano-estourado-sjc/) com os passos para estancar o dano antes de chamar o profissional.
 
 ## 📋 Neste Guia
 
@@ -259,7 +263,7 @@ Os profissionais abaixo atendem o Aquarius com regularidade e têm experiência 
 
 👉 **[Ver todos os encanadores verificados no Aquarius →](/servicos/encanador/parque-residencial-aquarius/)**
 
-[⬆️ Voltar ao topo](#top)
+[⬆️ Voltar ao topo](#inicio)
 
 ---
 
