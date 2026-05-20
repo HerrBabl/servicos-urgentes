@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Cano Estourado em SJC: O Que Fazer Antes do Encanador Chegar"
-description: "Cano estourou em SJC? Saiba como conter o vazamento nos primeiros minutos no Aquarius, Jardim Satélite e região. Encanadores verificados 24h em São José dos Campos."
+description: "Cano estourou em SJC? Saiba como conter o vazamento nos primeiros minutos no Aquarius e Jardim Satélite. Encanadores verificados 24h em São José dos Campos."
 date: "2026-05-18T17:00:00-03:00"
-dateModified: "2026-05-19T10:00:00-03:00"
+dateModified: "2026-05-20T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
