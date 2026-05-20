@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Como Contratar Chaveiro em SJC Sem Pagar Caro: Guia 2026"
-description: "Saiba o preço justo de chaveiro em SJC, como pedir orçamento corretamente e o que esperar de um profissional sério. Guia para Aquarius, Jardim Satélite e região."
+description: "Saiba o preço justo de chaveiro em SJC, como pedir orçamento e o que esperar de um profissional sério. Guia para Aquarius, Jardim Satélite e região."
 date: "2026-05-14T10:00:00-03:00"
-dateModified: "2026-05-14T10:00:00-03:00"
+dateModified: "2026-05-20T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
