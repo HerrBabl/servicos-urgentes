@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Instalação de Ar-Condicionado em SJC: Guia 2026"
 description: "Vai instalar ar-condicionado em São José dos Campos? Confira o guia de preços por bairro, calculadora de BTUs para o clima de SJC e como evitar erros caros."
 date: "2026-01-17T09:00:00-03:00"
-dateModified: "2026-05-15T18:00:00-03:00"
+dateModified: "2026-05-20T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -88,7 +88,7 @@ Casas de alto padrão com telhados complexos ou necessidade de sistemas Multi-Sp
 * **[Veja nosso guia de climatização para o Urbanova](/blog/climatizacao-urbanova/)**.
 
 ### 🏦 Centro e Vila Adyana
-Imóveis comerciais ou prédios antigos que exigem **[modernização elétrica (Retrofit)](/blog/retrofit-vila-adyana/)** antes da instalação.
+Imóveis comerciais ou prédios antigos que exigem **[modernização elétrica](/blog/eletricista-residencial-sjc-guia/)** antes da instalação.
 * **Preço Médio:** R$ 500 - R$ 800.
 * **Desafio:** Fiação antiga que não suporta a carga do ar-condicionado.
 
