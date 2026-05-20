@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Curto-Circuito em SJC: O Que Fazer Antes do Eletricista Chegar"
 description: "Disjuntor caindo ou cheiro de queimado em SJC? Saiba o que fazer agora. Eletricistas verificados 24h no Aquarius, Urbanova e Centro."
 date: "2026-05-04T17:30:00-03:00"
-dateModified: "2026-05-05T07:30:00-03:00"
+dateModified: "2026-05-20T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -24,7 +24,7 @@ faqSchema:
   - question: "Eletricista 24h atende Aquarius e Urbanova em SJC?"
     answer: "Sim. Profissionais verificados no Serviços Urgentes atendem emergências elétricas em todos os bairros de SJC incluindo Parque Residencial Aquarius, Urbanova, Vila Adyana e Centro. No Aquarius, de 35 a 55 minutos via Av. Cassiano Ricardo. Em Urbanova, de 40 a 60 minutos via Av. Linneu de Moura / Av. Shishima Hifumi."
   - question: "Posso religar o disjuntor depois que ele cai?"
-    answer: "Depende. Se o disjuntor caiu uma vez sem motivo aparente e não há cheiro de queimado, fumaça ou aparelho com defeito visível, é possível tentar religar uma única vez. Se cair novamente, não insista — há uma sobrecarga ou curto-circuito real que precisa de diagnóstico profissional. Religar repetidamente pode danificar equipamentos e causar incêndio."
+    answer: "Não manipule o quadro elétrico sem avaliação de um profissional. Um disjuntor caído é um sinal de que o sistema detectou um problema — religar sem diagnóstico pode agravar o risco. Chame um eletricista verificado para identificar a causa com segurança. Se cair novamente, não insista — há uma sobrecarga ou curto-circuito real que precisa de diagnóstico profissional. Religar repetidamente pode danificar equipamentos e causar incêndio."
   - question: "Cheiro de queimado elétrico — é grave?"
     answer: "Sim, deve ser tratado como emergência. Cheiro de queimado elétrico indica superaquecimento de fio, tomada ou equipamento — situação que pode evoluir para incêndio em minutos. Desligue o disjuntor geral imediatamente, retire pessoas da área e não ligue nenhum aparelho. Chame um eletricista de emergência e, se o cheiro persistir ou houver fumaça, ligue para o Corpo de Bombeiros: 193."
 ---
@@ -46,7 +46,7 @@ Fios expostos, tomadas faiscando, interruptores quentes — não toque. Mesmo de
 Há fumaça visível? Cheiro forte de queimado? Faíscas? Se sim, não mexa no quadro de distribuição — vá direto ao passo 4. Se for apenas o disjuntor caído sem outros sinais, prossiga ao passo 3.
 
 ### 3. Se apenas o disjuntor caiu
-Identifique qual disjuntor caiu no quadro de distribuição. Desconecte aparelhos da área afetada. Tente religar o disjuntor **uma única vez**. Se cair novamente, deixe-o desligado e chame o eletricista — não insista.
+Não tente manipular o quadro elétrico. Chame um eletricista para avaliar a causa antes de qualquer ação — um disjuntor caído pode indicar sobrecarga, curto-circuito ou falha na fiação que não é visível a olho nu.
 
 ### 4. Se houver cheiro de queimado ou faíscas
 Desligue o disjuntor **geral** (não apenas o do circuito afetado). Retire todos da área. Não ligue nenhum aparelho. Se houver fumaça ou chamas: **ligue imediatamente para o Corpo de Bombeiros: 193**.
@@ -131,7 +131,7 @@ Visita técnica em horário comercial para diagnóstico de curto-circuito custa 
 Sim. Profissionais verificados no Serviços Urgentes atendem emergências elétricas em todos os bairros de SJC incluindo Parque Residencial Aquarius, Urbanova, Vila Adyana e Centro. No Aquarius, de 35 a 55 minutos via Av. Cassiano Ricardo. Em Urbanova, de 40 a 60 minutos via Av. Linneu de Moura / Av. Shishima Hifumi.
 
 ### Posso religar o disjuntor depois que ele cai?
-Depende. Se o disjuntor caiu uma vez sem motivo aparente e não há cheiro de queimado, fumaça ou aparelho com defeito visível, é possível tentar religar uma única vez. Se cair novamente, não insista — há uma sobrecarga ou curto-circuito real que precisa de diagnóstico profissional. Religar repetidamente pode danificar equipamentos e causar incêndio.
+Não manipule o quadro elétrico sem avaliação de um profissional. Um disjuntor caído é um sinal de que o sistema detectou um problema — religar sem diagnóstico pode agravar o risco. Chame um eletricista verificado para identificar a causa com segurança. Se cair novamente, não insista — há uma sobrecarga ou curto-circuito real que precisa de diagnóstico profissional. Religar repetidamente pode danificar equipamentos e causar incêndio.
 
 ### Cheiro de queimado elétrico — é grave?
 Sim, deve ser tratado como emergência. Cheiro de queimado elétrico indica superaquecimento de fio, tomada ou equipamento — situação que pode evoluir para incêndio em minutos. Desligue o disjuntor geral imediatamente, retire pessoas da área e não ligue nenhum aparelho. Chame um eletricista de emergência e, se o cheiro persistir ou houver fumaça, ligue para o Corpo de Bombeiros: **193**.
