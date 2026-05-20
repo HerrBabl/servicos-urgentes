@@ -1,11 +1,9 @@
-
-
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Melhores Maridos de Aluguel em SJC: Comparativo 2026"
-description: "Comparativo dos melhores maridos de aluguel em São José dos Campos. Avaliações, bairros atendidos, preços e especialidades. Aquarius, Urbanova, Jardim Satélite e mais."
+description: "Comparativo dos melhores maridos de aluguel em São José dos Campos 2026. Avaliações, bairros atendidos, preços e especialidades. Aquarius, Urbanova e mais."
 date: "2026-05-19T11:00:00-03:00"
-dateModified: "2026-05-19T11:00:00-03:00"
+dateModified: "2026-05-20T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
