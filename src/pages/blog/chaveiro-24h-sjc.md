@@ -12,7 +12,7 @@ imageAlt: "Chaveiro profissional realizando abertura técnica de fechadura resid
 tags: ["Chaveiro", "Emergência", "SJC", "24h"]
 slug: "chaveiro-24h-sjc"
 category: "Segurança Residencial"
-canonicalURL: "https://servicosurgentes.com/blog/chaveiro-24h-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/chaveiro-24h-sjc/"
 keywords: "chaveiro 24h sjc, chaveiro são josé dos campos, chaveiro emergência sjc, marido de aluguel sjc, abertura de porta sjc, troca de fechadura sjc"
 region: "São José dos Campos"
 neighborhood: "Centro, Aquarius, Urbanova, Vila Adyana, Jardim Satélite"
