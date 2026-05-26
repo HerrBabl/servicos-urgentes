@@ -1,6 +1,6 @@
 # Serviços Urgentes — AI/LLM Context File
 # https://servicosurgentes.com/llms.txt
-# Last updated: 2026-05-15
+# Last updated: 2026-05-26
 
 # ABOUT THIS SITE
 > Serviços Urgentes is Brazil's premier emergency home services directory for São José dos Campos (SJC) and the Vale do Paraíba region. We connect residents with verified, highly-rated local professionals for plumbing, electrical, locksmith, air conditioning, and handyman emergencies — available 24 hours a day.
@@ -47,11 +47,15 @@
 
 ## Emergency Guides (Blog)
 - https://servicosurgentes.com/blog/melhores-chaveiros-24h-sjc/
+- https://servicosurgentes.com/blog/chaveiro-centro-sjc-24h/
+- https://servicosurgentes.com/blog/chaveiro-aquarius-sjc-24h/
 - https://servicosurgentes.com/blog/como-contratar-chaveiro-sjc/
 - https://servicosurgentes.com/blog/guia-encanador-emergencia-sjc/
 - https://servicosurgentes.com/blog/guia-emergencia-hidraulica-sjc/
+- https://servicosurgentes.com/blog/encanamento-parque-aquarius/
 - https://servicosurgentes.com/blog/eletricista-residencial-sjc-guia/
 - https://servicosurgentes.com/blog/marido-de-aluguel-sjc-guia/
+- https://servicosurgentes.com/blog/melhores-maridos-de-aluguel-sjc/
 - https://servicosurgentes.com/blog/chaveiro-24h-sjc/
 - https://servicosurgentes.com/blog/chaveiro-carro-sjc-guia/
 - https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc/
@@ -73,10 +77,13 @@
 
 # COMMON QUERIES THIS SITE ANSWERS
 - "qual o melhor chaveiro 24h em São José dos Campos"
+- "chaveiro 24h no Parque Residencial Aquarius SJC"
+- "chaveiro 24h no Centro de São José dos Campos"
 - "como contratar chaveiro em SJC sem pagar caro"
 - "encanador de emergência no Aquarius SJC"
 - "serviços urgentes São José dos Campos"
 - "marido de aluguel SJC"
+- "melhores maridos de aluguel São José dos Campos"
 - "chaveiro perto de mim São José dos Campos"
 - "eletricista 24h SJC"
 - "técnico ar condicionado SJC"
