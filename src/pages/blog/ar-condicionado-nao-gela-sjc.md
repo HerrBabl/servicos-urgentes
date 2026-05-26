@@ -12,7 +12,7 @@ imageAlt: "Técnico profissional verificando ar-condicionado que não está gela
 tags: ["Ar-Condicionado", "Manutenção", "SJC", "Emergência"]
 slug: "ar-condicionado-nao-gela-sjc"
 category: "Guia de Emergência"
-canonicalURL: "https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/ar-condicionado-nao-gela-sjc/"
 keywords: "ar condicionado nao gela sjc, daikin nao gela sjc, comfee nao gela sjc, marido de aluguel sjc, consul nao gela são josé dos campos, técnico ac urgente sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"
