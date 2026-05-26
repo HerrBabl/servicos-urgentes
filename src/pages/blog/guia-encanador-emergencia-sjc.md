@@ -12,7 +12,7 @@ imageAlt: "Encanador profissional atendendo emergência hidráulica com vazament
 tags: ["Emergência", "Encanamento", "Manutenção", "SJC"]
 slug: "guia-encanador-emergencia-sjc"
 category: "Guia de Emergência"
-canonicalURL: "https://servicosurgentes.com/blog/guia-encanador-emergencia-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/guia-encanador-emergencia-sjc/"
 keywords: "encanador 24 horas sjc, caça vazamento são josé dos campos, encanamento emergência sjc, marido de aluguel sjc, desentupidora 24h sjc, preço encanador sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"

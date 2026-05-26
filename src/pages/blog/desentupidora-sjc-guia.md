@@ -12,7 +12,7 @@ imageAlt: "Encanador profissional realizando desentupimento de esgoto residencia
 tags: ["Desentupidora", "Emergência", "SJC", "24h"]
 slug: "desentupidora-sjc-guia"
 category: "Hidráulica"
-canonicalURL: "https://servicosurgentes.com/blog/desentupidora-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/desentupidora-sjc-guia/s"
 keywords: "desentupidora sjc, desentupidor são josé dos campos, desentupimento emergência sjc, marido de aluguel sjc, desentupidora 24h sjc, esgoto entupido aquarius"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Centro, Urbanova, Vila Adyana, Jardim Satélite"

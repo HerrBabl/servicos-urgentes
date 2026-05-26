@@ -12,7 +12,7 @@ imageAlt: "Condomínio de alto padrão no Jardim das Colinas com infraestrutura 
 tags: ["Jardim das Colinas", "SJC", "Alto Padrão", "Manutenção"]
 slug: "jardim-das-colinas-servicos"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/blog/jardim-das-colinas-servicos"
+canonicalURL: "https://servicosurgentes.com/blog/jardim-das-colinas-servicos/"
 keywords: "eletricista jardim das colinas sjc, encanador colinas sjc, wallbox colinas sjc, marido de aluguel sjc, ar condicionado colinas shopping, manutenção alto padrão sjc"
 region: "São José dos Campos"
 neighborhood: "Jardim das Colinas, Urbanova, Vila Ema"

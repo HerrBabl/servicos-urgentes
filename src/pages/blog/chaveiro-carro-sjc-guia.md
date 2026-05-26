@@ -12,7 +12,7 @@ image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800"
 imageAlt: "Chaveiro automotivo profissional programando chave codificada de carro em São José dos Campos"
 tags: ["Chaveiro", "Automotivo", "SJC", "Emergência"]
 slug: "chaveiro-carro-sjc-guia"
-canonicalURL: "https://servicosurgentes.com/blog/chaveiro-carro-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/chaveiro-carro-sjc-guia/"
 keywords: "chaveiro automotivo sjc, chave de carro perdida são josé dos campos, chaveiro carro 24h sjc, marido de aluguel sjc, chaveiro aquarius sjc, abertura de carro sem dano sjc"
 region: "São José dos Campos"
 neighborhood: "Centro, Parque Residencial Aquarius, Urbanova"

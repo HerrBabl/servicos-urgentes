@@ -12,7 +12,7 @@ imageAlt: "Casa de alto padrão com sistema de climatização VRF instalado no b
 tags: ["Urbanova", "Ar-Condicionado", "Alto Padrão", "Climatização"]
 slug: "climatizacao-urbanova"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/blog/climatizacao-urbanova"
+canonicalURL: "https://servicosurgentes.com/blog/climatizacao-urbanova/"
 keywords: "climatização urbanova, ar-condicionado alto padrão sjc, sistema vrf urbanova, marido de aluguel sjc, ar-condicionado pé-direito duplo, instalação vrf são josé dos campos"
 region: "São José dos Campos"
 neighborhood: "Urbanova, Jardim das Colinas, Aquarius"

@@ -12,7 +12,7 @@ imageAlt: "Técnico realizando a instalação profissional de unidade condensado
 tags: ["Ar-Condicionado", "Instalação", "SJC", "Guia de Compra"]
 slug: "instalacao-ar-condicionado-sjc-guia"
 category: "Guia de Instalação"
-canonicalURL: "https://servicosurgentes.com/blog/instalacao-ar-condicionado-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/instalacao-ar-condicionado-sjc-guia/"
 keywords: "instalação ar condicionado sjc, quanto custa instalar ac são josé dos campos, técnico instalação ac sjc, marido de aluguel sjc, instalação split sjc, preço instalação ar condicionado sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"

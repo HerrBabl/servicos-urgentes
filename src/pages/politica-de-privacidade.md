@@ -9,7 +9,7 @@ author:
   url: "https://servicosurgentes.com/sobre"
 slug: "politica-de-privacidade"
 category: "Institucional"
-canonicalURL: "https://servicosurgentes.com/politica-de-privacidade"
+canonicalURL: "https://servicosurgentes.com/politica-de-privacidade/"
 region: "São José dos Campos"
 ---
 

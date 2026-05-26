@@ -12,7 +12,7 @@ imageAlt: "Eletricista profissional instalando resistência de chuveiro elétric
 tags: ["Eletricista", "Emergência", "SJC", "Manutenção Residencial"]
 slug: "chuveiro-queimado-sjc-guia"
 category: "Elétrica"
-canonicalURL: "https://servicosurgentes.com/blog/chuveiro-queimado-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/chuveiro-queimado-sjc-guia/"
 keywords: "chuveiro não esquenta sjc, troca resistência chuveiro são josé dos campos, chuveiro queimado sjc, marido de aluguel sjc, eletricista chuveiro urbanova, chuveiro morno centro sjc"
 region: "São José dos Campos"
 neighborhood: "Urbanova, Aquarius, Centro, Vila Adyana"

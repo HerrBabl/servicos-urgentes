@@ -12,7 +12,7 @@ imageAlt: "Temporal com raios e chuva forte sobre a cidade de São José dos Cam
 tags: ["Emergência", "Temporal", "SJC", "Guia de Emergência"]
 slug: "emergencia-temporal-sjc"
 category: "Guia de Emergência"
-canonicalURL: "https://servicosurgentes.com/blog/emergencia-temporal-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/emergencia-temporal-sjc/"
 keywords: "emergência temporal sjc, serviços urgentes chuva forte sjc, marido de aluguel sjc, o que fazer temporal são josé dos campos, temporal urbanova sjc, alagamento vila tatetuba"
 region: "São José dos Campos"
 neighborhood: "Urbanova, Vila Tatetuba, Aquarius, Centro"

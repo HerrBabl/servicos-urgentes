@@ -12,7 +12,7 @@ image: "https://plus.unsplash.com/premium_photo-1661963270682-4b4857b6cda2?w=900
 imageAlt: "Técnico especializado diagnosticando ar-condicionado que parou de funcionar em residência em São José dos Campos"
 tags: ["Ar-Condicionado", "Emergência", "SJC", "Manutenção"]
 slug: "ac-guia-sjc"
-canonicalURL: "https://servicosurgentes.com/blog/ac-guia-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/ac-guia-sjc/"
 keywords: "ar-condicionado emergência sjc, ar-condicionado não liga, conserto ar-condicionado são josé dos campos, marido de aluguel sjc, técnico ar-condicionado urgente, reparo ac sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Jardim das Colinas, Centro"

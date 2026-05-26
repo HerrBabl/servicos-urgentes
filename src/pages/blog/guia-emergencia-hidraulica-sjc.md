@@ -12,7 +12,7 @@ image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=800"
 imageAlt: "Encanador profissional utilizando equipamento de caça-vazamentos eletrônico em parede de apartamento em São José dos Campos"
 tags: ["Encanamento", "Emergência", "SJC", "Guia", "Manutenção"]
 slug: "guia-emergencia-hidraulica-sjc"
-canonicalURL: "https://servicosurgentes.com/blog/guia-emergencia-hidraulica-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/guia-emergencia-hidraulica-sjc/"
 keywords: "encanador sjc, caça vazamentos sjc, encanador 24 horas são josé dos campos, marido de aluguel sjc, infiltração apartamento aquarius, desentupidora sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Vila Adyana, Urbanova, Centro"

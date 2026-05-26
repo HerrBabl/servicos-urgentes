@@ -12,7 +12,7 @@ imageAlt: "Rua residencial arborizada típica da Zona Sul de São José dos Camp
 tags: ["Bosque dos Eucaliptos", "Zona Sul", "Guia de Bairro", "SJC"]
 slug: "guia-bosque-dos-eucaliptos-sjc"
 category: "Guia de Bairro"
-canonicalURL: "https://servicosurgentes.com/blog/guia-bosque-dos-eucaliptos-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/guia-bosque-dos-eucaliptos-sjc/"
 keywords: "encanador bosque dos eucaliptos, eletricista zona sul sjc, marido de aluguel sjc, desentupidora av andromeda, conserto telhado sjc, serviços urgentes satélite"
 region: "São José dos Campos"
 neighborhood: "Bosque dos Eucaliptos, Jardim Satélite, Jardim Portugal"

@@ -12,7 +12,7 @@ image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=800"
 imageAlt: "Eletricista residencial verificando quadro de distribuição em apartamento em São José dos Campos"
 tags: ["Eletricista", "Elétrica Residencial", "SJC", "Emergência Elétrica"]
 slug: "eletricista-residencial-sjc-guia"
-canonicalURL: "https://servicosurgentes.com/blog/eletricista-residencial-sjc-guia"
+canonicalURL: "https://servicosurgentes.com/blog/eletricista-residencial-sjc-guia/"
 keywords: "eletricista residencial sjc, eletricista em são josé dos campos, eletricista 24h sjc, marido de aluguel sjc, curto circuito sjc, troca de chuveiro sjc, quanto custa eletricista sjc"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Urbanova, Centro, Vila Adyana"

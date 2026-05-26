@@ -12,7 +12,7 @@ image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=800"
 imageAlt: "Fachada de casa antiga em estilo clássico na Vila Adyana passando por processo de renovação e retrofit"
 tags: ["Vila Adyana", "Reforma", "Manutenção", "Retrofit", "SJC"]
 slug: "vila-adyana-guia"
-canonicalURL: "https://servicosurgentes.com/blog/vila-adyana-guia"
+canonicalURL: "https://servicosurgentes.com/blog/vila-adyana-guia/"
 keywords: "retrofit vila adyana, casa antiga sjc, tubulação ferro galvanizado, marido de aluguel sjc, fusível para disjuntor, modernizar casa antiga sjc"
 region: "São José dos Campos"
 neighborhood: "Vila Adyana, Jardim São Dimas, Centro"

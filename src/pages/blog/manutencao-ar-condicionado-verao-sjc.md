@@ -12,7 +12,7 @@ imageAlt: "Técnico especializado realizando a higienização de ar-condicionado
 tags: ["Ar-Condicionado", "Manutenção Preventiva", "SJC", "Chuva"]
 slug: "manutencao-ar-condicionado-verao-sjc"
 category: "Guia de Manutenção"
-canonicalURL: "https://servicosurgentes.com/blog/manutencao-ar-condicionado-verao-sjc"
+canonicalURL: "https://servicosurgentes.com/blog/manutencao-ar-condicionado-verao-sjc/"
 keywords: "manutenção ar condicionado sjc, limpeza ac são josé dos campos, ar condicionado pingando sjc, mofo ar condicionado, marido de aluguel sjc, técnico ar condicionado sjc, higienização profissional sjc"
 region: "São José dos Campos"
 neighborhood: "Urbanova, Aquarius, Centro, Zona Norte"
