@@ -1,0 +1,241 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Bairros Atendidos em São José dos Campos | Serviços Urgentes";
+const description = "Encontre serviços de emergência 24h no seu bairro em SJC. Encanador, eletricista, chaveiro e ar-condicionado em Aquarius, Urbanova, Centro e mais 12 bairros.";
+const keywords = "serviços urgentes SJC bairros, emergência por bairro SJC, serviços 24h São José dos Campos, marido de aluguel sjc";
+
+const bairros = [
+  {
+    slug: "parque-residencial-aquarius",
+    nome: "Parque Residencial Aquarius",
+    descricao: "Bairro planejado com alta demanda por encanadores e eletricistas 24h.",
+    emoji: "🏘️",
+  },
+  {
+    slug: "urbanova",
+    nome: "Urbanova",
+    descricao: "Condomínios e residências na Av. Possidônio José de Freitas — cobertura completa.",
+    emoji: "🌿",
+  },
+  {
+    slug: "centro",
+    nome: "Centro",
+    descricao: "Região central de SJC com maior concentração de profissionais disponíveis.",
+    emoji: "🏙️",
+  },
+  {
+    slug: "vila-adyana",
+    nome: "Vila Adyana",
+    descricao: "Bairro residencial próximo ao centro com atendimento rápido.",
+    emoji: "🏡",
+  },
+  {
+    slug: "bosque-dos-eucaliptos",
+    nome: "Bosque dos Eucaliptos",
+    descricao: "Área arborizada com profissionais cadastrados para emergências residenciais.",
+    emoji: "🌳",
+  },
+  {
+    slug: "jardim-das-colinas",
+    nome: "Jardim das Colinas",
+    descricao: "Bairro consolidado com boa cobertura de chaveiros e encanadores.",
+    emoji: "🏞️",
+  },
+  {
+    slug: "jardim-satelite",
+    nome: "Jardim Satélite",
+    descricao: "Um dos maiores bairros de SJC — profissionais em todas as especialidades.",
+    emoji: "⭐",
+  },
+  {
+    slug: "sao-dimas",
+    nome: "São Dimas",
+    descricao: "Bairro residencial com atendimento 24h para emergências hidráulicas e elétricas.",
+    emoji: "🔧",
+  },
+  {
+    slug: "jardim-esplanada",
+    nome: "Jardim Esplanada",
+    descricao: "Cobertura de serviços de emergência para residências e comércios.",
+    emoji: "🏢",
+  },
+  {
+    slug: "santana",
+    nome: "Santana",
+    descricao: "Bairro tradicional de SJC com profissionais verificados disponíveis.",
+    emoji: "🔑",
+  },
+  {
+    slug: "parque-industrial",
+    nome: "Parque Industrial",
+    descricao: "Atendimento residencial e comercial na zona industrial de SJC.",
+    emoji: "🏭",
+  },
+  {
+    slug: "vila-ema",
+    nome: "Vila Ema",
+    descricao: "Cobertura de chaveiros, eletricistas e encanadores 24h.",
+    emoji: "🔌",
+  },
+  {
+    slug: "jardim-america",
+    nome: "Jardim América",
+    descricao: "Bairro residencial com rápido acesso a profissionais de emergência.",
+    emoji: "🌺",
+  },
+  {
+    slug: "campos-de-sao-jose",
+    nome: "Campos de São José",
+    descricao: "Condomínios e casas com cobertura de serviços urgentes.",
+    emoji: "🌾",
+  },
+  {
+    slug: "jardim-aquarius",
+    nome: "Jardim Aquarius",
+    descricao: "Bairro planejado próximo ao Parque Aquarius — atendimento completo.",
+    emoji: "💧",
+  },
+];
+---
+
+<Layout title={title} description={description} keywords={keywords}>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json" slot="head">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://servicosurgentes.com/bairros/",
+    "name": "Bairros Atendidos em São José dos Campos — Serviços Urgentes",
+    "description": "Diretório de serviços de emergência 24h por bairro em São José dos Campos, SP. Encanador, eletricista, chaveiro e ar-condicionado.",
+    "url": "https://servicosurgentes.com/bairros/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Serviços Urgentes SJC",
+      "url": "https://servicosurgentes.com"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://servicosurgentes.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bairros",
+          "item": "https://servicosurgentes.com/bairros/"
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">
+        Serviços de Emergência por Bairro em SJC
+      </h1>
+      <p class="text-lg max-w-2xl mx-auto text-blue-100">
+        Encontre encanadores, eletricistas, chaveiros e técnicos de ar-condicionado 24h no seu bairro em São José dos Campos. <strong class="text-white">15 bairros atendidos</strong> com profissionais verificados e atendimento imediato.
+      </p>
+    </div>
+  </section>
+
+  <!-- BAIRRO CARDS -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+
+      <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+        Selecione seu Bairro
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {bairros.map(bairro => (
+          <a
+            href={`/bairros/${bairro.slug}/`}
+            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-blue-600"
+          >
+            <div class="flex items-start gap-4">
+              <span class="text-4xl">{bairro.emoji}</span>
+              <div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">{bairro.nome}</h3>
+                <p class="text-gray-600 text-sm">{bairro.descricao}</p>
+                <span class="inline-block mt-3 text-blue-600 font-semibold text-sm">Ver serviços disponíveis →</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- URGENCY STRIP -->
+  <section class="bg-red-600 text-white py-8">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p class="text-xl font-bold mb-2">Situação grave? Não espere.</p>
+      <p class="text-red-100 mb-4">Para risco de vida, ligue imediatamente para o Corpo de Bombeiros (193) ou Defesa Civil (199).</p>
+      <a href="/servicos/" class="inline-block bg-white text-red-600 font-bold py-3 px-8 rounded-lg hover:bg-red-50 transition-colors">
+        Ver todos os profissionais verificados →
+      </a>
+    </div>
+  </section>
+
+  <!-- INTRO CONTENT FOR GEO -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 prose prose-gray max-w-none">
+
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Serviços de Emergência em Todos os Bairros de SJC</h2>
+
+      <p class="text-gray-700 mb-4">
+        São José dos Campos é uma cidade extensa — o que é emergência no Parque Residencial Aquarius pode ter um tempo de resposta muito diferente do que no Jardim Satélite ou em Urbanova. O Serviços Urgentes organiza profissionais da região por bairro para que você encontre atendimento rápido onde mora, não apenas na cidade em geral.
+      </p>
+
+      <p class="text-gray-700 mb-4">
+        Cada página de bairro lista os profissionais verificados que atendem aquela área, com avaliação mínima de 4 estrelas, telefone de contato e horário de funcionamento. Profissionais da região atendem emergências hidráulicas, elétricas, de segurança e climatização em todos os bairros cadastrados.
+      </p>
+
+      <h3 class="text-xl font-bold text-gray-800 mb-4 mt-8">Procurando por Tipo de Serviço?</h3>
+
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3 my-8">
+        <a href="/servicos/encanador/" class="bg-blue-50 border border-blue-200 rounded-lg p-3 text-center hover:bg-blue-100 transition-colors">
+          <div class="text-2xl mb-1">🔧</div>
+          <div class="text-sm font-semibold text-blue-800">Encanador</div>
+        </a>
+        <a href="/servicos/eletricista/" class="bg-orange-50 border border-orange-200 rounded-lg p-3 text-center hover:bg-orange-100 transition-colors">
+          <div class="text-2xl mb-1">⚡</div>
+          <div class="text-sm font-semibold text-orange-800">Eletricista</div>
+        </a>
+        <a href="/servicos/chaveiro/" class="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-center hover:bg-yellow-100 transition-colors">
+          <div class="text-2xl mb-1">🔐</div>
+          <div class="text-sm font-semibold text-yellow-800">Chaveiro</div>
+        </a>
+        <a href="/servicos/ar-condicionado/" class="bg-teal-50 border border-teal-200 rounded-lg p-3 text-center hover:bg-teal-100 transition-colors">
+          <div class="text-2xl mb-1">❄️</div>
+          <div class="text-sm font-semibold text-teal-800">Ar-Condicionado</div>
+        </a>
+        <a href="/servicos/marido-de-aluguel/" class="bg-green-50 border border-green-200 rounded-lg p-3 text-center hover:bg-green-100 transition-colors">
+          <div class="text-2xl mb-1">🏠</div>
+          <div class="text-sm font-semibold text-green-800">Marido de Aluguel</div>
+        </a>
+      </div>
+
+      <h3 class="text-xl font-bold text-gray-800 mb-4 mt-8">Guias de Emergência por Tipo de Problema</h3>
+
+      <p class="text-gray-700 mb-4">
+        Se você está enfrentando uma emergência agora e não sabe o que fazer nos primeiros minutos, acesse nossos guias de emergência — cano estourado, porta trancada, curto-circuito, chuveiro queimado e vazamento no teto.
+      </p>
+
+      <a href="/emergencias/" class="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition-colors">
+        Ver Guias de Emergência →
+      </a>
+
+    </div>
+  </section>
+
+</Layout>
