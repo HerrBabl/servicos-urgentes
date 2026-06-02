@@ -417,6 +417,7 @@ Aproveitou a emergência para decidir que está na hora de trocar a fechadura? E
 - **[Marido de Aluguel em SJC](/servicos/marido-de-aluguel/)** — Reparos em batentes, portas e portões danificados
 - **[Porta Trancada em SJC — O Que Fazer Agora →](/emergencias/porta-trancada-sjc/)**
 - 👉 **[Trancado para Fora? Veja o Que Fazer Antes do Chaveiro Chegar →](/emergencias/porta-trancada-sjc/)**
+- [Chaveiro 24h no Aquarius, SJC →](/blog/chaveiro-aquarius-sjc-24h/)
 
 **Chaveiros por Bairro:**
 - **[Chaveiros no Aquarius](/servicos/chaveiro/parque-residencial-aquarius/)**
