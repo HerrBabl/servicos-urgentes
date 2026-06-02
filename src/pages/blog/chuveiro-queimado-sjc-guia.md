@@ -7,7 +7,7 @@ dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://media.istockphoto.com/id/89481614/photo/burned-resistance.webp?a=1&b=1&s=612x612&w=0&k=20&c=V6cAVx2NyZYweQOA9Xkv_Y-ixXbPXldzMeldGvUnkXE="
+image: "https://images.unsplash.com/photo-1580401410158-1f0b0a406762?q=80&w=800"
 imageAlt: "Eletricista profissional instalando resistência de chuveiro elétrico em banheiro residencial em São José dos Campos"
 tags: ["Eletricista", "Emergência", "SJC", "Manutenção Residencial"]
 slug: "chuveiro-queimado-sjc-guia"
