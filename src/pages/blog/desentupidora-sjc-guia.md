@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Desentupidora em SJC: Guia Completo de Emergência 2026"
 description: "Pia entupida, vaso sanitário transbordando ou esgoto voltando no Aquarius, Urbanova ou Centro? Guia de desentupidoras 24h verificadas em São José dos Campos."
 date: "2026-03-13T17:30:00-03:00"
-dateModified: "2026-03-13T17:30:00-03:00"
+dateModified: "2026-06-02T12:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -12,7 +12,7 @@ imageAlt: "Encanador profissional realizando desentupimento de esgoto residencia
 tags: ["Desentupidora", "Emergência", "SJC", "24h"]
 slug: "desentupidora-sjc-guia"
 category: "Hidráulica"
-canonicalURL: "https://servicosurgentes.com/blog/desentupidora-sjc-guias/"
+canonicalURL: "https://servicosurgentes.com/blog/desentupidora-sjc-guia/"
 keywords: "desentupidora sjc, desentupidor são josé dos campos, desentupimento emergência sjc, marido de aluguel sjc, desentupidora 24h sjc, esgoto entupido aquarius"
 region: "São José dos Campos"
 neighborhood: "Aquarius, Centro, Urbanova, Vila Adyana, Jardim Satélite"
