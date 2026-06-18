@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chaveiro 24h em SJC: Guia Completo para Emergências 2026"
 description: "Trancado para fora, chave quebrada ou fechadura emperrada em SJC? Guia completo de chaveiros 24h verificados no Aquarius, Urbanova, Centro e Vila Adyana."
 date: "2026-05-18T19:00:00-03:00"
-dateModified: "2026-05-05T07:30:00-03:00"
+dateModified: "2026-06-02T12:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
