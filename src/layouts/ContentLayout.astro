@@ -273,7 +273,6 @@ const serviceSchema = isNeighborhood ? {
 
     <!-- Google Analytics 4 — G-BQ3ZV7T8LJ -->
     <!-- Added 2026-03-04: tag was missing from codebase, GA4 showed zero data collection -->
-     <script src="https://analytics.ahrefs.com/analytics.js" data-key="njxNNuRbNFuVeHd30flSMQ" async></script>
     <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_ID}`}></script>
 <script define:vars={{ gaId: import.meta.env.PUBLIC_GA_ID }}>
   window.dataLayer = window.dataLayer || [];
@@ -286,7 +285,7 @@ const serviceSchema = isNeighborhood ? {
     <Header />
     
     <!-- Hero Section (matches your blog.astro pattern) -->
-    <section id="inicio" class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           {isNeighborhood && (
@@ -302,7 +301,7 @@ const serviceSchema = isNeighborhood ? {
             </div>
           )}
           <h1 class="text-3xl md:text-4xl font-bold mb-4">
-            {title}
+            {neighborhood ? `Serviços Urgentes em ${neighborhood}` : title}
           </h1>
           {description && (
             <p class="text-lg max-w-3xl mx-auto text-blue-100">
@@ -325,6 +324,25 @@ const serviceSchema = isNeighborhood ? {
               class="w-full h-auto rounded-xl mb-8 object-cover shadow-sm"
             />
           )}
+
+          {isBlog && (date || dateModified) && (
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-500 mb-8 pb-4 border-b border-gray-200">
+              <span>
+                Por <a href="/sobre/" class="text-red-600 font-medium hover:underline">Serviços Urgentes</a>
+              </span>
+              {date && (
+                <span>
+                  Publicado em {new Date(formatDateISO(date)).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+                </span>
+              )}
+              {dateModified && (
+                <span>
+                  Atualizado em {new Date(formatDateISO(dateModified)).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+                </span>
+              )}
+            </div>
+          )}
+
           <slot />
         </article>
       </div>
