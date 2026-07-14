@@ -61,21 +61,30 @@ const neighborhoods = [
 
 <Layout title={pageTitle} description={pageDescription} canonicalURL={canonicalURL}>
   <script type="application/ld+json" slot="head" set:html={JSON.stringify({
-    "@context": "https://schema.org",
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Diretório de Serviços de Emergência em São José dos Campos",
+  "description": pageDescription,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Serviços Urgentes",
+    "url": "https://servicosurgentes.com",
+    "description": "Diretório de conexão entre moradores e profissionais autônomos verificados — não presta os serviços diretamente."
+  },
+  "mainEntity": {
     "@type": "ItemList",
-    "name": "Serviços de Emergência em São José dos Campos",
-    "description": pageDescription,
     "itemListElement": services.map((service, index) => ({
       "@type": "ListItem",
       "position": index + 1,
       "item": {
-        "@type": "Service",
-        "name": service.name,
+        "@type": "Thing",
+        "name": `Diretório de ${service.name}`,
         "url": `https://servicosurgentes.com${service.url}`,
         "description": service.description
       }
     }))
-  })} />
+  }
+})} />
 
   <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
