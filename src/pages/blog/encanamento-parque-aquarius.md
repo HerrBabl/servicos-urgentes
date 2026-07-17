@@ -29,7 +29,7 @@ faqSchema:
     answer: "Visita técnica diagnóstica: R$ 100-180. Reparos comuns: troca de registro R$ 150-300, reparo de vazamento R$ 200-500, troca de válvula redutora de pressão R$ 400-800. Atendimentos noturnos e finais de semana têm acréscimo de 30-50%. Sempre solicite orçamento antes de autorizar o serviço."
 ---
 
-Se você está com um **vazamento ativo agora**, vá direto para a seção de [encanadores verificados no Aquarius](#encanadores-verificados-no-parque-residencial-aquarius) ou acesse o [guia de emergência para cano estourado](/blog/cano-estourado-sjc/). Profissionais com atendimento 24h estão disponíveis na região.
+Se você está com um **vazamento ativo agora**, vá direto para a seção de [encanadores verificados no Aquarius](#encanadores-verificados-no-parque-residencial-aquarius) ou acesse o [guia de emergência para cano estourado](/emergencias/cano-estourado-sjc/). Profissionais com atendimento 24h estão disponíveis na região.
 
 O Parque Residencial Aquarius é o coração pulsante da zona sul de São José dos Campos. Com sua alta densidade de edifícios de alto padrão e uma população vibrante, é também um dos bairros com maior volume de chamados para serviços de manutenção — especialmente **hidráulica**.
 
@@ -37,7 +37,7 @@ Se você mora aqui, provavelmente vive em apartamento. E em condomínios vertica
 
 📍 **Conheça o bairro:** Veja o [guia completo do Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/) com serviços, características e profissionais da região.
 
-🚨 **Emergência agora?** Se o cano já estourou, veja o [guia de ação imediata para cano estourado em SJC](/blog/cano-estourado-sjc/) com os passos para estancar o dano antes de chamar o profissional.
+🚨 **Emergência agora?** Se o cano já estourou, veja o [guia de ação imediata para cano estourado em SJC](/emergencias/cano-estourado-sjc/) com os passos para estancar o dano antes de chamar o profissional.
 
 ## 📋 Neste Guia
 
