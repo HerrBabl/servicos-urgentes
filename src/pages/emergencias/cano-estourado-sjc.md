@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Cano Estourado em SJC: O Que Fazer Antes do Encanador Chegar"
 description: "Cano estourou em São José dos Campos? Saiba o que fazer agora no Aquarius, Urbanova, Centro e Vila Adyana. Encanadores verificados 24h em SJC."
 date: "2026-05-03T18:00:00-03:00"
-dateModified: "2026-05-03T18:00:00-03:00"
+dateModified: "2026-07-17T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -27,6 +27,8 @@ faqSchema:
     answer: "Sim, imediatamente. Em condomínios verticais como os do Aquarius e Urbanova, um cano estourado pode afetar apartamentos vizinhos e áreas comuns em minutos. Avise a portaria ou síndico assim que fechar o registro — eles podem acionar o seguro do condomínio e ajudar a localizar o registro geral do andar. Não espere para ver se o vazamento para sozinho."
   - question: "O que fazer se a água atingir a parte elétrica?"
     answer: "Não toque em nenhum interruptor, tomada ou equipamento elétrico na área molhada. Acione imediatamente o disjuntor geral do apartamento pelo quadro de distribuição, se ele estiver em área seca e segura. Se não tiver certeza, não mexa — avise a portaria e aguarde o Bombeiros (193). Água e eletricidade juntos representam risco de vida."
+  - question: "O seguro residencial cobre cano estourado em SJC?"
+    answer: "Depende da apólice. A maioria dos seguros residenciais com assistência 24h cobre a mão de obra emergencial para conter o vazamento e o reparo do cano em si. Danos estéticos — quebra de parede, reposição de azulejo, pintura — geralmente não estão cobertos nas apólices básicas. Fotografe tudo antes de começar qualquer reparo e guarde a nota fiscal do encanador para acionar a seguradora."
 ---
 
 Água jorrando, piso inundando, vizinho de baixo ligando. Um cano estourado é uma das emergências residenciais mais comuns em São José dos Campos — especialmente nos condomínios verticais do Aquarius e Urbanova, onde a pressão da rede é mais alta e as tubulações de prédios mais antigos estão mais suscetíveis a falhas.
@@ -140,6 +142,9 @@ Sim, imediatamente. Em condomínios verticais como os do Aquarius e Urbanova, um
 
 ### O que fazer se a água atingiu a parte elétrica?
 Não toque em nenhum interruptor, tomada ou equipamento elétrico na área molhada. Acione o disjuntor geral pelo quadro de distribuição se estiver em área seca e segura. Em caso de dúvida, não mexa — ligue para o Corpo de Bombeiros: **(193)**.
+
+### O seguro residencial cobre cano estourado em SJC?
+Depende da apólice. A maioria dos seguros residenciais com assistência 24h cobre a mão de obra emergencial para conter o vazamento e o reparo do cano em si. Danos estéticos — quebra de parede, reposição de azulejo, pintura — geralmente não estão cobertos nas apólices básicas. Fotografe tudo antes de começar qualquer reparo e guarde a nota fiscal do encanador para acionar a seguradora.
 
 [⬆️ Voltar ao topo](#inicio)
 
