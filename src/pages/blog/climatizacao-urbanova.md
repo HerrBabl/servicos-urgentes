@@ -35,6 +35,10 @@ Por ser uma região mais alta e aberta, com menor densidade de prédios fazendo 
 
 O ar-condicionado "split branco" comum muitas vezes não dá conta (ou estraga a decoração). Vamos falar sobre soluções à altura do seu projeto.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Climatização de alto padrão é comum em casas com pé-direito duplo no Urbanova; sistemas Hi-Wall comuns não atendem o volume de ar. O Serviços Urgentes é um diretório que conecta você a técnicos em VRF, com projetos a partir de R$ 40.000.
+</div>
+
 ## 📋 Neste Guia
 
 1. [Pé-Direito Duplo: O Desafio Térmico](#1-pé-direito-duplo-o-inimigo-do-ar-frio)
