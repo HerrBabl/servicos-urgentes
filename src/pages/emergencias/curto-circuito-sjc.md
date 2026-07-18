@@ -33,6 +33,10 @@ Disjuntor caindo repetidamente, tomada faiscando, cheiro de queimado vindo da pa
 
 Este guia não vai te ensinar a mexer na fiação. Vai te dizer **o que fazer agora** para manter você e sua família seguros enquanto o eletricista não chega.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Curto-circuito é comum em condomínios antigos do Centro e apartamentos do Aquarius; desligue o disjuntor geral imediatamente. O Serviços Urgentes é um diretório que conecta você a eletricistas verificados em SJC, com chegada a partir de 35 minutos no Aquarius.
+</div>
+
 [⬆️ Voltar ao topo](#inicio)
 
 ---
