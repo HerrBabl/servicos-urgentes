@@ -33,6 +33,10 @@ Porta fechada, chave do lado de dentro, ou simplesmente esqueceu a chave em casa
 
 Este guia não vai te ensinar a arrombar a porta. Vai te dizer **o que fazer agora** para não piorar a situação e resolver o problema com segurança.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Porta trancada é comum em condomínios do Aquarius e Urbanova e prédios antigos do Centro; não force a fechadura. O Serviços Urgentes é um diretório que conecta você a chaveiros verificados em SJC, com chegada a partir de 20 minutos no Centro.
+</div>
+
 [⬆️ Voltar ao topo](#inicio)
 
 ---
