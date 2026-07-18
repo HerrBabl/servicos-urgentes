@@ -35,6 +35,10 @@ Muitos joseenses só lembram do aparelho no calor, mas é nos dias de chuva que 
 
 Nesta época, as empresas de climatização de SJC recebem centenas de chamados de **"ar-condicionado pingando dentro do quarto"**. Agendar sua **manutenção ar condicionado sjc** agora é a única forma de evitar danos ao seu piso, gesso e saúde.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Ar-condicionado pingando é comum em SJC durante a chuva, por dreno entupido ou biofilme; desligue se houver água na parede. O Serviços Urgentes é um diretório que conecta você a técnicos verificados, com higienização a partir de R$ 200.
+</div>
+
 ## 📋 Neste Guia
 
 1. [Umidade Extrema em SJC: O Que Acontece com seu AC](#umidade-extrema-em-sjc-o-que-acontece-com-seu-ac)
