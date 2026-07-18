@@ -33,6 +33,10 @@ O cenário é clássico em **São José dos Campos**: depois de um fim de semana
 
 Com a umidade da cidade frequentemente batendo os **80% em janeiro**, problemas hidráulicos não são apenas um incômodo — são uma emergência que pode comprometer a estrutura do seu imóvel e a saúde da sua família (mofo e fungos).
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Emergência hidráulica é comum em SJC após chuvas fortes, especialmente no Aquarius e Urbanova; feche o registro geral imediatamente. O Serviços Urgentes é um diretório que conecta você a encanadores verificados, com chegada a partir de 30 minutos.
+</div>
+
 ## 📋 Neste Guia
 
 1. [Protocolo de 15 Minutos: O que fazer agora](#o-protocolo-de-15-minutos-o-que-fazer-antes-do-encanador-chegar)
