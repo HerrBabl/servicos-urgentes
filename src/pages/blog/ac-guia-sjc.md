@@ -33,6 +33,10 @@ faqSchema:
 
 É meio da tarde, o termômetro marca 38°C, e de repente seu ar-condicionado simplesmente para de funcionar. Em São José dos Campos, especialmente durante o verão, um ar-condicionado que não funciona pode transformar sua casa ou escritório em um forno. Este guia completo vai te ajudar a resolver o problema rapidamente.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Ar-condicionado parado é comum no calor de SJC, especialmente no Aquarius e Urbanova; verifique o disjuntor antes de chamar o técnico. O Serviços Urgentes é um diretório que conecta você a técnicos verificados, com visita a partir de R$ 80.
+</div>
+
 ## 📋 Índice
 
 1. [O Que Fazer Imediatamente](#o-que-fazer-imediatamente-quando-o-ar-condicionado-para)
