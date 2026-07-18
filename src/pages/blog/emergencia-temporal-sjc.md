@@ -37,6 +37,10 @@ faqSchema:
 
 Este guia nasceu das **tempestades reais de 26 e 28 de janeiro de 2026** que atingiram SJC com ventos de 117 km/h, granizo em Urbanova e alagamentos históricos na Vila Tatetuba. Se você está lendo isto durante ou logo após um temporal, role direto para a seção **[O Que Fazer nas Próximas 2 Horas](#proximas-horas)**.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Temporal em SJC é comum entre outubro e março, com risco de alagamento em Urbanova e Vila Tatetuba; desligue o disjuntor se necessário. O Serviços Urgentes é um diretório que conecta você a profissionais verificados, com chegada a partir de 30 minutos.
+</div>
+
 ## 📋 Neste Guia
 
 1. [O Que Fazer nas Próximas 2 Horas](#proximas-horas)
