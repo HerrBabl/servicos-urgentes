@@ -41,6 +41,10 @@ O problema não é só estético. Água infiltrando pela laje atinge fiação el
 
 Este guia cobre exatamente o que fazer nos primeiros minutos, como identificar a origem sem quebrar nada desnecessariamente, e quando chamar um profissional verificado.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Vazamento no teto é comum em prédios do Aquarius; desligue o disjuntor se a água estiver perto de fiação. O Serviços Urgentes é um diretório que conecta você a encanadores verificados em SJC, com chegada a partir de 25 minutos no Aquarius.
+</div>
+
 ---
 
 ## 📋 Neste Guia
