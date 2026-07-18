@@ -35,6 +35,10 @@ Mas, se a sua casa tem 30, 40 ou 50 anos, ela tem uma "estrutura original" que p
 
 Muitas vezes, a beleza da fachada esconde sistemas que já trabalharam muito e merecem aposentadoria. É aqui que entra o **Retrofit**: modernizar o que é vital (elétrica e hidráulica) sem perder a alma da casa.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Retrofit hidráulico e elétrico é comum em casas de 30-50 anos na Vila Adyana; água amarelada e fusíveis antigos são os primeiros sinais. O Serviços Urgentes é um diretório que conecta você a profissionais verificados, com retrofit a partir de R$ 25.000.
+</div>
+
 ## 📋 Neste Guia
 
 1. [Sinais de Que Sua Casa Precisa de Retrofit](#sinais-de-que-sua-casa-na-vila-adyana-precisa-de-retrofit)
