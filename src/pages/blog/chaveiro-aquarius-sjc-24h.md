@@ -33,6 +33,10 @@ Trancado do lado de fora do seu apartamento no **Parque Residencial Aquarius** �
 
 O desafio no Aquarius vai além da simples abertura de porta: os edifícios de alto padrão da região utilizam sistemas de segurança mais sofisticados do que a média da cidade — fechaduras digitais, miolos de alta segurança e portas blindadas que exigem profissionais com ferramental e experiência específicos.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Trancado do lado de fora é comum em edifícios do Aquarius com fechaduras digitais; acione a portaria antes de chamar o chaveiro. O Serviços Urgentes é um diretório que conecta você a chaveiros verificados, com chegada a partir de 20 minutos.
+</div>
+
 📍 **Conheça o bairro:** Veja o [guia completo do Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/) com todos os serviços disponíveis para moradores.
 
 ## 📋 Neste Guia
