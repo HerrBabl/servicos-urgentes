@@ -33,6 +33,10 @@ faqSchema:
 
 Este guia não vai te ensinar a trocar o chuveiro. Vai te dizer **o que fazer agora** para ficar seguro enquanto o eletricista não chega.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Chuveiro queimado é comum em condomínios do Aquarius e Urbanova com alta demanda elétrica; desligue o disjuntor do chuveiro imediatamente. O Serviços Urgentes é um diretório que conecta você a eletricistas verificados em SJC, com chegada a partir de 20 minutos no Centro.
+</div>
+
 [⬆️ Voltar ao topo](#inicio)
 
 ---
