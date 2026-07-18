@@ -35,6 +35,10 @@ faqSchema:
 
 Este guia não vai te ensinar a consertar o cano. Vai te dizer **o que fazer nos próximos 5 minutos** para limitar o estrago enquanto o encanador não chega.
 
+<div class="text-sm text-gray-500 border-l-4 border-blue-200 pl-4 my-4">
+<strong>Resumo rápido:</strong> Cano estourado é comum em imóveis antigos do Centro e prédios de alta pressão no Aquarius; feche o registro geral imediatamente. O Serviços Urgentes é um diretório que conecta você a encanadores verificados em SJC, com chegada a partir de 20 minutos.
+</div>
+
 [⬆️ Voltar ao topo](#inicio)
 
 ---
