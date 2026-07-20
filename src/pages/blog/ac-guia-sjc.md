@@ -108,7 +108,7 @@ Se você acabou de desligar e religar o aparelho, aguarde 5 minutos. Os compress
 - Evaporadora congelando e descongelando
 - Excesso de gás refrigerante
 
-💧 **Vazamento em outros pontos?** Se o problema não está no AC mas em tubulações, veja nosso [guia de encanadores 24h em SJC](/servicos/encanador/).
+💧 **Vazamento em outros pontos?** Se o problema não está no AC mas em tubulações, veja o [guia de encanadores 24h em SJC](/servicos/encanador/).
 
 <span id="top"></span>
 
@@ -214,7 +214,7 @@ São José dos Campos tem um clima peculiar no Vale do Paraíba:
 - Feche cortinas durante o dia para reduzir entrada de calor
 - Evite usar eletrodomésticos que geram calor (forno, ferro)
 
-💡 **Dica:** Se você precisa de outros serviços urgentes enquanto aguarda o técnico de AC, veja também nossos [eletricistas 24h](/servicos/eletricista/) (para problemas no disjuntor) ou [maridos de aluguel](/servicos/marido-de-aluguel/) (para reparos gerais).
+💡 **Dica:** Se você precisa de outros serviços urgentes enquanto aguarda o técnico de AC, veja também os [eletricistas 24h](/servicos/eletricista/) (para problemas no disjuntor) ou [maridos de aluguel](/servicos/marido-de-aluguel/) (para reparos gerais).
 
 ### Bairros com Maior Demanda
 Parque Residencial Aquarius e outros bairros de alto padrão concentram muitos aparelhos de ar-condicionado devido ao perfil das residências. Em situações de emergência, técnicos podem estar mais ocupados nessas regiões.
@@ -285,7 +285,7 @@ Um ar-condicionado que para de funcionar no calor de São José dos Campos é um
 
 Lembre-se: prevenir é sempre mais barato que remediar. Uma manutenção anual de R$ 250-350 pode evitar um reparo emergencial de R$ 800-2.500.
 
-**Precisa de um técnico agora?** Acesse nosso diretório de profissionais verificados e encontre atendimento rápido em São José dos Campos.
+**Precisa de um técnico agora?** Acesse o diretório de profissionais verificados e encontre atendimento rápido em São José dos Campos.
 
 [**→ Ver técnicos de ar-condicionado disponíveis**](https://servicosurgentes.com/servicos/ar-condicionado/)
 
