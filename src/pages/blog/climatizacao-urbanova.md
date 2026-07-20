@@ -56,7 +56,7 @@ O ar-condicionado "split branco" comum muitas vezes não dá conta (ou estraga a
 Aquelas salas maravilhosas com 6 metros de altura são o cartão postal das casas no Urbanova. Mas, na física, o ar quente sobe e o frio desce.
 * **O Erro Comum:** Instalar um Split Hi-Wall pequeno no alto da parede. Ele gasta muita energia tentando resfriar um volume de ar gigantesco e a manutenção é difícil (precisa de andaime).
 * **A Solução:** Equipamentos de alta capacidade e posicionamento estratégico para garantir que o conforto térmico chegue onde as pessoas estão (no sofá), não no teto.
-💡 **Ar-condicionado parou em dia de calor?** Veja nosso [guia de emergência para AC em SJC](/blog/ac-guia-sjc/).
+💡 **Ar-condicionado parou em dia de calor?** Veja o [guia de emergência para AC em SJC](/blog/ac-guia-sjc/).
 
 ## 2. Estética: Quando o "Branco na Parede" Não Serve
 Você investiu no projeto de interiores, na marcenaria e na iluminação. Colocar uma "caixa branca" de plástico na parede pode quebrar a harmonia.
@@ -104,7 +104,7 @@ Investir em climatização de alto padrão é decisão de infraestrutura, não a
 Casas no Urbanova demandam muita energia. Instalar 4 ou 5 aparelhos potentes sem revisar o quadro elétrico é risco de desarme constante.
 * **Dica de Ouro:** Antes de comprar os aparelhos, peça para um eletricista avaliar se a carga instalada suporta a nova demanda.
 
-🔌 **Casa antiga que precisa de upgrade?** Nosso [guia para Vila Adyana](/blog/vila-adyana-guia/) explica modernização elétrica em casas mais antigas.
+🔌 **Casa antiga que precisa de upgrade?** O [guia para Vila Adyana](/blog/vila-adyana-guia/) explica modernização elétrica em casas mais antigas.
 
 ⚡ **Vai ampliar a climatização?**
 [Chame um Eletricista para Avaliação de Carga →](/servicos/eletricista/)
