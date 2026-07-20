@@ -22,9 +22,9 @@ faqSchema:
   - question: "O seguro residencial cobre encanador?"
     answer: "A maioria das assistências 24h de seguros cobre a mão de obra emergencial para conter o vazamento. O reparo estético (quebrar parede, colocar azulejo novo) geralmente não está coberto nas apólices básicas."
   - question: "Atendem no Urbanova e zona norte?"
-    answer: "Sim. Nosso diretório possui encanadores com base em todas as regiões de SJC, garantindo chegada rápida (média de 30-40 minutos) no Urbanova, Zona Norte, Zona Sul e Centro."
+    answer: "Sim. O diretório possui encanadores com base em todas as regiões de SJC, garantindo chegada rápida (média de 30-40 minutos) no Urbanova, Zona Norte, Zona Sul e Centro."
   - question: "O que fazer em caso de cano estourado?"
-    answer: "Primeiro, feche o registro geral (apartamentos: área de serviço; casas: hidrômetro na calçada). Depois, abra torneiras mais baixas para drenar a pressão e desligue a eletricidade se a água estiver perto de tomadas. Então, procure um encanador verificado em nosso diretório."
+    answer: "Primeiro, feche o registro geral (apartamentos: área de serviço; casas: hidrômetro na calçada). Depois, abra torneiras mais baixas para drenar a pressão e desligue a eletricidade se a água estiver perto de tomadas. Então, procure um encanador verificado no diretório."
   - question: "Como evitar vazamentos em prédios do Aquarius?"
     answer: "A alta pressão hidráulica em prédios altos do Aquarius exige válvulas redutoras de pressão individuais e troca preventiva de flexíveis a cada 5 anos. Profissionais especializados podem instalar redutores e fazer manutenção preventiva."
 ---
@@ -85,7 +85,7 @@ Nossa base de dados de chamados em 2025 revelou padrões específicos para cada 
 ### Parque Residencial Aquarius e Colinas
 * **O Problema:** **Alta Pressão Hidráulica**. Prédios altos utilizam válvulas redutoras de pressão. Quando essas válvulas falham, a pressão da água pode estourar flexíveis de pias e chuveiros.
 * **A Solução:** Instalação de redutores de pressão individuais e troca preventiva de flexíveis a cada 5 anos.
-* **Saiba Mais:** Para mais detalhes sobre os desafios de manutenção no Parque Aquarius, [leia nosso guia completo do bairro](/bairros/parque-residencial-aquarius/).
+* **Saiba Mais:** Para mais detalhes sobre os desafios de manutenção no Parque Aquarius, [leia o guia completo do bairro](/bairros/parque-residencial-aquarius/).
 
 ### Vila Adyana e Centro
 * **O Problema:** **Tubulações Galvanizadas Antigas**. Imóveis das décadas de 70/80 ainda possuem canos de ferro que enferrujam de dentro para fora, causando "água amarelada" e vazamentos constantes.
@@ -95,7 +95,7 @@ Nossa base de dados de chamados em 2025 revelou padrões específicos para cada 
 ### Urbanova e Jardins do Golfe
 * **O Problema:** **Raízes e Solo**. Em casas térreas com grandes jardins, raízes de árvores podem esmagar a tubulação de esgoto externa. Além disso, a acomodação do solo pode trincar canos de PVC.
 * **A Solução:** Hidrojateamento para limpeza de raízes e reparo localizado com "camisa" estrutural, sem precisar escavar todo o jardim.
-* **Saiba Mais:** Veja nosso [guia de serviços para residências de alto padrão em Urbanova](/bairros/urbanova/).
+* **Saiba Mais:** Veja o [guia de serviços para residências de alto padrão em Urbanova](/bairros/urbanova/).
 
 ---
 
@@ -137,7 +137,7 @@ Não chame o primeiro número que encontrar em um poste. A segurança da sua cas
 3.  **Verifique o Equipamento:** Pergunte se o profissional possui Geofone ou Câmera Térmica antes da visita se o vazamento for oculto.
 
 ### Precisa de ajuda agora?
-Não espere a água chegar na sala. Acesse nossa lista de profissionais verificados e resolva seu problema hoje.
+Não espere a água chegar na sala. Acesse a lista de profissionais verificados e resolva seu problema hoje.
 
 👉 **[Ver Encanadores 24h em São José dos Campos](/servicos/encanador/)**
 
@@ -168,10 +168,10 @@ Não espere a água chegar na sala. Acesse nossa lista de profissionais verifica
 
 <details>
 <summary><strong>Atendem no Urbanova e zona norte?</strong></summary>
-**Resposta:** Sim. Nosso diretório possui encanadores com base em todas as regiões de SJC, garantindo chegada rápida (média de 30-40 minutos) no Urbanova, Zona Norte (Santana), Zona Sul e Centro.
+**Resposta:** Sim. O diretório possui encanadores com base em todas as regiões de SJC, garantindo chegada rápida (média de 30-40 minutos) no Urbanova, Zona Norte (Santana), Zona Sul e Centro.
 </details>
 
 <details>
 <summary><strong>O que fazer em caso de cano estourado?</strong></summary>
-**Resposta:** Primeiro, feche o registro geral (apartamentos: área de serviço; casas: hidrômetro na calçada). Depois, abra torneiras mais baixas para drenar a pressão e desligue a eletricidade se a água estiver perto de tomadas. Então, procure um encanador verificado em nosso diretório.
+**Resposta:** Primeiro, feche o registro geral (apartamentos: área de serviço; casas: hidrômetro na calçada). Depois, abra torneiras mais baixas para drenar a pressão e desligue a eletricidade se a água estiver perto de tomadas. Então, procure um encanador verificado no diretório.
 </details>
