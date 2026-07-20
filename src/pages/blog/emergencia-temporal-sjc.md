@@ -26,7 +26,7 @@ faqSchema:
   - question: "Encanador atende alagamento de emergência 24h em SJC?"
     answer: "Sim. Profissionais especializados em emergências hidrÁulicas atendem 24h inclusive durante temporais. Serviços incluem: desentupimento de drenos pluviais, reparo de calhas rompidas, vedação emergencial de infiltrações e bombeamento de Água acumulada. Tempo médio de chegada: 30-60 minutos dependendo do bairro e condições de tráfego."
   - question: "Como escolher um profissional confiável durante uma emergência?"
-    answer: "Procure profissionais com avaliação 4+ estrelas, verifique se possuem registro profissional ativo e peça referências de trabalhos anteriores. Durante emergências, confirme a disponibilidade imediata antes de fechar. Nosso diretório lista apenas prestadores verificados com histórico comprovado em SJC."
+    answer: "Procure profissionais com avaliação 4+ estrelas, verifique se possuem registro profissional ativo e peça referências de trabalhos anteriores. Durante emergências, confirme a disponibilidade imediata antes de fechar. O diretório lista apenas prestadores verificados com histórico comprovado em SJC."
 ---
 
 <span id="top"></span>
@@ -150,7 +150,7 @@ Com base nos temporais documentados de janeiro 2026, cada região tem padrões p
 2. Verificar calhas — Urbanova tem muitas árvores
 3. **[Marido de aluguel para reparos gerais](/servicos/marido-de-aluguel/)** pode resolver telhas + limpeza de calha
 
-**[Veja nosso guia completo de Urbanova →](/bairros/urbanova/)**
+**[Veja o guia completo de Urbanova →](/bairros/urbanova/)**
 
 ---
 
@@ -167,7 +167,7 @@ Com base nos temporais documentados de janeiro 2026, cada região tem padrões p
 2. Checar quadro elétrico se houve oscilação de energia
 3. **[Eletricista comercial especializado](/servicos/eletricista/)** para prédios antigos
 
-**[Veja nosso guia do Centro →](/bairros/centro/)**
+**[Veja o guia do Centro →](/bairros/centro/)**
 
 ---
 
@@ -184,7 +184,7 @@ Com base nos temporais documentados de janeiro 2026, cada região tem padrões p
 2. Verificar pressão de água no apartamento
 3. **[Técnico de ar-condicionado](/servicos/ar-condicionado/)** para inspeção pós-chuva
 
-**[Veja nosso guia do Aquarius →](/bairros/parque-residencial-aquarius/)**
+**[Veja o guia do Aquarius →](/bairros/parque-residencial-aquarius/)**
 
 ---
 
@@ -398,7 +398,7 @@ Durante emergências, você não tem tempo para pesquisar. Use estes critérios 
 
 ## 🔧 Profissionais de Emergência 24h em SJC
 
-**Nosso diretório conecta você a profissionais verificados que atendem emergências em São José dos Campos.** Você escolhe, compara e contrata diretamente com o prestador de serviço.
+**O diretório conecta você a profissionais verificados que atendem emergências em São José dos Campos.** Você escolhe, compara e contrata diretamente com o prestador de serviço.
 
 ### **Por Tipo de Emergência:**
 
@@ -486,7 +486,7 @@ SJC enfrenta temporais intensos principalmente entre **novembro e março**. Use 
 <details class="border-b border-gray-200 py-4">
   <summary class="cursor-pointer font-semibold text-gray-900 hover:text-blue-600 transition-colors">Como escolher um profissional confiável durante uma emergência?</summary>
   <div class="mt-3 text-gray-700 pl-4">
-    Procure profissionais com avaliação 4+ estrelas, verifique se possuem registro profissional ativo e peça referências de trabalhos anteriores. Durante emergências, confirme a disponibilidade imediata antes de fechar. Nosso diretório lista apenas prestadores verificados com histórico comprovado em SJC.
+    Procure profissionais com avaliação 4+ estrelas, verifique se possuem registro profissional ativo e peça referências de trabalhos anteriores. Durante emergências, confirme a disponibilidade imediata antes de fechar. O diretório lista apenas prestadores verificados com histórico comprovado em SJC.
   </div>
 </details>
 
