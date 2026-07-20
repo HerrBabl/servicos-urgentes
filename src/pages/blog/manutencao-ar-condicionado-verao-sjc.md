@@ -71,7 +71,7 @@ Quando chove por vários dias no Vale do Paraíba, a umidade do ar satura. Seu a
 2.  **Desnível:** Instalações antigas podem perder o nivelamento, fazendo a água voltar.
 3.  **Vento Contra:** Em andares altos (comuns no Aquarius), o vento forte da chuva empurra a água de volta pela mangueira.
 
-**[Veja nosso guia de diagnóstico de vazamentos](/blog/ar-condicionado-nao-gela-sjc/)** para saber se é grave.
+**[Veja o guia de diagnóstico de vazamentos](/blog/ar-condicionado-nao-gela-sjc/)** para saber se é grave.
 
 ---
 
@@ -202,6 +202,6 @@ Limpar sai muito mais barato do que consertar parede com infiltração.
 Agende uma limpeza profissional e respire ar puro.
 
 🚨 **Precisa de um técnico agora?**  
-Nosso diretório conecta você a profissionais disponíveis 24h em SJC.
+O diretório conecta você a profissionais disponíveis 24h em SJC.
 
 👉 **[Ver Técnicos Disponíveis Agora →](/servicos/ar-condicionado/)**
