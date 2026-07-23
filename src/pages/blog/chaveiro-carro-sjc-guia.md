@@ -37,17 +37,17 @@ Este guia cobre tudo que você precisa saber sobre **chaveiro automotivo em São
 
 ## 📋 Neste Guia
 
-1. [Protocolo de Emergência: Primeiros 5 Minutos](#protocolo-de-emergência-primeiros-5-minutos)
+1. [O Que Fazer nos Primeiros 5 Minutos?](#o-que-fazer-nos-primeiros-5-minutos)
 2. [Chave Quebrada na Ignição — Atenção](#chave-quebrada-na-ignição--atenção-redobrada)
 3. [Serviços de Chaveiro Automotivo Disponíveis em SJC](#serviços-de-chaveiro-automotivo-em-sjc)
 4. [Preços Médios em SJC (2026)](#tabela-de-preços-chaveiro-automotivo-em-sjc-2026)
-5. [Cobertura por Bairro: Aquarius, Urbanova e Centro](#cobertura-por-bairro-em-sjc)
+5. [Quais Bairros de SJC São Atendidos? (Aquarius, Urbanova, Centro)](#quais-bairros-de-sjc-são-atendidos)
 6. [Como Contratar com Segurança](#como-contratar-um-chaveiro-automotivo-com-segurança)
 7. [Perguntas Frequentes](#perguntas-frequentes-faq)
 
 ---
 
-## 🚨 Protocolo de Emergência: Primeiros 5 Minutos
+## 🚨 O Que Fazer nos Primeiros 5 Minutos?
 
 A diferença entre uma abertura de R$ 200 e um estrago de R$ 1.500 está nos primeiros minutos. Siga este protocolo:
 
@@ -148,7 +148,7 @@ Os profissionais cadastrados no Serviços Urgentes realizam os seguintes serviç
 
 ---
 
-## 📍 Cobertura por Bairro em SJC
+## 📍 Quais Bairros de SJC São Atendidos?
 
 ### Parque Residencial Aquarius
 O Aquarius concentra uma grande frota de veículos importados e SUVs premium — o que torna o atendimento especializado ainda mais importante. Profissionais da região atendem tanto os condomínios residenciais quanto a Via Aquarius e o entorno do Shopping Aquarius. Tempo médio de chegada: **25 a 35 minutos**.
