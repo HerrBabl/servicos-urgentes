@@ -63,7 +63,7 @@ Este guia cobre exatamente o que fazer nos primeiros minutos, como identificar a
 
 <a id="emergencia"></a>
 
-## 🚨 Protocolo de Emergência: Os Primeiros 10 Minutos
+## 🚨 O Que Fazer nos Primeiros 10 Minutos?
 
 A diferença entre um reparo de R$ 400 e um de R$ 4.000 muitas vezes está no que você faz — ou não faz — nos primeiros minutos.
 
@@ -212,7 +212,7 @@ O equipamento funciona por **geofone eletrônico**: um sensor ultrassensível qu
 
 <a id="bairros"></a>
 
-## 📍 Perfil por Bairro: O Que Esperar
+## 📍 O Que Esperar por Bairro em SJC?
 
 ### Parque Residencial Aquarius
 Prédios verticais modernos com alta densidade de unidades por coluna. Vazamentos no teto quase sempre envolvem o apartamento acima — o síndico é o primeiro contato obrigatório. Portarias controladas exigem cadastro prévio do prestador. Tempo médio de chegada de profissional: 25-40 minutos.
