@@ -41,7 +41,7 @@ Este guia não vai te ensinar a arrombar a porta. Vai te dizer **o que fazer ago
 
 ---
 
-## 🚨 Primeiros 5 Minutos — Faça Isso Agora
+## 🚨 O Que Fazer nos Primeiros 5 Minutos?
 
 ### 1. Não force a porta
 A tentação é empurrar, puxar ou tentar abrir com cartão. Resista. Forçar a porta danifica o batente e a fechadura — o que seria uma abertura de R$ 100 pode virar um reparo de R$ 800. Fechaduras tetra e de segurança são especialmente sensíveis a tentativas de força.
@@ -61,7 +61,7 @@ Com a situação avaliada, chame um chaveiro. Informe ao ligar: tipo de fechadur
 
 ---
 
-## ⚠️ O Que NÃO Fazer
+## ⚠️ O Que NÃO Fazer Quando a Porta Tranca?
 
 - ❌ **Não force a porta com o ombro** — danifica batente e pode machucar
 - ❌ **Não tente abrir com cartão de crédito** — funciona apenas em fechaduras antigas simples e pode danificar o cartão e a fechadura
@@ -102,7 +102,7 @@ Com a situação avaliada, chame um chaveiro. Informe ao ligar: tipo de fechadur
 
 ---
 
-## 📍 Cobertura por Bairro em SJC
+## 📍 Quais Bairros de SJC São Atendidos?
 
 ### Centro e Vila Adyana
 Maior concentração de chaveiros com base na região. Tempo médio de chegada: 20–35 minutos. Ideal para emergências em prédios comerciais e residenciais do centro histórico.
