@@ -35,7 +35,7 @@ Este guia foi criado para **estancar o pânico**. Aqui está exatamente o que vo
 
 ## 📋 Neste Guia
 
-1. [Protocolo de Emergência (15 min)](#1-protocolo-de-emergência-os-primeiros-15-minutos)
+1. [O Que Fazer nos Primeiros 15 Minutos?](#1-o-que-fazer-nos-primeiros-15-minutos)
 2. [É Emergência ou Pode Esperar?](#2-é-emergência-ou-pode-esperar)
 3. [Quanto Custa um Encanador](#3-quanto-custa-um-encanador-em-sjc)
 4. [Onde Encontrar nos Bairros](#4-onde-encontrar-profissionais-nos-bairros-de-sjc)
@@ -44,7 +44,7 @@ Este guia foi criado para **estancar o pânico**. Aqui está exatamente o que vo
 
 ---
 
-## 1. Protocolo de Emergência: Os Primeiros 15 Minutos
+## 1. O Que Fazer nos Primeiros 15 Minutos?
 
 Antes de pegar o telefone, você precisa parar a água. Cada minuto conta para salvar seus móveis e o piso (e evitar brigas com o vizinho de baixo).
 
