@@ -41,7 +41,7 @@ Este guia não vai te ensinar a mexer na fiação. Vai te dizer **o que fazer ag
 
 ---
 
-## 🚨 Primeiros 5 Minutos — Faça Isso Agora
+## 🚨 O Que Fazer nos Primeiros 5 Minutos?
 
 ### 1. Não toque em nada na área afetada
 Fios expostos, tomadas faiscando, interruptores quentes — não toque. Mesmo desligado da tomada, equipamentos podem reter carga. Afaste pessoas e animais da área imediatamente.
@@ -64,7 +64,7 @@ Com a área segura, chame um eletricista. Informe ao ligar: o que aconteceu, se 
 
 ---
 
-## ⚠️ O Que NÃO Fazer
+## ⚠️ O Que NÃO Fazer Durante um Curto-Circuito?
 
 - ❌ **Não toque em fios expostos** — mesmo aparentemente desligados
 - ❌ **Não tente religar o disjuntor mais de uma vez** — indica problema real
@@ -106,7 +106,7 @@ Com a área segura, chame um eletricista. Informe ao ligar: o que aconteceu, se 
 
 ---
 
-## 📍 Cobertura por Bairro em SJC
+## 📍 Quais Bairros de SJC São Atendidos?
 
 ### Centro e Vila Adyana
 Maior concentração de eletricistas com base na região central. Tempo médio de chegada: 20–40 minutos. Prédios comerciais e mistos do Centro frequentemente têm instalações mais antigas — diagnóstico mais complexo é comum.
