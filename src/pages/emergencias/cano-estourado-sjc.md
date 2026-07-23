@@ -43,7 +43,7 @@ Este guia não vai te ensinar a consertar o cano. Vai te dizer **o que fazer nos
 
 ---
 
-## 🚨 Primeiros 5 Minutos — Faça Isso Agora
+## 🚨 O Que Fazer nos Primeiros 5 Minutos?
 
 ### 1. Feche o registro geral
 O registro geral do apartamento fica normalmente embaixo da pia da cozinha, atrás da caixa de descarga do banheiro, ou em um nicho no corredor. Gire no sentido horário até travar. Isso interrompe o fluxo de água para toda a unidade.
@@ -67,7 +67,7 @@ Com o registro fechado e a área segura, chame um encanador. Profissionais verif
 
 ---
 
-## ⚠️ O Que NÃO Fazer
+## ⚠️ O Que NÃO Fazer Quando o Cano Estoura?
 
 - ❌ **Não tente vedar o cano** com fita, pano ou cola — isso não funciona sob pressão e atrasa o conserto correto
 - ❌ **Não ligue a torneira** para "testar" se o registro fechou — mantenha tudo fechado até o profissional avaliar
@@ -110,7 +110,7 @@ Os valores variam conforme horário, gravidade e bairro:
 
 ---
 
-## 📍 Cobertura por Bairro em SJC
+## 📍 Quais Bairros de SJC São Atendidos?
 
 ### Parque Residencial Aquarius e Jardim Alvorada
 Condomínios verticais com alta pressão de rede. Tempo médio de chegada: 40–60 min via Av. Cassiano Ricardo. Avise sempre a portaria antes do profissional chegar — acesso a condomínios fechados exige autorização.
