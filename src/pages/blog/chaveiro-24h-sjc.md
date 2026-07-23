@@ -59,7 +59,7 @@ Este guia cobre todos os cenários: residencial, automotivo, troca de fechadura 
 
 <a id="primeiros-minutos"></a>
 
-## ⏱️ O Que Fazer nos Primeiros Minutos
+## ⏱️ O Que Fazer Antes de Ligar?
 
 **Antes de ligar para qualquer profissional:**
 
