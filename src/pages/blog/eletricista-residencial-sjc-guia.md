@@ -195,7 +195,7 @@ Profissional sério sempre desliga o disjuntor do circuito (ou o geral) antes de
 
 ---
 
-## 🏘️ Cobertura por Bairro em SJC
+## 🏘️ Quais Bairros de SJC São Atendidos?
 
 Os profissionais listados no Serviços Urgentes cobrem as principais regiões de São José dos Campos:
 
