@@ -41,7 +41,7 @@ Este guia não vai te ensinar a trocar o chuveiro. Vai te dizer **o que fazer ag
 
 ---
 
-## 🚨 Primeiros 5 Minutos — Faça Isso Agora
+## 🚨 O Que Fazer nos Primeiros 5 Minutos?
 
 ### 1. Desligue o disjuntor do chuveiro
 Não apenas o botão de temperatura no próprio chuveiro — vá ao quadro de distribuição e desligue o disjuntor específico do chuveiro (geralmente identificado como "chuveiro" ou "banheiro"). Isso corta a energia do ponto e elimina o risco imediato.
@@ -64,7 +64,7 @@ Informe ao ligar: o que aconteceu, se há cheiro de queimado, e se o disjuntor d
 
 ---
 
-## ⚠️ O Que NÃO Fazer
+## ⚠️ O Que NÃO Fazer Quando o Chuveiro Queima?
 
 - ❌ **Não use o chuveiro** após faísca ou cheiro de queimado
 - ❌ **Não tente trocar a resistência** você mesmo — envolve fiação sob tensão
@@ -106,7 +106,7 @@ Informe ao ligar: o que aconteceu, se há cheiro de queimado, e se o disjuntor d
 
 ---
 
-## 📍 Cobertura por Bairro em SJC
+## 📍 Quais Bairros de SJC São Atendidos?
 
 ### Centro e Vila Adyana
 Maior concentração de eletricistas com base na região. Tempo médio de chegada: 20–40 minutos. Prédios mais antigos do Centro frequentemente têm fiação subdimensionada para chuveiros modernos de alta potência.
