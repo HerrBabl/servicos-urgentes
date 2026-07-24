@@ -370,7 +370,35 @@ const serviceSchema = isNeighborhood ? {
     </section>
     
     <Footer />
-    
+
+    <script is:inline>
+      // Astro's built-in heading-id slugger (rehype-collect-headings, part of
+      // @astrojs/markdown-remark) strips emoji glyphs from heading text but
+      // leaves a stray leading hyphen behind — or, for emoji with a variation
+      // selector suffix (e.g. ⚠️ ❓ 🛡️ = base glyph + invisible U+FE0F), an
+      // invisible character plus a hyphen. Hand-written TOC hrefs never
+      // include that leading junk, so anchor links silently fail to jump.
+      //
+      // This registers the "clean" slug (leading junk stripped) as a
+      // secondary anchor immediately before each affected heading, without
+      // touching the heading's own id — so both the broken auto-generated id
+      // and the clean expected id resolve to the same spot on the page.
+      (function () {
+        var headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+        headings.forEach(function (heading) {
+          var id = heading.id;
+          var cleanId = id.replace(/^(?:-|[\uFE00-\uFE0F]|\u200D)+/u, '');
+          if (cleanId && cleanId !== id && !document.getElementById(cleanId)) {
+            var anchor = document.createElement('span');
+            anchor.id = cleanId;
+            anchor.setAttribute('aria-hidden', 'true');
+            anchor.style.cssText = 'position:absolute;visibility:hidden;';
+            heading.insertAdjacentElement('beforebegin', anchor);
+          }
+        });
+      })();
+    </script>
+
     <style>
       /* Prose styling for markdown content */
       .prose-content :global(h1) {
