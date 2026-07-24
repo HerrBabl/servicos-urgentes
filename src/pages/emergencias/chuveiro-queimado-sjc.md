@@ -29,6 +29,8 @@ faqSchema:
     answer: "Não. Faísca em chuveiro indica falha no isolamento elétrico — situação de risco de choque que pode se repetir ou piorar. Desligue o disjuntor do chuveiro e não use até que um eletricista faça o diagnóstico. Usar um chuveiro com defeito elétrico representa risco real de choque, especialmente em ambientes úmidos como o banheiro."
 ---
 
+<a id="inicio"></a>
+
 Água fria na hora do banho, cheiro de queimado vindo do chuveiro, disjuntor caindo toda vez que liga o aquecimento. Em São José dos Campos, com as variações de tensão da rede e o uso intenso em condomínios do Aquarius e Urbanova, problemas com chuveiro elétrico são frequentes — e precisam ser tratados com cuidado.
 
 Este guia não vai te ensinar a trocar o chuveiro. Vai te dizer **o que fazer agora** para ficar seguro enquanto o eletricista não chega.
