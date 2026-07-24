@@ -31,6 +31,8 @@ faqSchema:
     answer: "Depende da apólice. A maioria dos seguros residenciais com assistência 24h cobre a mão de obra emergencial para conter o vazamento e o reparo do cano em si. Danos estéticos — quebra de parede, reposição de azulejo, pintura — geralmente não estão cobertos nas apólices básicas. Fotografe tudo antes de começar qualquer reparo e guarde a nota fiscal do encanador para acionar a seguradora."
 ---
 
+<a id="inicio"></a>
+
 Água jorrando, piso inundando, vizinho de baixo ligando. Um cano estourado é uma das emergências residenciais mais comuns em São José dos Campos — especialmente nos condomínios verticais do Aquarius e Urbanova, onde a pressão da rede é mais alta e as tubulações de prédios mais antigos estão mais suscetíveis a falhas.
 
 Este guia não vai te ensinar a consertar o cano. Vai te dizer **o que fazer nos próximos 5 minutos** para limitar o estrago enquanto o encanador não chega.
