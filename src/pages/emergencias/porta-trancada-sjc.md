@@ -29,6 +29,8 @@ faqSchema:
     answer: "Não tente retirar a chave quebrada com objetos pontiagudos — isso pode empurrar o fragmento para dentro da fechadura e impossibilitar a abertura. Um chaveiro profissional tem ferramentas específicas para extração de chave quebrada sem danificar o cilindro. Informe o problema ao ligar para o chaveiro para que ele chegue com o equipamento adequado."
 ---
 
+<a id="inicio"></a>
+
 Porta fechada, chave do lado de dentro, ou simplesmente esqueceu a chave em casa. Em São José dos Campos, especialmente nos condomínios do Aquarius e Urbanova e nos prédios mais antigos do Centro, porta trancada é uma das emergências residenciais mais frequentes — e uma das mais fáceis de resolver quando você sabe o que fazer.
 
 Este guia não vai te ensinar a arrombar a porta. Vai te dizer **o que fazer agora** para não piorar a situação e resolver o problema com segurança.
