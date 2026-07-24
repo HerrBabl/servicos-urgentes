@@ -29,6 +29,8 @@ faqSchema:
     answer: "Sim, deve ser tratado como emergência. Cheiro de queimado elétrico indica superaquecimento de fio, tomada ou equipamento — situação que pode evoluir para incêndio em minutos. Desligue o disjuntor geral imediatamente, retire pessoas da área e não ligue nenhum aparelho. Chame um eletricista de emergência e, se o cheiro persistir ou houver fumaça, ligue para o Corpo de Bombeiros: 193."
 ---
 
+<a id="inicio"></a>
+
 Disjuntor caindo repetidamente, tomada faiscando, cheiro de queimado vindo da parede. Problemas elétricos em São José dos Campos — especialmente nos condomínios mais antigos do Centro e nos apartamentos do Aquarius — exigem atenção imediata. Eletricidade não dá segunda chance.
 
 Este guia não vai te ensinar a mexer na fiação. Vai te dizer **o que fazer agora** para manter você e sua família seguros enquanto o eletricista não chega.
