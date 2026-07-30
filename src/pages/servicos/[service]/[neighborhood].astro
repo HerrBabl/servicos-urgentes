@@ -2,14 +2,15 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 80 static pages: 5 services × 16 neighborhoods (as of Jul 30, 2026)
+// Generates 85 static pages: 5 services × 17 neighborhoods (as of Jul 30, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
 // cross-links from that neighborhood will 404. jardim-altos-de-santana,
 // jardim-apolo, jardim-maringa, parque-novo-horizonte, residencial-dom-bosco,
-// and vila-machado are referenced in nearbyNeighborhoods arrays below but do
-// NOT yet have their own context entry or /bairros/ page — add them here
-// (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear as links.
+// vila-machado, and vista-verde are referenced in nearbyNeighborhoods arrays
+// below but do NOT yet have their own context entry or /bairros/ page — add
+// them here (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they
+// appear as links.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -336,6 +337,22 @@ const neighborhoodContext: Record<string, {
     ],
     unsplashId: '1560518883-ce09059eeffa',
     imageAlt: 'Rua residencial no Jardim Oriente em São José dos Campos próxima ao Shopping Jardim Oriente',
+  },
+  'vila-industrial': {
+    displayName: 'Vila Industrial',
+    titleName: 'Vila Industrial',
+    region: 'Zona Leste',
+    description: 'porta de entrada da Zona Leste, margeada pela Via Dutra, com conjuntos habitacionais consolidados como Integração e Intervale',
+    characteristics: 'residências e antigos conjuntos habitacionais de classe média, infraestrutura elétrica e hidráulica original de décadas atrás, comércio ativo na Av. Juscelino Kubitschek',
+    crisisScenario: 'fiação original dos conjuntos habitacionais mais antigos apresenta falhas silenciosas — curtos-circuitos são o chamado mais comum do bairro, junto com trânsito intenso na Av. JK que pode atrasar o atendimento em horário de pico',
+    landmarks: 'próximo à Av. Juscelino Kubitschek, Praça Uirapuru e ao Hospital Municipal',
+    responseTime: '20–35 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'vista-verde',   name: 'Vista Verde' },
+      { slug: 'centro',        name: 'Centro' },
+    ],
+    unsplashId: '1449844908441-8829872d2607',
+    imageAlt: 'Rua residencial na Vila Industrial em São José dos Campos com casas de conjuntos habitacionais consolidados',
   },
 };
 
@@ -671,7 +688,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 80 routes (5 services × 16 neighborhoods)
+// getStaticPaths — generates all 85 routes (5 services × 17 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -705,6 +722,7 @@ export function getStaticPaths() {
     'campos-de-sao-jose',
     'jardim-aquarius',
     'jardim-oriente',
+    'vila-industrial',
   ];
 
   return services.flatMap(service =>
