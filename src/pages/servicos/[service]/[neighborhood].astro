@@ -2,9 +2,14 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 45 static pages: 5 services × 9 neighborhoods
-// 9 neighborhoods match /bairros/ pages exactly — monte-castelo is excluded
-// because no /bairros/monte-castelo/ page exists (internal link = 404).
+// Generates 80 static pages: 5 services × 16 neighborhoods (as of Jul 30, 2026)
+// Neighborhood count grows via the "depth-first" SJC expansion track — each
+// new entry here must also have a matching /bairros/[slug]/ page, or internal
+// cross-links from that neighborhood will 404. jardim-altos-de-santana,
+// jardim-apolo, jardim-maringa, parque-novo-horizonte, residencial-dom-bosco,
+// and vila-machado are referenced in nearbyNeighborhoods arrays below but do
+// NOT yet have their own context entry or /bairros/ page — add them here
+// (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear as links.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -314,6 +319,23 @@ const neighborhoodContext: Record<string, {
     ],
     unsplashId: '1545324418-cc1a3fa10c00',
     imageAlt: 'Rua residencial no Jardim Aquarius em São José dos Campos com casas de médio-alto padrão',
+  },
+  'jardim-oriente': {
+    displayName: 'Jardim Oriente',
+    titleName: 'Jardim Oriente',
+    region: 'Zona Sul',
+    description: 'bairro residencial consolidado na Zona Sul, conhecido pelo Shopping Jardim Oriente e por reunir famílias que trabalham fora durante o dia',
+    characteristics: 'casas térreas, sobrados e prédios de padrão médio, mix de construções antigas e reformadas, comércio local ativo perto do shopping',
+    crisisScenario: 'a rotina de trabalho fora de casa concentra os chamados de emergência no fim de tarde e à noite — quedas de energia no horário de pico residencial (18h–22h) são o padrão mais comum do bairro',
+    landmarks: 'próximo ao Shopping Jardim Oriente e à Praça Jair Quadros',
+    responseTime: '20–35 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'parque-industrial',  name: 'Parque Industrial' },
+      { slug: 'jardim-satelite',    name: 'Jardim Satélite' },
+      { slug: 'jardim-america',     name: 'Jardim América' },
+    ],
+    unsplashId: '1560518883-ce09059eeffa',
+    imageAlt: 'Rua residencial no Jardim Oriente em São José dos Campos próxima ao Shopping Jardim Oriente',
   },
 };
 
@@ -649,7 +671,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 45 routes (5 services × 9 neighborhoods)
+// getStaticPaths — generates all 80 routes (5 services × 16 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -682,6 +704,7 @@ export function getStaticPaths() {
     'jardim-america',
     'campos-de-sao-jose',
     'jardim-aquarius',
+    'jardim-oriente',
   ];
 
   return services.flatMap(service =>
