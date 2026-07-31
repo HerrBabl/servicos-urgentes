@@ -468,15 +468,15 @@ const serviceSchema = isNeighborhood ? {
         color: #1f2937;
       }
       
-      .prose-content :global(a) {
+      .prose-content :global(a:not(.text-white)) {
         color: #dc2626;
         text-decoration: none;
         border-bottom: 2px solid transparent;
         transition: border-bottom-color 0.2s ease;
         font-weight: 500;
       }
-      
-      .prose-content :global(a:hover) {
+
+      .prose-content :global(a:not(.text-white):hover) {
         border-bottom-color: #dc2626;
       }
       
