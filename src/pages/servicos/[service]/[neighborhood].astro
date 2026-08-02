@@ -2,15 +2,14 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 85 static pages: 5 services × 17 neighborhoods (as of Jul 30, 2026)
+// Generates 90 static pages: 5 services × 18 neighborhoods (as of Aug 1, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
 // cross-links from that neighborhood will 404. jardim-altos-de-santana,
 // jardim-apolo, jardim-maringa, parque-novo-horizonte, residencial-dom-bosco,
-// vila-machado, and vista-verde are referenced in nearbyNeighborhoods arrays
-// below but do NOT yet have their own context entry or /bairros/ page — add
-// them here (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they
-// appear as links.
+// and vila-machado are referenced in nearbyNeighborhoods arrays below but do
+// NOT yet have their own context entry or /bairros/ page — add them here
+// (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear as links.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -354,6 +353,22 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1449844908441-8829872d2607',
     imageAlt: 'Rua residencial na Vila Industrial em São José dos Campos com casas de conjuntos habitacionais consolidados',
   },
+  'vista-verde': {
+    displayName: 'Vista Verde',
+    titleName: 'Vista Verde',
+    region: 'Zona Leste',
+    description: 'bairro planejado na década de 1970 nos moldes de subúrbios norte-americanos, entre a REVAP e a Via Dutra, com centro comercial próprio na Rua Argentina',
+    characteristics: 'ruas arborizadas e praças do loteamento original, mix de residências antigas e condomínios fechados mais recentes como Vilaggio D\'Antonini e Residencial Juscelino Kubitschek',
+    crisisScenario: 'fiação e encanamento das residências do loteamento original (décadas de 1970-80) apresentam desgaste natural — curtos-circuitos e vazamentos são os chamados mais comuns, enquanto condomínios fechados exigem coordenação extra de acesso via portaria',
+    landmarks: 'próximo ao centro comercial da Rua Argentina e à Praça Primavera',
+    responseTime: '20–35 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'vila-industrial',  name: 'Vila Industrial' },
+      { slug: 'centro',           name: 'Centro' },
+    ],
+    unsplashId: '1449844908441-8829872d2607',
+    imageAlt: 'Rua arborizada na Vista Verde em São José dos Campos, bairro planejado com áreas verdes',
+  },
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -688,7 +703,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 85 routes (5 services × 17 neighborhoods)
+// getStaticPaths — generates all 90 routes (5 services × 18 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -723,6 +738,7 @@ export function getStaticPaths() {
     'jardim-aquarius',
     'jardim-oriente',
     'vila-industrial',
+    'vista-verde',
   ];
 
   return services.flatMap(service =>
