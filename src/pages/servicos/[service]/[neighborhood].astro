@@ -2,14 +2,14 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 90 static pages: 5 services × 18 neighborhoods (as of Aug 1, 2026)
+// Generates 95 static pages: 5 services × 19 neighborhoods (as of Aug 3, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
 // cross-links from that neighborhood will 404. jardim-altos-de-santana,
-// jardim-apolo, jardim-maringa, parque-novo-horizonte, residencial-dom-bosco,
-// and vila-machado are referenced in nearbyNeighborhoods arrays below but do
-// NOT yet have their own context entry or /bairros/ page — add them here
-// (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear as links.
+// jardim-apolo, jardim-maringa, parque-novo-horizonte, and residencial-dom-bosco
+// are referenced in nearbyNeighborhoods arrays below but do NOT yet have their
+// own context entry or /bairros/ page — add them here (see
+// LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear as links.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -369,6 +369,21 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1449844908441-8829872d2607',
     imageAlt: 'Rua arborizada na Vista Verde em São José dos Campos, bairro planejado com áreas verdes',
   },
+  'vila-machado': {
+    displayName: 'Vila Machado',
+    titleName: 'Vila Machado',
+    region: 'Zona Norte',
+    description: 'bairro residencial tranquilo da Zona Norte, com perfil familiar e baixa densidade, vizinho de Santana e Vila Esmeralda',
+    characteristics: 'casas térreas, pequenos comércios de bairro, Praça Francisco de Campos como ponto de referência central, próximo ao Parque Roberto Burle Marx',
+    crisisScenario: 'o perfil residencial de casas térreas mais antigas concentra os chamados em manutenção elétrica e hidráulica de desgaste natural — curtos-circuitos e vazamentos são os chamados mais comuns do bairro',
+    landmarks: 'próximo à Praça Francisco de Campos e ao Hospital Pio XII',
+    responseTime: '20–35 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'santana',         name: 'Santana' },
+    ],
+    unsplashId: '1560518883-ce09059eeffa',
+    imageAlt: 'Rua residencial tranquila na Vila Machado em São José dos Campos, bairro de perfil familiar na Zona Norte',
+  },
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -703,7 +718,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 90 routes (5 services × 18 neighborhoods)
+// getStaticPaths — generates all 95 routes (5 services × 19 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -739,6 +754,7 @@ export function getStaticPaths() {
     'jardim-oriente',
     'vila-industrial',
     'vista-verde',
+    'vila-machado',
   ];
 
   return services.flatMap(service =>
