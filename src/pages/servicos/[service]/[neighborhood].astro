@@ -2,14 +2,14 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 95 static pages: 5 services × 19 neighborhoods (as of Aug 3, 2026)
+// Generates 100 static pages: 5 services × 20 neighborhoods (as of Aug 4, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
 // cross-links from that neighborhood will 404. jardim-altos-de-santana,
-// jardim-apolo, jardim-maringa, parque-novo-horizonte, and residencial-dom-bosco
-// are referenced in nearbyNeighborhoods arrays below but do NOT yet have their
-// own context entry or /bairros/ page — add them here (see
-// LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear as links.
+// jardim-apolo, jardim-maringa, and parque-novo-horizonte are referenced in
+// nearbyNeighborhoods arrays below but do NOT yet have their own context
+// entry or /bairros/ page — add them here (see LOCAL_DOMINATION_BLUEPRINT
+// + handoff notes) before they appear as links.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -384,6 +384,21 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1560518883-ce09059eeffa',
     imageAlt: 'Rua residencial tranquila na Vila Machado em São José dos Campos, bairro de perfil familiar na Zona Norte',
   },
+  'residencial-dom-bosco': {
+    displayName: 'Residencial Dom Bosco',
+    titleName: 'Residencial Dom Bosco',
+    region: 'Zona Leste',
+    description: 'bairro residencial em fase ativa de expansão na Zona Leste, com novas construções e condomínios, próximo a Campos de São José e Jardim Santa Hermínia',
+    characteristics: 'casas em terrenos amplos, mix de imóveis novos em acabamento e residências já consolidadas, proximidade com área de preservação ambiental',
+    crisisScenario: 'o ritmo de expansão do bairro gera dois padrões de chamado: instalação elétrica, hidráulica e de ar-condicionado em casas novas ainda em fase de acabamento, e manutenção típica em imóveis já estabelecidos',
+    landmarks: 'próximo à área de preservação ambiental e a Campos de São José',
+    responseTime: '25–40 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'campos-de-sao-jose',  name: 'Campos de São José' },
+    ],
+    unsplashId: '1449844908441-8829872d2607',
+    imageAlt: 'Rua residencial no Residencial Dom Bosco em São José dos Campos, bairro em expansão na Zona Leste',
+  },
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -718,7 +733,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 95 routes (5 services × 19 neighborhoods)
+// getStaticPaths — generates all 100 routes (5 services × 20 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -755,6 +770,7 @@ export function getStaticPaths() {
     'vila-industrial',
     'vista-verde',
     'vila-machado',
+    'residencial-dom-bosco',
   ];
 
   return services.flatMap(service =>
