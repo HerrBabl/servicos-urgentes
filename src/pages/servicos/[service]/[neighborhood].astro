@@ -2,14 +2,14 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 105 static pages: 5 services × 21 neighborhoods (as of Aug 4, 2026)
+// Generates 110 static pages: 5 services × 22 neighborhoods (as of Aug 11, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
-// cross-links from that neighborhood will 404. jardim-apolo, jardim-maringa,
-// and parque-novo-horizonte are referenced in nearbyNeighborhoods arrays
-// below but do NOT yet have their own context entry or /bairros/ page — add
-// them here (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they
-// appear as links.
+// cross-links from that neighborhood will 404. jardim-maringa and
+// parque-novo-horizonte are referenced in nearbyNeighborhoods arrays below
+// but do NOT yet have their own context entry or /bairros/ page — add them
+// here (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear
+// as links.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -415,6 +415,23 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1560518883-ce09059eeffa',
     imageAlt: 'Rua residencial arborizada no Jardim Altos de Santana em São José dos Campos, bairro tranquilo na Zona Norte',
   },
+  'jardim-apolo': {
+    displayName: 'Jardim Apolo',
+    titleName: 'Jardim Apolo',
+    region: 'Zona Central',
+    description: 'bairro tradicional e central, próximo às avenidas 9 de Julho e São João, com perfil misto de residências de alto padrão e forte presença comercial',
+    characteristics: 'escritórios, clínicas e consultórios integrados ao bairro, comércio de qualidade, residências e apartamentos de padrão elevado, adjacente ao Parque Vicentina Aranha',
+    crisisScenario: 'o perfil misto residencial e comercial gera dois tipos de chamado — doméstico tradicional e comercial (escritórios, clínicas) — com destaque para adequação de quadros elétricos comerciais e chaveiro para estabelecimentos fora do horário',
+    landmarks: 'próximo ao Shopping Esplanada, ao Instituto São José e à Paróquia Sagrada Família',
+    responseTime: '15–30 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'jardim-esplanada',  name: 'Jardim Esplanada' },
+      { slug: 'vila-adyana',       name: 'Vila Adyana' },
+      { slug: 'vila-ema',          name: 'Vila Ema' },
+    ],
+    unsplashId: '1560518883-ce09059eeffa',
+    imageAlt: 'Avenida movimentada no Jardim Apolo em São José dos Campos, bairro central com comércio e escritórios',
+  },
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -749,7 +766,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 105 routes (5 services × 21 neighborhoods)
+// getStaticPaths — generates all 110 routes (5 services × 22 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -788,6 +805,7 @@ export function getStaticPaths() {
     'vila-machado',
     'residencial-dom-bosco',
     'jardim-altos-de-santana',
+    'jardim-apolo',
   ];
 
   return services.flatMap(service =>
