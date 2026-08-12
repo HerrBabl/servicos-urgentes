@@ -79,3 +79,12 @@ Don't invent new category values.
 3. The matching `/bairros/[slug].md` page itself.
 
 Before writing any neighborhood/page count into a comment or doc, verify with an actual grep/count command run against the live file — never trust a prior comment or doc reference. Indentation quirks (e.g. one entry with 0 leading spaces vs. the standard 2) can silently break naive regex-based counts. This has caused count drift twice already.
+
+## 8. Verifying landmark/geography claims from third-party sources
+
+Real estate and imobiliária blog content is a useful research source for bairro pages, but it's optimized to sound impressive, not to be geographically precise — it can misstate which landmarks a neighborhood is actually near, confuse adjacent bairros, or reference things that don't exist (e.g. a "marginal do Rio Paraíba" that isn't a real road). Being internally consistent across multiple sources doesn't guarantee accuracy — several sites can repeat the same imprecise claim.
+
+Before shipping a bairro page's landmark/proximity claims:
+- Prefer claims corroborated by 2+ independent sources over a single source, but treat "independent" loosely — check whether sources are actually distinct, not just multiple listings from the same imobiliária network repeating identical copy.
+- When the site owner has local knowledge and flags a claim as wrong, that correction overrides any number of web sources — ground truth beats aggregate web consensus.
+- If a landmark claim can't be verified and isn't locally confirmed, cut it rather than keep a plausible-sounding but unconfirmed detail. This is the same principle as beliefs.md's "never invent data, ever" principle, extended from prices/timeframes to geography/landmarks.
