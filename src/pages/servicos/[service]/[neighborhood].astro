@@ -2,14 +2,13 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 110 static pages: 5 services × 22 neighborhoods (as of Aug 11, 2026)
+// Generates 115 static pages: 5 services × 23 neighborhoods (as of Aug 12, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
-// cross-links from that neighborhood will 404. jardim-maringa and
-// parque-novo-horizonte are referenced in nearbyNeighborhoods arrays below
-// but do NOT yet have their own context entry or /bairros/ page — add them
-// here (see LOCAL_DOMINATION_BLUEPRINT + handoff notes) before they appear
-// as links.
+// cross-links from that neighborhood will 404. parque-novo-horizonte is
+// referenced in nearbyNeighborhoods arrays below but does NOT yet have its
+// own context entry or /bairros/ page — add it here (see
+// LOCAL_DOMINATION_BLUEPRINT + handoff notes) before it appears as a link.
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -432,6 +431,22 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1560518883-ce09059eeffa',
     imageAlt: 'Avenida movimentada no Jardim Apolo em São José dos Campos, bairro central com comércio e escritórios',
   },
+  'jardim-maringa': {
+    displayName: 'Jardim Maringá',
+    titleName: 'Jardim Maringá',
+    region: 'Zona Central',
+    description: 'bairro central e valorizado entre Vila Ema, Vila Guaianazes e Jardim Apolo, próximo ao complexo viário da SP-050 e ao Parque Santos Dumont',
+    characteristics: 'residências de padrão elevado com pontos comerciais integrados à malha residencial, perfil semelhante a outros bairros centrais da cidade',
+    crisisScenario: 'o perfil misto residencial e comercial gera dois tipos de chamado — doméstico de padrão elevado e comercial (pontos comerciais do bairro) — com destaque para adequação elétrica e chaveiro para estabelecimentos fora do horário',
+    landmarks: 'próximo ao Parque Santos Dumont e à Avenida Doutor Ademar de Barros',
+    responseTime: '15–30 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'vila-ema',      name: 'Vila Ema' },
+      { slug: 'jardim-apolo',  name: 'Jardim Apolo' },
+    ],
+    unsplashId: '1560518883-ce09059eeffa',
+    imageAlt: 'Rua residencial no Jardim Maringá em São José dos Campos, bairro central de alto padrão',
+  },
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -766,7 +781,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 110 routes (5 services × 22 neighborhoods)
+// getStaticPaths — generates all 115 routes (5 services × 23 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -806,6 +821,7 @@ export function getStaticPaths() {
     'residencial-dom-bosco',
     'jardim-altos-de-santana',
     'jardim-apolo',
+    'jardim-maringa',
   ];
 
   return services.flatMap(service =>
