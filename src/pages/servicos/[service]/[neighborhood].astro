@@ -2,13 +2,14 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 115 static pages: 5 services × 23 neighborhoods (as of Aug 12, 2026)
+// Generates 120 static pages: 5 services × 24 neighborhoods (as of Aug 12, 2026)
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
-// cross-links from that neighborhood will 404. parque-novo-horizonte is
-// referenced in nearbyNeighborhoods arrays below but does NOT yet have its
-// own context entry or /bairros/ page — add it here (see
-// LOCAL_DOMINATION_BLUEPRINT + handoff notes) before it appears as a link.
+// cross-links from that neighborhood will 404. As of this count, every slug
+// referenced in a nearbyNeighborhoods array below has its own context entry
+// and /bairros/ page — no orphan references remain. Verify this stays true
+// with the grep/count check in content-rules.md Section 7 before adding the
+// next entry (see LOCAL_DOMINATION_BLUEPRINT + handoff notes).
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
@@ -447,6 +448,21 @@ const neighborhoodContext: Record<string, {
     unsplashId: '1560518883-ce09059eeffa',
     imageAlt: 'Rua residencial no Jardim Maringá em São José dos Campos, bairro central de alto padrão',
   },
+  'parque-novo-horizonte': {
+    displayName: 'Parque Novo Horizonte',
+    titleName: 'Parque Novo Horizonte',
+    region: 'Zona Leste',
+    description: 'bairro tradicional e populoso da Zona Leste, planejado em 1978 como bairro operário, a cerca de 14 km do Centro, com acesso concentrado pela Av. Presidente Tancredo Neves',
+    characteristics: 'residências consolidadas, forte identidade comunitária, boa infraestrutura de saúde local (UPA e UBS próprias), loteamento vizinho Jardim das Cerejeiras considerado parte do bairro',
+    crisisScenario: 'o perfil residencial consolidado do bairro concentra os chamados em manutenção elétrica e hidráulica de rotina — a distância do Centro e o acesso concentrado por uma única via principal são fatores considerados no tempo de chegada',
+    landmarks: 'próximo à UPA Novo Horizonte, à UBS Novo Horizonte e à Av. Presidente Tancredo Neves',
+    responseTime: '25–40 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'residencial-dom-bosco',  name: 'Residencial Dom Bosco' },
+    ],
+    unsplashId: '1449844908441-8829872d2607',
+    imageAlt: 'Rua residencial no Parque Novo Horizonte em São José dos Campos, bairro operário da Zona Leste',
+  },
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -781,7 +797,7 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 115 routes (5 services × 23 neighborhoods)
+// getStaticPaths — generates all 120 routes (5 services × 24 neighborhoods)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -822,6 +838,7 @@ export function getStaticPaths() {
     'jardim-altos-de-santana',
     'jardim-apolo',
     'jardim-maringa',
+    'parque-novo-horizonte',
   ];
 
   return services.flatMap(service =>
