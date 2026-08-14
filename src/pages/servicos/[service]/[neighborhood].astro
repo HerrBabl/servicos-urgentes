@@ -56,6 +56,9 @@ const neighborhoodContext: Record<string, {
   displayName: string;
   titleName: string;
   region: string;
+  city: string;
+  lat: string;
+  lng: string;
   description: string;
   characteristics: string;
   crisisScenario: string;
@@ -69,6 +72,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Parque Residencial Aquarius',
     titleName: 'Aquarius',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'condomínios de alto padrão, torres residenciais e famílias com alto poder aquisitivo',
     characteristics: 'apartamentos em andares altos, sistemas de pressurização de água, geradores, centrais de gás e portarias 24h',
     crisisScenario: 'um vazamento no 15º andar pode inundar múltiplos apartamentos em minutos — cada segundo sem o registro fechado multiplica o prejuízo',
@@ -86,6 +92,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Urbanova',
     titleName: 'Urbanova',
     region: 'Zona Oeste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'condomínios fechados de casas, lotes amplos e infraestrutura em desenvolvimento constante',
     characteristics: 'casas térreas e sobrados, obras contínuas gerando poeira e entulho, vias internas privadas e distância do centro',
     crisisScenario: 'a combinação de poeira de obra com umidade entope drenos de ar-condicionado em semanas — e o acesso pela Dutra em horário de pico pode atrasar qualquer profissional',
@@ -102,6 +111,9 @@ const neighborhoodContext: Record<string, {
   'centro': {
     displayName: 'Centro',
     region: 'Centro',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     titleName: 'Centro',
     description: 'comércios, prédios históricos de 50+ anos, clínicas, escritórios e trânsito intenso',
     characteristics: 'fiação elétrica de 40–60 anos, tubulação de ferro fundido, lajes sensíveis e restrições de estacionamento para profissionais',
@@ -120,6 +132,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Vila Adyana',
     titleName: 'Vila Adyana',
     region: 'Zona Centro',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'residências de alto padrão, clínicas médicas e escritórios corporativos próximos ao Centro',
     characteristics: 'casas e apartamentos modernos, alta concentração de consultórios e clínicas que exigem nota fiscal e horários flexíveis',
     crisisScenario: 'uma clínica sem ar-condicionado em dia de consultas marcadas é uma crise imediata — pacientes e médicos esperando em ambiente abafado',
@@ -137,6 +152,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Bosque dos Eucaliptos',
     titleName: 'Bosque dos Eucaliptos',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'casas com jardins, ruas arborizadas e famílias estabelecidas na Zona Sul',
     characteristics: 'casas térreas com quintais, encanamento em concreto antigo, raízes de árvores que invadem tubulações e sistemas elétricos dos anos 1980',
     crisisScenario: 'raízes de eucaliptos são conhecidas por romper tubulações subterrâneas sem aviso — e você só descobre quando o quintal está alagado',
@@ -154,6 +172,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim das Colinas',
     titleName: 'Jardim das Colinas',
     region: 'Zona Oeste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'casas de médio-alto padrão, ruas tranquilas e infraestrutura consolidada na Zona Sul',
     characteristics: 'casas com piscinas e sistemas de aquecimento solar, automação residencial e portões eletrônicos que exigem especialistas',
     crisisScenario: 'um portão eletrônico travado de madrugada — você do lado de fora do seu próprio portão — é o tipo de emergência que o Jardim das Colinas conhece bem',
@@ -171,6 +192,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Satélite',
     titleName: 'Jardim Satélite',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'alta densidade residencial, comércio local consolidado e forte presença de trabalhadores na Zona Sul',
     characteristics: 'casas geminadas, sobrados populares, encanamento antigo e rede elétrica que opera no limite em dias de calor intenso',
     crisisScenario: 'no verão, o Jardim Satélite enfrenta quedas de disjuntor em cascata quando todos os ares-condicionados ligam ao mesmo tempo — e os eletricistas ficam sem vaga',
@@ -188,6 +212,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'São Dimas',
     titleName: 'São Dimas',
     region: 'Zona Centro',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'casas e apartamentos de idades variadas, mix residencial e fácil acesso ao Centro',
     characteristics: 'mix de residências antigas e novos empreendimentos, rede elétrica em transição e encanamento de idades variadas no mesmo quarteirão',
     crisisScenario: 'redes elétricas que misturam padrão antigo e moderno no mesmo ramal são bombas-relógio — um curto pode apagar metade do quarteirão',
@@ -205,6 +232,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Esplanada',
     titleName: 'Jardim Esplanada',
     region: 'Zona Centro',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'perfil industrial e residencial, infraestrutura consolidada e alta demanda por atendimento fora do horário comercial',
     characteristics: 'casas de trabalhadores e técnicos especializados, infraestrutura consolidada e alta demanda por serviços rápidos fora do horário comercial',
     crisisScenario: 'moradores que trabalham em turnos industriais precisam de profissionais disponíveis em horários atípicos — madrugadas e finais de semana',
@@ -222,6 +252,9 @@ const neighborhoodContext: Record<string, {
   displayName: 'Santana',
   titleName: 'Santana',
   region: 'Zona Norte',
+  city: 'São José dos Campos',
+  lat: '-23.2237',
+  lng: '-45.9009',
   description: 'bairro residencial consolidado com mix de casas e comércios, próximo ao Centro',
   characteristics: 'residências de diferentes épocas, comércio local ativo, fácil acesso ao Centro pela Av. Rui Barbosa',
   crisisScenario: 'a proximidade com o Centro e o mix de construções antigas e novas cria variações imprevisíveis na rede elétrica e hidráulica — um curto pode afetar quarteirões inteiros',
@@ -239,6 +272,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Parque Industrial',
     titleName: 'Parque Industrial',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro industrial e residencial com alta densidade de trabalhadores e comércio local consolidado',
     characteristics: 'galpões industriais, casas populares e sobrados, infraestrutura elétrica de uso misto e encanamento antigo em residências próximas ao polo fabril',
     crisisScenario: 'trabalhadores em turno noturno precisam de profissionais disponíveis fora do horário comercial — madrugadas e fins de semana são os picos de demanda no bairro',
@@ -256,6 +292,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Vila Ema',
     titleName: 'Vila Ema',
     region: 'Zona Centro-Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial consolidado na Zona Sul, próximo ao Jardim Satélite e com forte presença de casas de médio padrão',
     characteristics: 'casas de médio padrão, ruas residenciais tranquilas, encanamento e fiação de construções dos anos 80 e 90',
     crisisScenario: 'casas construídas nos anos 80 com fiação original começam a apresentar falhas silenciosas — disjuntores que caem sem razão aparente até o dia em que param de voltar',
@@ -273,6 +312,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim América',
     titleName: 'Jardim América',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial central com boa infraestrutura, fácil acesso ao Centro e alto fluxo de prestadores de serviço',
     characteristics: 'mix de apartamentos e casas, infraestrutura consolidada, encanamento e elétrica de diversas gerações convivendo no mesmo quarteirão',
     crisisScenario: 'a mistura de construções antigas e reformadas no mesmo bloco cria incompatibilidades elétricas que só aparecem em dias de calor extremo — quando todo mundo liga o ar-condicionado ao mesmo tempo',
@@ -290,6 +332,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Campos de São José',
     titleName: 'Campos de São José',
     region: 'Zona Leste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'condomínios residenciais novos e loteamentos em desenvolvimento, próximos ao Aquarius e com infraestrutura em expansão',
     characteristics: 'construções novas com sistemas modernos, condomínios fechados, obras em andamento e demanda crescente por instalações de ar-condicionado e pontos elétricos',
     crisisScenario: 'imóveis recém-entregues muitas vezes têm instalações provisórias que só revelam falhas após os primeiros meses de uso intenso — especialmente no verão',
@@ -307,6 +352,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Aquarius',
     titleName: 'Jardim Aquarius',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial consolidado adjacente ao Parque Residencial Aquarius, com casas de médio-alto padrão',
     characteristics: 'casas e sobrados modernos, condomínios horizontais, infraestrutura mais recente e moradores com perfil exigente de qualidade de atendimento',
     crisisScenario: 'a proximidade com o Aquarius e o Shopping Colinas cria expectativa de atendimento rápido — moradores do Jardim Aquarius esperam resposta em menos de 30 minutos',
@@ -324,6 +372,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Oriente',
     titleName: 'Jardim Oriente',
     region: 'Zona Sul',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial consolidado na Zona Sul, conhecido pelo Shopping Jardim Oriente e por reunir famílias que trabalham fora durante o dia',
     characteristics: 'casas térreas, sobrados e prédios de padrão médio, mix de construções antigas e reformadas, comércio local ativo perto do shopping',
     crisisScenario: 'a rotina de trabalho fora de casa concentra os chamados de emergência no fim de tarde e à noite — quedas de energia no horário de pico residencial (18h–22h) são o padrão mais comum do bairro',
@@ -341,6 +392,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Vila Industrial',
     titleName: 'Vila Industrial',
     region: 'Zona Leste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'porta de entrada da Zona Leste, margeada pela Via Dutra, com conjuntos habitacionais consolidados como Integração e Intervale',
     characteristics: 'residências e antigos conjuntos habitacionais de classe média, infraestrutura elétrica e hidráulica original de décadas atrás, comércio ativo na Av. Juscelino Kubitschek',
     crisisScenario: 'fiação original dos conjuntos habitacionais mais antigos apresenta falhas silenciosas — curtos-circuitos são o chamado mais comum do bairro, junto com trânsito intenso na Av. JK que pode atrasar o atendimento em horário de pico',
@@ -357,6 +411,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Vista Verde',
     titleName: 'Vista Verde',
     region: 'Zona Leste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro planejado na década de 1970 nos moldes de subúrbios norte-americanos, entre a REVAP e a Via Dutra, com centro comercial próprio na Rua Argentina',
     characteristics: 'ruas arborizadas e praças do loteamento original, mix de residências antigas e condomínios fechados mais recentes como Vilaggio D\'Antonini e Residencial Juscelino Kubitschek',
     crisisScenario: 'fiação e encanamento das residências do loteamento original (décadas de 1970-80) apresentam desgaste natural — curtos-circuitos e vazamentos são os chamados mais comuns, enquanto condomínios fechados exigem coordenação extra de acesso via portaria',
@@ -373,6 +430,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Vila Machado',
     titleName: 'Vila Machado',
     region: 'Zona Norte',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial tranquilo da Zona Norte, com perfil familiar e baixa densidade, vizinho de Santana e Vila Esmeralda',
     characteristics: 'casas térreas, pequenos comércios de bairro, Praça Francisco de Campos como ponto de referência central, próximo ao Parque Roberto Burle Marx',
     crisisScenario: 'o perfil residencial de casas térreas mais antigas concentra os chamados em manutenção elétrica e hidráulica de desgaste natural — curtos-circuitos e vazamentos são os chamados mais comuns do bairro',
@@ -388,6 +448,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Residencial Dom Bosco',
     titleName: 'Residencial Dom Bosco',
     region: 'Zona Leste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial em fase ativa de expansão na Zona Leste, com novas construções e condomínios, próximo a Campos de São José e Jardim Santa Hermínia',
     characteristics: 'casas em terrenos amplos, mix de imóveis novos em acabamento e residências já consolidadas, proximidade com área de preservação ambiental',
     crisisScenario: 'o ritmo de expansão do bairro gera dois padrões de chamado: instalação elétrica, hidráulica e de ar-condicionado em casas novas ainda em fase de acabamento, e manutenção típica em imóveis já estabelecidos',
@@ -403,6 +466,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Altos de Santana',
     titleName: 'Jardim Altos de Santana',
     region: 'Zona Norte',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro residencial tranquilo a poucos minutos do Centro, com ruas arborizadas batizadas com nomes de serras e picos brasileiros',
     characteristics: 'residências unifamiliares e sobrados, ruas bem pavimentadas, próximo à Av. Rui Barbosa e à Via Dutra, boa infraestrutura de saúde nas proximidades',
     crisisScenario: 'o padrão residencial consolidado do bairro concentra os chamados em manutenção elétrica e hidráulica de rotina — típico de área familiar já estabelecida, sem os picos de chamados de bairros em expansão',
@@ -419,6 +485,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Apolo',
     titleName: 'Jardim Apolo',
     region: 'Zona Central',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro tradicional e central, próximo às avenidas 9 de Julho e São João, com perfil misto de residências de alto padrão e forte presença comercial',
     characteristics: 'escritórios, clínicas e consultórios integrados ao bairro, comércio de qualidade, residências e apartamentos de padrão elevado, adjacente ao Parque Vicentina Aranha',
     crisisScenario: 'o perfil misto residencial e comercial gera dois tipos de chamado — doméstico tradicional e comercial (escritórios, clínicas) — com destaque para adequação de quadros elétricos comerciais e chaveiro para estabelecimentos fora do horário',
@@ -436,6 +505,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Jardim Maringá',
     titleName: 'Jardim Maringá',
     region: 'Zona Central',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro central e valorizado entre Vila Ema, Vila Guaianazes e Jardim Apolo, próximo ao complexo viário da SP-050 e ao Parque Santos Dumont',
     characteristics: 'residências de padrão elevado com pontos comerciais integrados à malha residencial, perfil semelhante a outros bairros centrais da cidade',
     crisisScenario: 'o perfil misto residencial e comercial gera dois tipos de chamado — doméstico de padrão elevado e comercial (pontos comerciais do bairro) — com destaque para adequação elétrica e chaveiro para estabelecimentos fora do horário',
@@ -452,6 +524,9 @@ const neighborhoodContext: Record<string, {
     displayName: 'Parque Novo Horizonte',
     titleName: 'Parque Novo Horizonte',
     region: 'Zona Leste',
+    city: 'São José dos Campos',
+    lat: '-23.2237',
+    lng: '-45.9009',
     description: 'bairro tradicional e populoso da Zona Leste, planejado em 1978 como bairro operário, a cerca de 14 km do Centro, com acesso concentrado pela Av. Presidente Tancredo Neves',
     characteristics: 'residências consolidadas, forte identidade comunitária, boa infraestrutura de saúde local (UPA e UBS próprias), loteamento vizinho Jardim das Cerejeiras considerado parte do bairro',
     crisisScenario: 'o perfil residencial consolidado do bairro concentra os chamados em manutenção elétrica e hidráulica de rotina — a distância do Centro e o acesso concentrado por uma única via principal são fatores considerados no tempo de chegada',
@@ -806,45 +881,50 @@ const serviceContext: Record<string, {
 // context objects below and with /bairros/ pages (no 404 risk).
 // ══════════════════════════════════════════════════════════════════════════════
 export function getStaticPaths() {
-  const services = [
-    'encanador',
-    'eletricista',
-    'chaveiro',
-    'ar-condicionado',
-    'marido-de-aluguel',
+  const cities = [
+    {
+      services: [
+        'encanador',
+        'eletricista',
+        'chaveiro',
+        'ar-condicionado',
+        'marido-de-aluguel',
+      ],
+      neighborhoods: [
+        'parque-residencial-aquarius',
+        'urbanova',
+        'centro',
+        'vila-adyana',
+        'bosque-dos-eucaliptos',
+        'jardim-das-colinas',
+        'jardim-satelite',
+        'sao-dimas',
+        'jardim-esplanada',
+        'santana',
+        'parque-industrial',
+        'vila-ema',
+        'jardim-america',
+        'campos-de-sao-jose',
+        'jardim-aquarius',
+        'jardim-oriente',
+        'vila-industrial',
+        'vista-verde',
+        'vila-machado',
+        'residencial-dom-bosco',
+        'jardim-altos-de-santana',
+        'jardim-apolo',
+        'jardim-maringa',
+        'parque-novo-horizonte',
+      ],
+    },
   ];
 
-  const neighborhoods = [
-    'parque-residencial-aquarius',
-    'urbanova',
-    'centro',
-    'vila-adyana',
-    'bosque-dos-eucaliptos',
-    'jardim-das-colinas',
-    'jardim-satelite',
-    'sao-dimas',
-    'jardim-esplanada',
-    'santana',
-    'parque-industrial',
-    'vila-ema',
-    'jardim-america',
-    'campos-de-sao-jose',
-    'jardim-aquarius',
-    'jardim-oriente',
-    'vila-industrial',
-    'vista-verde',
-    'vila-machado',
-    'residencial-dom-bosco',
-    'jardim-altos-de-santana',
-    'jardim-apolo',
-    'jardim-maringa',
-    'parque-novo-horizonte',
-  ];
-
-  return services.flatMap(service =>
-    neighborhoods.map(neighborhood => ({
-      params: { service, neighborhood },
-    }))
+  return cities.flatMap(({ services, neighborhoods }) =>
+    services.flatMap(service =>
+      neighborhoods.map(neighborhood => ({
+        params: { service, neighborhood },
+      }))
+    )
   );
 }
 
@@ -860,17 +940,17 @@ if (!svc || !nbh) {
 }
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────────
-// Dynamic per combo — every one of the 45 pages has unique title + description
+// Dynamic per combo — every one of the 120 pages has unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
 const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
 const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region} · SJC`;
 const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em SJC.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
-const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} são josé dos campos, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
+const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} ${nbh.city.toLowerCase()}, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
 const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=80&w=800`;
 
 // ── FAQ GENERATION ─────────────────────────────────────────────────────────────
-// 5 natural-language Q&As per combo = 225 unique FAQ entries across all 45 pages
+// 5 natural-language Q&As per combo = 600 unique FAQ entries across all 120 pages
 // Feeds FAQPage schema (AI citations) + visible accordion (UX + word count)
 const faqs = svc.faqTemplate(nbh.displayName);
 
@@ -887,7 +967,7 @@ const pageSchema = {
       "provider": {
         "@type": "Organization",
         "name": "Profissionais Verificados via Serviços Urgentes",
-        "description": "Diretório de conexão entre moradores de São José dos Campos e profissionais autônomos verificados. Serviços Urgentes não presta os serviços diretamente.",
+        "description": `Diretório de conexão entre moradores de ${nbh.city} e profissionais autônomos verificados. Serviços Urgentes não presta os serviços diretamente.`,
         "url": "https://servicosurgentes.com"
       },
       "areaServed": {
@@ -895,7 +975,7 @@ const pageSchema = {
         "name": nbh.displayName,
         "containedInPlace": {
           "@type": "City",
-          "name": "São José dos Campos"
+          "name": nbh.city
         }
       },
       "serviceType": svc.displayName,
@@ -984,7 +1064,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
       <!-- Location badge — geographic signal + emotional anchor for panicked user -->
       <div class="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6 text-sm font-semibold">
         <span class="mr-2" aria-hidden="true">📍</span>
-        <span>{nbh.displayName} · {nbh.region} · São José dos Campos</span>
+        <span>{nbh.displayName} · {nbh.region} · {nbh.city}</span>
       </div>
 
       <!-- H1: Primary keyword = "[Service] em [Neighborhood]" -->
@@ -1114,7 +1194,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         💰 Quanto custa {svc.displayName.toLowerCase()} em {nbh.displayName}?
       </h2>
       <p class="text-gray-500 text-sm mb-5">
-        Estimativas de mercado para 2026 em São José dos Campos. Confirme o valor com o profissional antes de autorizar.
+        Estimativas de mercado para 2026 em {nbh.city}. Confirme o valor com o profissional antes de autorizar.
       </p>
       <div class="overflow-x-auto">
         <table class="w-full text-sm text-left text-gray-700 border-collapse">
@@ -1148,7 +1228,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         <div class="ml-3">
           <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
           <div class="text-sm text-yellow-700 space-y-2">
-            <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> em {nbh.displayName} e região de São José dos Campos, apresentadas apenas como referência inicial.</p>
+            <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> em {nbh.displayName} e região de {nbh.city}, apresentadas apenas como referência inicial.</p>
             <div class="bg-white/50 p-3 rounded">
               <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
               <ul class="list-none space-y-1 ml-1">
@@ -1170,7 +1250,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
 
     <!-- ── FAQ ACCORDION — AI/GEO SEO ───────────────────────────────────── -->
     <!-- Natural language Q&A = primary citation source for AI search engines -->
-    <!-- 5 questions × 45 pages = 225 unique FAQ entries                     -->
+    <!-- 5 questions × 120 pages = 600 unique FAQ entries                    -->
     <!-- FAQPage schema (injected in <head> above) feeds structured data      -->
     <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-10">
       <h2 class="text-2xl font-bold text-gray-900 mb-6">
@@ -1294,7 +1374,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         Encontrar {svc.displayNamePlural} Verificados →
       </a>
       <p class="text-red-200 text-xs mt-4">
-        Serviços Urgentes · Diretório de Profissionais · São José dos Campos, SP
+        Serviços Urgentes · Diretório de Profissionais · {nbh.city}, SP
       </p>
     </section>
 
