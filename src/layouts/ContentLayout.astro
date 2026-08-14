@@ -29,6 +29,9 @@ const {
   neighborhood = frontmatter.neighborhood,
   region = frontmatter.region,
   category = frontmatter.category,
+  city = frontmatter.city || "São José dos Campos",
+  lat = frontmatter.lat || "-23.2237",
+  lng = frontmatter.lng || "-45.9009",
   date = frontmatter.date,
   dateModified = frontmatter.dateModified,
   keywords = frontmatter.keywords,
@@ -133,19 +136,19 @@ const generateSchema = () => {
       "name": neighborhood,
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "São José dos Campos",
+        "addressLocality": city,
         "addressRegion": "SP",
         "addressCountry": "BR"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "-23.2237",
-        "longitude": "-45.9009"
+        "latitude": lat,
+        "longitude": lng
       },
       "description": description,
       "containedIn": {
         "@type": "City",
-        "name": "São José dos Campos"
+        "name": city
       },
       "additionalProperty": [
         {
@@ -156,7 +159,7 @@ const generateSchema = () => {
         {
           "@type": "PropertyValue",
           "name": "Serviços Disponíveis",
-          "value": "Encanador, Eletricista, Chaveiro, Ar-Condicionado"
+          "value": "Encanador, Eletricista, Chaveiro, Ar-Condicionado, Marido de Aluguel"
         }
       ]
     };
@@ -207,12 +210,12 @@ const serviceSchema = isNeighborhood ? {
   "provider": {
     "@type": "Organization",
     "name": "Profissionais Verificados via Serviços Urgentes",
-    "description": "Diretório de conexão entre moradores de São José dos Campos e profissionais autônomos verificados. Serviços Urgentes não presta os serviços diretamente.",
+    "description": `Diretório de conexão entre moradores de ${city} e profissionais autônomos verificados. Serviços Urgentes não presta os serviços diretamente.`,
     "url": "https://servicosurgentes.com"
   },
   "areaServed": {
     "@type": "City",
-    "name": "São José dos Campos",
+    "name": city,
     "containsPlace": {
       "@type": "Place",
       "name": neighborhood
