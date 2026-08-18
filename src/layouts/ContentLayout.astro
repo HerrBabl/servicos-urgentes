@@ -70,11 +70,53 @@ const formatDateISO = (dateStr: string | undefined) => {
 // Determine if this is a neighborhood page or blog post
 const isNeighborhood = !!neighborhood;
 const isBlog = !!category;
+// isNeighborhood is true on every content page (bairros, blog, emergencias all set
+// `neighborhood` in frontmatter), so it cannot distinguish a bairro page on its own —
+// confirmed by the pre-existing BreadcrumbList bug below, which mislabels blog posts
+// as "Bairros" for the same reason. Use the URL path for bairro-specific behavior.
+const isBairroPage = Astro.url.pathname.startsWith('/bairros/');
+
+// Place schema — built once, used by bairro pages (via the @graph below) and as the
+// fallback for pages that are isNeighborhood but not isBlog (currently none in
+// production, since every content page sets both category and neighborhood).
+const placeSchema = {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": neighborhood,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": lat,
+    "longitude": lng
+  },
+  "description": description,
+  "containedIn": {
+    "@type": "City",
+    "name": city
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Região",
+      "value": region
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Serviços Disponíveis",
+      "value": "Encanador, Eletricista, Chaveiro, Ar-Condicionado, Marido de Aluguel"
+    }
+  ]
+};
 
 // Generate schema markup based on page type
 const generateSchema = () => {
   const baseUrl = "https://servicosurgentes.com";
-  
+
   if (isBlog) {
     // Article Schema for Blog Posts
     const articleSchema = {
@@ -106,63 +148,42 @@ const generateSchema = () => {
       "inLanguage": "pt-BR"
     };
     
-    // Add FAQ Schema if faqSchema exists in frontmatter
+    // Assemble the @graph: Article always, FAQPage when present (unchanged for every
+    // page type), and Place — new — only on bairro pages (isBairroPage). Blog and
+    // emergencias pages never push placeSchema, so their output is byte-identical
+    // to before this change.
+    const graphBlocks: any[] = [articleSchema];
+
     if (frontmatter.faqSchema && frontmatter.faqSchema.length > 0) {
+      graphBlocks.push({
+        "@type": "FAQPage",
+        "mainEntity": frontmatter.faqSchema.map((faq: any) => ({  // FIXED: Added type annotation
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      });
+    }
+
+    if (isBairroPage) {
+      graphBlocks.push(placeSchema);
+    }
+
+    if (graphBlocks.length > 1) {
       return {
         "@context": "https://schema.org",
-        "@graph": [
-          articleSchema,
-          {
-            "@type": "FAQPage",
-            "mainEntity": frontmatter.faqSchema.map((faq: any) => ({  // FIXED: Added type annotation
-              "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-              }
-            }))
-          }
-        ]
+        "@graph": graphBlocks
       };
     }
-    
+
     return articleSchema;
   } else if (isNeighborhood) {
-    // Place + Service Schema for Neighborhood Pages
-    return {
-      "@context": "https://schema.org",
-      "@type": "Place",
-      "name": neighborhood,
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": city,
-        "addressRegion": "SP",
-        "addressCountry": "BR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": lat,
-        "longitude": lng
-      },
-      "description": description,
-      "containedIn": {
-        "@type": "City",
-        "name": city
-      },
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Região",
-          "value": region
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Serviços Disponíveis",
-          "value": "Encanador, Eletricista, Chaveiro, Ar-Condicionado, Marido de Aluguel"
-        }
-      ]
-    };
+    // Place Schema fallback — reachable only if a future page sets `neighborhood`
+    // without `category`. No production page does this today.
+    return placeSchema;
   }
   
   // Default WebPage schema
