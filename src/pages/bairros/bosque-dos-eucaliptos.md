@@ -14,6 +14,8 @@ slug: "servicos-bosque-dos-eucaliptos-sjc"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/bosque-dos-eucaliptos/"
 region: "São José dos Campos"
+lat: "-23.2300"
+lng: "-45.8900"
 neighborhood: "Bosque dos Eucaliptos, Jardim Satélite, Cidade Jardim"
 faqSchema:
   - question: "Qual o valor da visita técnica no Bosque dos Eucaliptos?"

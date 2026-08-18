@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jardim-maringa/"
 keywords: "encanador jardim maringa sjc, eletricista jardim maringa, chaveiro jardim maringa sjc, marido de aluguel sjc, ar condicionado jardim maringa, emergência centro sjc"
 region: "São José dos Campos"
+lat: "-23.1833"
+lng: "-45.8788"
 neighborhood: "Jardim Maringá, Vila Ema, Jardim Apolo"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência no Jardim Maringá?"

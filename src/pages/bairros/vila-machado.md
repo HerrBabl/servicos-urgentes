@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/vila-machado/"
 keywords: "encanador vila machado sjc, eletricista vila machado, chaveiro vila machado sjc, marido de aluguel sjc, ar condicionado vila machado, emergência zona norte sjc"
 region: "São José dos Campos"
+lat: "-23.1611"
+lng: "-45.8886"
 neighborhood: "Vila Machado, Santana, Vila Esmeralda"
 faqSchema:
   - question: "Quanto custa um encanador de emergência na Vila Machado?"

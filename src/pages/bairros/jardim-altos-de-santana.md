@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jardim-altos-de-santana/"
 keywords: "encanador altos de santana sjc, eletricista jardim altos de santana, chaveiro altos de santana sjc, marido de aluguel sjc, ar condicionado altos de santana, emergência zona norte sjc"
 region: "São José dos Campos"
+lat: "-23.1668"
+lng: "-45.8823"
 neighborhood: "Jardim Altos de Santana, Santana, Vila Machado"
 faqSchema:
   - question: "Quanto custa um encanador de emergência no Jardim Altos de Santana?"

@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/residencial-dom-bosco/"
 keywords: "encanador residencial dom bosco sjc, eletricista dom bosco sjc, chaveiro residencial dom bosco, marido de aluguel sjc, ar condicionado dom bosco, emergência zona leste sjc"
 region: "São José dos Campos"
+lat: "-23.1553"
+lng: "-45.8103"
 neighborhood: "Residencial Dom Bosco, Campos de São José, Jardim Santa Hermínia"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência no Residencial Dom Bosco?"

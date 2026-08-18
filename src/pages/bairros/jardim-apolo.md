@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jardim-apolo/"
 keywords: "encanador jardim apolo sjc, eletricista jardim apolo, chaveiro jardim apolo sjc, marido de aluguel sjc, ar condicionado jardim apolo, emergência centro sjc"
 region: "São José dos Campos"
+lat: "-23.1897"
+lng: "-45.8916"
 neighborhood: "Jardim Apolo, Jardim Esplanada, Vila Adyana, Parque Vicentina Aranha"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência no Jardim Apolo?"

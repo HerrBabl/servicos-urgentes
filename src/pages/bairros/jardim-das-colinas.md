@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jardim-das-colinas/"
 keywords: "encanador jardim das colinas, conserto aquecedor a gás sjc, eletricista colinas shopping, marido de aluguel sjc, manutenção válvula hydra, ar condicionado multi split sjc"
 region: "São José dos Campos"
+lat: "-23.2045"
+lng: "-45.9089"
 neighborhood: "Jardim das Colinas, Jardim Esplanada, Aquarius"
 faqSchema:
   - question: "Encanadores no Colinas consertam aquecedor a gás (Rinnai/Komeco)?"

@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/vista-verde/"
 keywords: "encanador vista verde sjc, eletricista vista verde, chaveiro vista verde sjc, marido de aluguel sjc, ar condicionado vista verde, emergência zona leste sjc"
 region: "São José dos Campos"
+lat: "-23.1731"
+lng: "-45.8306"
 neighborhood: "Vista Verde, Vila Tesouro, Vila Industrial"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência na Vista Verde?"

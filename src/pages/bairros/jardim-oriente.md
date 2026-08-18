@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jardim-oriente/"
 keywords: "encanador jardim oriente sjc, eletricista jardim oriente, chaveiro jardim oriente sjc, marido de aluguel sjc, ar condicionado jardim oriente, emergência zona sul sjc"
 region: "São José dos Campos"
+lat: "-23.2239"
+lng: "-45.8858"
 neighborhood: "Jardim Oriente, Parque Industrial, Jardim Satélite"
 faqSchema:
   - question: "Quanto custa um encanador de emergência no Jardim Oriente?"

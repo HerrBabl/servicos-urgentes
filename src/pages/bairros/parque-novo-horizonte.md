@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/parque-novo-horizonte/"
 keywords: "encanador parque novo horizonte sjc, eletricista novo horizonte, chaveiro parque novo horizonte sjc, marido de aluguel sjc, ar condicionado novo horizonte, emergência zona leste sjc"
 region: "São José dos Campos"
+lat: "-23.1584"
+lng: "-45.7994"
 neighborhood: "Parque Novo Horizonte, Jardim das Cerejeiras, Jardim Santa Maria"
 faqSchema:
   - question: "Quanto custa um encanador de emergência no Parque Novo Horizonte?"

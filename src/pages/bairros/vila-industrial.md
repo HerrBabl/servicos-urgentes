@@ -15,6 +15,8 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/vila-industrial/"
 keywords: "encanador vila industrial sjc, eletricista vila industrial, chaveiro vila industrial sjc, marido de aluguel sjc, ar condicionado vila industrial, emergência zona leste sjc"
 region: "São José dos Campos"
+lat: "-23.1789"
+lng: "-45.8628"
 neighborhood: "Vila Industrial, Vila Tesouro, Vista Verde"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência na Vila Industrial?"
