@@ -177,7 +177,7 @@ export const chaveiros = [
     "address": "Av. Anchieta, 1178 - Jardim Esplanada, São José dos Campos - SP, 12242-280",
     "neighborhood": "Jardim Esplanada",
     "city": "São José dos Campos",
-    "website": "https://www.chaveirokeytech.com.br/",
+    "website": "N/A",
     "service_type": "Chaveiro",
     "is_24h": false,
     "last_updated": "2025-10-03",
