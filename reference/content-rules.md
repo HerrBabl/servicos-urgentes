@@ -88,3 +88,9 @@ Before shipping a bairro page's landmark/proximity claims:
 - Prefer claims corroborated by 2+ independent sources over a single source, but treat "independent" loosely — check whether sources are actually distinct, not just multiple listings from the same imobiliária network repeating identical copy.
 - When the site owner has local knowledge and flags a claim as wrong, that correction overrides any number of web sources — ground truth beats aggregate web consensus.
 - If a landmark claim can't be verified and isn't locally confirmed, cut it rather than keep a plausible-sounding but unconfirmed detail. This is the same principle as beliefs.md's "never invent data, ever" principle, extended from prices/timeframes to geography/landmarks.
+
+## 9. Provider attribute fields (women-owned, LGBTQ+ friendly, 24h)
+
+`"Identifies as women-owned"` and `"LGBTQ+ friendly"` require direct provider confirmation — never set from a Google Business Profile badge alone. A GBP badge reflects Google's own attribute system, not a claim the provider necessarily made or would stand behind if asked directly; treating it as equivalent to provider confirmation risks misrepresenting a business's own identity.
+
+`"is_24h"` is fine to source from Google Maps listing data — operating-hours data is objective and Maps is a reasonable source for it, unlike an identity attribute.
