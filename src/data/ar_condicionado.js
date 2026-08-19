@@ -211,7 +211,7 @@ export const ar_condicionado = [
     "address": "Rua Riokichi Asanone, 49 - Jardim America, São José dos Campos - SP, 12235-130",
     "neighborhood": "Jardim América",
     "city": "São José dos Campos",
-    "website": "http://hepcontrol.com.br/",
+    "website": "N/A",
     "service_type": "Ar condicionado",
     "is_24h": false,
     "last_updated": "2025-10-03",
