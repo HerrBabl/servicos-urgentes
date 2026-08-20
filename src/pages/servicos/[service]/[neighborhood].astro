@@ -13,7 +13,7 @@
 //
 // SOURCES MERGED:
 //   NEBULA  → Layout.astro wrapper, BusinessListing component, local .js data
-//             files, city-wide provider display, 9-neighborhood cross-link grid
+//             files, city-wide provider display, 24-neighborhood cross-link grid
 //   CLAUDE  → Rich neighborhood + service context objects, FAQPage schema,
 //             dynamic SEO metadata, Crisis Psychology page structure,
 //             faqTemplate() per service+neighborhood combo
@@ -50,7 +50,7 @@ import { maridos }         from '../../../data/maridos.js';
 // NEIGHBORHOOD CONTEXT DATA
 // WHY: Hyper-local copy competitors cannot reproduce — the "Local Domination" moat
 // SEO: AI engines cite specific crisis scenarios and local landmarks as authoritative
-// 9 neighborhoods only — mirrors /bairros/ pages to prevent 404s on cross-links
+// 24 neighborhoods (as of Aug 12, 2026) — mirrors /bairros/ pages to prevent 404s on cross-links
 // ══════════════════════════════════════════════════════════════════════════════
 const neighborhoodContext: Record<string, {
   displayName: string;
@@ -1330,10 +1330,10 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
       </div>
     </section>
 
-    <!-- Section C: All-neighborhood cross-link grid (8 links) — from Nebula  -->
+    <!-- Section C: All-neighborhood cross-link grid (all other SJC neighborhoods) — from Nebula -->
     <!-- Every page links to all other neighborhood variants of same service.  -->
     <!-- This is the "full crawl grid" — maximizes Googlebot coverage paths.  -->
-    <!-- All 9 slugs match /bairros/ pages exactly — zero 404 risk.          -->
+    <!-- All 24 slugs match /bairros/ pages exactly — zero 404 risk.         -->
     <section class="mb-10">
       <h2 class="text-xl font-bold text-gray-900 mb-4">
         {svc.icon} {svc.displayName} em Outros Bairros de SJC
