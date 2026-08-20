@@ -20,7 +20,7 @@ servicosurgentes.com — an AI-first emergency home services directory for São 
 
 ## Site structure (order of magnitude — check SITE-STRUCTURE.md for exact current counts)
 
-5 service pages · 15 bairro pages · 24 blog posts · 6 emergencias pages (hub + 5 scenarios) · 75 programmatic combo pages (5 services × 15 neighborhoods)
+5 service pages · 24 bairro pages · 23 blog posts · 5 emergencias pages (+ hub) · 120 programmatic combo pages (5 services × 24 SJC neighborhoods) — plus 25 Jacareí combo routes scaffolded but routing-only/noindex until content lands
 
 ## GBP (Google Business Profile)
 
