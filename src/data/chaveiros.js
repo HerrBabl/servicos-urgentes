@@ -697,23 +697,6 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512996323117"
   },
   {
-    "business_name": "Chaveiro Neves",
-    "phone_number": "1239443812",
-    "star_rating": 4.4,
-    "total_reviews": 50,
-    "address": "R. Nepomuceno, 106 - Vila Rica, São José dos Campos - SP, 12228-090",
-    "neighborhood": "Vila Rica",
-    "city": "São José dos Campos",
-    "website": "N/A",
-    "service_type": "Chaveiro",
-    "is_24h": false,
-    "last_updated": "2025-10-03",
-    "status": "Active",
-    "Identifies as women-owned": false,
-    "LGBTQ+ friendly": false,
-    "whatsapp": "https://wa.me/551239443812"
-  },
-  {
     "business_name": "Chaveiro da Vila",
     "phone_number": "12982315713",
     "star_rating": 5,
