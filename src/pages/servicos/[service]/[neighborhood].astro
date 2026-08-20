@@ -872,7 +872,8 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates all 120 routes (5 services × 24 neighborhoods)
+// getStaticPaths — generates 145 routes across 2 cities: SJC (5 services × 24
+// neighborhoods = 120) + Jacareí (5 services × 5 neighborhoods = 25)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -915,6 +916,22 @@ export function getStaticPaths() {
         'jardim-apolo',
         'jardim-maringa',
         'parque-novo-horizonte',
+      ],
+    },
+    {
+      services: [
+        'encanador',
+        'eletricista',
+        'chaveiro',
+        'ar-condicionado',
+        'marido-de-aluguel',
+      ],
+      neighborhoods: [
+        'jacarei-villa-branca',
+        'jacarei-jardim-california',
+        'jacarei-jardim-santa-maria',
+        'jacarei-centro',
+        'jacarei-cidade-salvador',
       ],
     },
   ];
