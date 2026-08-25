@@ -1057,7 +1057,7 @@ const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
 const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region} · SJC`;
 const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em SJC.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
-const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} sjc, ${service} ${nbh.city.toLowerCase()}, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} sjc`;
+const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} emergência ${nbh.displayName.toLowerCase()}, ${service} ${nbh.city.toLowerCase()}, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} ${nbh.city.toLowerCase()}`;
 const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=80&w=800`;
 
 // ── FAQ GENERATION ─────────────────────────────────────────────────────────────
