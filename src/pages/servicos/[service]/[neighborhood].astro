@@ -1054,8 +1054,8 @@ if (!svc || !nbh) {
 // Dynamic per combo — every one of the 120 pages has unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
 const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
-const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region} · SJC`;
-const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em SJC.`.substring(0, 160);
+const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region}`;
+const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em ${nbh.city}.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
 const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} emergência ${nbh.displayName.toLowerCase()}, ${service} ${nbh.city.toLowerCase()}, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} ${nbh.city.toLowerCase()}`;
 const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=80&w=800`;
@@ -1182,7 +1182,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
       <h1 class="text-3xl md:text-5xl font-black leading-tight mb-4">
   {svc.icon} {svc.displayName} em {nbh.displayName}
   <span class="block text-yellow-300 text-2xl md:text-3xl font-bold mt-2">
-    {nbh.region} de SJC · {nbh.responseTime} · Profissionais Verificados
+    {nbh.region === nbh.city ? nbh.region : `${nbh.region} de ${nbh.city}`} · {nbh.responseTime} · Profissionais Verificados
   </span>
 </h1>
 
@@ -1276,7 +1276,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
       <BusinessListing
         businesses={svc.localData}
         serviceTitle={`${svc.displayNamePlural} Verificados em ${nbh.displayName}`}
-        serviceDescription={`Profissionais que atendem ${nbh.displayName} e toda a região de SJC para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
+        serviceDescription={`Profissionais que atendem ${nbh.displayName} e toda a região de ${nbh.city} para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
       />
     </div>
 
@@ -1418,7 +1418,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
           href={`/servicos/${service}/`}
           class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
         >
-          Todos os {svc.displayNamePlural} em SJC
+          Todos os {svc.displayNamePlural} em {nbh.city}
         </a>
         <a
           href={`/bairros/${neighborhood}/`}
@@ -1430,7 +1430,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
           href="/servicos/"
           class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
         >
-          Central de Serviços SJC
+          Central de Serviços {nbh.city}
         </a>
         <a
           href={svc.relatedBlogSlug}
@@ -1447,11 +1447,11 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
     <!-- All 24 slugs match /bairros/ pages exactly — zero 404 risk.         -->
     <section class="mb-10">
       <h2 class="text-xl font-bold text-gray-900 mb-4">
-        {svc.icon} {svc.displayName} em Outros Bairros de SJC
+        {svc.icon} {svc.displayName} em Outros Bairros de {nbh.city}
       </h2>
       <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {Object.entries(neighborhoodContext)
-          .filter(([slug]) => slug !== neighborhood)
+          .filter(([slug, data]) => slug !== neighborhood && data.city === nbh.city)
           .map(([slug, nbhData]) => (
             <a
               href={`/servicos/${service}/${slug}/`}
