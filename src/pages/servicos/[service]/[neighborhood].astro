@@ -652,7 +652,7 @@ const serviceContext: Record<string, {
   whatToDo: string[];
   prevention: string[];
   relatedServices: { slug: string; name: string; icon: string }[];
-  faqTemplate: (neighborhood: string) => { question: string; answer: string }[];
+  faqTemplate: (neighborhood: string, hasPricing: boolean) => { question: string; answer: string }[];
   localData: any[];
   priceItems: { label: string; range: string }[];
   relatedBlogSlug: string;
@@ -686,14 +686,16 @@ const serviceContext: Record<string, {
       { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
       { slug: 'ar-condicionado',   name: 'Ar-Condicionado',   icon: '❄️' },
     ],
-    faqTemplate: (neighborhood: string) => [
+    faqTemplate: (neighborhood: string, hasPricing: boolean) => [
       {
         question: `Encanador atende ${neighborhood} 24 horas?`,
         answer: `Sim. Profissionais cadastrados em nosso diretório atendem emergências hidráulicas em ${neighborhood} 24h por dia, incluindo madrugadas, finais de semana e feriados. O tempo médio de chegada varia conforme o horário e a localização dentro do bairro — em pico de trânsito, preveja 10–15 minutos a mais.`,
       },
       {
         question: `Quanto custa um encanador em ${neighborhood}?`,
-        answer: `O valor varia conforme o serviço: visita técnica simples R$ 80–150, desentupimento de pia ou vaso sanitário R$ 150–300, caça-vazamento eletrônico com geofone R$ 350–600, troca de registro ou flexível R$ 120–250. Emergências noturnas (22h–6h) ou em fins de semana têm acréscimo de 30–50%. Solicite orçamento antes de autorizar qualquer serviço.`,
+        answer: hasPricing
+          ? `O valor varia conforme o serviço: visita técnica simples R$ 80–150, desentupimento de pia ou vaso sanitário R$ 150–300, caça-vazamento eletrônico com geofone R$ 350–600, troca de registro ou flexível R$ 120–250. Emergências noturnas (22h–6h) ou em fins de semana têm acréscimo de 30–50%. Solicite orçamento antes de autorizar qualquer serviço.`
+          : `Ainda não temos valores médios verificados para encanadores em ${neighborhood}. Peça um orçamento gratuito diretamente ao profissional antes de autorizar qualquer serviço — o valor varia conforme o problema (visita simples, desentupimento, caça-vazamento) e o horário do atendimento.`,
       },
       {
         question: `Qual o tempo de chegada de um encanador em ${neighborhood}?`,
@@ -748,14 +750,16 @@ const serviceContext: Record<string, {
       { slug: 'ar-condicionado',   name: 'Ar-Condicionado',   icon: '❄️' },
       { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
     ],
-    faqTemplate: (neighborhood: string) => [
+    faqTemplate: (neighborhood: string, hasPricing: boolean) => [
       {
         question: `Eletricista atende ${neighborhood} 24 horas?`,
         answer: `Sim. Eletricistas cadastrados em nosso diretório atendem emergências em ${neighborhood} em qualquer horário. Para situações com risco imediato — fio partido, curto com faíscas, cheiro de queimado — ligue também para o Corpo de Bombeiros (193) enquanto aguarda o profissional. Não fique no ambiente até a situação ser avaliada.`,
       },
       {
         question: `Quanto custa um eletricista emergencial em ${neighborhood}?`,
-        answer: `Valores médios em SJC: visita técnica R$ 80–150, troca de disjuntor simples R$ 80–200, instalação de tomada ou ponto de luz R$ 100–200, modernização de quadro elétrico R$ 500–1.500. Atendimentos noturnos e em fins de semana têm acréscimo de 30–50%. Sempre confirme o valor total antes de autorizar o serviço.`,
+        answer: hasPricing
+          ? `Valores médios em SJC: visita técnica R$ 80–150, troca de disjuntor simples R$ 80–200, instalação de tomada ou ponto de luz R$ 100–200, modernização de quadro elétrico R$ 500–1.500. Atendimentos noturnos e em fins de semana têm acréscimo de 30–50%. Sempre confirme o valor total antes de autorizar o serviço.`
+          : `Ainda não temos valores médios verificados para eletricistas em ${neighborhood}. Peça um orçamento gratuito antes de autorizar qualquer serviço — o valor varia conforme o tipo de reparo (troca de disjuntor, instalação de ponto, modernização de quadro) e o horário do atendimento.`,
       },
       {
         question: `Disjuntor caindo é emergência em ${neighborhood}?`,
@@ -808,14 +812,16 @@ const serviceContext: Record<string, {
       { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
       { slug: 'encanador',         name: 'Encanador',         icon: '🔧' },
     ],
-    faqTemplate: (neighborhood: string) => [
+    faqTemplate: (neighborhood: string, hasPricing: boolean) => [
       {
         question: `Chaveiro atende ${neighborhood} 24 horas?`,
         answer: `Sim. Chaveiros cadastrados em nosso diretório atendem emergências de porta trancada em ${neighborhood} em qualquer horário, incluindo madrugadas e feriados. A maioria opera com atendimento prioritário para não deixar o cliente vulnerável na rua por tempo prolongado.`,
       },
       {
         question: `Quanto custa abrir uma porta trancada em ${neighborhood}?`,
-        answer: `Abertura de porta residencial simples em SJC varia de R$ 80–180 em horário comercial. Fechaduras tetra, penta ou de alta segurança custam R$ 200–400. Atendimentos noturnos (22h–6h) e fins de semana têm acréscimo de 30–50%. Troca de cilindro ou fechadura após a abertura é orçada separadamente. Confirme o valor completo antes de autorizar.`,
+        answer: hasPricing
+          ? `Abertura de porta residencial simples em SJC varia de R$ 80–180 em horário comercial. Fechaduras tetra, penta ou de alta segurança custam R$ 200–400. Atendimentos noturnos (22h–6h) e fins de semana têm acréscimo de 30–50%. Troca de cilindro ou fechadura após a abertura é orçada separadamente. Confirme o valor completo antes de autorizar.`
+          : `Ainda não temos valores médios verificados para chaveiros em ${neighborhood}. Peça um orçamento gratuito antes de autorizar o serviço — o valor varia conforme o tipo de fechadura e o horário do atendimento.`,
       },
       {
         question: `Chaveiro abre porta sem danificar a fechadura em ${neighborhood}?`,
@@ -868,14 +874,16 @@ const serviceContext: Record<string, {
       { slug: 'marido-de-aluguel', name: 'Marido de Aluguel', icon: '🛠️' },
       { slug: 'encanador',         name: 'Encanador',         icon: '🔧' },
     ],
-    faqTemplate: (neighborhood: string) => [
+    faqTemplate: (neighborhood: string, hasPricing: boolean) => [
       {
         question: `Técnico de ar-condicionado atende ${neighborhood} 24 horas?`,
         answer: `Sim. Técnicos cadastrados em nosso diretório atendem ${neighborhood} em horário estendido, incluindo finais de semana. Para emergências com crianças pequenas, idosos ou ambientes de saúde — como clínicas e consultórios em ${neighborhood} — informe ao solicitar, pois alguns profissionais priorizam esses atendimentos.`,
       },
       {
         question: `Quanto custa limpeza de ar-condicionado em ${neighborhood}?`,
-        answer: `Higienização completa (serpentinas + dreno + bandeja) de split 9.000–12.000 BTUs em SJC varia de R$ 200–350 por aparelho. Recarga de gás refrigerante R$ 250–500. Troca de placa eletrônica R$ 400–900. Instalação de novo split — mão de obra — R$ 300–500. Confirme com o técnico antes de autorizar qualquer serviço.`,
+        answer: hasPricing
+          ? `Higienização completa (serpentinas + dreno + bandeja) de split 9.000–12.000 BTUs em SJC varia de R$ 200–350 por aparelho. Recarga de gás refrigerante R$ 250–500. Troca de placa eletrônica R$ 400–900. Instalação de novo split — mão de obra — R$ 300–500. Confirme com o técnico antes de autorizar qualquer serviço.`
+          : `Ainda não temos valores médios verificados para técnicos de ar-condicionado em ${neighborhood}. Peça um orçamento gratuito antes de autorizar qualquer serviço — o valor varia conforme o tipo de atendimento (limpeza, recarga de gás, reparo) e a potência do aparelho.`,
       },
       {
         question: `Por que o AC pinga água dentro do quarto em ${neighborhood}?`,
@@ -928,14 +936,16 @@ const serviceContext: Record<string, {
       { slug: 'eletricista', name: 'Eletricista', icon: '⚡' },
       { slug: 'chaveiro',    name: 'Chaveiro',    icon: '🔑' },
     ],
-    faqTemplate: (neighborhood: string) => [
+    faqTemplate: (neighborhood: string, hasPricing: boolean) => [
       {
         question: `Marido de aluguel atende ${neighborhood}?`,
         answer: `Sim. Profissionais multifuncionais cadastrados em nosso diretório atendem ${neighborhood} para reparos gerais, montagem de móveis, instalações e pequenas obras. Ideal para resolver vários problemas em uma única visita — economizando tempo e o custo de deslocamento de múltiplos especialistas.`,
       },
       {
         question: `Quanto custa marido de aluguel em ${neighborhood}?`,
-        answer: `O valor é cobrado por hora (R$ 80–150/hora em SJC) ou por serviço: montagem de móvel simples R$ 60–120, instalação de prateleira R$ 50–100, troca de torneira R$ 80–150, fixação de suporte de TV R$ 80–200. Materiais são cobrados à parte. Confirme a forma de cobrança (hora ou serviço fechado) antes de iniciar.`,
+        answer: hasPricing
+          ? `O valor é cobrado por hora (R$ 80–150/hora em SJC) ou por serviço: montagem de móvel simples R$ 60–120, instalação de prateleira R$ 50–100, troca de torneira R$ 80–150, fixação de suporte de TV R$ 80–200. Materiais são cobrados à parte. Confirme a forma de cobrança (hora ou serviço fechado) antes de iniciar.`
+          : `Ainda não temos valores médios verificados para profissionais marido de aluguel em ${neighborhood}. Peça um orçamento gratuito antes de iniciar — o valor varia conforme a cobrança (por hora ou por serviço) e a lista de reparos.`,
       },
       {
         question: `Marido de aluguel faz instalação elétrica e hidráulica em ${neighborhood}?`,
@@ -1158,7 +1168,7 @@ const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=8
 // ── FAQ GENERATION ─────────────────────────────────────────────────────────────
 // 5 natural-language Q&As per combo = 600 unique FAQ entries across all 120 pages
 // Feeds FAQPage schema (AI citations) + visible accordion (UX + word count)
-const faqs = svc.faqTemplate(nbh.displayName);
+const faqs = svc.faqTemplate(nbh.displayName, hasPricing);
 
 // ── SCHEMA MARKUP ──────────────────────────────────────────────────────────────
 // @graph: Service + BreadcrumbList + FAQPage in one ld+json block
