@@ -1138,6 +1138,13 @@ if (!svc || !nbh) {
   return Astro.redirect('/servicos/');
 }
 
+// City-scoped overlay (pricing + blog cross-link) — empty object for cities with
+// no verified data yet, so overlay.priceItems / overlay.relatedBlogSlug are simply
+// undefined rather than throwing. hasPricing gates both the price list and the
+// disclaimer together, since a disclaimer with no prices above it is orphaned.
+const overlay = cityServiceContext[nbh.city]?.[service] ?? {};
+const hasPricing = Boolean(overlay.priceItems?.length);
+
 // ── SEO METADATA ───────────────────────────────────────────────────────────────
 // Dynamic per combo — every one of the 120 pages has unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
@@ -1387,65 +1394,82 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
 
     <!-- ── PRICING SECTION ───────────────────────────────────────────────── -->
     <!-- Transparency = trust signal + SEO (users search "quanto custa").    -->
-    <!-- MANDATORY DISCLAIMER immediately follows — project legal requirement -->
-    <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-4">
-      <h2 class="text-2xl font-bold text-gray-900 mb-2">
-        💰 Quanto custa {svc.displayName.toLowerCase()} em {nbh.displayName}?
-      </h2>
-      <p class="text-gray-500 text-sm mb-5">
-        Estimativas de mercado para 2026 em {nbh.city}. Confirme o valor com o profissional antes de autorizar.
-      </p>
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm text-left text-gray-700 border-collapse">
-          <thead>
-            <tr class="bg-gray-50 border-b border-gray-200">
-              <th class="py-3 px-4 font-semibold text-gray-900">Serviço</th>
-              <th class="py-3 px-4 font-semibold text-gray-900">Estimativa 2026</th>
-            </tr>
-          </thead>
-          <tbody>
-            {svc.priceItems.map((item, i) => (
-              <tr class={i % 2 === 0 ? 'bg-white border-b border-gray-100' : 'bg-gray-50 border-b border-gray-100'}>
-                <td class="py-3 px-4">{item.label}</td>
-                <td class="py-3 px-4 font-medium text-blue-700">{item.range}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
+    <!-- LEGAL: When prices render, the mandatory disclaimer MUST immediately -->
+    <!-- follow them (non-negotiable, exact HTML). Cities without verified    -->
+    <!-- pricing render the fallback branch instead — no prices, no disclaimer. -->
+    {hasPricing ? (
+      <>
+        <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-4">
+          <h2 class="text-2xl font-bold text-gray-900 mb-2">
+            💰 Quanto custa {svc.displayName.toLowerCase()} em {nbh.displayName}?
+          </h2>
+          <p class="text-gray-500 text-sm mb-5">
+            Estimativas de mercado para 2026 em {nbh.city}. Confirme o valor com o profissional antes de autorizar.
+          </p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-700 border-collapse">
+              <thead>
+                <tr class="bg-gray-50 border-b border-gray-200">
+                  <th class="py-3 px-4 font-semibold text-gray-900">Serviço</th>
+                  <th class="py-3 px-4 font-semibold text-gray-900">Estimativa 2026</th>
+                </tr>
+              </thead>
+              <tbody>
+                {overlay.priceItems.map((item, i) => (
+                  <tr class={i % 2 === 0 ? 'bg-white border-b border-gray-100' : 'bg-gray-50 border-b border-gray-100'}>
+                    <td class="py-3 px-4">{item.label}</td>
+                    <td class="py-3 px-4 font-medium text-blue-700">{item.range}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
 
-    <!-- MANDATORY PRICE DISCLAIMER — exact HTML per project legal instructions -->
-    <!-- LEGAL: Must appear immediately after first pricing mention. Non-negotiable. -->
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-6 rounded-r-lg">
-      <div class="flex items-start">
-        <div class="flex-shrink-0">
-          <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-          </svg>
-        </div>
-        <div class="ml-3">
-          <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
-          <div class="text-sm text-yellow-700 space-y-2">
-            <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> em {nbh.displayName} e região de {nbh.city}, apresentadas apenas como referência inicial.</p>
-            <div class="bg-white/50 p-3 rounded">
-              <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
-              <ul class="list-none space-y-1 ml-1">
-                <li>❌ Não define preços dos prestadores</li>
-                <li>❌ Não interfere nas negociações comerciais</li>
-                <li>❌ Não garante valores finais</li>
-              </ul>
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-6 rounded-r-lg">
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
             </div>
-            <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
-              <p class="flex items-start gap-2">
-                <span class="text-lg" aria-hidden="true">💡</span>
-                <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
-              </p>
+            <div class="ml-3">
+              <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+              <div class="text-sm text-yellow-700 space-y-2">
+                <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> em {nbh.displayName} e região de {nbh.city}, apresentadas apenas como referência inicial.</p>
+                <div class="bg-white/50 p-3 rounded">
+                  <p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p>
+                  <ul class="list-none space-y-1 ml-1">
+                    <li>❌ Não define preços dos prestadores</li>
+                    <li>❌ Não interfere nas negociações comerciais</li>
+                    <li>❌ Não garante valores finais</li>
+                  </ul>
+                </div>
+                <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3">
+                  <p class="flex items-start gap-2">
+                    <span class="text-lg" aria-hidden="true">💡</span>
+                    <span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> qualquer serviço.</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </>
+    ) : (
+      // No verified Jacareí pricing yet — see cityServiceContext. Renders honest
+      // fallback instead of unverified figures (content-rules.md §8).
+      <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-2">
+          💰 Quanto custa {svc.displayName.toLowerCase()} em {nbh.displayName}?
+        </h2>
+        <p class="text-gray-600 leading-relaxed">
+          Valores de referência para {nbh.city} ainda não estão disponíveis neste diretório.
+          Solicite orçamento diretamente aos profissionais listados e confirme o valor total
+          antes de autorizar qualquer serviço.
+        </p>
+      </section>
+    )}
 
     <!-- ── FAQ ACCORDION — AI/GEO SEO ───────────────────────────────────── -->
     <!-- Natural language Q&A = primary citation source for AI search engines -->
@@ -1520,12 +1544,14 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         >
           Central de Serviços {nbh.city}
         </a>
-        <a
-          href={svc.relatedBlogSlug}
-          class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
-        >
-          📖 {svc.relatedBlogTitle}
-        </a>
+        {overlay.relatedBlogSlug && (
+          <a
+            href={overlay.relatedBlogSlug}
+            class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+          >
+            📖 {overlay.relatedBlogTitle}
+          </a>
+        )}
       </div>
     </section>
 
