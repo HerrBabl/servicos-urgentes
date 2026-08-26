@@ -654,9 +654,6 @@ const serviceContext: Record<string, {
   relatedServices: { slug: string; name: string; icon: string }[];
   faqTemplate: (neighborhood: string, hasPricing: boolean) => { question: string; answer: string }[];
   localData: any[];
-  priceItems: { label: string; range: string }[];
-  relatedBlogSlug: string;
-  relatedBlogTitle: string;
   color: string;
   heroKeyword: string;
 }> = {
@@ -711,15 +708,6 @@ const serviceContext: Record<string, {
       },
     ],
     localData: encanadores,
-    priceItems: [
-      { label: 'Visita técnica simples',              range: 'R$ 80 – R$ 150' },
-      { label: 'Desentupimento (pia/vaso)',            range: 'R$ 150 – R$ 300' },
-      { label: 'Caça-vazamento eletrônico (geofone)', range: 'R$ 350 – R$ 600' },
-      { label: 'Troca de registro ou flexível',        range: 'R$ 120 – R$ 250 (+peça)' },
-      { label: 'Limpeza de caixa d\'água',             range: 'R$ 200 – R$ 400' },
-    ],
-    relatedBlogSlug: '/blog/guia-encanador-emergencia-sjc/',
-    relatedBlogTitle: 'Guia de Emergência Hidráulica em SJC',
     color: 'blue',
     heroKeyword: 'Encanador 24h',
   },
@@ -775,15 +763,6 @@ const serviceContext: Record<string, {
       },
     ],
     localData: eletricistas,
-    priceItems: [
-      { label: 'Visita técnica',                  range: 'R$ 80 – R$ 150' },
-      { label: 'Troca de tomada ou interruptor',  range: 'R$ 80 – R$ 200' },
-      { label: 'Instalação de ponto elétrico',    range: 'R$ 150 – R$ 350' },
-      { label: 'Troca de disjuntor',              range: 'R$ 100 – R$ 250' },
-      { label: 'Modernização de quadro elétrico', range: 'R$ 500 – R$ 1.500' },
-    ],
-    relatedBlogSlug: '/blog/chuveiro-queimado-sjc-guia/',
-    relatedBlogTitle: 'Chuveiro Queimado em SJC: O Que Fazer',
     color: 'yellow',
     heroKeyword: 'Eletricista de Emergência',
   },
@@ -837,15 +816,6 @@ const serviceContext: Record<string, {
       },
     ],
     localData: chaveiros,
-    priceItems: [
-      { label: 'Abertura de porta (sem dano)',        range: 'R$ 80 – R$ 180' },
-      { label: 'Abertura de fechadura de alta seg.',  range: 'R$ 200 – R$ 400' },
-      { label: 'Cópia de chave comum',                range: 'R$ 10 – R$ 30' },
-      { label: 'Cópia de chave codificada',           range: 'R$ 80 – R$ 200' },
-      { label: 'Instalação de fechadura eletrônica',  range: 'R$ 200 – R$ 500 (+peça)' },
-    ],
-    relatedBlogSlug: '/blog/chaveiro-centro-sjc-24h/',
-    relatedBlogTitle: 'Chaveiro 24h no Centro de SJC: Guia',
     color: 'orange',
     heroKeyword: 'Chaveiro 24h',
   },
@@ -899,15 +869,6 @@ const serviceContext: Record<string, {
       },
     ],
     localData: ar_condicionado,
-    priceItems: [
-      { label: 'Limpeza simples (filtros)',          range: 'R$ 80 – R$ 150' },
-      { label: 'Higienização química completa',      range: 'R$ 200 – R$ 350' },
-      { label: 'Recarga de gás (R-410A)',            range: 'R$ 250 – R$ 500' },
-      { label: 'Instalação de split (mão de obra)', range: 'R$ 300 – R$ 500' },
-      { label: 'Diagnóstico + reparo geral',         range: 'R$ 150 – R$ 400' },
-    ],
-    relatedBlogSlug: '/blog/ar-condicionado-nao-gela-sjc/',
-    relatedBlogTitle: 'AC Não Gela? Protocolo de Emergência SJC',
     color: 'cyan',
     heroKeyword: 'Técnico de Ar-Condicionado',
   },
@@ -961,15 +922,6 @@ const serviceContext: Record<string, {
       },
     ],
     localData: maridos,
-    priceItems: [
-      { label: 'Hora trabalhada (mín. 2h)',      range: 'R$ 80 – R$ 150/hora' },
-      { label: 'Instalação de suporte de TV',    range: 'R$ 150 – R$ 250' },
-      { label: 'Montagem de móveis',             range: 'R$ 200 – R$ 400' },
-      { label: 'Troca de torneira ou registro',  range: 'R$ 80 – R$ 180 (+peça)' },
-      { label: 'Pequenos reparos hidráulicos',   range: 'R$ 120 – R$ 250' },
-    ],
-    relatedBlogSlug: '/blog/marido-de-aluguel-sjc-guia/',
-    relatedBlogTitle: 'Marido de Aluguel em SJC: Guia Completo',
     color: 'green',
     heroKeyword: 'Marido de Aluguel',
   },
