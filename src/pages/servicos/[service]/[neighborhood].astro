@@ -1267,14 +1267,14 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
     </section>
 
     <!-- ── PROVIDER LISTINGS ─────────────────────────────────────────────── -->
-    <!-- City-wide data from local .js files (Nebula decision).              -->
-    <!-- Reason: Supabase sem tags de bairro = filtro retorna zero results   -->
-    <!-- = páginas vazias = penalidade de SEO por conteúdo thin.             -->
-    <!-- Migration path: quando provider_neighborhoods existir no Supabase,  -->
-    <!--   trocar svc.localData pelo fetch filtrado.                          -->
+    <!-- Local .js files, filtered by nbh.city (Nebula decision, updated for  -->
+    <!-- Jacareí expansion). City-level filtering avoids the empty-page risk -->
+    <!-- of bairro-level filtering while still preventing cross-city bleed.  -->
+    <!-- Migration path: when provider_neighborhoods exists in Supabase,    -->
+    <!--   swap svc.localData.filter(...) for the filtered fetch.            -->
     <div id="profissionais" class="scroll-mt-6 mb-10">
       <BusinessListing
-        businesses={svc.localData}
+        businesses={svc.localData.filter(b => b.city === nbh.city)}
         serviceTitle={`${svc.displayNamePlural} Verificados em ${nbh.displayName}`}
         serviceDescription={`Profissionais que atendem ${nbh.displayName} e toda a região de ${nbh.city} para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
       />
