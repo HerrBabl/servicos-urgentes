@@ -966,6 +966,94 @@ const serviceContext: Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
+// CITY CONTEXT SCAFFOLDING (structural only — not yet consumed by render logic)
+// WHY: Step 1 of the serviceContext city-overlay refactor. Adds shared-base +
+// per-city-per-service data alongside the existing serviceContext, without
+// touching serviceContext or any render logic. No behavior change in this
+// commit — cityContext/cityServiceContext are unused until a later commit
+// wires them into the template.
+// ══════════════════════════════════════════════════════════════════════════════
+const cityContext: Record<string, {
+  rainySeason: string;
+  rainySeasonStart: string;
+}> = {
+  'São José dos Campos': { rainySeason: 'outubro–março', rainySeasonStart: 'outubro' },
+  'Jacareí':             { rainySeason: 'outubro–março', rainySeasonStart: 'outubro' },
+};
+
+const cityServiceContext: Record<string, Record<string, {
+  priceItems?: { label: string; range: string }[];
+  relatedBlogSlug?: string;
+  relatedBlogTitle?: string;
+}>> = {
+  'São José dos Campos': {
+    'encanador': {
+      priceItems: [
+        { label: 'Visita técnica simples',              range: 'R$ 80 – R$ 150' },
+        { label: 'Desentupimento (pia/vaso)',            range: 'R$ 150 – R$ 300' },
+        { label: 'Caça-vazamento eletrônico (geofone)', range: 'R$ 350 – R$ 600' },
+        { label: 'Troca de registro ou flexível',        range: 'R$ 120 – R$ 250 (+peça)' },
+        { label: 'Limpeza de caixa d\'água',             range: 'R$ 200 – R$ 400' },
+      ],
+      relatedBlogSlug: '/blog/guia-encanador-emergencia-sjc/',
+      relatedBlogTitle: 'Guia de Emergência Hidráulica em SJC',
+    },
+    'eletricista': {
+      priceItems: [
+        { label: 'Visita técnica',                  range: 'R$ 80 – R$ 150' },
+        { label: 'Troca de tomada ou interruptor',  range: 'R$ 80 – R$ 200' },
+        { label: 'Instalação de ponto elétrico',    range: 'R$ 150 – R$ 350' },
+        { label: 'Troca de disjuntor',              range: 'R$ 100 – R$ 250' },
+        { label: 'Modernização de quadro elétrico', range: 'R$ 500 – R$ 1.500' },
+      ],
+      relatedBlogSlug: '/blog/chuveiro-queimado-sjc-guia/',
+      relatedBlogTitle: 'Chuveiro Queimado em SJC: O Que Fazer',
+    },
+    'chaveiro': {
+      priceItems: [
+        { label: 'Abertura de porta (sem dano)',        range: 'R$ 80 – R$ 180' },
+        { label: 'Abertura de fechadura de alta seg.',  range: 'R$ 200 – R$ 400' },
+        { label: 'Cópia de chave comum',                range: 'R$ 10 – R$ 30' },
+        { label: 'Cópia de chave codificada',           range: 'R$ 80 – R$ 200' },
+        { label: 'Instalação de fechadura eletrônica',  range: 'R$ 200 – R$ 500 (+peça)' },
+      ],
+      relatedBlogSlug: '/blog/chaveiro-centro-sjc-24h/',
+      relatedBlogTitle: 'Chaveiro 24h no Centro de SJC: Guia',
+    },
+    'ar-condicionado': {
+      priceItems: [
+        { label: 'Limpeza simples (filtros)',          range: 'R$ 80 – R$ 150' },
+        { label: 'Higienização química completa',      range: 'R$ 200 – R$ 350' },
+        { label: 'Recarga de gás (R-410A)',            range: 'R$ 250 – R$ 500' },
+        { label: 'Instalação de split (mão de obra)', range: 'R$ 300 – R$ 500' },
+        { label: 'Diagnóstico + reparo geral',         range: 'R$ 150 – R$ 400' },
+      ],
+      relatedBlogSlug: '/blog/ar-condicionado-nao-gela-sjc/',
+      relatedBlogTitle: 'AC Não Gela? Protocolo de Emergência SJC',
+    },
+    'marido-de-aluguel': {
+      priceItems: [
+        { label: 'Hora trabalhada (mín. 2h)',      range: 'R$ 80 – R$ 150/hora' },
+        { label: 'Instalação de suporte de TV',    range: 'R$ 150 – R$ 250' },
+        { label: 'Montagem de móveis',             range: 'R$ 200 – R$ 400' },
+        { label: 'Troca de torneira ou registro',  range: 'R$ 80 – R$ 180 (+peça)' },
+        { label: 'Pequenos reparos hidráulicos',   range: 'R$ 120 – R$ 250' },
+      ],
+      relatedBlogSlug: '/blog/marido-de-aluguel-sjc-guia/',
+      relatedBlogTitle: 'Marido de Aluguel em SJC: Guia Completo',
+    },
+  },
+  'Jacareí': {
+    // Intentionally empty — no verified Jacareí pricing data exists yet, and no
+    // Jacareí-specific blog content. Price list and blog cross-link render
+    // conditionally (commit 2). Backfill priceItems here when provider-sourced
+    // pricing is collected. Empty objects are deliberate, not an oversight.
+    'encanador': {}, 'eletricista': {}, 'chaveiro': {},
+    'ar-condicionado': {}, 'marido-de-aluguel': {},
+  },
+};
+
+// ══════════════════════════════════════════════════════════════════════════════
 // getStaticPaths — generates 145 routes across 2 cities: SJC (5 services × 24
 // neighborhoods = 120) + Jacareí (5 services × 5 neighborhoods = 25)
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
