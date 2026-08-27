@@ -29,7 +29,7 @@ const {
   neighborhood = frontmatter.neighborhood,
   region = frontmatter.region,
   category = frontmatter.category,
-  city = frontmatter.city || "São José dos Campos",
+  city = frontmatter.city || frontmatter.region || "São José dos Campos",
   lat = frontmatter.lat || "-23.2237",
   lng = frontmatter.lng || "-45.9009",
   date = frontmatter.date,

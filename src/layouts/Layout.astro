@@ -61,12 +61,10 @@ const canonicalURL = ensureTrailingSlash(
       "description": "Diretório online de serviços de emergência 24h em São José dos Campos. Conecta moradores a profissionais autônomos verificados — não presta os serviços diretamente.",
       "url": "https://servicosurgentes.com",
       "logo": "https://servicosurgentes.com/favicon.svg",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+55-12-99999-9999",
-        "contactType": "customer service",
-        "areaServed": "São José dos Campos"
-      }
+      "areaServed": [
+        { "@type": "City", "name": "São José dos Campos", "addressRegion": "SP", "addressCountry": "BR" },
+        { "@type": "City", "name": "Jacareí", "addressRegion": "SP", "addressCountry": "BR" }
+      ]
     }
     </script>
     

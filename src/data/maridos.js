@@ -181,5 +181,52 @@ export const maridos = [
       "Verificado",
       "Resposta Rápida"
     ]
-  }
+  },
+
+  // 8. Paulo Marido de Aluguel (Jacareí)
+  {
+    id: 8,
+    name: "Paulo Marido de Aluguel",
+    rating: 5.0,
+    reviews: 32,
+    neighborhood: "Vila Branca",
+    city: "Jacareí",
+    address: "Av. José Cândido Pôrto, 883 - Sala 01, Vila Branca",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 98135-7854",
+    whatsapp: true,
+    services: [
+      "Instalação de Prateleiras e Suportes",
+      "Pequenos Reparos Residenciais",
+      "Montagem de Móveis",
+      "Atendimento de Urgência"
+    ],
+    description: "Atende a Vila Branca e região com equipe organizada e pontual. Reviews destacam atendimento rápido via WhatsApp e serviço limpo e bem executado.",
+    badges: [
+      "Verificado"
+    ]
+  },
+
+  // 9. Marido de Aluguel Jacareí Valder
+  {
+    id: 9,
+    name: "Marido de Aluguel Jacareí Valder",
+    rating: 5.0,
+    reviews: 15,
+    neighborhood: "Conjunto São Benedito",
+    city: "Jacareí",
+    address: "R. Lothar Tiago Schultz, 150, Conj. São Benedito",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 98835-4346",
+    whatsapp: true,
+    services: [
+      "Troca de Torneira",
+      "Instalação de Varal",
+      "Pequenos Reparos Residenciais"
+    ],
+    description: "Profissional individual atendendo o Conjunto São Benedito e arredores. Reviews destacam confiança, preço justo e atendimento simpático.",
+    badges: [
+      "Verificado"
+    ]
+  },
 ];
