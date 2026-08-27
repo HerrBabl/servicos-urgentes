@@ -1489,7 +1489,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
       <h2 class="text-lg font-bold text-gray-900 mb-4">🗂️ Explore mais</h2>
       <div class="flex flex-wrap gap-3">
         <a
-          href={`/servicos/${service}/`}
+          href="#profissionais"
           class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
         >
           Todos os {svc.displayNamePlural} em {nbh.city}
@@ -1500,12 +1500,14 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         >
           Todos os Serviços em {nbh.displayName}
         </a>
-        <a
-          href="/servicos/"
-          class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
-        >
-          Central de Serviços {nbh.city}
-        </a>
+        {nbh.city === 'São José dos Campos' && (
+          <a
+            href="/servicos/"
+            class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+          >
+            Central de Serviços {nbh.city}
+          </a>
+        )}
         {overlay.relatedBlogSlug && (
           <a
             href={overlay.relatedBlogSlug}
@@ -1555,7 +1557,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         Encontre profissionais verificados com 4+ estrelas. Contato direto, sem intermediação, sem taxa.
       </p>
       <a
-        href={`/servicos/${service}/`}
+        href="#profissionais"
         class="inline-block bg-white text-red-600 font-bold text-lg px-10 py-4 rounded-xl hover:bg-gray-100 transition-colors shadow-lg"
       >
         Encontrar {svc.displayNamePlural} Verificados →
