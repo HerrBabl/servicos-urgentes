@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-jardim-santa-maria/"
 keywords: "encanador jardim santa maria jacarei, eletricista jardim santa maria jacarei, chaveiro jardim santa maria jacarei, marido de aluguel sjc, ar condicionado jardim santa maria, emergência jacareí"
 region: "Jacareí"
+city: "Jacareí"
 neighborhood: "Jardim Santa Maria, Vila Branca, Jardim Califórnia"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência no Jardim Santa Maria?"

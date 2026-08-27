@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-cidade-salvador/"
 keywords: "encanador cidade salvador jacarei, eletricista cidade salvador jacarei, chaveiro cidade salvador jacarei, marido de aluguel sjc, ar condicionado cidade salvador, emergência jacareí"
 region: "Jacareí"
+city: "Jacareí"
 neighborhood: "Cidade Salvador, Centro"
 faqSchema:
   - question: "Quanto custa um encanador de emergência na Cidade Salvador?"

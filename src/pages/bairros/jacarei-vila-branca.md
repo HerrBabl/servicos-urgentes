@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-vila-branca/"
 keywords: "encanador vila branca jacarei, eletricista vila branca jacarei, chaveiro vila branca jacarei, marido de aluguel sjc, ar condicionado vila branca, emergência condomínio jacareí"
 region: "Jacareí"
+city: "Jacareí"
 neighborhood: "Vila Branca, Jardim Califórnia, Jardim Santa Maria"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência na Vila Branca?"

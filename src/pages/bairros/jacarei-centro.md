@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-centro/"
 keywords: "encanador centro jacarei, eletricista centro jacarei, chaveiro centro jacarei, marido de aluguel sjc, ar condicionado centro jacarei, emergência jacareí"
 region: "Jacareí"
+city: "Jacareí"
 neighborhood: "Centro, Cidade Salvador, Jardim Santa Maria"
 faqSchema:
   - question: "Quanto custa um eletricista de emergência no Centro de Jacareí?"

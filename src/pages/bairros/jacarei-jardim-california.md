@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-jardim-california/"
 keywords: "encanador jardim california jacarei, eletricista jardim california jacarei, chaveiro jardim california jacarei, marido de aluguel sjc, ar condicionado jardim california, emergência jacareí"
 region: "Jacareí"
+city: "Jacareí"
 neighborhood: "Jardim Califórnia, Vila Branca, Jardim Santa Maria"
 faqSchema:
   - question: "Quanto custa um encanador de emergência no Jardim Califórnia?"
