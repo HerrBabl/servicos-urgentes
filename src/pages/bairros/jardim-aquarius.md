@@ -146,7 +146,7 @@ O Jardim Aquarius tem acesso principal pela **Av. Jorge Zarur**, corredor da Zon
 
 Para urgências noturnas, o acesso é fluido e o tempo de resposta fica na faixa de 25 a 30 minutos.
 
-**Bairros próximos também atendidos:** [Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/) · [Jardim das Colinas](/bairros/jardim-das-colinas/) · [Urbanova](/bairros/urbanova/)
+**Bairros próximos também atendidos:** [Parque Residencial Aquarius](/bairros/parque-residencial-aquarius/) · [Jardim das Colinas](/bairros/jardim-das-colinas/) · [Jardim Esplanada](/bairros/jardim-esplanada/)
 
 [⬆️ Voltar ao topo](#top)
 

@@ -146,8 +146,6 @@ Campos de São José fica na Zona Leste de SJC, com acesso principal pela Estrad
 
 Profissionais baseados na Zona Leste ou próximos ao eixo da rodovia chegam com mais eficiência. Para emergências noturnas, a Av. Antônio da Costa Nunes tem fluxo reduzido e o tempo de resposta melhora consideravelmente.
 
-**Bairros próximos também atendidos:** [Jardim Satélite](/bairros/jardim-satelite/) · [Jardim das Colinas](/bairros/jardim-das-colinas/) · [São Dimas](/bairros/sao-dimas/)
-
 [⬆️ Voltar ao topo](#top)
 
 ---

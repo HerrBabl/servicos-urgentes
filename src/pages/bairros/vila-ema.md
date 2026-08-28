@@ -146,7 +146,7 @@ A Vila Ema fica bem posicionada na Zona Centro-Sul de SJC, com acesso facilitado
 
 Profissionais que conhecem a região chegam pela Av. Heitor Villa Lobos, cortando caminho pelas ruas internas. Para emergências fora do horário comercial, o tempo de resposta costuma ser ainda mais rápido pela ausência de trânsito.
 
-**Bairros próximos também atendidos:** [Jardim Satélite](/bairros/jardim-satelite/) · [Bosque dos Eucaliptos](/bairros/bosque-dos-eucaliptos/) · [São Dimas](/bairros/sao-dimas/)
+**Bairros próximos também atendidos:** [Jardim Maringá](/bairros/jardim-maringa/) · [São Dimas](/bairros/sao-dimas/)
 
 [⬆️ Voltar ao topo](#top)
 
