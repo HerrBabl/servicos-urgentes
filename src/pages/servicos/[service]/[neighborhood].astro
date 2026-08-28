@@ -1308,7 +1308,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         {svc.icon} {svc.displayName} em {nbh.displayName}: O que você precisa saber
       </h2>
       <p class="text-gray-700 leading-relaxed mb-4">
-        O <strong>{nbh.displayName}</strong> é um bairro com {nbh.description}. Isso significa que os profissionais
+        O <strong>{nbh.displayName}</strong> {nbh.description.toLowerCase().startsWith('bairro') ? `é um ${nbh.description}` : `é um bairro com ${nbh.description}`}. Isso significa que os profissionais
         que atendem aqui estão acostumados com {nbh.characteristics} — fatores que impactam diretamente o tipo
         de serviço e o tempo de resposta para {svc.displayName.toLowerCase()}.
       </p>
