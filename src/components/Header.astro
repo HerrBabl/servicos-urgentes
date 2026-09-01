@@ -14,7 +14,25 @@
         <a href="/" class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors">
           Início
         </a>
-        
+
+        <!-- Cidades dropdown — city #3's hub page gets added here by hand when
+             built, same manual-addition-per-city pattern as cityHomepageContext
+             and Layout.astro's areaServed array. Not auto-generated from data. -->
+        <div class="relative" id="cities-dropdown">
+          <button class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors flex items-center" id="cities-button">
+            Cidades
+            <svg class="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden" id="cities-menu">
+            <div class="py-1">
+              <a href="/" class="block px-4 py-2 text-sm font-semibold text-red-600 hover:bg-red-50 border-b border-gray-200">📍 São José dos Campos</a>
+              <a href="/jacarei/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">📍 Jacareí</a>
+            </div>
+          </div>
+        </div>
+
         <div class="relative" id="services-dropdown">
           <button class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors flex items-center" id="services-button">
             Serviços
@@ -62,7 +80,22 @@
     <div class="md:hidden hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-100">
         <a href="/" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Início</a>
-        
+
+        <!-- Cidades submenu — city #3's hub page gets added here by hand when
+             built, same manual-addition-per-city pattern as everywhere else. -->
+        <div>
+          <button class="w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600 flex items-center justify-between" id="mobile-cities-button">
+            Cidades
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="hidden pl-4" id="mobile-cities-menu">
+            <a href="/" class="block px-3 py-2 text-sm font-semibold text-red-600 hover:text-red-600 border-b border-gray-200">📍 São José dos Campos</a>
+            <a href="/jacarei/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">📍 Jacareí</a>
+          </div>
+        </div>
+
         <div>
           <button class="w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600 flex items-center justify-between" id="mobile-services-button">
             Serviços
@@ -98,6 +131,35 @@
     if (mobileMenuButton && mobileMenu) {
       mobileMenuButton.addEventListener('click', function() {
         mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    // Desktop cities dropdown
+    const citiesButton = document.getElementById('cities-button');
+    const citiesMenu = document.getElementById('cities-menu');
+    const citiesDropdown = document.getElementById('cities-dropdown');
+
+    if (citiesButton && citiesMenu) {
+      citiesButton.addEventListener('click', function(e) {
+        e.stopPropagation();
+        citiesMenu.classList.toggle('hidden');
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(e) {
+        if (citiesDropdown && !citiesDropdown.contains(e.target)) {
+          citiesMenu.classList.add('hidden');
+        }
+      });
+    }
+
+    // Mobile cities submenu
+    const mobileCitiesButton = document.getElementById('mobile-cities-button');
+    const mobileCitiesMenu = document.getElementById('mobile-cities-menu');
+
+    if (mobileCitiesButton && mobileCitiesMenu) {
+      mobileCitiesButton.addEventListener('click', function() {
+        mobileCitiesMenu.classList.toggle('hidden');
       });
     }
 
