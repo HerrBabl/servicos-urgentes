@@ -14,6 +14,16 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
   description={description}
   keywords={keywords}
 >
+<script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://servicosurgentes.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Serviços", "item": "https://servicosurgentes.com/servicos/" },
+      { "@type": "ListItem", "position": 3, "name": "Eletricistas", "item": "https://servicosurgentes.com/servicos/eletricista/" }
+    ]
+  })} />
+
 <!-- SEO H1: serviceTitle inside BusinessListing renders as H2; this provides the page H1 for crawlers -->
   <h1 class="sr-only">Eletricistas 24h em São José dos Campos</h1>
   

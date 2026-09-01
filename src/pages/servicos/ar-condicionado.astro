@@ -56,6 +56,15 @@ const keywords = "ar condicionado sjc, limpeza de ar condicionado sjc, técnico 
     }
   }
   </script>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://servicosurgentes.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Serviços", "item": "https://servicosurgentes.com/servicos/" },
+      { "@type": "ListItem", "position": 3, "name": "Ar-Condicionado", "item": "https://servicosurgentes.com/servicos/ar-condicionado/" }
+    ]
+  })} />
 
   <!-- PREVENTIVE MAINTENANCE ALERT - DIRECTORY COMPLIANT -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">

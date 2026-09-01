@@ -68,48 +68,6 @@ const canonicalURL = ensureTrailingSlash(
     }
     </script>
     
-    <!-- Sitewide service BreadcrumbList schema -->
-    <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": "https://servicosurgentes.com/servicos/encanador/",
-        "name": "Encanador 24h"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@id": "https://servicosurgentes.com/servicos/chaveiro/",
-        "name": "Chaveiro 24h"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@id": "https://servicosurgentes.com/servicos/eletricista/",
-        "name": "Eletricista de Emergência 24h"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@id": "https://servicosurgentes.com/servicos/ar-condicionado/",
-        "name": "Técnico em Ar Condicionado 24h"
-      }
-    }
-  ]
-}
-    </script>
-
     <!-- ✅ ADDED: Named head slot — allows child pages to inject page-specific
          schema (FAQPage, Service, BreadcrumbList) and OG/Twitter meta tags
          directly into <head>. Zero impact on existing pages that don't use it. -->

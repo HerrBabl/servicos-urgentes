@@ -55,6 +55,15 @@ const keywords = "marido de aluguel sjc, reparos residenciais são josé dos cam
     }
   }
   </script>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://servicosurgentes.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Serviços", "item": "https://servicosurgentes.com/servicos/" },
+      { "@type": "ListItem", "position": 3, "name": "Marido de Aluguel", "item": "https://servicosurgentes.com/servicos/marido-de-aluguel/" }
+    ]
+  })} />
 
   <BusinessListing 
     businesses={maridos}
