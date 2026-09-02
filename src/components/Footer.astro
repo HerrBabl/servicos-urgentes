@@ -1,4 +1,13 @@
 ---
+import { cityHomepageContext } from '../data/cities.ts';
+
+// Same city-aware fix as Header.astro (commit f777927): on any page under a
+// known city path, service links point to that city's real aggregation page
+// instead of always defaulting to SJC's hubs. Falls through safely to the
+// existing SJC hrefs everywhere else — zero behavior change except /jacarei/*.
+const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+const currentCitySlug = pathSegments[0];
+const isOnCityPage = currentCitySlug in cityHomepageContext;
 ---
 
 <footer class="bg-gray-900 text-white">
@@ -33,11 +42,11 @@
       <div>
         <h3 class="text-lg font-semibold mb-4">Serviços</h3>
         <ul class="space-y-2">
-          <li><a href="/servicos/encanador/" class="text-gray-300 hover:text-white transition-colors">Encanador 24h</a></li>
-          <li><a href="/servicos/chaveiro/" class="text-gray-300 hover:text-white transition-colors">Chaveiro 24h</a></li>
-          <li><a href="/servicos/eletricista/" class="text-gray-300 hover:text-white transition-colors">Eletricista 24h</a></li>
-          <li><a href="/servicos/ar-condicionado/" class="text-gray-300 hover:text-white transition-colors">Ar Condicionado 24h</a></li>
-          <li><a href="/servicos/marido-de-aluguel/" class="text-gray-300 hover:text-white transition-colors">🛠️ Marido de Aluguel</a></li>
+          <li><a href={isOnCityPage ? `/servicos/encanador/${currentCitySlug}/` : '/servicos/encanador/'} class="text-gray-300 hover:text-white transition-colors">Encanador 24h</a></li>
+          <li><a href={isOnCityPage ? `/servicos/chaveiro/${currentCitySlug}/` : '/servicos/chaveiro/'} class="text-gray-300 hover:text-white transition-colors">Chaveiro 24h</a></li>
+          <li><a href={isOnCityPage ? `/servicos/eletricista/${currentCitySlug}/` : '/servicos/eletricista/'} class="text-gray-300 hover:text-white transition-colors">Eletricista 24h</a></li>
+          <li><a href={isOnCityPage ? `/servicos/ar-condicionado/${currentCitySlug}/` : '/servicos/ar-condicionado/'} class="text-gray-300 hover:text-white transition-colors">Ar Condicionado 24h</a></li>
+          <li><a href={isOnCityPage ? `/servicos/marido-de-aluguel/${currentCitySlug}/` : '/servicos/marido-de-aluguel/'} class="text-gray-300 hover:text-white transition-colors">🛠️ Marido de Aluguel</a></li>
         </ul>
       </div>
 
