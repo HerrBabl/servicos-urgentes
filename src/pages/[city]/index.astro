@@ -17,27 +17,11 @@
 import Layout from '../../layouts/Layout.astro';
 import { neighborhoodContext } from '../../data/neighborhoods.ts';
 
-// City-homepage-specific copy (hero, meta). Co-located here rather than in
-// [neighborhood].astro's cityContext/cityServiceContext objects because this
-// page is the only consumer — those objects live there because the combo-page
-// template is their only consumer.
-const cityHomepageContext: Record<string, {
-  displayName: string;
-  heroHeadline: string;
-  heroSubhead: string;
-  metaTitle: string;
-  metaDescription: string;
-  canonicalURL: string;
-}> = {
-  'jacarei': {
-    displayName: 'Jacareí',
-    heroHeadline: 'Emergência Doméstica em Jacareí? Ajuda Agora.',
-    heroSubhead: 'Encanador, eletricista, chaveiro, técnico de ar-condicionado e marido de aluguel — profissionais verificados atendendo Jacareí 24 horas.',
-    metaTitle: 'Serviços de Emergência 24h em Jacareí | Serviços Urgentes',
-    metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Jacareí. Profissionais verificados, contato direto, sem intermediação.',
-    canonicalURL: 'https://servicosurgentes.com/jacarei/',
-  },
-};
+// cityHomepageContext lives in its own module — a route file that also exports
+// getStaticPaths() cannot export a second top-level const without breaking
+// Astro's esbuild parse pass. Also needed by the new
+// src/pages/servicos/[service]/[city]/index.astro route.
+import { cityHomepageContext } from '../../data/cities.ts';
 
 // Fixed 5-service list for the grid — mirrors the same hardcoded set already
 // used in src/pages/index.astro's service grid (no shared/exported source
@@ -136,14 +120,8 @@ const heroBorder: Record<string, string> = {
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
         {services.map(svc => (
-          <!--
-            Temporary: links to the Centro combo page rather than a service×city
-            aggregation page (e.g. /servicos/eletricista/jacarei/), which doesn't
-            exist yet — that's a distinct, larger piece of future work. Centro is
-            the best available single-service entry point for Jacareí today.
-          -->
           <a
-            href={`/servicos/${svc.slug}/jacarei-centro/`}
+            href={`/servicos/${svc.slug}/jacarei/`}
             class={`bg-white rounded-lg shadow-lg p-6 border-b-4 ${heroBorder[svc.color]} hover:-translate-y-1 transition-all text-center group`}
           >
             <div class="text-3xl mb-2 group-hover:scale-110 transition-transform" aria-hidden="true">{svc.icon}</div>

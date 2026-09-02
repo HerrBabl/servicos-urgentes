@@ -1,0 +1,170 @@
+---
+// src/pages/servicos/[service]/[city]/index.astro
+//
+// Service × city aggregation page — closes the gap flagged in a code comment
+// during /jacarei/'s build (2026-08-31): that hub page's service-grid links
+// pointed to jacarei-centro as a temporary workaround because this route
+// didn't exist yet. It does now.
+//
+// Route-collision check (2026-09-01): confirmed safe by literal enumeration,
+// not just pattern reasoning. This file sits at the same depth as the
+// existing src/pages/servicos/[service]/[neighborhood].astro (both produce
+// /servicos/:service/:X/), but since this is fully static output (SSG),
+// each route's getStaticPaths() resolves to a flat list of literal output
+// paths at build time — no runtime pattern-matching ambiguity. Checked every
+// bairro slug [neighborhood].astro generates against every city slug this
+// file generates: no overlap (bairro slugs are always prefixed, e.g.
+// 'jacarei-centro', never the bare city slug 'jacarei'). Safe today; if a
+// future bairro or city slug ever collides literally, this assumption breaks.
+//
+// getStaticPaths() only generates routes for cities with a real hub page
+// (i.e. present in cityHomepageContext) — not SJC, which already has its
+// own dedicated /servicos/[service]/ pages and isn't in that data.
+
+import Layout from '../../../../layouts/Layout.astro';
+import BusinessListing from '../../../../components/BusinessListing.astro';
+import { serviceContext } from '../../../../data/services.ts';
+import { cityHomepageContext } from '../../../../data/cities.ts';
+import { neighborhoodContext } from '../../../../data/neighborhoods.ts';
+
+export function getStaticPaths() {
+  const cities = Object.keys(cityHomepageContext); // today: ['jacarei']
+  const services = Object.keys(serviceContext);
+  return services.flatMap(service =>
+    cities.map(city => ({ params: { service, city } }))
+  );
+}
+
+const { service, city } = Astro.params as { service: string; city: string };
+const svc = serviceContext[service];
+const ctx = cityHomepageContext[city];
+
+// Same aggregation approach already proven correct on all 145 combo pages
+// (svc.localData.filter(b => b.city === nbh.city) in [neighborhood].astro) —
+// pure city filter, no bairro-name matching. No dedup needed: each provider
+// record has exactly one `city` field, so a city filter can't produce
+// duplicates. BusinessListing.astro already normalizes both provider data
+// schemas (business_name/name, star_rating/rating, etc.) and already derives
+// its own per-bairro filter dropdown from each provider's `neighborhood`
+// field — no custom bairro-tagging logic needed here either.
+const providers = svc.localData.filter((b: any) => b.city === ctx.displayName);
+
+// Bairro quick-links, derived at build time — never hardcoded — same pattern
+// as [city]/index.astro's own bairro list.
+const bairros = Object.entries(neighborhoodContext)
+  .filter(([, data]) => data.city === ctx.displayName)
+  .map(([slug, data]) => ({
+    slug,
+    displayName: data.displayName,
+    region: data.region,
+  }));
+
+const pageTitle = `${svc.displayNamePlural} em ${ctx.displayName} — Serviços Urgentes`;
+const pageDescription = `Encontre ${svc.displayNamePlural.toLowerCase()} verificados em toda ${ctx.displayName}. Profissionais com 4+ estrelas, contato direto, sem intermediação.`;
+const canonicalURL = `https://servicosurgentes.com/servicos/${service}/${city}/`;
+
+// Page-level schema: Service + BreadcrumbList (plain URL string item — the
+// now-correct sitewide format, confirmed this morning; do NOT reintroduce
+// the nested-object form) + CollectionPage, all built from `service`/`ctx`
+// rather than hardcoded, so this is structurally ready for future cities.
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": `${svc.displayNamePlural} em ${ctx.displayName}`,
+      "description": pageDescription,
+      "provider": {
+        "@type": "Organization",
+        "name": "Profissionais Verificados via Serviços Urgentes",
+        "description": `Diretório de conexão entre moradores de ${ctx.displayName} e profissionais autônomos verificados. Serviços Urgentes não presta os serviços diretamente.`,
+        "url": "https://servicosurgentes.com",
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": ctx.displayName,
+        "addressRegion": "SP",
+        "addressCountry": "BR",
+      },
+      "serviceType": svc.displayName,
+      "url": canonicalURL,
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Início",              "item": "https://servicosurgentes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Serviços",            "item": "https://servicosurgentes.com/servicos/" },
+        { "@type": "ListItem", "position": 3, "name": svc.displayNamePlural, "item": `https://servicosurgentes.com/servicos/${service}/` },
+        { "@type": "ListItem", "position": 4, "name": ctx.displayName,       "item": canonicalURL },
+      ],
+    },
+    {
+      "@type": "CollectionPage",
+      "name": pageTitle,
+      "description": pageDescription,
+      "url": canonicalURL,
+    },
+  ],
+};
+
+const heroBorderColor: Record<string, string> = {
+  blue:   'border-blue-600',
+  yellow: 'border-yellow-500',
+  orange: 'border-orange-500',
+  cyan:   'border-cyan-500',
+  green:  'border-green-600',
+};
+const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
+---
+<Layout title={pageTitle} description={pageDescription} canonicalURL={canonicalURL}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(pageSchema)} />
+
+  <!-- 1. Hero -->
+  <section class="relative overflow-hidden bg-gradient-to-br from-red-600 via-red-700 to-red-800 py-20 md:py-28">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-red-100 font-semibold uppercase tracking-wide mb-3">{ctx.displayName}, SP</p>
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+        {svc.icon} {svc.displayNamePlural} em {ctx.displayName}
+      </h1>
+      <p class="text-xl text-red-100 max-w-2xl mx-auto">
+        Profissionais verificados com 4+ estrelas atendendo toda {ctx.displayName}. Contato direto, sem intermediação.
+      </p>
+    </div>
+  </section>
+
+  <!-- 2. Provider listing — reuses BusinessListing as-is, same component every
+       combo page already uses. Handles both provider data schemas internally
+       and derives its own per-bairro filter dropdown from provider.neighborhood. -->
+  <BusinessListing
+    businesses={providers}
+    serviceTitle={`${svc.displayNamePlural} Verificados em ${ctx.displayName}`}
+    serviceDescription={`Profissionais que atendem toda ${ctx.displayName} para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
+  />
+
+  <!-- 3. Bairro quick-links -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 text-center">
+        Ou escolha um bairro específico
+      </h2>
+      <p class="text-gray-600 text-center mb-12">
+        Veja {svc.displayNamePlural.toLowerCase()} focados em cada bairro de {ctx.displayName}
+      </p>
+      <div class={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4`}>
+        {bairros.map(bairro => (
+          <a
+            href={`/servicos/${service}/${bairro.slug}/`}
+            class={`bg-white rounded-xl border border-gray-200 p-4 hover:shadow-md transition-all flex items-center gap-3 group border-t-4 ${heroBorder}`}
+          >
+            <span class="text-xl flex-shrink-0" aria-hidden="true">{svc.icon}</span>
+            <div class="min-w-0">
+              <div class="font-semibold text-gray-900 text-sm truncate">{bairro.displayName}</div>
+              <div class="text-xs text-gray-500 mt-0.5">{bairro.region}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+</Layout>
