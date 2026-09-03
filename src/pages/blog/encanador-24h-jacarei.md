@@ -7,7 +7,7 @@ dateModified: "2026-09-02T16:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
-image: "https://images.unsplash.com/photo-1607472829322-eb93a757f733?q=80&w=800"
+image: "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGx1bWJlciUyMGF0JTIwd29ya3xlbnwwfHwwfHx8MA%3D%3D"
 imageAlt: "Encanador profissional realizando reparo hidráulico residencial em Jacareí"
 tags: ["Encanador", "Emergência", "Jacareí", "24h"]
 slug: "encanador-24h-jacarei"
