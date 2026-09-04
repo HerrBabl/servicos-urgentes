@@ -139,6 +139,8 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
     businesses={providers}
     serviceTitle={`${svc.displayNamePlural} Verificados em ${ctx.displayName}`}
     serviceDescription={`Profissionais que atendem toda ${ctx.displayName} para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
+    service={service}
+    city={ctx.displayName}
   />
 
   <!-- 3. Bairro quick-links -->

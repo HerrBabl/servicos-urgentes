@@ -464,6 +464,8 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         businesses={svc.localData.filter(b => b.city === nbh.city)}
         serviceTitle={`${svc.displayNamePlural} Verificados em ${nbh.displayName}`}
         serviceDescription={`Profissionais que atendem ${nbh.displayName} e toda a região de ${nbh.city} para ${svc.displayName.toLowerCase()}. Contato direto — sem taxas de intermediação.`}
+        service={service}
+        city={nbh.city}
       />
     </div>
 
