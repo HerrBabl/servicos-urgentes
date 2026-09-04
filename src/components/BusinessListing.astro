@@ -200,6 +200,7 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
   import { supabase } from '../lib/supabase';
 
   function trackClick(ctaType: string, providerName: string, neighborhood: string, service: string, city: string) {
+    if (localStorage.getItem('su_no_track') === '1') return;
     supabase.from('clicks').insert({
       provider_name: providerName,
       cta_type: ctaType,
