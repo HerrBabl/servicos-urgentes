@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Jardim Califórnia - Jacareí | Guia 2026"
 description: "Encanador, eletricista, chaveiro e ar-condicionado no Jardim Califórnia, Jacareí. Cobertura perto da Capela São Francisco e Rod. Geraldo Scavone. 24h."
 date: "2026-08-20T21:00:00-03:00"
-dateModified: "2026-09-05T15:47:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Jardim Califórnia", "Jacareí", "Guia de Bairro", "Rodovia Geraldo Scav
 slug: "servicos-jardim-california-jacarei"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-jardim-california/"
-keywords: "encanador jardim california jacarei, eletricista jardim california jacarei, chaveiro jardim california jacarei, marido de aluguel sjc, ar condicionado jardim california, emergência jacareí"
+keywords: "encanador jardim california jacarei, eletricista jardim california jacarei, chaveiro jardim california jacarei, marido de aluguel jacareí, ar condicionado jardim california, emergência jacareí"
 region: "Jacareí"
 city: "Jacareí"
 neighborhood: "Jardim Califórnia, Vila Branca, Jardim Santa Maria"

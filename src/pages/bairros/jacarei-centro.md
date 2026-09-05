@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Centro de Jacareí | Guia 2026"
 description: "Encanador, eletricista, chaveiro e ar-condicionado no Centro de Jacareí. Cobertura perto do Mercado Municipal e Praça dos Três Poderes. Atendimento 24h."
 date: "2026-08-20T21:20:00-03:00"
-dateModified: "2026-09-05T15:47:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Centro", "Jacareí", "Guia de Bairro", "Zona Comercial"]
 slug: "servicos-centro-jacarei"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-centro/"
-keywords: "encanador centro jacarei, eletricista centro jacarei, chaveiro centro jacarei, marido de aluguel sjc, ar condicionado centro jacarei, emergência jacareí"
+keywords: "encanador centro jacarei, eletricista centro jacarei, chaveiro centro jacarei, marido de aluguel jacareí, ar condicionado centro jacarei, emergência jacareí"
 region: "Jacareí"
 city: "Jacareí"
 neighborhood: "Centro, Cidade Salvador, Jardim Santa Maria"

@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chaveiro 24h em Jacareí: Guia Completo para Emergências 2026"
 description: "Trancado para fora, chave quebrada ou fechadura emperrada em Jacareí? Guia completo de chaveiros 24h verificados no Centro, Vila Branca e mais bairros."
 date: "2026-09-02T13:00:00-03:00"
-dateModified: "2026-09-02T13:00:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Chaveiro", "Emergência", "Jacareí", "24h"]
 slug: "chaveiro-24h-jacarei"
 category: "Segurança Residencial"
 canonicalURL: "https://servicosurgentes.com/blog/chaveiro-24h-jacarei/"
-keywords: "chaveiro 24h jacareí, chaveiro jacareí, chaveiro emergência jacareí, marido de aluguel sjc, chaveiro centro jacareí, trancado para fora jacareí"
+keywords: "chaveiro 24h jacareí, chaveiro jacareí, chaveiro emergência jacareí, marido de aluguel jacareí, chaveiro centro jacareí, trancado para fora jacareí"
 region: "Jacareí"
 neighborhood: "Centro, Vila Branca, Jardim Califórnia, Jardim Santa Maria, Cidade Salvador"
 faqSchema:

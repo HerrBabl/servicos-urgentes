@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Encanador 24h em Jacareí: Guia Completo para Emergências 2026"
 description: "Vazamento, cano estourado ou entupimento em Jacareí? Guia completo de encanadores 24h verificados no Centro, Vila Branca, Jardim Califórnia e mais."
 date: "2026-09-02T16:30:00-03:00"
-dateModified: "2026-09-02T16:30:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Encanador", "Emergência", "Jacareí", "24h"]
 slug: "encanador-24h-jacarei"
 category: "Hidráulica"
 canonicalURL: "https://servicosurgentes.com/blog/encanador-24h-jacarei/"
-keywords: "encanador 24h jacareí, encanador jacareí, encanador emergência jacareí, marido de aluguel sjc, encanador centro jacareí, vazamento jacareí"
+keywords: "encanador 24h jacareí, encanador jacareí, encanador emergência jacareí, marido de aluguel jacareí, encanador centro jacareí, vazamento jacareí"
 region: "Jacareí"
 neighborhood: "Centro, Vila Branca, Jardim Califórnia, Jardim Santa Maria, Cidade Salvador"
 faqSchema:

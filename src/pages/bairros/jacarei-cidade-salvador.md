@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Cidade Salvador - Jacareí | Guia 2026"
 description: "Encanador, eletricista, chaveiro e ar-condicionado na Cidade Salvador, Jacareí. Cobertura na Rua Santo Ivo, perto da Paróquia São José Operário. 24h."
 date: "2026-08-20T21:30:00-03:00"
-dateModified: "2026-09-05T15:47:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Cidade Salvador", "Jacareí", "Guia de Bairro", "Rua Santo Ivo"]
 slug: "servicos-cidade-salvador-jacarei"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-cidade-salvador/"
-keywords: "encanador cidade salvador jacarei, eletricista cidade salvador jacarei, chaveiro cidade salvador jacarei, marido de aluguel sjc, ar condicionado cidade salvador, emergência jacareí"
+keywords: "encanador cidade salvador jacarei, eletricista cidade salvador jacarei, chaveiro cidade salvador jacarei, marido de aluguel jacareí, ar condicionado cidade salvador, emergência jacareí"
 region: "Jacareí"
 city: "Jacareí"
 neighborhood: "Cidade Salvador, Centro"

@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Eletricista 24h em Jacareí: Guia Completo para Emergências 2026"
 description: "Curto-circuito, disjuntor caindo ou sem luz em Jacareí? Guia completo de eletricistas 24h verificados no Centro, Vila Branca, Jardim Califórnia e mais."
 date: "2026-09-02T09:00:00-03:00"
-dateModified: "2026-09-02T09:00:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Eletricista", "Emergência", "Jacareí", "24h"]
 slug: "eletricista-24h-jacarei"
 category: "Guia de Emergência"
 canonicalURL: "https://servicosurgentes.com/blog/eletricista-24h-jacarei/"
-keywords: "eletricista 24h jacareí, eletricista jacareí, eletricista emergência jacareí, marido de aluguel sjc, eletricista centro jacareí, curto circuito jacareí"
+keywords: "eletricista 24h jacareí, eletricista jacareí, eletricista emergência jacareí, marido de aluguel jacareí, eletricista centro jacareí, curto circuito jacareí"
 region: "Jacareí"
 neighborhood: "Centro, Vila Branca, Jardim Califórnia, Jardim Santa Maria, Cidade Salvador"
 faqSchema:

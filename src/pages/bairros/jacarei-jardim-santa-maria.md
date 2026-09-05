@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Jardim Santa Maria - Jacareí | Guia 2026"
 description: "Encanador, eletricista, chaveiro e ar-condicionado no Jardim Santa Maria, Jacareí. Cobertura perto da Igreja Santa Maria e Av. Avareí. Atendimento 24h."
 date: "2026-08-20T21:10:00-03:00"
-dateModified: "2026-09-05T15:47:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Jardim Santa Maria", "Jacareí", "Guia de Bairro", "Igreja Santa Maria"]
 slug: "servicos-jardim-santa-maria-jacarei"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-jardim-santa-maria/"
-keywords: "encanador jardim santa maria jacarei, eletricista jardim santa maria jacarei, chaveiro jardim santa maria jacarei, marido de aluguel sjc, ar condicionado jardim santa maria, emergência jacareí"
+keywords: "encanador jardim santa maria jacarei, eletricista jardim santa maria jacarei, chaveiro jardim santa maria jacarei, marido de aluguel jacareí, ar condicionado jardim santa maria, emergência jacareí"
 region: "Jacareí"
 city: "Jacareí"
 neighborhood: "Jardim Santa Maria, Vila Branca, Jardim Califórnia"

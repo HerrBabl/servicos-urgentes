@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Vila Branca - Jacareí | Guia 2026"
 description: "Encanador, eletricista, chaveiro e ar-condicionado na Vila Branca, Jacareí. Cobertura em condomínios fechados perto do Pátio Villa Branca. 24h."
 date: "2026-08-20T20:45:00-03:00"
-dateModified: "2026-09-05T15:47:00-03:00"
+dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -13,7 +13,7 @@ tags: ["Vila Branca", "Jacareí", "Guia de Bairro", "Condomínio Fechado"]
 slug: "servicos-vila-branca-jacarei"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/jacarei-vila-branca/"
-keywords: "encanador vila branca jacarei, eletricista vila branca jacarei, chaveiro vila branca jacarei, marido de aluguel sjc, ar condicionado vila branca, emergência condomínio jacareí"
+keywords: "encanador vila branca jacarei, eletricista vila branca jacarei, chaveiro vila branca jacarei, marido de aluguel jacareí, ar condicionado vila branca, emergência condomínio jacareí"
 region: "Jacareí"
 city: "Jacareí"
 neighborhood: "Vila Branca, Jardim Califórnia, Jardim Santa Maria"

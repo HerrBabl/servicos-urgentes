@@ -54,7 +54,7 @@ We describe PROBLEMS. We never describe SOLUTIONS that require technical experti
   Match whichever convention the page type already uses. Using the wrong one breaks the anchor link silently — no build error, just a dead link on click.
 - FAQ section: minimum 4, maximum 6, must appear in visible page body, not only in frontmatter schema.
 - `dateModified` updated on every meaningful markdown edit (not required for `.astro` components).
-- **"marido de aluguel sjc"** always at keyword position 4 in the frontmatter `keywords` field.
+- **"marido de aluguel [cidade]"** always at keyword position 4 in the frontmatter `keywords` field, where `[cidade]` matches the page's own city (e.g. "marido de aluguel sjc" for São José dos Campos pages, "marido de aluguel jacareí" for Jacareí pages, "marido de aluguel taubaté" for future Taubaté pages).
 - Never add a `# Heading` in markdown body — `ContentLayout.astro` renders H1 from frontmatter `title`. A body-level H1 creates a duplicate.
 - Street references: Aquarius = Av. Cassiano Ricardo; Urbanova = Av. Possidônio José de Freitas.
 
