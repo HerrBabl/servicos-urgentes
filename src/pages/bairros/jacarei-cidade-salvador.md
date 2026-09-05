@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência na Cidade Salvador - Jacareí | Guia 2026"
 description: "Encanador, eletricista, chaveiro e ar-condicionado na Cidade Salvador, Jacareí. Cobertura na Rua Santo Ivo, perto da Paróquia São José Operário. 24h."
 date: "2026-08-20T21:30:00-03:00"
-dateModified: "2026-08-20T21:30:00-03:00"
+dateModified: "2026-09-05T15:47:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre"
@@ -43,7 +43,7 @@ O Centro fica a cerca de 3 km a oeste, conectado à Cidade Salvador pela Rod. Ni
    - [Chaveiro](#chaveiro)
    - [Ar-Condicionado](#ar-condicionado)
    - [Marido de Aluguel](#marido)
-3. [Tabela de Preços Estimados 2026](#3-precos)
+3. [Preços em Jacareí](#3-precos)
 4. [Cobertura e Tempo de Chegada](#4-cobertura)
 5. [Perguntas Frequentes](#5-faq)
 
@@ -117,21 +117,14 @@ A Cidade Salvador tem perfil residencial denso, com boa infraestrutura escolar e
 
 ---
 
-## <span id="3-precos"></span>3. Tabela de Preços Estimados (Cidade Salvador 2026)
+## <span id="3-precos"></span>3. Preços na Cidade Salvador, Jacareí
 
-| Serviço | Faixa de Preço (R$) | Observações |
-|---------|---------------------|-------------|
-| **Elétrica** | | |
-| Troca de disjuntor | 150 - 300 | Quadro residencial padrão |
-| Reparo de curto-circuito | 200 - 400 | Pode variar conforme o imóvel |
-| **Hidráulica** | | |
-| Desentupimento de ralo/pia | 150 - 300 | Atendimento inicial |
-| Reparo de vazamento simples | 180 - 350 | Sem troca de tubulação |
-| **Chaveiro** | | |
-| Abertura de porta (sem dano) | 100 - 220 | Chamado de emergência |
-| Troca de fechadura simples | 150 - 300 | Peça + mão de obra |
-| **Diversos** | | |
-| Manutenção de ar-condicionado (limpeza) | 120 - 250 | Split até 12.000 BTUs |
+Ainda não temos valores médios verificados para Jacareí. Peça um orçamento gratuito diretamente ao profissional antes de autorizar qualquer serviço — o valor varia conforme o tipo de reparo e o horário do atendimento.
+
+**O que perguntar no primeiro contato:**
+- Qual o valor da visita técnica, independente do serviço ser realizado?
+- Há acréscimo para atendimento noturno ou em fins de semana?
+- O orçamento fechado inclui material ou é cobrado à parte?
 
 <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8 rounded-r-lg">
   <div class="flex items-start">
@@ -139,10 +132,10 @@ A Cidade Salvador tem perfil residencial denso, com boa infraestrutura escolar e
       <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
     </div>
     <div class="ml-3">
-      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Isenção de Responsabilidade sobre Preços</h3>
+      <h3 class="text-lg font-semibold text-yellow-800 mb-2">⚠️ Sobre Preços em Jacareí</h3>
       <div class="text-sm text-yellow-700 space-y-2">
-        <p>Os valores mencionados são <strong>estimativas de mercado para 2026</strong> na região da Cidade Salvador, apresentadas apenas como referência inicial.</p>
-        <div class="bg-white/50 p-3 rounded"><p class="font-semibold mb-1">O Serviços Urgentes é um diretório de conexão e:</p><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
+        <p>Ainda não temos valores médios verificados para Jacareí. O Serviços Urgentes é um diretório de conexão e:</p>
+        <div class="bg-white/50 p-3 rounded"><ul class="list-none space-y-1 ml-1"><li>❌ Não define preços dos prestadores</li><li>❌ Não interfere nas negociações comerciais</li><li>❌ Não garante valores finais</li></ul></div>
         <div class="bg-blue-50 border border-blue-200 p-3 rounded mt-3"><p class="flex items-start gap-2"><span class="text-lg">💡</span><span><strong>Dica Importante:</strong> Sempre <strong>negocie e confirme o valor total</strong> diretamente com o profissional <strong>antes de autorizar</strong> o serviço.</span></p></div>
       </div>
     </div>
