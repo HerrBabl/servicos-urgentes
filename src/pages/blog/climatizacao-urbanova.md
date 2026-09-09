@@ -6,7 +6,7 @@ date: "2025-12-22T10:00:00-03:00"
 dateModified: "2026-04-08T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"  
-  url: "https://servicosurgentes.com/sobre"  
+  url: "https://servicosurgentes.com/sobre/"  
 image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=800&auto=format&fit=crop"
 imageAlt: "Casa de alto padrão com sistema de climatização VRF instalado no bairro Urbanova, São José dos Campos"
 tags: ["Urbanova", "Ar-Condicionado", "Alto Padrão", "Climatização"]

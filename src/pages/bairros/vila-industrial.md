@@ -6,7 +6,7 @@ date: "2026-07-30T17:30:00-03:00"
 dateModified: "2026-07-30T17:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800"
 imageAlt: "Rua residencial na Vila Industrial em São José dos Campos com casas de conjuntos habitacionais consolidados"
 tags: ["Vila Industrial", "Zona Leste", "Guia de Bairro", "SJC"]

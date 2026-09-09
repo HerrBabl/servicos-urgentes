@@ -6,7 +6,7 @@ date: "2025-12-15T10:00:00-03:00"
 dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800"
 imageAlt: "Vista do bairro nobre Jardim Esplanada em São José dos Campos mostrando casas de alto padrão e proximidade ao Parque Vicentina Aranha"
 tags: ["Jardim Esplanada", "Alto Padrão", "Residencial Nobre", "Emergência 24h", "Região Central"]

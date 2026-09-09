@@ -7,7 +7,7 @@ dateModified: "2026-04-07T08:00:00-03:00"
 category: "Guia de Emergência"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://plus.unsplash.com/premium_photo-1661963270682-4b4857b6cda2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fEhWQUMlMjByZXBhaXJ8ZW58MHx8MHx8fDA%3D"
 imageAlt: "Técnico especializado diagnosticando ar-condicionado que parou de funcionar em residência em São José dos Campos"
 tags: ["Ar-Condicionado", "Emergência", "SJC", "Manutenção"]

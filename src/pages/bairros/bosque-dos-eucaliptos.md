@@ -6,7 +6,7 @@ keywords: "chaveiro andromeda sjc, chaveiro bosque dos eucaliptos, eletricista b
 dateModified: "2026-05-09T14:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800"
 imageAlt: "Rua residencial movimentada na Zona Sul de São José dos Campos, característica do Bosque dos Eucaliptos"
 tags: ["Bosque dos Eucaliptos", "Zona Sul SJC", "Manutenção Residencial", "Reformas"]

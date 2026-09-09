@@ -6,7 +6,7 @@ date: "2026-05-11T19:00:00-03:00"
 dateModified: "2026-05-11T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800"
 imageAlt: "Rua do Parque Industrial em São José dos Campos com galpões e residências próximas ao polo fabril"
 tags: ["Parque Industrial", "Zona Norte SJC", "Serviços Residenciais", "Emergências"]

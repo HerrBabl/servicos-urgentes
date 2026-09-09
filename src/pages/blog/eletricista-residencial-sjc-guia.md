@@ -7,7 +7,7 @@ dateModified: "2026-05-05T07:30:00-03:00"
 category: "Elétrica Residencial"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=800"
 imageAlt: "Eletricista residencial verificando quadro de distribuição em apartamento em São José dos Campos"
 tags: ["Eletricista", "Elétrica Residencial", "SJC", "Emergência Elétrica"]

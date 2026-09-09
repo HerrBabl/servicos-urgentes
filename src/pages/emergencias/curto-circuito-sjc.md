@@ -6,7 +6,7 @@ date: "2026-05-04T17:30:00-03:00"
 dateModified: "2026-05-20T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800"
 imageAlt: "Eletricista profissional verificando quadro de distribuição elétrica em residência em São José dos Campos"
 tags: ["Elétrica", "Emergência", "SJC", "24h"]

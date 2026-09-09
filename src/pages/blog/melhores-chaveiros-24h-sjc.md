@@ -6,7 +6,7 @@ date: "2026-05-02T14:00:00-03:00"
 dateModified: "2026-06-02T12:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800"
 imageAlt: "Chaveiro profissional realizando abertura de porta residencial em São José dos Campos"
 tags: ["Chaveiro", "Emergência", "SJC", "24h"]

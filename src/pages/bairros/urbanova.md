@@ -6,7 +6,7 @@ date: "2026-01-26T17:00:00-03:00"
 dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800"
 imageAlt: "Fachada de residência moderna em condomínio de alto padrão no bairro Urbanova em São José dos Campos"
 tags: ["Urbanova", "Condomínios", "Alto Padrão", "Energia Solar", "Automação"]

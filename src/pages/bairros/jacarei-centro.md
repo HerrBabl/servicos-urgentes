@@ -6,7 +6,7 @@ date: "2026-08-20T21:20:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1684604179172-e87bc4ac8567?q=80&w=800"
 imageAlt: "Vista aérea da área urbana e comercial do Centro de Jacareí"
 tags: ["Centro", "Jacareí", "Guia de Bairro", "Zona Comercial"]

@@ -6,7 +6,7 @@ date: "2026-05-26T07:00:00-03:00"
 dateModified: "2026-05-26T07:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://plus.unsplash.com/premium_photo-1663013665171-6fbaf0767d0d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGxvY2tzbWl0aHxlbnwwfHwwfHx8MA%3D%3D"
 imageAlt: "Chaveiro profissional realizando abertura técnica em porta de apartamento de alto padrão no Parque Residencial Aquarius, São José dos Campos"
 tags: ["Chaveiro", "Segurança", "Parque Residencial Aquarius", "Emergência 24h"]

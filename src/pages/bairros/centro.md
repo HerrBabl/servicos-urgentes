@@ -6,7 +6,7 @@ date: "2026-04-04T14:00:00-03:00"
 dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1700680153431-97d5e851fb39?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMxfHxhcGFydG1lbnQlMjBidWlsZGluZ3MlMjBicmF6aWx8ZW58MHx8MHx8fDA%3D"
 imageAlt: "Vista aérea do Centro histórico de São José dos Campos mostrando prédios comerciais antigos e a Praça Afonso Pena"
 tags: ["Centro SJC", "Comercial", "Prédios Históricos", "Emergência 24h", "B2B"]

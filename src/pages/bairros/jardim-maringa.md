@@ -6,7 +6,7 @@ date: "2026-08-12T11:00:00-03:00"
 dateModified: "2026-08-12T11:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
 imageAlt: "Rua residencial no Jardim Maringá em São José dos Campos, bairro central de alto padrão"
 tags: ["Jardim Maringá", "Zona Central", "Guia de Bairro", "SJC"]

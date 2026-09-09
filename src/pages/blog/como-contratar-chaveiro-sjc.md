@@ -6,7 +6,7 @@ date: "2026-05-14T10:00:00-03:00"
 dateModified: "2026-05-20T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=800"
 imageAlt: "Chaveiro profissional verificado atendendo cliente em São José dos Campos com ferramentas adequadas"
 tags: ["Chaveiro", "Preços", "SJC", "Guia do Consumidor"]

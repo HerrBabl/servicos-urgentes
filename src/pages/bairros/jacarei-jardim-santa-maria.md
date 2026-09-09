@@ -6,7 +6,7 @@ date: "2026-08-20T21:10:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1669236089000-b831b70ba7f9?q=80&w=800"
 imageAlt: "Casas residenciais coloridas de dois pavimentos em rua do Jardim Santa Maria, Jacareí"
 tags: ["Jardim Santa Maria", "Jacareí", "Guia de Bairro", "Igreja Santa Maria"]

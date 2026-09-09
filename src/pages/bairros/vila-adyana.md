@@ -6,7 +6,7 @@ date: "2026-01-26T18:30:00-03:00"
 dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800"
 imageAlt: "Rua arborizada típica da Vila Adyana em São José dos Campos, próxima ao Parque Vicentina Aranha"
 tags: ["Vila Adyana", "Área Médica", "Alto Padrão", "Emergência 24h", "Manutenção Predial"]

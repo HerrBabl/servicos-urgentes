@@ -6,7 +6,7 @@ date: "2026-03-04T19:00:00-03:00"
 dateModified: "2026-04-14T19:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 slug: "politica-de-privacidade"
 category: "Institucional"
 canonicalURL: "https://servicosurgentes.com/politica-de-privacidade/"

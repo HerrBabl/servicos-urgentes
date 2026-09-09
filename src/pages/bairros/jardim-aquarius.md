@@ -6,7 +6,7 @@ date: "2026-05-12T12:00:00-03:00"
 dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1563845104292-41c1b4825255?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNoYW5naW5nJTIwZG9vciUyMGxvY2t8ZW58MHx8MHx8fDA%3D"
 imageAlt: "Rua residencial no Jardim Aquarius em São José dos Campos com casas de médio-alto padrão e arborização"
 tags: ["Jardim Aquarius", "Zona Sul SJC", "Serviços Residenciais", "Emergências"]

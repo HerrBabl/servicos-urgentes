@@ -6,7 +6,7 @@ date: "2026-01-21T10:45:00-03:00"
 dateModified: "2026-06-02T12:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1580401410158-1f0b0a406762?q=80&w=800"
 imageAlt: "Eletricista profissional instalando resistência de chuveiro elétrico em banheiro residencial em São José dos Campos"
 tags: ["Eletricista", "Emergência", "SJC", "Manutenção Residencial"]

@@ -6,7 +6,7 @@ date: "2026-01-15T14:00:00-03:00"
 dateModified: "2026-04-06T17:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://media.istockphoto.com/id/1393381793/pt/foto/sao-jose-dos-campos-sao-paulo-brazil-04-2022-naerial-view-of-the-cable-stayed-bridge-in-s%C3%A3o.jpg?s=612x612&w=0&k=20&c=XIvy0oZyeK1cS1WjzI4b9ZTH2ivfEDTLhjmOwORimAk="
 imageAlt: "Condomínio de alto padrão no Jardim das Colinas com infraestrutura moderna, São José dos Campos"
 tags: ["Jardim das Colinas", "SJC", "Alto Padrão", "Manutenção"]

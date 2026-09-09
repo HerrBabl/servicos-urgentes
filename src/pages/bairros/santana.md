@@ -6,7 +6,7 @@ date: "2026-03-31T08:30:00-03:00"
 dateModified: "2026-04-09T09:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1583690592770-85b4a3419f45?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 imageAlt: "Rua residencial arborizada no bairro Santana em São José dos Campos com casas tradicionais e comércio local"
 tags: ["Santana", "Zona Norte SJC", "Bairro Tradicional", "Emergência 24h"]

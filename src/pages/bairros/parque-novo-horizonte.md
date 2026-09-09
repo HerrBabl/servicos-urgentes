@@ -6,7 +6,7 @@ date: "2026-08-12T14:00:00-03:00"
 dateModified: "2026-08-12T14:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800"
 imageAlt: "Rua residencial no Parque Novo Horizonte em São José dos Campos, bairro operário da Zona Leste"
 tags: ["Parque Novo Horizonte", "Zona Leste", "Guia de Bairro", "SJC"]

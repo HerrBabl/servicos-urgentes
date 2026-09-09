@@ -6,7 +6,7 @@ date: "2026-08-04T20:45:00-03:00"
 dateModified: "2026-08-04T20:45:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
 imageAlt: "Rua residencial arborizada no Jardim Altos de Santana em São José dos Campos, bairro tranquilo na Zona Norte"
 tags: ["Jardim Altos de Santana", "Zona Norte", "Guia de Bairro", "SJC"]

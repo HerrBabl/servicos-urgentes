@@ -6,7 +6,7 @@ date: "2026-07-30T11:00:00-03:00"
 dateModified: "2026-07-30T11:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
 imageAlt: "Rua residencial arborizada no Jardim Oriente em São José dos Campos com casas de padrão médio"
 tags: ["Jardim Oriente", "Zona Sul", "Guia de Bairro", "SJC"]

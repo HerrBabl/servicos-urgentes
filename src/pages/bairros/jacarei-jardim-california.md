@@ -6,7 +6,7 @@ date: "2026-08-20T21:00:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1776950175207-ab816f218961?q=80&w=800"
 imageAlt: "Rua residencial tranquila e arborizada no Jardim Califórnia, Jacareí"
 tags: ["Jardim Califórnia", "Jacareí", "Guia de Bairro", "Rodovia Geraldo Scavone"]

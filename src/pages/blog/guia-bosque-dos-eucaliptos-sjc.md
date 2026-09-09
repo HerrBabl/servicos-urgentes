@@ -6,7 +6,7 @@ date: "2026-01-20T09:00:00-03:00"
 dateModified: "2026-04-10T08:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1751798956447-a95950accedf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fHJ1YSUyMGJhaXJybyUyMGJvc3F1ZSUyMGRvcyUyMGV1Y2FsaXB0b3N8ZW58MHx8MHx8fDA%3D"
 imageAlt: "Rua residencial arborizada típica da Zona Sul de São José dos Campos"
 tags: ["Bosque dos Eucaliptos", "Zona Sul", "Guia de Bairro", "SJC"]

@@ -6,7 +6,7 @@ date: "2026-05-12T12:00:00-03:00"
 dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1669920282730-ab422e592f97?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBsdW1iZXIlMjB3b3JraW5nJTIwYnJhemlsfGVufDB8fDB8fHww"
 imageAlt: "Condomínio residencial em Campos de São José em São José dos Campos com construções modernas"
 tags: ["Campos de São José", "Zona Leste SJC", "Serviços Residenciais", "Condomínios"]

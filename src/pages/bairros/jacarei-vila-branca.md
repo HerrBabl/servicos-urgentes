@@ -6,7 +6,7 @@ date: "2026-08-20T20:45:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1769020593238-e20a8c978b39?q=80&w=800"
 imageAlt: "Residência com portão gradeado e telhado de telha em bairro de condomínios da Vila Branca, Jacareí"
 tags: ["Vila Branca", "Jacareí", "Guia de Bairro", "Condomínio Fechado"]

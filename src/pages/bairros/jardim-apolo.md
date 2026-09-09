@@ -6,7 +6,7 @@ date: "2026-08-11T12:30:00-03:00"
 dateModified: "2026-08-11T12:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
 imageAlt: "Avenida movimentada no Jardim Apolo em São José dos Campos, bairro central com comércio e escritórios"
 tags: ["Jardim Apolo", "Zona Central", "Guia de Bairro", "SJC"]

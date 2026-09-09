@@ -6,7 +6,7 @@ date: "2026-08-03T19:15:00-03:00"
 dateModified: "2026-08-03T19:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800"
 imageAlt: "Rua residencial tranquila na Vila Machado em São José dos Campos, bairro de perfil familiar na Zona Norte"
 tags: ["Vila Machado", "Zona Norte", "Guia de Bairro", "SJC"]

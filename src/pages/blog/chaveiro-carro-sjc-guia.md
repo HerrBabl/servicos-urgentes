@@ -7,7 +7,7 @@ dateModified: "2026-04-08T12:00:00-03:00"
 category: "Segurança Residencial"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800"
 imageAlt: "Chaveiro automotivo profissional programando chave codificada de carro em São José dos Campos"
 tags: ["Chaveiro", "Automotivo", "SJC", "Emergência"]

@@ -6,7 +6,7 @@ date: "2026-02-03T08:30:00-03:00"
 dateModified: "2026-04-16T07:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1527482797697-8795b05a13fe?q=80&w=800"
 imageAlt: "Temporal com raios e chuva forte sobre a cidade de São José dos Campos vista do Parque da Cidade"
 tags: ["Emergência", "Temporal", "SJC", "Guia de Emergência"]

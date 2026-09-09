@@ -6,7 +6,7 @@ date: "2026-01-26T12:00:00-03:00"
 dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1700826952602-19bb5aa4ab70?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGFwYXJ0bWVudCUyMGJ1aWxkaW5ncyUyMGJyYXppbHxlbnwwfHwwfHx8MA%3D%3D"
 imageAlt: "Vista de edifícios residenciais modernos no Parque Residencial Aquarius em São José dos Campos"
 tags: ["Parque Aquarius", "Zona Oeste SJC", "Alto Padrão", "Emergência 24h", "Condomínios"]

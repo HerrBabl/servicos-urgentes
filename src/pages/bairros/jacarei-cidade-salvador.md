@@ -6,7 +6,7 @@ date: "2026-08-20T21:30:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1683824220384-fcc4fd1d2314?q=80&w=800"
 imageAlt: "Edifício residencial entre casas de telhado colonial na Cidade Salvador, Jacareí"
 tags: ["Cidade Salvador", "Jacareí", "Guia de Bairro", "Rua Santo Ivo"]

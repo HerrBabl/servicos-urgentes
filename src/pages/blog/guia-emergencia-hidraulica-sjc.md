@@ -7,7 +7,7 @@ dateModified: "2026-05-05T07:30:00-03:00"
 category: "Hidráulica"
 author: 
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=800"
 imageAlt: "Encanador profissional utilizando equipamento de caça-vazamentos eletrônico em parede de apartamento em São José dos Campos"
 tags: ["Encanamento", "Emergência", "SJC", "Guia", "Manutenção"]

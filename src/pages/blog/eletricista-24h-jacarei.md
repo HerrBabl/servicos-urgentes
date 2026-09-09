@@ -6,7 +6,7 @@ date: "2026-09-02T09:00:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800"
 imageAlt: "Eletricista profissional realizando manutenção em quadro elétrico residencial em Jacareí"
 tags: ["Eletricista", "Emergência", "Jacareí", "24h"]

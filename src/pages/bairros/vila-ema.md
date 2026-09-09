@@ -6,7 +6,7 @@ date: "2026-05-12T12:00:00-03:00"
 dateModified: "2026-05-14T18:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1728894989175-472fa8e559d2?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 imageAlt: "Rua residencial na Vila Ema em São José dos Campos com casas de médio padrão e arborização"
 tags: ["Vila Ema", "Zona Centro-Sul SJC", "Serviços Residenciais", "Emergências"]

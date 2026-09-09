@@ -6,7 +6,7 @@ date: "2026-05-19T11:00:00-03:00"
 dateModified: "2026-05-20T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=800"
 imageAlt: "Profissional marido de aluguel realizando reparos com furadeira em apartamento em São José dos Campos"
 tags: ["Marido de Aluguel", "Comparativo", "SJC", "Reparos Residenciais"]

@@ -6,7 +6,7 @@ date: "2026-09-02T13:00:00-03:00"
 dateModified: "2026-09-05T20:15:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800"
 imageAlt: "Chaveiro profissional realizando abertura técnica de fechadura residencial em Jacareí"
 tags: ["Chaveiro", "Emergência", "Jacareí", "24h"]

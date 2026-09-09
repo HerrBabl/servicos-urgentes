@@ -6,7 +6,7 @@ date: "2026-05-04T17:30:00-03:00"
 dateModified: "2026-05-05T07:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800"
 imageAlt: "Eletricista profissional verificando instalação de chuveiro elétrico em banheiro em São José dos Campos"
 tags: ["Elétrica", "Emergência", "SJC", "Chuveiro"]

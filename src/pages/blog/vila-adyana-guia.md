@@ -7,7 +7,7 @@ dateModified: "2026-04-08T20:30:00-03:00"
 category: "Guia de Bairro"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=800"
 imageAlt: "Fachada de casa antiga em estilo clássico na Vila Adyana passando por processo de renovação e retrofit"
 tags: ["Vila Adyana", "Reforma", "Manutenção", "Retrofit", "SJC"]

@@ -6,7 +6,7 @@ date: "2026-05-03T18:00:00-03:00"
 dateModified: "2026-07-17T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
-  url: "https://servicosurgentes.com/sobre"
+  url: "https://servicosurgentes.com/sobre/"
 image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=800"
 imageAlt: "Encanador profissional verificando tubulação danificada em apartamento em São José dos Campos"
 tags: ["Encanamento", "Emergência", "SJC", "24h"]
