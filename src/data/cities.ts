@@ -23,4 +23,12 @@ export const cityHomepageContext: Record<string, {
     metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Jacareí. Profissionais verificados, contato direto, sem intermediação.',
     canonicalURL: 'https://servicosurgentes.com/jacarei/',
   },
+  'taubate': {
+    displayName: 'Taubaté',
+    heroHeadline: 'Emergência Doméstica em Taubaté? Ajuda Agora.',
+    heroSubhead: 'Encanador, eletricista, chaveiro, técnico de ar-condicionado e marido de aluguel — profissionais verificados atendendo Taubaté 24 horas.',
+    metaTitle: 'Serviços de Emergência 24h em Taubaté | Serviços Urgentes',
+    metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Taubaté. Profissionais verificados, contato direto, sem intermediação.',
+    canonicalURL: 'https://servicosurgentes.com/taubate/',
+  },
 };

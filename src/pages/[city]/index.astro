@@ -1,18 +1,17 @@
 ---
 // src/pages/[city]/index.astro
 //
-// City hub page — first instance of a reusable /[city]/ pattern for future
-// Vale do Paraíba expansion. Only 'jacarei' gets a real route today; SJC's
-// existing homepage (src/pages/index.astro) stays separate and untouched —
-// getStaticPaths() below deliberately does not generate a route for it.
+// City hub page — reusable /[city]/ pattern for Vale do Paraíba expansion.
+// getStaticPaths() below generates a route for every key in
+// cityHomepageContext (currently 'jacarei' and 'taubate'). SJC's existing
+// homepage (src/pages/index.astro) stays separate and untouched — SJC has
+// no key in cityHomepageContext, so no /sjc/ route is ever generated.
 //
-// Route-collision check (2026-08-31): confirmed safe. Astro always prioritizes
-// static path segments over dynamic ones, and this is fully static output
-// (SSG) — getStaticPaths() only returns 'jacarei', so the only file this
-// produces is dist/jacarei/index.html. No existing top-level route is named
-// 'jacarei', so there's no collision today. Future city additions must avoid
-// reusing an existing static route name (sobre, servicos, blog, emergencias,
-// bairros, locais, cadastro, politica-de-privacidade) as a city slug.
+// Route-collision check (2026-08-31, still valid): confirmed safe. Astro
+// always prioritizes static path segments over dynamic ones, and this is
+// fully static output (SSG). Future city additions must avoid reusing an
+// existing static route name (sobre, servicos, blog, emergencias, bairros,
+// locais, cadastro, politica-de-privacidade) as a city slug.
 
 import Layout from '../../layouts/Layout.astro';
 import { neighborhoodContext } from '../../data/neighborhoods.ts';
@@ -36,9 +35,9 @@ const services = [
 ];
 
 export function getStaticPaths() {
-  return [
-    { params: { city: 'jacarei' } },
-  ];
+  return Object.keys(cityHomepageContext).map(city => ({
+    params: { city },
+  }));
 }
 
 const { city } = Astro.params;
@@ -56,10 +55,10 @@ const bairros = Object.entries(neighborhoodContext)
   }));
 
 // Page-level schema, built from `city`/`ctx` rather than a hardcoded 'Jacareí'
-// string, so this is structurally ready for future cities even though only
-// jacarei renders today. Layout.astro's sitewide Organization schema already
-// lists Jacareí in areaServed unconditionally — this is additional, page-level
-// context, not a fix to anything missing there.
+// string, so this stays correct as more cities render (currently jacarei and
+// taubate). Layout.astro's sitewide Organization schema still lists Jacareí
+// in areaServed unconditionally, unrelated to Taubaté — flagged separately,
+// not fixed here since it's a different file with different scope.
 const pageSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -121,7 +120,7 @@ const heroBorder: Record<string, string> = {
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
         {services.map(svc => (
           <a
-            href={`/servicos/${svc.slug}/jacarei/`}
+            href={`/servicos/${svc.slug}/${city}/`}
             class={`bg-white rounded-lg shadow-lg p-6 border-b-4 ${heroBorder[svc.color]} hover:-translate-y-1 transition-all text-center group`}
           >
             <div class="text-3xl mb-2 group-hover:scale-110 transition-transform" aria-hidden="true">{svc.icon}</div>
