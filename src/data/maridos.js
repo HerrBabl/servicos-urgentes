@@ -229,4 +229,49 @@ export const maridos = [
       "Verificado"
     ]
   },
+  {
+    id: 10,
+    name: "Alexandre Marido de Aluguel - Serviços Gerais em Taubaté",
+    rating: 4.9,
+    reviews: 66,
+    neighborhood: "Jardim Jaragua",
+    city: "Taubaté",
+    address: "Av. Amador Bueno da Veiga, 2000 - Jardim Jaragua, Taubaté - SP, 12062-400",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 99626-8579",
+    whatsapp: true,
+    services: [],
+    description: "Atende Taubaté e região para reparos gerais e manutenção residencial. Avaliação 4.9 com 66 avaliações no Google.",
+    badges: []
+  },
+  {
+    id: 11,
+    name: "Marido de Aluguel Taubaté",
+    rating: 4.9,
+    reviews: 40,
+    neighborhood: "Barranco",
+    city: "Taubaté",
+    address: "Av. Charles Schnneider - Barranco, Taubaté - SP, 12041-078",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 98166-0488",
+    whatsapp: true,
+    services: [],
+    description: "Atende Taubaté com avaliação 4.9 e 40 avaliações no Google, entre elas destaque para pontualidade e comunicação clara sobre o serviço.",
+    badges: []
+  },
+  {
+    id: 12,
+    name: "Global Instalações e Serviços",
+    rating: 5,
+    reviews: 21,
+    neighborhood: "CECAP",
+    city: "Taubaté",
+    address: "R. Antônio de Pádua Nascimento, 2 - CECAP, Taubaté - SP, 12043-103",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 99141-4105",
+    whatsapp: true,
+    services: [],
+    description: "Profissional bem avaliado em Taubaté, com nota máxima (5.0) em 21 avaliações no Google — reviews destacam qualidade do serviço e atendimento.",
+    badges: []
+  },
 ];
