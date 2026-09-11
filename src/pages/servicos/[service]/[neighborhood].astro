@@ -46,6 +46,8 @@ import { maridos }         from '../../../data/maridos.js';
 // It also needs to be importable from src/pages/[city]/index.astro.
 import { neighborhoodContext } from '../../../data/neighborhoods.ts';
 
+import { cityHomepageContext } from '../../../data/cities.ts';
+
 // serviceContext lives in its own module for the same reason as neighborhoodContext
 // above (Aug 31, 2026 finding). Also needed by the new
 // src/pages/servicos/[service]/[city]/index.astro route.
@@ -246,6 +248,16 @@ const nbh = neighborhoodContext[neighborhood];
 if (!svc || !nbh) {
   return Astro.redirect('/servicos/');
 }
+
+// "Central de Serviços {city}" quick-link target — SJC is hardcoded (it has no
+// key in cityHomepageContext, since it lives at "/" rather than a /[city]/
+// route), every other city is looked up dynamically so a future city needs no
+// edit here. Was previously a 2-city hardcoded string match that silently
+// excluded Taubaté.
+const isSJC = nbh.city === 'São José dos Campos';
+const cityHubSlug = Object.entries(cityHomepageContext).find(
+  ([, ctx]) => ctx.displayName === nbh.city
+)?.[0];
 
 // City-scoped overlay (pricing + blog cross-link) — empty object for cities with
 // no verified data yet, so overlay.priceItems / overlay.relatedBlogSlug are simply
@@ -649,9 +661,9 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         >
           Todos os Serviços em {nbh.displayName}
         </a>
-        {(nbh.city === 'São José dos Campos' || nbh.city === 'Jacareí') && (
+        {(isSJC || cityHubSlug) && (
           <a
-            href={nbh.city === 'São José dos Campos' ? '/servicos/' : '/jacarei/'}
+            href={isSJC ? '/servicos/' : `/${cityHubSlug}/`}
             class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
           >
             Central de Serviços {nbh.city}
