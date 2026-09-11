@@ -32,9 +32,14 @@ const allServicesHref = isOnCityPage ? `/${currentCitySlug}/` : '/servicos/';
           Início
         </a>
 
-        <!-- Cidades dropdown — city #3's hub page gets added here by hand when
-             built, same manual-addition-per-city pattern as cityHomepageContext
-             and Layout.astro's areaServed array. Not auto-generated from data. -->
+        <!-- Cidades dropdown — SJC stays hardcoded as the first entry, since
+             it has no key in cityHomepageContext (it lives at "/", not a
+             /[city]/ route). Every other city renders dynamically via
+             Object.entries(cityHomepageContext), in that object's insertion
+             order (today: Jacareí, then Taubaté) — no explicit order array,
+             since insertion order already matches launch order and
+             alphabetical order. Revisit if a future city needs different
+             placement. -->
         <div class="relative" id="cities-dropdown">
           <button class="text-gray-700 hover:text-red-600 px-4 py-2 text-sm font-medium transition-colors flex items-center" id="cities-button">
             Cidades
@@ -45,7 +50,9 @@ const allServicesHref = isOnCityPage ? `/${currentCitySlug}/` : '/servicos/';
           <div class="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden" id="cities-menu">
             <div class="py-1">
               <a href="/" class="block px-4 py-2 text-sm font-semibold text-red-600 hover:bg-red-50 border-b border-gray-200">📍 São José dos Campos</a>
-              <a href="/jacarei/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">📍 Jacareí</a>
+              {Object.entries(cityHomepageContext).map(([slug, ctx]) => (
+                <a href={`/${slug}/`} class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">📍 {ctx.displayName}</a>
+              ))}
             </div>
           </div>
         </div>
@@ -98,8 +105,8 @@ const allServicesHref = isOnCityPage ? `/${currentCitySlug}/` : '/servicos/';
       <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-100">
         <a href="/" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600">Início</a>
 
-        <!-- Cidades submenu — city #3's hub page gets added here by hand when
-             built, same manual-addition-per-city pattern as everywhere else. -->
+        <!-- Cidades submenu — same SJC-hardcoded + dynamic-rest pattern as
+             the desktop dropdown above. -->
         <div>
           <button class="w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600 flex items-center justify-between" id="mobile-cities-button">
             Cidades
@@ -109,7 +116,9 @@ const allServicesHref = isOnCityPage ? `/${currentCitySlug}/` : '/servicos/';
           </button>
           <div class="hidden pl-4" id="mobile-cities-menu">
             <a href="/" class="block px-3 py-2 text-sm font-semibold text-red-600 hover:text-red-600 border-b border-gray-200">📍 São José dos Campos</a>
-            <a href="/jacarei/" class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">📍 Jacareí</a>
+            {Object.entries(cityHomepageContext).map(([slug, ctx]) => (
+              <a href={`/${slug}/`} class="block px-3 py-2 text-sm text-gray-600 hover:text-red-600">📍 {ctx.displayName}</a>
+            ))}
           </div>
         </div>
 
