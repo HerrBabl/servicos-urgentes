@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { neighborhoodContext } from '../data/neighborhoods.ts';
 
 export interface Props {
   title?: string;
@@ -22,16 +23,29 @@ export interface Props {
 // 1. Define frontmatter FIRST (This fixes the "Cannot find name" error)
 const frontmatter = Astro.props.frontmatter || {};
 
+// Bairro-specific neighborhoodContext lookup — fixes the placeSchema geo bug
+// (Sep 15, 2026): lat/lng below used to fall back to a hardcoded SJC point
+// for every bairro page in every city, since no bairro .md file has ever set
+// frontmatter.lat/lng (that data only ever lived in neighborhoodContext).
+// Derived from the URL path rather than a new prop, so no content file needs
+// editing. Confirmed 1:1 match between every /bairros/ slug and a
+// neighborhoodContext key across all 4 cities before this shipped — the
+// Number(frontmatter.lat) fallback below is defensive, not expected to fire.
+const bairroSlug = Astro.url.pathname.startsWith('/bairros/')
+  ? Astro.url.pathname.split('/').filter(Boolean).pop()
+  : null;
+const nbhData = bairroSlug ? neighborhoodContext[bairroSlug] : undefined;
+
 // 2. Then use it in the destructuring
-const { 
-  title = frontmatter.title, 
+const {
+  title = frontmatter.title,
   description = frontmatter.description || "Encontre serviços de emergência 24h em São José dos Campos e região.",
   neighborhood = frontmatter.neighborhood,
   region = frontmatter.region,
   category = frontmatter.category,
   city = frontmatter.city || frontmatter.region || "São José dos Campos",
-  lat = frontmatter.lat || "-23.2237",
-  lng = frontmatter.lng || "-45.9009",
+  lat = nbhData ? Number(nbhData.lat) : Number(frontmatter.lat) || -23.2237,
+  lng = nbhData ? Number(nbhData.lng) : Number(frontmatter.lng) || -45.9009,
   date = frontmatter.date,
   dateModified = frontmatter.dateModified,
   keywords = frontmatter.keywords,
@@ -74,7 +88,9 @@ const isBlog = !!category;
 // `neighborhood` in frontmatter), so it cannot distinguish a bairro page on its own —
 // confirmed by the pre-existing BreadcrumbList bug below, which mislabels blog posts
 // as "Bairros" for the same reason. Use the URL path for bairro-specific behavior.
-const isBairroPage = Astro.url.pathname.startsWith('/bairros/');
+// (bairroSlug, derived above, is the same check — reused here rather than
+// re-parsing the path.)
+const isBairroPage = bairroSlug !== null;
 
 // Place schema — built once, used by bairro pages (via the @graph below) and as the
 // fallback for pages that are isNeighborhood but not isBlog (currently none in
@@ -82,7 +98,11 @@ const isBairroPage = Astro.url.pathname.startsWith('/bairros/');
 const placeSchema = {
   "@context": "https://schema.org",
   "@type": "Place",
-  "name": neighborhood,
+  // Real bairro name (e.g. "Centro") when available, not the raw frontmatter
+  // `neighborhood` value — that's a comma-joined nearby-bairros list used for
+  // internal linking, not a place name. Falls back to the old behavior for
+  // the (currently unreachable in production) non-bairro-page case.
+  "name": nbhData?.displayName || neighborhood,
   "address": {
     "@type": "PostalAddress",
     "addressLocality": city,
