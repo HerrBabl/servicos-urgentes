@@ -28,7 +28,7 @@ import { cityHomepageContext } from '../../../../data/cities.ts';
 import { neighborhoodContext } from '../../../../data/neighborhoods.ts';
 
 export function getStaticPaths() {
-  const cities = Object.keys(cityHomepageContext); // today: ['jacarei']
+  const cities = Object.keys(cityHomepageContext); // today: ['jacarei', 'taubate', 'pindamonhangaba']
   const services = Object.keys(serviceContext);
   return services.flatMap(service =>
     cities.map(city => ({ params: { service, city } }))

@@ -31,4 +31,12 @@ export const cityHomepageContext: Record<string, {
     metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Taubaté. Profissionais verificados, contato direto, sem intermediação.',
     canonicalURL: 'https://servicosurgentes.com/taubate/',
   },
+  'pindamonhangaba': {
+    displayName: 'Pindamonhangaba',
+    heroHeadline: 'Emergência Doméstica em Pindamonhangaba? Ajuda Agora.',
+    heroSubhead: 'Encanador, eletricista, chaveiro, técnico de ar-condicionado e marido de aluguel — profissionais verificados atendendo Pindamonhangaba 24 horas.',
+    metaTitle: 'Serviços de Emergência 24h em Pindamonhangaba | Serviços Urgentes',
+    metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Pindamonhangaba. Profissionais verificados, contato direto, sem intermediação.',
+    canonicalURL: 'https://servicosurgentes.com/pindamonhangaba/',
+  },
 };

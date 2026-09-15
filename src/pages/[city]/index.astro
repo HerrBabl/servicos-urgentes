@@ -3,9 +3,10 @@
 //
 // City hub page — reusable /[city]/ pattern for Vale do Paraíba expansion.
 // getStaticPaths() below generates a route for every key in
-// cityHomepageContext (currently 'jacarei' and 'taubate'). SJC's existing
-// homepage (src/pages/index.astro) stays separate and untouched — SJC has
-// no key in cityHomepageContext, so no /sjc/ route is ever generated.
+// cityHomepageContext (currently 'jacarei', 'taubate', and
+// 'pindamonhangaba'). SJC's existing homepage (src/pages/index.astro) stays
+// separate and untouched — SJC has no key in cityHomepageContext, so no
+// /sjc/ route is ever generated.
 //
 // Route-collision check (2026-08-31, still valid): confirmed safe. Astro
 // always prioritizes static path segments over dynamic ones, and this is
