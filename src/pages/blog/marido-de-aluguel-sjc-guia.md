@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Marido de Aluguel em SJC: Guia de Preços 2026"
 description: "Precisa de pequenos reparos? Saiba quanto custa Marido de Aluguel em SJC. Instalação de cortinas, suporte TV e montagem de móveis no Aquarius e Urbanova."
 date: "2026-05-19T11:00:00-03:00"
-dateModified: "2026-04-16T12:00:00-03:00"
+dateModified: "2026-09-15T17:50:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
