@@ -39,4 +39,12 @@ export const cityHomepageContext: Record<string, {
     metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Pindamonhangaba. Profissionais verificados, contato direto, sem intermediação.',
     canonicalURL: 'https://servicosurgentes.com/pindamonhangaba/',
   },
+  'guaratingueta': {
+    displayName: 'Guaratinguetá',
+    heroHeadline: 'Emergência Doméstica em Guaratinguetá? Ajuda Agora.',
+    heroSubhead: 'Encanador, eletricista, chaveiro, técnico de ar-condicionado e marido de aluguel — profissionais verificados atendendo Guaratinguetá 24 horas.',
+    metaTitle: 'Serviços de Emergência 24h em Guaratinguetá | Serviços Urgentes',
+    metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Guaratinguetá. Profissionais verificados, contato direto, sem intermediação.',
+    canonicalURL: 'https://servicosurgentes.com/guaratingueta/',
+  },
 };
