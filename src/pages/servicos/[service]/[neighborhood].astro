@@ -291,7 +291,7 @@ const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region}`;
 const pageDescription = `${nbh.displayName} tem ${nbh.characteristics.split(',')[0].trim()}. Profissionais de ${svc.displayName.toLowerCase()} chegam em ${nbh.responseTime}. Técnicos verificados 4+ estrelas em ${nbh.city}.`.substring(0, 160);
 const canonicalURL    = `https://servicosurgentes.com/servicos/${service}/${neighborhood}/`;
 const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service} emergência ${nbh.displayName.toLowerCase()}, ${service} ${nbh.city.toLowerCase()}, marido de aluguel sjc, ${service} ${neighborhood.replace(/-/g, ' ')}, emergência ${service} ${nbh.city.toLowerCase()}`;
-const imageURL        = `https://images.unsplash.com/photo-${nbh.unsplashId}?q=80&w=800`;
+const imageURL        = nbh.imageUrl;
 
 // ── FAQ GENERATION ─────────────────────────────────────────────────────────────
 // 5 natural-language Q&As per combo = 600 unique FAQ entries across all 120 pages

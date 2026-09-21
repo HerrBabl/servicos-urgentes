@@ -23,7 +23,7 @@ export const neighborhoodContext: Record<string, {
   landmarks: string;
   responseTime: string;
   nearbyNeighborhoods: { slug: string; name: string }[];
-  unsplashId: string;
+  imageUrl: string;
   imageAlt: string;
 }> = {
   'parque-residencial-aquarius': {
@@ -43,7 +43,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-esplanada',     name: 'Jardim Esplanada' },
       { slug: 'urbanova',             name: 'Urbanova' },
     ],
-    unsplashId: '1545324418-cc1a3fa10c00',
+    imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800',
     imageAlt: 'Torres residenciais do Parque Residencial Aquarius em São José dos Campos vistas de cima',
   },
   'urbanova': {
@@ -63,7 +63,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-das-colinas',          name: 'Jardim das Colinas' },
       { slug: 'jardim-esplanada',            name: 'Jardim Esplanada' },
     ],
-    unsplashId: '1518780664697-55e3ad937233',
+    imageUrl: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=800',
     imageAlt: 'Condomínio residencial fechado em Urbanova, São José dos Campos, com casas e ruas arborizadas',
   },
   'centro': {
@@ -83,7 +83,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'sao-dimas',       name: 'São Dimas' },
       { slug: 'santana', name: 'Santana' },
     ],
-    unsplashId: '1541888946425-d81bb19240f5',
+    imageUrl: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800',
     imageAlt: 'Vista aérea do Centro histórico de São José dos Campos mostrando prédios comerciais e a Praça Afonso Pena',
   },
   'vila-adyana': {
@@ -103,7 +103,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'sao-dimas',       name: 'São Dimas' },
       { slug: 'jardim-apolo', name: 'Jardim Apolo' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial arborizada na Vila Adyana em São José dos Campos com casas de alto padrão',
   },
   'bosque-dos-eucaliptos': {
@@ -123,7 +123,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-america', name: 'Jardim América' },
       { slug: 'parque-industrial',          name: 'Parque Industrial' },
     ],
-    unsplashId: '1516912481800-3a2028500f1',
+    imageUrl: 'https://images.unsplash.com/photo-1516912481800-3a2028500f1?q=80&w=800',
     imageAlt: 'Rua arborizada no Bosque dos Eucaliptos em São José dos Campos com casas residenciais e jardins',
   },
   'jardim-das-colinas': {
@@ -143,7 +143,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-aquarius',       name: 'Jardim Aquarius' },
       { slug: 'jardim-esplanada-II',                    name: 'Jardim Esplanada II' },
     ],
-    unsplashId: '1449844908612-3c8b0f9d8011',
+    imageUrl: 'https://images.unsplash.com/photo-1449844908612-3c8b0f9d8011?q=80&w=800',
     imageAlt: 'Rua residencial do Jardim das Colinas em São José dos Campos com casas de alto padrão e ruas bem pavimentadas',
   },
   'jardim-satelite': {
@@ -163,7 +163,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-america',             name: 'Jardim América' },
       { slug: 'parque-industrial',    name: 'Parque Industrial' },
     ],
-    unsplashId: '1486325212027-8081e485255e',
+    imageUrl: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800',
     imageAlt: 'Rua residencial no Jardim Satélite em São José dos Campos com casas populares e comércio local',
   },
   'sao-dimas': {
@@ -183,7 +183,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'vila-adyana',     name: 'Vila Adyana' },
       { slug: 'jardim-apolo', name: 'Jardim Apolo' },
     ],
-    unsplashId: '1502672260266-1c1ef2d93688',
+    imageUrl: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800',
     imageAlt: 'Rua residencial em São Dimas, São José dos Campos, com casas e sobrados em bairro tradicional',
   },
   'jardim-esplanada': {
@@ -203,7 +203,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-das-colinas',          name: 'Jardim das Colinas' },
       { slug: 'jardim-apolo',                   name: 'Jardim Apolo' },
     ],
-    unsplashId: '1513694203232-719a899d4ef4',
+    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a899d4ef4?q=80&w=800',
     imageAlt: 'Bairro residencial Jardim Esplanada em São José dos Campos com casas e ruas próximas ao polo industrial',
   },
   'santana': {
@@ -223,7 +223,7 @@ export const neighborhoodContext: Record<string, {
     { slug: 'jardim-altos-de-santana',   name: 'Jardim Altos de Santana' },
     { slug: 'centro', name: 'Centro' },
   ],
-  unsplashId: '1502672260266-1c1ef2d93688',
+  imageUrl: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800',
   imageAlt: 'Rua residencial no bairro Santana em São José dos Campos com casas e comércio local',
 },
 'parque-industrial': {
@@ -243,7 +243,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-oriente',   name: 'Jardim Oriente' },
       { slug: 'jardim-satelite',     name: 'Jardim Satélite' },
     ],
-    unsplashId: '1504307651254-35680f356dfd',
+    imageUrl: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800',
     imageAlt: 'Rua do Parque Industrial em São José dos Campos com galpões e residências próximas ao polo fabril',
   },
   'vila-ema': {
@@ -263,7 +263,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-apolo', name: 'Jardim Apolo' },
       { slug: 'sao-dimas',          name: 'São Dimas' },
     ],
-    unsplashId: '1486325212027-8081e485255e',
+    imageUrl: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800',
     imageAlt: 'Rua residencial na Vila Ema em São José dos Campos com casas de médio padrão e arborização',
   },
   'jardim-america': {
@@ -283,7 +283,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'bosque-dos-eucaliptos',     name: 'Bosque dos Eucaliptos' },
       { slug: 'jardim-satelite', name: 'Jardim Satélite' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial no Jardim América em São José dos Campos com casas e apartamentos bem localizados',
   },
   'campos-de-sao-jose': {
@@ -303,7 +303,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-mariana-II',                    name: 'Jarim Mariana II' },
       { slug: 'parque-novo-horizonte',          name: 'Parque Novo Horizonte' },
     ],
-    unsplashId: '1518780664697-55e3ad937233',
+    imageUrl: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=800',
     imageAlt: 'Condomínio residencial em Campos de São José, Zona Leste de São José dos Campos',
   },
   'jardim-aquarius': {
@@ -323,7 +323,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-das-colinas',          name: 'Jardim das Colinas' },
       { slug: 'jardim-esplanada',            name: 'Jardim Esplanada' },
     ],
-    unsplashId: '1545324418-cc1a3fa10c00',
+    imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800',
     imageAlt: 'Rua residencial no Jardim Aquarius em São José dos Campos com casas de médio-alto padrão',
   },
   'jardim-oriente': {
@@ -343,7 +343,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jardim-satelite',    name: 'Jardim Satélite' },
       { slug: 'jardim-america',     name: 'Jardim América' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial no Jardim Oriente em São José dos Campos próxima ao Shopping Jardim Oriente',
   },
   'vila-industrial': {
@@ -362,7 +362,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'vista-verde',   name: 'Vista Verde' },
       { slug: 'centro',        name: 'Centro' },
     ],
-    unsplashId: '1449844908441-8829872d2607',
+    imageUrl: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800',
     imageAlt: 'Rua residencial na Vila Industrial em São José dos Campos com casas de conjuntos habitacionais consolidados',
   },
   'vista-verde': {
@@ -381,7 +381,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'vila-industrial',  name: 'Vila Industrial' },
       { slug: 'centro',           name: 'Centro' },
     ],
-    unsplashId: '1449844908441-8829872d2607',
+    imageUrl: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800',
     imageAlt: 'Rua arborizada na Vista Verde em São José dos Campos, bairro planejado com áreas verdes',
   },
   'vila-machado': {
@@ -399,7 +399,7 @@ export const neighborhoodContext: Record<string, {
     nearbyNeighborhoods: [
       { slug: 'santana',         name: 'Santana' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial tranquila na Vila Machado em São José dos Campos, bairro de perfil familiar na Zona Norte',
   },
   'residencial-dom-bosco': {
@@ -417,7 +417,7 @@ export const neighborhoodContext: Record<string, {
     nearbyNeighborhoods: [
       { slug: 'campos-de-sao-jose',  name: 'Campos de São José' },
     ],
-    unsplashId: '1449844908441-8829872d2607',
+    imageUrl: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800',
     imageAlt: 'Rua residencial no Residencial Dom Bosco em São José dos Campos, bairro em expansão na Zona Leste',
   },
   'jardim-altos-de-santana': {
@@ -436,7 +436,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'santana',        name: 'Santana' },
       { slug: 'vila-machado',   name: 'Vila Machado' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial arborizada no Jardim Altos de Santana em São José dos Campos, bairro tranquilo na Zona Norte',
   },
   'jardim-apolo': {
@@ -456,7 +456,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'vila-adyana',       name: 'Vila Adyana' },
       { slug: 'vila-ema',          name: 'Vila Ema' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Avenida movimentada no Jardim Apolo em São José dos Campos, bairro central com comércio e escritórios',
   },
   'jardim-maringa': {
@@ -475,7 +475,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'vila-ema',      name: 'Vila Ema' },
       { slug: 'jardim-apolo',  name: 'Jardim Apolo' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial no Jardim Maringá em São José dos Campos, bairro central de alto padrão',
   },
   'parque-novo-horizonte': {
@@ -493,7 +493,7 @@ export const neighborhoodContext: Record<string, {
     nearbyNeighborhoods: [
       { slug: 'residencial-dom-bosco',  name: 'Residencial Dom Bosco' },
     ],
-    unsplashId: '1449844908441-8829872d2607',
+    imageUrl: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800',
     imageAlt: 'Rua residencial no Parque Novo Horizonte em São José dos Campos, bairro operário da Zona Leste',
   },
   'jacarei-vila-branca': {
@@ -512,7 +512,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jacarei-jardim-california',   name: 'Jardim Califórnia' },
       { slug: 'jacarei-jardim-santa-maria',  name: 'Jardim Santa Maria' },
     ],
-    unsplashId: '1769020593238-e20a8c978b39',
+    imageUrl: 'https://images.unsplash.com/photo-1769020593238-e20a8c978b39?q=80&w=800',
     imageAlt: 'Residência com portão gradeado e telhado de telha em bairro de condomínios da Vila Branca, Jacareí',
   },
   'jacarei-jardim-california': {
@@ -531,7 +531,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jacarei-vila-branca',        name: 'Vila Branca' },
       { slug: 'jacarei-jardim-santa-maria',  name: 'Jardim Santa Maria' },
     ],
-    unsplashId: '1776950175207-ab816f218961',
+    imageUrl: 'https://images.unsplash.com/photo-1776950175207-ab816f218961?q=80&w=800',
     imageAlt: 'Rua residencial tranquila e arborizada no Jardim Califórnia, Jacareí',
   },
   'jacarei-jardim-santa-maria': {
@@ -550,7 +550,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jacarei-vila-branca',        name: 'Vila Branca' },
       { slug: 'jacarei-jardim-california',   name: 'Jardim Califórnia' },
     ],
-    unsplashId: '1669236089000-b831b70ba7f9',
+    imageUrl: 'https://images.unsplash.com/photo-1669236089000-b831b70ba7f9?q=80&w=800',
     imageAlt: 'Casas residenciais coloridas de dois pavimentos em rua do Jardim Santa Maria, Jacareí',
   },
   'jacarei-centro': {
@@ -569,7 +569,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'jacarei-cidade-salvador',     name: 'Cidade Salvador' },
       { slug: 'jacarei-jardim-santa-maria',  name: 'Jardim Santa Maria' },
     ],
-    unsplashId: '1684604179172-e87bc4ac8567',
+    imageUrl: 'https://images.unsplash.com/photo-1684604179172-e87bc4ac8567?q=80&w=800',
     imageAlt: 'Vista aérea da área urbana e comercial do Centro de Jacareí',
   },
   'jacarei-cidade-salvador': {
@@ -587,7 +587,7 @@ export const neighborhoodContext: Record<string, {
     nearbyNeighborhoods: [
       { slug: 'jacarei-centro',              name: 'Centro' },
     ],
-    unsplashId: '1683824220384-fcc4fd1d2314',
+    imageUrl: 'https://images.unsplash.com/photo-1683824220384-fcc4fd1d2314?q=80&w=800',
     imageAlt: 'Edifício residencial entre casas de telhado colonial na Cidade Salvador, Jacareí',
   },
   'taubate-centro': {
@@ -606,7 +606,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'taubate-independencia', name: 'Independência' },
       { slug: 'taubate-jardim-das-nacoes', name: 'Jardim das Nações' },
     ],
-    unsplashId: '1541888946425-d81bb19240f5',
+    imageUrl: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800',
     imageAlt: 'Vista do centro histórico e comercial de Taubaté com prédios antigos e comércio',
   },
   'taubate-independencia': {
@@ -625,7 +625,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'taubate-jardim-das-nacoes', name: 'Jardim das Nações' },
       { slug: 'taubate-centro', name: 'Centro' },
     ],
-    unsplashId: '1560518883-ce09059eeffa',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800',
     imageAlt: 'Rua residencial arborizada no bairro Independência em Taubaté',
   },
   'taubate-barranco': {
@@ -643,7 +643,7 @@ export const neighborhoodContext: Record<string, {
     nearbyNeighborhoods: [
       { slug: 'taubate-independencia', name: 'Independência' },
     ],
-    unsplashId: '1449844908441-8829872d2607',
+    imageUrl: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800',
     imageAlt: 'Rua residencial tranquila no bairro Barranco em Taubaté',
   },
   'taubate-quiririm': {
@@ -659,7 +659,7 @@ export const neighborhoodContext: Record<string, {
     landmarks: 'próximo ao Museu da Imigração Italiana "José Indiani" e à Avenida Líbero Indiani',
     responseTime: '25–40 minutos',
     nearbyNeighborhoods: [],
-    unsplashId: '1518780664697-55e3ad937233',
+    imageUrl: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=800',
     imageAlt: 'Casarão histórico da imigração italiana no distrito de Quiririm, Taubaté',
   },
   'taubate-jardim-das-nacoes': {
@@ -678,7 +678,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'taubate-independencia', name: 'Independência' },
       { slug: 'taubate-centro', name: 'Centro' },
     ],
-    unsplashId: '1545324418-cc1a3fa10c00',
+    imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800',
     imageAlt: 'Avenida Itália no Jardim das Nações em Taubaté, bairro conhecido por bares e restaurantes',
   },
   'pindamonhangaba-centro': {
@@ -697,7 +697,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'pindamonhangaba-mombaca', name: 'Mombaça' },
       { slug: 'pindamonhangaba-mantiqueira', name: 'Mantiqueira' },
     ],
-    unsplashId: '1782442002448-73b6dbfbd5f3',
+    imageUrl: 'https://images.unsplash.com/photo-1782442002448-73b6dbfbd5f3?q=80&w=800',
     imageAlt: 'Rua comercial de pedestres no Centro de Pindamonhangaba com lojas e postes ornamentais',
   },
   'pindamonhangaba-mombaca': {
@@ -716,7 +716,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'pindamonhangaba-centro', name: 'Centro' },
       { slug: 'pindamonhangaba-mantiqueira', name: 'Mantiqueira' },
     ],
-    unsplashId: '1669222214118-65aad9e8011e',
+    imageUrl: 'https://images.unsplash.com/photo-1669222214118-65aad9e8011e?q=80&w=800',
     imageAlt: 'Casas coloridas em encosta residencial no bairro Mombaça em Pindamonhangaba',
   },
   'pindamonhangaba-mantiqueira': {
@@ -735,7 +735,7 @@ export const neighborhoodContext: Record<string, {
       { slug: 'pindamonhangaba-mombaca', name: 'Mombaça' },
       { slug: 'pindamonhangaba-centro', name: 'Centro' },
     ],
-    unsplashId: '1669236089000-b831b70ba7f9',
+    imageUrl: 'https://images.unsplash.com/photo-1669236089000-b831b70ba7f9?q=80&w=800',
     imageAlt: 'Telhados e casas residenciais no bairro Mantiqueira em Pindamonhangaba',
   },
   'pindamonhangaba-cidade-nova': {
@@ -751,7 +751,7 @@ export const neighborhoodContext: Record<string, {
     landmarks: 'próximo ao Ginásio de Esportes Cidade Nova e à Unidade Mista Cidade Nova',
     responseTime: '20–35 minutos',
     nearbyNeighborhoods: [],
-    unsplashId: '1598384674098-27cbc88b7b62',
+    imageUrl: 'https://images.unsplash.com/photo-1598384674098-27cbc88b7b62?q=80&w=800',
     imageAlt: 'Rua arborizada no bairro Cidade Nova em Pindamonhangaba',
   },
   'pindamonhangaba-moreira-cesar': {
@@ -767,7 +767,98 @@ export const neighborhoodContext: Record<string, {
     landmarks: 'próximo à UPA Moreira César, à Praça do CISAS e à Quadra Coberta do Karina',
     responseTime: '25–40 minutos',
     nearbyNeighborhoods: [],
-    unsplashId: '1668665451265-2d1f5784ebaf',
+    imageUrl: 'https://images.unsplash.com/photo-1668665451265-2d1f5784ebaf?q=80&w=800',
     imageAlt: 'Vista aérea ao entardecer do distrito de Moreira César em Pindamonhangaba',
+  },
+  'guaratingueta-centro': {
+    displayName: 'Centro',
+    titleName: 'Centro',
+    region: 'Guaratinguetá',
+    city: 'Guaratinguetá',
+    lat: '-22.8172',
+    lng: '-45.1923',
+    description: 'núcleo histórico e administrativo de Guaratinguetá, fundado em 13 de junho de 1630 com a construção de uma capela de pau-a-pique no local onde hoje está a Catedral de Santo Antônio — o marco fundador da cidade. O Centro é dividido da Zona Norte e Zona Sul pelo Rio Paraíba do Sul e pelos ribeirões do Mottas e São Gonçalo, e concentra os principais museus, praças históricas e o comércio popular da cidade',
+    characteristics: 'malha de ruas antigas e irregulares (traçado tortuoso característico do período colonial), trânsito concentrado em horário de pico nas vias históricas, forte presença de comércio popular na Praça Conselheiro Rodrigues Alves, prédios institucionais (Prefeitura, antiga Estação Ferroviária) e imóveis residenciais e comerciais centenários convivendo lado a lado',
+    crisisScenario: 'a concentração de imóveis históricos no núcleo colonial — muitos com instalações elétricas e hidráulicas originais ou parcialmente reformadas — faz de vazamentos e problemas elétricos os chamados mais comuns, exigindo profissionais habituados a estruturas antigas. O trânsito nas ruas estreitas e tortuosas do Centro Histórico em horário de pico pode adicionar alguns minutos ao deslocamento',
+    landmarks: 'próximo à Catedral de Santo Antônio, à Praça Conselheiro Rodrigues Alves, à Praça Doutor Homero Ottoni, à antiga Estação Ferroviária e à Santa Casa de Misericórdia',
+    responseTime: '10–20 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'guaratingueta-pedregulho', name: 'Pedregulho' },
+    ],
+    imageUrl: 'https://images.pexels.com/photos/9647732/pexels-photo-9647732.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageAlt: 'Rua histórica no Centro de Guaratinguetá com casarões coloniais',
+  },
+  'guaratingueta-pedregulho': {
+    displayName: 'Pedregulho',
+    titleName: 'Pedregulho',
+    region: 'Guaratinguetá',
+    city: 'Guaratinguetá',
+    lat: '-22.8031',
+    lng: '-45.1913',
+    description: 'bairro residencial e educacional na região norte da área urbana de Guaratinguetá, sede do campus da UNESP (Faculdade de Engenharia e Ciências, FEG) e de uma indústria têxtil em atividade desde 1912 (Companhia Fiação e Tecidos Guaratinguetá, especializada em produtos de cama, mesa e banho) — combinando mais de um século de história industrial com a presença de uma universidade pública',
+    characteristics: 'bairro procurado por famílias por suas ruas tranquilas e boa infraestrutura, presença do Itaguará Country Clube, proximidade com a Gruta de Nossa Senhora de Lourdes, mescla de população residencial fixa com estudantes universitários da UNESP/FEG',
+    crisisScenario: 'a combinação de residências familiares de longa data com moradia estudantil próxima à UNESP gera dois perfis distintos de chamado — manutenção residencial tradicional e reparos rápidos em imóveis alugados por estudantes, muitas vezes com urgência maior por serem a única moradia disponível durante o período letivo',
+    landmarks: 'próximo à UNESP (Faculdade de Engenharia e Ciências), ao Itaguará Country Clube e à Gruta de Nossa Senhora de Lourdes',
+    responseTime: '10–20 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'guaratingueta-centro', name: 'Centro' },
+    ],
+    imageUrl: 'https://images.pexels.com/photos/5544303/pexels-photo-5544303.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageAlt: 'Rua residencial arborizada no bairro Pedregulho em Guaratinguetá',
+  },
+  'guaratingueta-parque-do-sol': {
+    displayName: 'Parque do Sol',
+    titleName: 'Parque do Sol',
+    region: 'Guaratinguetá',
+    city: 'Guaratinguetá',
+    lat: '-22.7868',
+    lng: '-45.1866',
+    description: 'bairro residencial planejado na região norte da área urbana de Guaratinguetá, com a Av. Frei Galvão marcando seu limite norte (fronteira com o Jardim do Vale) — reconhecido por suas ruas largas e bem planejadas, áreas verdes e praças, um perfil de ocupação mais recente e organizado que o núcleo colonial do Centro',
+    characteristics: 'ruas largas com traçado planejado (diferente da malha irregular do Centro histórico), forte presença de comércio de vizinhança (padarias, lanchonetes, bares), boa cobertura de escolas e serviços de saúde locais, perfil atrativo para famílias que buscam tranquilidade sem se afastar das comodidades urbanas',
+    crisisScenario: 'o traçado planejado e mais recente do bairro significa instalações elétricas e hidráulicas geralmente mais novas que as do Centro histórico, mas o crescimento residencial constante gera demanda regular por instalações e ampliações — o perfil de chamado tende a ser mais preventivo/de instalação do que emergencial-estrutural',
+    landmarks: 'ao norte da Av. Frei Galvão, próximo aos comércios da região central do bairro',
+    responseTime: '15–25 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'guaratingueta-jardim-do-vale', name: 'Jardim do Vale' },
+    ],
+    imageUrl: 'https://images.pexels.com/photos/12157193/pexels-photo-12157193.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageAlt: 'Rua residencial planejada e arborizada no bairro Parque do Sol em Guaratinguetá',
+  },
+  'guaratingueta-nova-guara': {
+    displayName: 'Nova Guará',
+    titleName: 'Nova Guará',
+    region: 'Guaratinguetá',
+    city: 'Guaratinguetá',
+    lat: '-22.8072',
+    lng: '-45.1821',
+    description: 'bairro residencial próximo ao Centro de Guaratinguetá, administrativamente reconhecido com infraestrutura própria — comércio de vizinhança (supermercado, padaria, hamburgueria), campo de futebol e proximidade com o Estádio Municipal Professor Dario Rodrigues Leite ("Ninho da Garça") e o Parque Ecológico Municipal Anthero dos Santos',
+    characteristics: 'malha residencial densa e organizada, forte presença de comércio de bairro atendendo o dia a dia dos moradores, proximidade com áreas verdes e equipamentos esportivos municipais',
+    crisisScenario: 'a proximidade com o Centro (cerca de 1,5 km) permite tempo de resposta rápido, mas a densidade residencial do bairro gera volume constante de chamados domésticos regulares — vazamentos, problemas elétricos e fechaduras são os mais comuns',
+    landmarks: 'próximo ao Estádio Municipal Professor Dario Rodrigues Leite, ao Parque Ecológico Municipal Anthero dos Santos e ao Supermercado Nova Guará',
+    responseTime: '10–20 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'guaratingueta-centro', name: 'Centro' },
+      { slug: 'guaratingueta-pedregulho', name: 'Pedregulho' },
+    ],
+    imageUrl: 'https://images.pexels.com/photos/39363823/pexels-photo-39363823.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageAlt: 'Rua residencial no bairro Nova Guará em Guaratinguetá',
+  },
+  'guaratingueta-jardim-do-vale': {
+    displayName: 'Jardim do Vale',
+    titleName: 'Jardim do Vale',
+    region: 'Guaratinguetá',
+    city: 'Guaratinguetá',
+    lat: '-22.7834',
+    lng: '-45.1877',
+    description: 'bairro residencial na região norte da área urbana de Guaratinguetá, ao lado do Rio Paraíba do Sul, que passou por mais de 30 anos convivendo com ruas de terra até a pavimentação de 18 vias ser oficialmente entregue pela Prefeitura em 18 de setembro de 2019 (obra de aproximadamente R$3 milhões via CODESG e Governo do Estado de São Paulo) — um marco recente na história do bairro. É também sede do Santuário Frei Galvão, dedicado ao primeiro santo brasileiro nascido em território nacional e ponto de peregrinação regional',
+    characteristics: 'malha residencial consolidada, com comércio de vizinhança relevante (supermercados, farmácia, padarias) concentrado ao longo da Av. José Pereira da Cruz, proximidade com o Rio Paraíba do Sul e com o SABAP Country Club, fluxo de visitantes e romeiros ao Santuário Frei Galvão',
+    crisisScenario: 'a pavimentação relativamente recente do bairro (2019) significa que parte da infraestrutura residencial ainda está se adaptando ao novo padrão viário — moradores mais antigos do bairro podem ter instalações hidráulicas e elétricas datadas do período pré-pavimentação, exigindo atenção redobrada em reparos estruturais',
+    landmarks: 'próximo ao Santuário Frei Galvão, ao SABAP Country Club e aos comércios da Av. José Pereira da Cruz',
+    responseTime: '15–25 minutos',
+    nearbyNeighborhoods: [
+      { slug: 'guaratingueta-parque-do-sol', name: 'Parque do Sol' },
+    ],
+    imageUrl: 'https://images.pexels.com/photos/35840100/pexels-photo-35840100.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageAlt: 'Rua residencial pavimentada no bairro Jardim do Vale em Guaratinguetá, próxima ao Rio Paraíba do Sul',
   },
 };
