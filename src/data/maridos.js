@@ -379,4 +379,19 @@ export const maridos = [
     description: "Atende Pindamonhangaba com avaliação 5 e 6 avaliações no Google.",
     badges: []
   },
+  {
+    id: 20,
+    name: "Montador de Móveis Guaratinguetá Claudio",
+    rating: 5,
+    reviews: 11,
+    neighborhood: "Jardim Esperança",
+    city: "Guaratinguetá",
+    address: "Av. Paulo Geraldo Pinto, 349 - Jardim Esperanca, Guaratinguetá - SP, 12518-250",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 98204-3546",
+    whatsapp: true,
+    services: [],
+    description: "Avaliação 5 com 11 avaliações no Google — atende Guaratinguetá e região.",
+    badges: []
+  },
 ];

@@ -94,3 +94,17 @@ Before shipping a bairro page's landmark/proximity claims:
 `"Identifies as women-owned"` and `"LGBTQ+ friendly"` require direct provider confirmation — never set from a Google Business Profile badge alone. A GBP badge reflects Google's own attribute system, not a claim the provider necessarily made or would stand behind if asked directly; treating it as equivalent to provider confirmation risks misrepresenting a business's own identity.
 
 `"is_24h"` is fine to source from Google Maps listing data — operating-hours data is objective and Maps is a reasonable source for it, unlike an identity attribute.
+
+
+Cross-City Provider Policy (adopted Sep 17, 2026)
+
+When a service category in a newly-launched city has fewer than 2 genuine local candidates after an exhausted, multi-angle search (confirmed by trying at least 3-4 distinct search phrasings, same rigor as Guará's Encanador search), providers may be cross-listed from a neighboring city within ~10km, subject to ALL of the following:
+
+Exhausted search first. This is a last resort for a category, not a shortcut — only applies after genuine local search has failed, the same way Guará's Encanador search failed across 4 distinct query angles before this was considered.
+Genuine willingness-to-travel evidence required, not proximity alone. At least one of:
+The provider's Maps listing explicitly states a service area including the target city, OR
+At least one review is from a customer in the target city, confirming the provider actually traveled there, OR
+The business name/description explicitly claims regional coverage (e.g. "e região," a named multi-city area)
+Scope discipline: only applies to the specific category(ies) with a confirmed gap. Categories that are already well-supplied locally never get cross-listed additions, regardless of how close a neighboring city is — this isn't a general roster-padding tool.
+Explicit, honest labeling on the live page: the provider's listing must clearly state it's based in the neighboring city and travels to the target city (e.g. "Baseado em Aparecida, atende também Guaratinguetá") — never presented as if the provider is locally based, since that would be a false claim on a directory whose core value is verified accuracy.
+Standard verification still applies: same 4+ star / meaningful review count / on-site-services-confirmed bar as any other listing — cross-listing lowers the geographic bar, not the quality bar.

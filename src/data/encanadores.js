@@ -630,4 +630,22 @@ export const encanadores = [
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982390066"
   },
+  {
+    "business_name": "Sousa Encanador",
+    "phone_number": "12981213086",
+    "star_rating": 4.8,
+    "total_reviews": 35,
+    "address": "R. Itamaracá, 461 - Pq Res Itaguassu, Aparecida - SP, 12576-608",
+    "neighborhood": "Baseado em Aparecida — atende Guaratinguetá",
+    "city": "Guaratinguetá",
+    "website": "N/A",
+    "service_type": "Encanador",
+    "is_24h": true,
+    "last_updated": "2026-09-21",
+    "status": "Active",
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
+    "whatsapp": "https://wa.me/5512981213086",
+    "note": "CROSS-CITY listing per Cross-City Provider Policy (adopted Sep 17 2026) - based in Aparecida (~6km from Guará), not locally based. Evidence: (1) Google's 'on-site services not available' flag on this listing is directly contradicted by review content describing actual on-site work performed (kitchen leak repair, burst pipe at customer's home); (2) business's own Facebook page states 'Atendemos Aparecida e a Região do Vale do Paraíba' and explicitly location-tags Guaratinguetá by name. MUST be labeled on the live page as based in Aparecida and traveling to Guaratinguetá - never presented as locally based."
+  },
 ];
