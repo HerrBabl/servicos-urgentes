@@ -81,7 +81,27 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
       const isLgbtq = business['LGBTQ+ friendly'] || business.badges?.includes('LGBTQ+ friendly');
       // Website: only render button if field exists and is a non-empty string
       const displayWebsite = typeof business.website === 'string' && business.website.startsWith('http') ? business.website : null;
-      
+
+      // Pre-filled WhatsApp message, keyed by service_type — gives providers visible
+      // proof a lead came from Serviços Urgentes. Keys must match the exact
+      // service_type strings in the data files (verified against all 5: encanadores.js
+      // = "Encanador", chaveiros.js = "Chaveiro", eletricistas.js = "Eletricista",
+      // maridos.js = "Marido de Aluguel", ar_condicionado.js = "Ar condicionado" for
+      // 83 of 85 rows — the other 2 ("Ar condicionado auto", "Aquecedores") fall
+      // through to the generic default below rather than guessing a fit).
+      const whatsappMessages = {
+        'Chaveiro': 'Olá! Estou trancado(a) para fora e encontrei seu contato no Serviços Urgentes. Pode me ajudar agora?',
+        'Encanador': 'Olá! Encontrei seu contato no Serviços Urgentes. Tenho um problema urgente de encanamento e gostaria de um orçamento.',
+        'Eletricista': 'Olá! Encontrei seu contato no Serviços Urgentes. Tenho um problema urgente elétrico e gostaria de um orçamento.',
+        'Ar condicionado': 'Olá! Encontrei seu contato no Serviços Urgentes e gostaria de um orçamento para meu ar-condicionado.',
+        'Marido de Aluguel': 'Olá! Encontrei seu contato no Serviços Urgentes e gostaria de saber mais sobre seus serviços.',
+      };
+      const whatsappMessage = whatsappMessages[business.service_type] || 'Olá! Encontrei seu contato no Serviços Urgentes e gostaria de mais informações.';
+      const whatsappText = encodeURIComponent(whatsappMessage);
+      const whatsappHref = typeof business.whatsapp === 'string'
+        ? `${business.whatsapp}?text=${whatsappText}`
+        : `https://wa.me/55${displayPhone.replace(/\D/g, '')}?text=${whatsappText}`;
+
       return (
         <div class="business-card bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 overflow-hidden flex flex-col"
              data-name={displayName.toLowerCase()}
@@ -149,7 +169,7 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
             )}
 
             {(business.whatsapp === true || (typeof business.whatsapp === 'string' && business.whatsapp.length > 5)) ? (
-              <a href={typeof business.whatsapp === 'string' ? business.whatsapp : `https://wa.me/55${displayPhone.replace(/\D/g,'')}`}
+              <a href={whatsappHref}
                  target="_blank"
                  rel="noopener noreferrer"
                  data-cta="whatsapp"
