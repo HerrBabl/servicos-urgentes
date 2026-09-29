@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Climatização em Urbanova: Ar-Condicionado Alto Padrão"
 description: "Mora no Urbanova? Descubra as melhores soluções de ar-condicionado (VRF, Cassette, Duto) para casas com pé-direito duplo e arquitetura moderna."
 date: "2025-12-22T10:00:00-03:00"
-dateModified: "2026-04-08T12:00:00-03:00"
+dateModified: "2026-09-29T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"  
   url: "https://servicosurgentes.com/sobre/"  
@@ -90,7 +90,7 @@ Investir em climatização de alto padrão é decisão de infraestrutura, não a
 | Item | Custo Estimado | Quando Necessário |
 |------|---------------|-------------------|
 | Upgrade do quadro elétrico | R$ 3.000 - R$ 8.000 | Se carga atual insuficiente |
-| Aumento do padrão de entrada (CPFL) | R$ 5.000 - R$ 12.000 | Casas com demanda >15kW |
+| Aumento do padrão de entrada (EDP São Paulo) | R$ 5.000 - R$ 12.000 | Casas com demanda >15kW |
 | Projeto de climatização | R$ 2.000 - R$ 5.000 | Sempre recomendado para VRF |
 | Automação residencial (integração) | R$ 4.000 - R$ 10.000 | Opcional, mas valoriza imóvel |
 
