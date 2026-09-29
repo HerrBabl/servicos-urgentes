@@ -2,7 +2,9 @@
 // src/pages/servicos/[service]/[neighborhood].astro
 //
 // ── PHASE 2B MERGE — PRODUCTION FILE ────────────────────────────────────────
-// Generates 120 static pages: 5 services × 24 neighborhoods (as of Aug 12, 2026)
+// Generates one static page per service × neighborhood combo (see getStaticPaths()
+// below for the current city/neighborhood roster — do not hardcode a count here,
+// it drifts every time a city is added; verify with a grep/count check instead).
 // Neighborhood count grows via the "depth-first" SJC expansion track — each
 // new entry here must also have a matching /bairros/[slug]/ page, or internal
 // cross-links from that neighborhood will 404. As of this count, every slug
@@ -148,10 +150,11 @@ const cityServiceContext: Record<string, Record<string, {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// getStaticPaths — generates 220 routes across 5 cities: SJC (5 services × 24
-// neighborhoods = 120) + Jacareí (5 services × 5 neighborhoods = 25) + Taubaté
-// (5 services × 5 neighborhoods = 25) + Pindamonhangaba (5 services × 5
-// neighborhoods = 25) + Guaratinguetá (5 services × 5 neighborhoods = 25)
+// getStaticPaths — generates one route per service × neighborhood combo, across
+// every city block in the `cities` array below (SJC, Jacareí, Taubaté,
+// Pindamonhangaba, Guaratinguetá as of this writing). Don't hardcode a route
+// count in this comment — it goes stale on every city launch; verify with a
+// grep/count check instead (content-rules.md Section 7).
 // WHY: Static generation = Netlify CDN edge cache = instant load on mobile (4G)
 //
 // FIX: getStaticPaths is called by Astro at build time BEFORE the rest of the
@@ -300,7 +303,7 @@ const overlay = cityServiceContext[nbh.city]?.[service] ?? {};
 const hasPricing = Boolean(overlay.priceItems?.length);
 
 // ── SEO METADATA ───────────────────────────────────────────────────────────────
-// Dynamic per combo — every one of the 120 pages has unique title + description
+// Dynamic per combo — every service × neighborhood page has a unique title + description
 // keywords: "marido de aluguel sjc" is always at position 4 — project requirement
 const regionLabel = nbh.region === 'Centro' ? 'região central' : nbh.region;
 const pageTitle = `${svc.titleName} em ${nbh.titleName} — ${nbh.region}`;
@@ -310,7 +313,7 @@ const keywords        = `${service} ${nbh.displayName.toLowerCase()}, ${service}
 const imageURL        = nbh.imageUrl;
 
 // ── FAQ GENERATION ─────────────────────────────────────────────────────────────
-// 5 natural-language Q&As per combo = 600 unique FAQ entries across all 120 pages
+// 5 natural-language Q&As per combo, unique per service × neighborhood page
 // Feeds FAQPage schema (AI citations) + visible accordion (UX + word count)
 const faqs = svc.faqTemplate(nbh.displayName, hasPricing);
 
@@ -629,7 +632,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
 
     <!-- ── FAQ ACCORDION — AI/GEO SEO ───────────────────────────────────── -->
     <!-- Natural language Q&A = primary citation source for AI search engines -->
-    <!-- 5 questions × 120 pages = 600 unique FAQ entries                    -->
+    <!-- 5 unique questions per service × neighborhood page                    -->
     <!-- FAQPage schema (injected in <head> above) feeds structured data      -->
     <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 md:p-8 mb-10">
       <h2 class="text-2xl font-bold text-gray-900 mb-6">
