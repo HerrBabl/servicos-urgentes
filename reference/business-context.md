@@ -14,13 +14,13 @@ servicosurgentes.com — an AI-first emergency home services directory for São 
 
 - Astro v5.15.2 (static site generation) + Tailwind CSS
 - Deployed on Netlify via GitHub
-- Supabase active: 5 tables (providers, services, neighborhoods, provider_services, provider_neighborhoods), powers programmatic combo pages
-- Local `.js` files remain source of truth for service listing pages (`maridos.js` has a distinct schema from the other four — never mix)
+- Supabase: 5 tables exist (providers, services, neighborhoods, provider_services, provider_neighborhoods) but are confirmed empty and NOT wired into any page's rendering/filter logic
+- `src/data/*.js` files are the actual source of truth for all combo/service page listings (`maridos.js` has a distinct schema from the other four — never mix)
 - Monitoring: Ahrefs, GA4, GSC, Microsoft Clarity, IndexNow (immediate submission after every deploy)
 
-## Site structure (order of magnitude — check SITE-STRUCTURE.md for exact current counts)
+## Site structure
 
-5 service pages · 24 bairro pages · 23 blog posts · 5 emergencias pages (+ hub) · 120 programmatic combo pages (5 services × 24 SJC neighborhoods) — plus 25 Jacareí combo routes scaffolded but routing-only/noindex until content lands
+Counts drift with every city launch — verify with grep before trusting a number here or in SITE-STRUCTURE.md; see content-rules.md Section 7.
 
 ## GBP (Google Business Profile)
 
