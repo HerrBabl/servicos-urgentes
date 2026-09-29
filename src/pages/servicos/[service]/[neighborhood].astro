@@ -263,6 +263,24 @@ export function getStaticPaths() {
         'guaratingueta-jardim-do-vale',
       ],
     },
+    {
+      // Aparecida launches with 4 services — no marido-de-aluguel this round
+      // (no qualifying candidate as of Sep 29, 2026; add later the same way
+      // as any other category once one is confirmed).
+      services: [
+        'encanador',
+        'eletricista',
+        'chaveiro',
+        'ar-condicionado',
+      ],
+      neighborhoods: [
+        'aparecida-centro',
+        'aparecida-ponte-alta',
+        'aparecida-sao-roque',
+        'aparecida-santa-rita',
+        'aparecida-jardim-paraiba',
+      ],
+    },
   ];
 
   return cities.flatMap(({ services, neighborhoods }) =>

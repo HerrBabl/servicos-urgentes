@@ -47,4 +47,12 @@ export const cityHomepageContext: Record<string, {
     metaDescription: 'Encontre encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel em Guaratinguetá. Profissionais verificados, contato direto, sem intermediação.',
     canonicalURL: 'https://servicosurgentes.com/guaratingueta/',
   },
+  'aparecida': {
+    displayName: 'Aparecida',
+    heroHeadline: 'Emergência Doméstica em Aparecida? Ajuda Agora.',
+    heroSubhead: 'Encanador, eletricista, chaveiro e técnico de ar-condicionado — profissionais verificados atendendo Aparecida 24 horas.',
+    metaTitle: 'Serviços de Emergência 24h em Aparecida | Serviços Urgentes',
+    metaDescription: 'Encontre encanador, eletricista, chaveiro e ar-condicionado em Aparecida, perto do Santuário Nacional. Profissionais verificados, contato direto, sem intermediação.',
+    canonicalURL: 'https://servicosurgentes.com/aparecida/',
+  },
 };
