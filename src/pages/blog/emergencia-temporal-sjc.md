@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Temporal em SJC? O Que Fazer Agora: Guia de Emergência 24h"
 description: "Tempestade causou danos em SJC? Saiba o que fazer nas próximas 2 horas. Guia para Urbanova, Aquarius, Vila Tatetuba e Centro com profissionais 24h."
 date: "2026-02-03T08:30:00-03:00"
-dateModified: "2026-04-16T07:15:00-03:00"
+dateModified: "2026-09-29T12:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -501,7 +501,7 @@ SJC enfrenta temporais intensos principalmente entre **novembro e março**. Use 
 ### **Órgãos Públicos (Emergências Graves)**
 - **Defesa Civil SJC:** 199 (alagamentos, deslizamentos, risco estrutural)
 - **Bombeiros:** 193 (incêndios, pessoas presas, risco de vida)
-- **CPFL Emergência:** 0800 010 1010 (falta de luz na rua, poste caído)
+- **EDP São Paulo (SAC):** 0800 721 0123, 24h (falta de luz na rua, poste caído)
 - **SABESP Emergência:** 0800 055 0195 (vazamento na rua, falta d'água)
 
 ### **Previsão e Alertas**
