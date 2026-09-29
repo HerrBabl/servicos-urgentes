@@ -8,6 +8,9 @@ import { cityHomepageContext } from '../data/cities.ts';
 const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
 const currentCitySlug = pathSegments[0];
 const isOnCityPage = currentCitySlug in cityHomepageContext;
+
+// Same exception as Header.astro: Aparecida has no marido-de-aluguel page.
+const showMarido = currentCitySlug !== 'aparecida';
 ---
 
 <footer class="bg-gray-900 text-white">
@@ -46,7 +49,9 @@ const isOnCityPage = currentCitySlug in cityHomepageContext;
           <li><a href={isOnCityPage ? `/servicos/chaveiro/${currentCitySlug}/` : '/servicos/chaveiro/'} class="text-gray-300 hover:text-white transition-colors">Chaveiro 24h</a></li>
           <li><a href={isOnCityPage ? `/servicos/eletricista/${currentCitySlug}/` : '/servicos/eletricista/'} class="text-gray-300 hover:text-white transition-colors">Eletricista 24h</a></li>
           <li><a href={isOnCityPage ? `/servicos/ar-condicionado/${currentCitySlug}/` : '/servicos/ar-condicionado/'} class="text-gray-300 hover:text-white transition-colors">Ar Condicionado 24h</a></li>
-          <li><a href={isOnCityPage ? `/servicos/marido-de-aluguel/${currentCitySlug}/` : '/servicos/marido-de-aluguel/'} class="text-gray-300 hover:text-white transition-colors">🛠️ Marido de Aluguel</a></li>
+          {showMarido && (
+            <li><a href={isOnCityPage ? `/servicos/marido-de-aluguel/${currentCitySlug}/` : '/servicos/marido-de-aluguel/'} class="text-gray-300 hover:text-white transition-colors">🛠️ Marido de Aluguel</a></li>
+          )}
         </ul>
       </div>
 

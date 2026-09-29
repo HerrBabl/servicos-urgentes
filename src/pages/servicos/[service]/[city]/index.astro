@@ -28,10 +28,17 @@ import { cityHomepageContext } from '../../../../data/cities.ts';
 import { neighborhoodContext } from '../../../../data/neighborhoods.ts';
 
 export function getStaticPaths() {
-  const cities = Object.keys(cityHomepageContext); // today: ['jacarei', 'taubate', 'pindamonhangaba']
+  const cities = Object.keys(cityHomepageContext); // today: ['jacarei', 'taubate', 'pindamonhangaba', 'guaratingueta', 'aparecida']
   const services = Object.keys(serviceContext);
+  // Aparecida launched without a qualifying marido-de-aluguel candidate (Sep 2026)
+  // — every other city×service combo has real data, so this is a narrow exception
+  // rather than a general per-city service list. If a second city ever ships with
+  // a partial service set, generalize this into a cityHomepageContext field
+  // instead of stacking more one-off exclusions here.
   return services.flatMap(service =>
-    cities.map(city => ({ params: { service, city } }))
+    cities
+      .filter(city => !(service === 'marido-de-aluguel' && city === 'aparecida'))
+      .map(city => ({ params: { service, city } }))
   );
 }
 
