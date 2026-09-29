@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Retrofit na Vila Adyana: Modernização de Casas Antigas"
 description: "Água amarelada ou fusível queimando? Saiba como modernizar a hidráulica e elétrica de casas antigas na Vila Adyana preservando o charme. Guia completo."
 date: "2025-12-20T10:00:00-03:00"
-dateModified: "2026-04-08T20:30:00-03:00"
+dateModified: "2026-09-29T12:00:00-03:00"
 category: "Guia de Bairro"
 author:
   name: "Equipe Serviços Urgentes"
@@ -173,7 +173,7 @@ Transparência de preços ajuda a planejar o investimento. Valores praticados pa
 ✅ **Acesso:** Casas com porão/sótão facilitam passagem de tubulação (reduz quebra de paredes)  
 ✅ **Piso:** Casas com piso de madeira são mais fáceis (e baratas) que casas com cerâmica/mármore  
 ✅ **Árvores:** Se há raízes já infiltradas no esgoto, pode precisar de hidrojateamento  
-✅ **Padrão de entrada:** Casas antigas têm padrão de 110V; modernizar para 220V exige upgrade na CPFL  
+✅ **Padrão de entrada:** Casas antigas têm padrão de 110V; modernizar para 220V exige upgrade no padrão de entrada junto à EDP São Paulo  
 
 💡 **Dica Financeira:** Retrofit completo valoriza o imóvel em 10-15% na Vila Adyana. É investimento, não custo.
 
@@ -238,7 +238,7 @@ Não é necessário fazer tudo de uma vez. Priorize por risco:
 **A Solução:** Fotografe TUDO antes de fechar. Crie um "mapa" da casa com medidas.
 
 ### Erro #5: Fazer Retrofit Sem Legalizar
-**O Problema:** "Vou fazer sem mexer no padrão de entrada para não pagar CPFL."  
+**O Problema:** "Vou fazer sem mexer no padrão de entrada para não pagar a taxa da EDP."  
 **A Consequência:** Na hora de vender, comprador pede laudo elétrico. Não passa. Você tem que refazer às pressas.  
 **A Solução:** Se vai mexer em quadro elétrico, legalize. Custa R$ 300-800 mas valoriza o imóvel.
 
