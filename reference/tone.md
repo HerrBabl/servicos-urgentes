@@ -34,3 +34,5 @@ The reader is often mid-emergency: locked out, flooded, no power, no AC in a hea
 - "Atendimento Imediato"
 - "Profissionais com 4+ estrelas"
 - "Profissionais da região" / "Prestadores locais" / "Técnicos cadastrados" (see content-rules.md for directory-language pairs)
+
+This file governs site copy. Social posts follow `reference/social-content-engine.md` (humor/gambiarra voice allowed on social; never on emergency pages).
