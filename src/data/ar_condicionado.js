@@ -1448,4 +1448,21 @@ export const ar_condicionado = [
     "whatsapp": "https://wa.me/5512997138822",
     "note": "1 review re: unreliable scheduling/timing - reviewed and kept, otherwise strong reviews describing genuine on-site AC/refrigeration repair work"
   },
+  {
+    "business_name": "Aparecida Ar",
+    "phone_number": "12982356896",
+    "star_rating": 5.0,
+    "total_reviews": 20,
+    "address": "Av. Itaú, Aparecida - SP, 12570-000",
+    "neighborhood": "N/A",
+    "city": "Aparecida",
+    "website": "N/A",
+    "service_type": "Ar condicionado",
+    "is_24h": false,
+    "last_updated": "2026-09-29",
+    "status": "Active",
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
+    "whatsapp": "https://wa.me/5512982356896"
+  },
 ];

@@ -1550,4 +1550,38 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/551231339407",
     "note": "Hardware/locksmith supply store with locksmith services - one negative review re: no invoice issued; included as it has genuine locksmith category tag and strong review count"
   },
+  {
+    "business_name": "Chaveiro São Roque",
+    "phone_number": "12991283788",
+    "star_rating": 5.0,
+    "total_reviews": 7,
+    "address": "Av. Zezé Valadão, 390, Aparecida - SP, 12573-242",
+    "neighborhood": "São Roque",
+    "city": "Aparecida",
+    "website": "N/A",
+    "service_type": "Chaveiro",
+    "is_24h": false,
+    "last_updated": "2026-09-29",
+    "status": "Active",
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
+    "whatsapp": "https://wa.me/5512991283788"
+  },
+  {
+    "business_name": "Chaveiro ponte alta",
+    "phone_number": "12997067335",
+    "star_rating": 4.9,
+    "total_reviews": 23,
+    "address": "R. Benedito Macedo, 303 - Ponte alta, Aparecida - SP, 12570-000",
+    "neighborhood": "Ponte Alta",
+    "city": "Aparecida",
+    "website": "N/A",
+    "service_type": "Chaveiro",
+    "is_24h": false,
+    "last_updated": "2026-09-29",
+    "status": "Active",
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
+    "whatsapp": "https://wa.me/5512997067335"
+  },
 ];
