@@ -13,7 +13,7 @@ Last updated: 2026-09-22
 - Outreach email: cadastroservicosurgentes@gmail.com (individual framing, no CNPJ)
 - reference/ folder (repo root, git-tracked, mirrored in Project Knowledge): content-rules.md, tone.md, vocabulary.md, beliefs.md, business-context.md. **business-context.md is stale** — it claims Supabase powers combo-page filtering; it does not. Standard CC prompt: "Read @reference/content-rules.md, @reference/tone.md, and @reference/vocabulary.md before writing [task]."
 
-## Current Content Totals (as of Guará launch, Sep 21, 2026)
+## Current Content Totals (as of Guará launch, Sep 21, 2026 — verify with grep before trusting; see content-rules.md Section 7)
 - **332 pages total**, 5 cities live
 - 39 bairro pages across all cities
 - 29+ blog posts
@@ -52,10 +52,10 @@ Astro's esbuild cannot export a second top-level `const` alongside `getStaticPat
 ### Provider `.js` files (`src/data/`)
 - `ar_condicionado.js`, `chaveiros.js`, `eletricistas.js`, `encanadores.js` — standardized schema (business_name, phone_number as digits-only, star_rating, total_reviews, address, neighborhood, city, website, `service_type` with exact per-file capitalization — verify exact casing per file, e.g. `ar_condicionado.js` uses lowercase `"Ar condicionado"` not `"Ar Condicionado"`, confirmed Sep 22 — is_24h boolean, last_updated, status, "Identifies as women-owned" boolean, "LGBTQ+ friendly" boolean, `whatsapp` as a full `https://wa.me/...` URL string derived from phone, optional "note" field)
 - `maridos.js` — DISTINCT schema: unquoted keys, id/name/rating/reviews/neighborhood/city/address/service_type/phone (formatted, not digits-only)/whatsapp (**boolean here, not a URL**)/services array/description/badges array. Never mix with the other 4 files.
-- Current record counts (last full audit Sep 11, pre-Guará; Guará added 28 more): 243 records across SJC/Jacareí/Taubaté — encanadores 34, eletricistas 72, chaveiros 69, ar_condicionado 56, maridos 12. Post-Guará total is 283 (Guará: Eletricista 10, Chaveiro 9, Ar-Condicionado 7, Encanador 1, Marido de Aluguel 1).
+- Record counts drift with every city launch — verify with grep before trusting any number here. Last full audit Sep 11 (pre-Guará) had 243 records across SJC/Jacareí/Taubaté; Guará added 28 more across the same breakdown described in its launch commits (Eletricista 10, Chaveiro 9, Ar-Condicionado 7, Encanador 1, Marido de Aluguel 1).
 - Legacy `.csv`/`.json` files + `csv-to-json-converter.cjs` also present — believed dead scaffolding artifacts, never confirmed removed.
 
-### Cross-City Provider Policy (adopted Sep 17, 2026 — NOT yet added to content-rules.md, flagged by Ian, still outstanding)
+### Cross-City Provider Policy (adopted Sep 17, 2026)
 Solves thin-category gaps (e.g. Guará's Encanador/Marido de Aluguel) by cross-listing verified providers from a neighboring city:
 - Applies only when a category has fewer than 2 genuine local candidates after an exhausted multi-angle search
 - Requires genuine willingness-to-travel evidence (explicit service-area statement, a review from a customer in the target city, or explicit regional-coverage language) — proximity alone is not sufficient
@@ -71,12 +71,12 @@ Solves thin-category gaps (e.g. Guará's Encanador/Marido de Aluguel) by cross-l
 `BusinessListing.astro` (single component, all provider cards across the site) now appends a pre-filled, `encodeURIComponent`-encoded message to every WhatsApp link, keyed by `business.service_type`. Purpose: give providers visible proof that a lead came from Serviços Urgentes, supporting the provider-badge outreach re-approach. Handles both data shapes (string URL in the 4 standardized files; boolean + constructed URL in `maridos.js`). Verified on-device (iPhone) for both shapes — message renders correctly in the WhatsApp compose box, accented characters (á, ç, ã, é) decode correctly, not as escaped garbage.
 
 ## Schema (JSON-LD)
-- Sitewide Organization schema (`Layout.astro`) — `areaServed` is a hardcoded array of City objects, manually updated per city launch (deliberately kept hardcoded rather than dynamic — single literal block, no duplication to eliminate). Confirmed current through Taubaté (Sep 11); **verify Pinda and Guará were added** — not confirmed in memory as of this doc's writing.
+- Sitewide Organization schema (`Layout.astro`) — `areaServed` is a hardcoded array of City objects, manually updated per city launch (deliberately kept hardcoded rather than dynamic — single literal block, no duplication to eliminate). Confirmed current as of Sep 29, 2026: all 5 live cities present (SJC, Jacareí, Taubaté, Pindamonhangaba, Guaratinguetá).
 - BreadcrumbList — sitewide format standardized Sep 1, 2026: plain URL strings for `item` (Google's documented format), not nested WebPage objects. Fixed a real bug affecting 158 pages.
 - FAQPage schema — blog + emergencias pages (min 4, max 6 FAQs)
 - Service + CollectionPage schema — service hub and aggregation pages, city-parameterized
 - Place schema — bairro pages
-- ⚠️ Known accuracy gap, not fixed: `ContentLayout.astro`'s `Place.geo` reads `lat`/`lng` from frontmatter, but no bairro `.md` file actually sets these — every bairro page reports the same hardcoded SJC coordinate.
+- ✅ Fixed Sep 15, 2026 (commit `f7af18a`): `ContentLayout.astro`'s `Place.geo` now looks up the real bairro's coordinates from `neighborhoodContext` by URL slug, falling back to frontmatter/SJC only for the (currently unreachable) non-bairro-page case.
 - ⚠️ Known accuracy gap, not fixed: `ContentLayout.astro`'s Service schema block has a separate hardcoded-SJC `areaServed` bug (distinct from the Layout.astro Organization schema fix).
 
 ## Known Backlog Items (not yet actioned)
@@ -84,12 +84,11 @@ Solves thin-category gaps (e.g. Guará's Encanador/Marido de Aluguel) by cross-l
 - **Bairro `neighborhood` value normalization** — many provider records across cities have `neighborhood` values that don't match any launched bairro slug. Non-issue in practice: bairro pages show all city-wide providers, not bairro-headquartered-only ("atendem [bairro] e toda a região de [cidade]"), so this doesn't affect page correctness — confirmed working as designed across Jacareí, Taubaté, and Guará.
 - **`sobre.astro`'s `canonicalURL`** — missing trailing slash, violates site convention.
 - **Emoji-heading anchor bug** — `ContentLayout.astro` client-side script fix was verified locally (hexdump-confirmed pure ASCII regex) as of Jul 24; commit status at that time was pending — confirm whether this shipped.
-- **"Voltar ao topo" (#inicio) fix** — 4 of 5 emergencias pages missing the manual `<a id="inicio">` anchor that `vazamento-no-teto-sjc.md` has.
+- ✅ **"Voltar ao topo" (#inicio)** — confirmed Sep 29, 2026: all 5 emergencias pages have the `<a id="inicio">` anchor. No gap.
 - **H2 generic label fix** — last remaining open item from the original April 2026 AEO/GEO audit.
 - **Marido-de-aluguel `description:` frontmatter field** — missing "marido de aluguel" keyword on 31 of 39 bairro pages (only SJC's 8 later-added expansion bairros have it). Meta/social-preview only, low severity.
 - **Hand-authored inline `AdministrativeArea` blocks** in 16 `.md` files — removal deferred pending evaluation of actual GEO impact; 5 bairros would lose their only geo-specificity if removed.
 - **Performance watch** — marido-de-aluguel pages flagged as underperforming by both Ahrefs (slow-page) and Clarity (high INP). Revisit once Clarity accumulates more sessions.
-- **Cross-City Provider Policy** — adopted and in use (Sousa Encanador in Guará) but still not added to `content-rules.md` as a documented site standard.
 
 ## Notes / Standing Conventions
 - H1 source: `ContentLayout.astro` renders H1 from frontmatter `title`. Never add a duplicate `# Heading` in markdown body.
