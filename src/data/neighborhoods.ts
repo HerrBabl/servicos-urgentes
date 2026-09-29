@@ -8,7 +8,10 @@
 //
 // WHY: Hyper-local copy competitors cannot reproduce — the "Local Domination" moat
 // SEO: AI engines cite specific crisis scenarios and local landmarks as authoritative
-// 29 neighborhoods (24 SJC + 5 Jacareí, as of Aug 2026) — mirrors /bairros/ pages to prevent 404s on cross-links
+// One entry per launched bairro, across all live cities — mirrors /bairros/ pages
+// to prevent 404s on cross-links. Don't hardcode a neighborhood count in this
+// comment — it drifts on every city launch; verify with a grep/count check
+// instead (content-rules.md Section 7).
 
 export const neighborhoodContext: Record<string, {
   displayName: string;
