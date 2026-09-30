@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Jardim Paraíba - Aparecida | Guia 2026"
-description: "Encanador, eletricista, chaveiro e ar-condicionado no Jardim Paraíba, Aparecida, às margens do Rio Paraíba do Sul. Atendimento 24h."
+description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Jardim Paraíba, Aparecida, às margens do Rio Paraíba do Sul. Atendimento 24h."
 date: "2026-09-26T17:00:00-03:00"
-dateModified: "2026-09-26T17:00:00-03:00"
+dateModified: "2026-09-30T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -13,7 +13,7 @@ tags: ["Jardim Paraíba", "Aparecida", "Guia de Bairro"]
 slug: "servicos-jardim-paraiba-aparecida"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/aparecida-jardim-paraiba/"
-keywords: "encanador jardim paraíba aparecida, eletricista jardim paraíba aparecida, chaveiro aparecida 24h, marido de aluguel sjc, ar condicionado jardim paraíba aparecida, emergência jardim paraíba"
+keywords: "encanador jardim paraíba aparecida, eletricista jardim paraíba aparecida, chaveiro aparecida 24h, marido de aluguel aparecida, ar condicionado jardim paraíba aparecida, emergência jardim paraíba"
 region: "Aparecida"
 neighborhood: "Jardim Paraíba, Centro, Ponte Alta"
 faqSchema:
@@ -41,6 +41,7 @@ Por ficar na porção mais ocidental de Aparecida, o Jardim Paraíba depende de 
    - [Eletricista](#eletricista)
    - [Chaveiro](#chaveiro)
    - [Ar-Condicionado](#ar-condicionado)
+   - [Marido de Aluguel — Montagem de Móveis](#marido)
 3. [Cobertura e Tempo de Chegada](#3-cobertura)
 4. [Perguntas Frequentes](#4-faq)
 
@@ -101,6 +102,13 @@ Os chamados mais comuns no Jardim Paraíba seguem o padrão residencial — vaza
 - **Reparo:** diagnóstico de falhas e vazamento de gás.
 
 👉 **[Ver Técnicos de Ar-Condicionado em Aparecida →](/servicos/ar-condicionado/aparecida-jardim-paraiba/)**
+
+### <span id="marido"></span>🛠️ Marido de Aluguel — Montagem de Móveis
+
+- **Montagem de móveis desmontados:** guarda-roupas, camas, estantes, racks e similares.
+- **Profissional baseado em Guaratinguetá**, que atende também Aparecida.
+
+👉 **[Ver Marido de Aluguel em Aparecida →](/servicos/marido-de-aluguel/aparecida-jardim-paraiba/)**
 
 [⬆️ Voltar ao topo](#top)
 

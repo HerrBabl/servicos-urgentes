@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Centro de Aparecida | Guia 2026"
-description: "Encanador, eletricista, chaveiro e ar-condicionado no Centro de Aparecida, perto do Santuário Nacional. Atendimento 24h para moradores, pousadas e comércio."
+description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Centro de Aparecida, perto do Santuário Nacional. Atendimento 24h para o bairro."
 date: "2026-09-26T17:00:00-03:00"
-dateModified: "2026-09-26T17:00:00-03:00"
+dateModified: "2026-09-30T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -13,7 +13,7 @@ tags: ["Centro", "Aparecida", "Guia de Bairro", "Santuário Nacional"]
 slug: "servicos-centro-aparecida"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/aparecida-centro/"
-keywords: "encanador centro aparecida, eletricista aparecida santuário, chaveiro aparecida 24h, marido de aluguel sjc, ar condicionado pousada aparecida, emergência basílica aparecida"
+keywords: "encanador centro aparecida, eletricista aparecida santuário, chaveiro aparecida 24h, marido de aluguel aparecida, ar condicionado pousada aparecida, emergência basílica aparecida"
 region: "Aparecida"
 neighborhood: "Centro, Ponte Alta, Santa Rita"
 faqSchema:
@@ -41,6 +41,7 @@ Caminhar pelo Centro hoje é ver essa dupla identidade lado a lado. Os sobrados 
    - [Eletricista](#eletricista)
    - [Chaveiro](#chaveiro)
    - [Ar-Condicionado](#ar-condicionado)
+   - [Marido de Aluguel — Montagem de Móveis](#marido)
 3. [Cobertura e Tempo de Chegada](#3-cobertura)
 4. [Perguntas Frequentes](#4-faq)
 
@@ -101,6 +102,13 @@ O perfil misto do Centro — casario residencial histórico ao lado de pousadas,
 - **Reparo emergencial:** aparelhos parados durante fins de semana de romaria, quando a demanda por conforto é maior.
 
 👉 **[Ver Técnicos de Ar-Condicionado em Aparecida →](/servicos/ar-condicionado/aparecida-centro/)**
+
+### <span id="marido"></span>🛠️ Marido de Aluguel — Montagem de Móveis
+
+- **Montagem de móveis desmontados:** guarda-roupas, camas, estantes, racks e similares.
+- **Profissional baseado em Guaratinguetá**, que atende também Aparecida.
+
+👉 **[Ver Marido de Aluguel em Aparecida →](/servicos/marido-de-aluguel/aparecida-centro/)**
 
 [⬆️ Voltar ao topo](#top)
 

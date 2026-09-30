@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Santa Rita - Aparecida | Guia 2026"
-description: "Encanador, eletricista, chaveiro e ar-condicionado no Santa Rita, Aparecida, a poucos passos do Santuário Nacional. Atendimento 24h."
+description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Santa Rita, Aparecida, a poucos passos do Santuário Nacional. Atendimento 24h."
 date: "2026-09-26T17:00:00-03:00"
-dateModified: "2026-09-26T17:00:00-03:00"
+dateModified: "2026-09-30T09:00:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -13,7 +13,7 @@ tags: ["Santa Rita", "Aparecida", "Guia de Bairro"]
 slug: "servicos-santa-rita-aparecida"
 category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/aparecida-santa-rita/"
-keywords: "encanador santa rita aparecida, eletricista santa rita aparecida, chaveiro aparecida 24h, marido de aluguel sjc, ar condicionado santa rita aparecida, emergência santa rita"
+keywords: "encanador santa rita aparecida, eletricista santa rita aparecida, chaveiro aparecida 24h, marido de aluguel aparecida, ar condicionado santa rita aparecida, emergência santa rita"
 region: "Aparecida"
 neighborhood: "Santa Rita, Centro, Ponte Alta"
 faqSchema:
@@ -41,6 +41,7 @@ A curta distância até a Basílica faz do Santa Rita um bairro de trânsito con
    - [Eletricista](#eletricista)
    - [Chaveiro](#chaveiro)
    - [Ar-Condicionado](#ar-condicionado)
+   - [Marido de Aluguel — Montagem de Móveis](#marido)
 3. [Cobertura e Tempo de Chegada](#3-cobertura)
 4. [Perguntas Frequentes](#4-faq)
 
@@ -101,6 +102,13 @@ Os chamados mais comuns no Santa Rita seguem o padrão residencial — vazamento
 - **Reparo:** diagnóstico de falhas e vazamento de gás.
 
 👉 **[Ver Técnicos de Ar-Condicionado em Aparecida →](/servicos/ar-condicionado/aparecida-santa-rita/)**
+
+### <span id="marido"></span>🛠️ Marido de Aluguel — Montagem de Móveis
+
+- **Montagem de móveis desmontados:** guarda-roupas, camas, estantes, racks e similares.
+- **Profissional baseado em Guaratinguetá**, que atende também Aparecida.
+
+👉 **[Ver Marido de Aluguel em Aparecida →](/servicos/marido-de-aluguel/aparecida-santa-rita/)**
 
 [⬆️ Voltar ao topo](#top)
 
