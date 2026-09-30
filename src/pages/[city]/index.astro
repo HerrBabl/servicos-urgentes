@@ -45,13 +45,8 @@ const { city } = Astro.params;
 // safe: getStaticPaths() guarantees city is always a valid key — no guard needed
 const ctx = cityHomepageContext[city as string];
 
-// Aparecida launched without a qualifying marido-de-aluguel candidate (Sep 2026)
-// — narrow exception, not a general per-city service list. Generalize into a
-// cityHomepageContext field if a second city ever ships with a partial service
-// set (see the matching exception in [service]/[city]/index.astro).
-const availableServices = city === 'aparecida'
-  ? services.filter(svc => svc.slug !== 'marido-de-aluguel')
-  : services;
+// Aparecida's marido-de-aluguel exclusion (Sep 2026) lifted Sep 30, 2026 —
+// Montador de Móveis Guaratinguetá Claudio confirmed cross-city coverage.
 
 // Bairro list derived at build time — never hardcoded — by filtering the
 // shared neighborhoodContext for this city.
@@ -127,7 +122,7 @@ const heroBorder: Record<string, string> = {
         Escolha o Serviço
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
-        {availableServices.map(svc => (
+        {services.map(svc => (
           <a
             href={`/servicos/${svc.slug}/${city}/`}
             class={`bg-white rounded-lg shadow-lg p-6 border-b-4 ${heroBorder[svc.color]} hover:-translate-y-1 transition-all text-center group`}

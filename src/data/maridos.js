@@ -394,4 +394,20 @@ export const maridos = [
     description: "Avaliação 5 com 11 avaliações no Google — atende Guaratinguetá e região.",
     badges: []
   },
+  {
+    id: 21,
+    name: "Montador de Móveis Guaratinguetá Claudio",
+    rating: 5,
+    reviews: 11,
+    neighborhood: "Baseado em Guaratinguetá — atende também Aparecida",
+    city: "Aparecida",
+    address: "Av. Paulo Geraldo Pinto, 349 - Jardim Esperanca, Guaratinguetá - SP, 12518-250",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 98204-3546",
+    whatsapp: true,
+    services: ["Montagem de móveis"],
+    description: "Avaliação 5 com 11 avaliações no Google — especialista em montagem de móveis. Baseado em Guaratinguetá, atende também Aparecida.",
+    badges: [],
+    note: "CROSS-CITY listing per Cross-City Provider Policy (adopted Sep 17 2026) - based in Guaratinguetá, not locally based in Aparecida. Willingness to travel confirmed directly via WhatsApp on Sep 30, 2026. Service scope is furniture assembly specifically, not general handyman repairs - do not describe as general repairs in any copy referencing this listing. MUST be labeled on the live page as based in Guaratinguetá and traveling to Aparecida - never presented as locally based."
+  },
 ];

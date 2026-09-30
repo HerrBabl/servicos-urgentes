@@ -264,14 +264,14 @@ export function getStaticPaths() {
       ],
     },
     {
-      // Aparecida launches with 4 services — no marido-de-aluguel this round
-      // (no qualifying candidate as of Sep 29, 2026; add later the same way
-      // as any other category once one is confirmed).
+      // Marido-de-aluguel added Sep 30, 2026 — Montador de Móveis
+      // Guaratinguetá Claudio confirmed cross-city coverage via WhatsApp.
       services: [
         'encanador',
         'eletricista',
         'chaveiro',
         'ar-condicionado',
+        'marido-de-aluguel',
       ],
       neighborhoods: [
         'aparecida-centro',
@@ -303,16 +303,8 @@ if (!svc || !nbh) {
   return Astro.redirect('/servicos/');
 }
 
-// Aparecida launched without a qualifying marido-de-aluguel candidate (Sep 2026)
-// — no /servicos/marido-de-aluguel/aparecida-*/ pages exist, so the "Outros
-// Serviços" cross-sell block below must not link to one. svc.relatedServices
-// is static per-service data (services.ts), not neighborhood-aware, so filter
-// per-page rather than editing the shared data. Same narrow-exception pattern
-// as the Header/Footer/hub-page guards; generalize if a second city ever
-// ships with a partial service set.
-const relatedServices = neighborhood.startsWith('aparecida-')
-  ? svc.relatedServices.filter(r => r.slug !== 'marido-de-aluguel')
-  : svc.relatedServices;
+// Aparecida's marido-de-aluguel exclusion (Sep 2026) lifted Sep 30, 2026 —
+// Montador de Móveis Guaratinguetá Claudio confirmed cross-city coverage.
 
 // "Central de Serviços {city}" quick-link target — SJC is hardcoded (it has no
 // key in cityHomepageContext, since it lives at "/" rather than a /[city]/
@@ -696,7 +688,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         🔗 Outros Serviços em {nbh.displayName}
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        {relatedServices.map(related => (
+        {svc.relatedServices.map(related => (
           <a
             href={`/servicos/${related.slug}/${neighborhood}/`}
             class="bg-white rounded-xl border border-gray-200 p-4 hover:border-red-400 hover:shadow-md transition-all text-center group"
