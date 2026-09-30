@@ -303,6 +303,17 @@ if (!svc || !nbh) {
   return Astro.redirect('/servicos/');
 }
 
+// Aparecida launched without a qualifying marido-de-aluguel candidate (Sep 2026)
+// — no /servicos/marido-de-aluguel/aparecida-*/ pages exist, so the "Outros
+// Serviços" cross-sell block below must not link to one. svc.relatedServices
+// is static per-service data (services.ts), not neighborhood-aware, so filter
+// per-page rather than editing the shared data. Same narrow-exception pattern
+// as the Header/Footer/hub-page guards; generalize if a second city ever
+// ships with a partial service set.
+const relatedServices = neighborhood.startsWith('aparecida-')
+  ? svc.relatedServices.filter(r => r.slug !== 'marido-de-aluguel')
+  : svc.relatedServices;
+
 // "Central de Serviços {city}" quick-link target — SJC is hardcoded (it has no
 // key in cityHomepageContext, since it lives at "/" rather than a /[city]/
 // route), every other city is looked up dynamically so a future city needs no
@@ -685,7 +696,7 @@ const heroBorder = heroBorderColor[svc.color] ?? 'border-blue-600';
         🔗 Outros Serviços em {nbh.displayName}
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        {svc.relatedServices.map(related => (
+        {relatedServices.map(related => (
           <a
             href={`/servicos/${related.slug}/${neighborhood}/`}
             class="bg-white rounded-xl border border-gray-200 p-4 hover:border-red-400 hover:shadow-md transition-all text-center group"
