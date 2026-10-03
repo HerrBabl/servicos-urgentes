@@ -74,8 +74,11 @@ const pageSchema = {
       "about": {
         "@type": "City",
         "name": ctx.displayName,
-        "addressRegion": "SP",
-        "addressCountry": "BR",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "BR",
+          "addressRegion": "SP",
+        },
       },
     },
     {

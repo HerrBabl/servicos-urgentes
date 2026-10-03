@@ -52,6 +52,7 @@ const canonicalURL = ensureTrailingSlash(
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    {/* New cities in areaServed must use the nested shape below (address: PostalAddress). Flat addressRegion/addressCountry on a City is flagged by Ahrefs. */}
     <!-- Sitewide Organization schema -->
     <script type="application/ld+json">
     {
@@ -62,12 +63,12 @@ const canonicalURL = ensureTrailingSlash(
       "url": "https://servicosurgentes.com",
       "logo": "https://servicosurgentes.com/favicon.svg",
       "areaServed": [
-        { "@type": "City", "name": "São José dos Campos", "addressRegion": "SP", "addressCountry": "BR" },
-        { "@type": "City", "name": "Jacareí", "addressRegion": "SP", "addressCountry": "BR" },
-        { "@type": "City", "name": "Taubaté", "addressRegion": "SP", "addressCountry": "BR" },
-        { "@type": "City", "name": "Pindamonhangaba", "addressRegion": "SP", "addressCountry": "BR" },
-        { "@type": "City", "name": "Guaratinguetá", "addressRegion": "SP", "addressCountry": "BR" },
-        { "@type": "City", "name": "Aparecida", "addressRegion": "SP", "addressCountry": "BR" }
+        { "@type": "City", "name": "São José dos Campos", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
+        { "@type": "City", "name": "Jacareí", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
+        { "@type": "City", "name": "Taubaté", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
+        { "@type": "City", "name": "Pindamonhangaba", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
+        { "@type": "City", "name": "Guaratinguetá", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
+        { "@type": "City", "name": "Aparecida", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } }
       ]
     }
     </script>

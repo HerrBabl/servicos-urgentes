@@ -85,8 +85,11 @@ const pageSchema = {
       "areaServed": {
         "@type": "City",
         "name": ctx.displayName,
-        "addressRegion": "SP",
-        "addressCountry": "BR",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "BR",
+          "addressRegion": "SP",
+        },
       },
       "serviceType": svc.displayName,
       "url": canonicalURL,
