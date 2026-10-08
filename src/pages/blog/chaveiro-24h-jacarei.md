@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chaveiro 24h em Jacareí: Guia Completo para Emergências 2026"
 description: "Trancado para fora, chave quebrada ou fechadura emperrada em Jacareí? Guia completo de chaveiros 24h verificados no Centro, Vila Branca e mais bairros."
 date: "2026-09-02T13:00:00-03:00"
-dateModified: "2026-09-05T20:15:00-03:00"
+dateModified: "2026-10-08T18:50:40-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -223,6 +223,7 @@ Como Jacareí é uma cidade que acabamos de incluir em nossa cobertura, ainda n�
 
 **Outros Guias em Jacareí:**
 - **[Eletricista 24h em Jacareí](/blog/eletricista-24h-jacarei/)** — Curto-circuito, disjuntor caindo e sem luz
+- **[Encanador 24h em Jacareí](/blog/encanador-24h-jacarei/)** — Vazamento, cano estourado e registro que não fecha
 - **[Central de Serviços Jacareí →](/jacarei/)**
 
 ---
