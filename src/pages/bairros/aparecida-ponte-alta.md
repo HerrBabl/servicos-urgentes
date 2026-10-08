@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Ponte Alta - Aparecida | Guia 2026"
 description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Ponte Alta, Aparecida, perto do Rio Paraíba e do Santuário Nacional. Atendimento 24h."
 date: "2026-09-26T17:00:00-03:00"
-dateModified: "2026-09-30T09:00:00-03:00"
+dateModified: "2026-10-08T10:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/aparecida-ponte-alta/"
 keywords: "encanador ponte alta aparecida, eletricista ponte alta aparecida, chaveiro aparecida 24h, marido de aluguel aparecida, ar condicionado ponte alta aparecida, emergência ponte alta"
 region: "Aparecida"
+city: "Aparecida"
 neighborhood: "Ponte Alta, Jardim Paraíba, Centro"
 faqSchema:
   - question: "Encanador atende o bairro Ponte Alta em Aparecida?"
