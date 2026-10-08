@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Eletricista 24h em Jacareí: Guia Completo para Emergências 2026"
 description: "Curto-circuito, disjuntor caindo ou sem luz em Jacareí? Guia completo de eletricistas 24h verificados no Centro, Vila Branca, Jardim Califórnia e mais."
 date: "2026-09-02T09:00:00-03:00"
-dateModified: "2026-09-05T20:15:00-03:00"
+dateModified: "2026-10-08T18:50:10-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -220,6 +220,8 @@ Como Jacareí é uma cidade que acabamos de incluir em nossa cobertura, ainda n�
 - **[Todos os Eletricistas em Jacareí →](/servicos/eletricista/jacarei/)**
 
 **Outros Serviços em Jacareí:**
+- **[Encanador 24h em Jacareí](/blog/encanador-24h-jacarei/)** — Vazamento, cano estourado e registro que não fecha
+- **[Chaveiro 24h em Jacareí](/blog/chaveiro-24h-jacarei/)** — Trancado para fora e chave quebrada
 - **[Central de Serviços Jacareí →](/jacarei/)**
 
 ---
