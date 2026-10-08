@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Jardim do Vale, Guaratinguetá | Guia 2026"
-description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Jardim do Vale, Guaratinguetá. Cobertura perto do Santuário Frei Galvão. Atendimento 24h."
+description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Jardim do Vale, Guaratinguetá, perto do Santuário Frei Galvão. Atendimento 24h."
 date: "2026-09-18T12:00:00-03:00"
-dateModified: "2026-09-18T12:00:00-03:00"
+dateModified: "2026-10-08T13:58:31-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
