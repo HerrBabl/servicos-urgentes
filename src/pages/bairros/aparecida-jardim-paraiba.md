@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Jardim Paraíba - Aparecida | Guia 2026"
 description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Jardim Paraíba, Aparecida, às margens do Rio Paraíba do Sul. Atendimento 24h."
 date: "2026-09-26T17:00:00-03:00"
-dateModified: "2026-09-30T09:00:00-03:00"
+dateModified: "2026-10-08T10:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/aparecida-jardim-paraiba/"
 keywords: "encanador jardim paraíba aparecida, eletricista jardim paraíba aparecida, chaveiro aparecida 24h, marido de aluguel aparecida, ar condicionado jardim paraíba aparecida, emergência jardim paraíba"
 region: "Aparecida"
+city: "Aparecida"
 neighborhood: "Jardim Paraíba, Centro, Ponte Alta"
 faqSchema:
   - question: "Encanador atende o bairro Jardim Paraíba em Aparecida?"
