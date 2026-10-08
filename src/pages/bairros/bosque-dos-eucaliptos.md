@@ -3,6 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Chaveiro e Serviços no Bosque dos Eucaliptos SJC | Guia 2026"
 description: "Chaveiro na Av. Andrômeda? Eletricista, encanador e marido de aluguel no Bosque dos Eucaliptos SJC. Profissionais verificados, atendimento em 20-30 min."
 keywords: "chaveiro andromeda sjc, chaveiro bosque dos eucaliptos, eletricista bosque dos eucaliptos, marido de aluguel sjc, encanador andromeda sjc, serviços zona sul sjc"
+date: "2025-12-11T18:28:34-03:00"
 dateModified: "2026-10-08T10:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
