@@ -54,6 +54,15 @@ const {
   faqSchema = frontmatter.faqSchema
 } = Astro.props;
 
+// Warn-only guard: a page with no frontmatter `date` silently falls back to the
+// build time in formatDateISO below, so its datePublished changes on every
+// deploy. That happened to bosque-dos-eucaliptos for five months after a
+// frontmatter rewrite (06da1b4) overwrote its date: line. The fallback itself
+// is intentionally unchanged; this only makes the omission visible in build logs.
+if (!date) {
+  console.warn(`[ContentLayout] WARNING: no frontmatter date on ${Astro.url.pathname} — datePublished will be a build-time timestamp`);
+}
+
 // 3. Define Canonical URL
 // Ensures canonical URLs always use trailing slash format
 // Fixes: Ahrefs "Canonical points to redirect" error on 31 pages (Mar 2026)
