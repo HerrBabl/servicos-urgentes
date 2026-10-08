@@ -3,6 +3,8 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { neighborhoodContext } from '../data/neighborhoods.ts';
+import { cityHomepageContext } from '../data/cities.ts';
+import { serviceContext } from '../data/services.ts';
 
 export interface Props {
   title?: string;
@@ -100,6 +102,15 @@ const isBlog = !!category;
 // (bairroSlug, derived above, is the same check — reused here rather than
 // re-parsing the path.)
 const isBairroPage = bairroSlug !== null;
+
+// Slug of the city whose aggregation pages this bairro page should link to.
+// Looked up from cityHomepageContext by display name, so a new city needs no
+// edit here. SJC has no key in that map (it lives at the site root), so it
+// resolves to undefined and the links block is skipped. Gated on the URL path
+// rather than isNeighborhood, which is true on every content page.
+const cityServicesSlug = Astro.url.pathname.startsWith('/bairros/')
+  ? Object.entries(cityHomepageContext).find(([, ctx]) => ctx.displayName === city)?.[0]
+  : undefined;
 
 // Place schema — built once, used by bairro pages (via the @graph below) and as the
 // fallback for pages that are isNeighborhood but not isBlog (currently none in
@@ -399,7 +410,22 @@ const serviceSchema = isNeighborhood ? {
           )}
 
           <slot />
-        </article>
+        </article>{cityServicesSlug && (
+          <section class="bg-white rounded-lg shadow-md p-6 mt-8">
+            {/* Internal links from each non-SJC bairro page to its city's service pages */}
+            <h2 class="text-lg font-bold text-gray-900 mb-4">Serviços em {city}</h2>
+            <div class="flex flex-wrap gap-3">
+              {Object.entries(serviceContext).map(([serviceSlug, svc]) => (
+                <a
+                  href={`/servicos/${serviceSlug}/${cityServicesSlug}/`}
+                  class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-red-600 hover:border-red-400 transition-colors font-medium"
+                >
+                  <span aria-hidden="true">{svc.icon}</span> {svc.displayNamePlural} em {city}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </main>
 
