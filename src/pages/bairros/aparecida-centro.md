@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Serviços de Emergência no Centro de Aparecida | Guia 2026"
 description: "Encanador, eletricista, chaveiro, ar-condicionado e marido de aluguel no Centro de Aparecida, perto do Santuário Nacional. Atendimento 24h para o bairro."
 date: "2026-09-26T17:00:00-03:00"
-dateModified: "2026-09-30T09:00:00-03:00"
+dateModified: "2026-10-08T10:30:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -15,6 +15,7 @@ category: "Guia de Bairro"
 canonicalURL: "https://servicosurgentes.com/bairros/aparecida-centro/"
 keywords: "encanador centro aparecida, eletricista aparecida santuário, chaveiro aparecida 24h, marido de aluguel aparecida, ar condicionado pousada aparecida, emergência basílica aparecida"
 region: "Aparecida"
+city: "Aparecida"
 neighborhood: "Centro, Ponte Alta, Santa Rita"
 faqSchema:
   - question: "Encanador atende pousadas e hotéis no Centro de Aparecida?"
