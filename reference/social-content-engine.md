@@ -303,9 +303,16 @@ LINKEDIN — Caption (text-native)
 - Ago / Set 2026 — [trade not recorded here]
 - **Last posted trade: unrecorded.** Before planning the 29/10 post, ask Ian once which trade the last provider post targeted (or pick the trade with the thinnest supply). Then log it here.
 - Next: Thu 29/10/2026 (last Thursday of October)
+- Decision 09/10/2026: Ian cannot recall the last trade, so do not ask again. Pick the 29/10 trade by thinnest supply or by GSC/GA4 demand data, otherwise any trade. Log the chosen trade here once posted.
 
 **Friday trust-angle log**
 - 02/10/2026 — #1 Prova de critério (restart)
+- 09/10/2026 — #2 Prova de funcionamento
 
 **City spotlight log** (start Tue 06/10/2026)
-- [none yet]
+- Tue 06/10/2026 — Jacareí (Eletricista)
+- Next: Tue 13/10/2026 — Taubaté
+
+**City-led full post log** (October)
+- Not scheduled in the week of 05/10/2026
+- Suggested: Taubaté, Mon 19/10/2026 (not yet confirmed)
