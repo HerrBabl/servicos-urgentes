@@ -7,6 +7,8 @@ export interface Props {
   city: string;
 }
 
+import { providerKey } from '../lib/providerKey';
+
 const { businesses, serviceTitle, serviceDescription, service, city } = Astro.props;
 
 // ✅ SMART LOGIC: Automatically extract unique neighborhoods from the data
@@ -106,6 +108,7 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
         <div class="business-card bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 overflow-hidden flex flex-col"
              data-name={displayName.toLowerCase()}
              data-provider-name={displayName}
+             data-provider-key={providerKey(displayName, business.city || city)}
              data-neighborhood={business.neighborhood || ""}
              data-is24h={is24h}>
           
@@ -218,16 +221,27 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
 
 <script>
   import { supabase } from '../lib/supabase';
+  import { getAttribution } from '../lib/attribution';
 
-  function trackClick(ctaType: string, providerName: string, neighborhood: string, service: string, city: string) {
+  function trackClick(ctaType: string, providerName: string, providerKey: string, neighborhood: string, service: string, city: string) {
     if (localStorage.getItem('su_no_track') === '1') return;
+    const attribution = getAttribution();
+    // provider_id stays NULL on purpose: it is a uuid FK to the unused providers
+    // table. provider_key carries the deterministic name + city slug instead.
     supabase.from('clicks').insert({
       provider_name: providerName,
+      provider_key: providerKey || null,
       cta_type: ctaType,
       service,
       city,
       neighborhood,
       page_path: window.location.pathname,
+      utm_source: attribution.utm_source,
+      utm_medium: attribution.utm_medium,
+      utm_campaign: attribution.utm_campaign,
+      utm_content: attribution.utm_content,
+      referrer: attribution.referrer,
+      landing_path: attribution.landing_path,
     }).then(() => {});
   }
 
@@ -249,6 +263,7 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
       trackClick(
         ctaEl.dataset.cta || '',
         card.dataset.providerName || '',
+        card.dataset.providerKey || '',
         card.dataset.neighborhood || '',
         businessGrid.dataset.service || '',
         businessGrid.dataset.city || ''
