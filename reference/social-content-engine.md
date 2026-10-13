@@ -308,11 +308,17 @@ LINKEDIN — Caption (text-native)
 **Friday trust-angle log**
 - 02/10/2026 — #1 Prova de critério (restart)
 - 09/10/2026 — #2 Prova de funcionamento
+- 16/10/2026 — #3 Prova de utilidade (planned)
+
+**Wednesday Consumer Empowerment log**
+- 05/10/2026 — Marido de Aluguel
+- 14/10/2026 — Eletricista (planned)
 
 **City spotlight log** (start Tue 06/10/2026)
 - Tue 06/10/2026 — Jacareí (Eletricista)
-- Next: Tue 13/10/2026 — Taubaté
+- Tue 13/10/2026 — Taubaté (Encanador, `encanador-taubate-oct13`)
+- Upcoming order: Pindamonhangaba 20/10, Guaratinguetá 27/10, Jacareí 03/11 (Aparecida already used on Monday)
 
 **City-led full post log** (October)
-- Not scheduled in the week of 05/10/2026
-- Suggested: Taubaté, Mon 19/10/2026 (not yet confirmed)
+- Mon 12/10/2026 — Aparecida · Chaveiro (`chaveiro-aparecida-oct12`)
+- Next candidate (November): Pindamonhangaba
