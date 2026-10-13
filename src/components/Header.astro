@@ -149,6 +149,12 @@ const allServicesHref = isOnCityPage ? `/${currentCitySlug}/` : '/servicos/';
 </header>
 
 <script>
+  import { captureAttribution } from '../lib/attribution';
+
+  // Header renders on every page, so the first page of a session records its
+  // utm_* params and referrer here for the provider click inserts to reuse.
+  captureAttribution();
+
   document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
     const mobileMenuButton = document.getElementById('mobile-menu-button');
