@@ -301,7 +301,6 @@ LINKEDIN — Caption (text-native)
 - Jun 2026 — marido de aluguel
 - Jul 2026 (Thu 30/07) — [trade not recorded here]
 - Ago / Set 2026 — [trade not recorded here]
-- **Last posted trade: unrecorded.** Before planning the 29/10 post, ask Ian once which trade the last provider post targeted (or pick the trade with the thinnest supply). Then log it here.
 - Next: Thu 29/10/2026 (last Thursday of October)
 - Decision 09/10/2026: Ian cannot recall the last trade, so do not ask again. Pick the 29/10 trade by thinnest supply or by GSC/GA4 demand data, otherwise any trade. Log the chosen trade here once posted.
 
