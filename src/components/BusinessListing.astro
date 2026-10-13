@@ -228,9 +228,11 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
   import { supabase } from '../lib/supabase';
   import { getAttribution } from '../lib/attribution';
 
-  function trackClick(ctaType: string, providerName: string, providerKey: string, neighborhood: string, service: string, city: string) {
+  function trackClick(ctaType: string, providerName: string, providerKey: string, neighborhoodRaw: string, service: string, city: string) {
     if (localStorage.getItem('su_no_track') === '1') return;
     const attribution = getAttribution();
+    // Empty or "N/A" placeholders are logged as NULL so reports do not group on them.
+    const neighborhood = /^(|n\/?a)$/i.test((neighborhoodRaw || '').trim()) ? null : neighborhoodRaw.trim();
     // provider_id stays NULL on purpose: it is a uuid FK to the unused providers
     // table. provider_key carries the deterministic name + city slug instead.
     supabase.from('clicks').insert({
