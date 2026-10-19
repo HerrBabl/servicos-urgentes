@@ -301,22 +301,28 @@ LINKEDIN — Caption (text-native)
 - Jun 2026 — marido de aluguel
 - Jul 2026 (Thu 30/07) — [trade not recorded here]
 - Ago / Set 2026 — [trade not recorded here]
-- Next: Thu 29/10/2026 (last Thursday of October)
+- Next: Thu 29/10/2026 (last Thursday of October), trade per the 09/10 decision line below
 - Decision 09/10/2026: Ian cannot recall the last trade, so do not ask again. Pick the 29/10 trade by thinnest supply or by GSC/GA4 demand data, otherwise any trade. Log the chosen trade here once posted.
 
 **Friday trust-angle log**
 - 02/10/2026 — #1 Prova de critério (restart)
 - 09/10/2026 — #2 Prova de funcionamento
 - 16/10/2026 — #3 Prova de utilidade (planned)
+- 23/10/2026 — #4 Prova local (planned)
+
+**Monday Emergency Hook log**
+- 19/10/2026 — Encanador (Zona Sul SJC)
 
 **Wednesday Consumer Empowerment log**
 - 05/10/2026 — Marido de Aluguel
-- 14/10/2026 — Eletricista (planned)
+- 14/10/2026 — Eletricista
+- 21/10/2026 — Chaveiro (planned)
 
 **City spotlight log** (start Tue 06/10/2026)
 - Tue 06/10/2026 — Jacareí (Eletricista)
 - Tue 13/10/2026 — Taubaté (Encanador, `encanador-taubate-oct13`)
-- Upcoming order: Pindamonhangaba 20/10, Guaratinguetá 27/10, Jacareí 03/11 (Aparecida already used on Monday)
+- Tue 20/10/2026 — Pindamonhangaba (Eletricista)
+- Next: Tue 27/10 Guaratinguetá, then Jacareí 03/11 (Aparecida already used on Monday)
 
 **City-led full post log** (October)
 - Mon 12/10/2026 — Aparecida · Chaveiro (`chaveiro-aparecida-oct12`)
