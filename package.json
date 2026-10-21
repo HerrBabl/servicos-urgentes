@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "check:h1": "node scripts/check-h1.mjs",
     "astro": "astro"
   },
   "dependencies": {
