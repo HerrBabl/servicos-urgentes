@@ -366,8 +366,11 @@ const serviceSchema = isNeighborhood ? {
               <span class="font-semibold">{category}</span>
             </div>
           )}
+          {/* The page heading is the frontmatter title so it matches the topic searchers and
+              AI engines read in the title tag. A neighborhood-list heading here was fixed in
+              527a13a and regressed by 32ac0b6, so keep it as the title only. */}
           <h1 class="text-3xl md:text-4xl font-bold mb-4">
-            {neighborhood ? `Serviços Urgentes em ${neighborhood}` : title}
+            {title}
           </h1>
           {description && (
             <p class="text-lg max-w-3xl mx-auto text-blue-100">
