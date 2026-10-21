@@ -391,7 +391,7 @@ export const eletricistas = [
     "whatsapp": "https://wa.me/5512981641656"
   },
   {
-    "business_name": "carlos moreira soluções elétricas- instalação e manutenção",
+    "business_name": "Carlos Moreira Soluções Elétricas - Instalação e Manutenção",
     "phone_number": "11974738140",
     "star_rating": 5,
     "total_reviews": 17,
@@ -799,7 +799,7 @@ export const eletricistas = [
     "whatsapp": "https://wa.me/5512988220629"
   },
   {
-    "business_name": "Jackson eletricista residencial",
+    "business_name": "Jackson Eletricista Residencial",
     "phone_number": "12997889091",
     "star_rating": 5,
     "total_reviews": 13,
@@ -1379,7 +1379,7 @@ export const eletricistas = [
     "whatsapp": "https://wa.me/551236429006"
   },
   {
-    "business_name": "gilvan eletricista",
+    "business_name": "Gilvan Eletricista",
     "phone_number": "12981659866",
     "star_rating": 4.6,
     "total_reviews": 10,
