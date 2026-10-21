@@ -1379,7 +1379,7 @@ export const ar_condicionado = [
     "whatsapp": "https://wa.me/551231251657"
   },
   {
-    "business_name": "INICIAR AR condicionado",
+    "business_name": "Iniciar Ar Condicionado",
     "phone_number": "1231257402",
     "star_rating": 4.5,
     "total_reviews": 4,
