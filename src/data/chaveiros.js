@@ -51,7 +51,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512991765174"
   },
   {
-    "business_name": "Chaveiro jardim",
+    "business_name": "Chaveiro Jardim",
     "phone_number": "12991557090",
     "star_rating": 5,
     "total_reviews": 31,
@@ -102,7 +102,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512991356827"
   },
   {
-    "business_name": "CHAVEIRO ASSAI COLINAS ( antigo chaveiro posto Chaparral )",
+    "business_name": "Chaveiro Assaí Colinas (antigo Chaveiro Posto Chaparral)",
     "phone_number": "12997432170",
     "star_rating": 5,
     "total_reviews": 1,
@@ -272,7 +272,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512988078431"
   },
   {
-    "business_name": "Chaveiro do Alemão - chaveiro são Jose dos campos",
+    "business_name": "Chaveiro do Alemão - Chaveiro São José dos Campos",
     "phone_number": "12974059251",
     "star_rating": 4.7,
     "total_reviews": 101,
@@ -340,7 +340,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512988987937"
   },
   {
-    "business_name": "4J chaveiro 24 Horas - São José dos Campos",
+    "business_name": "4J Chaveiro 24 Horas - São José dos Campos",
     "phone_number": "12981842579",
     "star_rating": 5,
     "total_reviews": 82,
@@ -476,7 +476,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512981545540"
   },
   {
-    "business_name": "Chaveiro leste- zona leste de São José dos Campos",
+    "business_name": "Chaveiro Leste - Zona Leste de São José dos Campos",
     "phone_number": "12982261647",
     "star_rating": 4.8,
     "total_reviews": 23,
@@ -544,7 +544,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/551239297858"
   },
   {
-    "business_name": "Ferragens e chaveiro Ouro fino",
+    "business_name": "Ferragens e Chaveiro Ouro Fino",
     "phone_number": "12997810055",
     "star_rating": 4.8,
     "total_reviews": 12,
@@ -561,7 +561,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512997810055"
   },
   {
-    "business_name": "Dovale Chaves - Tudo para o chaveiro",
+    "business_name": "Dovale Chaves - Tudo para o Chaveiro",
     "phone_number": "1232121000",
     "star_rating": 4.3,
     "total_reviews": 69,
@@ -816,7 +816,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512974015157"
   },
   {
-    "business_name": "Regis chaveiro",
+    "business_name": "Regis Chaveiro",
     "phone_number": "12997947872",
     "star_rating": 5,
     "total_reviews": 42,
@@ -1108,7 +1108,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512991695027"
   },
   {
-    "business_name": "chaveiro em taubate NEW CHAVEIRO",
+    "business_name": "Chaveiro em Taubaté - New Chaveiro",
     "phone_number": "12991864896",
     "star_rating": 4.7,
     "total_reviews": 47,
@@ -1329,7 +1329,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512997602541"
   },
   {
-    "business_name": "Chaveiro Avenida araretama",
+    "business_name": "Chaveiro Avenida Araretama",
     "phone_number": "12981018244",
     "star_rating": 4.9,
     "total_reviews": 22,
@@ -1568,7 +1568,7 @@ export const chaveiros = [
     "whatsapp": "https://wa.me/5512991283788"
   },
   {
-    "business_name": "Chaveiro ponte alta",
+    "business_name": "Chaveiro Ponte Alta",
     "phone_number": "12997067335",
     "star_rating": 4.9,
     "total_reviews": 23,
