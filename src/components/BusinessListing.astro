@@ -225,31 +225,61 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
 </section>
 
 <script>
-  import { supabase } from '../lib/supabase';
   import { getAttribution } from '../lib/attribution';
 
+  // Plain fetch to the REST endpoint instead of supabase-js: the client adds
+  // ~170 KB to this page and awaits an auth-session lookup before every request.
+  // keepalive lets the request finish even if the click navigates the page away.
+  // Same env vars as src/lib/supabase.ts.
+  const CLICKS_URL = `${import.meta.env.PUBLIC_SUPABASE_URL}/rest/v1/clicks`;
+  const ANON_KEY = import.meta.env.PUBLIC_SUPABASE_ANON_KEY;
+
+  // localStorage throws when storage is blocked (some in-app browsers, strict
+  // privacy modes); that must never stop a click from being logged.
+  function trackingDisabled() {
+    try {
+      return localStorage.getItem('su_no_track') === '1';
+    } catch {
+      return false;
+    }
+  }
+
   function trackClick(ctaType: string, providerName: string, providerKey: string, neighborhoodRaw: string, service: string, city: string) {
-    if (localStorage.getItem('su_no_track') === '1') return;
-    const attribution = getAttribution();
-    // Empty or "N/A" placeholders are logged as NULL so reports do not group on them.
-    const neighborhood = /^(|n\/?a)$/i.test((neighborhoodRaw || '').trim()) ? null : neighborhoodRaw.trim();
-    // provider_id stays NULL on purpose: it is a uuid FK to the unused providers
-    // table. provider_key carries the deterministic name + city slug instead.
-    supabase.from('clicks').insert({
-      provider_name: providerName,
-      provider_key: providerKey || null,
-      cta_type: ctaType,
-      service,
-      city,
-      neighborhood,
-      page_path: window.location.pathname,
-      utm_source: attribution.utm_source,
-      utm_medium: attribution.utm_medium,
-      utm_campaign: attribution.utm_campaign,
-      utm_content: attribution.utm_content,
-      referrer: attribution.referrer,
-      landing_path: attribution.landing_path,
-    }).then(() => {});
+    try {
+      if (trackingDisabled()) return;
+      const attribution = getAttribution();
+      // Empty or "N/A" placeholders are logged as NULL so reports do not group on them.
+      const neighborhood = /^(|n\/?a)$/i.test((neighborhoodRaw || '').trim()) ? null : neighborhoodRaw.trim();
+      // provider_id stays NULL on purpose: it is a uuid FK to the unused providers
+      // table. provider_key carries the deterministic name + city slug instead.
+      fetch(CLICKS_URL, {
+        method: 'POST',
+        keepalive: true,
+        headers: {
+          'Content-Type': 'application/json',
+          apikey: ANON_KEY,
+          Authorization: `Bearer ${ANON_KEY}`,
+          Prefer: 'return=minimal',
+        },
+        body: JSON.stringify({
+          provider_name: providerName,
+          provider_key: providerKey || null,
+          cta_type: ctaType,
+          service,
+          city,
+          neighborhood,
+          page_path: window.location.pathname,
+          utm_source: attribution.utm_source,
+          utm_medium: attribution.utm_medium,
+          utm_campaign: attribution.utm_campaign,
+          utm_content: attribution.utm_content,
+          referrer: attribution.referrer,
+          landing_path: attribution.landing_path,
+        }),
+      }).catch(() => {});
+    } catch {
+      // Tracking is best-effort and must never break the link.
+    }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
