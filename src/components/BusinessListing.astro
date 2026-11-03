@@ -244,9 +244,25 @@ const uniqueNeighborhoods = [...new Set(businesses.map(b => b.neighborhood).filt
     }
   }
 
+  // Burst guard: a repeat click on the same provider and button within 10 seconds of
+  // the last recorded one is not inserted. In memory only, so it resets on page load.
+  // It skips the insert, never the link: the click handler does not touch navigation.
+  const BURST_WINDOW_MS = 10000;
+  const lastRecorded = new Map<string, number>();
+
+  function isBurst(providerName: string, providerKey: string, ctaType: string) {
+    const key = `${providerKey || providerName}|${ctaType}`;
+    const now = Date.now();
+    const last = lastRecorded.get(key);
+    if (last !== undefined && now - last < BURST_WINDOW_MS) return true;
+    lastRecorded.set(key, now);
+    return false;
+  }
+
   function trackClick(ctaType: string, providerName: string, providerKey: string, neighborhoodRaw: string, service: string, city: string) {
     try {
       if (trackingDisabled()) return;
+      if (isBurst(providerName, providerKey, ctaType)) return;
       const attribution = getAttribution();
       // Empty or "N/A" placeholders are logged as NULL so reports do not group on them.
       const neighborhood = /^(|n\/?a)$/i.test((neighborhoodRaw || '').trim()) ? null : neighborhoodRaw.trim();
