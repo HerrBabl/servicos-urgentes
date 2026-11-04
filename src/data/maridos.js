@@ -183,6 +183,24 @@ export const maridos = [
     ]
   },
 
+  // 22. MR Construções
+  {
+    id: 22,
+    name: "MR Construções",
+    rating: 5,
+    reviews: 10,
+    neighborhood: "Jardim Altos de Santana",
+    city: "São José dos Campos",
+    address: "R. Serra dos Carajás, 394",
+    service_type: "Marido de Aluguel",
+    phone: "(12) 99747-7540",
+    whatsapp: true,
+    services: ["Reformas", "Reparos hidráulicos", "Pintura"],
+    description: "Avaliação 5 com 10 avaliações no Google — reformas, reparos e serviços gerais em São José dos Campos.",
+    badges: [],
+    note: "INBOUND signup via /cadastro/ on 30/10/2026; verified over WhatsApp on 04/11/2026. Same business as the MR Construções row in encanadores.js. Google Maps (source of truth): rating 5.0, 10 reviews. is_24h/24h badge deliberately absent: Maps shows hours until 18:00 and 24h was not confirmed. Services drawn from Google review evidence only (hydraulic repair, reforms, painting, deck construction); Eletricista deliberately NOT listed pending proof of electrical work in SJC."
+  },
+
   // 8. Paulo Marido de Aluguel (Jacareí)
   {
     id: 8,
