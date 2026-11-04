@@ -374,6 +374,24 @@ export const encanadores = [
     "whatsapp": "https://wa.me/5512996757766"
   },
   {
+    "business_name": "MR Construções",
+    "phone_number": "12997477540",
+    "star_rating": 5,
+    "total_reviews": 10,
+    "address": "R. Serra dos Carajás, 394 - Jardim Altos de Santana, São José dos Campos - SP, 12214-390",
+    "neighborhood": "Jardim Altos de Santana",
+    "city": "São José dos Campos",
+    "website": "N/A",
+    "service_type": "Encanador",
+    "is_24h": false,
+    "last_updated": "2026-11-04",
+    "status": "Active",
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
+    "whatsapp": "https://wa.me/5512997477540",
+    "note": "INBOUND signup via /cadastro/ on 30/10/2026; verified over WhatsApp on 04/11/2026. Google Maps (source of truth): rating 5.0, 10 reviews, category Remodeler, profile name 'Reformas Pedreiro e Pintor Mr Construções'. Maps shows hours until 18:00 and the provider did not confirm 24h, so is_24h is false. Maps phone replaced with the provider-supplied number at the provider's request. Listed only as Encanador and Marido de Aluguel: reviews evidence hydraulic and general work only. The form also asked for Eletricista, deliberately NOT listed pending proof of electrical work in SJC. Coverage areas from the form (not modelled in this schema): centro, jardim-aquarius, vila-adyana, urbanova, jardim-das-colinas, sao-dimas."
+  },
+  {
     "business_name": "MVR Soluções Hidráulicas",
     "phone_number": "12974017809",
     "star_rating": 5,
