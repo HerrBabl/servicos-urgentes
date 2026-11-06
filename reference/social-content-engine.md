@@ -296,22 +296,24 @@ LINKEDIN — Caption (text-native)
 
 ## Logs
 
+Cadence change, 04/11/2026: from the week of 09/11 the weekly cadence is Tuesday city-spotlight Story + one full Wednesday post (IG, FB, LinkedIn). Monday Emergency Hook, Thursday Story and Friday trust-angle posts are retired. The last-Thursday LinkedIn provider post stays (next 26/11). Reason: four weeks of 0 attributed provider clicks and 0 GA4 key events from social; time moved to provider outreach and backlinks.
+
 **Provider post log** (which trade each monthly LinkedIn provider post targeted; used only to avoid repeating a trade)
 - Mai 2026 — eletricista
 - Jun 2026 — marido de aluguel
 - Jul 2026 (Thu 30/07) — [trade not recorded here]
 - Ago / Set 2026 — [trade not recorded here]
 - Thu 29/10/2026 — Encanador (Guaratinguetá)
-- Next: Thu 26/11/2026, a different trade
+- Next: last Thursday of November (26/11/2026), a different trade
 - Decision 09/10/2026: Ian cannot recall the last trade, so do not ask again. Pick the 29/10 trade by thinnest supply or by GSC/GA4 demand data, otherwise any trade. Log the chosen trade here once posted.
 
 **Friday trust-angle log**
 - 02/10/2026 — #1 Prova de critério (restart)
 - 09/10/2026 — #2 Prova de funcionamento
-- 16/10/2026 — #3 Prova de utilidade (planned)
+- 16/10/2026 — #3 Prova de utilidade (not confirmed)
 - 23/10/2026 — #4 Prova local
 - 30/10/2026 — #5 Prova educativa
-- 06/11/2026 — #1 Prova de critério (planned)
+- 06/11/2026 — #1 Prova de critério (posted)
 
 **Monday Emergency Hook log**
 - 19/10/2026 — Encanador (Zona Sul SJC)
@@ -321,9 +323,12 @@ LINKEDIN — Caption (text-native)
 **Wednesday Consumer Empowerment log**
 - 05/10/2026 — Marido de Aluguel
 - 14/10/2026 — Eletricista
-- 21/10/2026 — Chaveiro (planned)
+- 21/10/2026 — Chaveiro (not confirmed)
 - 28/10/2026 — Eletricista (temporal)
-- 04/11/2026 — Marido de Aluguel (planned)
+- 04/11/2026 — Marido de Aluguel ("marido ou especialista")
+
+**Thursday Story log**
+- 05/11/2026 — Eletricista (ventania)
 
 **City spotlight log** (start Tue 06/10/2026)
 - Tue 06/10/2026 — Jacareí (Eletricista)
