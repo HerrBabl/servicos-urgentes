@@ -70,7 +70,7 @@ SJC stays the default. Other cities enter the mix in a controlled way:
 |---|---|
 | Mon / Wed / Fri full posts | SJC by default. **One full post per month (rotating slot) is city-led** for a non-SJC city. |
 | **Tuesday Story** | **City spotlight**, rotating Jacareí → Taubaté → Pindamonhangaba → Guaratinguetá → (Aparecida after launch). 3–4 frames, link to `/[cidade]/` hub or `/servicos/[servico]/[cidade]/`. |
-| Thursday Story | SJC or service-generic. |
+| Thursday Story | SJC or service-generic. SUPERSEDED 04/11/2026: retired |
 | Last Thursday (provider post) | Aim at thin categories or cities first (see Provider Acquisition). |
 
 Forecast is regional, so the week's weather hook can be reused for any city. Only the micro-story bairro, hashtags and link change.
@@ -109,6 +109,8 @@ Content buckets (modeled on Angi / Thumbtack / HomeAdvisor):
 
 ## Weekly Cadence
 
+SUPERSEDED 04/11/2026: current cadence is Tuesday city Story + one full Wednesday post; see the cadence change note in Logs
+
 | Day | Pillar | Output |
 |---|---|---|
 | Monday | Emergency Hook | IG post + caption, IG Story, Facebook post + caption, LinkedIn post + caption |
@@ -137,6 +139,7 @@ Data caution: don't over-react to short-term dips. Consider seasonality. Any jum
 ---
 
 ## Weekly Bio-Link Refresh (Monday, required)
+SUPERSEDED 04/11/2026: refresh on Wednesday, with the week's one full post, not Monday
 
 Refresh all 5 Instagram bio links every Monday to match that week's cadence. Stale links are the biggest driver of low Organic Social engagement time.
 1. Homepage
@@ -152,6 +155,7 @@ Confirm each full URL pastes cleanly, with no duplicate or truncated entries.
 ## Pillar Definitions
 
 ### Monday — Emergency Hook
+SUPERSEDED 04/11/2026: current cadence is Tuesday city Story + one full Wednesday post; see the cadence change note in Logs
 Audience in or near a problem right now. Tone: direct, calm, urgent but not sensational, opened with the gambiarra hook. Goal: problem recognition → click to a specific service page.
 
 ### Tuesday — Ultra-light Visibility + City Spotlight
@@ -161,9 +165,11 @@ Audience in or near a problem right now. Tone: direct, calm, urgent but not sens
 Audience: proactive homeowner, condo resident, síndico, facility manager. Educational and clear, with the directory as the reader's advocate. Goal: saves, shares, repeat visits. The reader is the hero learning to decide better.
 
 ### Thursday — Ultra-light Visibility
+SUPERSEDED 04/11/2026: current cadence is Tuesday city Story + one full Wednesday post; see the cadence change note in Logs
 3–4 Story frames, e.g. "Tomada esquentando?" / "AC pingando?" / "Fechadura dura?" (describe the sign, never the fix).
 
 ### Friday — Directory Brand
+SUPERSEDED 04/11/2026: current cadence is Tuesday city Story + one full Wednesday post; see the cadence change note in Logs
 The directory is the hero: what verified means, how curation works, why it exists. Link to the homepage or `/servicos/`, never a single service category.
 
 **Rotating trust angles** (do not repeat the same proof point two weeks running):
@@ -184,6 +190,7 @@ Structure: hook to the professional → what the directory offers (visibility, v
 ---
 
 ## Micro-Story (mandatory Mon / Wed / Fri)
+SUPERSEDED 04/11/2026: mandatory on the Wednesday post only
 
 One realistic local line: "Aquarius, segunda de manhã." / "Vila Branca, fim de tarde." / "Mombaça, terça à noite." Slide 3 of carousels, or in the caption / Story frame 2. Use only bairros from the live list above.
 
@@ -192,6 +199,7 @@ One realistic local line: "Aquarius, segunda de manhã." / "Vila Branca, fim de 
 ## Output Formats
 
 ### Mon / Wed / Fri — Full Output
+SUPERSEDED 04/11/2026: applies to the Wednesday post only
 
 **Instagram carousel (5 slides):** 1 Hook/Cover · 2 Context · 3 Micro-story · 4 Implication · 5 CTA. Slide text concise (Adobe Express).
 **Instagram caption:** hook visible before "ver mais" → short context → practical insight → directory CTA → "👉 link na bio" → tracked URL → 6–10 hashtags.
@@ -200,6 +208,7 @@ One realistic local line: "Aquarius, segunda de manhã." / "Vila Branca, fim de 
 **LinkedIn (Mon/Wed/Fri only):** audience síndicos, facility managers, property administrators, condo managers. Professional, analytical, concise; no emojis unless clearly useful. Structure: local/operational context → risk or process → practical implication → CTA. Operational-risk awareness, not consumer advertising. The humor voice is toned down here: a dry opener at most.
 
 ### Tue / Thu — Ultra-light
+SUPERSEDED 04/11/2026: Tuesday city Story only
 Instagram Story only (3–4 frames). No LinkedIn. Optional micro-post only if requested.
 
 ### Last Thursday — Provider Acquisition
