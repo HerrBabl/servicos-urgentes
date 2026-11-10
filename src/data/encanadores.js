@@ -12,8 +12,8 @@ export const encanadores = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988047080"
   },
   {
@@ -46,7 +46,7 @@ export const encanadores = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981449145"
   },
@@ -63,8 +63,8 @@ export const encanadores = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982325992"
   },
   {
@@ -97,8 +97,8 @@ export const encanadores = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988034568"
   },
   {
@@ -148,8 +148,8 @@ export const encanadores = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981384677"
   },
   {
@@ -268,7 +268,7 @@ export const encanadores = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988401998"
   },
   {
@@ -301,8 +301,8 @@ export const encanadores = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988652555"
   },
   {
@@ -352,7 +352,7 @@ export const encanadores = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512996639169"
   },
@@ -369,8 +369,8 @@ export const encanadores = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512996757766"
   },
   {
