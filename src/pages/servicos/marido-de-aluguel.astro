@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
+import CityServiceLinks from '../../components/CityServiceLinks.astro';
 import { maridos } from '../../data/maridos.js';
 
 // SEO Constants - Directory Model
@@ -66,12 +67,14 @@ const keywords = "marido de aluguel sjc, reparos residenciais são josé dos cam
   })} />
 
   <BusinessListing
-    businesses={maridos}
+    businesses={maridos.filter((b) => b.city === 'São José dos Campos')}
     serviceTitle="Marido de Aluguel Verificados em SJC"
     serviceDescription="Conectamos você aos profissionais melhores avaliados para reparos gerais e manutenção residencial."
     service="marido-de-aluguel"
     city="São José dos Campos"
   />
+
+  <CityServiceLinks service="marido-de-aluguel" />
 
   <section class="py-12 bg-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
