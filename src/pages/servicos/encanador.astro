@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
+import CityServiceLinks from '../../components/CityServiceLinks.astro';
 import { encanadores } from '../../data/encanadores.js';
 
 // SEO Constants - Directory Model
@@ -132,12 +133,14 @@ const keywords = "encanador sjc, caça vazamentos sjc, desentupidora são josé 
 </script>
 
   <BusinessListing
-    businesses={encanadores}
+    businesses={encanadores.filter((b) => b.city === 'São José dos Campos')}
     serviceTitle="Encanadores Verificados em SJC"
     serviceDescription="Conectamos você aos profissionais melhores avaliados para emergências hidráulicas 24h."
     service="encanador"
     city="São José dos Campos"
   />
+
+  <CityServiceLinks service="encanador" />
 
   <section class="py-12 bg-white">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
