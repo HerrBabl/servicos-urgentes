@@ -46,8 +46,8 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512991765174"
   },
   {
@@ -64,7 +64,7 @@ export const chaveiros = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512991557090"
   },
   {
@@ -114,8 +114,8 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997432170"
   },
   {
@@ -131,8 +131,8 @@ export const chaveiros = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981685505"
   },
   {
@@ -182,7 +182,7 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/551241412993"
   },
@@ -267,8 +267,8 @@ export const chaveiros = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988078431"
   },
   {
@@ -284,8 +284,8 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512974059251"
   },
   {
@@ -352,8 +352,8 @@ export const chaveiros = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981842579"
   },
   {
@@ -369,8 +369,8 @@ export const chaveiros = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512992293915"
   },
   {
@@ -420,8 +420,8 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997423131"
   },
   {
@@ -471,7 +471,7 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981545540"
   },
@@ -573,7 +573,7 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/551232121000"
   },
@@ -642,7 +642,7 @@ export const chaveiros = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997374160"
   },
   {
@@ -726,7 +726,7 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512991297416"
   },
@@ -760,8 +760,8 @@ export const chaveiros = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512987849607"
   },
   {
