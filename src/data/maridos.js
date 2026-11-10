@@ -19,8 +19,6 @@ export const maridos = [
     ],
     description: "Referência no Parque Industrial. Especialistas em manutenção geral, incluindo serviços preventivos para períodos de chuva como limpeza de calhas e inspeção de telhados.",
     badges: [
-      "Empresa de mulheres",
-      "LGBTQ+ friendly",
       "Verificado",
       "Atendimento Preventivo"
     ]
@@ -46,8 +44,6 @@ export const maridos = [
     ],
     description: "A empresa original e mais bem avaliada da Zona Sul. Oferece manutenção completa incluindo reparos estruturais, essenciais para proteção contra tempestades.",
     badges: [
-      "Empresa de mulheres",
-      "LGBTQ+ friendly",
       "Mais Avaliado",
       "Verificado"
     ]
