@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
+import CityServiceLinks from '../../components/CityServiceLinks.astro';
 import { chaveiros } from '../../data/chaveiros.js';
 
 // SEO Constants - Directory Model
@@ -116,12 +117,14 @@ const keywords = "chaveiro sjc, chaveiro 24 horas são josé dos campos, abertur
 </script>
 
   <BusinessListing
-    businesses={chaveiros}
+    businesses={chaveiros.filter((b) => b.city === 'São José dos Campos')}
     serviceTitle="Chaveiros Verificados em SJC"
     serviceDescription="Profissionais 24h para aberturas residenciais e automotivas em São José dos Campos."
     service="chaveiro"
     city="São José dos Campos"
   />
+
+  <CityServiceLinks service="chaveiro" />
 
  <section class="py-12 bg-white">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
