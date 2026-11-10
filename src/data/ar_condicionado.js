@@ -12,7 +12,7 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981742853"
   },
@@ -46,8 +46,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997316957"
   },
   {
@@ -148,7 +148,7 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512996733433"
   },
@@ -182,8 +182,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/551239393901"
   },
   {
@@ -284,8 +284,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512991339311"
   },
   {
@@ -369,8 +369,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512987042066"
   },
   {
@@ -403,8 +403,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982108180"
   },
   {
@@ -454,8 +454,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/551136494187"
   },
   {
@@ -471,8 +471,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981548655"
   },
   {
@@ -539,8 +539,8 @@ export const ar_condicionado = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/551239233004"
   },
   {
