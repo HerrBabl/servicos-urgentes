@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BusinessListing from '../../components/BusinessListing.astro';
+import CityServiceLinks from '../../components/CityServiceLinks.astro';
 import { eletricistas } from '../../data/eletricistas.js';
 
 // SEO Constants - Directory Model
@@ -136,12 +137,14 @@ const keywords = "eletricista sjc, eletricista 24h são josé dos campos, curto 
 </script>
 
   <BusinessListing
-    businesses={eletricistas}
+    businesses={eletricistas.filter((b) => b.city === 'São José dos Campos')}
     serviceTitle="Eletricistas Verificados em SJC"
     serviceDescription="Profissionais qualificados em SJC prontos para resolver sua emergência elétrica."
     service="eletricista"
     city="São José dos Campos"
   />
+
+  <CityServiceLinks service="eletricista" />
 
   <section class="py-12 bg-white">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
