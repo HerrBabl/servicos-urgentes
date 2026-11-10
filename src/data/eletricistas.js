@@ -13,7 +13,7 @@ export const eletricistas = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988196994"
   },
   {
@@ -29,8 +29,8 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512978117007"
   },
   {
@@ -46,8 +46,8 @@ export const eletricistas = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988047080"
   },
   {
@@ -64,7 +64,7 @@ export const eletricistas = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981294829"
   },
   {
@@ -80,7 +80,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982001210"
   },
@@ -97,8 +97,8 @@ export const eletricistas = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988654968"
   },
   {
@@ -114,7 +114,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982317551"
   },
@@ -183,7 +183,7 @@ export const eletricistas = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982004810"
   },
   {
@@ -199,7 +199,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5511948086999"
   },
@@ -267,7 +267,7 @@ export const eletricistas = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982704337"
   },
@@ -285,7 +285,7 @@ export const eletricistas = [
     "last_updated": "2025-10-03",
     "status": "Active",
     "Identifies as women-owned": false,
-    "LGBTQ+ friendly": true,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512991735614"
   },
   {
@@ -301,7 +301,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997712820"
   },
@@ -318,8 +318,8 @@ export const eletricistas = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981157934"
   },
   {
@@ -352,8 +352,8 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512988652555"
   },
   {
@@ -488,7 +488,7 @@ export const eletricistas = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997750502"
   },
@@ -505,7 +505,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512991864810"
   },
@@ -539,8 +539,8 @@ export const eletricistas = [
     "is_24h": true,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512982325992"
   },
   {
@@ -590,8 +590,8 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5521989648138"
   },
   {
@@ -658,7 +658,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512997016102"
   },
@@ -743,8 +743,8 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
-    "LGBTQ+ friendly": true,
+    "Identifies as women-owned": false,
+    "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512981384677"
   },
   {
@@ -760,7 +760,7 @@ export const eletricistas = [
     "is_24h": false,
     "last_updated": "2025-10-03",
     "status": "Active",
-    "Identifies as women-owned": true,
+    "Identifies as women-owned": false,
     "LGBTQ+ friendly": false,
     "whatsapp": "https://wa.me/5512996639169"
   },
