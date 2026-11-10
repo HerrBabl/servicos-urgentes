@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Melhores Chaveiros 24h em SJC: Comparativo Completo 2026"
 description: "Qual chaveiro 24h chamar em São José dos Campos? Compare os mais bem avaliados por bairro: Centro, Aquarius, Zona Sul, Zona Norte. Guia atualizado 2026."
 date: "2026-05-02T14:00:00-03:00"
-dateModified: "2026-06-02T12:30:00-03:00"
+dateModified: "2026-11-10T12:03:40-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -47,7 +47,7 @@ A tabela abaixo reúne os profissionais com atendimento 24h confirmado, nota aci
 |---|---|---|---|---|---|
 | **Chaveiro Vitória 24h** | Jardim Petrópolis | (12) 99119-6481 | 24h | ⭐ 5.0 (172 aval.) | Residencial e automotivo, maior volume de avaliações da cidade |
 | **Chaveiro 4J** | Centro | (12) 98168-5505 | 24h | ⭐ 4.9 (47 aval.) | Residencial, comercial e automotivo; acessível via WhatsApp |
-| **Chaveiro SOS 24h — Diego** | Jardim Pararangaba | (12) 99737-4160 | 24h | ⭐ 5.0 (26 aval.) | LGBTQ+ friendly; foco em emergências residenciais |
+| **Chaveiro SOS 24h — Diego** | Jardim Pararangaba | (12) 99737-4160 | 24h | ⭐ 5.0 (26 aval.) | foco em emergências residenciais |
 | **Chaveiro Alfa** | Jardim Torrão de Ouro | (12) 99632-3117 | 24h | ⭐ 5.0 (18 aval.) | Atendimento rápido Zona Sul |
 | **Chaveiro Rheal — Zona Norte** | Portal de Minas | (12) 99728-4889 | 24h | ⭐ 4.7 (12 aval.) | Único 24h verificado na Zona Norte |
 | **Chaveiro do Vale** | Jardim Santa Madalena | (12) 3921-7255 | 24h | ⭐ 4.3 (113 aval.) | Maior volume de avaliações entre os 24h; residencial e automotivo |
