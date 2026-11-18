@@ -336,6 +336,7 @@ Cadence change, 04/11/2026: from the week of 09/11 the weekly cadence is Tuesday
 - 28/10/2026 — Eletricista (temporal)
 - 04/11/2026 — Marido de Aluguel ("marido ou especialista")
 - 11/11/2026 — Encanador (vazamento escondido)
+- 18/11/2026 — Ar-condicionado (manutenção)
 
 **Thursday Story log**
 - 05/11/2026 — Eletricista (ventania)
@@ -347,7 +348,8 @@ Cadence change, 04/11/2026: from the week of 09/11 the weekly cadence is Tuesday
 - Tue 27/10/2026 — Guaratinguetá (Chaveiro)
 - Tue 03/11/2026 — Jacareí (Ar-Condicionado)
 - Tue 10/11/2026 — Taubaté (Marido de Aluguel)
-- Next: Pindamonhangaba 17/11 (Aparecida already used on Monday)
+- Tue 17/11/2026 — Pindamonhangaba (Marido de Aluguel)
+- Next: Guaratinguetá 24/11 (Aparecida already used on Monday)
 
 **City-led full post log** (October)
 - Mon 12/10/2026 — Aparecida · Chaveiro (`chaveiro-aparecida-oct12`)
