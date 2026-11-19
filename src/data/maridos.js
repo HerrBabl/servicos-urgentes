@@ -1,10 +1,11 @@
+// SJC ratings and review counts refreshed from Google Maps on 2026-11-19; stale counts make the directory look outdated to AI answer engines. Other cities not yet refreshed.
 export const maridos = [
   // 1. ESManutenções
   {
     id: 1,
     name: "ESManutenções - Marido de Aluguel/Serviços Gerais",
-    rating: 4.9,
-    reviews: 88,
+    rating: 4.8,
+    reviews: 104,
     neighborhood: "Parque Industrial",
     city: "São José dos Campos",
     address: "R. Santarém, 273",
@@ -29,7 +30,7 @@ export const maridos = [
     id: 2,
     name: "Marido de Aluguel SJC ® (O ORIGINAL)",
     rating: 4.9,
-    reviews: 153,
+    reviews: 206,
     neighborhood: "Bosque dos Eucaliptos",
     city: "São José dos Campos",
     address: "Praça das Bandeiras",
@@ -53,8 +54,8 @@ export const maridos = [
   {
     id: 3,
     name: "EletroHelp - Marido de Aluguel",
-    rating: 5.0,
-    reviews: 21,
+    rating: 5,
+    reviews: 20,
     neighborhood: "Jardim Vale do Sol",
     city: "São José dos Campos",
     address: "R. Alcoçaba, 391",
@@ -105,8 +106,8 @@ export const maridos = [
   {
     id: 5,
     name: "The Flash Services - Pintura e Manutenção",
-    rating: 5.0,
-    reviews: 39,
+    rating: 5,
+    reviews: 59,
     neighborhood: "Parque Residencial Aquarius",
     city: "São José dos Campos",
     address: "R. Armando D'Oliveira Cobra, 50 - Sala 304",
@@ -132,7 +133,7 @@ export const maridos = [
     id: 6,
     name: "Paulo Marido De Aluguel",
     rating: 4.8,
-    reviews: 81,
+    reviews: 92,
     neighborhood: "Parque Industrial",
     city: "São José dos Campos",
     address: "R. Pimenteiras, 648",
@@ -157,8 +158,8 @@ export const maridos = [
   {
     id: 7,
     name: "REPAC - MARIDO DE ALUGUEL",
-    rating: 4.7,
-    reviews: 14,
+    rating: 4.8,
+    reviews: 16,
     neighborhood: "Bosque dos Ipês",
     city: "São José dos Campos",
     address: "R. Londrina, 925",
