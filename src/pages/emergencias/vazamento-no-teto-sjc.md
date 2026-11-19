@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Vazamento no Teto em SJC: O Que Fazer e Como Evitar"
 description: "Mancha no teto, goteira ou água escorrendo pela laje? Guia de emergência para vazamento no teto em SJC: ações imediatas, causas, custos e encanadores 24h."
 date: "2026-03-30T17:00:00-03:00"
-dateModified: "2026-05-04T17:30:00-03:00"
+dateModified: "2026-11-19T14:23:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -200,9 +200,9 @@ O equipamento funciona por **geofone eletrônico**: um sensor ultrassensível qu
 
 **Profissionais especializados em caça-vazamento em SJC:**
 
-- **Osíris Detecta Vazamentos** · ⭐ 5.0 (70 avaliações) · (12) 99121-1843
-- **RD Caça Vazamentos** · ⭐ 4.9 (113 avaliações) · (12) 98161-9504
-- **Master Detecta Vazamentos** · ⭐ 5.0 (254 avaliações) · (12) 99128-8177
+- **Osíris Detecta Vazamentos** · ⭐ 5.0 (81 avaliações) · (12) 99121-1843
+- **RD Caça Vazamentos** · ⭐ 4.9 (192 avaliações) · (12) 98161-9504
+- **Master Detecta Vazamentos** · ⭐ 5.0 (341 avaliações) · (12) 99128-8177
 
 → **[Ver todos os encanadores verificados em SJC](/servicos/encanador/)**
 
