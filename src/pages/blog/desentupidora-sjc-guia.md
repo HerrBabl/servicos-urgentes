@@ -3,7 +3,7 @@ layout: ../../layouts/ContentLayout.astro
 title: "Desentupidora em SJC: Guia Completo de Emergência 2026"
 description: "Pia entupida, vaso sanitário transbordando ou esgoto voltando no Aquarius, Urbanova ou Centro? Guia de desentupidoras 24h verificadas em São José dos Campos."
 date: "2026-03-13T17:30:00-03:00"
-dateModified: "2026-06-02T12:30:00-03:00"
+dateModified: "2026-11-19T14:22:00-03:00"
 author:
   name: "Equipe Serviços Urgentes"
   url: "https://servicosurgentes.com/sobre/"
@@ -136,20 +136,20 @@ Profissionais com avaliação 4.7+ estrelas verificados no Google Maps que reali
 
 ### Parque Residencial Aquarius e região
 
-**Torres Manutenção** · ⭐ 4,9 (157 avaliações) · 24h  
+**Torres Manutenção** · ⭐ 4,9 (235 avaliações) · 24h  
 📍 Av. Jorge Zarur, 274 — Vila Ema  
 📞 (12) 98804-7080 · [torresmanutencao.com.br](https://www.torresmanutencao.com.br/)
 
-**Suehtam** · ⭐ 4,9 (132 avaliações)  
+**Suehtam** · ⭐ 4,8 (172 avaliações)  
 📍 Av. Cassiano Ricardo, 601 sala 163 — Parque Res. Aquarius  
 📞 (12) 98144-9145 · [suehtam.com.br](http://www.suehtam.com.br/)
 
-**Paulo Ribeiro** · ⭐ 5,0 (33 avaliações)  
+**Paulo Ribeiro** · ⭐ 4,9 (44 avaliações)  
 📍 R. Jurema Viêira Medrado, 88 — Parque Res. Aquarius  
 📞 (12) 98873-8459 · [pauloeletricistaencanador.com.br](https://pauloeletricistaencanador.com.br/)
 
-**MLT Engenharia** · ⭐ 4,8 (32 avaliações) · 24h  
-📍 R. Armando D'Oliveira Cobra, 50 — Parque Res. Aquarius  
+**MLT Engenharia** · ⭐ 4,9 (31 avaliações) · 24h  
+📍 R. Itambé, 541 — Jardim Satélite  
 📞 (12) 98232-5992
 
 → **[Ver todos os encanadores no Aquarius](/servicos/encanador/parque-residencial-aquarius/)**
@@ -158,11 +158,11 @@ Profissionais com avaliação 4.7+ estrelas verificados no Google Maps que reali
 
 ### Bosque dos Eucaliptos e Jardim Satélite
 
-**Acqualy Soluções** · ⭐ 5,0 (225 avaliações)  
+**Acqualy Soluções** · ⭐ 4,9 (240 avaliações)  
 📍 Av. Ouro Fino, 133 — Bosque dos Eucaliptos  
 📞 (12) 98138-4677 · [acqualy.com.br](https://www.acqualy.com.br/)
 
-**Marido de Aluguel SJC (O Original)** · ⭐ 4,9 (153 avaliações)  
+**Marido de Aluguel SJC (O Original)** · ⭐ 4,9 (206 avaliações)  
 📍 Praça das Bandeiras — Bosque dos Eucaliptos  
 📞 (12) 99675-7766 · [maridodealuguelsjc.com.br](http://www.maridodealuguelsjc.com.br/)
 
@@ -172,16 +172,16 @@ Profissionais com avaliação 4.7+ estrelas verificados no Google Maps que reali
 
 ### Caça-Vazamento e Desentupimento com Câmera (Toda SJC)
 
-**Osíris — Detecta Vazamentos** · ⭐ 5,0 (70 avaliações)  
+**Osíris — Detecta Vazamentos** · ⭐ 5,0 (81 avaliações)  
 📍 R. Vital Brasil, 110 — Jardim Esplanada II  
 📞 (12) 99121-1843 · [detectaosiris.com.br](https://www.detectaosiris.com.br/)  
 Especialista em detecção eletrônica de vazamentos e inspeção por câmera
 
-**RD Caça Vazamentos** · ⭐ 4,9 (113 avaliações)  
+**RD Caça Vazamentos** · ⭐ 4,9 (192 avaliações)  
 📍 R. Joana Maria Corrêa Laranjeira, 442 — Jardim Petrópolis  
 📞 (12) 98161-9504 · [rdcacavazamentos.com.br](https://rdcacavazamentos.com.br/)
 
-**Master Detecta Vazamentos** · ⭐ 5,0 (254 avaliações)  
+**Master Detecta Vazamentos** · ⭐ 5,0 (341 avaliações)  
 📍 Av. Pres. Juscelino Kubitschek, 5400 — Monte Castelo  
 📞 (12) 99128-8177 · [masterdetectavazamentos.com](https://www.masterdetectavazamentos.com/)
 
