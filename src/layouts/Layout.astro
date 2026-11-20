@@ -53,6 +53,7 @@ const canonicalURL = ensureTrailingSlash(
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     {/* New cities in areaServed must use the nested shape below (address: PostalAddress). Flat addressRegion/addressCountry on a City is flagged by Ahrefs. */}
+    {/* sameAs: these links tie the directory's social profiles to one entity for AI answer engines. */}
     <!-- Sitewide Organization schema -->
     <script type="application/ld+json">
     {
@@ -62,6 +63,11 @@ const canonicalURL = ensureTrailingSlash(
       "description": "Diretório online de serviços de emergência 24h em São José dos Campos. Conecta moradores a profissionais autônomos verificados — não presta os serviços diretamente.",
       "url": "https://servicosurgentes.com",
       "logo": "https://servicosurgentes.com/favicon.svg",
+      "sameAs": [
+        "https://www.instagram.com/servicosurgentessjc/",
+        "https://www.facebook.com/profile.php?id=61582980766438",
+        "https://www.linkedin.com/company/servi%C3%A7os-urgentes/"
+      ],
       "areaServed": [
         { "@type": "City", "name": "São José dos Campos", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
         { "@type": "City", "name": "Jacareí", "address": { "@type": "PostalAddress", "addressCountry": "BR", "addressRegion": "SP" } },
