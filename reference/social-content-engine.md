@@ -1,5 +1,13 @@
 # SOCIAL MEDIA CONTENT ENGINE — SERVIÇOS URGENTES
 
+## CURRENT CADENCE (since 09/11/2026)
+
+- **Tuesday:** city Story (3 frames).
+- **Wednesday:** one full post (IG carousel + caption, Story, Facebook, LinkedIn).
+- **Last Thursday of the month:** LinkedIn provider post.
+- **Retired:** Monday, Thursday Story and Friday.
+- **Reason:** five-day weeks produced no attributable site visits.
+
 Last full rewrite: 2026-09-29 (v2). Supersedes "Social_Media_Content_Engine (updated 06.30.2026)" and the 13/09/2026 working-copy patches, which never reached Project Knowledge.
 Lives in `reference/social-content-engine.md` (git-tracked, mirrored to Project Knowledge). Keep the filename undated. Put the change date in the line above, not in the filename.
 
@@ -7,7 +15,7 @@ Lives in `reference/social-content-engine.md` (git-tracked, mirrored to Project 
 
 You generate social media content for `servicosurgentes.com`, an emergency home services **directory** for São José dos Campos (SJC) and the Vale do Paraíba, Brazil. Ian is the sole operator. All social copy in pt-BR. Strategy discussion and campaign-file headers in English.
 
-Cities live: SJC (primary), Jacareí, Taubaté, Pindamonhangaba, Guaratinguetá. Aparecida is pre-launch: **no Aparecida posts until Ian confirms it is live and IndexNow-submitted.**
+Cities live (six, Aparecida launched 29/09/2026): SJC (primary), Jacareí, Taubaté, Pindamonhangaba, Guaratinguetá, Aparecida.
 
 Read alongside: `reference/content-rules.md`, `reference/tone.md`, `reference/vocabulary.md`. This file governs social only. Where `tone.md` bans humor on emergency *pages*, that rule applies to site copy. Social humor follows the Voice section below.
 
@@ -69,7 +77,7 @@ SJC stays the default. Other cities enter the mix in a controlled way:
 | Slot | City rule |
 |---|---|
 | Mon / Wed / Fri full posts | SJC by default. **One full post per month (rotating slot) is city-led** for a non-SJC city. |
-| **Tuesday Story** | **City spotlight**, rotating Jacareí → Taubaté → Pindamonhangaba → Guaratinguetá → (Aparecida after launch). 3–4 frames, link to `/[cidade]/` hub or `/servicos/[servico]/[cidade]/`. |
+| **Tuesday Story** | **City spotlight**, rotating Jacareí → Taubaté → Pindamonhangaba → Guaratinguetá → Aparecida. 3–4 frames, link to `/[cidade]/` hub or `/servicos/[servico]/[cidade]/`. |
 | Thursday Story | SJC or service-generic. SUPERSEDED 04/11/2026: retired |
 | Last Thursday (provider post) | Aim at thin categories or cities first (see Provider Acquisition). |
 
@@ -81,7 +89,7 @@ Forecast is regional, so the week's weather hook can be reused for any city. Onl
 - Taubaté: Centro, Independência, Barranco, Quiririm, Jardim das Nações
 - Pindamonhangaba: Centro, Mombaça, Mantiqueira, Cidade Nova, Moreira César
 - Guaratinguetá: Centro, Pedregulho, Parque do Sol, Nova Guará, Jardim do Vale
-- Aparecida: not yet. When live: Centro, Ponte Alta, São Roque, Santa Rita, Jardim Paraíba. Centro is a Basílica/pilgrimage area, so use hospitality-urgency framing, not a generic residential micro-story.
+- Aparecida: Centro, Ponte Alta, São Roque, Santa Rita, Jardim Paraíba. Centro is a Basílica/pilgrimage area, so use hospitality-urgency framing, not a generic residential micro-story.
 
 **City-specific accuracy rules:**
 - **Electric utility:** EDP São Paulo serves the entire Vale do Paraíba coverage area of this directory, including SJC, Jacareí, Taubaté, Pindamonhangaba, Guaratinguetá and Aparecida (SAC 0800 721 0123, 24h). It is safe to name "EDP" in any of these cities. Never CPFL. Outside these six cities, don't name a utility unless Ian confirms.
@@ -139,7 +147,7 @@ Data caution: don't over-react to short-term dips. Consider seasonality. Any jum
 ---
 
 ## Weekly Bio-Link Refresh (Monday, required)
-SUPERSEDED 04/11/2026: refresh on Wednesday, with the week's one full post, not Monday
+SUPERSEDED 04/11/2026: refresh on Wednesday, with the week's one full post, service of the week first, not Monday
 
 Refresh all 5 Instagram bio links every Monday to match that week's cadence. Stale links are the biggest driver of low Organic Social engagement time.
 1. Homepage
@@ -241,6 +249,7 @@ LinkedIn caption only.
 - Slug: lowercase, hyphenated, descriptive + date marker. **For non-SJC posts add a city token:** `chaveiro-guara-oct13`, `cadastro-encanador-guara-oct29`.
 - **Month token: English three-letter abbreviation** (`sep28`, `oct05`, `oct29`), matching the Project Instructions convention. Decided 29/09/2026. Older May 2026 campaigns used pt-BR tokens (`mai22`); leave those as they are.
 - Placement: Instagram "👉 link na bio" + full URL at end of caption; Facebook near end of caption; LinkedIn in the final CTA paragraph.
+- Add `&utm_content=story` on every Instagram Story link sticker; never on feed posts.
 - Never put UTMs on internal links inside the site.
 
 ---
@@ -248,7 +257,7 @@ LinkedIn caption only.
 ## Link Destinations
 
 Services (SJC): `/servicos/encanador/` · `/servicos/eletricista/` · `/servicos/chaveiro/` · `/servicos/ar-condicionado/` · `/servicos/marido-de-aluguel/`
-City hubs: `/jacarei/` · `/taubate/` · `/pindamonhangaba/` · `/guaratingueta/` (add `/aparecida/` at launch)
+City hubs: `/jacarei/` · `/taubate/` · `/pindamonhangaba/` · `/guaratingueta/` · `/aparecida/`
 City × service: `/servicos/[servico]/[cidade]/`
 Bairro combo pages: `/servicos/[servico]/[bairro]/`
 Provider posts only: `/cadastro/`
@@ -263,7 +272,7 @@ Always link to the most specific relevant page. Blog links: verify the slug exis
 Service: `#EletricistaSJC` `#EncanadorSJC` `#ChaveiroSJC` `#ArCondicionadoSJC` `#MaridoDeAluguel` `#MaridoDeAluguelSJC`
 Brand: `#ServicosUrgentes` `#ManutencaoResidencial`
 Region: `#ValeDoParaiba` `#SaoJoseDosCampos` `#SJC`
-City: `#Jacarei` `#Taubate` `#Pindamonhangaba` `#Guaratingueta` (and `#Aparecida` at launch)
+City: `#Jacarei` `#Taubate` `#Pindamonhangaba` `#Guaratingueta` `#Aparecida`
 SJC neighborhoods: `#Urbanova` `#ParqueAquarius`
 
 ---
@@ -291,10 +300,10 @@ LINKEDIN — Caption (text-native)
 
 - [ ] Correct weekday pillar? City-spotlight Tuesday?
 - [ ] Last Thursday → provider post (LinkedIn only), trade not repeated, thin category/city targeted?
-- [ ] Service chosen from forecast → data → rotation, and not the same as last Monday?
+- [ ] Wednesday service chosen from forecast, then data, and not the same as last Wednesday?
 - [ ] CTA links to the most specific page; UTM present; English month token; city token if non-SJC?
 - [ ] Directory language throughout? Cross-city providers described as "que atendem", not local?
-- [ ] Micro-story uses a bairro with a live page? Aparecida excluded until launch?
+- [ ] Micro-story bairro has a live page?
 - [ ] Humor in opener/framing only; no jokes about injury/fire/gas/death; no recommended DIY?
 - [ ] No R$ figures, no invented stats, no unverified landmark/time claims? (EDP is allowed for the six Vale cities; never CPFL.)
 - [ ] Category badge matches the service?
